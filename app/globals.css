@@ -90,3 +90,71 @@ html[dir="rtl"] body{font-family:Arial,"Noto Sans Hebrew",sans-serif}html[dir="r
 
 /* Whole Torah Genesis-to-Revelation reader */
 .torah-bible{max-width:1350px;margin:auto;padding:48px max(4vw,22px) 65px}.torah-bible-heading h2{font-size:clamp(32px,4vw,52px);margin:14px 0}.torah-bible-heading p{max-width:920px;line-height:1.8;color:#566b60}.torah-bible-controls{display:grid;grid-template-columns:1.2fr .65fr 1.3fr 1.2fr;gap:13px;background:#e9eee8;padding:20px;border-radius:12px;margin:24px 0}.torah-bible-controls label{font-size:12px;font-weight:700;display:grid;gap:8px}.torah-bible-controls select{width:100%;min-width:0;border:1px solid #c5d1c7;border-radius:6px;background:white;padding:12px;font-size:14px;color:#243c31}.torah-bible-chapter{border:1px solid #dce4dc;border-radius:12px;background:#fff;padding:clamp(18px,3vw,36px)}.torah-bible-nav{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:18px 0}.torah-bible-nav h3{font-size:clamp(22px,3vw,35px);margin:0}.torah-bible-nav button{border:1px solid #a7b9ac;border-radius:6px;background:#f8faf7;padding:10px 16px;cursor:pointer}.torah-bible-nav button:disabled{opacity:.4;cursor:default}.torah-bible-columns{display:grid;grid-template-columns:1fr 1fr;gap:28px}.torah-bible-columns.single{grid-template-columns:1fr}.torah-bible-columns article{min-width:0;line-height:1.9;font-size:17px}.torah-bible-columns h4{font-size:13px;color:#93713d;border-bottom:1px solid #e5e9e1;padding-bottom:12px}.torah-bible-columns p{margin-bottom:14px}.torah-bible-columns sup{font-size:11px;color:#947a4e;margin-right:5px}.torah-bible-note{font-size:12px;color:#687a6c;margin-top:20px}@media(max-width:850px){.torah-bible-controls{grid-template-columns:1fr 1fr}.torah-bible-columns{grid-template-columns:1fr}.torah-bible-nav button{padding:9px}}@media(max-width:520px){.torah-bible-controls{grid-template-columns:1fr}.torah-bible-nav{flex-wrap:wrap}.torah-bible-nav h3{order:-1;width:100%;text-align:center}}
+
+
+/* Traditional, welcoming Beit Midrash — library page only */
+main:has(.beit-midrash){background:#f5eee1;color:#302d23}
+main:has(.beit-midrash) .bm-hero{position:relative;isolation:isolate;overflow:hidden;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:345px;padding:65px 24px 70px;background:radial-gradient(ellipse at 50% 5%,#42624c 0%,#203f34 55%,#152f29 100%);color:#fff7e7;border-bottom:8px solid #b89660}
+main:has(.beit-midrash) .bm-hero:before{content:"✡";position:absolute;z-index:-1;top:3%;left:50%;transform:translateX(-50%);font-size:260px;line-height:1;color:#f1d7a2;opacity:.075;font-family:Georgia,serif}
+main:has(.beit-midrash) .bm-hero:after{content:"";position:absolute;inset:16px;border:1px solid #d6bd8a55;pointer-events:none}
+main:has(.beit-midrash) .bm-hero .kicker{color:#ecd6a6;font-size:12px;letter-spacing:.21em}
+main:has(.beit-midrash) .bm-hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(40px,5vw,76px);line-height:1.13;margin:22px 0 18px;color:#fff6df;letter-spacing:-.025em;text-wrap:balance}
+main:has(.beit-midrash) .bm-hero p{font-family:Georgia,serif;color:#f0e1c7;font-size:clamp(16px,1.8vw,21px);line-height:1.7;max-width:710px;margin:0}
+.beit-midrash{max-width:1510px;padding:65px max(4vw,22px) 75px;background:transparent}
+.bm-heading{text-align:center;max-width:920px;margin:0 auto 38px;padding:0 15px}
+.bm-heading:before{content:"✦  ✡  ✦";display:block;color:#b58b51;letter-spacing:.6em;font-size:21px;margin-bottom:20px}
+.bm-heading .kicker{color:#88623a;letter-spacing:.2em}
+.bm-heading h2{font-family:Georgia,"Times New Roman",serif;color:#27493b;font-size:clamp(36px,4.5vw,60px);line-height:1.16;margin:14px 0 17px}
+.bm-heading p{font-family:Georgia,serif;color:#695b46;font-size:17px;line-height:1.85;margin:0 auto}
+.bm-layout{grid-template-columns:minmax(245px,310px) minmax(0,1fr);gap:26px;align-items:start}
+.bm-shelves,.bm-reader{border-radius:6px;border:1px solid #d6c4a6;box-shadow:0 15px 42px #48371c17,0 3px 9px #48371c0c}
+.bm-shelves{background:#fcf7eb;padding:24px 18px;border-top:6px solid #b9945d;scrollbar-color:#bda77d #f7efdf}
+.bm-shelves-title{justify-content:center;gap:12px;color:#2e4d3d;font-family:Georgia,serif;font-size:20px;padding:5px 0 19px;border-bottom:1px solid #dccbb0;margin-bottom:19px}
+.bm-shelves-title svg{color:#a67d47}
+.bm-search{background:#fffdf8;border:1px solid #d4c09d;border-radius:5px;padding:12px;color:#997748}
+.bm-search:focus-within{outline:2px solid #a78350;outline-offset:2px}
+.bm-search input{background:transparent;color:#30463b;font-size:14px}
+.bm-search input::placeholder{color:#8a806d}
+.bm-groups{gap:8px;margin:19px 0;padding-bottom:17px;border-bottom:1px solid #e4d5bb}
+.bm-groups button{font-family:Georgia,serif;font-size:12px;background:#f5ebd9;border:1px solid #dfccab;color:#4d5441;padding:9px 11px;border-radius:4px}
+.bm-groups button:hover{background:#e9d9bc;border-color:#b69360}
+.bm-groups button.selected,.bm-books button.selected{background:#2b4b3b;color:#fff9e9;border-color:#2b4b3b}
+.bm-books{gap:4px}
+.bm-books button{padding:13px 11px;border-radius:4px;border-bottom:1px solid #eadfcb;color:#334c3d;gap:12px}
+.bm-books button:hover:not(.selected){background:#efe2c9}
+.bm-books button svg:first-child{color:#b58a52;flex-shrink:0}
+.bm-books button.selected svg{color:#eed5a3}
+.bm-books button strong{font-family:Georgia,serif;font-size:15px;line-height:1.4}
+.bm-books button small{font-size:11px;margin-top:5px}
+.bm-reader{background:#fffcf5;border-top:6px solid #b9945d}
+.bm-reader-head{padding:32px clamp(20px,4vw,46px);background:linear-gradient(145deg,#f9f0df,#f3e6cd);border-bottom:1px solid #d7c19b}
+.bm-reader-head .kicker{color:#8b643a}
+.bm-reader-head h3{font-family:Georgia,serif;font-size:clamp(31px,3.5vw,47px);color:#294b3c;margin:12px 0}
+.bm-reader-head p{font-family:Georgia,serif;color:#70634e;font-size:16px}
+.bm-ref-form label{color:#4e543e}
+.bm-ref-form input{background:#fffdf8;border:1px solid #cbb48d;color:#2d4539;border-radius:4px}
+.bm-ref-form button{background:#315341;color:#fff6df;border:1px solid #315341;border-radius:4px;font-family:Georgia,serif;font-weight:700}
+.bm-ref-form button:hover{background:#203e30}
+.bm-reading-area{padding:clamp(18px,3vw,36px);background:#fffdf7}
+.bm-passage-title{font-family:Georgia,serif;font-size:20px;color:#294b3c;border-bottom:1px solid #e3d5bc;padding-bottom:18px}
+.bm-passage-title svg{color:#b18a50}
+.bm-text-columns{gap:22px}
+.bm-text-column{border:1px solid #e3d5bc;border-radius:3px;background:#fffaf0;padding:clamp(16px,2.3vw,28px);max-height:760px;scrollbar-color:#bea67f #f9f0df}
+.bm-text-column:first-child{background:#faf1e0}
+.bm-text-column h4{font-family:Georgia,serif;font-size:13px;color:#89663b;border-bottom:1px solid #dfcfb3;padding-bottom:12px;margin-bottom:22px}
+.bm-text-column p{font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:2.05;color:#3e3b31;margin-bottom:19px}
+.bm-text-column .bm-original p,.bm-original{font-family:"Noto Serif Hebrew","David",Georgia,serif;font-size:clamp(21px,2vw,26px);line-height:2.05;color:#263f34}
+.bm-text-column sup{color:#a47c42;margin-inline-end:5px}
+.bm-edition{color:#796b55;line-height:1.7}
+.bm-related{background:#f5e9d5;border-top:1px solid #dcc6a4;padding:25px clamp(20px,3vw,36px)}
+.bm-related h4{font-family:Georgia,serif;color:#294b3c;font-size:19px}
+.bm-related a{color:#315b45;text-decoration:underline;text-decoration-color:#bea077;text-underline-offset:4px}
+.bm-related a:hover{color:#9b6e36}
+.bm-original-studies{background:#f5eee1;padding-top:25px}
+.bm-original-studies:before{font-family:Georgia,serif;text-transform:none;font-size:24px;letter-spacing:0;color:#315341;border-bottom:1px solid #d8c3a3;padding-bottom:16px;margin-bottom:30px}
+main:has(.beit-midrash) button:focus-visible,main:has(.beit-midrash) a:focus-visible{outline:3px solid #b18a50;outline-offset:3px}
+html[dir="rtl"] .bm-heading h2,html[dir="rtl"] .bm-hero h1,html[dir="rtl"] .bm-reader-head h3,html[dir="rtl"] .bm-shelves-title,html[dir="rtl"] .bm-books button strong{font-family:"Noto Serif Hebrew","David",Georgia,serif}
+html[dir="rtl"] .bm-books button{text-align:right}
+html[dir="rtl"] .bm-books button>svg:last-child{transform:scaleX(-1)}
+@media(max-width:850px){.bm-layout{grid-template-columns:1fr}.bm-shelves{position:static;max-height:none}.bm-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.bm-text-columns{grid-template-columns:1fr}}
+@media(max-width:540px){main:has(.beit-midrash) .bm-hero{min-height:280px;padding:52px 24px}.beit-midrash{padding:42px 15px 50px}.bm-heading:before{font-size:16px}.bm-shelves{padding:17px 13px}.bm-books{grid-template-columns:1fr}.bm-reader-head{padding:23px 18px}.bm-ref-form>div{flex-wrap:wrap}.bm-ref-form button{flex:1}.bm-reading-area{padding:15px}.bm-text-column{max-height:none}}
