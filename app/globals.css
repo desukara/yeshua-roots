@@ -45,3 +45,26 @@ html[dir="rtl"] body{font-family:Arial,"Noto Sans Hebrew",sans-serif}html[dir="r
 .mobile-site-nav a{display:block;padding:14px 8px;border-bottom:1px solid #e9decc;font-weight:650;color:#315344}
 .mobile-site-nav a:hover,.mobile-site-nav a:focus-visible{background:#f2e8d6;outline-offset:2px}
 }
+
+/* Interlinear Torah study */
+.interlinear-page{background:#f7f2e8;min-height:75vh;padding:75px max(5vw,20px) 110px}
+.interlinear-reader{max-width:1160px;margin:auto;background:#fffcf5;border:1px solid #e5d7c0;border-radius:16px;padding:clamp(20px,4vw,55px);box-shadow:0 18px 50px #342a1710}
+.interlinear-toolbar{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.interlinear-toolbar h2{font-family:Georgia,serif;font-size:clamp(32px,4vw,53px);color:#254b3d;margin:12px 0}
+.interlinear-toolbar label{display:flex;align-items:center;gap:10px;font-size:14px}
+.interlinear-toolbar select{padding:11px 14px;border:1px solid #d4c3a7;border-radius:8px;background:#fff}
+.interlinear-intro{color:#6c6456;line-height:1.7}
+.interlinear-options{margin:25px 0 20px;font-size:14px;color:#385446}
+.interlinear-word-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-start;padding:26px 12px;background:#f5eddf;border-radius:12px}
+.interlinear-word{cursor:pointer;min-width:108px;display:flex;flex-direction:column;align-items:center;gap:9px;padding:17px 13px;border:1px solid #ddceb6;border-radius:10px;background:#fffdf7;color:#254b3d}
+.interlinear-word:hover,.interlinear-word:focus-visible,.interlinear-word.selected{border-color:#987547;background:#fff3d9;box-shadow:0 3px 12px #6e573222}
+.iw-hebrew{font-family:Arial,"Noto Sans Hebrew",sans-serif;font-size:clamp(24px,2.7vw,36px);line-height:1.45}
+.iw-roman{font-size:12px;color:#967749}
+.iw-english{font-size:13px;color:#4a594e;text-align:center}
+.interlinear-verse{padding:26px 0 15px;border-bottom:1px solid #e3d7c4;color:#344c3d}
+.interlinear-verse p{font-size:18px;line-height:1.7;margin:8px 0}
+.interlinear-detail{min-height:130px;display:flex;flex-direction:column;gap:8px;padding:22px 0}
+.interlinear-detail strong{font-size:30px}
+.interlinear-detail p{color:#695e4d;line-height:1.7}
+.interlinear-disclaimer{font-size:12px;line-height:1.7;color:#807664;border-top:1px solid #e3d7c4;padding-top:18px}
+@media(max-width:600px){.interlinear-page{padding:25px 12px 65px}.interlinear-word-grid{gap:8px;padding:12px}.interlinear-word{min-width:90px;flex:1 1 95px;padding:12px 7px}}
