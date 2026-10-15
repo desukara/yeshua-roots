@@ -21,5 +21,34 @@ export const interlinearVerses:InterlinearVerse[]=[
 {hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"of God"},
 {hebrew:"מְרַחֶפֶת",transliteration:"merachefet",english:"was hovering"},
 {hebrew:"עַל־פְּנֵי",transliteration:"al-penei",english:"over the face of"},
-{hebrew:"הַמָּיִם",transliteration:"ha-mayim",english:"the waters"}]}
+{hebrew:"הַמָּיִם",transliteration:"ha-mayim",english:"the waters"}]},
+{reference:"Genesis 1:3",hebrew:"וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר",english:"And God said, ‘Let there be light,’ and there was light.",words:[
+{hebrew:"וַיֹּאמֶר",transliteration:"va-yomer",english:"and he said",note:"A narrative verb from אמר (to say), introducing God's speech."},
+{hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"God"},
+{hebrew:"יְהִי",transliteration:"yehi",english:"let there be",note:"A jussive form of היה (to be), expressing a command or wish."},
+{hebrew:"אוֹר",transliteration:"or",english:"light"},
+{hebrew:"וַיְהִי־אוֹר",transliteration:"va-yehi or",english:"and there was light",note:"The Hebrew joins the verb and noun with a maqqef (־)."}]},
+{reference:"Genesis 1:4",hebrew:"וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",english:"And God saw that the light was good, and God separated the light from the darkness.",words:[
+{hebrew:"וַיַּרְא",transliteration:"va-yar",english:"and he saw",note:"From ראה (to see)."},
+{hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"God"},
+{hebrew:"אֶת־הָאוֹר",transliteration:"et ha-or",english:"the light [object]",note:"אֶת marks the definite direct object and is normally untranslated."},
+{hebrew:"כִּי־טוֹב",transliteration:"ki tov",english:"that [it was] good"},
+{hebrew:"וַיַּבְדֵּל",transliteration:"va-yavdel",english:"and he separated",note:"From בדל (to separate or distinguish), in a causative form."},
+{hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"God"},
+{hebrew:"בֵּין",transliteration:"bein",english:"between"},
+{hebrew:"הָאוֹר",transliteration:"ha-or",english:"the light"},
+{hebrew:"וּבֵין",transliteration:"u-vein",english:"and between"},
+{hebrew:"הַחֹשֶׁךְ",transliteration:"ha-choshekh",english:"the darkness"}]},
+{reference:"Genesis 1:5",hebrew:"וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד",english:"And God called the light Day, and the darkness he called Night. And there was evening and there was morning, one day.",words:[
+{hebrew:"וַיִּקְרָא",transliteration:"va-yikra",english:"and he called",note:"From קרא (to call, name, or proclaim)."},
+{hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"God"},
+{hebrew:"לָאוֹר",transliteration:"la-or",english:"the light",note:"Literally 'to the light'; לְ introduces what is being named."},
+{hebrew:"יוֹם",transliteration:"yom",english:"day"},
+{hebrew:"וְלַחֹשֶׁךְ",transliteration:"ve-la-choshekh",english:"and the darkness"},
+{hebrew:"קָרָא",transliteration:"kara",english:"he called"},
+{hebrew:"לָיְלָה",transliteration:"laylah",english:"night"},
+{hebrew:"וַיְהִי־עֶרֶב",transliteration:"va-yehi erev",english:"and there was evening"},
+{hebrew:"וַיְהִי־בֹקֶר",transliteration:"va-yehi voker",english:"and there was morning"},
+{hebrew:"יוֹם",transliteration:"yom",english:"day"},
+{hebrew:"אֶחָד",transliteration:"echad",english:"one",note:"The phrase יוֹם אֶחָד literally means 'one day'."}]}
 ];
