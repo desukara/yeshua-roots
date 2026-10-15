@@ -2,34 +2,33 @@
 
 **One Messiah. One Torah. One Family.**
 
-A warm, worldwide Messianic house of Torah learning, headquartered in Tokyo, Japan.
+A welcoming worldwide Messianic house of Torah learning, headquartered in Tokyo, Japan.
 
-## Framework
+## Languages
 
-- Next.js App Router, React, TypeScript, Tailwind CSS
-- Warm beit midrash visual identity: parchment, forest green, honey gold, Hebrew typography
-- Homepage, Torah Study, Teachings, News, Community, About, Contact
-- Study article pages powered by typed content in `lib/content.ts`
-- Shared navigation and footer
-- Responsive layouts for desktop and mobile
+**English (US)** and **modern Israeli Hebrew** are the only supported languages. Every site page has a header and footer language toggle. Language selection persists in the browser. Hebrew uses right-to-left page direction and translated navigation, homepage, section content, study library, and full starter articles. No Japanese language UI is planned at this stage.
+
+The language provider is in `components/language-provider.tsx`, the switcher in `components/language-switcher.tsx`, UI copy in `lib/translations.ts`, and study translations in `lib/study-translations.ts`.
 
 ## Development
 
 ```bash
 npm install
+npm run lint
+npm run build
 npm run dev
 ```
 
 Visit http://localhost:3000.
 
-## Content and publishing safeguards
+## Content review
 
-The initial study articles are editorial starter content for review, not automatically approved ministry teaching. The consolidated Statement of Faith is still under founder review and is not published. News, congregation directory, contact inbox, and Japanese translations are planned, not live. Do not publish invented news, unverified congregation listings, or nonfunctional contact forms.
+The initial four study articles and their Hebrew translations are editorial starter material for review, not automatically approved ministry teaching. The Statement of Faith is still under founder review and intentionally unpublished. News, congregation directory, and contact inbox are planned, not live. Do not present placeholders as operational services.
 
-## Next development phases
+## Launch checklist
 
-1. Add a real content management and editorial review workflow.
-2. Build bilingual English/Japanese localization and translations.
-3. Add news sourcing and categorization, congregation submission and verification, and contact handling.
-4. Test build and accessibility; deploy a preview to Vercel.
-5. Connect yeshuaroots.com only after preview approval.
+- Confirm automated build and type checks
+- Review translations with fluent modern Hebrew speakers, especially theological terminology
+- Add editorial publishing workflow and verified directory
+- Deploy a Vercel preview and check RTL on real devices
+- Connect yeshuaroots.com only after preview approval
