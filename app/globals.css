@@ -68,3 +68,5 @@ html[dir="rtl"] body{font-family:Arial,"Noto Sans Hebrew",sans-serif}html[dir="r
 .interlinear-detail p{color:#695e4d;line-height:1.7}
 .interlinear-disclaimer{font-size:12px;line-height:1.7;color:#807664;border-top:1px solid #e3d7c4;padding-top:18px}
 @media(max-width:600px){.interlinear-page{padding:25px 12px 65px}.interlinear-word-grid{gap:8px;padding:12px}.interlinear-word{min-width:90px;flex:1 1 95px;padding:12px 7px}}
+
+.interlinear-promo{padding:75px max(8vw,25px);background:#e7ddca;text-align:center}.interlinear-promo h2{font-family:Georgia,serif;color:#254b3d;font-size:clamp(30px,4vw,52px);margin:18px auto;max-width:800px}.interlinear-promo p{max-width:650px;margin:0 auto 26px;line-height:1.8;color:#5d6358}.interlinear-promo .btn{background:#315344;color:#fffaf0}
