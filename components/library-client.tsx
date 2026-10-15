@@ -1,1 +1,8 @@
-"use client";import SiteHeader from "./site-header";import SiteFooter from "./site-footer";import StudyLibrary from "./study-library";import {studies} from "../lib/content";import {useLanguage} from "./language-provider";import {t} from "../lib/translations";export default function LibraryClient(){const {locale}=useLanguage();const c=t(locale);return <><SiteHeader/><main><section className="section-hero"><span className="kicker">{c.libraryHero[0]}</span><h1>{c.libraryHero[1]}</h1><p>{c.libraryHero[2]}</p></section><div className="section-body"><StudyLibrary studies={studies}/></div></main><SiteFooter/></>}
+"use client";
+import SiteHeader from "./site-header";
+import SiteFooter from "./site-footer";
+import BeitMidrash from "./beit-midrash";
+import StudyLibrary from "./study-library";
+import {studies} from "../lib/content";
+import {useLanguage} from "./language-provider";
+export default function LibraryClient(){const {locale}=useLanguage();const he=locale==="he";return <><SiteHeader/><main><section className="section-hero bm-hero"><span className="kicker">{he?"בית מדרש · ספרייה יהודית משיחית":"BEIT MIDRASH · MESSIANIC JEWISH LIBRARY"}</span><h1>{he?"בית המדרש של ישוע רוטס":"Yeshua Roots Study Hall"}</h1><p>{he?"לומדים את הכתובים ואת מקורות ישראל, פותחים ספרים וקוראים יחד.":"A living place of Scripture, Jewish learning, and thoughtful study—open the books and explore."}</p></section><BeitMidrash/><section className="bm-original-studies"><StudyLibrary studies={studies}/></section></main><SiteFooter/></>}
