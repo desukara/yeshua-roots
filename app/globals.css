@@ -286,3 +286,22 @@ html[dir="rtl"] .grafted-olive-link svg{transform:scaleX(-1)}
 .home-intro:before,.home-intro:after{opacity:.13}
 .home-blessing:before,.home-blessing:after{opacity:.11}
 @media(max-width:800px){.grafted-olive{grid-template-columns:1fr}.grafted-olive-art{min-height:360px;padding:28px}.grafted-olive-frame{min-height:300px;width:250px;border-radius:145px 145px 6px 6px}.grafted-olive-frame img{max-height:275px}.grafted-olive-copy{border-left:0;border-top:1px solid #c9b18a;padding:50px 26px}.grafted-olive-art:before{inset:14px}html[dir="rtl"] .grafted-olive-copy{border-right:0}}
+
+
+/* Sitewide finishing: accessible, quiet, crafted details */
+.skip-to-content{position:fixed;z-index:1000;left:16px;top:12px;transform:translateY(-160%);background:#fffaf0;color:#183d30;border:2px solid #b48a4b;border-radius:4px;padding:12px 18px;font-weight:700;box-shadow:0 8px 22px #0003}
+.skip-to-content:focus{transform:translateY(0)}
+html[dir="rtl"] .skip-to-content{left:auto;right:16px}
+#main-content:focus{outline:none}
+::selection{background:#d7be88;color:#203b2e}
+:where(.room-card,.study-card,.bm-reader,.bm-shelves,.torah-bible-chapter){overflow-wrap:break-word}
+:where(.torah-bible-columns,.bm-text-columns) p{overflow-wrap:anywhere}
+:where(.bm-ref-form,.torah-bible-controls,.torah-pickers) input:focus-visible,:where(.bm-ref-form,.torah-bible-controls,.torah-pickers) select:focus-visible{outline:2px solid #a67e43;outline-offset:2px}
+.site-header,.site-footer,.welcome-hero,.grafted-olive,.home-blessing{isolation:isolate}
+.grafted-olive-frame{box-shadow:inset 0 0 0 2px #f9f0dd,0 14px 32px #54422b1c}
+.grafted-olive-frame img{filter:none}
+.bm-shelves{scrollbar-width:thin}
+.bm-text-column{scrollbar-width:thin}
+@media(max-width:950px){.site-header .brand{font-size:16px}.site-header .brand small{font-size:8px}.site-header{gap:10px}.header-actions{gap:7px}}
+@media(max-width:600px){.site-header{padding-inline:14px}.site-header .brand{gap:8px;font-size:14px;letter-spacing:0}.brand-emblem{width:35px;height:35px}.site-header .brand small{font-size:7px;letter-spacing:.04em}.mobile-menu-toggle{min-width:42px;min-height:42px}.grafted-olive-copy h2{font-size:clamp(32px,9vw,46px)}.torah-bible-chapter{padding:17px}.torah-bible-columns article{font-size:16px}.bm-text-column p{font-size:16px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
