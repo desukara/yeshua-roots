@@ -237,3 +237,9 @@ html[dir="rtl"] .section-hero:after{right:auto;left:4%}
 @media(max-width:950px){.site-header{min-height:78px}.welcome-hero{grid-template-columns:1fr 0.75fr}.welcome-copy{padding-left:5vw}.welcome-copy h1{font-size:clamp(45px,6vw,76px)}}
 @media(max-width:700px){.welcome-hero{grid-template-columns:1fr}.welcome-visual{min-height:350px;padding:24px}.arch{height:290px;width:220px}.hebrew-large{font-size:45px}.visual-symbol{font-size:55px}.welcome-copy{padding:60px 24px 35px}.welcome-copy h1{font-size:clamp(44px,11vw,68px)}.welcome-actions{margin-bottom:34px}.home-intro:before,.home-intro:after{font-size:38px}.home-blessing:before,.home-blessing:after{font-size:130px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.room-card,.study-card,.feature{transition:none}.room-card:hover,.study-card:hover,.feature:hover{transform:none}}
+
+/* Olive tree: rooted faith, restoration, and welcome */
+.welcome-visual{background-image:url("/brand/olive-tree.svg"),radial-gradient(ellipse at 40% 32%,#e3c99d 0%,#b48b5b 58%,#6d553d 100%);background-size:72% auto,cover;background-repeat:no-repeat;background-position:50% 52%,center}
+.welcome-visual .arch{backdrop-filter:blur(1px)}
+.home-blessing{background-image:linear-gradient(#1d3d30dc,#1d3d30ec),url("/brand/olive-tree.svg");background-repeat:no-repeat;background-size:cover,420px auto;background-position:center,center 44%}
+@media(max-width:700px){.welcome-visual{background-size:270px auto,cover}}
