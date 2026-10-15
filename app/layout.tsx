@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
-import "./globals.css";
-export const metadata: Metadata = { title: "Yeshua Roots | One Messiah. One Torah. One Family.", description: "A worldwide Messianic teaching, Torah study, news, and community hub." };
-export default function RootLayout({ children }: Readonly<{children: React.ReactNode}>) { return <html lang="en"><body>{children}</body></html>; }
+import type {Metadata} from "next";import "./globals.css";
+export const metadata:Metadata={metadataBase:new URL("https://yeshuaroots.com"),title:{default:"Yeshua Roots | One Messiah. One Torah. One Family.",template:"%s | Yeshua Roots"},description:"A welcoming worldwide house of Torah learning, Messianic teachings, news, and fellowship. Rooted in Tokyo, open to the world.",openGraph:{type:"website",siteName:"Yeshua Roots",title:"Yeshua Roots — A House of Torah Learning",description:"One Messiah. One Torah. One Family."},robots:{index:true,follow:true}};
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
