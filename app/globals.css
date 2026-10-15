@@ -158,3 +158,82 @@ html[dir="rtl"] .bm-books button{text-align:right}
 html[dir="rtl"] .bm-books button>svg:last-child{transform:scaleX(-1)}
 @media(max-width:850px){.bm-layout{grid-template-columns:1fr}.bm-shelves{position:static;max-height:none}.bm-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.bm-text-columns{grid-template-columns:1fr}}
 @media(max-width:540px){main:has(.beit-midrash) .bm-hero{min-height:280px;padding:52px 24px}.beit-midrash{padding:42px 15px 50px}.bm-heading:before{font-size:16px}.bm-shelves{padding:17px 13px}.bm-books{grid-template-columns:1fr}.bm-reader-head{padding:23px 18px}.bm-ref-form>div{flex-wrap:wrap}.bm-ref-form button{flex:1}.bm-reading-area{padding:15px}.bm-text-column{max-height:none}}
+
+
+/* Yeshua Roots — royal Jewish warmth, sitewide visual rehabilitation */
+:root{--yr-forest:#193c31;--yr-olive:#526848;--yr-gold:#b48a4b;--yr-cream:#fff9ec;--yr-parchment:#f5ecda;--yr-ink:#2f392c}
+body{background:var(--yr-cream);color:var(--yr-ink);-webkit-font-smoothing:antialiased}
+h1,h2,h3,blockquote{font-family:Georgia,"Times New Roman",serif;text-wrap:balance}
+.site-header{background:#fffaef;border-bottom:2px solid #c9ae7b;box-shadow:0 3px 20px #3b34220c;min-height:91px;height:auto;padding-block:12px}
+.site-header .brand{color:#214335;font-family:Georgia,serif;font-size:19px;letter-spacing:.045em}
+.site-header .brand b{color:#99713b}
+.site-header .brand small{font-family:Arial,sans-serif;color:#987b4c;letter-spacing:.13em}
+.brand-emblem{filter:drop-shadow(0 1px 1px #b48a4b33)}
+.site-nav a{position:relative;padding-block:12px;color:#34483a}
+.site-nav a:after{content:"";height:2px;background:#af8446;position:absolute;bottom:4px;left:0;right:100%;transition:right .2s}
+.site-nav a:hover:after,.site-nav a[aria-current="page"]:after{right:0}
+.site-connect{background:#214334;border:1px solid #bc975a;border-radius:30px;color:#fff8e7;box-shadow:0 3px 0 #b48a4b33}
+.site-connect:hover{background:#315d47}
+.welcome-hero{background:#f4e9d3;position:relative;border-bottom:6px solid #bd965b}
+.welcome-copy{background:radial-gradient(ellipse at 0 0,#fffaf0,#f5ead6 70%);z-index:1}
+.welcome-copy:before{content:"❧";position:absolute;right:5%;top:15px;font-size:150px;color:#657f55;opacity:.085;transform:rotate(-28deg);pointer-events:none}
+.welcome-copy .small-rule{background:#b78c50}
+.welcome-copy h1{font-family:Georgia,serif;color:#203e31;letter-spacing:-.035em;text-shadow:0 1px 0 #fff9ed}
+.welcome-copy h1 em{color:#98713d}
+.welcome-copy>p{color:#655b48}
+.welcome-actions .primary,.section-body .primary{background:#234637;border:1px solid #b58e52;color:#fff6e5;border-radius:6px}
+.welcome-actions .primary:hover,.section-body .primary:hover{background:#345e49}
+.welcome-note{font-family:Georgia,serif;color:#8d6b3e}
+.welcome-visual{background:radial-gradient(ellipse at 40% 32%,#e3c99d 0%,#b48b5b 58%,#6d553d 100%)}
+.welcome-visual:after{content:"❧";position:absolute;top:0;right:-18px;font-size:clamp(180px,24vw,390px);line-height:1;color:#233f2c;opacity:.25;transform:rotate(-34deg);pointer-events:none}
+.arch{position:relative;z-index:1;border-color:#f2dfb9;box-shadow:0 22px 55px #3a2c1e55}
+.arch-inner{background:radial-gradient(ellipse at center,#42604a,#18392e);border-color:#d7b87d}
+.hebrew-large{color:#f5e4bc;font-family:"Noto Serif Hebrew",Georgia,serif}
+.visual-symbol{color:#e5ca8d;text-shadow:0 2px 12px #0004}
+.home-intro{position:relative}
+.home-intro:before,.home-intro:after{content:"❧";position:absolute;top:24px;color:#64784c;opacity:.22;font-size:68px}
+.home-intro:before{left:12%;transform:rotate(-30deg)}.home-intro:after{right:12%;transform:scaleX(-1) rotate(-30deg)}
+.home-intro h2,.section-top h2,.study-header h2{color:#234638}
+.home-intro p{color:#665c4b}
+.learning-rooms,.explore{background:linear-gradient(150deg,#eee1ca,#f7f0e3 60%,#eee2cb);border-top:1px solid #d8c6a6;border-bottom:1px solid #d8c6a6}
+.room-card,.study-card,.feature{background:#fffaf0;border:1px solid #d9c5a4;border-top:4px solid #b48a4b;border-radius:5px;box-shadow:0 8px 25px #49351b0b}
+.room-card:hover,.study-card:hover,.feature:hover{box-shadow:0 18px 34px #46351f1d;border-color:#b99a68}
+.room-top svg,.room-hebrew,.study-tag,.room-link{color:#947044}
+.room-card h3,.study-card h3{color:#294a39}
+.room-card p,.study-card p{color:#6d6352}
+.study-section,.section-body{background:#fffaf0}
+.home-blessing{background:radial-gradient(ellipse at center,#365b44 0%,#1c3c30 80%);border-top:7px solid #bb965b;border-bottom:5px solid #b48a4b;position:relative;overflow:hidden}
+.home-blessing:before,.home-blessing:after{content:"❧";position:absolute;font-size:clamp(150px,23vw,350px);color:#d8c492;opacity:.095;top:5%;pointer-events:none}
+.home-blessing:before{left:-60px;transform:rotate(-30deg)}.home-blessing:after{right:-60px;transform:scaleX(-1) rotate(-30deg)}
+.home-blessing h2{position:relative;color:#fff8e7}
+.home-blessing p{position:relative;color:#eee1c9;font-family:Georgia,serif;font-size:19px}
+.home-blessing .btn.light{background:#e8d09d;color:#213e31;border:1px solid #c5a264}
+.section-hero{background:radial-gradient(ellipse at 70% 0%,#49634b,#1d3d31 72%);border-bottom:6px solid #b48a4b;position:relative;overflow:hidden}
+.section-hero:after{content:"❧";position:absolute;right:4%;top:-40px;font-size:clamp(160px,22vw,320px);color:#e9d4a5;opacity:.085;transform:rotate(-32deg);pointer-events:none}
+.section-hero h1{color:#fff5df;text-shadow:0 2px 10px #102b2240}
+.section-hero p{color:#ecdfc7}
+.section-body-intro{border-color:#d9c49f}
+.section-body-intro p{color:#665b49}
+.torah-bible,.interlinear-page{background:#f6eddc}
+.torah-bible-heading h2,.interlinear-toolbar h2{color:#264937}
+.torah-bible-controls{background:#eee0c8;border:1px solid #d4bd97}
+.torah-bible-chapter,.interlinear-reader{background:#fffbf1;border:1px solid #d8c39d;box-shadow:0 12px 32px #43351f12}
+.torah-bible-columns article{font-family:Georgia,serif;color:#36382d}
+.torah-bible-columns h4{color:#936b38}
+.torah-bible-nav button{background:#f8eedb;border-color:#c7ad81;color:#264735}
+.torah-bible-nav button:hover:not(:disabled){background:#ebd9b9}
+.interlinear-word-grid,.torah-verse-panel{background:#f1e3cb}
+.interlinear-word{background:#fffaf0;border-color:#d8c39e}
+.interlinear-word:hover,.interlinear-word.selected{background:#f5e4bf}
+.site-footer{background:#1d3a2e;border-top:6px solid #b48a4b;color:#fff4df;position:relative}
+.site-footer:before{content:"❧";position:absolute;right:5%;bottom:20px;font-size:180px;opacity:.055;color:#f7dfac;pointer-events:none}
+.site-footer b{color:#e6cb96}
+.site-footer a:hover{color:#f6d99e!important}
+.site-footer .footer-brand{font-family:Georgia,serif;color:#fff6e6}
+.btn,.site-connect,.room-card,.study-card,.bm-books button,.bm-groups button{transition:background-color .2s,border-color .2s,box-shadow .2s,transform .2s}
+:where(a,button,input,select,textarea):focus-visible{outline:3px solid #b58a4c;outline-offset:3px}
+html[dir="rtl"] .welcome-copy:before{right:auto;left:5%}
+html[dir="rtl"] .section-hero:after{right:auto;left:4%}
+@media(max-width:950px){.site-header{min-height:78px}.welcome-hero{grid-template-columns:1fr 0.75fr}.welcome-copy{padding-left:5vw}.welcome-copy h1{font-size:clamp(45px,6vw,76px)}}
+@media(max-width:700px){.welcome-hero{grid-template-columns:1fr}.welcome-visual{min-height:350px;padding:24px}.arch{height:290px;width:220px}.hebrew-large{font-size:45px}.visual-symbol{font-size:55px}.welcome-copy{padding:60px 24px 35px}.welcome-copy h1{font-size:clamp(44px,11vw,68px)}.welcome-actions{margin-bottom:34px}.home-intro:before,.home-intro:after{font-size:38px}.home-blessing:before,.home-blessing:after{font-size:130px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.room-card,.study-card,.feature{transition:none}.room-card:hover,.study-card:hover,.feature:hover{transform:none}}
