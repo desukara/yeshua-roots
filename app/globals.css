@@ -254,3 +254,35 @@ html[dir="rtl"] .section-hero:after{right:auto;left:4%}
 .section-hero:after{content:"";width:160px;height:240px;top:8%;right:5%;background:url("/brand/menorah.svg") center/contain no-repeat;opacity:.13;transform:none;font-size:0}
 .site-footer:before{content:"";width:90px;height:190px;right:4%;bottom:10px;background:url("/brand/palm-frond.svg") center/contain no-repeat;opacity:.12;font-size:0}
 @media(max-width:700px){.welcome-copy:before{width:80px;height:170px;opacity:.1}.welcome-visual:after{width:105px;height:200px}.home-intro:before,.home-intro:after{width:36px;height:75px}.home-blessing:before,.home-blessing:after{width:75px;height:155px}.section-hero:after{width:90px;height:130px;opacity:.09}}
+
+
+/* The cultivated olive tree: sitewide synagogue-inspired design system */
+:root{--yr-stone:#e6d8bd;--yr-wood:#755a3b;--yr-brass:#ad884d;--yr-olive-dark:#344b35}
+.grafted-olive{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);min-height:490px;background:#f6ecda;border-block:1px solid #c9b18a;overflow:hidden}
+.grafted-olive-art{position:relative;display:grid;place-items:center;min-height:490px;background:radial-gradient(circle at 50% 43%,#faf4e6 0%,#e5d5b7 70%,#d4c09b 100%);padding:50px}
+.grafted-olive-art:before{content:"";position:absolute;inset:26px;border:1px solid #bda276;pointer-events:none}
+.grafted-olive-art:after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:1px solid #bd9f6b55;pointer-events:none}
+.grafted-olive-frame{position:relative;z-index:1;width:min(390px,90%);min-height:395px;display:grid;place-items:center;border:7px solid #c4a778;border-radius:210px 210px 8px 8px;box-shadow:inset 0 0 0 2px #f9f0dd,0 15px 35px #54422b25;background:#f7eedb}
+.grafted-olive-frame img{width:85%;height:auto;max-height:365px;object-fit:contain;filter:sepia(.12)}
+.grafted-olive-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:clamp(45px,7vw,110px) clamp(30px,6vw,100px);border-left:1px solid #c9b18a;background:linear-gradient(145deg,#fffaf0,#f7efdf)}
+.grafted-olive-copy .kicker{color:#8b663a}
+.grafted-olive-copy h2{font-family:Georgia,serif;font-size:clamp(36px,4vw,62px);line-height:1.15;color:#214234;margin:20px 0 24px;max-width:670px}
+.grafted-olive-copy p{font-family:Georgia,serif;font-size:clamp(17px,1.5vw,20px);line-height:1.85;color:#5f5848;max-width:630px}
+.grafted-olive-copy .grafted-olive-scripture{font-family:Arial,sans-serif;font-size:12px;letter-spacing:.17em;font-weight:700;color:#906e42;margin:9px 0 26px}
+.grafted-olive-link{display:inline-flex;align-items:center;gap:12px;border-bottom:2px solid #a88750;color:#284c39;font-weight:700;padding:9px 0}
+.grafted-olive-link:hover{color:#966c34}
+html[dir="rtl"] .grafted-olive-copy{border-left:0;border-right:1px solid #c9b18a;align-items:flex-start}
+html[dir="rtl"] .grafted-olive-copy h2,html[dir="rtl"] .grafted-olive-copy p{font-family:"Noto Serif Hebrew","David",Georgia,serif}
+html[dir="rtl"] .grafted-olive-link svg{transform:scaleX(-1)}
+/* Architectural rather than clip-art ornament: stone, brass rules, synagogue arches */
+.section-hero:not(.bm-hero){box-shadow:inset 0 -1px 0 #e0c38c55}
+.section-hero:not(.bm-hero):before{content:"";position:absolute;inset:16px 18px;border:1px solid #d8bd8a33;pointer-events:none}
+.bm-reader,.bm-shelves,.torah-bible-chapter,.interlinear-reader{box-shadow:0 8px 30px #42361f12}
+.bm-reader-head{background:linear-gradient(135deg,#f8f0df,#e8d6b8)}
+.bm-reader-head:before{content:"";display:block;width:64px;height:2px;background:#b48a4b;margin-bottom:15px}
+.torah-bible-heading:before,.interlinear-toolbar h2:before{content:"";display:block;width:58px;height:3px;background:#b48a4b;margin-bottom:18px}
+.room-card,.study-card{position:relative}
+.room-card:before,.study-card:before{content:"";position:absolute;inset:8px;border:1px solid #c5a77533;pointer-events:none}
+.home-intro:before,.home-intro:after{opacity:.13}
+.home-blessing:before,.home-blessing:after{opacity:.11}
+@media(max-width:800px){.grafted-olive{grid-template-columns:1fr}.grafted-olive-art{min-height:360px;padding:28px}.grafted-olive-frame{min-height:300px;width:250px;border-radius:145px 145px 6px 6px}.grafted-olive-frame img{max-height:275px}.grafted-olive-copy{border-left:0;border-top:1px solid #c9b18a;padding:50px 26px}.grafted-olive-art:before{inset:14px}html[dir="rtl"] .grafted-olive-copy{border-right:0}}
