@@ -1,0 +1,2 @@
+import Link from "next/link";import SiteHeader from "../components/site-header";import SiteFooter from "../components/site-footer";
+export default function NotFound(){return <><SiteHeader/><main className="not-found"><span className="kicker">A LITTLE OFF THE PATH</span><h1>Come back to the table.</h1><p>We couldn't find that page, but there's always a place for you here.</p><Link href="/" className="btn primary">Return home →</Link></main><SiteFooter/></>}
