@@ -21,7 +21,7 @@ export default function InterlinearReader(){
  <div className="torah-pickers"><label>{he?"ספר":"Book"} <select value="Genesis" disabled><option value="Genesis">{he?"בראשית":"Genesis"}</option></select></label>
  <label>{he?"פרק":"Chapter"} <select value={chapter} onChange={e=>chooseChapter(Number(e.target.value))}>{Array.from({length:50},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label>
  <label>{he?"פסוק":"Verse"} <select value={verse} onChange={e=>chooseVerse(Number(e.target.value))}>{Array.from({length:count},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label></div></div>
- <p className="interlinear-intro">{he?"קראו את הפסוקים בעברית. פירוש בין־שורי בדוק זמין כעת לבראשית א׳:א׳–ב׳.":"Read the Hebrew text chapter by chapter. Verified word-by-word annotations currently cover Genesis 1:1–2."}</p>
+ <p className="interlinear-intro">{he?"קראו את הפסוקים בעברית. פירוש בין־שורי בדוק זמין כעת לבראשית א׳:א׳–ה׳.":"Read the Hebrew text chapter by chapter. Verified word-by-word annotations currently cover Genesis 1:1–5."}</p>
  <div className="interlinear-options"><label><input type="checkbox" checked={showTransliteration} onChange={e=>setShowTransliteration(e.target.checked)}/> {he?"הצגת תעתיק":"Show transliteration"}</label></div>
  {loading&&<p role="status">{he?"טוען את הפרק...":"Loading Hebrew chapter..."}</p>}
  {error&&<p role="alert">{error} {curated?(he?"מוצג הטקסט השמור.":"Showing locally curated text where available."):""}</p>}
