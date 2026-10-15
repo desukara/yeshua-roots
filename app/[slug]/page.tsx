@@ -1,0 +1,13 @@
+import Link from "next/link";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { notFound } from "next/navigation";
+const pages: Record<string,{label:string,title:string,description:string,details:string}> = {
+ torah:{label:"STUDY THE WORD",title:"Daily Torah Study",description:"The whole counsel of Scripture, from Genesis through Revelation.",details:"Our daily study library is being prepared. We will explore Scripture through Yeshua HaMashiach and the Ruach HaKodesh."},
+ teachings:{label:"GROW IN FAITH",title:"Foundational Teachings",description:"Messianic teaching grounded in the full testimony of Scripture.",details:"Our foundational teaching collection is coming soon. The Statement of Faith remains under founder review and will not be published until approved."},
+ news:{label:"AROUND THE WORLD",title:"Messianic News",description:"Carefully curated news and thoughtful perspectives.",details:"Our worldwide news desk is being prepared. Reporting, sourced commentary, and editorial perspectives will be clearly distinguished."},
+ community:{label:"ONE FAMILY",title:"Worldwide Community",description:"A growing network of fellowship across nations.",details:"Our worldwide congregation directory is planned. Listings will be verified and published with appropriate consent."},
+ about:{label:"OUR MISSION",title:"About Yeshua Roots",description:"One Messiah. One Torah. One Family.",details:"Yeshua Roots is an independent worldwide Messianic teaching, news, and community ministry headquartered in Tokyo, Japan. We seek to proclaim Yeshua, teach God's Word, and encourage faithful living through His Spirit."},
+ contact:{label:"CONNECT",title:"Get in Touch",description:"We would love to hear from you.",details:"Our contact channel is being set up. Please check back soon; we won't display an unmonitored address or a nonfunctional contact form."}
+};
+export function generateStaticParams(){return Object.keys(pages).map(slug=>({slug}));}
+export default async function Page({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const page=pages[slug];if(!page)notFound();return <main className="inner-page"><header className="header"><Link className="brand" href="/">✦ YESHUA <b>ROOTS</b></Link><Link href="/" className="back"><ArrowLeft size={16}/> Home</Link></header><section className="inner-hero"><span className="kicker">{page.label}</span><h1>{page.title}</h1><p>{page.description}</p></section><section className="inner-content"><p>{page.details}</p><Link href="/" className="btn primary">Explore Yeshua Roots <ArrowRight size={17}/></Link></section><footer><span>One Messiah. One Torah. One Family.</span><small>© {new Date().getFullYear()} Yeshua Roots</small></footer></main>;}
