@@ -1,22 +1,35 @@
 # Yeshua Roots
 
-Official website for **Yeshua Roots** — One Messiah. One Torah. One Family.
+**One Messiah. One Torah. One Family.**
 
-Worldwide Messianic teaching, news, and community ministry headquartered in Tokyo, Japan.
+A warm, worldwide Messianic house of Torah learning, headquartered in Tokyo, Japan.
 
-## Run locally
+## Framework
+
+- Next.js App Router, React, TypeScript, Tailwind CSS
+- Warm beit midrash visual identity: parchment, forest green, honey gold, Hebrew typography
+- Homepage, Torah Study, Teachings, News, Community, About, Contact
+- Study article pages powered by typed content in `lib/content.ts`
+- Shared navigation and footer
+- Responsive layouts for desktop and mobile
+
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000.
+Visit http://localhost:3000.
 
-## Status
+## Content and publishing safeguards
 
-Initial website foundation. Interior pages are honest placeholders; news, directory, translations, and contact integrations are not live yet. Statement of Faith remains under founder review and is intentionally not published.
+The initial study articles are editorial starter content for review, not automatically approved ministry teaching. The consolidated Statement of Faith is still under founder review and is not published. News, congregation directory, contact inbox, and Japanese translations are planned, not live. Do not publish invented news, unverified congregation listings, or nonfunctional contact forms.
 
-## Deploy
+## Next development phases
 
-Connect this repository to Vercel and deploy as a Next.js project. Domain DNS changes are a separate step and have not been made.
+1. Add a real content management and editorial review workflow.
+2. Build bilingual English/Japanese localization and translations.
+3. Add news sourcing and categorization, congregation submission and verification, and contact handling.
+4. Test build and accessibility; deploy a preview to Vercel.
+5. Connect yeshuaroots.com only after preview approval.
