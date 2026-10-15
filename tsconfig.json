@@ -1,0 +1,1 @@
+{"compilerOptions":{"strict":true,"noEmit":true,"jsx":"preserve","module":"esnext","moduleResolution":"bundler","target":"es2017","esModuleInterop":true,"skipLibCheck":true},"include":["**/*.ts","**/*.tsx"],"exclude":["node_modules"]}
