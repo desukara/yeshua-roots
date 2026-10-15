@@ -1,0 +1,2 @@
+"use client";import {useLanguage} from "./language-provider";
+export default function LanguageSwitcher(){const {locale,setLocale}=useLanguage();return <div className="language-switcher" role="group" aria-label="Website language"><button type="button" lang="en" aria-pressed={locale==="en"} onClick={()=>setLocale("en")}>English</button><span aria-hidden="true">|</span><button type="button" lang="he" dir="rtl" aria-pressed={locale==="he"} onClick={()=>setLocale("he")}>עברית</button></div>}
