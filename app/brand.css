@@ -16,3 +16,7 @@
 .site-header .brand:focus-visible,.site-footer .footer-brand:focus-visible{outline:3px solid var(--gold);outline-offset:5px;border-radius:3px}
 @media (forced-colors:active){.site-header .brand,.site-footer .footer-brand{outline-color:Highlight}.brand-wordmark,.footer-wordmark{background:Canvas}}
 @media (prefers-reduced-motion:reduce){.brand-wordmark,.footer-wordmark{transition:none}}
+
+/* Mission copy follows the interface language without becoming part of the icon. */
+.site-footer .brand-mission{max-width:29ch;line-height:1.65;font-size:clamp(.85rem,1.2vw,1rem);letter-spacing:.025em;color:#F5EEDD}
+html[dir="rtl"] .site-footer .brand-mission{max-width:32ch;letter-spacing:normal}
