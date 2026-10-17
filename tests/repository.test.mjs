@@ -128,3 +128,10 @@ test('study hall identifies external Sefaria source and loading state', () => {
  assert.match(hall, /aria-busy=\{loading\}/);
  assert.match(hall, /חמשת חומשי תורה/);
 });
+
+test('study hall search supports Hebrew collection names and an accessible label', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /hebrewGroups\[w\.group\]/);
+ assert.match(hall, /Search books or topics/);
+ assert.match(hall, /חיפוש ספר או נושא/);
+});
