@@ -94,3 +94,13 @@ test('section metadata does not misrepresent unfinished services as live', () =>
   assert.match(section, /active contact inbox is not yet available/);
   assert.match(section, /living Jewish Messiah of Israel/);
 });
+
+test('study pages use article-specific metadata and library copy describes real content', () => {
+  const studyPage = read('app/study/[slug]/page.tsx');
+  const library = read('app/library/page.tsx');
+  assert.match(studyPage, /generateMetadata/);
+  assert.match(studyPage, /study\.subtitle/);
+  assert.match(studyPage, /type:"article"/);
+  assert.match(library, /introductory Torah and Messianic studies/);
+  assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
+});
