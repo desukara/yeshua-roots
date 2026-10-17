@@ -14,7 +14,7 @@ test('all starter study translations have matching slugs', () => {
   const content = read('lib/content.ts');
   const translations = read('lib/study-translations.ts');
   const slugs = [...content.matchAll(/slug:\s*"([^"]+)"/g)].map(match => match[1]);
-  assert.equal(slugs.length, 6);
+  assert.equal(slugs.length, 7);
   for (const slug of slugs) assert.ok(translations.includes(`"${slug}":`), `Missing Hebrew translation: ${slug}`);
 });
 
