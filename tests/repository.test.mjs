@@ -104,3 +104,34 @@ test('study pages use article-specific metadata and library copy describes real 
   assert.match(library, /introductory Torah and Messianic studies/);
   assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
 });
+
+test('study reader provides a main landmark, bilingual editorial notice and library return', () => {
+  const reader = read('components/study-reader.tsx');
+  assert.match(reader, /id="main-content" tabIndex=\{-1\}/);
+  assert.match(reader, /reading-editorial-note/);
+  assert.match(reader, /לימוד מבוא ראשוני/);
+  assert.match(reader, /Introductory study for reflection and discussion/);
+  assert.match(reader, /href="\/library"/);
+});
+
+test('study hall preserves Torah terminology and labels source language honestly', () => {
+  const hall = read('components/beit-midrash.tsx');
+  assert.match(hall, /We study the Torah in its Jewish context/);
+  assert.doesNotMatch(hall, /Torah means all Scripture/);
+  assert.match(hall, /source\?\.language/);
+  assert.match(hall, /Source text/);
+});
+
+test('study hall identifies external Sefaria source and loading state', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /Texts are retrieved from Sefaria/);
+ assert.match(hall, /aria-busy=\{loading\}/);
+ assert.match(hall, /חמשת חומשי תורה/);
+});
+
+test('study hall search supports Hebrew collection names and an accessible label', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /hebrewGroups\[w\.group\]/);
+ assert.match(hall, /Search books or topics/);
+ assert.match(hall, /חיפוש ספר או נושא/);
+});
