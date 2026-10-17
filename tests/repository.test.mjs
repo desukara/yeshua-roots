@@ -14,7 +14,7 @@ test('all starter study translations have matching slugs', () => {
   const content = read('lib/content.ts');
   const translations = read('lib/study-translations.ts');
   const slugs = [...content.matchAll(/slug:\s*"([^"]+)"/g)].map(match => match[1]);
-  assert.equal(slugs.length, 4);
+  assert.equal(slugs.length, 5);
   for (const slug of slugs) assert.ok(translations.includes(`"${slug}":`), `Missing Hebrew translation: ${slug}`);
 });
 
@@ -237,7 +237,7 @@ test('all starter studies remain drafts and review requires founder approval', (
  const reader=read('components/study-reader.tsx');
  const workflow=read('docs/EDITORIAL_REVIEW.md');
  assert.match(content, /export type EditorialStatus = "draft" \| "founder-approved"/);
- assert.equal((content.match(/editorialStatus:"draft"/g)||[]).length,4);
+ assert.equal((content.match(/editorialStatus:"draft"/g)||[]).length,5);
  assert.match(reader, /study\.editorialStatus==="draft"/);
  assert.match(workflow, /explicit founder approval/);
  assert.match(workflow, /Statement of Faith is \*\*not approved or published\*\*/);
@@ -248,8 +248,8 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  const content=read('lib/content.ts');
  const page=read('components/section-client.tsx');
  const stepSlugs=[...paths.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
- assert.equal(stepSlugs.length,4);
- assert.equal(new Set(stepSlugs).size,4);
+ assert.equal(stepSlugs.length,5);
+ assert.equal(new Set(stepSlugs).size,5);
  for(const slug of stepSlugs) assert.ok(content.includes('slug:"'+slug+'"'));
  assert.match(paths, /titleHe:/);
  assert.match(paths, /titleEn:/);
@@ -291,10 +291,23 @@ test('all starter studies have bilingual discussion questions', () => {
  const guides=read('lib/study-guides.ts');
  const reader=read('components/study-reader.tsx');
  const slugs=[...guides.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
- assert.equal(slugs.length,4);
- assert.equal(new Set(slugs).size,4);
- assert.equal((guides.match(/questionsEn:/g)||[]).length,5);
- assert.equal((guides.match(/questionsHe:/g)||[]).length,5);
+ assert.equal(slugs.length,5);
+ assert.equal(new Set(slugs).size,5);
+ assert.equal((guides.match(/questionsEn:/g)||[]).length,6);
+ assert.equal((guides.match(/questionsHe:/g)||[]).length,6);
  assert.match(reader,/studyGuides\.find/);
  assert.match(reader,/Questions for study and discussion/);
+});
+
+test('new Jewish Messiah study is bilingual, contextual, and still draft', () => {
+ const content=read('lib/content.ts');
+ const translations=read('lib/study-translations.ts');
+ const paths=read('lib/learning-paths.ts');
+ const guides=read('lib/study-guides.ts');
+ assert.match(content,/slug:"yeshua-jewish-messiah"/);
+ assert.match(content,/Deuteronomy 18:15–19/);
+ assert.match(content,/Read the psalms in their own settings/);
+ assert.match(translations,/"yeshua-jewish-messiah":/);
+ assert.match(paths,/id:"meet-yeshua"/);
+ assert.match(guides,/slug:"yeshua-jewish-messiah"/);
 });
