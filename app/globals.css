@@ -305,3 +305,23 @@ html[dir="rtl"] .skip-to-content{left:auto;right:16px}
 @media(max-width:950px){.site-header .brand{font-size:16px}.site-header .brand small{font-size:8px}.site-header{gap:10px}.header-actions{gap:7px}}
 @media(max-width:600px){.site-header{padding-inline:14px}.site-header .brand{gap:8px;font-size:14px;letter-spacing:0}.brand-emblem{width:35px;height:35px}.site-header .brand small{font-size:7px;letter-spacing:.04em}.mobile-menu-toggle{min-width:42px;min-height:42px}.grafted-olive-copy h2{font-size:clamp(32px,9vw,46px)}.torah-bible-chapter{padding:17px}.torah-bible-columns article{font-size:16px}.bm-text-column p{font-size:16px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* Homepage visual cleanup: one emblem per area, no stacked clip-art layers. */
+.welcome-visual{background-image:radial-gradient(ellipse at 40% 32%,#e3c99d 0%,#b48b5b 58%,#6d553d 100%);background-size:cover;background-position:center}
+.welcome-visual::after,.welcome-copy::before,.home-intro::before,.home-intro::after,.home-blessing::before,.home-blessing::after{content:none!important;background-image:none!important}
+.home-blessing{background-image:linear-gradient(145deg,#1d3d30,#284d3c);background-size:cover}
+.grafted-olive-art{background:#e9dec9}
+.grafted-olive-art::before,.grafted-olive-art::after{content:none}
+.grafted-olive-frame{width:min(280px,75%);min-height:280px;aspect-ratio:1;border:1px solid #baa17b;border-radius:50%;box-shadow:none;background:#f7eedb}
+.grafted-olive-star{font-family:Georgia,serif;font-size:clamp(95px,12vw,165px);line-height:1;color:#83683f}
+@media(max-width:800px){.grafted-olive-frame{width:210px;min-height:210px}.grafted-olive-star{font-size:115px}.grafted-olive-art{min-height:275px}}
+
+
+/* A synagogue identity: legible hero heading, clean blue window, restrained photography frame. */
+.welcome-copy h1{font-size:clamp(38px,4.8vw,70px);line-height:1.12}
+.welcome-copy h1 em{font-size:.65em;line-height:1.25;display:inline-block;font-style:normal;color:#8c6c3d}
+.welcome-visual{background:#477eac}
+.arch-inner{background:linear-gradient(180deg,#23629c,#74add1);border-color:#d7b87d}
+.grafted-olive-frame{border-radius:12px;border:8px solid #fffaf0;outline:2px solid #ad884d;box-shadow:0 12px 30px #3a2c1e25}
+@media(max-width:700px){.welcome-copy h1{font-size:clamp(36px,9vw,56px)}}
