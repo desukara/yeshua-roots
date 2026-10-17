@@ -266,3 +266,12 @@ test('library filters by guided pathway and clearly labels unapproved lessons', 
  assert.match(library, /awaiting founder approval/);
  assert.match(library, /ממתין לאישור המייסד/);
 });
+
+test('teachings explain a Yeshua-centered reading method in both languages', () => {
+ const page=read('components/section-client.tsx');
+ assert.match(page,/function ScriptureReadingMethod/);
+ assert.match(page,/Read Scripture with Yeshua at the center/);
+ assert.match(page,/לקרוא את הכתובים כשישוע במרכז/);
+ assert.match(page,/Distinguish direct quotations, patterns, and interpretations/);
+ assert.match(page,/slug==="teachings"&&<ScriptureReadingMethod/);
+});
