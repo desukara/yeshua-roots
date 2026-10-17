@@ -1,0 +1,22 @@
+:root{--olive:#2E3D23;--sage:#6B7F5B;--earth:#7A5B32;--sand:#F5EEDD;--gold:#B89B52}
+.site-header{background:var(--sand);border-bottom-color:#d6c4a1}
+.site-header .brand{color:var(--olive)}
+.site-footer,.home-blessing,.section-hero,.site-connect{background:var(--olive)}
+.welcome-hero{background:var(--sand)}
+.welcome-visual{background:#E8DDC4;background-image:none}
+.arch-inner{background:var(--sand)}
+.hero-brand-tree{display:block;object-fit:contain;filter:none}
+.blessing-tree{display:block;object-fit:contain;filter:brightness(0) invert(1);margin:0 auto 16px}
+.grafted-olive-art{background:#E8DDC4}
+.grafted-olive-copy{background:var(--sand)}
+.bm-reader-head{background:#F5EEDD}
+
+/* Accessible brand surfaces and icon rendering: no glow, gradients or filters. */
+.brand-wordmark,.footer-wordmark,.hero-brand-tree,.blessing-tree{image-rendering:auto;filter:none}
+.site-header .brand:focus-visible,.site-footer .footer-brand:focus-visible{outline:3px solid var(--gold);outline-offset:5px;border-radius:3px}
+@media (forced-colors:active){.site-header .brand,.site-footer .footer-brand{outline-color:Highlight}.brand-wordmark,.footer-wordmark{background:Canvas}}
+@media (prefers-reduced-motion:reduce){.brand-wordmark,.footer-wordmark{transition:none}}
+
+/* Mission copy follows the interface language without becoming part of the icon. */
+.site-footer .brand-mission{max-width:29ch;line-height:1.65;font-size:clamp(.85rem,1.2vw,1rem);letter-spacing:.025em;color:#F5EEDD}
+html[dir="rtl"] .site-footer .brand-mission{max-width:32ch;letter-spacing:normal}
