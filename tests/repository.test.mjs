@@ -160,3 +160,14 @@ test('study hall avoids invented verse numbers and respects Aramaic direction', 
  assert.match(hall, /aramaic/i);
  assert.match(hall, /sourceLanguage==="he"\|\|sourceLanguage==="arc"/);
 });
+
+test('study hall identifies edition licenses and links to the source passage', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /Source edition:/);
+ assert.match(hall, /Translation edition:/);
+ assert.match(hall, /source\.license/);
+ assert.match(hall, /translation\.license/);
+ assert.match(hall, /https:\/\/www\.sefaria\.org\//);
+ assert.match(hall, /noopener noreferrer/);
+ assert.match(hall, /View this passage on Sefaria/);
+});
