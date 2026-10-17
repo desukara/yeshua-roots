@@ -73,3 +73,34 @@ test('introductory study shelf discloses its editorial status', () => {
   assert.match(homepage, /לימודי מבוא ראשוניים/);
   assert.match(homepage, /home-studies-heading/);
 });
+
+test('mission framing stays consistent across metadata, About and editorial policy', () => {
+  const metadata = read('app/layout.tsx');
+  const translations = read('lib/translations.ts');
+  const readme = read('README.md');
+  assert.match(metadata, /living Jewish Messiah of Israel/);
+  assert.match(translations, /Yeshua, the living Jewish Messiah of Israel/);
+  assert.match(translations, /המשיח היהודי החי של ישראל/);
+  assert.match(readme, /alive, present, aware, and active now/);
+  assert.match(readme, /Gentile believers are grafted into Israel's olive tree/);
+});
+
+test('section metadata does not misrepresent unfinished services as live', () => {
+  const section = read('app/[slug]/page.tsx');
+  assert.match(section, /export async function generateMetadata/);
+  assert.match(section, /News — In Development/);
+  assert.match(section, /Community — In Development/);
+  assert.match(section, /Contact — In Development/);
+  assert.match(section, /active contact inbox is not yet available/);
+  assert.match(section, /living Jewish Messiah of Israel/);
+});
+
+test('study pages use article-specific metadata and library copy describes real content', () => {
+  const studyPage = read('app/study/[slug]/page.tsx');
+  const library = read('app/library/page.tsx');
+  assert.match(studyPage, /generateMetadata/);
+  assert.match(studyPage, /study\.subtitle/);
+  assert.match(studyPage, /type:"article"/);
+  assert.match(library, /introductory Torah and Messianic studies/);
+  assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
+});
