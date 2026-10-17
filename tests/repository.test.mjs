@@ -135,3 +135,12 @@ test('study hall search supports Hebrew collection names and an accessible label
  assert.match(hall, /Search books or topics/);
  assert.match(hall, /חיפוש ספר או נושא/);
 });
+
+test('library text proxy rejects malformed or empty upstream responses', () => {
+ const api=read('app/api/library/text/route.ts');
+ assert.match(api, /const data:unknown=await response\.json\(\)/);
+ assert.match(api, /Array\.isArray\(data\.versions\)/);
+ assert.match(api, /Text source returned an invalid response/);
+ assert.match(api, /No readable text available for this reference/);
+ assert.match(api, /typeof payload\.ref==="string"/);
+});
