@@ -49,3 +49,13 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(copy, /In Development/);
   assert.match(copy, /בפיתוח/);
 });
+
+test('homepage distinguishes planned services and supports flexible hero lines', () => {
+  const homepage = read('app/page.tsx');
+  const styles = read('app/globals.css');
+  assert.match(homepage, /hero-title-line/);
+  assert.match(homepage, /developing\.has\(hrefs\[i\]\)/);
+  assert.match(homepage, /See what is planned/);
+  assert.match(styles, /\.room-card\.is-developing/);
+  assert.match(homepage, /welcome-visual" aria-hidden="true"/);
+});
