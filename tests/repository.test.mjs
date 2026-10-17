@@ -311,3 +311,20 @@ test('new Jewish Messiah study is bilingual, contextual, and still draft', () =>
  assert.match(paths,/id:"meet-yeshua"/);
  assert.match(guides,/slug:"yeshua-jewish-messiah"/);
 });
+
+test('every study has a unique translation, discussion guide, and learning-path entry', () => {
+ const content=read('lib/content.ts');
+ const translations=read('lib/study-translations.ts');
+ const guides=read('lib/study-guides.ts');
+ const paths=read('lib/learning-paths.ts');
+ const studySlugs=[...content.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ const translatedSlugs=[...translations.matchAll(/"([^"]+)":\{title:/g)].map(m=>m[1]);
+ const guideSlugs=[...guides.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ const pathSlugs=[...paths.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ for(const [name,slugs] of [['studies',studySlugs],['translations',translatedSlugs],['discussion guides',guideSlugs],['learning path steps',pathSlugs]]){
+   assert.equal(new Set(slugs).size,slugs.length,name+' must have unique slugs');
+   assert.deepEqual([...slugs].sort(),[...studySlugs].sort(),name+' must cover exactly the published study identifiers');
+ }
+ const pathIds=[...paths.matchAll(/id:"([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(new Set(pathIds).size,pathIds.length,'learning pathway identifiers must be unique');
+});
