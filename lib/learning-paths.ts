@@ -1,11 +1,11 @@
 export type LearningStep = {slug:string;en:string;he:string;reference:string};
-export type LearningPath = {id:string;titleEn:string;titleHe:string;introEn:string;introHe:string;steps:LearningStep[]};
+export type LearningPath = {id:string;titleEn:string;titleHe:string;introEn:string;introHe:string;messiahFocusEn:string;messiahFocusHe:string;steps:LearningStep[]};
 export const learningPaths:LearningPath[]=[
- {id:"scripture-roots",titleEn:"Begin with the Scriptures",titleHe:"מתחילים בכתובים",introEn:"Follow creation, rest, and the testimony of Yeshua through the Jewish context of Scripture.",introHe:"לומדים על הבריאה, המנוחה ועדות ישוע בהקשר היהודי של הכתובים.",steps:[
+ {id:"scripture-roots",titleEn:"Begin with the Scriptures",titleHe:"מתחילים בכתובים",introEn:"Follow creation, rest, and the testimony of Yeshua through the Jewish context of Scripture.",introHe:"לומדים על הבריאה, המנוחה ועדות ישוע בהקשר היהודי של הכתובים.",messiahFocusEn:"Read John 1 alongside Genesis 1 to explore how John bears witness to Yeshua. Read Genesis in its own context first; do not assume every detail is a direct prediction.",messiahFocusHe:"קראו את יוחנן א׳ לצד בראשית א׳ כדי לבחון כיצד יוחנן מעיד על ישוע. קראו תחילה את בראשית בהקשרו, בלי להניח שכל פרט הוא נבואה ישירה.",steps:[
   {slug:"beginning-with-the-word",en:"The Word and the Light",he:"הדבר והאור",reference:"Genesis 1:1–5 · John 1:1–14"},
   {slug:"the-blessing-of-shabbat",en:"The Gift of Shabbat",he:"מתנת השבת",reference:"Genesis 2:1–3 · Exodus 20:8–11"}
  ]},
- {id:"faith-and-belonging",titleEn:"Faith and Belonging",titleHe:"אמונה ושייכות",introEn:"Explore grace and covenantal belonging without replacing Israel or separating faith from faithful living.",introHe:"לומדים על חסד ושייכות לברית, ללא החלפת ישראל וללא הפרדת האמונה מן החיים.",steps:[
+ {id:"faith-and-belonging",titleEn:"Faith and Belonging",titleHe:"אמונה ושייכות",introEn:"Explore grace and covenantal belonging without replacing Israel or separating faith from faithful living.",introHe:"לומדים על חסד ושייכות לברית, ללא החלפת ישראל וללא הפרדת האמונה מן החיים.",messiahFocusEn:"Consider how faith in Yeshua brings people from the nations near while preserving God’s faithfulness to Israel. Compare Paul’s argument with the passages he cites.",messiahFocusHe:"בחנו כיצד האמונה בישוע מקרבת אנשים מן העמים תוך שמירה על נאמנות אלוהים לישראל. השוו את דברי שאול לקטעים שעליהם הוא מסתמך.",steps:[
   {slug:"one-olive-tree",en:"The Olive Tree",he:"עץ הזית",reference:"Romans 11:17–24 · Ephesians 2:11–22"},
   {slug:"grace-and-faithfulness",en:"Grace and Faithfulness",he:"חסד ונאמנות",reference:"Ephesians 2:8–10 · Ezekiel 36:26–27"}
  ]}
