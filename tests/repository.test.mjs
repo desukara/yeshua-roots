@@ -266,3 +266,14 @@ test('library filters by guided pathway and clearly labels unapproved lessons', 
  assert.match(library, /awaiting founder approval/);
  assert.match(library, /ממתין לאישור המייסד/);
 });
+
+test('guided learning keeps Yeshua central while honoring original Scripture context', () => {
+ const paths=read('lib/learning-paths.ts');
+ const section=read('components/section-client.tsx');
+ assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,2);
+ assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,2);
+ assert.match(paths,/Read Genesis in its own context first/);
+ assert.match(paths,/preserving God’s faithfulness to Israel/);
+ assert.match(section,/Yeshua at the center:/);
+ assert.match(section,/ישוע במרכז הלימוד/);
+});
