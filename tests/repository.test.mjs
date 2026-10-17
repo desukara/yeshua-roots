@@ -14,7 +14,7 @@ test('all starter study translations have matching slugs', () => {
   const content = read('lib/content.ts');
   const translations = read('lib/study-translations.ts');
   const slugs = [...content.matchAll(/slug:\s*"([^"]+)"/g)].map(match => match[1]);
-  assert.equal(slugs.length, 5);
+  assert.equal(slugs.length, 6);
   for (const slug of slugs) assert.ok(translations.includes(`"${slug}":`), `Missing Hebrew translation: ${slug}`);
 });
 
@@ -237,7 +237,7 @@ test('all starter studies remain drafts and review requires founder approval', (
  const reader=read('components/study-reader.tsx');
  const workflow=read('docs/EDITORIAL_REVIEW.md');
  assert.match(content, /export type EditorialStatus = "draft" \| "founder-approved"/);
- assert.equal((content.match(/editorialStatus:"draft"/g)||[]).length,5);
+ assert.equal((content.match(/editorialStatus:"draft"/g)||[]).length,6);
  assert.match(reader, /study\.editorialStatus==="draft"/);
  assert.match(workflow, /explicit founder approval/);
  assert.match(workflow, /Statement of Faith is \*\*not approved or published\*\*/);
@@ -248,8 +248,8 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  const content=read('lib/content.ts');
  const page=read('components/section-client.tsx');
  const stepSlugs=[...paths.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
- assert.equal(stepSlugs.length,5);
- assert.equal(new Set(stepSlugs).size,5);
+ assert.equal(stepSlugs.length,6);
+ assert.equal(new Set(stepSlugs).size,6);
  for(const slug of stepSlugs) assert.ok(content.includes('slug:"'+slug+'"'));
  assert.match(paths, /titleHe:/);
  assert.match(paths, /titleEn:/);
@@ -291,10 +291,10 @@ test('all starter studies have bilingual discussion questions', () => {
  const guides=read('lib/study-guides.ts');
  const reader=read('components/study-reader.tsx');
  const slugs=[...guides.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
- assert.equal(slugs.length,5);
- assert.equal(new Set(slugs).size,5);
- assert.equal((guides.match(/questionsEn:/g)||[]).length,6);
- assert.equal((guides.match(/questionsHe:/g)||[]).length,6);
+ assert.equal(slugs.length,6);
+ assert.equal(new Set(slugs).size,6);
+ assert.equal((guides.match(/questionsEn:/g)||[]).length,7);
+ assert.equal((guides.match(/questionsHe:/g)||[]).length,7);
  assert.match(reader,/studyGuides\.find/);
  assert.match(reader,/Questions for study and discussion/);
 });
@@ -327,4 +327,17 @@ test('every study has a unique translation, discussion guide, and learning-path 
  }
  const pathIds=[...paths.matchAll(/id:"([^"]+)"/g)].map(m=>m[1]);
  assert.equal(new Set(pathIds).size,pathIds.length,'learning pathway identifiers must be unique');
+});
+
+test('Yeshua and Torah fulfillment study is bilingual and retains Israel in context', () => {
+ const content=read('lib/content.ts');
+ const translations=read('lib/study-translations.ts');
+ const paths=read('lib/learning-paths.ts');
+ const guides=read('lib/study-guides.ts');
+ assert.match(content,/slug:"yeshua-torah-and-prophets"/);
+ assert.match(content,/Jeremiah 31:31–34/);
+ assert.match(content,/promise does not erase Israel/);
+ assert.match(translations,/"yeshua-torah-and-prophets":/);
+ assert.match(paths,/slug:"yeshua-torah-and-prophets"/);
+ assert.match(guides,/slug:"yeshua-torah-and-prophets"/);
 });
