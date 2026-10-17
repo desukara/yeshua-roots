@@ -171,3 +171,10 @@ test('study hall identifies edition licenses and links to the source passage', (
  assert.match(hall, /noopener noreferrer/);
  assert.match(hall, /View this passage on Sefaria/);
 });
+
+test('study hall clears stale text and discloses its display limit', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /setLoading\(true\);setError\(""\);setData\(null\)/);
+ assert.match(hall, /Showing up to 120 segments per edition/);
+ assert.match(hall, /flatten\(source\?\.text\)\.length>120/);
+});
