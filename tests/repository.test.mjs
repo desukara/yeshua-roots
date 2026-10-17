@@ -113,3 +113,11 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
   assert.match(reader, /Introductory study for reflection and discussion/);
   assert.match(reader, /href="\/library"/);
 });
+
+test('study hall preserves Torah terminology and labels source language honestly', () => {
+  const hall = read('components/beit-midrash.tsx');
+  assert.match(hall, /We study the Torah in its Jewish context/);
+  assert.doesNotMatch(hall, /Torah means all Scripture/);
+  assert.match(hall, /source\?\.language/);
+  assert.match(hall, /Source text/);
+});
