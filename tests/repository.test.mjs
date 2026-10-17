@@ -277,3 +277,12 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
+
+test('teachings explain a Yeshua-centered reading method in both languages', () => {
+ const page=read('components/section-client.tsx');
+ assert.match(page,/function ScriptureReadingMethod/);
+ assert.match(page,/Read Scripture with Yeshua at the center/);
+ assert.match(page,/לקרוא את הכתובים כשישוע במרכז/);
+ assert.match(page,/Distinguish direct quotations, patterns, and interpretations/);
+ assert.match(page,/slug==="teachings"&&<ScriptureReadingMethod/);
+});
