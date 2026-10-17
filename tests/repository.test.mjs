@@ -242,3 +242,18 @@ test('all starter studies remain drafts and review requires founder approval', (
  assert.match(workflow, /explicit founder approval/);
  assert.match(workflow, /Statement of Faith is \*\*not approved or published\*\*/);
 });
+
+test('guided bilingual curriculum links the four existing draft studies', () => {
+ const paths=read('lib/learning-paths.ts');
+ const content=read('lib/content.ts');
+ const page=read('components/section-client.tsx');
+ const stepSlugs=[...paths.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(stepSlugs.length,4);
+ assert.equal(new Set(stepSlugs).size,4);
+ for(const slug of stepSlugs) assert.ok(content.includes('slug:"'+slug+'"'));
+ assert.match(paths, /titleHe:/);
+ assert.match(paths, /titleEn:/);
+ assert.match(page, /function GuidedCurriculum/);
+ assert.match(page, /awaiting founder approval/);
+ assert.match(page, /slug==="teachings"&&<GuidedCurriculum/);
+});
