@@ -23,3 +23,15 @@ test('unpublished ministry services remain identified as unavailable', () => {
   assert.match(translations, /not yet live/);
   assert.match(translations, /not yet published/);
 });
+
+test('homepage hero identifies an online Messianic synagogue in both languages', () => {
+  const translations = read('lib/translations.ts');
+  assert.match(translations, /An Online Messianic Synagogue/);
+  assert.match(translations, /בית כנסת משיחי מקוון/);
+});
+
+test('interlinear promotional kicker is localized', () => {
+  const homepage = read('app/page.tsx');
+  assert.match(homepage, /לימוד תורה · עיון במילים/);
+  assert.match(homepage, /TORAH STUDY · WORD STUDY/);
+});
