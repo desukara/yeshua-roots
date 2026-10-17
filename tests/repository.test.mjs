@@ -178,3 +178,13 @@ test('study hall clears stale text and discloses its display limit', () => {
  assert.match(hall, /Showing up to 120 segments per edition/);
  assert.match(hall, /flatten\(source\?\.text\)\.length>120/);
 });
+
+test('passage reference input reflects server limits with accessible guidance', () => {
+ const hall=read('components/beit-midrash.tsx');
+ const api=read('app/api/library/text/route.ts');
+ assert.match(hall, /maxLength=\{110\}/);
+ assert.match(hall, /aria-describedby="bm-ref-hint"/);
+ assert.match(hall, /id="bm-ref-hint"/);
+ assert.match(hall, /Enter a passage reference up to 110 characters/);
+ assert.match(api, /ref\.length>110/);
+});
