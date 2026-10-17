@@ -2,7 +2,20 @@
 
 **One Messiah. One Torah. One Family.**
 
-A welcoming worldwide Messianic house of Torah learning, headquartered in Tokyo, Japan.
+A worldwide Messianic teaching ministry centered on Yeshua, the living Jewish Messiah of Israel, headquartered in Tokyo, Japan.
+
+## Mission and editorial standard
+
+**Yeshua is alive, present, aware, and active now.** He is the living Jewish Messiah of Israel. His Jewish identity, Messiahship, authority, and presence are enduring realities, never merely historical descriptions.
+
+- Teach that Yeshua fulfills the Torah and the Prophets without abolishing them (Matthew 5:17–19).
+- Read Yeshua and His earliest disciples within the Jewish setting of Israel's Scriptures.
+- Explain that Gentile believers are grafted into Israel's olive tree; they do not replace Israel (Romans 11:17–24).
+- Past tense may describe particular events of His earthly ministry, **never** imply that Yeshua is absent, dead, or no longer Jewish.
+- Distinguish the ministry's theological convictions from historically contested interpretations; source historical claims carefully.
+- Keep the motto: **One Messiah. One Torah. One Family.**
+- Apply these principles to English, Hebrew, metadata, navigation, studies, and all future content.
+- New doctrinal statements require editorial review; introductory articles are not automatically approved teaching.
 
 ## Languages
 
