@@ -2,13 +2,13 @@
 
 ## Symbol and wordmark
 
-- Standalone icons and shortcuts: `/brand/favicon.svg` or `/brand/app-icon.svg` (olive tree only; no lettering).
+- Standalone icons and shortcuts: `/brand/favicon.svg` or `/brand/app-icon.svg` (simplified olive tree only; no lettering). These deliberately use fewer leaves and stronger silhouette than the full-size tree illustration.
 - Website header and light backgrounds: `/brand/wordmark.svg`.
 - Footer and dark backgrounds: `/brand/wordmark-dark.svg`.
 - Large branded splash/social compositions: `/brand/splash-light.svg` and `/brand/splash-dark.svg`.
 - Full rooted tree artwork: `/brand/olive-tree.svg`.
 
-The required lettering reads **YESHUA ROOTS** in the **Latin/English alphabet**. Its visual inspiration is restrained ancient Hebrew inscriptional structure: clear proportions, stable strokes and quiet, squared terminals. **Never** use German Gothic, Fraktur, blackletter, rune-like cuts or actual Hebrew letters as a substitute for the English name. The current placeholder vectors are **not approved final artwork**; replace and visually review them before production.
+The required lettering reads **YESHUA ROOTS** in the **Latin/English alphabet**. Its visual inspiration is restrained ancient Hebrew inscriptional structure: clear proportions, stable strokes and quiet, squared terminals. **Never** use German Gothic, Fraktur, blackletter, rune-like cuts or actual Hebrew letters as a substitute for the English name. The current SVG studies are **not approved final artwork**; visually review and refine them before production. The full-size wordmark currently uses a conventional readable serif as a temporary alternative to the rejected blackletter lettering.
 
 ## Colors
 
