@@ -121,3 +121,10 @@ test('study hall preserves Torah terminology and labels source language honestly
   assert.match(hall, /source\?\.language/);
   assert.match(hall, /Source text/);
 });
+
+test('study hall identifies external Sefaria source and loading state', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /Texts are retrieved from Sefaria/);
+ assert.match(hall, /aria-busy=\{loading\}/);
+ assert.match(hall, /חמשת חומשי תורה/);
+});
