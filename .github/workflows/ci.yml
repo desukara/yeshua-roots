@@ -4,16 +4,42 @@ on:
     branches: [main, brand/ancient-olive-tree]
   pull_request:
     branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
+      - name: Validate branding assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          icon_paths = ['public/brand/favicon.svg', 'public/brand/app-icon.svg', 'app/icon.svg']
+          wordmark_paths = ['public/brand/wordmark.svg', 'public/brand/wordmark-dark.svg']
+          for filename in icon_paths + wordmark_paths:
+              root = ET.parse(filename).getroot()
+              assert root.tag.endswith('svg'), f'{filename}: expected SVG'
+              assert root.attrib.get('viewBox'), f'{filename}: missing viewBox'
+          for filename in icon_paths:
+              source = Path(filename).read_text().lower()
+              assert '<text' not in source and 'yeshua roots' not in source, f'{filename}: icons must be emblem-only'
+          for filename in wordmark_paths:
+              source = Path(filename).read_text().lower()
+              assert 'yeshua roots' in source, f'{filename}: missing accessible brand name'
+          print('Branding asset checks passed')
+          PY
       - name: Typecheck
         run: npm run lint
       - name: Production build
