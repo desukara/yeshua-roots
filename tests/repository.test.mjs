@@ -209,3 +209,14 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /not finalized approved ministry doctrine/);
  assert.match(section, /slug==="about"&&<MinistryIdentity/);
 });
+
+test('teaching page offers bilingual learning routes without overstating editorial approval', () => {
+ const section=read('components/section-client.tsx');
+ assert.match(section, /function TeachingPathways/);
+ assert.match(section, /Choose a place to begin/);
+ assert.match(section, /Introductory studies/);
+ assert.match(section, /Read Scripture/);
+ assert.match(section, /Explore Biblical Hebrew/);
+ assert.match(section, /remain under editorial review/);
+ assert.match(section, /slug==="teachings"&&<TeachingPathways/);
+});
