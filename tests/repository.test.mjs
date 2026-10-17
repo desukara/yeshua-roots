@@ -257,3 +257,16 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  assert.match(page, /awaiting founder approval/);
  assert.match(page, /slug==="teachings"&&<GuidedCurriculum/);
 });
+
+test('all four studies offer bilingual Scripture-based discussion guides', () => {
+ const guides=read('lib/study-guides.ts');
+ const reader=read('components/study-reader.tsx');
+ const content=read('lib/content.ts');
+ const slugs=[...guides.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(slugs.length,4);
+ for(const slug of slugs) assert.ok(content.includes('slug:"'+slug+'"'));
+ assert.equal((guides.match(/questionsEn:/g)||[]).length,4);
+ assert.equal((guides.match(/questionsHe:/g)||[]).length,4);
+ assert.match(reader, /studyGuides\.find/);
+ assert.match(reader, /Questions for study and discussion/);
+});
