@@ -14,12 +14,13 @@ The language provider is in `components/language-provider.tsx`, the switcher in 
 
 ```bash
 npm install
-npm run lint
+npm run typecheck
+npm test
 npm run build
 npm run dev
 ```
 
-Visit http://localhost:3000.
+`npm run check` runs the type check, repository smoke tests, and production build together. The legacy `lint` command currently aliases TypeScript checking; a dedicated ESLint setup is a follow-up task. CI runs these checks on pull requests and pushes to `main` using Node.js 22. Because no lockfile is committed yet, CI uses `npm install`; adding a committed lockfile and switching to `npm ci` is recommended for reproducible builds.\n\nVisit http://localhost:3000.
 
 ## Content review
 
