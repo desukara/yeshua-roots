@@ -152,3 +152,11 @@ test('study hall offers bilingual retry after failed text fetch', () => {
  assert.match(hall, /Retry loading/);
  assert.match(hall, /נסו שוב/);
 });
+
+test('study hall avoids invented verse numbers and respects Aramaic direction', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.doesNotMatch(hall, /<sup>\{i\+1\}<\/sup>/);
+ assert.match(hall, /numbering varies by work and edition/);
+ assert.match(hall, /aramaic/i);
+ assert.match(hall, /sourceLanguage==="he"\|\|sourceLanguage==="arc"/);
+});
