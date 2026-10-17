@@ -104,3 +104,12 @@ test('study pages use article-specific metadata and library copy describes real 
   assert.match(library, /introductory Torah and Messianic studies/);
   assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
 });
+
+test('study reader provides a main landmark, bilingual editorial notice and library return', () => {
+  const reader = read('components/study-reader.tsx');
+  assert.match(reader, /id="main-content" tabIndex=\{-1\}/);
+  assert.match(reader, /reading-editorial-note/);
+  assert.match(reader, /לימוד מבוא ראשוני/);
+  assert.match(reader, /Introductory study for reflection and discussion/);
+  assert.match(reader, /href="\/library"/);
+});
