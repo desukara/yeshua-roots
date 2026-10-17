@@ -59,3 +59,17 @@ test('homepage distinguishes planned services and supports flexible hero lines',
   assert.match(styles, /\.room-card\.is-developing/);
   assert.match(homepage, /welcome-visual" aria-hidden="true"/);
 });
+
+test('saved Hebrew locale is restored before persisting the language preference', () => {
+  const provider = read('components/language-provider.tsx');
+  assert.match(provider, /setRestored\(true\)/);
+  assert.match(provider, /if\(!restored\)return/);
+  assert.match(provider, /\[locale,restored\]/);
+});
+
+test('introductory study shelf discloses its editorial status', () => {
+  const homepage = read('app/page.tsx');
+  assert.match(homepage, /introductory study materials/);
+  assert.match(homepage, /לימודי מבוא ראשוניים/);
+  assert.match(homepage, /home-studies-heading/);
+});
