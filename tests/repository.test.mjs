@@ -257,3 +257,12 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  assert.match(page, /awaiting founder approval/);
  assert.match(page, /slug==="teachings"&&<GuidedCurriculum/);
 });
+
+test('library filters by guided pathway and clearly labels unapproved lessons', () => {
+ const library=read('components/study-library.tsx');
+ assert.match(library, /learningPaths\.find/);
+ assert.match(library, /setPathway\("All"\)/);
+ assert.match(library, /editorialStatus==="draft"/);
+ assert.match(library, /awaiting founder approval/);
+ assert.match(library, /ממתין לאישור המייסד/);
+});
