@@ -220,3 +220,14 @@ test('teaching page offers bilingual learning routes without overstating editori
  assert.match(section, /remain under editorial review/);
  assert.match(section, /slug==="teachings"&&<TeachingPathways/);
 });
+
+test('official ministry motto replaces the former three-part slogan in both languages', () => {
+ const copy=read('lib/translations.ts');
+ const home=read('app/page.tsx');
+ assert.match(copy, /Rooted in Yeshua\. Growing in Faith\./);
+ assert.match(copy, /מושרשים בישוע\. צומחים באמונה\./);
+ assert.doesNotMatch(copy, /One Messiah\. One Torah\. One Family\./);
+ assert.doesNotMatch(copy, /משיח אחד\. תורה אחת\. משפחה אחת\./);
+ assert.match(home, /c\.mottoLines\[1\]/);
+ assert.doesNotMatch(home, /c\.mottoLines\[2\]/);
+});
