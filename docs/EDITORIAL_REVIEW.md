@@ -11,7 +11,23 @@ The founder retains final approval over official doctrine, the Statement of Fait
 - `draft`: Working or introductory material; may be visible as an explicitly labeled study, but must never be described as approved doctrine.
 - `founder-approved`: The founder has explicitly approved the exact reviewed text and its English/Hebrew presentation. Store the approval reference in the associated pull request before changing this status.
 
-All four initial studies in `lib/content.ts` remain `draft`. No approval is implied by the introduction of this workflow.
+All seven studies in `lib/content.ts` remain `draft`. Merging a teaching PR does not mean its exact English and Hebrew text has been approved.
+
+## Founder review queue
+
+Review each lesson in both languages at `/library` before requesting a status change. The current queue is:
+
+| Study slug | English title | Status |
+| --- | --- | --- |
+| `beginning-with-the-word` | In the Beginning: The Word and the Light | draft |
+| `the-blessing-of-shabbat` | The Gift of Shabbat | draft |
+| `one-olive-tree` | One Olive Tree, One Family | draft |
+| `grace-and-faithfulness` | Grace That Teaches Us to Walk | draft |
+| `yeshua-jewish-messiah` | Yeshua, the Jewish Messiah: Reading the Witnesses | draft |
+| `yeshua-torah-and-prophets` | Yeshua and the Torah and Prophets | draft |
+| `yeshua-is-alive` | Yeshua Is Alive: The Resurrection and the Living Messiah | draft |
+
+The founder can review the exact text and cite a study slug, revision/commit, and any requested changes. A general “approved” for development or merging does not approve doctrine. The English text lives in `lib/content.ts`; the Hebrew text in `lib/study-translations.ts`; questions in `lib/study-guides.ts`.
 
 ## Required review before approval
 
