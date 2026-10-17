@@ -35,3 +35,41 @@ test('interlinear promotional kicker is localized', () => {
   assert.match(homepage, /לימוד תורה · עיון במילים/);
   assert.match(homepage, /TORAH STUDY · WORD STUDY/);
 });
+
+test('homepage centers living Messiah and Scripture without routing visitors to unfinished community features', () => {
+  const homepage = read('app/page.tsx');
+  const copy = read('lib/translations.ts');
+  assert.match(copy, /The Living Jewish Messiah/);
+  assert.match(copy, /המשיח היהודי החי/);
+  assert.match(copy, /Yeshua is alive, present, and active/);
+  assert.match(homepage, /MATTHEW 5:17–19/);
+  assert.match(homepage, /Not Abolished\. Fulfilled in Messiah/);
+  assert.match(homepage, /href="\/study\/one-olive-tree"/);
+  assert.match(homepage, /href="\/library">{c\.findPlace}/);
+  assert.match(copy, /In Development/);
+  assert.match(copy, /בפיתוח/);
+});
+
+test('homepage distinguishes planned services and supports flexible hero lines', () => {
+  const homepage = read('app/page.tsx');
+  const styles = read('app/globals.css');
+  assert.match(homepage, /hero-title-line/);
+  assert.match(homepage, /developing\.has\(hrefs\[i\]\)/);
+  assert.match(homepage, /See what is planned/);
+  assert.match(styles, /\.room-card\.is-developing/);
+  assert.match(homepage, /welcome-visual" aria-hidden="true"/);
+});
+
+test('saved Hebrew locale is restored before persisting the language preference', () => {
+  const provider = read('components/language-provider.tsx');
+  assert.match(provider, /setRestored\(true\)/);
+  assert.match(provider, /if\(!restored\)return/);
+  assert.match(provider, /\[locale,restored\]/);
+});
+
+test('introductory study shelf discloses its editorial status', () => {
+  const homepage = read('app/page.tsx');
+  assert.match(homepage, /introductory study materials/);
+  assert.match(homepage, /לימודי מבוא ראשוניים/);
+  assert.match(homepage, /home-studies-heading/);
+});

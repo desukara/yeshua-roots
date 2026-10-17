@@ -325,3 +325,16 @@ html[dir="rtl"] .skip-to-content{left:auto;right:16px}
 .arch-inner{background:linear-gradient(180deg,#23629c,#74add1);border-color:#d7b87d}
 .grafted-olive-frame{border-radius:12px;border:8px solid #fffaf0;outline:2px solid #ad884d;box-shadow:0 12px 30px #3a2c1e25}
 @media(max-width:700px){.welcome-copy h1{font-size:clamp(36px,9vw,56px)}}
+
+/* Phase 3 homepage: flexible bilingual headings and honest service hierarchy */
+.welcome-copy h1 .hero-title-line{display:block;max-width:100%;overflow-wrap:break-word}
+.welcome-copy h1 .hero-title-line:last-child{font-size:.65em;line-height:1.25;font-style:normal;color:#8c6c3d}
+.room-card.is-developing{border-top-color:#9b9a88;background:#f7f2e9}
+.room-card.is-developing .room-top,.room-card.is-developing .room-link{color:#6d6b5c}
+.room-card.is-developing:hover{transform:none;box-shadow:0 8px 25px #49351b0b}
+html[dir="rtl"] .welcome-copy h1{letter-spacing:normal}
+@media(max-width:700px){.welcome-copy h1{font-size:clamp(34px,8.4vw,56px)}.welcome-copy h1 .hero-title-line{hyphens:auto}.home-intro{padding-block:70px}.room-card.is-developing{min-height:280px}}
+
+/* Editorial context for the initial study shelf */
+.study-editorial-note{max-width:780px;margin:0 auto 28px;padding:12px 18px;border-inline-start:3px solid #ad884d;background:#f7f0e4;color:#514d42;font-size:14px;line-height:1.65}
+html[dir="rtl"] .study-editorial-note{text-align:right}
