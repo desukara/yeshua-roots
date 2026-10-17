@@ -84,3 +84,13 @@ test('mission framing stays consistent across metadata, About and editorial poli
   assert.match(readme, /alive, present, aware, and active now/);
   assert.match(readme, /Gentile believers are grafted into Israel's olive tree/);
 });
+
+test('section metadata does not misrepresent unfinished services as live', () => {
+  const section = read('app/[slug]/page.tsx');
+  assert.match(section, /export async function generateMetadata/);
+  assert.match(section, /News — In Development/);
+  assert.match(section, /Community — In Development/);
+  assert.match(section, /Contact — In Development/);
+  assert.match(section, /active contact inbox is not yet available/);
+  assert.match(section, /living Jewish Messiah of Israel/);
+});
