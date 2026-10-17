@@ -277,3 +277,15 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
+
+test('four starter studies have bilingual discussion questions', () => {
+ const guides=read('lib/study-guides.ts');
+ const reader=read('components/study-reader.tsx');
+ const slugs=[...guides.matchAll(/slug:"([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(slugs.length,4);
+ assert.equal(new Set(slugs).size,4);
+ assert.equal((guides.match(/questionsEn:/g)||[]).length,5);
+ assert.equal((guides.match(/questionsHe:/g)||[]).length,5);
+ assert.match(reader,/studyGuides\.find/);
+ assert.match(reader,/Questions for study and discussion/);
+});
