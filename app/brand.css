@@ -10,3 +10,9 @@
 .grafted-olive-art{background:#E8DDC4}
 .grafted-olive-copy{background:var(--sand)}
 .bm-reader-head{background:#F5EEDD}
+
+/* Accessible brand surfaces and icon rendering: no glow, gradients or filters. */
+.brand-wordmark,.footer-wordmark,.hero-brand-tree,.blessing-tree{image-rendering:auto;filter:none}
+.site-header .brand:focus-visible,.site-footer .footer-brand:focus-visible{outline:3px solid var(--gold);outline-offset:5px;border-radius:3px}
+@media (forced-colors:active){.site-header .brand,.site-footer .footer-brand{outline-color:Highlight}.brand-wordmark,.footer-wordmark{background:Canvas}}
+@media (prefers-reduced-motion:reduce){.brand-wordmark,.footer-wordmark{transition:none}}
