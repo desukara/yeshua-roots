@@ -144,3 +144,11 @@ test('library text proxy rejects malformed or empty upstream responses', () => {
  assert.match(api, /No readable text available for this reference/);
  assert.match(api, /typeof payload\.ref==="string"/);
 });
+
+test('study hall offers bilingual retry after failed text fetch', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /setRetryCount\(n=>n\+1\)/);
+ assert.match(hall, /\[activeRef,retryCount\]/);
+ assert.match(hall, /Retry loading/);
+ assert.match(hall, /נסו שוב/);
+});
