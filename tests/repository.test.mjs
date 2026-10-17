@@ -197,3 +197,15 @@ test('study reader distinguishes invalid references from temporary source errors
  assert.match(hall, /מראה המקום אינו תקין/);
  assert.match(hall, /Retry loading/);
 });
+
+test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
+ const section=read('components/section-client.tsx');
+ assert.match(section, /function MinistryIdentity/);
+ assert.match(section, /Yeshua is alive and active/);
+ assert.match(section, /Torah and the Prophets/);
+ assert.match(section, /Israel and the nations/);
+ assert.match(section, /Statement of Faith — founder review pending/);
+ assert.match(section, /only after founder review and approval/);
+ assert.match(section, /not finalized approved ministry doctrine/);
+ assert.match(section, /slug==="about"&&<MinistryIdentity/);
+});
