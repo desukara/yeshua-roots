@@ -22,7 +22,7 @@ Assistance must be offered with dignity and without conditions of religious conv
 
 ## Launch sequence
 
-1. **Founder review:** approve exact public mission wording and initial geographic scope.
+1. **Founder review:** approve exact public mission wording. **Initial pilot region: Tokyo, Japan**, as designated by the founder.
 2. **Local partnerships:** identify and verify food banks, shelters, social workers, child-protection specialists, refugee assistance providers, and elder-care partners.
 3. **Safeguarding:** adopt procedures for minors, abuse survivors, confidential records, referrals, volunteer screening, and emergencies; never publish beneficiary stories without informed consent.
 4. **Pilot food outreach:** begin with a small, accountable local food-distribution partnership; track meals and supplies delivered without collecting unnecessary personal data.
@@ -35,7 +35,7 @@ No active food distribution, assistance intake, donation collection, volunteer e
 
 ## Decisions for founder
 
-- First city or region for a food outreach pilot.
+- Tokyo is the designated first pilot region. Choose the initial ward and an outreach partner before scheduling any service.
 - Whether to partner with an existing food bank or shelter before independent distributions.
 - Who will own safeguarding, volunteer coordination, and financial oversight.
 - Exact public mission wording and reporting commitments.
