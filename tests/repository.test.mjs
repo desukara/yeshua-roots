@@ -188,3 +188,12 @@ test('passage reference input reflects server limits with accessible guidance', 
  assert.match(hall, /Enter a passage reference up to 110 characters/);
  assert.match(api, /ref\.length>110/);
 });
+
+test('study reader distinguishes invalid references from temporary source errors', () => {
+ const hall=read('components/beit-midrash.tsx');
+ assert.match(hall, /r\.status===400\?"Invalid text reference"/);
+ assert.match(hall, /"invalid-reference":"load-failed"/);
+ assert.match(hall, /This passage reference is invalid/);
+ assert.match(hall, /מראה המקום אינו תקין/);
+ assert.match(hall, /Retry loading/);
+});
