@@ -231,3 +231,14 @@ test('official ministry motto replaces the former three-part slogan in both lang
  assert.match(home, /c\.mottoLines\[1\]/);
  assert.doesNotMatch(home, /c\.mottoLines\[2\]/);
 });
+
+test('all starter studies remain drafts and review requires founder approval', () => {
+ const content=read('lib/content.ts');
+ const reader=read('components/study-reader.tsx');
+ const workflow=read('docs/EDITORIAL_REVIEW.md');
+ assert.match(content, /export type EditorialStatus = "draft" \| "founder-approved"/);
+ assert.equal((content.match(/editorialStatus:"draft"/g)||[]).length,4);
+ assert.match(reader, /study\.editorialStatus==="draft"/);
+ assert.match(workflow, /explicit founder approval/);
+ assert.match(workflow, /Statement of Faith is \*\*not approved or published\*\*/);
+});
