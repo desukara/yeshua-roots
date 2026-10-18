@@ -8,7 +8,8 @@ import {getMemberAuthClient} from "../../../lib/member-auth";
 export default function ResetPasswordPage(){
  const {locale}=useLanguage();const he=locale==="he";
  const [ready,setReady]=useState(false),[password,setPassword]=useState(""),[notice,setNotice]=useState(""),[busy,setBusy]=useState(false);
- const auth=getMemberAuthClient();\n const recoverySeen=useRef(false);
+ const auth=getMemberAuthClient();
+ const recoverySeen=useRef(false);
  useEffect(()=>{if(!auth)return;const {data:{subscription}}=auth.auth.onAuthStateChange((event,session)=>{if(event==="PASSWORD_RECOVERY"&&session){recoverySeen.current=true;setReady(true);}else if(event==="SIGNED_OUT"){recoverySeen.current=false;setReady(false);}});return()=>subscription.unsubscribe();},[auth]);
  async function submit(e:FormEvent){e.preventDefault();if(!auth||!ready||!recoverySeen.current||busy)return;setBusy(true);const {error}=await auth.auth.updateUser({password});setBusy(false);setPassword("");if(!error){recoverySeen.current=false;setReady(false);}setNotice(error?error.message:(he?"הסיסמה עודכנה.":"Password updated. You can now sign in."));}
  return <><SiteHeader/><main id="main-content" tabIndex={-1} className="section" style={{maxWidth:640,margin:"0 auto",padding:"4rem 1.5rem"}} dir={he?"rtl":"ltr"}><h1>{he?"איפוס סיסמה":"Reset your password"}</h1>{ready?<form onSubmit={submit}><label>{he?"סיסמה חדשה":"New password"}<input style={{display:"block",padding:".7rem",margin:".7rem 0"}} type="password" autoComplete="new-password" minLength={8} required value={password} onChange={e=>setPassword(e.target.value)}/></label><button disabled={busy} type="submit">{he?"עדכון סיסמה":"Update password"}</button></form>:<p>{he?"פתח את קישור האיפוס שקיבלת באימייל כדי להמשיך.":"Open the password reset link in your email to continue."}</p>}{notice&&<p role="status">{notice}</p>}<p><Link href="/members">{he?"חזרה לחברים":"Back to members"}</Link></p></main><SiteFooter/></>;
