@@ -17,6 +17,7 @@ export default function MembersPage(){
  const [password,setPassword]=useState("");
  const [busy,setBusy]=useState(false);
  const [notice,setNotice]=useState("");
+ const [confirmationPending,setConfirmationPending]=useState(false);
  const auth=getMemberAuthClient();
  useEffect(()=>{
   if(!auth){setReady(true);return;}
@@ -36,13 +37,19 @@ export default function MembersPage(){
    }else if(mode==="signup"){
     const {data,error}=await auth.auth.signUp({email,password,options:{emailRedirectTo:window.location.origin+"/members"}});
     if(error)throw error;
-    setNotice(data.session?(he?"החשבון נוצר והתחברת.":"Your account is ready and you are signed in."):(he?"בדוק את תיבת הדואר כדי לאמת את כתובת האימייל.":"Check your email to confirm your address before signing in."));
+    setConfirmationPending(!data.session);
+    setNotice(data.session?(he?"החשבון נוצר והתחברת.":"Your account is ready and you are signed in."):(he?"הבקשה התקבלה. בדוק את הדוא״ל, כולל תיקיית הספאם. אם לא הגיע קישור, אל תלחץ שוב ושוב — ייתכן שקיימת הגבלת שליחה זמנית.":"Request received. Check your inbox and spam folder for a confirmation link. Please do not keep resubmitting: email delivery may be temporarily limited."));
    }else{
     const {error}=await auth.auth.signInWithPassword({email,password});
     if(error)throw error;
     setNotice(he?"התחברת בהצלחה.":"Signed in successfully.");
    }
-  }catch(error){setNotice(error instanceof Error?error.message:(he?"אירעה שגיאה.":"Something went wrong."));}
+  }catch(error){
+   const message=error instanceof Error?error.message:"";
+   if(/rate limit|too many|seconds|email limit|429/i.test(message))setNotice(he?"יותר מדי ניסיונות בזמן קצר. אנא המתן מספר דקות לפני ניסיון נוסף. אם הבעיה נמשכת, פנה אלינו.":"Too many attempts in a short time. Please wait a few minutes before trying again. If this continues, contact us.");
+   else if(/already registered|user already exists/i.test(message))setNotice(he?"ייתכן שכבר קיים חשבון. נסה להתחבר או לאפס סיסמה.":"An account may already exist. Try signing in or resetting your password.");
+   else setNotice(message|| (he?"אירעה שגיאה. נסה שוב מאוחר יותר.":"Something went wrong. Please try again later."));
+  }
   finally{setBusy(false);setPassword("");}
  }
  async function signOut(){if(!auth)return;setBusy(true);const {error}=await auth.auth.signOut();setBusy(false);setNotice(error?error.message:(he?"התנתקת.":"Signed out."));}
@@ -54,17 +61,19 @@ export default function MembersPage(){
  <section aria-label={he?"החשבון שלך":"Your account"}><h2>{he?"ברוך הבא":"Welcome"}</h2><p>{user.email}</p><p>{he?"בקשות תפילה פרטיות עדיין אינן זמינות.":"Private prayer submissions are not available yet."}</p><button type="button" disabled={busy} onClick={signOut}>{he?"התנתקות":"Sign out"}</button></section>:
  <section>
  <h2>{mode==="signup"?(he?"יצירת חשבון":"Create an account"):mode==="reset"?(he?"איפוס סיסמה":"Reset password"):(he?"התחברות":"Sign in")}</h2>
+ {mode==="signup"&&<p>{he?"הזן כתובת דוא״ל וסיסמה, ואז לחץ על הכפתור למטה. לאחר מכן ייתכן שתצטרך לאשר את כתובת הדוא״ל שלך.":"Enter your email and password, then press the Create free account button below. We may ask you to confirm your email before you can sign in."}</p>}
  <form onSubmit={submit} style={{display:"grid",gap:"1rem",maxWidth:440}}>
  <label>{he?"כתובת אימייל":"Email address"}<input style={{display:"block",width:"100%",padding:".7rem"}} type="email" autoComplete="email" required maxLength={254} value={email} onChange={e=>setEmail(e.target.value)}/></label>
  {mode!=="reset"&&<label>{he?"סיסמה (לפחות 8 תווים)":"Password (at least 8 characters)"}<input style={{display:"block",width:"100%",padding:".7rem"}} type="password" autoComplete={mode==="signup"?"new-password":"current-password"} minLength={mode==="signup"?8:1} required value={password} onChange={e=>setPassword(e.target.value)}/></label>}
- <button disabled={busy} type="submit">{busy?(he?"אנא המתן...":"Please wait..."):mode==="signup"?(he?"הרשמה בחינם":"Create free account"):mode==="reset"?(he?"שליחת קישור איפוס":"Send reset link"):(he?"התחברות":"Sign in")}</button>
+ <button disabled={busy||confirmationPending&&mode==="signup"} type="submit" style={{padding:"1rem 1.25rem",fontWeight:700,cursor:"pointer"}}>{busy?(he?"אנא המתן...":"Please wait..."):mode==="signup"?(he?"הרשמה בחינם":"Create free account"):mode==="reset"?(he?"שליחת קישור איפוס":"Send reset link"):(he?"התחברות":"Sign in")}</button>
  </form>
  <div style={{display:"flex",gap:"1rem",flexWrap:"wrap",marginTop:"1rem"}}>
  {mode!=="signin"&&<button type="button" onClick={()=>{setMode("signin");setNotice("");}}>{he?"כבר יש חשבון? התחברות":"Already a member? Sign in"}</button>}
  {mode!=="signup"&&<button type="button" onClick={()=>{setMode("signup");setNotice("");}}>{he?"יצירת חשבון":"Create account"}</button>}
  {mode!=="reset"&&<button type="button" onClick={()=>{setMode("reset");setNotice("");}}>{he?"שכחת סיסמה?":"Forgot password?"}</button>}
  </div></section>}
- {notice&&<p role="status" aria-live="polite">{notice}</p>}
+ {notice&&<p role="status" aria-live="polite" style={{padding:"1rem",border:"1px solid currentColor",borderRadius:8}}>{notice}</p>}
+ {confirmationPending&&<p><button type="button" onClick={()=>{setMode("signin");setConfirmationPending(false);setNotice("");}}>{he?"אישרתי את הדוא״ל — התחברות":"I confirmed my email — sign in"}</button></p>}
  <p style={{marginTop:"2rem"}}><Link href="/prayer">{he?"מידע על תפילה ופרטיות":"Prayer and privacy information"}</Link></p>
  </main><SiteFooter/></>;
 }
