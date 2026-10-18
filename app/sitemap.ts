@@ -2,7 +2,7 @@ import type {MetadataRoute} from "next";
 import {studies} from "../lib/content";
 
 const base = "https://yeshuaroots.com";
-const routes = ["", "/torah", "/teachings", "/news", "/community", "/about", "/contact", "/library", "/interlinear", "/outreach"];
+const routes = ["", "/torah", "/teachings", "/news", "/community", "/about", "/contact", "/library", "/interlinear", "/outreach", "/support"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [...routes, ...studies.map(study => `/study/${study.slug}`)].map(path => ({
