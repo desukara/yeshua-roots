@@ -53,3 +53,58 @@
  .home-royal .home-heart{padding:72px 24px}
 }
 @media(prefers-reduced-motion:reduce){.home-royal *, .home-royal *::before,.home-royal *::after{transition:none!important;scroll-behavior:auto!important}}
+
+/* Phase two: architectural rhythm, editorial typography, refined learning surfaces */
+.home-royal{--yr-measure:720px;--yr-wide:1180px;font-family:Arial,Helvetica,sans-serif}
+.home-royal .welcome-hero{min-height:min(760px,90svh);border-bottom:1px solid #d9cbb4}
+.home-royal .welcome-copy{padding-inline-start:max(5vw,calc((100vw - 1240px)/2));padding-inline-end:clamp(28px,5vw,78px)}
+.home-royal .welcome-copy h1{max-width:680px;letter-spacing:-.045em;font-weight:500;font-size:clamp(64px,6.2vw,106px);line-height:.99}
+.home-royal .welcome-copy h1 em{display:block;font-size:clamp(32px,3.3vw,52px);line-height:1.16;letter-spacing:-.025em;margin-top:22px}
+.home-royal .welcome-copy .kicker{letter-spacing:.22em}
+.home-royal .welcome-copy>p{font-size:clamp(17px,1.45vw,19px);line-height:1.85}
+.home-royal .welcome-visual{isolation:isolate;background:radial-gradient(ellipse at 50% 35%,#e8d8b9 0%,#bfa77d 53%,#927853 100%)}
+.home-royal .welcome-visual:before{inset:30px;border-color:#fff9e977}
+.home-royal .welcome-visual:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;background:repeating-linear-gradient(0deg,transparent 0 72px,#fff7e510 73px 74px),repeating-linear-gradient(90deg,transparent 0 140px,#fff7e50a 141px 142px);opacity:.45}
+.home-royal .arch{height:500px;width:min(350px,82%);border-width:8px;border-radius:180px 180px 6px 6px}
+.home-royal .arch-inner{border-radius:170px 170px 3px 3px}
+.home-royal .hebrew-large{font-family:Georgia,'Times New Roman',serif;font-size:clamp(64px,6vw,90px);line-height:1.2}
+.home-royal .visual-symbol{font-size:66px;opacity:.8}
+.home-royal .home-intro{max-width:var(--yr-measure);padding-block:clamp(88px,9vw,128px)}
+.home-royal .home-intro h2{font-weight:500;line-height:1.13;letter-spacing:-.035em;margin:24px auto}
+.home-royal .home-intro p{margin-inline:auto;max-width:660px}
+.home-royal .home-intro .text-link{margin-top:14px}
+.home-royal .home-heart{max-width:none;padding:clamp(85px,9vw,120px) max(24px,calc((100vw - 760px)/2));background:linear-gradient(135deg,#e6dac3,#f2e9d8)}
+.home-royal .home-heart:before{content:"✦";display:block;color:#9a7a44;font-size:26px;margin-bottom:24px}
+.home-royal .grafted-olive{background:#f3eee5}
+.home-royal .grafted-olive-copy h2{font-weight:500;letter-spacing:-.035em}
+.home-royal .interlinear-promo{position:relative;isolation:isolate;padding-block:clamp(90px,9vw,140px);background:var(--yr-ink)}
+.home-royal .interlinear-promo:before{content:"א ב ג";position:absolute;inset-inline-end:6%;top:10%;font:normal clamp(70px,11vw,160px)/1.5 Georgia,serif;color:#ffffff0a;z-index:-1;pointer-events:none}
+.home-royal .interlinear-promo h2{font-weight:500;letter-spacing:-.035em}
+.home-royal .learning-rooms{padding-inline:max(24px,calc((100vw - 1180px)/2))}
+.home-royal .room-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.home-royal .room-card{min-height:270px;padding:clamp(26px,3vw,42px)}
+.home-royal .room-card h3{font-weight:500;font-size:clamp(26px,2.6vw,36px)}
+.home-royal .room-hebrew{margin-top:18px}
+.home-royal .section-top{margin-bottom:40px}
+.home-royal .section-top h2,.home-royal .study-header h2{font-weight:500}
+.home-royal .study-section{padding-inline:max(24px,calc((100vw - 1180px)/2))}
+.home-royal .study-grid{gap:18px}
+.home-royal .study-card{min-height:300px;padding:clamp(26px,3vw,38px)}
+.home-royal .study-card h3{font-weight:500}
+.home-royal .study-editorial-note{max-width:780px;line-height:1.7}
+.home-royal .home-blessing{padding-block:clamp(90px,10vw,150px);border-top:1px solid #b4935555}
+.home-royal .home-blessing h2{font-weight:500;letter-spacing:-.045em}
+.home-royal .home-blessing .blessing-star{font-size:32px}
+.home-royal .btn,.home-royal .text-link,.home-royal .grafted-olive-link{min-height:44px}
+@media(max-width:900px){.home-royal .welcome-hero{min-height:0}.home-royal .welcome-copy h1{font-size:clamp(54px,7vw,80px)}}
+@media(max-width:760px){
+ .home-royal .welcome-copy{padding:68px 24px 56px}
+ .home-royal .welcome-copy h1{font-size:clamp(50px,11vw,72px)}
+ .home-royal .welcome-copy h1 em{font-size:clamp(29px,7vw,42px)}
+ .home-royal .welcome-visual{min-height:340px}
+ .home-royal .arch{height:300px;width:220px}
+ .home-royal .home-heart{padding:82px 24px}
+ .home-royal .room-grid{grid-template-columns:1fr}
+ .home-royal .room-card{min-height:240px}
+ .home-royal .interlinear-promo:before{opacity:.45}
+}
