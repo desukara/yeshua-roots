@@ -16,7 +16,7 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
   if(!response.ok)throw new Error("Sefaria unavailable");
   const data=(await response.json()) as SefariaChapter;
   if(!Array.isArray(data.he))throw new Error("Unexpected source format");
-  const verses=data.he.map(v=>typeof v==="string"?v.replace(/<[^>]*>/g,"").replace(/\\s+/g," ").trim():"");
+  const verses=data.he.map(v=>typeof v==="string"?v.replace(/<[^>]*>/g,"").replace(/\s+/g," ").trim():"");
   return NextResponse.json({book,chapter,verses,source:"Sefaria",sourceUrl:"https://www.sefaria.org/"+ref,version:data.heVersionTitle||null,sourceAttribution:data.heVersionSource||null});
  }catch{return NextResponse.json({error:"Unable to load Hebrew text right now."},{status:502});}
 }
