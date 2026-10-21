@@ -7,7 +7,7 @@ const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'
 test('sitemap includes interlinear reader and study routes', () => {
   const sitemap = read('app/sitemap.ts');
   assert.match(sitemap, /["']\/interlinear["']/);
-  assert.match(sitemap, /studies\.map/);
+  assert.match(sitemap, /publishedStudies\.map/);
 });
 
 test('all starter study translations have matching slugs', () => {
@@ -44,7 +44,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(copy, /Yeshua is alive, present, and active/);
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Not Abolished\. Fulfilled in Messiah/);
-  assert.match(homepage, /href="\/study\/one-olive-tree"/);
+  assert.match(homepage, /href="\/history\/jewish-roots"/);
   assert.match(homepage, /href="\/library">{c\.findPlace}/);
   assert.match(copy, /In Development/);
   assert.match(copy, /בפיתוח/);
@@ -168,7 +168,7 @@ test('study hall identifies edition licenses and links to the source passage', (
  assert.match(hall, /Translation edition:/);
  assert.match(hall, /source\.license/);
  assert.match(hall, /translation\.license/);
- assert.match(hall, /https:\/\/www\.sefaria\.org\//);
+ assert.match(hall, /Source: Sefaria/);
  assert.match(hall, /noopener noreferrer/);
  assert.match(hall, /View this passage on Sefaria/);
 });
