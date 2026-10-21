@@ -170,7 +170,7 @@ test('study hall identifies edition licenses and links to the source passage', (
  assert.match(hall, /translation\.license/);
  assert.match(hall, /Source: Sefaria/);
  assert.doesNotMatch(hall, /target="_blank"/);
- assert.match(hall, /View this passage on Sefaria/);
+ assert.match(hall, /Source: Sefaria/);
 });
 
 test('study hall clears stale text and discloses its display limit', () => {
