@@ -5,3 +5,8 @@
 .sh-hebrew-caption{font:700 11px Arial,sans-serif;letter-spacing:.32em;color:#d7c49c;margin-top:8px;text-align:center}
 .sh-hero-rule{width:72px;height:1px;background:#b69a6c;margin-top:34px}
 @media(max-width:800px){.sh-hero-art{min-height:235px;border-left:0;border-top:1px solid rgba(225,191,135,.2)}.sh-hebrew-word{font-size:100px}}
+
+/* References are on-page text, not outbound links. */
+.sh-references .sh-scripture-reference{font:700 12px Arial,sans-serif;color:#315e4d;background:#e7ebe1;padding:12px 14px;border-radius:4px}
+.sh-history .sh-history-link{display:inline-flex;align-items:center;margin-top:20px;padding:16px 24px;background:#153d33;color:#fff;border-radius:4px;text-decoration:none;font:700 14px Arial,sans-serif}
+.sh-history .sh-history-link:hover{background:#245648}
