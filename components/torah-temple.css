@@ -60,8 +60,11 @@ body:has(.torah-temple) .global-home-escape{display:none}
 .temple-architectural-rule i{display:block;width:10px;height:10px;border:2px solid #d4ab58;transform:rotate(45deg);flex:none}
 .temple-portal-foot .temple-architectural-rule{margin:0 auto}
 
-/* Romans 11:17 — Scripture, not an authored doctrinal declaration. */
+/* Matthew 5:17–19 — approved KJV Scripture. */
 .temple-grafting-verse{max-width:850px;margin:42px auto 0;padding:24px 30px;text-align:center;border-top:1px solid #b78b39;border-bottom:1px solid #b78b39;background:transparent;color:#4c351f;font-family:Georgia,'Times New Roman',serif}
 .temple-grafting-verse p{font-size:clamp(17px,2vw,22px);line-height:1.7;font-style:italic;margin:0 0 16px}
 .temple-grafting-verse cite{display:block;font:700 11px/1.5 system-ui,sans-serif;letter-spacing:.18em;color:#886225;font-style:normal}
 @media(max-width:480px){.temple-grafting-verse{padding:20px 12px}}
+ 
+.temple-grafting-verse p+p{margin-top:16px}
+.temple-grafting-verse p strong{font-style:normal;font-weight:700;color:#886225;margin-right:7px}
