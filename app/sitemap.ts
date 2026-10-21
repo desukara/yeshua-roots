@@ -1,11 +1,11 @@
 import type {MetadataRoute} from "next";
-import {studies} from "../lib/content";
+import {publishedStudies} from "../lib/content";
 
 const base = "https://yeshuaroots.com";
-const routes = ["", "/start-here", "/torah", "/teachings", "/news", "/community", "/about", "/contact", "/library", "/interlinear", "/outreach", "/support", "/prayer", "/members"];
+const routes = ["", "/start-here", "/torah", "/teachings", "/news", "/community", "/about", "/contact", "/library", "/interlinear", "/outreach", "/support", "/prayer", "/members", "/history/jewish-roots"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [...routes, ...studies.map(study => `/study/${study.slug}`)].map(path => ({
+  return [...routes, ...publishedStudies.map(study => `/study/${study.slug}`)].map(path => ({
     url: base + path,
     changeFrequency: path.startsWith("/study/") ? "monthly" as const : "weekly" as const,
     priority: path === "" ? 1 : 0.6,

@@ -31,3 +31,6 @@ export const studies:Study[]=[
 ],reflection:"If Yeshua truly lives, how might that change the way you read Scripture, pray, and follow Him today?"}
 ];
 export const nav=[{label:"Torah Study",href:"/torah"},{label:"Teachings",href:"/teachings"},{label:"News",href:"/news"},{label:"Community",href:"/community"},{label:"About",href:"/about"}];
+
+/** Only founder-approved studies may be exposed on public routes or navigation. */
+export const publishedStudies=studies.filter(study=>study.editorialStatus==="founder-approved");
