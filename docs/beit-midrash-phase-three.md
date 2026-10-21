@@ -91,3 +91,6 @@ Common Hebrew book names now map to the reader's canonical English book identifi
 
 ### Translation comparison resilience (pending validation)
 Primary and optional comparison translation requests now settle independently: if comparison fails, primary Scripture remains readable and a localized comparison warning appears. If primary fails, the reader still shows its chapter-loading error. Changing the primary translation clears a now-identical comparison selection. Manual regression cases: primary success/comparison failure; primary failure/comparison success; both success; rapid chapter switching; abort on unmount; switching primary to selected comparison. Verify on mobile and in Hebrew RTL before merge.
+
+### Retry and mixed-direction reference entry (pending validation)
+A localized Retry loading action reruns the current primary and comparison requests after a loading failure without changing the selected passage. The reference input uses automatic text direction for mixed Hebrew/English book names and numerals. Verify retry after primary failure and comparison-only failure; ensure no retry appears on a healthy chapter and rapid navigation cancels stale requests.
