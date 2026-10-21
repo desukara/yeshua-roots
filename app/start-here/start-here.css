@@ -10,3 +10,5 @@
 .sh-references .sh-scripture-reference{font:700 12px Arial,sans-serif;color:#315e4d;background:#e7ebe1;padding:12px 14px;border-radius:4px}
 .sh-history .sh-history-link{display:inline-flex;align-items:center;margin-top:20px;padding:16px 24px;background:#153d33;color:#fff;border-radius:4px;text-decoration:none;font:700 14px Arial,sans-serif}
 .sh-history .sh-history-link:hover{background:#245648}
+
+.sh-hero-history-link{display:inline-flex;max-width:360px;align-items:center;padding:15px 18px;border:1px solid #d4bb87;border-radius:4px;color:#f7e4b9;font:700 14px/1.45 Arial,sans-serif;text-decoration:none;background:#ffffff0a}.sh-hero-history-link:hover{background:#ffffff1b;color:#fff}
