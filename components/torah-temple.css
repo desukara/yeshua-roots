@@ -53,3 +53,9 @@ body:has(.torah-temple) .global-home-escape{display:none}
 .temple-ornament .temple-palm-frond:last-child,.temple-portal-foot .temple-palm-frond:last-child{transform:scaleX(-1)}
 .temple-portal-foot .temple-palm-frond{width:156px;height:80px}
 @media(max-width:480px){.temple-ornament .temple-palm-frond{width:75px;height:43px}.temple-portal-foot .temple-palm-frond{width:96px;height:54px}}
+
+/* Hebrew study-house architecture: restrained double gold rules instead of pseudo-Egyptian fronds/rosettes. */
+.temple-architectural-rule{display:flex;align-items:center;justify-content:center;gap:12px;width:min(320px,80%);height:26px;margin:14px auto}
+.temple-architectural-rule span{display:block;flex:1;height:5px;border-top:1px solid #d4ab58;border-bottom:1px solid #a77b34}
+.temple-architectural-rule i{display:block;width:10px;height:10px;border:2px solid #d4ab58;transform:rotate(45deg);flex:none}
+.temple-portal-foot .temple-architectural-rule{margin:0 auto}
