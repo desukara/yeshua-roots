@@ -97,3 +97,6 @@ A localized Retry loading action reruns the current primary and comparison reque
 
 ### Bible API response integrity (pending validation)
 The client now rejects empty verse arrays, missing verse arrays and malformed verse records even if the HTTP response is 200. A malformed primary response triggers the localized primary load error; a malformed comparison response preserves valid primary text and offers retry. Regression cases: HTTP 200 with empty verses; missing verses; malformed verse number/text; primary valid and comparison invalid; recovery after retry. No claim of Scripture content verification or source-text proofreading is implied by structural checks.
+
+### Server-side Scripture response validation (pending validation)
+The `/api/bible` route now rejects upstream responses with missing or empty verse arrays, non-positive or non-integer verse numbers, or missing/blank verse text. Rejected upstream payloads return the existing 502 error instead of being presented as successful chapter data. This complements, rather than replaces, client-side validation. Verify against upstream source variations and confirm CI before merge.
