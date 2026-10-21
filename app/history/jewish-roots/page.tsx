@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 import SiteHeader from "../../../components/site-header";
 import SiteFooter from "../../../components/site-footer";
 import "./history.css";
-export const metadata:Metadata={title:"How Yeshua's Jewish Movement Became Separated from Judaism",description:"A historical investigation into the Jewish beginnings of the Yeshua movement, Roman rule, the Jewish tax, Bar Kokhba, and the imperial church.",robots:{index:true,follow:true}};
+export const metadata:Metadata={title:"How Yeshua's Jewish Movement Became Separated from Judaism",description:"A historical investigation into the Jewish beginnings of the Yeshua movement, Roman rule, the Jewish tax, Bar Kokhba, and the imperial church.",robots:{index:true,follow:true},alternates:{canonical:"/history/jewish-roots"}};
 const sections=[
 {n:"01",label:"THE BEGINNING",title:"A movement born in Israel",paras:[
 "The story of Yeshua’s earliest followers does not begin in Rome. It begins in the land of Israel, among Jewish people whose Scriptures were the Torah, the Prophets, and the Writings. Yeshua taught in synagogues, went up to Jerusalem for the appointed feasts, and spoke of the kingdom of God in the language of Israel’s prophets. His apostles proclaimed that the crucified Yeshua had risen and was the Messiah promised to Israel.",
