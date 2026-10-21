@@ -1,0 +1,55 @@
+/* Royal Jerusalem — homepage-only design layer.
+   Deliberately scoped to the home page; other routes retain their existing styles. */
+:root{--yr-ink:#14283b;--yr-gold:#b49355;--yr-stone:#e9dfc9;--yr-paper:#f7f3ea;--yr-olive:#5c6853}
+.home-royal{background:var(--yr-paper);color:var(--yr-ink);overflow:clip}
+.home-royal .kicker{color:#886a36;letter-spacing:.19em;font-size:.72rem;font-weight:750}
+.home-royal h1,.home-royal h2,.home-royal h3{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.025em}
+.home-royal p{line-height:1.75}
+.home-royal .welcome-hero{min-height:650px;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);background:var(--yr-paper)}
+.home-royal .welcome-copy{padding:clamp(64px,8vw,120px) 5vw 70px max(7vw,32px);display:flex;flex-direction:column;justify-content:center}
+.home-royal .welcome-copy h1{font-size:clamp(52px,5.5vw,86px);line-height:1.08;color:var(--yr-ink);margin:22px 0 26px}
+.home-royal .welcome-copy h1 .hero-title-line{display:block}
+.home-royal .welcome-copy h1 em{color:#94713d;font-size:.68em;font-style:normal;letter-spacing:-.02em;margin-top:12px}
+.home-royal .welcome-copy>p{color:#3e4b4e;max-width:570px;font-size:clamp(16px,1.4vw,19px)}
+.home-royal .welcome-actions{margin:30px 0 42px;gap:20px}
+.home-royal .welcome-actions .primary,.home-royal .interlinear-promo .primary{background:var(--yr-ink);color:#fffaf0;border-radius:3px;box-shadow:none}
+.home-royal .welcome-actions .primary:hover,.home-royal .interlinear-promo .primary:hover{background:#274761}
+.home-royal .text-link{color:#71562e}
+.home-royal .welcome-note{color:#806b47}
+.home-royal .welcome-visual{background:linear-gradient(145deg,#d9c9ad,#a98d65);padding:clamp(24px,5vw,65px)}
+.home-royal .arch{box-shadow:0 25px 65px #14283b36;border-color:#eee0c4}
+.home-royal .arch-inner{background:var(--yr-ink);border-color:var(--yr-gold)}
+.home-royal .home-intro{padding:clamp(72px,7vw,100px) 24px;max-width:780px}
+.home-royal .home-intro h2{color:var(--yr-ink);font-size:clamp(37px,4vw,60px)}
+.home-royal .home-intro p{color:#475153;font-size:clamp(16px,1.4vw,18px);line-height:1.8}
+.home-royal .home-intro + .home-intro{padding-top:24px}
+.home-royal .home-heart{background:#e9dfc9;max-width:none;padding:90px max(24px,calc((100vw - 760px)/2));}
+.home-royal .home-heart h2{color:var(--yr-ink)}
+.home-royal .grafted-olive{background:#eee8dc}
+.home-royal .grafted-olive h2{color:var(--yr-ink)}
+.home-royal .interlinear-promo{background:var(--yr-ink);color:#fffaf0}
+.home-royal .interlinear-promo h2{color:#fffaf0}
+.home-royal .interlinear-promo p{color:#e4e5df}
+.home-royal .interlinear-promo .kicker{color:#d9bd83}
+.home-royal .interlinear-promo .primary{background:#d9bd83;color:var(--yr-ink)}
+.home-royal .learning-rooms{background:#eee8dc;padding-block:clamp(70px,7vw,100px)}
+.home-royal .section-top h2,.home-royal .study-header h2{color:var(--yr-ink)}
+.home-royal .room-grid{gap:14px}
+.home-royal .room-card,.home-royal .study-card{background:#fbf8f1;border:1px solid #d8cbb5;border-radius:2px;box-shadow:none}
+.home-royal .room-card h3,.home-royal .study-card h3{color:var(--yr-ink)}
+.home-royal .room-card p,.home-royal .study-card p{color:#50595a}
+.home-royal .room-card:hover,.home-royal .study-card:hover{transform:translateY(-2px);box-shadow:0 12px 26px #14283b12}
+.home-royal .study-section{background:var(--yr-paper);padding-block:clamp(75px,8vw,112px)}
+.home-royal .home-blessing{background:var(--yr-ink);padding-block:90px}
+.home-royal .home-blessing p{color:#e6e1d4}
+.home-royal .home-blessing .btn.light{background:#d9bd83;color:var(--yr-ink)}
+.home-royal a:focus-visible{outline:3px solid var(--yr-gold);outline-offset:4px}
+@media(max-width:760px){
+ .home-royal .welcome-hero{grid-template-columns:1fr}
+ .home-royal .welcome-copy{padding:66px 24px 56px}
+ .home-royal .welcome-copy h1{font-size:clamp(45px,10vw,70px)}
+ .home-royal .welcome-visual{min-height:350px}
+ .home-royal .arch{height:320px;width:235px}
+ .home-royal .home-heart{padding:72px 24px}
+}
+@media(prefers-reduced-motion:reduce){.home-royal *, .home-royal *::before,.home-royal *::after{transition:none!important;scroll-behavior:auto!important}}
