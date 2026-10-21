@@ -82,3 +82,6 @@ The reader now offers bilingual **Find in this chapter** for words or exact vers
 
 ### Search usability follow-up (pending validation)
 The in-chapter filter now provides a bilingual clear-search action, a polite live-region count of matching verses, and clears the filter when changing books or chapters, preventing stale filtering across passages. Verify keyboard focus, assistive-technology announcements, and RTL layout before merging.
+
+### Reference navigation increment (pending validation)
+The bilingual reader accepts an English canonical book name followed by chapter and optional verse (e.g. `Genesis 1:3`, `1 Corinthians 13:4`). It validates the book against the reader's existing list and checks chapter bounds, navigates using existing state, and uses the chapter filter to focus on an optional verse. Invalid references receive a localized error. Known limitation: book names must be entered in English even in Hebrew mode; verse existence is not yet validated against the fetched chapter, and the current chapter filter may return no match. Follow up with localized book aliases, exact verse validation and tests. Do not advertise as full-Bible keyword search.
