@@ -58,3 +58,8 @@ test("missing verse does not announce misleading chapter search counts",()=>{
 test("reader does not expose stale verses during loading or errors",()=>{
  assert.match(reader,/const visibleVerses=\(!loading&&!error\?data\?\.verses:undefined\)\?\.filter\(/);
 });
+
+test("Scripture text retains left-to-right direction in Hebrew interface",()=>{
+ assert.match(reader,/torah-bible-columns single"}><article dir="ltr">/);
+ assert.match(reader,/other&&<article dir="ltr">/);
+});
