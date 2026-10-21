@@ -47,3 +47,11 @@ Status: approved feature scope; implementation in increments. **Do not advertise
 
 ## Release policy
 Each increment gets a focused PR, automated checks, responsive and Hebrew RTL review, and an explicit production deployment verification. Do not merge unfinished features into live navigation or imply unpublished studies are official doctrine.
+
+## Jewish commentary library — approved direction, pending editorial implementation
+- Bring substantial Jewish exegetical context into the Beit Midrash: Rashi, Ibn Ezra, Ramban, Sforno, Midrash Rabbah, and relevant Mishnah/Talmud passages; modern scholarship only with appropriate permissions.
+- Yeshua Roots teaches Yeshua as Israel's living Jewish Messiah. Do not curate anti-Messianic polemics as featured devotional or instructional content. Do not misrepresent, selectively alter, or falsely attribute a Jewish commentator's position; non-Messianic historical authors are not to be portrayed as affirming Yeshua.
+- Organize each passage in clearly labeled layers: biblical text; Jewish commentary (source, author, era, genre, citation, and translation provenance); Messianic reflection (founder-reviewed, with Scripture citations). Distinguish quotation, paraphrase, and editorial interpretation.
+- Prefer verified public-domain originals and legally reusable translations, with attribution and source links. Public-domain original text does not automatically make a modern translation reusable. Verify source/API terms and preserve quotation limits.
+- Begin with a small curated pilot (e.g. Genesis 1 and Exodus 20) with bilingual English/Hebrew presentation and accessible RTL. No unreviewed doctrinal content or commentary placeholders advertised as live.
+- Keep scholarly context honest: Jewish interpretations may differ from the ministry's convictions; don't silently erase differences. Any potentially contentious selection receives editorial review before publication.
