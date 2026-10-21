@@ -100,3 +100,24 @@ The client now rejects empty verse arrays, missing verse arrays and malformed ve
 
 ### Server-side Scripture response validation (pending validation)
 The `/api/bible` route now rejects upstream responses with missing or empty verse arrays, non-positive or non-integer verse numbers, or missing/blank verse text. Rejected upstream payloads return the existing 502 error instead of being presented as successful chapter data. This complements, rather than replaces, client-side validation. Verify against upstream source variations and confirm CI before merge.
+
+
+## Phase 3 preview and release gate (2026-10-21)
+
+- Vercel preview deployment `dpl_Mp1YyHwtqLdjZUg7P96d89GrzYRG` for commit `2379583195926cca6c754b8f64e7488c2a164cd1` reached **READY**. Preview: https://yeshua-roots-kuwo747e6-parakalokyo-7253.vercel.app/torah
+- GitHub **CI** and **Build and typecheck** workflows passed for that commit. These results establish compilation and automated-check health, **not** successful browser testing.
+- The preview could not be opened by the available web inspection tool. **Do not mark browser, mobile, accessibility, Hebrew RTL, or live Bible API checks complete on the strength of deployment readiness alone.**
+
+### Manual browser release checklist — all unchecked until actually observed
+
+- [ ] Desktop English: /torah loads; Genesis 1 KJV displays correct text and chapter controls; jump to John 3:16 and back.
+- [ ] Desktop Hebrew: switch interface language; Hebrew labels and layout are RTL; English Scripture verse articles remain LTR; reference entry supports בראשית 1:3 and יוחנן 3:16.
+- [ ] Mobile narrow viewport: no clipped chapter controls, reference input, search feedback, translation selectors or comparison columns; text remains readable.
+- [ ] Reference validation: invalid book, invalid chapter and absent verse show localized recovery guidance, not misleading match counts.
+- [ ] Chapter search: word search, exact verse search, clear search, and navigation to another chapter reset stale filtering.
+- [ ] Comparison: successful side-by-side verse alignment; comparison-only failure keeps primary Scripture visible; retry recovers when upstream is available.
+- [ ] Primary failure: visible localized error, retry action, and no stale verses shown while loading or after failure.
+- [ ] Keyboard and screen-reader checks: focus order, select/input labels, search result live announcement, and error messaging.
+- [ ] Review all findings, fix defects, rerun GitHub checks, and confirm the final preview corresponds to the final PR head SHA.
+
+**Release rule:** keep PR #48 draft and do not merge or promote to production until these checks are observed and recorded. No study notebook, notes, bookmarks or tracking should be added.
