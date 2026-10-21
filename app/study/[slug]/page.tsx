@@ -7,5 +7,5 @@ export async function generateMetadata({params}:{params:Promise<{slug:string}>})
  if(!study)return {};
  const title=study.title;
  const description=`${study.subtitle}. Introductory Scripture study at Yeshua Roots, centered on Yeshua, the living Jewish Messiah of Israel. References: ${study.reference}.`;
- return {title,description,openGraph:{title,description,type:"article"}};
+ return {title,description,alternates:{canonical:`/study/${study.slug}`},openGraph:{title,description,type:"article"}};
 }
