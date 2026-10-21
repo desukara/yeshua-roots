@@ -344,3 +344,8 @@ html[dir="rtl"] .study-editorial-note{text-align:right}
 .reading-page>.return-home{display:flex;width:max-content;max-width:100%;margin:20px auto 55px}
 html[dir="rtl"] .reading-editorial-note{text-align:right}
 html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
+
+/* Persistent way home on every route, including error and deep study pages. */
+.global-home-escape{position:fixed;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));z-index:9999;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:2px solid #ad884d;border-radius:999px;background:#192a25;color:#fff!important;font:700 14px/1.2 system-ui,sans-serif;text-decoration:none;box-shadow:0 5px 20px #0005}
+.global-home-escape:hover,.global-home-escape:focus-visible{background:#314a3f;outline:3px solid #f1c873;outline-offset:3px}
+@media(max-width:480px){.global-home-escape{right:10px;bottom:max(10px,env(safe-area-inset-bottom));padding:9px 12px;font-size:13px}}
