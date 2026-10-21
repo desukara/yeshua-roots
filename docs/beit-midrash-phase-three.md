@@ -79,3 +79,6 @@ The founder explicitly declined the study notebook. Do **not** implement a perso
 
 ## Implemented safe search increment (pending validation)
 The reader now offers bilingual **Find in this chapter** for words or exact verse numbers. It filters only the currently loaded primary translation verses, and the comparison column retains the same verse numbers to avoid mismatched passages. The interface explicitly states this is **not** whole-Bible search. No Bible API changes, external search provider, storage, notes, or doctrinal content were added. Next: validate types/build and English/Hebrew mobile/RTL rendering; then add canonical reference navigation and separately scoped full-corpus search only after a verified text index and licensing review.
+
+### Search usability follow-up (pending validation)
+The in-chapter filter now provides a bilingual clear-search action, a polite live-region count of matching verses, and clears the filter when changing books or chapters, preventing stale filtering across passages. Verify keyboard focus, assistive-technology announcements, and RTL layout before merging.
