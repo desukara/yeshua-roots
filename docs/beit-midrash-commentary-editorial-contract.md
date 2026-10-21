@@ -23,6 +23,12 @@ Each study must contain:
 
 For every item, verify the exact commentator and location before drafting a Jewish commentary section. The Messianic reflection is Yeshua Roots editorial content and must be approved before release.
 
+## Yeshua Roots identity: kosher and Messiah-affirming
+
+Yeshua Roots is a **kosher, Torah-honoring, Yeshua-centered** ministry. Its editorial voice affirms Yeshua as the living Jewish Messiah of Israel. No published teaching may deny His Messiahship, belittle keeping kosher, present kosher observance as spiritually inferior, or imply that following Yeshua requires abandoning kosher practice. Explain the Torah's food distinctions in their scriptural context. When citing Acts 10, include Peter's explanation about people in Acts 10:28 rather than using the vision as an unsupported blanket dismissal of kashrut.
+
+Historical Jewish interpretations must remain accurately attributed without pretending their authors confessed Yeshua. Messianic conclusions must be labeled as Yeshua Roots' own reading. These are separate obligations: source fidelity and confessional clarity.
+
 ## Release gate
 
 Do not ship substantive commentary until citations, translation permissions, accuracy, bilingual review and founder approval are documented. This is separate from deploying the Phase 3 reader foundation.
