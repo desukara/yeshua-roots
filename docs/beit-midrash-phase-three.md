@@ -22,9 +22,9 @@ Status: approved feature scope; implementation in increments. **Do not advertise
 - Implement book/reference lookup first, then keyword search against verified available texts, with source/translation labels.
 - Keyboard-accessible search results, empty states, no fabricated verse hits. Add test coverage.
 
-### Increment 3 — Verse bookmarks and private notes
-- Start with local-only storage, clear device-only privacy messaging, export/delete controls, versioned data format, and safe failure handling for disabled storage.
-- Stable canonical verse IDs; prevent note content from being rendered as HTML. No server syncing or implied account privacy until authenticated storage/RLS are reviewed.
+### Increment 3 — Reading experience refinements
+- Improve reading comfort, responsive layout, and navigation without personal notes, verse bookmarks, reading-history storage, or a study notebook.
+- Keep Scripture selection and KJV default behavior intact; do not add user-data storage.
 
 ### Increment 4 — Daily Scripture and study questions
 - Deterministic curated passage schedule with citations and correct date behavior, bilingual labels.
@@ -57,7 +57,7 @@ Each increment gets a focused PR, automated checks, responsive and Hebrew RTL re
 - Keep scholarly context honest: a selected Jewish interpretation may address grammar, history, or literary context without discussing Yeshua; such material can be included if it contains no denial of His Messiahship. Do not imply its author affirmed Yeshua. Any selection requires editorial review before publication.
 
 ## Finalized page structure and initial reading collections (founder-selected)
-Page sequence: Royal Jerusalem hero; bilingual Start Here choices; Scripture reading desk with search, notes, comparison; clearly sourced Jewish commentary; separately labeled founder-approved Messianic reflection; weekly parashah; guided reading collections and private notebook. Keep existing reader functional throughout. Prioritize compact navigation and usable mobile/RTL layout.
+Page sequence: Royal Jerusalem hero; bilingual Start Here choices; Scripture reading desk with search and comparison; clearly sourced Jewish commentary; separately labeled founder-approved Messianic reflection; weekly parashah; guided reading collections. Keep existing reader functional throughout. Prioritize compact navigation and usable mobile/RTL layout.
 
 **Five launch collections (editorial outlines, not published studies):**
 1. **The Beginning** — Genesis 1–12; John 1; Colossians 1. Creation, Shabbat, image of God, Abraham, the Word.
@@ -73,3 +73,6 @@ Page sequence: Royal Jerusalem hero; bilingual Start Here choices; Scripture rea
 **First commentary pilot:** Genesis 1 and Exodus 20, then Genesis 2, Genesis 12, Exodus 12, Deuteronomy 6. Verify permission to reproduce each excerpt/translation and the precise citation before inclusion. Begin with The Beginning collection and progressively release the other four.
 
 **Immediate safe code change:** correct the Scripture reader heading and definition in English and Hebrew without altering Bible API calls, KJV default, comparison, chapter controls, or reader state.
+
+## Founder scope correction — no study notebook
+The founder explicitly declined the study notebook. Do **not** implement a personal study notebook, private notes, verse bookmarks, reading-history tracking, or associated storage. Remove these from the page design, feature roadmap, and acceptance criteria. Keep the remaining approved features: Scripture search, daily Scripture, side-by-side translation improvements, Hebrew word studies, weekly parashah, curated study questions, and sourced Jewish commentary followed by separate approved Messianic reflections.
