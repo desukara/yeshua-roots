@@ -76,3 +76,6 @@ Page sequence: Royal Jerusalem hero; bilingual Start Here choices; Scripture rea
 
 ## Founder scope correction — no study notebook
 The founder explicitly declined the study notebook. Do **not** implement a personal study notebook, private notes, verse bookmarks, reading-history tracking, or associated storage. Remove these from the page design, feature roadmap, and acceptance criteria. Keep the remaining approved features: Scripture search, daily Scripture, side-by-side translation improvements, Hebrew word studies, weekly parashah, curated study questions, and sourced Jewish commentary followed by separate approved Messianic reflections.
+
+## Implemented safe search increment (pending validation)
+The reader now offers bilingual **Find in this chapter** for words or exact verse numbers. It filters only the currently loaded primary translation verses, and the comparison column retains the same verse numbers to avoid mismatched passages. The interface explicitly states this is **not** whole-Bible search. No Bible API changes, external search provider, storage, notes, or doctrinal content were added. Next: validate types/build and English/Hebrew mobile/RTL rendering; then add canonical reference navigation and separately scoped full-corpus search only after a verified text index and licensing review.
