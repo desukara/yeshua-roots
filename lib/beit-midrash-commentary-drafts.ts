@@ -1,6 +1,7 @@
 // Editorial drafts: deliberately NOT approved for public publication.
 // Sources are independently linked; all summaries are original paraphrases.
 // Jewish sources are historical interpretations, not endorsements of Yeshua.
+// Never disparage kosher observance or imply following Yeshua requires abandoning it.
 export type CommentaryDraft = {
   reference: string;
   status: "founder-review-required";
@@ -31,8 +32,8 @@ export const commentaryDrafts: Record<string, CommentaryDraft> = {
       he: "ויקרא י״א:ט׳–י״ב מבחין בין בעלי חיים שבמים לפי סנפיר וקשקשת. משנה חולין ג׳:ז׳ דנה בסימנים האלה ומביאה גם את פירוטו של רבי יהודה. הדיון עוסק בהבחנות המזון של ישראל ואינו עוסק בישוע."
     },
     messianic: {
-      en: "As followers of Yeshua, Israel's Messiah, we approach these commandments with respect for their place in Israel's covenant life. Acts 10:28 gives Peter's own explanation of his vision: he must not call any person common or unclean. We should not erase the Torah's actual dietary context or turn Peter's statement about people into a careless quotation about fish.",
-      he: "כתלמידי ישוע, משיח ישראל, אנו מכבדים את מקומן של המצוות האלה בחיי הברית של ישראל. במעשי השליחים י׳:כ״ח כיפא מסביר את חזונו: אין לקרוא לאדם טמא או מחולל. אין למחוק את ההקשר התזונתי של התורה או להציג את דברי כיפא על בני אדם כאילו נאמרו על דגים.",
+      en: "As followers of Yeshua, Israel's Messiah, we approach these commandments with respect for their place in Israel's covenant life. Acts 10:28 gives Peter's own explanation of his vision: he must not call any person common or unclean. Keeping kosher is not wrong, inferior, or incompatible with following Yeshua. We should not erase the Torah's actual dietary context or turn Peter's statement about people into a careless quotation about fish.",
+      he: "כתלמידי ישוע, משיח ישראל, אנו מכבדים את מקומן של המצוות האלה בחיי הברית של ישראל. במעשי השליחים י׳:כ״ח כיפא מסביר את חזונו: אין לקרוא לאדם טמא או מחולל. אין להציג שמירת כשרות כדבר פסול, נחות או בלתי מתאים להליכה בעקבות ישוע. אין למחוק את ההקשר התזונתי של התורה או להציג את דברי כיפא על בני אדם כאילו נאמרו על דגים.",
       scriptures: ["Leviticus 11:9–12", "Acts 10:28", "Romans 11:17–24"]
     }
   }
