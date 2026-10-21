@@ -50,3 +50,7 @@ test("missing verse message offers recovery without misleading search result",()
  assert.match(reader,/Choose another verse or show the full chapter/);
  assert.match(reader,/בחרו פסוק אחר או הציגו את כל הפרק/);
 });
+
+test("missing verse does not announce misleading chapter search counts",()=>{
+ assert.match(reader,/!loading&&!error&&!missingSelectedVerse&&data\?\.verses&&normalizedQuery\?/);
+});
