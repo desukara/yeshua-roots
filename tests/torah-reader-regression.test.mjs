@@ -44,3 +44,9 @@ test("server rejects empty or malformed upstream Scripture responses",()=>{
  assert.match(api,/v\.text\.trim\(\)\.length>0/);
  assert.match(api,/status:502/);
 });
+
+test("missing verse message offers recovery without misleading search result",()=>{
+ assert.match(reader,/missingSelectedVerse\?<p>/);
+ assert.match(reader,/Choose another verse or show the full chapter/);
+ assert.match(reader,/בחרו פסוק אחר או הציגו את כל הפרק/);
+});
