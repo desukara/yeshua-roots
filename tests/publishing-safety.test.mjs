@@ -34,8 +34,8 @@ test("visitor-facing TSX contains no hardcoded outbound links", () => {
 
 test("Torah reader normalizes actual whitespace rather than a literal backslash-s", () => {
   const api=read("app/api/torah/[book]/[chapter]/route.ts");
-  assert.ok(api.includes(String.raw\`replace(/\s+/g," ")\`), "Torah API must normalize whitespace");
-  assert.ok(!api.includes(String.raw\`replace(/\\s+/g," ")\`), "Do not match literal slash-s");
+  assert.ok(api.includes(String.raw`replace(/\s+/g," ")`), "Torah API must normalize whitespace");
+  assert.ok(!api.includes(String.raw`replace(/\\s+/g," ")`), "Do not match literal slash-s");
 });
 
 test("unfinished services are not advertised to search engines as completed sitemap destinations", () => {
