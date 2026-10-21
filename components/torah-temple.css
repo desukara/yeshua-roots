@@ -41,3 +41,9 @@
 
 /* Keep the five Chumash covers clean: no stray leaf-shaped corner decorations. */
 .temple-book::before,.temple-book::after{content:none!important;display:none!important}
+
+/* Torah page: retain the familiar Home pill, but never float it over content. */
+body:has(.torah-temple) .global-home-escape{display:none}
+.temple-home-return{display:flex;justify-content:center;padding:0 20px 46px;background:#f5eddc}
+.temple-home-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 20px;border:2px solid #ad884d;border-radius:999px;background:#192a25;color:#fff!important;font:700 14px/1.2 system-ui,sans-serif;text-decoration:none;box-shadow:0 5px 20px #0003}
+.temple-home-button:hover,.temple-home-button:focus-visible{background:#314a3f;outline:3px solid #f1c873;outline-offset:3px}
