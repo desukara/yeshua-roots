@@ -34,7 +34,7 @@ test("both draft passages provide Hebrew and English sections", () => {
   for (const reference of ["Genesis 1:1", "Leviticus 11:10"]) {
     assert.ok(drafts.includes('"'+reference+'"'));
   }
-  assert.equal((drafts.match(/jewish: \{/g)||[]).length, 2);
-  assert.equal((drafts.match(/messianic: \{/g)||[]).length, 2);
+  assert.equal((drafts.match(/^    jewish: \{/gm)||[]).length, 2);
+  assert.equal((drafts.match(/^    messianic: \{/gm)||[]).length, 2);
   assert.equal((drafts.match(/scriptures: \[/g)||[]).length, 2);
 });
