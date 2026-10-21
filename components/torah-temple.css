@@ -29,9 +29,12 @@
 @media(max-width:480px){.temple-portal-inner{grid-template-columns:20px minmax(0,1fr) 20px;gap:2px}.temple-palm{opacity:.5}.temple-portal h1{font-size:85px}.temple-english-title{font-size:10px;letter-spacing:.15em}.temple-portal-description{font-size:16px}.temple-verse-source{font-size:12px}.temple-book{min-height:205px}.temple-book-he{font-size:26px}.temple-reader-section{padding:30px 10px 45px}.temple-reader-arch{padding:25px 10px;border-width:4px}.temple-study-links a{padding:24px}}
 @media(prefers-reduced-motion:reduce){.torah-temple a{transition:none}.temple-book:hover,.temple-study-links a:hover,.temple-primary-link:hover{transform:none}}
 
-/* Botanical goldwork: vector pomegranates and olive boughs replace typographic ornaments. */
+/* Botanical goldwork: vector open flowers and olive boughs replace typographic ornaments. */
 .temple-ornament{gap:10px;min-height:62px}.temple-pomegranate{width:37px;height:48px;flex:none;color:#d0a24c;filter:drop-shadow(0 1px 1px #22120855)}.temple-pomegranate.small{width:28px;height:36px}.temple-olive-branch{width:88px;height:36px;color:#c89a43;flex:none}.temple-ornament .temple-olive-branch:last-child,.temple-portal-foot .temple-olive-branch:last-child{transform:scaleX(-1)}.temple-ornament-line{width:35px}.temple-portal-foot{display:flex;align-items:center;justify-content:center;gap:18px;letter-spacing:normal;padding:8px 0 22px}.temple-portal-foot .temple-olive-branch{width:120px;height:42px}
 @media(max-width:480px){.temple-ornament .temple-olive-branch{width:54px}.temple-ornament-line{width:16px}.temple-portal-foot .temple-olive-branch{width:85px}}
 
 /* The Torah is revealed only by a deliberate click; these are real buttons. */
 .temple-primary-link,.temple-book{font-family:inherit;cursor:pointer}.temple-book{width:100%;color:inherit}.temple-close-reader{display:block;margin:0 0 16px auto;padding:10px 17px;border:1px solid #b38a43;background:#fff8e8;color:#62451f;font-weight:700;cursor:pointer}.temple-close-reader:hover{background:#f4dfb4}.temple-book[aria-expanded="true"]{outline:3px solid #a4772c;outline-offset:3px}
+
+/* Eight-petal carved open flowers inspired by 1 Kings 6:29–35. */
+.temple-flower{display:block;width:52px;height:52px;flex:none;color:#d0a24c;filter:drop-shadow(0 1px 1px #22120855)}.temple-flower.small{width:38px;height:38px}.temple-portal-foot .temple-flower{color:#f0cb77}
