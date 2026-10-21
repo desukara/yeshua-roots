@@ -50,14 +50,15 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(copy, /בפיתוח/);
 });
 
-test('homepage distinguishes planned services and supports flexible hero lines', () => {
+test('homepage prioritizes active learning paths and keeps unfinished services off the featured shelf', () => {
   const homepage = read('app/page.tsx');
-  const styles = read('app/globals.css');
+  const styles = read('app/home-royal.css');
   assert.match(homepage, /hero-title-line/);
-  assert.match(homepage, /developing\.has\(hrefs\[i\]\)/);
-  assert.match(homepage, /See what is planned/);
-  assert.match(styles, /\.room-card\.is-developing/);
+  assert.match(homepage, /c\.rooms\.slice\(0,2\)/);
+  assert.match(homepage, /const hrefs=\["\/torah","\/teachings"\]/);
+  assert.doesNotMatch(homepage, /developing\.has\(hrefs\[i\]\)/);
   assert.match(homepage, /welcome-visual" aria-hidden="true"/);
+  assert.match(styles, /\.home-royal \.room-grid/);
 });
 
 test('saved Hebrew locale is restored before persisting the language preference', () => {
