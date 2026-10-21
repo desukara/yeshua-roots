@@ -88,3 +88,6 @@ The bilingual reader accepts an English canonical book name followed by chapter 
 
 ### Hebrew reference navigation improvement (pending validation)
 Common Hebrew book names now map to the reader's canonical English book identifiers (including all five Torah books and selected other books). English book names remain accepted. Hebrew mode shows a Hebrew example and explains that Hebrew aliases are partial, not complete. Verify RTL text entry and references such as `בראשית 1:3`, `יוחנן 3:16`, `1 Corinthians 13:4`, invalid chapters and absent verses. The maximum numeric verse input is a loose input sanity bound, **not** confirmation that a verse exists; fetched verse data remains authoritative.
+
+### Translation comparison resilience (pending validation)
+Primary and optional comparison translation requests now settle independently: if comparison fails, primary Scripture remains readable and a localized comparison warning appears. If primary fails, the reader still shows its chapter-loading error. Changing the primary translation clears a now-identical comparison selection. Manual regression cases: primary success/comparison failure; primary failure/comparison success; both success; rapid chapter switching; abort on unmount; switching primary to selected comparison. Verify on mobile and in Hebrew RTL before merge.
