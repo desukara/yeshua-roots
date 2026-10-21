@@ -38,3 +38,6 @@
 
 /* Eight-petal carved open flowers inspired by 1 Kings 6:29–35. */
 .temple-flower{display:block;width:52px;height:52px;flex:none;color:#d0a24c;filter:drop-shadow(0 1px 1px #22120855)}.temple-flower.small{width:38px;height:38px}.temple-portal-foot .temple-flower{color:#f0cb77}
+
+/* Keep the five Chumash covers clean: no stray leaf-shaped corner decorations. */
+.temple-book::before,.temple-book::after{content:none!important;display:none!important}
