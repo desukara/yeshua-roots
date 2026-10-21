@@ -94,3 +94,6 @@ Primary and optional comparison translation requests now settle independently: i
 
 ### Retry and mixed-direction reference entry (pending validation)
 A localized Retry loading action reruns the current primary and comparison requests after a loading failure without changing the selected passage. The reference input uses automatic text direction for mixed Hebrew/English book names and numerals. Verify retry after primary failure and comparison-only failure; ensure no retry appears on a healthy chapter and rapid navigation cancels stale requests.
+
+### Bible API response integrity (pending validation)
+The client now rejects empty verse arrays, missing verse arrays and malformed verse records even if the HTTP response is 200. A malformed primary response triggers the localized primary load error; a malformed comparison response preserves valid primary text and offers retry. Regression cases: HTTP 200 with empty verses; missing verses; malformed verse number/text; primary valid and comparison invalid; recovery after retry. No claim of Scripture content verification or source-text proofreading is implied by structural checks.
