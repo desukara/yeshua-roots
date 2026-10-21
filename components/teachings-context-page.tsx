@@ -2,6 +2,7 @@
 import {useState} from "react";
 import SiteHeader from "./site-header";
 import SiteFooter from "./site-footer";
+import TeachingsCatalogue from "./teachings-catalogue";
 import {useLanguage} from "./language-provider";
 import "./teachings-context.css";
 
@@ -38,6 +39,7 @@ export default function TeachingsContextPage(){
  <button type="button" className="tc-more" onClick={()=>setShowAll(!showAll)} aria-expanded={showAll}>{showAll?"Hide":"Show"} the complete Beatitudes (KJV) <span aria-hidden="true">{showAll?"−":"+"}</span></button>
  {showAll&&<div className="tc-scripture" lang="en" dir="ltr"><p><b>1</b> And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:</p><p><b>2</b> And he opened his mouth, and taught them, saying,</p><p><b>3</b> Blessed are the poor in spirit: for theirs is the kingdom of heaven.</p><p><b>4</b> Blessed are they that mourn: for they shall be comforted.</p><p><b>5</b> Blessed are the meek: for they shall inherit the earth.</p><p><b>6</b> Blessed are they which do hunger and thirst after righteousness: for they shall be filled.</p><p><b>7</b> Blessed are the merciful: for they shall obtain mercy.</p><p><b>8</b> Blessed are the pure in heart: for they shall see God.</p><p><b>9</b> Blessed are the peacemakers: for they shall be called the children of God.</p><p><b>10</b> Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven.</p><p><b>11</b> Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake.</p><p><b>12</b> Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.</p></div>}
  </article></div></section>
+ <TeachingsCatalogue/>
  <section className="tc-method"><div><p className="tc-eyebrow">OUR RESEARCH METHOD</p><h2>Follow the evidence, not a slogan.</h2><p>Scripture is read in its literary setting. Historical Jewish sources are dated and attributed. Older Christian commentators are evaluated critically. Interpretation is distinguished from what a source actually says.</p></div><div className="tc-method-list"><article><span>01</span><h3>Read the whole passage</h3><p>Yeshua's words before isolated proof texts.</p></article><article><span>02</span><h3>Trace the Scriptural roots</h3><p>Direct quotations, echoes, and possible parallels are distinguished.</p></article><article><span>03</span><h3>Examine historical witnesses</h3><p>Lightfoot and Edersheim are research candidates, not automatic authorities.</p></article><article><span>04</span><h3>Publish only after review</h3><p>Every original Messianic interpretation awaits founder approval.</p></article></div></section>
  <section className="tc-end"><p lang="he" dir="rtl">לִמְדוּ וְחִקְרוּ</p><h2>A library worth studying, one teaching at a time.</h2><p>Historical commentary imports and additional studies are in preparation. This preview does not imply that third-party commentary has been licensed, imported, or verified.</p></section>
  </main><SiteFooter/></>;
