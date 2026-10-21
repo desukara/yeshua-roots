@@ -54,3 +54,7 @@ test("missing verse message offers recovery without misleading search result",()
 test("missing verse does not announce misleading chapter search counts",()=>{
  assert.match(reader,/!loading&&!error&&!missingSelectedVerse&&data\?\.verses&&normalizedQuery\?/);
 });
+
+test("reader does not expose stale verses during loading or errors",()=>{
+ assert.match(reader,/const visibleVerses=\(!loading&&!error\?data\?\.verses:undefined\)\?\.filter\(/);
+});
