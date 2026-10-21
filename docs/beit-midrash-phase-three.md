@@ -55,3 +55,21 @@ Each increment gets a focused PR, automated checks, responsive and Hebrew RTL re
 - Prefer verified public-domain originals and legally reusable translations, with attribution and source links. Public-domain original text does not automatically make a modern translation reusable. Verify source/API terms and preserve quotation limits.
 - Begin with a small curated pilot (e.g. Genesis 1 and Exodus 20) with bilingual English/Hebrew presentation and accessible RTL. No unreviewed doctrinal content or commentary placeholders advertised as live.
 - Keep scholarly context honest: a selected Jewish interpretation may address grammar, history, or literary context without discussing Yeshua; such material can be included if it contains no denial of His Messiahship. Do not imply its author affirmed Yeshua. Any selection requires editorial review before publication.
+
+## Finalized page structure and initial reading collections (founder-selected)
+Page sequence: Royal Jerusalem hero; bilingual Start Here choices; Scripture reading desk with search, notes, comparison; clearly sourced Jewish commentary; separately labeled founder-approved Messianic reflection; weekly parashah; guided reading collections and private notebook. Keep existing reader functional throughout. Prioritize compact navigation and usable mobile/RTL layout.
+
+**Five launch collections (editorial outlines, not published studies):**
+1. **The Beginning** — Genesis 1–12; John 1; Colossians 1. Creation, Shabbat, image of God, Abraham, the Word.
+2. **Covenant and Redemption** — Genesis 12–22; Exodus 12–20; Jeremiah 31; Luke 22. Abraham, Passover, Sinai, new covenant.
+3. **The Messiah in the Scriptures** — Deuteronomy 18; Psalms 2 and 110; Isaiah 53; Daniel 7; Luke 24. Examine original context and explicitly labeled Messianic interpretation.
+4. **Walking in His Ways** — Leviticus 19; Deuteronomy 6; Matthew 5–7; John 14–15; Romans 11. Holiness, love, grace, obedience, Spirit, Israel.
+5. **The Appointed Times** — Leviticus 23; Exodus 12; Numbers 29; John 7; 1 Corinthians 5. Shabbat and appointed times, historical practice, and distinct Messianic readings.
+
+**Commentary order (founder-selected):** (1) biblical passage and its context; (2) **Jewish Commentary**, with author, source, era, citation, original/translation provenance and clear quotation boundaries; (3) **Messianic Reflection**, explicitly distinct, Scripture-cited, and founder-approved; (4) optional study questions and notes. Do not collapse the two layers or attribute Messianic belief to historical Jewish commentators.
+
+**Absolute publication gate:** Publish **no material denying that Yeshua is the Messiah**—including commentary excerpts, quotations, study questions, summaries, or featured outbound teachings. Screen each selected excerpt in both languages; reject disallowed material rather than deceptively editing or reversing its meaning. All doctrinal reflections require founder review. No placeholder is labeled as published content.
+
+**First commentary pilot:** Genesis 1 and Exodus 20, then Genesis 2, Genesis 12, Exodus 12, Deuteronomy 6. Verify permission to reproduce each excerpt/translation and the precise citation before inclusion. Begin with The Beginning collection and progressively release the other four.
+
+**Immediate safe code change:** correct the Scripture reader heading and definition in English and Hebrew without altering Bible API calls, KJV default, comparison, chapter controls, or reader state.
