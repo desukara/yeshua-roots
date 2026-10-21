@@ -28,9 +28,19 @@ test("reader rejects empty and malformed verse payloads",()=>{
  assert.match(reader,/d\.verses\.length===0/);
  assert.match(reader,/Number\.isInteger\(v\.number\)/);
  assert.match(reader,/typeof v\.text==="string"/);
+ assert.match(reader,/v\.text\.trim\(\)\.length>0/);
 });
 
 test("verse existence is checked against the fetched chapter",()=>{
  assert.match(reader,/data\.verses\.some\(v=>v\.number===selectedVerse\)/);
  assert.match(reader,/missingSelectedVerse&&<p role="alert">/);
+});
+
+const api=readFileSync(new URL("../app/api/bible/route.ts",import.meta.url),"utf8");
+test("server rejects empty or malformed upstream Scripture responses",()=>{
+ assert.match(api,/Array\.isArray\(data\.verses\)/);
+ assert.match(api,/data\.verses\.length===0/);
+ assert.match(api,/Number\.isInteger\(v\.verse\)/);
+ assert.match(api,/v\.text\.trim\(\)\.length>0/);
+ assert.match(api,/status:502/);
 });
