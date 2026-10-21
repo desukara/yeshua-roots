@@ -44,3 +44,17 @@ test("unfinished services are not advertised to search engines as completed site
     assert.ok(!sitemap.includes(`"${route}"`), route+" is still in development");
   }
 });
+
+
+test("static study paths and metadata cannot expose unapproved studies", () => {
+  const route=read("app/study/[slug]/page.tsx");
+  assert.match(route, /generateStaticParams\(\)\s*\{\s*return publishedStudies\.map\(/, "static paths must use approved studies");
+  assert.match(route, /const study=publishedStudies\.find\(/, "page must use approved studies");
+  assert.match(route, /const study=publishedStudies\.find\(item=>item\.slug===slug\)/, "metadata must use approved studies");
+});
+
+test("sitemap study paths are derived exclusively from approved studies", () => {
+  const sitemap=read("app/sitemap.ts");
+  assert.match(sitemap, /publishedStudies\.map\(study\s*=>\s*`\/study\/\$\{study\.slug\}`\)/);
+  assert.doesNotMatch(sitemap, /\bstudies\.map\(/, "raw draft collection must not be used for sitemap");
+});
