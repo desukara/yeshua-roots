@@ -12,7 +12,7 @@ export default function PrayerPage(){
  <h2>{he?"פרטיות לפני הכול":"Privacy comes first"}</h2>
  <p>{he?"בקשות תפילה לא יפורסמו לציבור. לפני פתיחת השירות נגדיר מי רשאי לקרוא בקשות, כיצד הן מוגנות וכיצד אפשר למשוך בקשה.":"Prayer requests will not be publicly posted. Before submissions open, we will define exactly who can read requests, how they are protected, and how a request can be withdrawn."}</p>
  <h2>{he?"הגשת בקשות עדיין לא זמינה":"Submissions are not open yet"}</h2>
- <p>{he?"המערכת עדיין בהקמה. אנא אל תשלחו מידע רפואי או אישי רגיש דרך טופס יצירת הקשר הכללי.":"The secure prayer system is still being built. Please do not send medical details or sensitive personal information through the general contact form."}</p>
+ <p>{he?"המערכת עדיין בהקמה. אנא אל תשלחו מידע רפואי או אישי רגיש דרך טופס יצירת הקשר הכללי.":"The secure prayer system is still being built. Please do not send medical details or sensitive personal information through this website."}</p>
  <section aria-labelledby="prayer-questions" style={{marginTop:"2.5rem"}}>
  <h2 id="prayer-questions">{he?"שאלות נפוצות":"Common questions"}</h2>
  <h3>{he?"האם הבקשה שלי תהיה ציבורית?":"Will my request appear publicly?"}</h3>
