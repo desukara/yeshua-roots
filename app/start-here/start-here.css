@@ -1,14 +1,60 @@
-.sh-page{background:#f8f7f1;color:#1b332d}.sh-hero{min-height:620px;background:#102f2a;color:#f7f2e6;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr);overflow:hidden;position:relative}.sh-hero-content{padding:clamp(70px,8vw,135px) 5vw 95px max(6vw,30px);position:relative;z-index:2}.sh-overline,.sh-number{font:700 11px Arial,sans-serif;letter-spacing:.18em;color:#ac8850}.sh-hero .sh-overline{color:#e0c48c}.sh-hero h1{font:normal clamp(58px,7vw,110px)/1.02 Georgia,serif;letter-spacing:-.05em;margin:28px 0}.sh-lead{font-size:clamp(19px,2vw,24px);line-height:1.65;max-width:690px;color:#e4e8df}.sh-scripture{border-left:2px solid #c2a06b;padding-left:18px;margin-top:30px;font:italic 18px/1.6 Georgia,serif;color:#e5d9c4}.sh-scripture span{display:block;font:12px Arial,sans-serif;margin-top:7px;color:#c9b68c}.sh-actions{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin-top:32px}.sh-button,.sh-outline{display:inline-flex;align-items:center;justify-content:center;padding:16px 25px;border-radius:4px;font:700 13px Arial,sans-serif;letter-spacing:.03em}.sh-button{background:#c7a46d;color:#172e27}.sh-button:hover{background:#e1bf87}.sh-textlink{font-weight:700;color:#f2dfb7}.sh-hero-art{position:relative;min-height:390px;background:radial-gradient(ellipse at 65% 48%,#d6a46a 0%,#a77a55 16%,#52685a 41%,#102f2a 76%)}.sh-sun{position:absolute;top:27%;left:40%;width:190px;height:190px;border-radius:50%;background:#f7d59c;filter:blur(6px);opacity:.86}.sh-horizon{position:absolute;bottom:0;width:120%;height:37%;background:#193b34;clip-path:polygon(0 70%,20% 52%,42% 68%,65% 40%,100% 60%,100% 100%,0 100%)}.sh-stone{position:absolute;bottom:8%;width:100px;height:170px;background:#c6b89a;opacity:.55;border-radius:60px 60px 0 0;box-shadow:12px 8px 0 #786e5b}.sh-stone-one{left:20%;transform:rotate(-9deg)}.sh-stone-two{left:52%;height:115px;width:145px;transform:rotate(9deg)}.sh-reading{max-width:960px;margin:0 auto;padding:75px 30px 100px}.sh-intro{font:clamp(23px,2.7vw,32px)/1.55 Georgia,serif;color:#29453b;max-width:850px;margin-bottom:70px}.sh-section{border-top:1px solid #d6d8cd;padding:60px 0 66px;scroll-margin-top:100px}.sh-section h2,.sh-history h2,.sh-invitation h2{font:normal clamp(36px,4.5vw,60px)/1.12 Georgia,serif;letter-spacing:-.03em;max-width:790px;margin:16px 0 30px}.sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){font:18px/1.85 Arial,sans-serif;max-width:800px;color:#334c42}.sh-references{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.sh-references a{font:700 12px Arial,sans-serif;color:#315e4d;background:#e7ebe1;padding:12px 14px;border-radius:4px}.sh-references a:hover{background:#d7e1d2}.sh-olive blockquote{font:italic 25px/1.55 Georgia,serif;border-left:3px solid #b58f56;padding:12px 0 12px 25px;margin:34px 0;color:#28483b}.sh-olive cite{display:block;font:12px Arial,sans-serif;margin-top:14px}.sh-history{background:#e8e9dd;padding:55px clamp(22px,6vw,70px);margin:15px -30px 70px}.sh-history a{font-weight:700;text-decoration:underline;text-underline-offset:4px}.sh-invitation{background:#153d33;color:#fff;padding:65px clamp(24px,6vw,70px);margin:0 -30px}.sh-invitation h2{color:#fff}.sh-invitation>p:not(.sh-number){color:#d9e5db}.sh-outline{border:1px solid #9db5a6;color:#fff}.sh-outline:hover{background:#245648}@media(max-width:800px){.sh-hero{grid-template-columns:1fr}.sh-hero-content{padding:70px 26px 45px}.sh-hero-art{min-height:210px}.sh-hero h1{font-size:clamp(55px,11vw,78px)}.sh-reading{padding:45px 22px 75px}.sh-section{padding:45px 0}.sh-history,.sh-invitation{margin-left:-22px;margin-right:-22px}.sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){font-size:16px}.sh-olive blockquote{font-size:21px}}@media(prefers-reduced-motion:reduce){.sh-page *{scroll-behavior:auto}}
-/* Messiah-centered Hebrew typographic hero; no tombstone or graveyard motifs. */
-.sh-hero-art{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:390px;background:radial-gradient(circle at 50% 50%,#285a4a 0%,#173e35 46%,#102f2a 100%);border-left:1px solid rgba(225,191,135,.2);padding:30px;overflow:hidden}
-.sh-hebrew-word{font-family:Georgia,'Times New Roman',serif;font-size:clamp(94px,12vw,190px);font-weight:400;line-height:1.25;letter-spacing:0;color:#e5c78e;text-shadow:0 5px 35px rgba(0,0,0,.18)}
-.sh-hebrew-caption{font:700 11px Arial,sans-serif;letter-spacing:.32em;color:#d7c49c;margin-top:8px;text-align:center}
-.sh-hero-rule{width:72px;height:1px;background:#b69a6c;margin-top:34px}
-@media(max-width:800px){.sh-hero-art{min-height:235px;border-left:0;border-top:1px solid rgba(225,191,135,.2)}.sh-hebrew-word{font-size:100px}}
 
-/* References are on-page text, not outbound links. */
-.sh-references .sh-scripture-reference{font:700 12px Arial,sans-serif;color:#315e4d;background:#e7ebe1;padding:12px 14px;border-radius:4px}
-.sh-history .sh-history-link{display:inline-flex;align-items:center;margin-top:20px;padding:16px 24px;background:#153d33;color:#fff;border-radius:4px;text-decoration:none;font:700 14px Arial,sans-serif}
-.sh-history .sh-history-link:hover{background:#245648}
-
-.sh-hero-history-link{display:inline-flex;max-width:360px;align-items:center;padding:15px 18px;border:1px solid #d4bb87;border-radius:4px;color:#f7e4b9;font:700 14px/1.45 Arial,sans-serif;text-decoration:none;background:#ffffff0a}.sh-hero-history-link:hover{background:#ffffff1b;color:#fff}
+/* Start Here — Jerusalem stone, bronze and deep sanctuary blue.
+   Presentation only: no page copy, headings, quotations or links changed. */
+.sh-page{--stone:#f6f1e7;--paper:#fffdf8;--ink:#20352f;--muted:#54645b;--bronze:#b18b52;--line:#ddd0b9;--blue:#102e38;background:radial-gradient(ellipse at 50% 22%,#fffdf8 0%,#f7f2e8 54%,#efe8db 100%);color:var(--ink);overflow:hidden}
+.sh-page *{box-sizing:border-box}
+.sh-hero{position:relative;display:grid;grid-template-columns:minmax(0,1.22fr) minmax(310px,.78fr);background:linear-gradient(122deg,#091f2a 0%,#153b43 56%,#173a3b 100%);color:#fbf6ea;min-height:760px;isolation:isolate;border-bottom:7px solid #b3935d;box-shadow:0 22px 50px #142d2b22}
+.sh-hero:before{content:"";position:absolute;inset:19px;pointer-events:none;border:1px solid #d8b87945;z-index:3}
+.sh-hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent 0,transparent 94px,#e7c99107 95px,#e7c99107 96px);opacity:.7;z-index:0}
+.sh-hero-content{position:relative;z-index:2;padding:clamp(85px,8vw,138px) clamp(35px,5.6vw,100px) 110px clamp(40px,7.5vw,130px)}
+.sh-overline,.sh-number{font:700 11px/1.5 Arial,sans-serif;letter-spacing:.23em;text-transform:uppercase;color:#9b7541}
+.sh-hero .sh-overline{color:#e5c58e}
+.sh-hero h1{font:400 clamp(66px,7.5vw,116px)/1.02 Georgia,"Times New Roman",serif;letter-spacing:-.055em;margin:27px 0 35px;color:#fff9ed;text-wrap:balance;text-shadow:0 5px 28px #0003}
+.sh-lead{font:400 clamp(18px,1.65vw,22px)/1.83 Arial,sans-serif;max-width:720px;color:#f1eee6;margin:0}
+.sh-scripture{margin:42px 0 0;padding:20px 0 20px 27px;border-left:3px solid #d5ad6e;font:italic 20px/1.65 Georgia,serif;color:#f5e8cd}
+.sh-scripture span{display:block;margin-top:12px;font:700 11px/1.5 Arial,sans-serif;letter-spacing:.12em;color:#d6bc8d}
+.sh-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:40px}
+.sh-button,.sh-outline,.sh-hero-history-link{display:inline-flex;align-items:center;justify-content:center;min-height:53px;padding:16px 25px;border-radius:2px;font:700 13px/1.5 Arial,sans-serif;letter-spacing:.035em;text-decoration:none;transition:background .2s,border-color .2s,transform .2s}
+.sh-button{background:linear-gradient(145deg,#ecd09b,#c59d5f);color:#1b302d;border:1px solid #efd9ac;box-shadow:0 6px 20px #0002}
+.sh-button:hover{background:#f1d9a9;transform:translateY(-2px)}
+.sh-hero-history-link{max-width:365px;text-align:left;border:1px solid #c9b58a;color:#f8e7c7;background:#ffffff0b}
+.sh-hero-history-link:hover{background:#ffffff20;color:#fff}
+.sh-hero-art{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:440px;padding:70px 32px;background:radial-gradient(ellipse at 50% 47%,#315c5c 0%,#1a3d44 42%,#0b2732 88%);border-left:1px solid #d5b98150;overflow:hidden}
+.sh-hero-art:before{content:"";position:absolute;inset:38px 28px;border:1px solid #c4a5756b;pointer-events:none}
+.sh-hero-art:after{content:"";position:absolute;top:13%;bottom:13%;left:50%;width:min(78%,360px);transform:translateX(-50%);border-left:1px solid #d5b98135;border-right:1px solid #d5b98135;pointer-events:none}
+.sh-hebrew-word{position:relative;z-index:1;font:400 clamp(105px,11.5vw,180px)/1.3 Georgia,"Times New Roman",serif;letter-spacing:0;color:#efd5a2;text-shadow:0 5px 32px #0006}
+.sh-hebrew-caption{position:relative;z-index:1;margin-top:16px;font:700 11px/1.5 Arial,sans-serif;letter-spacing:.34em;text-align:center;color:#dfc493}
+.sh-hero-rule{width:90px;height:1px;margin-top:37px;background:#d2b47c}
+.sh-reading{max-width:1120px;margin:0 auto;padding:95px clamp(28px,5vw,72px) 125px}
+.sh-intro{position:relative;margin:0 auto 105px;max-width:920px;padding:47px clamp(30px,5vw,65px) 48px;border-top:1px solid var(--bronze);border-bottom:1px solid var(--bronze);font:400 clamp(23px,2.4vw,31px)/1.75 Georgia,serif;color:#294239;text-align:left;background:linear-gradient(90deg,#ffffff66,#fffdf900,#ffffff66)}
+.sh-intro:before,.sh-intro:after{content:"◆";position:absolute;left:50%;transform:translateX(-50%);color:#a98955;font-size:14px;background:#f8f4eb;padding:0 14px}
+.sh-intro:before{top:-12px}.sh-intro:after{bottom:-12px}
+.sh-section{position:relative;scroll-margin-top:105px;margin:0 0 95px;padding:65px clamp(28px,5.5vw,76px) 75px;background:var(--paper);border:1px solid #e3d8c7;border-top:4px solid #a98a57;box-shadow:0 15px 42px #51412c0c,0 2px 8px #51412c08}
+.sh-section:before{content:"";position:absolute;top:13px;left:14px;right:14px;bottom:13px;border:1px solid #d8c8ad65;pointer-events:none}
+.sh-section .sh-number{margin:0 0 16px;color:#987440}
+.sh-section h2,.sh-history h2,.sh-invitation h2{font:400 clamp(38px,4.4vw,62px)/1.14 Georgia,serif;letter-spacing:-.035em;text-wrap:balance;margin:0 0 37px;max-width:900px}
+.sh-section h2{color:#173d3b}
+.sh-section h3{font:400 clamp(25px,2.7vw,34px)/1.25 Georgia,serif;color:#214e4a;margin:55px 0 22px;padding-bottom:14px;border-bottom:1px solid #dbcbb2}
+.sh-section>p:not(.sh-number){font:400 18px/1.95 Arial,sans-serif;max-width:790px;color:#35463f;margin:0 0 24px}
+.sh-section>blockquote{position:relative;max-width:830px;margin:28px 0 34px;padding:30px clamp(25px,4vw,45px);background:linear-gradient(120deg,#f3eee3,#faf7ef);border-left:4px solid #b08b51;border-top:1px solid #e2d6c0;border-right:1px solid #e2d6c0;border-bottom:1px solid #e2d6c0;color:#28443f;font:italic clamp(19px,2vw,23px)/1.77 Georgia,serif;box-shadow:0 6px 18px #493a2308}
+.sh-section>blockquote cite{display:block;margin-top:22px;font:700 11px/1.65 Arial,sans-serif;font-style:normal;letter-spacing:.08em;color:#85653b}
+.sh-olive{background:linear-gradient(135deg,#fffdf8 0%,#f7f4eb 100%);border-top-color:#637a5e}
+.sh-olive>blockquote{border-left-color:#778961}
+.sh-references{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.sh-references .sh-scripture-reference,.sh-references a{font:700 12px Arial,sans-serif;color:#315e4d;background:#e7ebe1;padding:12px 14px;border-radius:2px}
+.sh-history{position:relative;margin:20px 0 90px;padding:clamp(45px,6vw,80px);background:linear-gradient(135deg,#e9dfcc,#f4ecdd 60%,#e7dbc5);border:1px solid #cfba98;border-top:5px solid #b08b52;box-shadow:0 14px 34px #59452c16}
+.sh-history:before{content:"";position:absolute;inset:14px;border:1px solid #b99c6a65;pointer-events:none}
+.sh-history h2{color:#233f38}
+.sh-history>p:not(.sh-number){font:18px/1.9 Arial,sans-serif;max-width:850px;color:#35463f}
+.sh-history .sh-history-link{display:inline-flex;margin-top:20px;padding:17px 27px;background:#183d40;color:#fff;border:1px solid #b08b52;border-radius:2px;font:700 13px/1.5 Arial,sans-serif;text-decoration:none;letter-spacing:.04em}
+.sh-history .sh-history-link:hover{background:#29545a}
+.sh-invitation{position:relative;margin:0;padding:clamp(48px,7vw,85px);background:linear-gradient(125deg,#0d2935,#1a4446 68%,#11313b);color:#fffaf0;border:1px solid #b69a68;border-top:6px solid #d0ae74;box-shadow:0 20px 45px #1b343029}
+.sh-invitation:before{content:"";position:absolute;inset:15px;border:1px solid #d8ba814f;pointer-events:none}
+.sh-invitation .sh-number{color:#e3c58e}
+.sh-invitation h2{color:#fff9ec}
+.sh-invitation>p:not(.sh-number){font:18px/1.9 Arial,sans-serif;max-width:820px;color:#e8eee9;margin:0 0 22px}
+.sh-outline{border:1px solid #d1bd94;color:#fffaf0;background:#ffffff08}
+.sh-outline:hover{background:#ffffff20}
+@media(max-width:900px){.sh-hero{grid-template-columns:1fr}.sh-hero-content{padding:80px clamp(28px,7vw,70px) 75px}.sh-hero-art{min-height:320px;border-left:0;border-top:1px solid #d5b98150}.sh-hebrew-word{font-size:clamp(100px,18vw,155px)}.sh-reading{padding-top:65px}.sh-intro{margin-bottom:70px}}
+@media(max-width:600px){.sh-hero:before{inset:10px}.sh-hero-content{padding:66px 27px 60px}.sh-hero h1{font-size:clamp(54px,12vw,77px)}.sh-lead{font-size:17px;line-height:1.8}.sh-scripture{font-size:18px}.sh-hero-art{min-height:240px}.sh-hero-art:before{inset:18px}.sh-reading{padding:55px 17px 75px}.sh-intro{font-size:22px;line-height:1.7;padding:35px 12px;margin-bottom:55px}.sh-section{padding:44px 23px 47px;margin-bottom:50px}.sh-section:before{inset:8px}.sh-section h2,.sh-history h2,.sh-invitation h2{font-size:clamp(34px,9vw,46px)}.sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){font-size:16px;line-height:1.85}.sh-section>blockquote{font-size:18px;line-height:1.7;padding:23px 20px;margin:22px 0 28px}.sh-section h3{margin-top:40px}.sh-history,.sh-invitation{padding:43px 28px;margin-bottom:50px}.sh-actions{align-items:stretch}.sh-hero-history-link{max-width:100%}}
+@media(prefers-reduced-motion:reduce){.sh-page *{transition:none!important;scroll-behavior:auto!important}}
