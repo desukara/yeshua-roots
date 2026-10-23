@@ -14,7 +14,32 @@ const books=[
  {he:"בְּמִדְבַּר",en:"Numbers",trans:"Bamidbar",theme:"The wilderness journey"},
  {he:"דְּבָרִים",en:"Deuteronomy",trans:"Devarim",theme:"The covenant renewed"}
 ];
-function Palm({flip=false}:{flip?:boolean}){return <svg className={flip?"torah-sanctuary-palm flipped":"torah-sanctuary-palm"} viewBox="0 0 160 250" fill="none" aria-hidden="true"><path d="M82 235Q80 170 79 62" stroke="currentColor" strokeWidth="5"/>{[-1,1].map(side=>[0,1,2,3,4].map(i=><path key={side+"-"+i} d={`M80 ${70+i*19} Q${80+side*(42+i*5)} ${18+i*18} ${80+side*(68-i*4)} ${25+i*25} Q${80+side*(45+i*3)} ${62+i*16} 80 ${70+i*19}Z`} stroke="currentColor" strokeWidth="1.7" fill="currentColor" fillOpacity=".13"/>))}<path d="M80 65Q60 20 34 15M80 65Q100 20 126 15M80 65V8" stroke="currentColor" strokeWidth="3"/></svg>}
+function Palm({flip=false}:{flip?:boolean}){
+ const fronds=[[-72,-42],[-85,-5],[-80,30],[-59,59],[-30,77],[30,77],[59,59],[80,30],[85,-5],[72,-42]];
+ return <svg className={flip?"torah-sanctuary-palm flipped":"torah-sanctuary-palm"} viewBox="0 0 240 340" fill="none" aria-hidden="true">
+  <g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+   <path d="M120 325 C115 265 128 195 120 94" strokeWidth="5" opacity=".85"/>
+   <path d="M113 321 C113 266 124 192 118 100" strokeWidth="1.2" opacity=".65"/>
+   {[0,1,2,3,4,5,6,7].map(i=><path key={"trunk"+i} d={`M${115+i*.4} ${301-i*25} q9 5 13 -2`} strokeWidth=".9" opacity=".55"/>)}
+   {fronds.map(([dx,dy],i)=>{
+    const side=dx<0?-1:1;
+    const endX=120+dx,endY=90+dy;
+    const cx=120+dx*.58,cy=49+dy*.42;
+    return <g key={i}>
+     <path d={`M120 94 Q${cx} ${cy} ${endX} ${endY}`} strokeWidth="2" opacity=".9"/>
+     {Array.from({length:13},(_,j)=>{
+      const t=(j+1)/14,x=(1-t)*(1-t)*120+2*(1-t)*t*cx+t*t*endX,y=(1-t)*(1-t)*94+2*(1-t)*t*cy+t*t*endY;
+      const reach=(1-t)*18+5,fall=8+t*17;
+      return <g key={j}>
+       <path d={`M${x} ${y} Q${x+side*reach*.6} ${y-fall*.75} ${x+side*reach} ${y-fall}`} strokeWidth=".85" opacity=".82"/>
+       <path d={`M${x} ${y} Q${x-side*reach*.55} ${y+fall*.25} ${x-side*reach*.88} ${y+fall*.68}`} strokeWidth=".85" opacity=".82"/>
+      </g>
+     })}
+    </g>
+   })}
+  </g>
+ </svg>
+}
 function TempleOrnament(){return <div className="temple-ornament temple-architectural-rule" aria-hidden="true"><span/><i/><span/></div>}
 export default function TorahTemplePage(){const {locale}=useLanguage();const he=locale==="he";const [openBook,setOpenBook]=useState<string|null>(null);const readerRef=useRef<HTMLElement>(null);useEffect(()=>{if(openBook)readerRef.current?.scrollIntoView({behavior:"smooth",block:"start"})},[openBook]);const openTorah=(book:string)=>setOpenBook(book);return <><SiteHeader/><main id="main-content" className="torah-temple" tabIndex={-1}>
 <section className="temple-portal" aria-labelledby="temple-title"><div className="temple-portal-inner"><Palm/><div className="temple-portal-copy"><p className="temple-supratitle" lang="he" dir="rtl">בית מדרש · ישוע רוטס</p><TempleOrnament/><h1 id="temple-title" lang="he" dir="rtl">תּוֹרָה</h1><p className="temple-english-title">{he?"חֲמִשָּׁה חוּמְשֵׁי תוֹרָה":"THE FIVE BOOKS OF MOSES"}</p><p className="temple-portal-description">{he?"לימוד התורה בעברית ובאנגלית, מתוך כבוד למסורת ישראל ולאור ישוע המשיח.":"Enter the words of Torah. Study the Hebrew, explore the Jewish sources, and discover Yeshua, the living Messiah of Israel."}</p><button type="button" className="temple-primary-link" onClick={()=>openTorah("Genesis")} aria-controls="scripture-reader" aria-expanded={openBook!==null}>{he?"פתחו את התורה":"Open the Torah"} <span aria-hidden="true">↗</span></button><p className="temple-verse-source" lang="en" dir="ltr">“That at that time ye were without Christ, being aliens from the commonwealth of Israel, and strangers from the covenants of promise, having no hope, and without God in the world: But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ.” <span>EPHESIANS 2:12–13 · KJV</span></p></div><Palm flip/></div><div className="temple-portal-foot" aria-hidden="true"><div className="temple-architectural-rule"><span/><i/><span/></div></div></section>
