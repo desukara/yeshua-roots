@@ -407,3 +407,15 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
 .about-editorial-motto:before{content:"";display:block;width:82px;height:1px;background:#ac8b5d;margin:0 auto 23px}
 @media(max-width:1100px){.about-editorial-hero{padding-inline:160px!important}.temple-palm{width:130px;height:350px}.temple-palm-left{left:36px}.temple-palm-right{right:36px}}
 @media(max-width:720px){.about-editorial-hero{min-height:430px!important;padding:90px 30px 80px!important}.about-sanctuary-frame{inset:19px 17px}.about-editorial-hero:before{inset:9px}.temple-palm{height:240px;width:90px;opacity:.16}.temple-palm-left{left:-24px}.temple-palm-right{right:-24px}.about-editorial-hero h1{font-size:clamp(39px,9vw,56px)!important}.about-editorial-eyebrow{font-size:10px!important}}
+
+
+/* Composition correction: true three-column architecture keeps carved palms OUTSIDE the lettering. */
+.about-editorial-hero{display:grid!important;grid-template-columns:minmax(135px,1fr) minmax(0,760px) minmax(135px,1fr)!important;column-gap:clamp(22px,3vw,54px)!important;align-items:center!important;justify-items:center!important;padding:75px clamp(36px,5vw,100px)!important;min-height:500px!important}
+.about-editorial-hero-inner{grid-column:2!important;grid-row:1!important;width:100%!important;max-width:760px!important;margin:0!important;position:relative!important;z-index:3!important}
+.temple-palm{position:relative!important;top:auto!important;left:auto!important;right:auto!important;transform:none!important;grid-row:1!important;width:100%!important;max-width:180px!important;height:auto!important;max-height:370px!important;opacity:.9!important;color:#92703e!important;overflow:visible!important}
+.temple-palm-left{grid-column:1!important;justify-self:end!important}
+.temple-palm-right{grid-column:3!important;justify-self:start!important;transform:scaleX(-1)!important}
+.about-editorial-hero h1{font-size:clamp(39px,4.25vw,64px)!important;max-width:720px!important;text-wrap:balance!important}
+.about-sanctuary-frame{z-index:0!important;inset:29px 32px!important;border:2px solid #b09460!important;box-shadow:inset 0 0 0 5px #f7edda,inset 0 0 0 7px #c5ac7d90!important}
+@media(max-width:1050px){.about-editorial-hero{grid-template-columns:minmax(95px,1fr) minmax(0,650px) minmax(95px,1fr)!important;padding:75px 44px!important;column-gap:18px!important}.temple-palm{max-width:135px!important}}
+@media(max-width:720px){.about-editorial-hero{display:grid!important;grid-template-columns:1fr!important;padding:85px 30px 80px!important;min-height:390px!important}.about-editorial-hero-inner{grid-column:1!important}.temple-palm{display:none!important}.about-sanctuary-frame{inset:20px 18px!important}.about-editorial-hero h1{font-size:clamp(38px,8.8vw,54px)!important}}
