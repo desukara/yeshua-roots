@@ -108,3 +108,34 @@
  .home-royal .room-card{min-height:240px}
  .home-royal .interlinear-promo:before{opacity:.45}
 }
+
+/* Mobile sanctuary polish: keep the arch and its lettering within their own frame. */
+.home-royal .visual-symbol{display:flex;align-items:center;justify-content:center;line-height:1}
+.home-royal .visual-symbol img{display:block;width:clamp(54px,6vw,82px);height:auto;filter:sepia(.4) saturate(.65);opacity:.92}
+.home-royal .grafted-olive-star{display:flex;align-items:center;justify-content:center;color:#8d7044}
+.home-royal .grafted-olive-star svg{max-width:50%;height:auto}
+@media(max-width:760px){
+ .home-royal .welcome-visual{box-sizing:border-box;min-height:0;padding:clamp(28px,7vw,42px) 24px 52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px}
+ .home-royal .welcome-visual:before{inset:15px}
+ .home-royal .arch{box-sizing:border-box;flex:none;width:min(270px,76vw);height:clamp(330px,95vw,390px);margin:0 auto;border-width:7px}
+ .home-royal .arch-inner{box-sizing:border-box;min-width:0;min-height:0;padding:34px 12px 24px;justify-content:space-between;gap:10px;overflow:hidden}
+ .home-royal .hebrew-large{font-size:clamp(44px,12vw,64px);line-height:1.1;margin:0}
+ .home-royal .visual-symbol img{width:clamp(52px,17vw,74px)}
+ .home-royal .visual-line{width:70px;max-width:70%;margin:0}
+ .home-royal .arch-inner span{font-size:clamp(8px,2.2vw,10px);letter-spacing:.13em;line-height:1.65;max-width:100%;overflow-wrap:break-word}
+ .home-royal .visual-stamp{position:static;display:block;text-align:center;max-width:90%;font-size:10px;line-height:1.5;letter-spacing:.12em;color:#4b3b26}
+ .home-royal .grafted-olive-frame{width:min(260px,70vw);min-height:0;aspect-ratio:1}
+ .home-royal .grafted-olive-star svg{width:clamp(76px,22vw,104px)}
+}
+
+/* Olive tree: a crafted illustration, not a small icon adrift in an empty frame. */
+.home-royal .grafted-olive-frame{display:flex;align-items:center;justify-content:center;overflow:hidden}
+.home-royal .grafted-olive-star{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.home-royal .olive-tree-illustration{display:block;width:min(78%,300px);height:85%;max-height:340px;filter:drop-shadow(0 5px 5px #5c4c3120)}
+.home-royal .home-blessing .blessing-star{display:flex;justify-content:center;align-items:center;margin-inline:auto}
+.home-royal .home-blessing .blessing-star img{display:block;width:44px;height:44px;filter:sepia(.4) saturate(.7)}
+@media(max-width:760px){
+ .home-royal .grafted-olive-frame{width:min(300px,77vw);aspect-ratio:1;min-height:0}
+ .home-royal .olive-tree-illustration{width:80%;height:86%}
+ .home-royal .home-blessing .blessing-star img{width:42px;height:42px}
+}
