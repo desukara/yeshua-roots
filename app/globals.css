@@ -349,3 +349,73 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
 .global-home-escape{position:fixed;right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));z-index:9999;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:2px solid #ad884d;border-radius:999px;background:#192a25;color:#fff!important;font:700 14px/1.2 system-ui,sans-serif;text-decoration:none;box-shadow:0 5px 20px #0005}
 .global-home-escape:hover,.global-home-escape:focus-visible{background:#314a3f;outline:3px solid #f1c873;outline-offset:3px}
 @media(max-width:480px){.global-home-escape{right:10px;bottom:max(10px,env(safe-area-inset-bottom));padding:9px 12px;font-size:13px}}
+
+
+/* About page: a calm, readable editorial presentation. Approved prose is unchanged. */
+.about-editorial{background:#fbf8f1;color:#26352f;padding:0 0 clamp(76px,9vw,130px);text-align:left}
+.about-editorial-hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#19392f 0%,#2a5140 64%,#345848 100%);color:#fff9ed;padding:clamp(76px,10vw,148px) 24px clamp(68px,8vw,112px);border-bottom:5px solid #bda06b}
+.about-editorial-hero:after{content:"";position:absolute;right:-7%;top:-55%;width:55%;aspect-ratio:1;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 65px #ffffff08,0 0 0 130px #ffffff05;pointer-events:none}
+.about-editorial-hero-inner{position:relative;z-index:1;width:min(100%,850px);margin:auto}
+.about-editorial-eyebrow{display:block;font:700 12px/1.5 system-ui,sans-serif;letter-spacing:.24em;color:#e1c590;margin-bottom:24px}
+.about-editorial-hero h1{font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(42px,5.8vw,76px)!important;line-height:1.12!important;font-weight:600!important;letter-spacing:-.035em;margin:0 0 24px!important;color:#fff9ed!important;max-width:780px}
+.about-editorial-motto{font:500 clamp(17px,2vw,22px)/1.5 Georgia,serif!important;color:#ebd7b0!important;margin:0!important}
+.about-editorial-reading{max-width:800px;margin:0 auto;padding:clamp(44px,6vw,80px) 28px 0}
+.about-editorial-section{margin:0;padding:0 0 clamp(30px,4vw,48px)}
+.about-editorial-section+.about-editorial-section{border-top:1px solid #dfd8c8;padding-top:clamp(40px,5vw,64px)}
+.about-editorial-section h2{font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(28px,3vw,38px)!important;font-weight:600!important;line-height:1.22!important;letter-spacing:-.025em!important;color:#244c3d!important;margin:0 0 24px!important}
+.about-editorial-section p,.about-editorial-farewell{font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(18px,1.55vw,20px)!important;line-height:1.82!important;color:#333b35!important;letter-spacing:0!important;margin:0 0 24px!important;max-width:none!important}
+.about-editorial-intro>p:first-child{font-size:clamp(22px,2vw,25px)!important;color:#234737!important}
+.about-editorial-quote{display:block;margin:30px 0 36px!important;padding:22px 28px!important;border:0!important;border-left:4px solid #b4955e!important;border-radius:0 8px 8px 0;background:#f0e9da!important;box-shadow:none!important}
+.about-editorial-quote p{font-size:clamp(17px,1.45vw,19px)!important;line-height:1.72!important;color:#394a3e!important;font-style:italic;margin:0 0 15px!important}
+.about-editorial-quote p:last-child{margin-bottom:0!important}
+.about-editorial-farewell{padding-top:30px;border-top:1px solid #d8cdb8;color:#244c3d!important}
+.about-editorial-farewell strong{font-weight:700}
+@media(max-width:650px){.about-editorial-hero{padding:70px 22px 64px}.about-editorial-reading{padding:42px 22px 0}.about-editorial-section+.about-editorial-section{padding-top:38px}.about-editorial-quote{padding:20px!important;margin:24px 0 30px!important}.about-editorial-section p{line-height:1.75!important}}
+
+
+/* About page: restrained Jerusalem-stone welcome, no decorative geometry.
+   The reading area is a left-aligned editorial page, not a centered narrow column. */
+.about-editorial{background:#faf7ef!important}
+.about-editorial-hero{isolation:auto;background:#eee3cf!important;background-image:linear-gradient(180deg,#f4ebdc 0%,#eae0cd 100%)!important;color:#244237!important;border-bottom:3px solid #ac8955!important;padding:clamp(72px,8vw,112px) clamp(28px,9vw,160px) clamp(70px,8vw,104px)!important;min-height:0!important}
+.about-editorial-hero:before{content:none!important;display:none!important}
+.about-editorial-hero:after{content:none!important;display:none!important;box-shadow:none!important;background:none!important;border:0!important}
+.about-editorial-hero-inner{width:100%!important;max-width:1120px!important;margin:0!important}
+.about-editorial-eyebrow{color:#846638!important;letter-spacing:.17em!important}
+.about-editorial-hero h1{color:#244437!important;max-width:900px!important;font-size:clamp(42px,5.5vw,70px)!important}
+.about-editorial-motto{color:#765c39!important}
+.about-editorial-reading{box-sizing:border-box!important;width:100%!important;max-width:1250px!important;margin:0!important;padding:clamp(52px,6vw,86px) clamp(28px,9vw,160px) 0!important}
+.about-editorial-section{max-width:960px!important}
+.about-editorial-section p,.about-editorial-farewell{max-width:900px!important}
+.about-editorial-quote{max-width:860px!important}
+.about-editorial-section+.about-editorial-section{border-top:1px solid #d8cbb6}
+@media(min-width:1500px){.about-editorial-hero,.about-editorial-reading{padding-left:max(9vw,calc((100vw - 1400px)/2))!important}}
+@media(max-width:650px){.about-editorial-hero{padding:64px 24px 66px!important}.about-editorial-reading{padding:42px 24px 0!important}.about-editorial-hero h1{font-size:clamp(38px,10vw,52px)!important}}
+
+
+/* Temple botanical relief entrance — 1 Kings 6:29, 32, 35. */
+.about-editorial-hero{isolation:isolate!important;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:520px!important;padding:95px 210px!important;background:linear-gradient(90deg,#e7d9bf,#f7efdf 15%,#faf3e7 50%,#f7efdf 85%,#e7d9bf)!important;border-bottom:4px solid #aa8650!important}
+.about-editorial-hero:before{content:""!important;display:block!important;position:absolute;inset:18px;border:1px solid #b3966459;z-index:0}
+.about-editorial-hero:after{content:none!important;display:none!important}
+.about-sanctuary-frame{position:absolute;inset:33px 42px;border:2px solid #b89b69a8;box-shadow:inset 0 0 0 6px #f6eddd,inset 0 0 0 7px #b89b6959;pointer-events:none}
+.temple-palm{position:absolute;z-index:1;top:50%;transform:translateY(-50%);height:410px;width:175px;color:#977341;opacity:.75}
+.temple-palm-left{left:max(52px,calc((100% - 1250px)/2))}
+.temple-palm-right{right:max(52px,calc((100% - 1250px)/2));transform:translateY(-50%) scaleX(-1)}
+.about-editorial-hero-inner{position:relative;z-index:2;width:min(100%,790px)!important;max-width:790px!important;margin:auto!important;text-align:center!important}
+.about-editorial-eyebrow{color:#86663e!important;letter-spacing:.2em!important;font-size:11px!important;margin-bottom:27px!important}
+.about-editorial-hero h1{color:#294536!important;font-size:clamp(42px,4.6vw,68px)!important;line-height:1.16!important;font-weight:500!important;letter-spacing:-.03em!important;max-width:760px!important;margin:0 auto 25px!important}
+.about-editorial-motto{color:#80633d!important;font-size:clamp(18px,1.8vw,22px)!important}
+.about-editorial-motto:before{content:"";display:block;width:82px;height:1px;background:#ac8b5d;margin:0 auto 23px}
+@media(max-width:1100px){.about-editorial-hero{padding-inline:160px!important}.temple-palm{width:130px;height:350px}.temple-palm-left{left:36px}.temple-palm-right{right:36px}}
+@media(max-width:720px){.about-editorial-hero{min-height:430px!important;padding:90px 30px 80px!important}.about-sanctuary-frame{inset:19px 17px}.about-editorial-hero:before{inset:9px}.temple-palm{height:240px;width:90px;opacity:.16}.temple-palm-left{left:-24px}.temple-palm-right{right:-24px}.about-editorial-hero h1{font-size:clamp(39px,9vw,56px)!important}.about-editorial-eyebrow{font-size:10px!important}}
+
+
+/* Composition correction: true three-column architecture keeps carved palms OUTSIDE the lettering. */
+.about-editorial-hero{display:grid!important;grid-template-columns:minmax(135px,1fr) minmax(0,760px) minmax(135px,1fr)!important;column-gap:clamp(22px,3vw,54px)!important;align-items:center!important;justify-items:center!important;padding:75px clamp(36px,5vw,100px)!important;min-height:500px!important}
+.about-editorial-hero-inner{grid-column:2!important;grid-row:1!important;width:100%!important;max-width:760px!important;margin:0!important;position:relative!important;z-index:3!important}
+.temple-palm{position:relative!important;top:auto!important;left:auto!important;right:auto!important;transform:none!important;grid-row:1!important;width:100%!important;max-width:180px!important;height:auto!important;max-height:370px!important;opacity:.9!important;color:#92703e!important;overflow:visible!important}
+.temple-palm-left{grid-column:1!important;justify-self:end!important}
+.temple-palm-right{grid-column:3!important;justify-self:start!important;transform:scaleX(-1)!important}
+.about-editorial-hero h1{font-size:clamp(39px,4.25vw,64px)!important;max-width:720px!important;text-wrap:balance!important}
+.about-sanctuary-frame{z-index:0!important;inset:29px 32px!important;border:2px solid #b09460!important;box-shadow:inset 0 0 0 5px #f7edda,inset 0 0 0 7px #c5ac7d90!important}
+@media(max-width:1050px){.about-editorial-hero{grid-template-columns:minmax(95px,1fr) minmax(0,650px) minmax(95px,1fr)!important;padding:75px 44px!important;column-gap:18px!important}.temple-palm{max-width:135px!important}}
+@media(max-width:720px){.about-editorial-hero{display:grid!important;grid-template-columns:1fr!important;padding:85px 30px 80px!important;min-height:390px!important}.about-editorial-hero-inner{grid-column:1!important}.temple-palm{display:none!important}.about-sanctuary-frame{inset:20px 18px!important}.about-editorial-hero h1{font-size:clamp(38px,8.8vw,54px)!important}}
