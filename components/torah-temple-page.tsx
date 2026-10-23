@@ -15,27 +15,29 @@ const books=[
  {he:"דְּבָרִים",en:"Deuteronomy",trans:"Devarim",theme:"The covenant renewed"}
 ];
 function Palm({flip=false}:{flip?:boolean}){
- const fronds=[[-72,-42],[-85,-5],[-80,30],[-59,59],[-30,77],[30,77],[59,59],[80,30],[85,-5],[72,-42]];
+ // Solid, separated leaf silhouettes avoid the crosshatching of the former line-art palms.
+ const leaves=[
+  {tip:[24,83],control:[58,27],base:[117,91],width:11},
+  {tip:[32,48],control:[65,12],base:[117,91],width:10},
+  {tip:[68,19],control:[87,7],base:[119,91],width:9},
+  {tip:[105,13],control:[108,2],base:[120,91],width:8},
+  {tip:[136,13],control:[132,2],base:[120,91],width:8},
+  {tip:[173,19],control:[152,7],base:[121,91],width:9},
+  {tip:[208,48],control:[175,12],base:[123,91],width:10},
+  {tip:[216,83],control:[182,27],base:[123,91],width:11},
+  {tip:[20,119],control:[52,64],base:[117,93],width:12},
+  {tip:[220,119],control:[188,64],base:[123,93],width:12},
+  {tip:[40,157],control:[55,101],base:[117,96],width:11},
+  {tip:[200,157],control:[185,101],base:[123,96],width:11}
+ ];
  return <svg className={flip?"torah-sanctuary-palm flipped":"torah-sanctuary-palm"} viewBox="0 0 240 340" fill="none" aria-hidden="true">
-  <g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
-   <path d="M120 325 C115 265 128 195 120 94" strokeWidth="5" opacity=".85"/>
-   <path d="M113 321 C113 266 124 192 118 100" strokeWidth="1.2" opacity=".65"/>
-   {[0,1,2,3,4,5,6,7].map(i=><path key={"trunk"+i} d={`M${115+i*.4} ${301-i*25} q9 5 13 -2`} strokeWidth=".9" opacity=".55"/>)}
-   {fronds.map(([dx,dy],i)=>{
-    const side=dx<0?-1:1;
-    const endX=120+dx,endY=90+dy;
-    const cx=120+dx*.58,cy=49+dy*.42;
-    return <g key={i}>
-     <path d={`M120 94 Q${cx} ${cy} ${endX} ${endY}`} strokeWidth="2" opacity=".9"/>
-     {Array.from({length:13},(_,j)=>{
-      const t=(j+1)/14,x=(1-t)*(1-t)*120+2*(1-t)*t*cx+t*t*endX,y=(1-t)*(1-t)*94+2*(1-t)*t*cy+t*t*endY;
-      const reach=(1-t)*18+5,fall=8+t*17;
-      return <g key={j}>
-       <path d={`M${x} ${y} Q${x+side*reach*.6} ${y-fall*.75} ${x+side*reach} ${y-fall}`} strokeWidth=".85" opacity=".82"/>
-       <path d={`M${x} ${y} Q${x-side*reach*.55} ${y+fall*.25} ${x-side*reach*.88} ${y+fall*.68}`} strokeWidth=".85" opacity=".82"/>
-      </g>
-     })}
-    </g>
+  <g fill="currentColor">
+   <path d="M116 329 C117 271 119 204 117 94 L124 94 C125 204 122 271 125 329 Z" opacity=".86"/>
+   {leaves.map(({tip,control,base,width},i)=>{
+    const [bx,by]=base,[cx,cy]=control,[tx,ty]=tip;
+    const vx=tx-bx,vy=ty-by,length=Math.hypot(vx,vy);
+    const nx=-vy/length*width,ny=vx/length*width;
+    return <path key={i} d={`M${bx} ${by} Q${cx+nx} ${cy+ny} ${tx} ${ty} Q${cx-nx} ${cy-ny} ${bx} ${by} Z`} opacity={i>7?".72":".9"}/>;
    })}
   </g>
  </svg>
