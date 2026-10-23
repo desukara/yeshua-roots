@@ -425,3 +425,24 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
  .global-home-escape-wrap{position:relative;display:flex;justify-content:flex-end;padding:16px max(20px,env(safe-area-inset-right)) calc(18px + env(safe-area-inset-bottom));background:#f7f3ea}
  .global-home-escape,.global-home-escape:hover,.global-home-escape:focus-visible{position:static;right:auto;bottom:auto;z-index:auto;box-shadow:0 3px 10px #14283b20}
 }
+
+/* Mobile footer: compact two-column directory, with the return link in the same green surface. */
+@media(max-width:760px){
+ .site-footer{grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:24px;row-gap:30px;padding:48px 24px 28px;align-items:start}
+ .site-footer>div{min-width:0;gap:12px}
+ .site-footer>div:first-child{grid-column:1/-1;gap:11px;padding-bottom:22px;border-bottom:1px solid #d9bd8350}
+ .site-footer>div:first-child .footer-brand{font-size:clamp(17px,4.6vw,21px)}
+ .site-footer>div:first-child .footer-hebrew{font-size:21px!important}
+ .site-footer>div:nth-child(2),.site-footer>div:nth-child(3){gap:15px}
+ .site-footer b{font-size:13px;line-height:1.35}
+ .site-footer a:not(.footer-brand){font-size:13px;line-height:1.4;overflow-wrap:break-word}
+ .site-footer .footer-end{grid-column:1/-1;padding-top:18px;border-top:1px solid #d9bd8350}
+ .site-footer .footer-end>span{display:none}
+ .site-footer .footer-end small{margin-top:0}
+ .global-home-escape-wrap{background:#1d3a2e;justify-content:center;padding:8px 24px calc(32px + env(safe-area-inset-bottom))}
+ .global-home-escape{background:#243f34;border-color:#b69a62;box-shadow:none}
+}
+@media(max-width:350px){
+ .site-footer{column-gap:14px;padding-inline:18px}
+ .site-footer a:not(.footer-brand){font-size:12px}
+}
