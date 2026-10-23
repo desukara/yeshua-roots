@@ -88,3 +88,19 @@
 .sh-page a:focus-visible{outline:3px solid #dfb96e;outline-offset:4px}
 @media(max-width:1050px){.sh-section{grid-template-columns:minmax(190px,30%) minmax(0,1fr);column-gap:35px;padding:75px 5vw}.sh-section>h2{font-size:clamp(32px,4.5vw,50px)}}
 @media(max-width:760px){.sh-section{display:block;padding:65px 26px}.sh-section>h2{position:static;margin:0 0 33px;font-size:clamp(35px,8vw,51px)}.sh-section>p:not(.sh-number){font-size:17px;line-height:1.85}.sh-section>blockquote{font-size:19px;padding:24px 22px}.sh-intro{padding:65px 28px;font-size:24px}.sh-history,.sh-invitation{padding:70px 29px}.sh-history h2{font-size:clamp(36px,8vw,55px)}}
+
+
+/* Layout correction: eliminate the empty 31% left rail.
+   Keep text comfortable while using the whole architectural canvas. */
+@media(min-width:761px){
+.sh-section{display:block;padding:clamp(70px,7vw,110px) clamp(28px,4.2vw,78px);column-gap:0}
+.sh-section>.sh-number{display:block;width:100%;max-width:none;margin:0 0 18px;border-top:2px solid #b3935d;padding-top:20px}
+.sh-section>h2{position:static;top:auto;max-width:100%;margin:0 0 38px;font-size:clamp(42px,4.7vw,75px)}
+.sh-section>p:not(.sh-number){width:100%;max-width:100%;font-size:clamp(18px,1.4vw,21px);line-height:1.85}
+.sh-section>h3{width:100%;max-width:100%;margin:48px 0 23px}
+.sh-section>blockquote{width:100%;max-width:100%;padding:clamp(30px,3.4vw,56px);font-size:clamp(21px,1.9vw,29px)}
+.sh-intro{padding:clamp(70px,7vw,115px) clamp(28px,4.2vw,78px)}
+.sh-history,.sh-invitation{padding:clamp(75px,8vw,135px) clamp(28px,4.2vw,78px)}
+.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){max-width:100%}
+.sh-history h2,.sh-invitation h2{max-width:100%}
+}
