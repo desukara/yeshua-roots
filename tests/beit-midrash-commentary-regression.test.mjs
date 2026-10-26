@@ -6,20 +6,18 @@ const drafts = readFileSync(new URL("../lib/beit-midrash-commentary-drafts.ts", 
 const reader = readFileSync(new URL("../components/interlinear-reader.tsx", import.meta.url), "utf8");
 const contract = readFileSync(new URL("../docs/beit-midrash-commentary-editorial-contract.md", import.meta.url), "utf8");
 
-test("commentary stays behind an explicit unpublished preview flag", () => {
-  assert.match(reader, /NEXT_PUBLIC_BEIT_MIDRASH_DRAFT_PREVIEW==="true"/);
-  assert.match(reader, /commentaryDrafts\[/);
-  assert.match(reader, /\{commentary&&<article/);
-  assert.match(drafts, /founder-review-required/g);
+test("unapproved rabbinic commentary cannot render in the public interlinear reader", () => {
+  assert.doesNotMatch(reader, /commentaryDrafts/);
+  assert.doesNotMatch(reader, /NEXT_PUBLIC_BEIT_MIDRASH_DRAFT_PREVIEW/);
+  assert.doesNotMatch(reader, /Jewish Commentary · Historical Source/);
+  assert.match(reader, /MESSIANIC TORAH STUDY/);
 });
 
-test("Jewish commentary and Messianic interpretation are distinctly labeled", () => {
-  assert.match(reader, /Jewish Commentary · Historical Source/);
-  assert.match(reader, /Messianic Reflection · Our Editorial Reading/);
+test("historical Jewish commentary remains unpublished editorial reference only", () => {
   assert.match(drafts, /Rashi on Genesis 1:1/);
   assert.match(drafts, /Mishnah Chullin 3:7/);
-  assert.match(drafts, /sefaria\.org\/Rashi_on_Genesis\.1\.1/);
-  assert.match(drafts, /sefaria\.org\/Mishnah_Chullin\.3\.7/);
+  assert.match(drafts, /founder-review-required/g);
+  assert.doesNotMatch(reader, /commentary\.jewish/);
 });
 
 test("kosher identity and Messiah affirmation are mandatory editorial policy", () => {
