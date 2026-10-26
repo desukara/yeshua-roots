@@ -35,3 +35,12 @@ test("curated rabbinic material stays gated pending individual review",()=>{
  assert.doesNotMatch(api,/await fetch/);
  assert.match(library,/Jewish rabbinic scholarship is welcome/);
 });
+
+test("ambiguous or implicitly Messiah-denying rabbinic excerpts must be withheld",()=>{
+ const contract=read("docs/beit-midrash-commentary-editorial-contract.md");
+ assert.match(contract,/reasonably implies a denial of/);
+ assert.match(contract,/withhold it from publication/);
+ assert.match(contract,/exclude the excerpt instead/);
+ const api=read("app/api/library/text/route.ts");
+ assert.match(api,/status:410/);
+});
