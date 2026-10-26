@@ -17,18 +17,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Check Supabase PostgREST database endpoint
+      - name: Execute read-only Supabase database health check
         env:
           SUPABASE_URL: https://umngheuvqudwqksqzfch.supabase.co
           SUPABASE_PUBLISHABLE_KEY: sb_publishable_mI4Q4CcGgFRBi7-GjGnRSg_WRoLWECd
         run: |
           set -euo pipefail
-          status=$(curl --silent --show-error --location --max-time 30 \
-            --output /dev/null --write-out '%{http_code}' \
+          response_file=$(mktemp)
+          trap 'rm -f "$response_file"' EXIT
+          status=$(curl --silent --show-error --fail-with-body --max-time 30 \
+            --output "$response_file" --write-out '%{http_code}' \
             --header "apikey: ${SUPABASE_PUBLISHABLE_KEY}" \
-            "${SUPABASE_URL}/rest/v1/")
-          if [ "$status" != "200" ]; then
-            echo "::error::Supabase database endpoint returned HTTP $status"
+            --header "Accept: application/json" \
+            "${SUPABASE_URL}/rest/v1/rpc/health_check")
+          if [ "$status" != "200" ] || [ "$(cat "$response_file")" != "true" ]; then
+            echo "::error::Supabase database health check failed (HTTP $status)"
             exit 1
           fi
-          echo "Supabase database endpoint responded successfully."
+          echo "Supabase database query completed successfully."
