@@ -446,3 +446,8 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
  .site-footer{column-gap:14px;padding-inline:18px}
  .site-footer a:not(.footer-brand){font-size:12px}
 }
+
+/* UX audit: visible keyboard focus, usable touch targets and motion preferences */
+:where(a,button,input,select,textarea):focus-visible{outline:3px solid #a47732;outline-offset:3px}
+.mobile-menu-toggle,.language-switcher button{min-width:44px;min-height:44px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
