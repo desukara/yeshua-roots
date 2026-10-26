@@ -1,10 +1,11 @@
 import {NextResponse} from "next/server";
 
-// External, unrestricted rabbinic text retrieval is intentionally disabled.
-// Restore only after individual sources receive founder doctrinal approval.
+// Rabbinic scholarship is welcome as historical evidence, but the public
+// endpoint must never proxy arbitrary, unreviewed external commentary.
+// Only individually approved, attributed, licensed excerpts may be enabled.
 export async function GET(){
  return NextResponse.json(
-  {error:"This external text library is unavailable. Explore our Messianic Scripture studies instead."},
+  {error:"Curated rabbinic excerpts are awaiting source and editorial approval. Scripture study remains available."},
   {status:410,headers:{"Cache-Control":"no-store"}}
  );
 }
