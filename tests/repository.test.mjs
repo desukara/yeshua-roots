@@ -201,11 +201,11 @@ test('about page presents bilingual ministry identity without publishing unappro
  const section=read('components/section-client.tsx');
  assert.match(section, /function MinistryIdentity/);
  assert.match(section, /Yeshua is very much alive/);
- assert.match(section, /Torah and the Prophets/);
- assert.match(section, /Israel and the nations/);
- assert.match(section, /Statement of Faith — founder review pending/);
- assert.match(section, /only after founder review and approval/);
- assert.match(section, /not finalized approved ministry doctrine/);
+ assert.match(section, /aboutPageContent\.map/);
+ assert.match(section, /Welcome to Yeshua Roots/);
+ assert.match(section, /Rooted in Yeshua\. Growing in Faith\./);
+ assert.match(section, /about-editorial-reading/);
+ assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /slug==="about"&&<MinistryIdentity/);
 });
 
