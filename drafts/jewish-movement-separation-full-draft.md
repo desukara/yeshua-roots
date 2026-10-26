@@ -18,7 +18,7 @@ The revolt against Rome that began in AD 66 ended in catastrophe for Jerusalem. 
 
 This disaster did not instantly erase Jewish disciples or create a finished Gentile church. It did, however, alter the balance of institutions and authority. The Jerusalem assembly described in Acts could no longer function in the same political and religious environment. Other communities, many outside Judea, continued to grow.
 
-The decades after AD 70 also saw Jewish religious life adapt to the loss of the Temple. The developing rabbinic tradition and the communities of Yeshua's followers did not simply inherit two neatly separated institutions overnight. The evidence for their relationships is fragmentary, and their experiences differed from place to place. What can be established is that the Temple's destruction was a profound turning point, not a complete explanation by itself.
+The decades after AD 70 also saw Jewish communities adapt to the loss of the Temple. The communities of Yeshua's followers and other Jewish communities did not become neatly separated institutions overnight. The evidence for their relationships is fragmentary, and experiences differed from place to place. The Temple's destruction was a profound turning point, not a complete explanation by itself.
 
 ## Rome's Jewish tax: the *fiscus Judaicus*
 
@@ -85,6 +85,5 @@ The invitation is to return to the testimony of Scripture and examine the histor
 - Martin Goodman, “[Nerva, the Fiscus Judaicus and Jewish Identity](https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/nerva-the-fiscus-judaicus-and-jewish-identity/F09E1469321C1546ED49B92930850BFD),” *Journal of Roman Studies* 79 (1989): 40–44.
 - Martin Goodman, “[The Fiscus Iudaicus and Gentile Attitudes to Judaism in Flavian Rome](https://academic.oup.com/book/6939/chapter-abstract/151203017),” in *Flavius Josephus and Flavian Rome* (2005).
 - Richard Bauckham, “[Jews and Jewish Christians in the Land of Israel at the Time of the Bar Kochba War](https://www.cambridge.org/core/books/abs/tolerance-and-intolerance-in-early-judaism-and-christianity/jews-and-jewish-christians-in-the-land-of-israel-at-the-time-of-the-bar-kochba-war-with-special-reference-to-the-apocalypse-of-peter/5709D2B7B2EA75EAAEC33BE16CCCDDC9),” in *Tolerance and Intolerance in Early Judaism and Christianity* (1998).
-- “[The Rabbinic Response to Christianity](https://www.cambridge.org/core/books/abs/the-cambridge-history-of-judaism/the-rabbinic-response-to-christianity/CF4F11EAE4A52457C1E556E83CAB1179),” *The Cambridge History of Judaism* (on the fragmentary evidence for the separation).
 
 **Editorial note:** This is a researched first draft, not final publication copy. Before publication, verify ancient passage references and translation details against authoritative editions, expand the fourth-century section with direct primary sources, and obtain founder approval.
