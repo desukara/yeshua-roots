@@ -118,25 +118,19 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
 
 
 
-test('unrestricted rabbinic text API is permanently disabled by default', () => {
- const api=read('app/api/library/text/route.ts');
+test('rabbinic text API and labels are absent from the site', () => {
  const library=read('components/library-client.tsx');
- assert.match(api, /status:410/);
- assert.match(api, /Cache-Control":"no-store/);
- assert.doesNotMatch(api, /sefaria\.org/);
- assert.doesNotMatch(library, /<BeitMidrash\/>/);
- assert.match(library, /Yeshua as Israel’s promised Messiah/);
+ assert.doesNotMatch(library,/rabbinic|BeitMidrash|Talmud|Mishnah/i);
+ assert.match(library,/SCRIPTURE STUDY LIBRARY/);
 });
 
 
 
 
 
-test('public library no longer exposes unrestricted passage reference input', () => {
+test('public library does not expose external passage reference input', () => {
  const library=read('components/library-client.tsx');
- const api=read('app/api/library/text/route.ts');
- assert.doesNotMatch(library, /bm-ref-form/);
- assert.match(api, /status:410/);
+ assert.doesNotMatch(library,/bm-ref-form|\/api\/library\/text/);
 });
 
 
