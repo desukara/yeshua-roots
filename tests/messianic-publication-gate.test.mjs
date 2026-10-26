@@ -24,3 +24,14 @@ test("unrestricted external commentary is inaccessible from the public API and r
  assert.doesNotMatch(library,/<BeitMidrash\/>/);
  assert.doesNotMatch(reader,/commentaryDrafts/);
 });
+
+test("curated rabbinic material stays gated pending individual review",()=>{
+ const contract=read("docs/beit-midrash-commentary-editorial-contract.md");
+ const api=read("app/api/library/text/route.ts");
+ const library=read("components/library-client.tsx");
+ assert.match(contract,/Retain Jewish rabbinic scholarship/);
+ assert.match(contract,/future millennial reign from Jerusalem/);
+ assert.match(api,/status:410/);
+ assert.doesNotMatch(api,/await fetch/);
+ assert.match(library,/Jewish rabbinic scholarship is welcome/);
+});
