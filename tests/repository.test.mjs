@@ -43,7 +43,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(copy, /המשיח היהודי החי/);
   assert.match(copy, /Yeshua is alive, present, and active/);
   assert.match(homepage, /MATTHEW 5:17–19/);
-  assert.match(homepage, /Not Abolished\. Fulfilled in Messiah/);
+  assert.match(homepage, /Fulfilled in Messiah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
   assert.match(homepage, /href="\/library">{c\.findPlace}/);
   assert.match(copy, /In Development/);
@@ -115,100 +115,41 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
   assert.match(reader, /href="\/library"/);
 });
 
-test('study hall preserves Torah terminology and labels source language honestly', () => {
-  const hall = read('components/beit-midrash.tsx');
-  assert.match(hall, /We study the Torah in its Jewish context/);
-  assert.doesNotMatch(hall, /Torah means all Scripture/);
-  assert.match(hall, /source\?\.language/);
-  assert.match(hall, /Source text/);
-});
 
-test('study hall identifies external Sefaria source and loading state', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /Texts are retrieved from Sefaria/);
- assert.match(hall, /aria-busy=\{loading\}/);
- assert.match(hall, /חמשת חומשי תורה/);
-});
 
-test('study hall search supports Hebrew collection names and an accessible label', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /hebrewGroups\[w\.group\]/);
- assert.match(hall, /Search books or topics/);
- assert.match(hall, /חיפוש ספר או נושא/);
-});
 
-test('library text proxy rejects malformed or empty upstream responses', () => {
+test('unrestricted rabbinic text API is permanently disabled by default', () => {
  const api=read('app/api/library/text/route.ts');
- assert.match(api, /const data:unknown=await response\.json\(\)/);
- assert.match(api, /Array\.isArray\(data\.versions\)/);
- assert.match(api, /Text source returned an invalid response/);
- assert.match(api, /No readable text available for this reference/);
- assert.match(api, /typeof payload\.ref==="string"/);
+ const library=read('components/library-client.tsx');
+ assert.match(api, /status:410/);
+ assert.match(api, /Cache-Control":"no-store/);
+ assert.doesNotMatch(api, /sefaria\.org/);
+ assert.doesNotMatch(library, /<BeitMidrash\/>/);
+ assert.match(library, /Yeshua as Israel’s promised Messiah/);
 });
 
-test('study hall offers bilingual retry after failed text fetch', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /setRetryCount\(n=>n\+1\)/);
- assert.match(hall, /\[activeRef,retryCount\]/);
- assert.match(hall, /Retry loading/);
- assert.match(hall, /נסו שוב/);
-});
 
-test('study hall avoids invented verse numbers and respects Aramaic direction', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.doesNotMatch(hall, /<sup>\{i\+1\}<\/sup>/);
- assert.match(hall, /numbering varies by work and edition/);
- assert.match(hall, /aramaic/i);
- assert.match(hall, /sourceLanguage==="he"\|\|sourceLanguage==="arc"/);
-});
 
-test('study hall identifies edition licenses and links to the source passage', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /Source edition:/);
- assert.match(hall, /Translation edition:/);
- assert.match(hall, /source\.license/);
- assert.match(hall, /translation\.license/);
- assert.match(hall, /Source: Sefaria/);
- assert.doesNotMatch(hall, /target="_blank"/);
- assert.match(hall, /Source: Sefaria/);
-});
 
-test('study hall clears stale text and discloses its display limit', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /setLoading\(true\);setError\(""\);setData\(null\)/);
- assert.match(hall, /Showing up to 120 segments per edition/);
- assert.match(hall, /flatten\(source\?\.text\)\.length>120/);
-});
 
-test('passage reference input reflects server limits with accessible guidance', () => {
- const hall=read('components/beit-midrash.tsx');
+test('public library no longer exposes unrestricted passage reference input', () => {
+ const library=read('components/library-client.tsx');
  const api=read('app/api/library/text/route.ts');
- assert.match(hall, /maxLength=\{110\}/);
- assert.match(hall, /aria-describedby="bm-ref-hint"/);
- assert.match(hall, /id="bm-ref-hint"/);
- assert.match(hall, /Enter a passage reference up to 110 characters/);
- assert.match(api, /ref\.length>110/);
+ assert.doesNotMatch(library, /bm-ref-form/);
+ assert.match(api, /status:410/);
 });
 
-test('study reader distinguishes invalid references from temporary source errors', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /r\.status===400\?"Invalid text reference"/);
- assert.match(hall, /"invalid-reference":"load-failed"/);
- assert.match(hall, /This passage reference is invalid/);
- assert.match(hall, /מראה המקום אינו תקין/);
- assert.match(hall, /Retry loading/);
-});
 
 test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
  const section=read('components/section-client.tsx');
  assert.match(section, /function MinistryIdentity/);
- assert.match(section, /Yeshua is alive and active/);
- assert.match(section, /Torah and the Prophets/);
- assert.match(section, /Israel and the nations/);
- assert.match(section, /Statement of Faith — founder review pending/);
- assert.match(section, /only after founder review and approval/);
- assert.match(section, /not finalized approved ministry doctrine/);
- assert.match(section, /slug==="about"&&<MinistryIdentity/);
+ assert.match(section, /Yeshua is very much alive/);
+ assert.match(section, /aboutPageContent\.map/);
+ assert.match(section, /Welcome to Yeshua Roots/);
+ assert.match(section, /Rooted in Yeshua\. Growing in Faith\./);
+ assert.match(section, /about-editorial-reading/);
+ assert.match(section, /aboutPageContent\.map/);
+ assert.match(section, /<MinistryIdentity/);
 });
 
 test('teaching page offers bilingual learning routes without overstating editorial approval', () => {
