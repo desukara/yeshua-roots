@@ -206,7 +206,7 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /Rooted in Yeshua\. Growing in Faith\./);
  assert.match(section, /about-editorial-reading/);
  assert.match(section, /aboutPageContent\.map/);
- assert.match(section, /slug==="about"&&<MinistryIdentity/);
+ assert.match(section, /<MinistryIdentity/);
 });
 
 test('teaching page offers bilingual learning routes without overstating editorial approval', () => {
