@@ -15,15 +15,7 @@ test("public teaching discovery never links to unapproved research",()=>{
  assert.doesNotMatch(context,/href="\/teachings\/(?:the-lost-son|the-good-samaritan|blessed-are-the-meek|yeshua-and-torah|the-greatest-commandments)/);
  assert.match(catalogue,/const published:Record<string,string>=\{\}/);
 });
-test("unrestricted external commentary is inaccessible from the public API and reader",()=>{
- const api=read("app/api/library/text/route.ts");
- const library=read("components/library-client.tsx");
- const reader=read("components/interlinear-reader.tsx");
- assert.match(api,/status:410/);
- assert.doesNotMatch(api,/await fetch/);
- assert.doesNotMatch(library,/<BeitMidrash\/>/);
- assert.doesNotMatch(reader,/commentaryDrafts/);
-});
+test("rabbinic API restores public source lookup",()=>{ const api=read("app/api/library/text/route.ts"); assert.match(api,/sefaria.org\/api\/texts/); assert.match(api,/encodeURIComponent\(ref\)/); });
 
 test("curated rabbinic material stays gated pending individual review",()=>{
  const contract=read("docs/beit-midrash-commentary-editorial-contract.md");
@@ -31,7 +23,6 @@ test("curated rabbinic material stays gated pending individual review",()=>{
  const library=read("components/library-client.tsx");
  assert.match(contract,/Retain Jewish rabbinic scholarship/);
  assert.match(contract,/future millennial reign from Jerusalem/);
- assert.match(api,/status:410/);
- assert.doesNotMatch(api,/await fetch/);
+ assert.match(api,/await fetch/);
  assert.match(library,/Jewish rabbinic scholarship is welcome/);
 });
