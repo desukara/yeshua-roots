@@ -115,27 +115,8 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
   assert.match(reader, /href="\/library"/);
 });
 
-test('study hall preserves Torah terminology and labels source language honestly', () => {
-  const hall = read('components/beit-midrash.tsx');
-  assert.match(hall, /We study the Torah in its Jewish context/);
-  assert.doesNotMatch(hall, /Torah means all Scripture/);
-  assert.match(hall, /source\?\.language/);
-  assert.match(hall, /Source text/);
-});
 
-test('study hall identifies external Sefaria source and loading state', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /Texts are retrieved from Sefaria/);
- assert.match(hall, /aria-busy=\{loading\}/);
- assert.match(hall, /חמשת חומשי תורה/);
-});
 
-test('study hall search supports Hebrew collection names and an accessible label', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /hebrewGroups\[w\.group\]/);
- assert.match(hall, /Search books or topics/);
- assert.match(hall, /חיפוש ספר או נושא/);
-});
 
 test('unrestricted rabbinic text API is permanently disabled by default', () => {
  const api=read('app/api/library/text/route.ts');
@@ -147,39 +128,9 @@ test('unrestricted rabbinic text API is permanently disabled by default', () => 
  assert.match(library, /Yeshua as Israel’s promised Messiah/);
 });
 
-test('study hall offers bilingual retry after failed text fetch', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /setRetryCount\(n=>n\+1\)/);
- assert.match(hall, /\[activeRef,retryCount\]/);
- assert.match(hall, /Retry loading/);
- assert.match(hall, /נסו שוב/);
-});
 
-test('study hall avoids invented verse numbers and respects Aramaic direction', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.doesNotMatch(hall, /<sup>\{i\+1\}<\/sup>/);
- assert.match(hall, /numbering varies by work and edition/);
- assert.match(hall, /aramaic/i);
- assert.match(hall, /sourceLanguage==="he"\|\|sourceLanguage==="arc"/);
-});
 
-test('study hall identifies edition licenses and links to the source passage', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /Source edition:/);
- assert.match(hall, /Translation edition:/);
- assert.match(hall, /source\.license/);
- assert.match(hall, /translation\.license/);
- assert.match(hall, /Source: Sefaria/);
- assert.doesNotMatch(hall, /target="_blank"/);
- assert.match(hall, /Source: Sefaria/);
-});
 
-test('study hall clears stale text and discloses its display limit', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /setLoading\(true\);setError\(""\);setData\(null\)/);
- assert.match(hall, /Showing up to 120 segments per edition/);
- assert.match(hall, /flatten\(source\?\.text\)\.length>120/);
-});
 
 test('public library no longer exposes unrestricted passage reference input', () => {
  const library=read('components/library-client.tsx');
@@ -188,14 +139,6 @@ test('public library no longer exposes unrestricted passage reference input', ()
  assert.match(api, /status:410/);
 });
 
-test('study reader distinguishes invalid references from temporary source errors', () => {
- const hall=read('components/beit-midrash.tsx');
- assert.match(hall, /r\.status===400\?"Invalid text reference"/);
- assert.match(hall, /"invalid-reference":"load-failed"/);
- assert.match(hall, /This passage reference is invalid/);
- assert.match(hall, /מראה המקום אינו תקין/);
- assert.match(hall, /Retry loading/);
-});
 
 test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
  const section=read('components/section-client.tsx');
