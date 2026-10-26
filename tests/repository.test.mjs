@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
@@ -127,6 +127,22 @@ test('rabbinic text API and labels are absent from the site', () => {
 
 
 
+
+test('removed commentary integrations cannot reappear in application source', () => {
+ const root = new URL('../', import.meta.url);
+ assert.equal(existsSync(new URL('app/api/library/text/route.ts', root)), false);
+ const scan = dir => {
+  for (const entry of readdirSync(new URL(dir + '/', root), { withFileTypes: true })) {
+   const path = dir + '/' + entry.name;
+   if (entry.isDirectory()) { scan(path); continue; }
+   if (!/\\.(ts|tsx|js|jsx)$/.test(entry.name)) continue;
+   const source = read(path);
+   assert.doesNotMatch(source, /\\b(?:Talmud|Mishnah|Midrash|Beit\\s?Midrash)\\b/i, path);
+   assert.doesNotMatch(source, /\\/api\\/library\\/text|\\bsefaria\\.org\\/api\\/texts\\//i, path);
+  }
+ };
+ for (const dir of ['app', 'components', 'lib']) scan(dir);
+});
 
 test('public library does not expose external passage reference input', () => {
  const library=read('components/library-client.tsx');
