@@ -141,8 +141,8 @@
 }
 
 /* Homepage teaching photograph: fill the art column without cropping the scene. */
-.home-royal .grafted-olive-art{padding:clamp(24px,3.5vw,56px)}
-.home-royal .grafted-olive-frame{width:min(100%,540px);min-height:0;aspect-ratio:auto;display:block;overflow:hidden;border-radius:12px}
+.home-royal .grafted-olive-art{padding:clamp(20px,2.5vw,40px)}
+.home-royal .grafted-olive-frame{width:min(100%,575px);min-height:0;aspect-ratio:auto;display:block;overflow:hidden;border-radius:12px}
 .home-royal .grafted-olive-frame .olive-tree-illustration{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;border-radius:4px}
 @media(max-width:800px){
  .home-royal .grafted-olive-art{min-height:0;padding:28px 22px}
