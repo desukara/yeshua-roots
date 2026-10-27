@@ -153,3 +153,10 @@
 /* Keep the olive-tree section readable while its image is intentionally removed. */
 .home-royal .grafted-olive-text-only{display:block}
 .home-royal .grafted-olive-text-only .grafted-olive-copy{max-width:760px;margin-inline:auto}
+
+/* Torah ceremony: full-bleed image panel next to the olive-tree message. */
+.home-royal .grafted-olive-photo-section{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch}
+.home-royal .grafted-olive-photo-section .grafted-olive-art{position:relative;min-height:500px;padding:0;overflow:hidden}
+.home-royal .grafted-olive-photo-section .torah-ceremony-photo{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center center;border:0;border-radius:0}
+.home-royal .grafted-olive-photo-section .grafted-olive-copy{min-width:0;align-self:center;padding:clamp(42px,6vw,100px)}
+@media(max-width:800px){.home-royal .grafted-olive-photo-section{grid-template-columns:minmax(0,1fr)}.home-royal .grafted-olive-photo-section .grafted-olive-art{min-height:0;aspect-ratio:4/3;padding:0}.home-royal .grafted-olive-photo-section .grafted-olive-copy{padding:clamp(32px,6vw,60px) 24px}}
