@@ -138,7 +138,7 @@ test('removed commentary integrations cannot reappear in application source', ()
    if (!/\\.(ts|tsx|js|jsx)$/.test(entry.name)) continue;
    const source = read(path);
    assert.doesNotMatch(source, /\\b(?:Talmud|Mishnah|Midrash|Beit\\s?Midrash)\\b/i, path);
-   assert.doesNotMatch(source, /\\/api\\/library\\/text|\\bsefaria\\.org\\/api\\/texts\\//i, path);
+    assert.doesNotMatch(source, new RegExp('api/library/text|sefaria[.]org/api/texts', 'i'), path);
   }
  };
  for (const dir of ['app', 'components', 'lib']) scan(dir);
