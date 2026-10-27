@@ -149,3 +149,7 @@
  .home-royal .grafted-olive-frame{width:min(100%,520px);min-height:0;aspect-ratio:auto}
  .home-royal .grafted-olive-frame .olive-tree-illustration{width:100%;height:auto;max-height:none}
 }
+
+/* Keep the olive-tree section readable while its image is intentionally removed. */
+.home-royal .grafted-olive-text-only{display:block}
+.home-royal .grafted-olive-text-only .grafted-olive-copy{max-width:760px;margin-inline:auto}
