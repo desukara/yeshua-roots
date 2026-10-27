@@ -139,3 +139,13 @@
  .home-royal .olive-tree-illustration{width:100%;height:100%}
  .home-royal .home-blessing .blessing-star img{width:42px;height:42px}
 }
+
+/* Homepage teaching photograph: fill the art column without cropping the scene. */
+.home-royal .grafted-olive-art{padding:clamp(24px,3.5vw,56px)}
+.home-royal .grafted-olive-frame{width:min(100%,540px);min-height:0;aspect-ratio:auto;display:block;overflow:hidden;border-radius:12px}
+.home-royal .grafted-olive-frame .olive-tree-illustration{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;border-radius:4px}
+@media(max-width:800px){
+ .home-royal .grafted-olive-art{min-height:0;padding:28px 22px}
+ .home-royal .grafted-olive-frame{width:min(100%,520px);min-height:0;aspect-ratio:auto}
+ .home-royal .grafted-olive-frame .olive-tree-illustration{width:100%;height:auto;max-height:none}
+}
