@@ -10,18 +10,18 @@
 .home-royal .welcome-copy h1{font-size:clamp(52px,5.5vw,86px);line-height:1.08;color:var(--yr-ink);margin:22px 0 26px}
 .home-royal .welcome-copy h1 .hero-title-line{display:block}
 .home-royal .welcome-copy h1 em{color:#94713d;font-size:.68em;font-style:normal;letter-spacing:-.02em;margin-top:12px}
-.home-royal .welcome-copy>p{color:#3e4b4e;max-width:570px;font-size:clamp(16px,1.4vw,19px)}
+.home-royal .welcome-copy>p{color:#455b43;max-width:570px;font-size:clamp(16px,1.4vw,19px)}
 .home-royal .welcome-actions{margin:30px 0 42px;gap:20px}
 .home-royal .welcome-actions .primary,.home-royal .interlinear-promo .primary{background:var(--yr-ink);color:#fffaf0;border-radius:3px;box-shadow:none}
-.home-royal .welcome-actions .primary:hover,.home-royal .interlinear-promo .primary:hover{background:#274761}
+.home-royal .welcome-actions .primary:hover,.home-royal .interlinear-promo .primary:hover{background:#506b45}
 .home-royal .text-link{color:#71562e}
 .home-royal .welcome-note{color:#806b47}
 .home-royal .welcome-visual{background:linear-gradient(145deg,#d9c9ad,#a98d65);padding:clamp(24px,5vw,65px)}
-.home-royal .arch{box-shadow:0 25px 65px #14283b36;border-color:#eee0c4}
+.home-royal .arch{box-shadow:0 25px 65px #263f3236;border-color:#eee0c4}
 .home-royal .arch-inner{background:var(--yr-ink);border-color:var(--yr-gold)}
 .home-royal .home-intro{padding:clamp(72px,7vw,100px) 24px;max-width:780px}
 .home-royal .home-intro h2{color:var(--yr-ink);font-size:clamp(37px,4vw,60px)}
-.home-royal .home-intro p{color:#475153;font-size:clamp(16px,1.4vw,18px);line-height:1.8}
+.home-royal .home-intro p{color:#596b57;font-size:clamp(16px,1.4vw,18px);line-height:1.8}
 .home-royal .home-intro + .home-intro{padding-top:24px}
 .home-royal .home-heart{background:#e9dfc9;max-width:none;padding:90px max(24px,calc((100vw - 760px)/2));}
 .home-royal .home-heart h2{color:var(--yr-ink)}
@@ -37,8 +37,8 @@
 .home-royal .room-grid{gap:14px}
 .home-royal .room-card,.home-royal .study-card{background:#fbf8f1;border:1px solid #d8cbb5;border-radius:2px;box-shadow:none}
 .home-royal .room-card h3,.home-royal .study-card h3{color:var(--yr-ink)}
-.home-royal .room-card p,.home-royal .study-card p{color:#50595a}
-.home-royal .room-card:hover,.home-royal .study-card:hover{transform:translateY(-2px);box-shadow:0 12px 26px #14283b12}
+.home-royal .room-card p,.home-royal .study-card p{color:#596b57}
+.home-royal .room-card:hover,.home-royal .study-card:hover{transform:translateY(-2px);box-shadow:0 12px 26px #263f3212}
 .home-royal .study-section{background:var(--yr-paper);padding-block:clamp(75px,8vw,112px)}
 .home-royal .home-blessing{background:var(--yr-ink);padding-block:90px}
 .home-royal .home-blessing p{color:#e6e1d4}
