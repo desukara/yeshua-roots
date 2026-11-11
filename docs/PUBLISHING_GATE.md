@@ -14,6 +14,8 @@ A study in `lib/content.ts` is not public until the founder has explicitly appro
 4. Check English/Hebrew content, mobile layout, keyboard navigation, sitemap, canonical URL, and all outbound links in the preview.
 5. Run typecheck, tests, and production build. Do not bypass failed checks.
 6. Obtain explicit authorization to merge and deploy. Verify live URLs and rollback readiness.
+7. Confirm the production deployment commit includes the intended change; check that the actual public domain serves it before reporting completion. A successful GitHub commit alone is not publication.
+8. Keep unlaunched membership, contact, prayer submission, and giving services clearly marked unavailable; do not promote them as active actions.
 
 ## Sitewide external links
 
