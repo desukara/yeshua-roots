@@ -40,11 +40,16 @@ test("Torah reader normalizes actual whitespace rather than a literal backslash-
 
 test("unfinished services are not advertised to search engines as completed sitemap destinations", () => {
   const sitemap=read("app/sitemap.ts");
-  for(const route of ["/news","/community","/contact","/outreach","/support","/prayer"]) {
+  for(const route of ["/news","/community","/contact","/members","/prayer"]) {
     assert.ok(!sitemap.includes(`"${route}"`), route+" is still in development");
   }
 });
 
+
+test("public information pages remain discoverable", () => {
+ const sitemap=read("app/sitemap.ts");
+ for(const route of ["/outreach","/support","/start-here"]) assert.ok(sitemap.includes(`"${route}"`));
+});
 
 test("static study paths and metadata cannot expose unapproved studies", () => {
   const route=read("app/study/[slug]/page.tsx");
