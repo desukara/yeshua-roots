@@ -190,3 +190,9 @@
 .home-royal .romans-identity h2{font-size:clamp(36px,5vw,66px);color:#fffaf0;margin:18px 0 30px}
 .home-royal .romans-identity blockquote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(21px,2.55vw,32px);line-height:1.65;margin:0 auto;color:#f5f0e4;max-width:850px}
 .home-royal .romans-identity-ref{font-size:12px;letter-spacing:.16em;font-weight:700;color:#e8d49e;margin:28px 0 0}
+
+/* Yeshua Roots restoration confession */
+.home-royal .home-restoration{background:#f5f0e4;border-block:1px solid #d5dbc6;text-align:center;padding:clamp(64px,7vw,104px) 24px}
+.home-royal .home-restoration h2{color:#263f32}
+.home-royal .home-restoration p{max-width:850px;margin-left:auto;margin-right:auto;color:#293c30}
+.home-royal .home-restoration .restoration-references{font-size:12px;letter-spacing:.09em;font-weight:700;color:#506b45;margin-top:28px;line-height:1.9}
