@@ -452,12 +452,36 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
 .mobile-menu-toggle,.language-switcher button{min-width:44px;min-height:44px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
-/* Unified site footer: warm parchment palette on every route. */
-.site-footer{background:#f1e9d9;color:#344c3d;border-top:1px solid #ddcfb7}
-.site-footer .footer-brand{color:#344c3d}
-.site-footer b{color:#775936}
-.site-footer a:not(.footer-brand){color:#425a49}
-.site-footer a:hover{color:#986e41}
-.site-footer p,.site-footer .footer-end,.site-footer .footer-end small{color:#665d4e}
-.site-footer .footer-hebrew{color:#92683c!important}
-.site-footer>div:first-child,.site-footer .footer-end{border-color:#d9c9ad}
+/* Yeshua Roots olive-tree identity: Romans 11, one root and many branches. */
+:root{
+ --yr-bark:#263f32;
+ --yr-olive:#506b45;
+ --yr-leaf:#84936a;
+ --yr-ivory:#f5f0e4;
+ --yr-gold:#b59a60;
+ --yr-text:#293c30;
+ --yr-muted:#596b57;
+}
+body{background:var(--yr-ivory);color:var(--yr-text)}
+.site-header{background:#faf7ed;border-bottom:1px solid #d9d5bf}
+.site-header .brand,.site-nav{color:var(--yr-bark)}
+.site-nav a:hover{color:var(--yr-olive)}
+.site-connect{background:var(--yr-bark);color:#fffdf5}
+.site-connect:hover{background:var(--yr-olive)}
+.section-hero,.inner-hero{background:var(--yr-bark)}
+.section-hero .kicker{color:#e4d29d}
+.home-intro h2,.section-top h2,.study-header h2,.room-card h3,.study-card h3{color:var(--yr-bark)}
+.learning-rooms,.explore{background:#e9e9db}
+.room-card,.study-card{background:#faf8f0;border-color:#d9ddc8}
+.room-top,.feature svg{color:var(--yr-olive)}
+.home-blessing{background:var(--yr-bark)}
+/* The shared footer is one deep-olive anchor on every route. */
+.site-footer{background:var(--yr-bark);color:#fffaf0;border-top:3px solid var(--yr-gold)}
+.site-footer .footer-brand{color:#fffaf0}
+.site-footer b{color:#e8d49e}
+.site-footer a:not(.footer-brand){color:#e0e9d7}
+.site-footer a:hover{color:#fff3c9}
+.site-footer p,.site-footer .footer-end,.site-footer .footer-end small{color:#c9d9c6}
+.site-footer .footer-hebrew{color:#e8d49e!important}
+.site-footer>div:first-child,.site-footer .footer-end{border-color:#84936a66}
+:where(a,button,input,select,textarea):focus-visible{outline-color:var(--yr-gold)}
