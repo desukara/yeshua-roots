@@ -1,6 +1,6 @@
 /* Royal Jerusalem — homepage-only design layer.
    Deliberately scoped to the home page; other routes retain their existing styles. */
-:root{--yr-ink:#14283b;--yr-gold:#b49355;--yr-stone:#e9dfc9;--yr-paper:#f7f3ea;--yr-olive:#5c6853}
+:root{--yr-ink:#263f32;--yr-gold:#b59a60;--yr-stone:#d9ddc8;--yr-paper:#f5f0e4;--yr-olive:#506b45}
 .home-royal{background:var(--yr-paper);color:var(--yr-ink);overflow:clip}
 .home-royal .kicker{color:#886a36;letter-spacing:.19em;font-size:.72rem;font-weight:750}
 .home-royal h1,.home-royal h2,.home-royal h3{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.025em}
@@ -168,3 +168,17 @@
  .home-royal .grafted-olive-photo-section .torah-ceremony-photo{display:block;position:static;inset:auto;width:100%;height:auto;max-width:100%;object-fit:contain;object-position:center;border:0;border-radius:0}
  .home-royal .grafted-olive-photo-section .grafted-olive-copy{width:100%;box-sizing:border-box;padding:clamp(30px,6vw,64px) 24px}
 }
+
+/* Olive-tree homepage harmonization: preserve layout, unify surfaces and accents. */
+.home-royal{background:var(--yr-paper);color:var(--yr-ink)}
+.home-royal .kicker{color:#6d673f}
+.home-royal .welcome-hero{background:#eeebdd}
+.home-royal .welcome-copy h1,.home-royal .home-intro h2,.home-royal .section-top h2,.home-royal .study-header h2{color:var(--yr-ink)}
+.home-royal .welcome-visual{background:radial-gradient(circle at 50% 40%,#9baa7b,#506b45)}
+.home-royal .arch-inner{background:var(--yr-bark)}
+.home-royal .welcome-actions .primary,.home-royal .btn.primary{background:var(--yr-bark);color:#fffaf0}
+.home-royal .welcome-actions .primary:hover,.home-royal .btn.primary:hover{background:var(--yr-olive)}
+.home-royal .learning-rooms{background:#e9e9db}
+.home-royal .room-card,.home-royal .study-card{background:#faf8f0;border-color:#d9ddc8}
+.home-royal .home-blessing{background:var(--yr-bark)}
+.home-royal .grafted-olive-link,.home-royal .text-link{color:var(--yr-olive)}
