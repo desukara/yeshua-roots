@@ -1,6 +1,6 @@
 # Yeshua Roots — Editorial and Founder Review
 
-Official motto: **Rooted in Yeshua. Growing in Faith.**
+Official motto: **One Messiah. One Torah. One Family.**
 
 ## Authority and publication
 
@@ -33,7 +33,7 @@ The founder can review the exact text and cite a study slug, revision/commit, an
 
 1. Record the study slug, the English and Hebrew text being reviewed, and its cited Scripture passages.
 2. Verify Scripture citations and distinguish biblical text, interpretation, historical context, and editorial opinion.
-3. Check alignment with Yeshua as the living Jewish Messiah, fulfillment rather than abolition of Torah and Prophets (Matthew 5:17–19), and the olive tree without replacement theology (Romans 11:17–24).
+3. Check alignment with Yeshua as the living Jewish Messiah, salvation by grace through His atoning blood rather than Torah-keeping (Ephesians 2:8–10; Romans 3:20–24), and Spirit-led obedience to God's Torah without lawlessness (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33). Read Romans 2, 9–11 and Galatians 3 together; distinguish the movement's interpretation from other readings.
 4. Verify Hebrew wording, RTL display, and equivalent meaning across languages.
 5. Obtain explicit founder approval for the exact revision; reference that approval in the change record. If approval is absent, keep `draft`.
 6. If an approved study changes substantively, return it to `draft` until the revised text is approved.
