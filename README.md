@@ -10,7 +10,9 @@ A worldwide Messianic teaching ministry centered on Yeshua, the living Jewish Me
 
 - Teach that Yeshua fulfills the Torah and the Prophets without abolishing them (Matthew 5:17–19).
 - Read Yeshua and His earliest disciples within the Jewish setting of Israel's Scriptures.
-- Explain that Gentile believers are grafted into Israel's olive tree; they do not replace Israel (Romans 11:17–24).
+- Teach the movement's understanding of Romans 2:28–29: identity in Messiah involves inward circumcision of the heart by His Spirit; study this alongside Romans 9–11 and Galatians 3 without erasing Israel's historical context.
+- Teach salvation by grace through faith in the atoning blood of Yeshua, not by keeping mitzvot (Ephesians 2:8–10; Romans 3:20–24).
+- Teach that the indwelling Spirit leads believers to love and walk in God's Torah from the heart, never to earn salvation and never as permission for lawlessness (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33).
 - Past tense may describe particular events of His earthly ministry, **never** imply that Yeshua is absent, dead, or no longer Jewish.
 - Distinguish the ministry's theological convictions from historically contested interpretations; source historical claims carefully.
 - Keep the motto: **One Messiah. One Torah. One Family.**
@@ -33,11 +35,13 @@ npm run build
 npm run dev
 ```
 
-`npm run check` runs the type check, repository smoke tests, and production build together. The legacy `lint` command currently aliases TypeScript checking; a dedicated ESLint setup is a follow-up task. CI runs these checks on pull requests and pushes to `main` using Node.js 22. Because no lockfile is committed yet, CI uses `npm install`; adding a committed lockfile and switching to `npm ci` is recommended for reproducible builds.\n\nVisit http://localhost:3000.
+`npm run check` runs the type check, repository smoke tests, and production build together. The legacy `lint` command currently aliases TypeScript checking; a dedicated ESLint setup is a follow-up task. CI runs these checks on pull requests and pushes to `main` using Node.js 22. Because no lockfile is committed yet, CI uses `npm install`; adding a committed lockfile and switching to `npm ci` is recommended for reproducible builds.
+
+Visit http://localhost:3000.
 
 ## Content review
 
-The initial four study articles and their Hebrew translations are editorial starter material for review, not automatically approved ministry teaching. The Statement of Faith is still under founder review and intentionally unpublished. News, congregation directory, and contact inbox are planned, not live. Do not present placeholders as operational services.
+The seven introductory study articles and their Hebrew translations are editorial starter material for review, not automatically approved ministry teaching. The Statement of Faith is still under founder review and intentionally unpublished. News, congregation directory, and contact inbox are planned, not live. Do not present placeholders as operational services.
 
 ## Launch checklist
 
