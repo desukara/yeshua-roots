@@ -451,3 +451,13 @@ html[dir="rtl"] .reading-page .crumb svg{transform:scaleX(-1)}
 :where(a,button,input,select,textarea):focus-visible{outline:3px solid #a47732;outline-offset:3px}
 .mobile-menu-toggle,.language-switcher button{min-width:44px;min-height:44px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Unified site footer: warm parchment palette on every route. */
+.site-footer{background:#f1e9d9;color:#344c3d;border-top:1px solid #ddcfb7}
+.site-footer .footer-brand{color:#344c3d}
+.site-footer b{color:#775936}
+.site-footer a:not(.footer-brand){color:#425a49}
+.site-footer a:hover{color:#986e41}
+.site-footer p,.site-footer .footer-end,.site-footer .footer-end small{color:#665d4e}
+.site-footer .footer-hebrew{color:#92683c!important}
+.site-footer>div:first-child,.site-footer .footer-end{border-color:#d9c9ad}
