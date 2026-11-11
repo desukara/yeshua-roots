@@ -156,7 +156,7 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /Yeshua is very much alive/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
- assert.match(section, /Rooted in Yeshua\. Growing in Faith\./);
+ assert.match(section, /One Messiah\. One Torah\. One Family\./);
  assert.match(section, /about-editorial-reading/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /<MinistryIdentity/);
