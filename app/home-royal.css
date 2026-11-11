@@ -182,3 +182,11 @@
 .home-royal .room-card,.home-royal .study-card{background:#faf8f0;border-color:#d9ddc8}
 .home-royal .home-blessing{background:var(--yr-bark)}
 .home-royal .grafted-olive-link,.home-royal .text-link{color:var(--yr-olive)}
+
+/* Romans 2:28–29: homepage doctrinal Scripture centerpiece. */
+.home-royal .romans-identity{background:#263f32;color:#fffaf0;padding:clamp(70px,8vw,118px) 24px;border-block:4px solid #b59a60}
+.home-royal .romans-identity-inner{max-width:920px;margin:0 auto;text-align:center}
+.home-royal .romans-identity .kicker{color:#e8d49e}
+.home-royal .romans-identity h2{font-size:clamp(36px,5vw,66px);color:#fffaf0;margin:18px 0 30px}
+.home-royal .romans-identity blockquote{font-family:Georgia,'Times New Roman',serif;font-size:clamp(21px,2.55vw,32px);line-height:1.65;margin:0 auto;color:#f5f0e4;max-width:850px}
+.home-royal .romans-identity-ref{font-size:12px;letter-spacing:.16em;font-weight:700;color:#e8d49e;margin:28px 0 0}
