@@ -27,41 +27,35 @@ return <><SiteHeader/><main id="main-content" className="sh-page">
 <p>Thomas missed it. He wasn’t there that night, and he would not take the others’ word for it. Eight days later Yeshua came again and spoke to him directly:</p>
 <blockquote>“Then saith he to Thomas, Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing. And Thomas answered and said unto him, My Lord and my God.” <cite>— John 20:27–28, KJV</cite></blockquote>
 <p>Thomas was not looking at a memory or a nice idea. He was looking at the Messiah, alive.</p>
-<div className="sh-testimony sh-testimony--2"><div className="sh-testimony__heading"></div>
-<h3>He was not a ghost</h3></div>
+<div className="sh-testimony sh-testimony--2"><div className="sh-testimony__heading"><h3>He was not a ghost</h3></div>
 <p>Luke gives us another visit. The disciples were frightened and thought they were seeing a spirit. Yeshua knew exactly what was running through their minds, so He said:</p>
 <blockquote>“Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.” <cite>— Luke 24:39, KJV</cite></blockquote>
 <p>They could hardly believe it for joy, so He asked if they had anything to eat:</p>
 <blockquote>“And while they yet believed not for joy, and wondered, he said unto them, Have ye here any meat? And they gave him a piece of a broiled fish, and of an honeycomb. And he took it, and did eat before them.” <cite>— Luke 24:41–43, KJV</cite></blockquote>
 <p>I love that detail. The risen Messiah sat down and ate fish with His friends. Luke wants us to know this was a real man, raised in a real body.</p>
-<div className="sh-testimony sh-testimony--3"><div className="sh-testimony__heading"></div>
-<h3>He stayed with them for forty days</h3></div>
+<div className="sh-testimony sh-testimony--3"><div className="sh-testimony__heading"><h3>He stayed with them for forty days</h3></div>
 <p>Yeshua did not appear once and vanish. Luke opens the book of Acts this way:</p>
 <blockquote>“To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God.” <cite>— Acts 1:3, KJV</cite></blockquote>
 <p>For forty days He went on teaching them about the Kingdom of God. Then, while they watched, He was lifted up and a cloud took Him from their sight. Two men in white stood beside them and said:</p>
 <blockquote>“Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.” <cite>— Acts 1:11, KJV</cite></blockquote>
 <p>Same Yeshua, same man. He went up, and He is coming back.</p>
-<div className="sh-testimony sh-testimony--4"><div className="sh-testimony__heading"></div>
-<h3>Hundreds of people saw Him</h3></div>
+<div className="sh-testimony sh-testimony--4"><div className="sh-testimony__heading"><h3>Hundreds of people saw Him</h3></div>
 <p>Paul wrote down what the first believers had passed on to him, and he laid it out in order:</p>
 <blockquote>“For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures; And that he was buried, and that he rose again the third day according to the scriptures: And that he was seen of Cephas, then of the twelve: After that, he was seen of above five hundred brethren at once; of whom the greater part remain unto this present, but some are fallen asleep.” <cite>— 1 Corinthians 15:3–6, KJV</cite></blockquote>
 <p>Look at what Paul adds. Most of those five hundred were still alive when he wrote it.</p>
-<div className="sh-testimony sh-testimony--5"><div className="sh-testimony__heading"></div>
-<h3>He will never die again</h3></div>
+<div className="sh-testimony sh-testimony--5"><div className="sh-testimony__heading"><h3>He will never die again</h3></div>
 <p>Here is what fills me with joy. Yeshua did not rise only to die a second time down the road.</p>
 <blockquote>“Knowing that Christ being raised from the dead dieth no more; death hath no more dominion over him.” <cite>— Romans 6:9, KJV</cite></blockquote>
 <p>Lazarus was called back to everyday life, and he died again later. Yeshua rose into a life that death cannot touch. The letter to the Hebrews says it this way:</p>
 <blockquote>“But this man, because he continueth ever, hath an unchangeable priesthood. Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.” <cite>— Hebrews 7:24–25, KJV</cite></blockquote>
 <p>Right now, in His risen body, He is interceding for everyone who comes to God through Him. Death will never have power over Him again.</p>
-<div className="sh-testimony sh-testimony--6"><div className="sh-testimony__heading"></div>
-<h3>He is with us today</h3></div>
+<div className="sh-testimony sh-testimony--6"><div className="sh-testimony__heading"><h3>He is with us today</h3></div>
 <p>Yeshua reigns at the right hand of God, and His people are not left on their own. Before the cross, He gave them a promise:</p>
 <blockquote>“And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever; Even the Spirit of truth; whom the world cannot receive, because it seeth him not, neither knoweth him: but ye know him; for he dwelleth with you, and shall be in you. I will not leave you comfortless: I will come to you.” <cite>— John 14:16–18, KJV</cite></blockquote>
 <p>He told His disciples one more thing:</p>
 <blockquote>“Lo, I am with you alway, even unto the end of the world. Amen.” <cite>— Matthew 28:20, KJV</cite></blockquote>
 <p>That is why we speak of Yeshua in the present tense around here. He lives and reigns, and the Holy Spirit keeps Him close to His people. His Word still teaches us, and the call to turn back to God and follow Him has not gone quiet.</p>
-<div className="sh-testimony sh-testimony--7"><div className="sh-testimony__heading"></div>
-<h3>What do we do with this?</h3></div>
+<div className="sh-testimony sh-testimony--7"><div className="sh-testimony__heading"><h3>What do we do with this?</h3></div>
 <p>When Peter finished preaching in Jerusalem, the crowd was shaken. They asked the question anyone would ask:</p>
 <blockquote>“Now when they heard this, they were pricked in their heart, and said unto Peter and to the rest of the apostles, Men and brethren, what shall we do? Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost. For the promise is unto you, and to your children, and to all that are afar off, even as many as the Lord our God shall call.” <cite>— Acts 2:37–39, KJV</cite></blockquote>
 <p>To repent is to turn back to God. We put our trust in Yeshua and start learning to walk with Him. You don’t have to understand everything first. Start with trust, and learn as you go.</p>
