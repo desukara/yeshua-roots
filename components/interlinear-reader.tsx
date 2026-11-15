@@ -1,6 +1,5 @@
 "use client";
 import {useEffect,useState} from "react";
-import Link from "next/link";
 import {interlinearVerses} from "../lib/interlinear";
 import {genesisStudy} from "../lib/genesis-messianic-study";
 import {useLanguage} from "./language-provider";
