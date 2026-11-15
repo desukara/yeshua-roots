@@ -517,3 +517,8 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .site-footer>div:first-child,.site-footer .footer-end{border-color:#84936a66}
 .global-home-escape-wrap{background:var(--yr-bark)}
 .global-home-escape{background:var(--yr-olive);border-color:var(--yr-gold)}
+
+/* Scripture quotation on the Outreach page */
+.outreach-scripture{max-width:760px;margin:26px 0 34px;padding:18px 22px;border-inline-start:4px solid var(--yr-gold,#b59a60);background:var(--yr-surface,#faf8f0);color:var(--yr-text,#293c30);line-height:1.7}
+.outreach-scripture p{margin:0 0 10px}
+.outreach-scripture cite{display:block;font-size:13px;font-style:normal;font-weight:700;color:var(--yr-muted,#596b57)}
