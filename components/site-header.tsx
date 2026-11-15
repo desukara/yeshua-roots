@@ -6,7 +6,7 @@ import {usePathname} from "next/navigation";
 import {useLanguage} from "./language-provider";
 import LanguageSwitcher from "./language-switcher";
 import {t} from "../lib/translations";
-const hrefs=["/torah","/about","/outreach"];
+const hrefs=["/torah#interlinear-reader","/about","/outreach"];
 export default function SiteHeader(){
  const {locale}=useLanguage();const c=t(locale);const [open,setOpen]=useState(false);const pathname=usePathname();
  return <><a className="skip-to-content" href="#main-content">{locale==="he"?"דילוג לתוכן":"Skip to content"}</a><header className="site-header">
