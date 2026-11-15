@@ -312,3 +312,14 @@
  .home-royal .interlinear-promo .wilderness-photo{margin-bottom:26px;width:100%;border-radius:4px}
  .home-royal .interlinear-promo h2{font-size:clamp(34px,8vw,48px);line-height:1.12}
 }
+
+/* Desktop Jerusalem hero: fill the frame vertically and anchor the city at its base.
+   A height-based crop avoids the empty upper area left by width-based sizing. */
+@media(min-width:761px){
+ .home-royal .welcome-visual.welcome-jerusalem-photo{
+  background-size:auto 190%;
+  background-position:center bottom;
+  background-repeat:no-repeat;
+  background-color:#d5d1c2;
+ }
+}
