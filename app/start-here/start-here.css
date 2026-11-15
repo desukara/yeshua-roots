@@ -213,3 +213,21 @@
  .sh-testimony>blockquote{margin-left:auto!important;margin-right:auto!important}
  .sh-scene{background-position:center center}
 }
+
+/* Wide-screen testimony reading: use the available desktop canvas. */
+@media(min-width:901px){
+ .sh-testimony{padding:48px clamp(28px,4vw,68px)!important}
+ .sh-testimony__heading,.sh-testimony>p,.sh-testimony>blockquote{
+   width:min(100%,1160px)!important;
+   max-width:1160px!important;
+   margin-left:auto!important;margin-right:auto!important;
+ }
+ .sh-testimony__heading{margin-bottom:22px!important}
+ .sh-testimony>p{font-size:clamp(18px,1.45vw,20px)!important;line-height:1.75!important;max-width:1100px!important}
+ .sh-testimony>blockquote{padding:34px clamp(30px,3vw,48px)!important;font-size:clamp(21px,1.9vw,27px)!important;line-height:1.6!important}
+ .sh-testimony-break{padding-left:clamp(28px,4vw,68px);padding-right:clamp(28px,4vw,68px)}
+ .sh-testimony-break__image{width:min(100%,1220px)}
+}
+@media(min-width:901px) and (max-width:1150px){
+ .sh-testimony__heading,.sh-testimony>p,.sh-testimony>blockquote{width:100%!important;max-width:100%!important}
+}
