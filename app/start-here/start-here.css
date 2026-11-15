@@ -170,3 +170,46 @@
 .sh-testimony-break{padding:clamp(22px,3vw,45px) clamp(24px,6vw,100px);background:#213a40;border-top:1px solid #a88d64;border-bottom:1px solid #a88d64}
 .sh-testimony-break__image{width:min(100%,1150px);height:clamp(270px,34vw,440px);margin:auto;background:linear-gradient(90deg,#0d2b3030,#0d2b3030),url('/images/start-here/01-jerusalem-tomb.jpg') 24% center/cover no-repeat;box-shadow:0 18px 45px #081e2638}
 @media(max-width:900px){.sh-testimony-break{padding:22px 24px}.sh-testimony-break__image{height:clamp(230px,53vw,340px)}}
+
+/* Desktop polish: shared editorial grid for every direct-content element. */
+@media(min-width:901px){
+ .sh-section>.sh-number,.sh-section>h2,.sh-section>p:not(.sh-number),.sh-section>blockquote,
+ .sh-history>.sh-number,.sh-history>h2,.sh-history>p:not(.sh-number),
+ .sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p:not(.sh-number){
+   width:min(calc(100% - 112px),850px)!important;
+   max-width:850px!important;
+   margin-left:auto!important;margin-right:auto!important;
+ }
+ .sh-section>blockquote{
+   padding:36px clamp(34px,3.5vw,55px)!important;
+   font-size:clamp(20px,1.8vw,26px)!important;
+   line-height:1.62!important;
+   margin-top:23px!important;margin-bottom:29px!important;
+   box-shadow:none!important;
+ }
+ .sh-section>blockquote:nth-of-type(3n){width:min(calc(100% - 112px),850px)!important;margin-left:auto!important}
+ .sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){font-size:18px!important;line-height:1.82!important;margin-bottom:22px!important}
+ .sh-section>.sh-number,.sh-history>.sh-number,.sh-invitation>.sh-number{margin-top:55px!important;margin-bottom:17px!important}
+ .sh-section>h2,.sh-history>h2,.sh-invitation>h2{margin-bottom:29px!important}
+ .sh-scene{width:min(calc(100% - 112px),1120px)!important;max-width:1120px!important;height:clamp(340px,32vw,475px)!important;margin:38px auto 0!important}
+ .sh-scene--manuscript{height:clamp(350px,34vw,510px)!important}
+ .sh-section,.sh-history{padding-bottom:64px!important}
+ .sh-testimony{padding-top:48px!important;padding-bottom:49px!important}
+ .sh-testimony__heading,.sh-testimony>p,.sh-testimony>blockquote{width:min(100%,800px)!important;max-width:800px!important;margin-left:auto!important;margin-right:auto!important}
+ .sh-testimony>blockquote{padding:33px 42px!important;margin-top:23px!important;margin-bottom:25px!important}
+ .sh-testimony h3{margin:0!important;padding-top:0!important}
+ .sh-invitation{padding-bottom:70px!important}
+ .sh-invitation>.sh-actions{width:min(calc(100% - 112px),850px)!important;max-width:850px!important;margin-left:auto!important;margin-right:auto!important}
+ .sh-olive .sh-family-conviction{width:min(calc(100% - 112px),850px)!important}
+}
+@media(min-width:901px) and (max-width:1150px){
+ .sh-scene{width:calc(100% - 80px)!important}
+ .sh-section>.sh-number,.sh-section>h2,.sh-section>p:not(.sh-number),.sh-section>blockquote,
+ .sh-history>.sh-number,.sh-history>h2,.sh-history>p:not(.sh-number),
+ .sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p:not(.sh-number){width:calc(100% - 96px)!important}
+}
+@media(max-width:900px){
+ .sh-section>blockquote{margin-left:auto!important;margin-right:auto!important}
+ .sh-testimony>blockquote{margin-left:auto!important;margin-right:auto!important}
+ .sh-scene{background-position:center center}
+}
