@@ -33,7 +33,7 @@ The founder can review the exact text and cite a study slug, revision/commit, an
 
 1. Record the study slug, the English and Hebrew text being reviewed, and its cited Scripture passages.
 2. Verify Scripture citations and distinguish biblical text, interpretation, historical context, and editorial opinion.
-3. Check alignment with Yeshua as the living Jewish Messiah, salvation by grace through His atoning blood rather than Torah-keeping (Ephesians 2:8–10; Romans 3:20–24), and Spirit-led obedience to God's Torah without lawlessness (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33). Read Romans 2, 9–11 and Galatians 3 together; distinguish the movement's interpretation from other readings.
+3. Check alignment with Yeshua as the living Jewish Messiah, justification through the blood of the worthy Lamb of God, and salvation by grace through faith rather than the Law of Moses or Torah-keeping (Ephesians 2:8–10; Romans 3:20–24). Preserve the Torah as Scripture and God's instruction; do not imply that grace discards it (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33). Never claim that Yeshua Roots follows kashrut or require dietary observance; respect individual conscience. Read Romans 2, 9–11 and Galatians 3 together; distinguish the movement's interpretation from other readings.
 4. Verify Hebrew wording, RTL display, and equivalent meaning across languages.
 5. Obtain explicit founder approval for the exact revision; reference that approval in the change record. If approval is absent, keep `draft`.
 6. If an approved study changes substantively, return it to `draft` until the revised text is approved.
