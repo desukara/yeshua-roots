@@ -705,3 +705,9 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  .site-header .brand span{font-size:12px}
  .site-header .header-actions{gap:4px}
 }
+
+/* Single app entry on compact headers: the link lives inside the hamburger menu. */
+@media(max-width:950px){
+ .site-header .site-connect{display:none!important}
+ .site-header .mobile-menu-toggle{display:inline-flex}
+}
