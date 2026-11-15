@@ -249,3 +249,17 @@
   .home-royal .home-landscape img{height:auto;aspect-ratio:4/3;object-fit:cover}
   .home-royal .interlinear-promo{background-position:60% center}
 }
+
+/* Photo presentation correction: one image per visual surface. */
+.home-royal .welcome-visual{
+  background-image:none;
+  background:radial-gradient(circle at 50% 40%,#9baa7b,#506b45);
+}
+.home-royal .jerusalem-panorama{width:100%;background:#eee8dc;overflow:hidden}
+.home-royal .jerusalem-panorama img{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;object-position:center}
+.home-royal .home-heart .home-landscape{max-width:1000px;background:#e9dfc9}
+.home-royal .home-heart .home-landscape img{height:auto;max-height:550px;object-fit:contain}
+@media(max-width:760px){
+ .home-royal .jerusalem-panorama img{max-height:none}
+ .home-royal .home-heart .home-landscape img{height:auto;aspect-ratio:auto;max-height:none;object-fit:contain}
+}
