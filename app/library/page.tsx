@@ -1,1 +1,1 @@
-import {redirect} from "next/navigation";export default function Library(){redirect("/teachings");}
+import {permanentRedirect} from "next/navigation";export default function Library(){permanentRedirect("/teachings");}
