@@ -732,3 +732,22 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
   }
  }
 }
+
+/* Get the App route only: match the exact navy background of the gold Star of David icon. */
+.app-download-route .site-header,
+.app-download-route .site-footer{background:#071D3B!important}
+.app-download-route .site-header{border-bottom-color:#d8bc84}
+.app-download-route .site-footer{border-top-color:#d8bc84}
+.app-download-route .site-header .brand,
+.app-download-route .site-header .brand b,
+.app-download-route .site-header .brand small,
+.app-download-route .site-header .language-switcher button,
+.app-download-route .site-header .mobile-menu-toggle,
+.app-download-route .site-footer,
+.app-download-route .site-footer a{color:#fff7e8}
+.app-download-route .site-header .mobile-site-nav.is-open{background:#071D3B}
+@supports (-webkit-touch-callout:none){
+ @media(display-mode:standalone){
+  body:has(.app-download-route)::before{background:#071D3B}
+ }
+}
