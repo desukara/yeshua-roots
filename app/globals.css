@@ -745,3 +745,12 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
   body:has(.app-download-route)::before{background:#071D3B}
  }
 }
+
+/* iOS PWA: one safe-area inset only. Avoid the former doubled header padding. */
+@supports (-webkit-touch-callout:none){
+ @media(display-mode:standalone){
+  .site-header{padding-top:12px}
+  @media(max-width:760px){.site-header{padding-top:10px}}
+  html{overscroll-behavior-y:none}
+ }
+}
