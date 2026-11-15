@@ -323,3 +323,14 @@
   background-color:#d5d1c2;
  }
 }
+
+/* Approved portrait Jerusalem photograph for desktop only.
+   Keep the original landscape Jerusalem photograph untouched on mobile. */
+@media(min-width:761px){
+ .home-royal .welcome-visual.welcome-jerusalem-photo{
+  background-image:url("/brand/jerusalem-walk-with-yeshua.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+ }
+}
