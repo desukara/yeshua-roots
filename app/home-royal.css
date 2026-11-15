@@ -284,3 +284,12 @@
    background-position:center bottom;
  }
 }
+
+/* Make the fifth Israel photograph recognizable rather than hidden under a veil. */
+.home-royal .interlinear-promo{background:#263f32;background-image:none}
+.home-royal .interlinear-promo .wilderness-photo{margin:0 auto 38px;width:min(100%,960px);overflow:hidden;border-radius:5px}
+.home-royal .interlinear-promo .wilderness-photo img{display:block;width:100%;height:auto;max-height:460px;object-fit:contain}
+@media(max-width:760px){
+ .home-royal .interlinear-promo .wilderness-photo{margin-bottom:28px}
+ .home-royal .interlinear-promo .wilderness-photo img{max-height:none}
+}
