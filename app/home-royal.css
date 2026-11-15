@@ -196,3 +196,14 @@
 .home-royal .home-restoration h2{color:#263f32}
 .home-royal .home-restoration p{max-width:850px;margin-left:auto;margin-right:auto;color:#293c30}
 .home-royal .home-restoration .restoration-references{font-size:12px;letter-spacing:.09em;font-weight:700;color:#506b45;margin-top:28px;line-height:1.9}
+
+/* Torah ceremony photo: restrained tonal veil to tame bright highlights without
+   altering the original image or affecting the adjoining editorial copy. */
+.home-royal .grafted-olive-photo-section .grafted-olive-art::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  background:rgba(15,28,30,.14);
+}
