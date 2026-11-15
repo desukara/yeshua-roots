@@ -325,3 +325,27 @@
  .sh-page .sh-intro{padding:28px 8px 32px;font-size:clamp(20px,5.2vw,24px)}
  .sh-page .sh-scene{width:calc(100% - 32px)!important;max-width:calc(100% - 32px)!important;height:clamp(225px,61vw,315px)}
 }
+
+/* iPhone follow-up: lead with the landscape, tighten image-to-heading rhythm,
+   and give the final invitation its own photograph (without mobile duplicates). */
+@media(max-width:900px){
+ .sh-page .sh-hero-art{grid-row:1;min-height:clamp(300px,75vw,450px);border-top:0;border-bottom:0}
+ .sh-page .sh-hero-content{grid-row:2}
+ .sh-page .sh-section>.sh-scene + .sh-number{margin-top:22px!important;margin-bottom:12px!important}
+ .sh-page .sh-section>.sh-scene{margin-bottom:0!important}
+ .sh-page .sh-scene--ruins{display:none!important}
+ .sh-page .sh-invitation>.sh-scene--sunrise{
+   display:block!important;
+   background-image:linear-gradient(180deg,#102b3520,#102b3538),url('/images/start-here/07-jerusalem-panorama.jpg')!important;
+   background-position:center 47%!important;
+   margin:24px auto 0!important;
+   border:1px solid #bfa57a!important;
+   height:clamp(240px,65vw,380px)!important;
+ }
+ .sh-page .sh-invitation>.sh-scene--sunrise + .sh-number{margin-top:32px!important}
+}
+@media(max-width:600px){
+ .sh-page .sh-hero-art{min-height:clamp(285px,76vw,380px)}
+ .sh-page .sh-hero-content{padding-top:42px;padding-bottom:45px}
+ .sh-page .sh-section>.sh-scene + .sh-number{margin-top:18px!important}
+}
