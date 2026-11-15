@@ -1,4 +1,4 @@
-import SiteHeader from "../../components/site-header";
-import SiteFooter from "../../components/site-footer";
+import AttributionsPageContent from "../../components/attributions-page-content";
+
 export const metadata={title:"Sources & Attributions",description:"Text sources and acknowledgments for Yeshua Roots."};
-export default function AttributionsPage(){return <><SiteHeader/><main style={{maxWidth:860,margin:"0 auto",padding:"5rem 1.5rem"}}><span className="kicker">YESHUA ROOTS</span><h1>Sources &amp; Attributions</h1><p>We gratefully acknowledge the Scripture resources that support our Torah reading experience.</p><section style={{marginTop:"2.5rem"}}><h2>Hebrew Torah text</h2><p>Hebrew Scripture chapter text in the Torah Reader is retrieved from Sefaria. Individual Hebrew text versions may carry their own licensing and attribution requirements. We acknowledge the version information supplied with the source and will maintain version-specific credits here as the reader develops.</p><h2>Messianic study material</h2><p>Messianic chapter introductions, study notes, and word-study commentary are prepared for Yeshua Roots.</p><h2>Scripture references</h2><p>References to passages throughout the Tanakh and Apostolic Scriptures are provided for study and comparison.</p></section></main><SiteFooter/></>}
+export default function AttributionsPage(){return <AttributionsPageContent/>;}
