@@ -67,7 +67,7 @@ return <><SiteHeader/><main id="main-content" className="sh-page">
 <p>To repent is to turn back to God. We put our trust in Yeshua and start learning to walk with Him. You don’t have to understand everything first. Start with trust, and learn as you go.</p>
 <p>That is what we’re doing at Yeshua Roots, and we’d love to walk it with you.</p></div>
 </section>
-<section id="scriptures-of-israel" className="sh-section"><div className="sh-scene sh-scene--manuscript" aria-hidden="true"/><p className="sh-number">02 / THE SCRIPTURES OF ISRAEL</p><h2>Yeshua belongs to the Tanakh</h2><p>Yeshua is Jewish, the promised Son of David, and the Torah, the Prophets, and the Writings are His Scriptures. After the resurrection He walked the road to Emmaus with two of His followers. Luke tells us:</p>
+<section id="scriptures-of-israel" className="sh-section"><p className="sh-number">02 / THE SCRIPTURES OF ISRAEL</p><h2>Yeshua belongs to the Tanakh</h2><p>Yeshua is Jewish, the promised Son of David, and the Torah, the Prophets, and the Writings are His Scriptures. After the resurrection He walked the road to Emmaus with two of His followers. Luke tells us:</p>
 <blockquote>“And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself.” <cite>— Luke 24:27, KJV</cite></blockquote>
 <p>Later He met with the disciples again and told them:</p>
 <blockquote>“These are the words which I spake unto you, while I was yet with you, that all things must be fulfilled, which were written in the law of Moses, and in the prophets, and in the psalms, concerning me. Then opened he their understanding, that they might understand the scriptures.” <cite>— Luke 24:44–45, KJV</cite></blockquote>
