@@ -293,3 +293,12 @@
  .home-royal .interlinear-promo .wilderness-photo{margin-bottom:28px}
  .home-royal .interlinear-promo .wilderness-photo img{max-height:none}
 }
+
+/* Wilderness section: readable dark copy below a fully unobstructed photo. */
+.home-royal .interlinear-promo{background:#f1ecdf;background-image:none;color:#263f32}
+.home-royal .interlinear-promo h2{color:#263f32}
+.home-royal .interlinear-promo p{color:#465b4c}
+.home-royal .interlinear-promo .kicker{color:#886a36}
+.home-royal .interlinear-promo::before{content:none;display:none}
+.home-royal .interlinear-promo .wilderness-photo{position:relative;z-index:1;background:transparent}
+.home-royal .interlinear-promo .wilderness-photo img{opacity:1;filter:none}
