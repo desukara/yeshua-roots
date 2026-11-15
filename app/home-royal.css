@@ -227,3 +227,25 @@
     filter:brightness(.90) contrast(1.10) saturate(.95);
   }
 }
+
+/* Israel photography: responsive homepage storytelling, without changing the Torah portrait. */
+.home-royal .welcome-visual{
+  background-image:linear-gradient(145deg,rgba(30,47,36,.40),rgba(25,43,33,.66)),url("/brand/jerusalem-hero.jpg");
+  background-size:cover;
+  background-position:center;
+}
+.home-royal .home-landscape{margin:30px auto 36px;width:100%;max-width:900px;overflow:hidden;border-radius:5px;box-shadow:0 12px 32px rgba(38,63,50,.10)}
+.home-royal .home-landscape img{display:block;width:100%;height:clamp(220px,28vw,365px);object-fit:cover;object-position:center}
+.home-royal .home-restoration .home-landscape{max-width:850px}
+.home-royal .home-heart .home-landscape{max-width:760px}
+.home-royal .interlinear-promo{
+  background-image:linear-gradient(90deg,rgba(26,46,35,.96),rgba(26,46,35,.83)),url("/brand/judean-wilderness.jpg");
+  background-size:cover;
+  background-position:center 55%;
+}
+@media(max-width:760px){
+  .home-royal .welcome-visual{background-position:center center}
+  .home-royal .home-landscape{margin:24px auto 28px;border-radius:3px}
+  .home-royal .home-landscape img{height:auto;aspect-ratio:4/3;object-fit:cover}
+  .home-royal .interlinear-promo{background-position:60% center}
+}
