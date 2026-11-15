@@ -56,3 +56,50 @@
 @media(max-width:600px){.sh-hero:before{inset:10px}.sh-hero-content{padding:64px 24px 56px}.sh-hero h1{font-size:clamp(53px,13vw,76px);margin:18px 0 27px}.sh-lead{font-size:16px;line-height:1.78}.sh-scripture{font-size:19px;margin-top:28px;padding-left:17px}.sh-actions{align-items:stretch;flex-direction:column}.sh-actions a{width:100%;max-width:none}.sh-hero-art{min-height:205px;padding:35px 20px}.sh-hero-art:before{inset:19px}.sh-hero-art:after{inset:33px}.sh-hebrew-word{font-size:96px}.sh-intro{padding:55px 24px;font-size:23px;line-height:1.6}.sh-path{padding:22px 24px}.sh-path__inner{gap:5px 16px}.sh-path a{font-size:12px}.sh-section{padding:65px 23px 80px}.sh-section h2{font-size:clamp(38px,9.3vw,53px);margin-bottom:32px}.sh-section h3{font-size:clamp(30px,7.7vw,40px);margin:75px 0 23px;padding-top:23px}.sh-section>p:not(.sh-number){font-size:16.5px;line-height:1.84;margin-bottom:23px}.sh-section>blockquote{font-size:20px;line-height:1.62;padding:29px 24px;margin:27px 0 36px}.sh-section>blockquote cite{font-size:10px;margin-top:22px}.sh-history,.sh-invitation{padding:75px 24px}.sh-history h2,.sh-invitation h2{font-size:clamp(38px,9vw,56px)}}
 @media(max-width:360px){.sh-hero-content,.sh-section,.sh-history,.sh-invitation{padding-left:18px;padding-right:18px}.sh-section>blockquote{padding:25px 18px;font-size:19px}.sh-hero h1{font-size:50px}}
 @media(prefers-reduced-motion:reduce){.sh-page *{transition:none!important}}
+
+
+/* Immersive ancient Jerusalem gallery architecture */
+.sh-page{--sh-paper:#f4ecdc;--sh-ink:#28352f;background:var(--sh-paper)}
+.sh-hero{background:#192a3b;min-height:760px}
+.sh-hero-art{background:radial-gradient(ellipse at 50% 30%,#c9b58d 0%,#867459 36%,#283d43 80%);border-left:16px solid #a88e69}
+.sh-hero-art:before{inset:10% 17%;border:25px solid #d1b88d;border-bottom:0;border-radius:50% 50% 0 0;box-shadow:0 0 0 13px #8c795e}
+.sh-hero-art:after{inset:19% 25%;border:2px solid #f2d5a0;border-bottom:0;border-radius:50% 50% 0 0}
+.sh-welcome{display:grid;grid-template-columns:40% 60%;background:#e9ddc8}
+.sh-welcome__scene{min-height:390px;background:repeating-linear-gradient(0deg,transparent 0 54px,#544c3a24 55px 57px),linear-gradient(140deg,#9e8868,#d9c4a1);position:relative;overflow:hidden}
+.sh-welcome__scene:before{content:"";position:absolute;inset:12% 22% -10%;border:30px solid #bba27d;border-bottom:0;border-radius:48% 48% 0 0;background:linear-gradient(#557783,#d4b68a 72%,#687b59)}
+.sh-intro{display:flex;align-items:center;padding:clamp(55px,6vw,110px);font-size:clamp(22px,2.1vw,33px)}
+.sh-path{padding:60px 6vw}
+.sh-path__inner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px;max-width:1220px}
+.sh-path__label{grid-column:1/-1;margin-bottom:18px}
+.sh-path a{font:500 clamp(16px,1.5vw,21px)/1.35 Georgia,serif;padding:22px 8px;gap:22px}
+.sh-section,.sh-history,.sh-invitation{padding:0 0 clamp(80px,9vw,145px);max-width:none;width:100%;overflow:hidden}
+.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-history>.sh-history-link,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p,.sh-invitation>.sh-actions{margin-left:max(7vw,calc((100vw - 1160px)/2));margin-right:max(7vw,calc((100vw - 1160px)/2))}
+.sh-section>.sh-number,.sh-history>.sh-number,.sh-invitation>.sh-number{margin-top:85px}
+.sh-section>h2,.sh-history>h2,.sh-invitation>h2{font-size:clamp(45px,6vw,92px);max-width:1100px}
+.sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){max-width:760px}
+.sh-scene{height:clamp(280px,42vw,590px);width:100%;position:relative;overflow:hidden}
+.sh-scene--tomb{background:radial-gradient(ellipse at 56% 36%,#f5e3b5,#c5a678 28%,transparent 50%),linear-gradient(120deg,#4b5048,#b19b78 65%,#686351)}
+.sh-scene--tomb:before{content:"";position:absolute;inset:12% 30% -12%;border:clamp(35px,6vw,85px) solid #978268;border-bottom:0;border-radius:48% 48% 0 0;background:linear-gradient(#253c3d,#48524b);box-shadow:0 0 0 16px #c5ab82}
+.sh-scene--manuscript{background:linear-gradient(135deg,#38342b,#a58d67 50%,#413b2f)}
+.sh-scene--manuscript:before{content:"";position:absolute;inset:13% 18%;transform:rotate(-4deg);background:repeating-linear-gradient(0deg,transparent 0 17px,#54402e44 18px 20px,transparent 21px 31px),linear-gradient(110deg,#b89b6b,#e3cba2 50%,#a8885b);border:18px solid #98805e;box-shadow:12px 20px 65px #201d17}
+.sh-scene--jerusalem,.sh-scene--ruins{background:linear-gradient(#829da2,#e6c9a0 59%,#ad9471 60%)}
+.sh-scene--jerusalem:before,.sh-scene--ruins:before{content:"";position:absolute;inset:26% 8% 0;background:repeating-linear-gradient(90deg,#b79b74 0 12%,#e2c69b 12% 14%,#a78c69 14% 25%);clip-path:polygon(0 30%,14% 30%,14% 8%,35% 8%,35% 22%,54% 22%,54% 0,80% 0,80% 25%,100% 25%,100% 100%,0 100%)}
+.sh-scene--olive{background:linear-gradient(#a0b2a7,#e2c79e 65%,#777e59 66%)}
+.sh-scene--olive:before{content:"";position:absolute;left:45%;bottom:-8%;height:80%;width:10%;border-radius:45% 45% 0 0;background:#514737;box-shadow:19px -130px 0 -16px #514737,-22px -95px 0 -17px #514737}
+.sh-scene--olive:after{content:"";position:absolute;left:16%;top:3%;width:70%;height:68%;border-radius:50%;background:radial-gradient(ellipse,#73805a,#4c6344 65%,transparent 71%);filter:blur(5px)}
+.sh-scene--path,.sh-scene--sunrise{background:radial-gradient(ellipse at 67% 20%,#fff0b9,#e8c996 23%,transparent 44%),linear-gradient(#9eb1ac,#e6caa1 56%,#78815d 57%,#475b46)}
+.sh-scene--path:before,.sh-scene--sunrise:before{content:"";position:absolute;inset:45% 27% -20%;background:#c6a47a;clip-path:polygon(45% 0,53% 0,100% 100%,0 100%);filter:blur(4px)}
+.sh-testimony{padding:clamp(70px,7vw,120px) max(7vw,calc((100vw - 1200px)/2));display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1fr);gap:0 clamp(35px,6vw,110px);align-items:start;border-top:1px solid #c8b89c;background:#f7f0e4}
+.sh-testimony:nth-of-type(even){background:#e7dac4}
+.sh-testimony__heading{grid-column:1;grid-row:1/span 4;position:sticky;top:110px}
+.sh-testimony h3{margin:0;padding:0;border:0;font-size:clamp(39px,4.5vw,70px)}
+.sh-testimony>p,.sh-testimony>blockquote{grid-column:2;min-width:0}
+.sh-testimony>p{font:400 clamp(17px,1.3vw,19px)/1.85 Arial,sans-serif;color:#39413d;margin:0 0 27px}
+.sh-testimony>blockquote{margin:10px 0 34px;padding:clamp(27px,3vw,48px);background:#fffaf0;border:0;border-top:3px solid #ae8754;font:italic clamp(19px,1.8vw,26px)/1.6 Georgia,serif;color:#283b38}
+.sh-testimony>blockquote cite{display:block;font:700 11px/1.6 Arial,sans-serif;color:#836238;letter-spacing:.1em;margin-top:18px}
+.sh-testimony--3,.sh-testimony--4{background:#1c303a;color:#f4e8d4}
+.sh-testimony--3 h3,.sh-testimony--4 h3{color:#f5e8d2}
+.sh-testimony--3>p,.sh-testimony--4>p{color:#e2dfd5}
+.sh-olive .sh-family-conviction{max-width:none!important;padding:clamp(35px,5vw,70px);background:#293f31;border-left:6px solid #c5a16c;color:#fff7e9!important;font:400 clamp(22px,2.2vw,31px)/1.65 Georgia,serif!important}
+@media(max-width:850px){.sh-welcome{grid-template-columns:1fr}.sh-welcome__scene{min-height:250px}.sh-intro{padding:55px 7vw}.sh-path__inner{grid-template-columns:1fr}.sh-testimony{grid-template-columns:1fr;padding:65px 7vw}.sh-testimony__heading{grid-column:1;grid-row:auto;position:static;margin-bottom:30px}.sh-testimony>p,.sh-testimony>blockquote{grid-column:1}.sh-scene{height:300px}}
+@media(max-width:600px){.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-history>.sh-history-link,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p,.sh-invitation>.sh-actions{margin-left:24px;margin-right:24px}.sh-section>h2,.sh-history>h2,.sh-invitation>h2{font-size:clamp(39px,10vw,60px)}.sh-testimony{padding:60px 24px}.sh-testimony h3{font-size:clamp(35px,9vw,48px)}.sh-scene{height:240px}.sh-hero{min-height:0}}
