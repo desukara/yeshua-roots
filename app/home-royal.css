@@ -205,5 +205,25 @@
   inset:0;
   z-index:1;
   pointer-events:none;
-  background:rgba(15,28,30,.14);
+  background:linear-gradient(180deg,rgba(16,28,31,.06),rgba(16,28,31,.10));
+}
+
+/* Reduce washed-out highlights while retaining skin and Torah fabric detail. */
+.home-royal .grafted-olive-photo-section .torah-ceremony-photo{
+  filter:brightness(.88) contrast(1.12) saturate(.94);
+}
+@media(max-width:800px){
+  .home-royal .grafted-olive-photo-section .grafted-olive-art{
+    max-height:none!important;
+    overflow:visible!important;
+  }
+  .home-royal .grafted-olive-photo-section .torah-ceremony-photo{
+    position:static!important;
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    max-height:none!important;
+    object-fit:contain!important;
+    filter:brightness(.90) contrast(1.10) saturate(.95);
+  }
 }
