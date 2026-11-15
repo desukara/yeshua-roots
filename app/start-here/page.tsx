@@ -70,7 +70,7 @@ return <><SiteHeader/><main id="main-content" className="sh-page">
 <p>The promise to David’s house shows how the whole story holds together. God said to David:</p>
 <blockquote>“I will set up thy seed after thee, which shall proceed out of thy bowels, and I will establish his kingdom... And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.” <cite>— 2 Samuel 7:12, 16 (excerpt), KJV</cite></blockquote>
 <p>The apostles saw Yeshua as the One that promise was pointing to.</p>
-<p>I want to be honest with you about something. Not every Jewish reader sees these passages the way we do. When we share how we read a verse, we’ll say it’s our reading, and we won’t pretend every Jewish person agrees with us.</p></section>
+</section>
 <section id="first-followers" className="sh-section"><div className="sh-scene sh-scene--jerusalem" aria-hidden="true"/><p className="sh-number">03 / THE FIRST FOLLOWERS</p><h2>A movement that grew up inside Jewish life</h2><p>The first followers of Yeshua were Jews. They went up to the Temple to pray:</p>
 <blockquote>“Now Peter and John went up together into the temple at the hour of prayer, being the ninth hour.” <cite>— Acts 3:1, KJV</cite></blockquote>
 <p>Years later, when Paul came to Jerusalem, the elders told him:</p>
