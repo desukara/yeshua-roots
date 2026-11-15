@@ -660,3 +660,9 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .install-home-link{margin:14px auto 0;text-align:center}
 .install-home-link a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 23px;border:2px solid #b99b60;border-radius:7px;background:#fffaf0;color:#263f32;font-weight:800;text-decoration:none;box-shadow:0 4px 12px #263f3214}
 .install-home-link a:hover,.install-home-link a:focus-visible{background:#e9ddc5;border-color:#856934}
+
+/* Get the App page: one Star of David, on the app icon itself. */
+.app-download-route .site-header .brand-emblem,
+.app-download-route .site-footer .footer-brand img{display:none!important}
+.app-download-route .site-header .brand,
+.app-download-route .site-footer .footer-brand{gap:0}
