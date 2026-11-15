@@ -8,6 +8,8 @@
 ## Editorial and localization requirements
 - Maintain the motto: **One Messiah. One Torah. One Family.**
 - Present Yeshua as the living Jewish Messiah of Israel, consistent with the ministry's stated convictions.
+- State that justification is through the blood of Yeshua, the worthy Lamb of God, and that this does not abolish or discard the Torah.
+- Do not claim that Yeshua Roots follows kashrut or require dietary observance; describe food practices as personal convictions and respect individual conscience.
 - Distinguish doctrinal convictions from contested historical interpretations; support historical claims.
 - New doctrine, study material, and the Statement of Faith require human editorial review. Never publish drafts as approved teaching.
 - Support only English (US) and modern Israeli Hebrew; preserve language switching and right-to-left layout in Hebrew.
