@@ -602,3 +602,33 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  .site-footer{padding-inline:18px;column-gap:14px}
  .site-footer a:not(.footer-brand){font-size:13px}
 }
+
+
+/* High-contrast learning-room cards on every viewport. */
+.learning-rooms .room-card{
+ background:#fffaf0;
+ border:2px solid #a98a53;
+ border-radius:7px;
+ box-shadow:0 8px 0 #263f3210,0 16px 28px #263f3217;
+}
+.learning-rooms .room-card:hover,
+.learning-rooms .room-card:focus-within{
+ border-color:#816332;
+ box-shadow:0 0 0 2px #d7bb82,0 16px 30px #263f3225;
+}
+.learning-rooms .room-card h3{color:#263f32}
+.learning-rooms .room-card p{color:#405747}
+.learning-rooms .room-card .room-hebrew,
+.learning-rooms .room-card .room-top,
+.learning-rooms .room-card .room-top svg{color:#866334}
+.learning-rooms .room-card .room-link{color:#263f32}
+@media(max-width:760px){
+ .learning-rooms .room-card{border-width:2px;box-shadow:0 6px 0 #263f3210,0 12px 22px #263f3214}
+}
+/* Remove decorative footer frond everywhere; preserve the real logo. */
+.site-footer::before,
+.site-footer::after{
+ content:none!important;
+ display:none!important;
+ background:none!important;
+}
