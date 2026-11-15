@@ -718,3 +718,17 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
   .site-header{padding-top:calc(12px + env(safe-area-inset-top));}
  }
 }
+
+/* Installed iOS app: paint the status-bar safe area with the same forest green as the header.
+   Keep the header below the clock and battery; never place page content under iOS controls. */
+@supports (-webkit-touch-callout: none){
+ @media (display-mode: standalone){
+  html{background:#263f32}
+  body{padding-top:env(safe-area-inset-top,0px)}
+  body::before{
+   content:"";position:fixed;z-index:31;top:0;left:0;right:0;
+   height:env(safe-area-inset-top,0px);background:#263f32;
+   pointer-events:none;
+  }
+ }
+}
