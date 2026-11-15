@@ -210,7 +210,7 @@
 
 /* Reduce washed-out highlights while retaining skin and Torah fabric detail. */
 .home-royal .grafted-olive-photo-section .torah-ceremony-photo{
-  filter:brightness(.90) contrast(1.10) saturate(.95);
+  filter:brightness(.90) contrast(1.08) saturate(.72);
 }
 @media(max-width:800px){
   .home-royal .grafted-olive-photo-section .grafted-olive-art{
