@@ -231,3 +231,121 @@
 @media(min-width:901px) and (max-width:1150px){
  .sh-testimony__heading,.sh-testimony>p,.sh-testimony>blockquote{width:100%!important;max-width:100%!important}
 }
+
+/* Mobile navigation must be a compact, normal-flow section, never a viewport overlay. */
+@media(max-width:900px){
+ .sh-page .sh-path{
+   position:static!important;
+   inset:auto!important;
+   top:auto!important;
+   height:auto!important;
+   max-height:none!important;
+   min-height:0!important;
+   overflow:visible!important;
+   transform:none!important;
+   z-index:auto!important;
+   padding:26px 24px 30px!important;
+ }
+ .sh-page .sh-path__inner{
+   display:grid!important;
+   grid-template-columns:repeat(2,minmax(0,1fr))!important;
+   gap:0 14px!important;
+   width:100%!important;
+   max-width:640px!important;
+ }
+ .sh-page .sh-path__label{
+   grid-column:1/-1!important;
+   margin:0 0 12px!important;
+   font-size:10px!important;
+   line-height:1.5!important;
+   letter-spacing:.12em!important;
+ }
+ .sh-page .sh-path a{
+   min-width:0!important;
+   padding:12px 2px!important;
+   gap:8px!important;
+   font:400 14px/1.4 Georgia,serif!important;
+   border-bottom:1px solid #d5c8b3!important;
+   white-space:normal!important;
+   overflow-wrap:break-word!important;
+ }
+ .sh-page .sh-path a span{flex:none;font-size:10px!important}
+}
+@media(max-width:390px){
+ .sh-page .sh-path{padding:22px 18px 26px!important}
+ .sh-page .sh-path__inner{gap:0 10px!important}
+ .sh-page .sh-path a{font-size:13px!important;gap:6px!important}
+}
+
+/* Mobile photo art direction: deliberate separation, never edge-to-edge collisions. */
+@media(max-width:900px){
+ .sh-page .sh-hero{display:grid;grid-template-columns:minmax(0,1fr);min-height:0}
+ .sh-page .sh-hero-art{
+   min-height:clamp(270px,65vw,420px);
+   border:0;
+   border-top:1px solid #b89c6b55;
+   border-bottom:12px solid #142a35;
+   background-position:center 52%;
+ }
+ .sh-page .sh-welcome{
+   display:grid;
+   grid-template-columns:minmax(0,1fr);
+   background:#e9e0d2;
+   padding:24px 20px 0;
+   gap:0;
+ }
+ .sh-page .sh-welcome__scene{
+   min-height:clamp(240px,58vw,420px);
+   width:100%;
+   background-position:center 50%;
+   border:1px solid #cdbb9c;
+   box-shadow:0 8px 25px #1c30231c;
+ }
+ .sh-page .sh-intro{
+   min-width:0;
+   padding:30px 8px 35px;
+   margin:0;
+ }
+ .sh-page .sh-scene{
+   display:block;
+   width:calc(100% - 40px)!important;
+   max-width:calc(100% - 40px)!important;
+   height:clamp(230px,58vw,370px);
+   margin:30px auto 0!important;
+   border:1px solid #cbbda6;
+   box-shadow:0 8px 26px #25352b16;
+ }
+ .sh-page .sh-testimony-break{padding:24px 20px}
+ .sh-page .sh-testimony-break__image{width:100%;height:clamp(230px,58vw,360px)}
+}
+@media(max-width:600px){
+ .sh-page .sh-hero-art{min-height:clamp(245px,64vw,320px)}
+ .sh-page .sh-welcome{padding:20px 16px 0}
+ .sh-page .sh-welcome__scene{min-height:clamp(235px,62vw,330px)}
+ .sh-page .sh-intro{padding:28px 8px 32px;font-size:clamp(20px,5.2vw,24px)}
+ .sh-page .sh-scene{width:calc(100% - 32px)!important;max-width:calc(100% - 32px)!important;height:clamp(225px,61vw,315px)}
+}
+
+/* iPhone follow-up: lead with the landscape, tighten image-to-heading rhythm,
+   and give the final invitation its own photograph (without mobile duplicates). */
+@media(max-width:900px){
+ .sh-page .sh-hero-art{grid-row:1;min-height:clamp(300px,75vw,450px);border-top:0;border-bottom:0}
+ .sh-page .sh-hero-content{grid-row:2}
+ .sh-page .sh-section>.sh-scene + .sh-number{margin-top:22px!important;margin-bottom:12px!important}
+ .sh-page .sh-section>.sh-scene{margin-bottom:0!important}
+ .sh-page .sh-scene--ruins{display:none!important}
+ .sh-page .sh-invitation>.sh-scene--sunrise{
+   display:block!important;
+   background-image:linear-gradient(180deg,#102b3520,#102b3538),url('/images/start-here/07-jerusalem-panorama.jpg')!important;
+   background-position:center 47%!important;
+   margin:24px auto 0!important;
+   border:1px solid #bfa57a!important;
+   height:clamp(240px,65vw,380px)!important;
+ }
+ .sh-page .sh-invitation>.sh-scene--sunrise + .sh-number{margin-top:32px!important}
+}
+@media(max-width:600px){
+ .sh-page .sh-hero-art{min-height:clamp(285px,76vw,380px)}
+ .sh-page .sh-hero-content{padding-top:42px;padding-bottom:45px}
+ .sh-page .sh-section>.sh-scene + .sh-number{margin-top:18px!important}
+}
