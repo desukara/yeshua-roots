@@ -674,3 +674,16 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  .site-header .header-actions{gap:7px}
 }
 @media(max-width:380px){.site-header .mobile-app-cta{font-size:11px;padding:8px 7px}}
+
+/* Device-aware app installation: actionable guidance without duplicate CTAs. */
+.install-device-help{max-width:680px;margin:25px auto 28px;padding:25px 30px;background:#fffaf0;border:2px solid #b99b60;border-radius:9px;text-align:left;box-shadow:0 10px 25px #263f3214}
+.install-device-help h2{font:normal clamp(24px,4vw,32px)/1.2 Georgia,serif;margin:0 0 14px;color:#263f32}
+.install-device-help p,.install-device-help li{font-size:16px;line-height:1.7;color:#405747}
+.install-device-help ol{padding-left:23px;margin:18px 0}
+.install-device-help li{padding-left:5px;margin-bottom:12px}
+.install-device-help .install-device-note{font-size:14px;margin:14px 0 0}
+.install-help-toggle{border:1px solid #b99b60;border-radius:6px;padding:11px 15px;background:#f0e3c8;color:#263f32;font-weight:700;cursor:pointer}
+.install-all-guides{max-width:1020px;margin:35px auto 0}
+.install-all-guides summary{cursor:pointer;font-weight:750;color:#263f32;text-decoration:underline;text-underline-offset:4px;padding:12px}
+.install-all-guides .install-guides{margin-top:20px}
+@media(max-width:760px){.install-device-help{padding:22px 20px}.install-device-help p,.install-device-help li{font-size:16px}.install-all-guides{margin-top:25px}}
