@@ -1,1 +1,1 @@
-import {permanentRedirect} from "next/navigation";export default function Library(){permanentRedirect("/teachings");}
+import {permanentRedirect} from "next/navigation";export default function Library(){permanentRedirect("/torah");}

@@ -30,7 +30,7 @@ export const studies:Study[]=[
 "To say 'Yeshua is alive' is therefore a claim about God's action and a present invitation. Read the witnesses carefully, bring your questions honestly, and consider what trusting, speaking with, and following the risen Messiah might mean in daily life."
 ],reflection:"If Yeshua truly lives, how might that change the way you read Scripture, pray, and follow Him today?"}
 ];
-export const nav=[{label:"Torah Study",href:"/torah"},{label:"Teachings",href:"/teachings"},{label:"News",href:"/news"},{label:"Community",href:"/community"},{label:"About",href:"/about"}];
+export const nav=[{label:"Torah Study",href:"/torah"},{label:"News",href:"/news"},{label:"Community",href:"/community"},{label:"About",href:"/about"}];
 
 /** Only founder-approved studies may be exposed on public routes or navigation. */
 export const publishedStudies=studies.filter(study=>study.editorialStatus==="founder-approved");
