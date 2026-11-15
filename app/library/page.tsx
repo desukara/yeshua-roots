@@ -1,1 +1,1 @@
-import type {Metadata} from "next";import LibraryClient from "../../components/library-client";export const metadata:Metadata={title:"Study Library",description:"Explore introductory Torah and Messianic studies rooted in Scripture and centered on Yeshua, the living Jewish Messiah of Israel. These articles are starter study material."};export default function Library(){return <LibraryClient/>}
+import {permanentRedirect} from "next/navigation";export default function Library(){permanentRedirect("/teachings");}
