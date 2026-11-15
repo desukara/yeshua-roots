@@ -354,3 +354,6 @@
 .sh-page .sh-translation-footnote{font-size:clamp(.87rem,1.4vw,1rem)!important;line-height:1.75!important;color:#5b615b!important;border-left:2px solid #b49b6d;padding:12px 0 12px 18px;margin:18px 0 34px!important;max-width:75ch}
 .sh-page .sh-translation-footnote strong{font-weight:700;color:#30463d}
 @media(max-width:600px){.sh-page .sh-translation-footnote{font-size:.9rem!important;line-height:1.65!important;padding-left:14px;margin:16px 0 28px!important}}
+
+/* Ensure Greek transliteration remains legible against the cream note background. */
+.sh-page .sh-translation-footnote em{color:#234b3e!important;font-weight:600!important}
