@@ -70,3 +70,6 @@ body:has(.torah-temple) .global-home-escape{display:none}
 .temple-grafting-verse p strong{font-style:normal;font-weight:700;color:#886225;margin-right:7px}
 
 .temple-messiah-speaker{font-family:Georgia,serif;font-size:clamp(19px,2.3vw,25px);font-weight:700;line-height:1.35;color:#73501e;margin:0 0 20px}
+
+.temple-interlinear-section{padding:clamp(40px,7vw,88px) max(5vw,24px);background:#eee2ca;border-top:1px solid #d8c39d}
+.temple-interlinear-section .interlinear-reader{width:min(1160px,100%);margin:0 auto}
