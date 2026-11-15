@@ -522,3 +522,83 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .outreach-scripture{max-width:760px;margin:26px 0 34px;padding:18px 22px;border-inline-start:4px solid var(--yr-gold,#b59a60);background:var(--yr-surface,#faf8f0);color:var(--yr-text,#293c30);line-height:1.7}
 .outreach-scripture p{margin:0 0 10px}
 .outreach-scripture cite{display:block;font-size:13px;font-style:normal;font-weight:700;color:var(--yr-muted,#596b57)}
+
+/* Yeshua Roots shared chrome — one visual identity on every route. */
+:root{--yr-chrome:#263f32;--yr-chrome-ivory:#fff7e8;--yr-chrome-gold:#d8bc84}
+.site-header{
+ background:var(--yr-chrome);color:var(--yr-chrome-ivory);
+ border-bottom:2px solid var(--yr-chrome-gold);box-shadow:0 5px 18px #13251b18;
+ min-height:82px;height:auto;padding-block:12px;
+}
+.site-header .brand,.site-header .brand b{color:var(--yr-chrome-ivory)}
+.site-header .brand small{color:var(--yr-chrome-gold)}
+.site-header .site-nav,.site-header .site-nav a{color:var(--yr-chrome-ivory)}
+.site-header .site-nav a:hover,.site-header .site-nav a[aria-current="page"]{color:var(--yr-chrome-gold)}
+.site-header .language-switcher button{color:#e3e8dd}
+.site-header .language-switcher button[aria-pressed="true"]{color:var(--yr-chrome-gold)}
+.site-header .site-connect{
+ background:var(--yr-chrome-gold);color:var(--yr-chrome);
+ border:1px solid #e9d4a9;border-radius:6px;font-weight:750;
+}
+.site-header .site-connect:hover{background:#f0dba9;color:#1b3329}
+.site-header .mobile-menu-toggle{
+ background:transparent;color:var(--yr-chrome-ivory);
+ border-color:#a8a88a;border-radius:6px;
+}
+.site-header .mobile-site-nav.is-open{
+ background:var(--yr-chrome);border-top:1px solid #8a997a;
+ box-shadow:0 16px 25px #14251b38;
+}
+.site-header .mobile-site-nav a{color:var(--yr-chrome-ivory);border-bottom-color:#607361}
+.site-header .mobile-site-nav a:hover,.site-header .mobile-site-nav a:focus-visible{background:#345443}
+.site-header .mobile-site-nav a[aria-current="page"]{color:var(--yr-chrome-gold)}
+.site-footer{
+ background:var(--yr-chrome);color:var(--yr-chrome-ivory);
+ border-top:3px solid var(--yr-chrome-gold);
+ padding:60px max(5vw,28px) 42px;
+ grid-template-columns:minmax(250px,1.65fr) minmax(150px,1fr) minmax(170px,1fr) minmax(165px,1fr);
+ column-gap:clamp(26px,4vw,68px);row-gap:32px;
+}
+.site-footer>div{gap:15px;min-width:0}
+.site-footer>div:first-child{gap:12px}
+.site-footer .footer-brand{
+ color:var(--yr-chrome-ivory);font-size:clamp(19px,1.6vw,25px);
+ letter-spacing:.075em;line-height:1.35;
+}
+.site-footer .footer-brand img{width:30px;height:30px}
+.site-footer p{color:#d9e2d6;font-size:14px;line-height:1.6}
+.site-footer .footer-hebrew{font-size:25px!important;color:var(--yr-chrome-gold)!important}
+.site-footer b{font-size:14px;letter-spacing:.025em;color:var(--yr-chrome-gold)}
+.site-footer a:not(.footer-brand){font-size:14px;line-height:1.6;color:#e3e9de}
+.site-footer a:not(.footer-brand):hover{color:#f2d7a2!important}
+.site-footer .footer-end{gap:20px}
+.site-footer .footer-end>span{color:#e3e9de;line-height:1.55}
+.site-footer .footer-end small{margin-top:0;color:#bdcbbd;font-size:12px}
+.site-footer .language-switcher{margin-top:4px}
+@media(max-width:1100px){
+ .site-footer{grid-template-columns:minmax(0,1.4fr) repeat(2,minmax(0,1fr))}
+ .site-footer .footer-end{grid-column:1/-1;padding-top:20px;border-top:1px solid #84936a66;flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap}
+}
+@media(max-width:760px){
+ .site-header{min-height:75px;height:auto;padding-block:10px}
+ .site-footer{
+  padding:42px 24px calc(32px + env(safe-area-inset-bottom,0px));
+  grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 22px;
+ }
+ .site-footer>div:first-child{
+  grid-column:1/-1;gap:9px;padding-bottom:22px;
+  border-bottom:1px solid #84936a66;
+ }
+ .site-footer>div:first-child .footer-brand{font-size:clamp(19px,5vw,24px)}
+ .site-footer>div:nth-child(2),.site-footer>div:nth-child(3){gap:12px}
+ .site-footer .footer-end{
+  grid-column:1/-1;padding-top:20px;border-top:1px solid #84936a66;
+  flex-direction:column;align-items:flex-start;gap:8px;
+ }
+ .site-footer .footer-end>span{display:block;font-size:13px}
+ .site-footer .footer-end small{margin:0}
+}
+@media(max-width:380px){
+ .site-footer{padding-inline:18px;column-gap:14px}
+ .site-footer a:not(.footer-brand){font-size:13px}
+}
