@@ -231,3 +231,63 @@
 @media(min-width:901px) and (max-width:1150px){
  .sh-testimony__heading,.sh-testimony>p,.sh-testimony>blockquote{width:100%!important;max-width:100%!important}
 }
+
+/* Mobile path navigation: compact, in-flow, swipeable chapter links.
+   Never let seven full-height rows obscure the teaching on a phone. */
+@media (max-width: 900px) {
+  .sh-page .sh-path {
+    position: static !important;
+    inset: auto !important;
+    z-index: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    padding: 22px 0 20px !important;
+    overflow: visible;
+  }
+  .sh-page .sh-path__inner {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    gap: 8px !important;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scrollbar-width: thin;
+  }
+  .sh-page .sh-path__label {
+    flex: 0 0 100%;
+    display: none;
+  }
+  .sh-page .sh-path a {
+    flex: 0 0 auto;
+    display: inline-flex;
+    min-height: 48px;
+    max-width: min(80vw, 320px);
+    padding: 11px 16px !important;
+    margin: 0;
+    gap: 9px;
+    border: 1px solid #cdbb9f;
+    border-radius: 2px;
+    background: #fbf8f1;
+    color: #263f42;
+    font: 400 15px/1.35 Georgia, serif !important;
+    white-space: nowrap;
+    scroll-snap-align: start;
+  }
+  .sh-page .sh-path a span {
+    font: 700 11px/1.4 Arial, sans-serif;
+    color: #9c7948;
+  }
+  .sh-page .sh-section,
+  .sh-page .sh-history,
+  .sh-page .sh-invitation {
+    scroll-margin-top: 20px;
+  }
+}
