@@ -655,3 +655,8 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .install-guides p{font-size:15px;line-height:1.75;color:#405747;margin:0}
 .install-note{font-size:13px;line-height:1.6;color:#5c6655;max-width:730px;margin:30px auto 0}
 @media(max-width:760px){.install-guides{grid-template-columns:1fr;gap:14px}.install-page{padding:55px 20px 70px}.install-logo{width:92px;height:92px}.install-guides section{padding:24px}.site-header .mobile-site-nav .mobile-app-link{margin-inline:14px}}
+
+/* Clear route back to the ministry homepage from the app install page. */
+.install-home-link{margin:14px auto 0;text-align:center}
+.install-home-link a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 23px;border:2px solid #b99b60;border-radius:7px;background:#fffaf0;color:#263f32;font-weight:800;text-decoration:none;box-shadow:0 4px 12px #263f3214}
+.install-home-link a:hover,.install-home-link a:focus-visible{background:#e9ddc5;border-color:#856934}
