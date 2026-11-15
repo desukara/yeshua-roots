@@ -11,8 +11,8 @@ A worldwide Messianic teaching ministry centered on Yeshua, the living Jewish Me
 - Teach that Yeshua fulfills the Torah and the Prophets without abolishing them (Matthew 5:17–19).
 - Read Yeshua and His earliest disciples within the Jewish setting of Israel's Scriptures.
 - Teach the movement's understanding of Romans 2:28–29: identity in Messiah involves inward circumcision of the heart by His Spirit; study this alongside Romans 9–11 and Galatians 3 without erasing Israel's historical context.
-- Teach salvation by grace through faith in the atoning blood of Yeshua, not by keeping mitzvot (Ephesians 2:8–10; Romans 3:20–24).
-- Teach that the indwelling Spirit leads believers to love and walk in God's Torah from the heart, never to earn salvation and never as permission for lawlessness (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33).
+- Teach that we are justified through the blood of Yeshua, the worthy Lamb of God, and saved by grace through faith—not through the Law of Moses or keeping mitzvot (Ephesians 2:8–10; Romans 3:20–24).
+- Teach that the indwelling Spirit leads believers to love and walk in God's Torah from the heart, never to earn salvation and never as permission for lawlessness (Matthew 5:17–19; Romans 3:31; Jeremiah 31:33). Do not claim that Yeshua Roots follows kashrut or require dietary observance; respect individual conscience.
 - Past tense may describe particular events of His earthly ministry, **never** imply that Yeshua is absent, dead, or no longer Jewish.
 - Distinguish the ministry's theological convictions from historically contested interpretations; source historical claims carefully.
 - Keep the motto: **One Messiah. One Torah. One Family.**
