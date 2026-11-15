@@ -103,3 +103,27 @@
 .sh-olive .sh-family-conviction{max-width:none!important;padding:clamp(35px,5vw,70px);background:#293f31;border-left:6px solid #c5a16c;color:#fff7e9!important;font:400 clamp(22px,2.2vw,31px)/1.65 Georgia,serif!important}
 @media(max-width:850px){.sh-welcome{grid-template-columns:1fr}.sh-welcome__scene{min-height:250px}.sh-intro{padding:55px 7vw}.sh-path__inner{grid-template-columns:1fr}.sh-testimony{grid-template-columns:1fr;padding:65px 7vw}.sh-testimony__heading{grid-column:1;grid-row:auto;position:static;margin-bottom:30px}.sh-testimony>p,.sh-testimony>blockquote{grid-column:1}.sh-scene{height:300px}}
 @media(max-width:600px){.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-history>.sh-history-link,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p,.sh-invitation>.sh-actions{margin-left:24px;margin-right:24px}.sh-section>h2,.sh-history>h2,.sh-invitation>h2{font-size:clamp(39px,10vw,60px)}.sh-testimony{padding:60px 24px}.sh-testimony h3{font-size:clamp(35px,9vw,48px)}.sh-scene{height:240px}.sh-hero{min-height:0}}
+
+
+/* Photo-first correction: remove all CSS-drawn scenery. */
+.sh-hero-art:before,.sh-hero-art:after,.sh-welcome__scene:before,.sh-scene:before,.sh-scene:after{content:none!important;display:none!important}
+.sh-scene--olive:before,.sh-scene--olive:after,.sh-scene--tomb:before{content:none!important}
+.sh-scene,.sh-welcome__scene,.sh-hero-art{background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+.sh-hero-art{background-image:linear-gradient(180deg,#162c3680,#162c36ad),url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1400&q=82")!important;border-left:0!important}
+.sh-welcome__scene{background-image:url("https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=82")!important}
+.sh-scene--tomb{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Old_tomb_entrance_(4160525370).jpg?width=1600")!important}
+.sh-scene--jerusalem{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/TempleStepsMay2009.JPG?width=1600")!important}
+.sh-scene--ruins{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Stepped_structure_unearthed_in_the_City_of_David.jpg?width=1600")!important}
+.sh-scene--olive{background-image:url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=82")!important}
+.sh-scene--path,.sh-scene--sunrise{background-image:url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=82")!important}
+.sh-section{background:#f7f1e7}
+.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote{max-width:min(100% - 48px,920px);margin-left:auto;margin-right:auto}
+.sh-section>h2{max-width:min(100% - 48px,1120px)}
+.sh-section>p:not(.sh-number){max-width:min(100% - 48px,760px)}
+.sh-testimony{grid-template-columns:minmax(0,.7fr) minmax(0,1fr);column-gap:clamp(30px,5vw,90px);row-gap:0}
+.sh-testimony__heading{grid-row:1/span 20}
+.sh-testimony>blockquote{max-width:100%;width:100%;box-sizing:border-box;overflow-wrap:anywhere}
+.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p{max-width:min(100% - 48px,960px);margin-left:auto;margin-right:auto}
+.sh-history>.sh-history-link{margin-left:max(24px,calc((100vw - 960px)/2))}
+@media(max-width:850px){.sh-testimony{grid-template-columns:minmax(0,1fr);gap:0}.sh-testimony__heading{grid-row:auto}.sh-hero-art{min-height:290px}.sh-welcome__scene{min-height:250px}}
+@media(max-width:600px){.sh-scene{height:clamp(210px,62vw,320px)}.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote{max-width:calc(100% - 40px)}.sh-section>h2{font-size:clamp(36px,9vw,50px)}.sh-testimony{padding:52px 20px}.sh-testimony h3{font-size:clamp(31px,8vw,44px)}.sh-testimony>blockquote{padding:25px 21px}.sh-path{padding:34px 20px}.sh-history>.sh-history-link{margin-left:20px}.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p{max-width:calc(100% - 40px)}}
