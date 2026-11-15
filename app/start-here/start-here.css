@@ -93,7 +93,6 @@
 .sh-section.sh-olive>p:not(.sh-number){color:#f5eee3}
 .sh-scene{width:min(calc(100% - 144px),1370px);height:clamp(320px,34vw,510px);margin:clamp(55px,6vw,90px) auto 0;position:relative;overflow:hidden;background-size:cover;background-repeat:no-repeat;background-position:center;border:0;box-shadow:0 16px 48px #25352b20}
 .sh-scene:before,.sh-scene:after,.sh-welcome__scene:before,.sh-welcome__scene:after{display:none!important;content:none!important}
-.sh-scene--tomb{background-image:linear-gradient(90deg,#132d3230,#132d3240),url('/images/start-here/01-jerusalem-tomb.jpg');background-position:25% 50%;height:clamp(250px,27vw,390px);width:min(calc(100% - 144px),1050px)}
 .sh-scene--manuscript{background-image:url('/images/start-here/03-hebrew-manuscript.jpg');background-position:center 48%;height:clamp(350px,38vw,570px)}
 .sh-scene--jerusalem{background-image:url('/images/start-here/04-temple-steps.jpg')}
 .sh-scene--olive{background-image:url('/images/start-here/05-olive-trees.jpg')}
@@ -143,3 +142,31 @@
  .sh-testimony h3{font-size:clamp(34px,8vw,46px)}
  .sh-testimony>blockquote{padding:28px 23px}
 }
+
+/* Editorial rhythm refinement: measured spacing instead of large empty bands. */
+@media(min-width:901px){
+ .sh-hero{min-height:660px}
+ .sh-hero-content{padding-top:64px;padding-bottom:64px}
+ .sh-hero-art{min-height:600px}
+ .sh-welcome__scene{min-height:420px}
+ .sh-intro{padding:45px clamp(42px,4.4vw,78px);font-size:clamp(21px,1.9vw,29px)}
+ .sh-path{padding-top:46px;padding-bottom:50px}
+ .sh-path a{padding-top:17px;padding-bottom:17px}
+ .sh-section,.sh-history,.sh-invitation{padding-bottom:clamp(58px,5vw,88px)}
+ .sh-section>.sh-number,.sh-history>.sh-number,.sh-invitation>.sh-number{margin-top:clamp(45px,4.5vw,72px);margin-bottom:18px}
+ .sh-section>h2,.sh-history>h2,.sh-invitation>h2{margin-bottom:28px;font-size:clamp(45px,4.6vw,69px)}
+ .sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){margin-bottom:21px;line-height:1.8}
+ .sh-section>blockquote{margin-top:24px;margin-bottom:30px;padding:clamp(30px,3vw,46px);font-size:clamp(20px,1.75vw,26px)}
+ .sh-scene{margin-top:clamp(34px,3.5vw,54px);height:clamp(285px,29vw,425px)}
+ .sh-scene--manuscript{height:clamp(310px,32vw,450px)}
+ .sh-testimony{padding:clamp(45px,4.6vw,70px) 60px}
+ .sh-testimony__heading{margin-bottom:23px}
+ .sh-testimony h3{font-size:clamp(39px,3.7vw,56px);padding-bottom:18px}
+ .sh-testimony>p{margin-bottom:19px;line-height:1.8}
+ .sh-testimony>blockquote{margin:24px auto 28px;padding:clamp(28px,3vw,45px);font-size:clamp(20px,1.7vw,25px);line-height:1.62}
+ .sh-testimony>blockquote cite{margin-top:16px}
+ .sh-olive .sh-family-conviction{margin-top:35px!important;padding:36px 44px}
+}
+.sh-testimony-break{padding:clamp(22px,3vw,45px) clamp(24px,6vw,100px);background:#213a40;border-top:1px solid #a88d64;border-bottom:1px solid #a88d64}
+.sh-testimony-break__image{width:min(100%,1150px);height:clamp(270px,34vw,440px);margin:auto;background:linear-gradient(90deg,#0d2b3030,#0d2b3030),url('/images/start-here/01-jerusalem-tomb.jpg') 24% center/cover no-repeat;box-shadow:0 18px 45px #081e2638}
+@media(max-width:900px){.sh-testimony-break{padding:22px 24px}.sh-testimony-break__image{height:clamp(230px,53vw,340px)}}
