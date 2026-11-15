@@ -144,3 +144,44 @@
 @media(max-width:850px){.sh-testimony{grid-template-columns:minmax(0,1fr);padding:56px 7vw}.sh-testimony__heading{grid-row:auto;position:static;margin-bottom:25px}.sh-testimony>p,.sh-testimony>blockquote{grid-column:1}.sh-path__inner{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.sh-hero-content{padding:62px 22px 50px}.sh-hero-art{min-height:260px}.sh-welcome__scene{min-height:240px}.sh-intro{padding:45px 22px}.sh-scene{height:clamp(220px,60vw,340px)}.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-history>.sh-history-link,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p,.sh-invitation>.sh-actions{width:calc(100% - 44px);max-width:calc(100% - 44px);margin-left:22px;margin-right:22px}.sh-section>h2,.sh-history>h2,.sh-invitation>h2{font-size:clamp(37px,9vw,52px)}.sh-section>blockquote{padding:28px 22px}.sh-testimony{padding:50px 22px}.sh-testimony h3{font-size:clamp(32px,8vw,44px)}.sh-testimony>blockquote{padding:25px 20px}.sh-history>.sh-history-link{width:max-content;max-width:calc(100% - 44px)}.sh-path{padding:30px 22px}.sh-path a{min-width:0}}
 @media(max-width:360px){.sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,.sh-history>.sh-number,.sh-history>h2,.sh-history>p,.sh-history>.sh-history-link,.sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p,.sh-invitation>.sh-actions{width:calc(100% - 36px);max-width:calc(100% - 36px);margin-left:18px;margin-right:18px}.sh-testimony{padding-left:18px;padding-right:18px}}
+
+/* Desktop editorial correction — deliberately single reading column.
+   The previous grid-row: span 20 created oversized empty tracks. */
+@media (min-width:901px){
+  .sh-hero{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);min-height:700px}
+  .sh-hero-content{padding:85px clamp(42px,5vw,92px)}
+  .sh-hero h1{font-size:clamp(70px,7vw,112px)}
+  .sh-hero-art{background-image:linear-gradient(180deg,rgba(13,30,35,.2),rgba(13,30,35,.5)),url('/images/start-here/07-jerusalem-panorama.jpg');background-position:center 50%}
+  .sh-welcome__scene{background-position:center}
+  /* This uploaded Garden Tomb entrance has people and modern signs.
+     Do not display it as an immersive archaeological scene. */
+  .sh-scene--tomb{display:none}
+  .sh-testimony{display:block;padding:clamp(70px,7vw,105px) 32px;min-height:0}
+  .sh-testimony__heading{display:block;position:static;max-width:860px;margin:0 auto 32px}
+  .sh-testimony h3{font-size:clamp(45px,4.8vw,68px);line-height:1.13;max-width:850px;margin:0;padding:0 0 24px;border-bottom:1px solid #bda780}
+  .sh-testimony>p{display:block;max-width:790px;width:100%;margin:0 auto 22px;font:400 18px/1.85 Arial,sans-serif}
+  .sh-testimony>blockquote{display:block;max-width:830px;width:100%;margin:30px auto 38px;padding:clamp(34px,3.5vw,54px);font:italic clamp(21px,1.9vw,27px)/1.65 Georgia,serif;box-shadow:none}
+  .sh-testimony--3,.sh-testimony--4{background:#192f39;color:#f7f0e3}
+  .sh-testimony--3 h3,.sh-testimony--4 h3{color:#f7f0e3;border-color:#a48e6b}
+  .sh-testimony--3>p,.sh-testimony--4>p{color:#e9e7df}
+  .sh-testimony--3>blockquote,.sh-testimony--4>blockquote{background:#fffaf0;color:#24383b}
+  .sh-testimony--1,.sh-testimony--5,.sh-testimony--7{background:#f5eee2}
+  .sh-testimony--2,.sh-testimony--6{background:#e9dfcf}
+  .sh-section>.sh-number,.sh-section>h2,.sh-section>p,.sh-section>blockquote,
+  .sh-history>.sh-number,.sh-history>h2,.sh-history>p,
+  .sh-invitation>.sh-number,.sh-invitation>h2,.sh-invitation>p{
+    width:min(100% - 80px,940px);max-width:940px;margin-left:auto;margin-right:auto
+  }
+  .sh-section>p:not(.sh-number),.sh-history>p:not(.sh-number),.sh-invitation>p:not(.sh-number){
+    width:min(100% - 80px,790px);max-width:790px;margin-left:auto;margin-right:auto;margin-bottom:28px
+  }
+  .sh-section>blockquote{width:min(100% - 80px,850px);max-width:850px;margin:35px auto 42px;padding:40px 50px}
+  .sh-section>h2,.sh-history>h2,.sh-invitation>h2{font-size:clamp(52px,5vw,76px);margin-bottom:36px}
+  .sh-section h3:nth-of-type(2n),.sh-section>blockquote:nth-of-type(3n){margin-left:auto;width:min(100% - 80px,850px)}
+  .sh-section>.sh-number,.sh-history>.sh-number,.sh-invitation>.sh-number{margin-top:78px;margin-bottom:24px}
+  .sh-section>.sh-number{width:min(100% - 80px,940px)}
+  .sh-section>.sh-number:after{max-width:360px}
+  .sh-history>.sh-history-link{margin-left:max(40px,calc((100vw - 940px)/2))}
+  .sh-invitation>.sh-actions{width:min(100% - 80px,940px);margin-left:auto;margin-right:auto}
+  .sh-scene{height:clamp(330px,33vw,500px)}
+}
