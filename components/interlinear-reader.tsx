@@ -1,6 +1,5 @@
 "use client";
 import {useEffect,useState} from "react";
-import Link from "next/link";
 import {interlinearVerses} from "../lib/interlinear";
 import {genesisStudy} from "../lib/genesis-messianic-study";
 import {useLanguage} from "./language-provider";
@@ -25,7 +24,6 @@ export default function InterlinearReader(){
  function chooseChapter(value:number){setChapter(value);setVerse(1);setSelected(null)}
  function chooseVerse(value:number){setVerse(value);setSelected(null)}
  return <section className="interlinear-reader" aria-label={he?"קריאה בין־שורתית בתורה":"Interlinear Torah reader"}>
- <nav aria-label={he?"ניווט לימוד":"Study navigation"} style={{display:"flex",flexWrap:"wrap",gap:"0.75rem",marginBottom:"1.25rem"}}><Link href="/torah#scripture-reader">{he?"← חזרה לקורא כתבי הקודש":"← Back to Scripture reader"}</Link><Link href="/torah">{he?"סקירת לימוד התורה":"Torah study overview"}</Link></nav>
  <div className="interlinear-toolbar"><div><span className="kicker">{he?"לימוד עברית מקראית":"BIBLICAL HEBREW STUDY"}</span><h2>{he?"תורה · קריאה ולימוד":"Torah · Read and Study"}</h2></div>
  <div className="torah-pickers"><label>{he?"ספר":"Book"} <select value={book} onChange={e=>chooseBook(e.target.value)}>{books.map(b=><option key={b.id} value={b.id}>{he?b.he:b.id}</option>)}</select></label>
  <label>{he?"פרק":"Chapter"} <select value={chapter} onChange={e=>chooseChapter(Number(e.target.value))}>{Array.from({length:books.find(b=>b.id===book)?.chapters||50},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label>
@@ -39,6 +37,5 @@ export default function InterlinearReader(){
  <div className="interlinear-detail" aria-live="polite">{word?<><strong lang="he" dir="rtl">{word.hebrew}</strong><span lang="en" dir="ltr">{word.transliteration} — {word.english}</span><p>{word.note||(he?"משמעות בסיסית של המילה בהקשר הפסוק.":"A contextual gloss for this word in the verse.")}</p></>:<p>{he?"בחרו מילה כדי לפתוח הערת לימוד.":"Choose a word above to open its study note."}</p>}</div></>:hebrew?<div className="torah-verse-panel"><span className="kicker">{he?"כתבי הקודש בעברית · לימוד משיחי":"HEBREW SCRIPTURE · MESSIANIC STUDY"}</span><p className="torah-hebrew-verse" dir="rtl" lang="he">{hebrew}</p><p>{he?"טקסט המקרא בעברית. פירוש מוצג רק כאשר קיים לימוד שנבדק בהמשך העמוד.":"Hebrew Scripture text. Commentary is available only where a reviewed study appears below."}</p></div>:!loading&&!error?<p>{he?"אין טקסט זמין לפסוק זה.":"No text available for this verse."}</p>:null}
  {study&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
  <div className="torah-reader-pagination"><button type="button" disabled={verse===1} onClick={()=>chooseVerse(verse-1)}>{he?"הפסוק הקודם":"Previous verse"}</button><strong>{he?books.find(b=>b.id===book)?.he:book} {chapter}:{verse}</strong><button type="button" disabled={verse>=count} onClick={()=>chooseVerse(verse+1)}>{he?"הפסוק הבא":"Next verse"}</button></div>
- <nav aria-label={he?"יציאה מלימוד":"Leave interlinear study"} style={{display:"flex",flexWrap:"wrap",gap:"0.75rem",marginTop:"1.5rem"}}><Link href="/torah#scripture-reader">{he?"← חזרה לקורא כתבי הקודש":"← Back to Scripture reader"}</Link><Link href="/torah">{he?"סקירת לימוד התורה":"Torah study overview"}</Link></nav>
  </section>
 }
