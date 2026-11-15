@@ -334,3 +334,35 @@
   background-repeat:no-repeat;
  }
 }
+
+
+/* Grace teaching image and cohesive editorial photo framing. */
+.home-royal .home-landscape img,
+.home-royal .grafted-olive-photo-section .torah-ceremony-photo,
+.home-royal .interlinear-promo .wilderness-photo img{
+  border:3px solid #b99b60;
+  box-shadow:0 0 0 5px #f5eddc,0 12px 30px rgba(25,42,32,.12);
+  box-sizing:border-box;
+}
+.home-royal .home-heart .home-landscape img{
+  width:100%;
+  height:auto;
+  object-fit:cover;
+  aspect-ratio:16/9;
+  display:block;
+}
+/* A distinct closing invitation, not an extension of the dark footer. */
+.home-royal .home-blessing{
+  background:#e9ddc5;
+  color:#263f32;
+  border-top:3px solid #b99b60;
+}
+.home-royal .home-blessing h2,
+.home-royal .home-blessing h2 em{color:#263f32}
+.home-royal .home-blessing p{color:#344b3b}
+.home-royal .home-blessing .kicker{color:#69542f}
+.home-royal .home-blessing .btn.light{
+  background:#263f32;
+  color:#fff9ed;
+  border:1px solid #b99b60;
+}
