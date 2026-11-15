@@ -263,3 +263,16 @@
  .home-royal .jerusalem-panorama img{max-height:none}
  .home-royal .home-heart .home-landscape img{height:auto;aspect-ratio:auto;max-height:none;object-fit:contain}
 }
+
+/* Jerusalem is the sole hero visual: no decorative arch or photo layering. */
+.home-royal .welcome-visual.welcome-jerusalem-photo{
+ background:#d5d1c2 url("/brand/jerusalem-hero.jpg") center center / cover no-repeat;
+ padding:0;
+ min-height:560px;
+ isolation:auto;
+}
+.home-royal .welcome-visual.welcome-jerusalem-photo::before,
+.home-royal .welcome-visual.welcome-jerusalem-photo::after{content:none;display:none}
+@media(max-width:760px){
+ .home-royal .welcome-visual.welcome-jerusalem-photo{min-height:0;aspect-ratio:4/3;padding:0;background-position:center}
+}
