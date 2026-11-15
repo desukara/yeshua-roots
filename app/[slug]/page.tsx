@@ -6,7 +6,7 @@ torah:{title:"Torah Study",description:"Study Torah and the Scriptures in their 
 
 news:{title:"News — In Development",description:"Yeshua Roots news resources are being developed. No live news reporting is currently available."},
 community:{title:"Community — In Development",description:"Yeshua Roots fellowship and congregation resources are planned and not yet live."},
-about:{title:"About Yeshua Roots",description:"Learn about Yeshua Roots and our faith in Yeshua, the living Jewish Messiah of Israel, who fulfills the Torah and the Prophets."},
+about:{title:"About Yeshua Roots",description:"Learn about Yeshua Roots and our faith that Gentiles who believe in Yeshua, Israel’s Jewish Messiah, are grafted into Israel’s Jewish olive tree and become full-fledged Jews in Messiah."},
 contact:{title:"Contact — In Development",description:"Yeshua Roots contact services are still being prepared; an active contact inbox is not yet available."}
 };
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{
