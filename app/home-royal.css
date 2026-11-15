@@ -196,3 +196,34 @@
 .home-royal .home-restoration h2{color:#263f32}
 .home-royal .home-restoration p{max-width:850px;margin-left:auto;margin-right:auto;color:#293c30}
 .home-royal .home-restoration .restoration-references{font-size:12px;letter-spacing:.09em;font-weight:700;color:#506b45;margin-top:28px;line-height:1.9}
+
+/* Torah ceremony photo: restrained tonal veil to tame bright highlights without
+   altering the original image or affecting the adjoining editorial copy. */
+.home-royal .grafted-olive-photo-section .grafted-olive-art::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+  background:linear-gradient(180deg,rgba(16,28,31,.06),rgba(16,28,31,.10));
+}
+
+/* Reduce washed-out highlights while retaining skin and Torah fabric detail. */
+.home-royal .grafted-olive-photo-section .torah-ceremony-photo{
+  filter:brightness(.88) contrast(1.12) saturate(.94);
+}
+@media(max-width:800px){
+  .home-royal .grafted-olive-photo-section .grafted-olive-art{
+    max-height:none!important;
+    overflow:visible!important;
+  }
+  .home-royal .grafted-olive-photo-section .torah-ceremony-photo{
+    position:static!important;
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    max-height:none!important;
+    object-fit:contain!important;
+    filter:brightness(.90) contrast(1.10) saturate(.95);
+  }
+}
