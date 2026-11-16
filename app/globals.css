@@ -712,16 +712,18 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  .site-header .mobile-menu-toggle{display:inline-flex}
 }
 
-/* iOS installed app: paint the status-bar area and give the header its own
-   full-height safe-area space. Do not stack extra padding or translucent overlays. */
+/* iOS 27 Home Screen apps: WebKit samples a real fixed element near the
+   viewport top for the system status-bar color. Pseudo-elements are ignored.
+   The deprecated translucent status-bar meta tag is intentionally absent. */
+.ios-status-bar-color{display:none}
 @supports (-webkit-touch-callout:none){
  @media(display-mode:standalone){
-  html{background:#263f32;overscroll-behavior-y:none}
+  html{overscroll-behavior-y:none}
   body{padding-top:0!important}
-  .site-header{height:calc(91px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}
-  @media(max-width:760px){.site-header{height:calc(75px + env(safe-area-inset-top,0px))}}
-  body::before{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);z-index:31;background:#263f32;pointer-events:none}
-  body:has(.app-download-route)::before{background:#071D3B}
+  .site-header{height:auto;min-height:91px;padding-block:12px}
+  @media(max-width:760px){.site-header{min-height:75px;padding-block:10px}}
+  .ios-status-bar-color{display:block;position:fixed;top:0;left:0;width:100%;height:8px;background-color:#263f32;z-index:32;pointer-events:none}
+  body:has(.app-download-route) .ios-status-bar-color{background-color:#071D3B}
  }
 }
 
@@ -738,9 +740,4 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .app-download-route .site-footer,
 .app-download-route .site-footer a{color:#fff7e8}
 .app-download-route .site-header .mobile-site-nav.is-open{background:#071D3B}
-@supports (-webkit-touch-callout:none){
- @media(display-mode:standalone){
-  body:has(.app-download-route)::before{background:#071D3B}
- }
-}
 
