@@ -79,7 +79,7 @@ test('mission framing stays consistent across metadata, About and editorial poli
   const metadata = read('app/layout.tsx');
   const translations = read('lib/translations.ts');
   const readme = read('README.md');
-  assert.match(metadata, /living Jewish Messiah of Israel/);
+  assert.match(metadata, /Israel’s living Jewish Messiah/);
   assert.match(translations, /Yeshua, the living Jewish Messiah of Israel/);
   assert.match(translations, /המשיח היהודי החי של ישראל/);
   assert.match(readme, /alive, present, aware, and active now/);
