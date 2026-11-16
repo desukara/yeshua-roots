@@ -25,6 +25,6 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
   const entry=strong?dictionary[strong]:undefined;
   return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:entry?.[1]||null,pronunciation:entry?.[2]||null};
  }));
- const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" "));
+ const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" ").replace(/\s+/g," ").trim());
  return NextResponse.json({book,chapter,verses,words,source:"Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex",sourceUrl:"https://github.com/openscriptures/morphhb",version:"WLC / OSHB",sourceAttribution:"Hebrew text: public domain WLC; lemma and morphology: OSHB CC BY 4.0; dictionary: Open Scriptures Strong’s Hebrew Dictionary CC BY-SA"});
 }
