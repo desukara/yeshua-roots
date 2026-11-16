@@ -26,10 +26,10 @@ test("visitor-facing TSX contains no hardcoded outbound links", () => {
       if(entry.isDirectory()) visit(file);
       else if(file.endsWith(".tsx")) {
         const source=fs.readFileSync(file,"utf8");
-        const outbound=[...source.matchAll(/\\bhref\\s*=\\s*["'](https?:\\/\\/[^"']+)["']/gi)].map(match=>match[1]);
+        const outbound=[...source.matchAll(/\bhref\s*=\s*["'](https?:\/\/[^"']+)["']/gi)].map(match=>match[1]);
         const allowed=file===path.join("components","torah-bible-reader.tsx")?["https://github.com/openscriptures/strongs"]:[];
         assert.deepEqual(outbound,allowed,file+" has unapproved hardcoded external hrefs");
-        if(outbound.length) assert.match(source, /href="https:\\/\\/github\\.com\\/openscriptures\\/strongs" target="_blank" rel="noopener noreferrer"/, "Attribution link must be safely opened");
+        if(outbound.length) assert.match(source, /href="https:\/\/github\.com\/openscriptures\/strongs" target="_blank" rel="noopener noreferrer"/, "Attribution link must be safely opened");
       }
     }
   }
