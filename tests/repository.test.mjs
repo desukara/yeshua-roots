@@ -118,15 +118,11 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
 
 
 
-test('rabbinic text API and labels are absent from the site', () => {
- const library=read('components/library-client.tsx');
- assert.doesNotMatch(library,/rabbinic|BeitMidrash|Talmud|Mishnah/i);
- assert.match(library,/SCRIPTURE STUDY LIBRARY/);
+test('retired library UI is replaced by a safe redirect', () => {
+ const library=read('app/library/page.tsx');
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
+ assert.equal(existsSync(new URL('../components/library-client.tsx',import.meta.url)),false);
 });
-
-
-
-
 
 test('removed commentary integrations cannot reappear in application source', () => {
  const root = new URL('../', import.meta.url);
@@ -145,10 +141,10 @@ test('removed commentary integrations cannot reappear in application source', ()
 });
 
 test('public library does not expose external passage reference input', () => {
- const library=read('components/library-client.tsx');
+ const library=read('app/library/page.tsx');
  assert.doesNotMatch(library,/bm-ref-form|\/api\/library\/text/);
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
 });
-
 
 test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
  const section=read('components/section-client.tsx');
@@ -207,13 +203,11 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  assert.match(page, /slug==="teachings"&&<GuidedCurriculum/);
 });
 
-test('library filters by guided pathway and clearly labels unapproved lessons', () => {
- const library=read('components/study-library.tsx');
- assert.match(library, /learningPaths\.find/);
- assert.match(library, /setPathway\("All"\)/);
- assert.match(library, /editorialStatus==="draft"/);
- assert.match(library, /awaiting founder approval/);
- assert.match(library, /ממתין לאישור המייסד/);
+test('retired library filter cannot publish unapproved lessons', () => {
+ const library=read('app/library/page.tsx');
+ const content=read('lib/content.ts');
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
+ assert.match(content,/publishedStudies=studies\.filter\(study=>study\.editorialStatus==="founder-approved"\)/);
 });
 
 test('guided learning keeps Yeshua central while honoring original Scripture context', () => {
