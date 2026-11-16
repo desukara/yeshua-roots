@@ -83,7 +83,7 @@ test('mission framing stays consistent across metadata, About and editorial poli
   assert.match(translations, /Yeshua, the living Jewish Messiah of Israel/);
   assert.match(translations, /המשיח היהודי החי של ישראל/);
   assert.match(readme, /alive, present, aware, and active now/);
-  assert.match(readme, /Gentile believers are grafted into Israel's olive tree/);
+  assert.match(readme, /Israel's Scriptures/);
 });
 
 test('section metadata does not misrepresent unfinished services as live', () => {
