@@ -11,7 +11,7 @@ test("Hebrew study is opt-in and limited to the Torah",()=>{
 });
 
 test("Hebrew study aligns numbered words to their verse",()=>{
- assert.match(reader,/hebrewData\.words\.map\(\(words,index\)/);
+ assert.match(reader,/visibleHebrewVerses\.map\(\(\{words,index\}\)/);
  assert.match(reader,/hebrewData\.verses\[index\]/);
  assert.match(reader,/words\.map\(word=>/);
  assert.match(reader,/word\.hebrew/);
@@ -40,6 +40,7 @@ test("Hebrew word study supports lexical search within the chapter",()=>{
  assert.match(reader,/hebrewWordQuery/);
  assert.match(reader,/Find a Hebrew word, English meaning, or Strong's number/);
  assert.match(reader,/word\.strong,word\.transliteration,word\.gloss,word\.pronunciation/);
- assert.match(reader,/words\.filter\(word=>/);
- assert.match(reader,/words\.some\(word=>/);
+ assert.match(reader,/visibleHebrewWordCount/);
+ assert.match(reader,/words\.filter\(matchingHebrewWord\)/);
+ assert.match(reader,/visibleHebrewVerses\.length===0/);
 });
