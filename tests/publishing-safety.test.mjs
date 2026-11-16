@@ -10,7 +10,8 @@ test("public study routes, sitemap and library use founder-approved collection",
     assert.match(read(file), /publishedStudies/, file + " must use approved studies");
   }
   assert.match(read("lib/content.ts"), /publishedStudies\s*=\s*studies\.filter\(study\s*=>\s*study\.editorialStatus\s*===\s*"founder-approved"\)/);
-  assert.match(read("app/study/[slug]/page.tsx"), /if\(!study\)notFound\(\)/);\n  assert.match(read("app/library/page.tsx"), /permanentRedirect\("\/torah"\)/);
+  assert.match(read("app/study/[slug]/page.tsx"), /if\(!study\)notFound\(\)/);
+  assert.match(read("app/library/page.tsx"), /permanentRedirect\("\/torah"\)/);
 });
 
 test("the published historical study is discoverable", () => {
