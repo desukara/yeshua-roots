@@ -29,3 +29,9 @@ test("Hebrew study aligns numbered words to their verse",()=>{
 test("Hebrew study explicitly does not invent lexical data",()=>{
  assert.match(reader,/Dictionary meanings, transliteration and pronunciation are shown when available/);
 });
+
+test("Hebrew study guards against showing a previous chapter during navigation",()=>{
+ assert.match(reader,/hebrewReference!==book\+":"\+chapter/);
+ assert.match(reader,/setHebrewReference\(book\+":"\+chapter\)/);
+ assert.match(reader,/hebrewError\?<p role="alert">/);
+});
