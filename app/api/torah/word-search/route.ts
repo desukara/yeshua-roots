@@ -1,10 +1,10 @@
 import {NextResponse} from "next/server";
-import genesis from "../../../../../data/torah/genesis.json";
-import exodus from "../../../../../data/torah/exodus.json";
-import leviticus from "../../../../../data/torah/leviticus.json";
-import numbers from "../../../../../data/torah/numbers.json";
-import deuteronomy from "../../../../../data/torah/deuteronomy.json";
-import strongs from "../../../../../data/torah/strongs-hebrew.json";
+import genesis from "../../../../data/torah/genesis.json";
+import exodus from "../../../../data/torah/exodus.json";
+import leviticus from "../../../../data/torah/leviticus.json";
+import numbers from "../../../../data/torah/numbers.json";
+import deuteronomy from "../../../../data/torah/deuteronomy.json";
+import strongs from "../../../../data/torah/strongs-hebrew.json";
 
 export const revalidate=86400;
 const books=[["Genesis",genesis],["Exodus",exodus],["Leviticus",leviticus],["Numbers",numbers],["Deuteronomy",deuteronomy]] as const;
