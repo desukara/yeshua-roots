@@ -16,7 +16,7 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
  if(!corpus||!Number.isInteger(chapter)||chapter<1||chapter>corpus.chapters.length)
   return NextResponse.json({error:"Invalid Torah reference"},{status:400});
  const chapterVerses=corpus.chapters[chapter-1];
- const dictionary=strongs.entries as Record<string,[string,string,string]>;
+ const dictionary=strongs.entries as Record<string,string[]>;
  const words=chapterVerses.map(verse=>verse.map(([hebrew,lemma,morph],index)=>{
   const lemmaParts=lemma.split("/");
   const lexicalPart=lemmaParts[lemmaParts.length-1]||"";
