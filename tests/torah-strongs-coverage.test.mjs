@@ -31,10 +31,10 @@ test("every Torah book has dictionary coverage",()=>{
    total++;
    if(dictionary[strongFor(word[1])]){matched++;bookMatched++;}
   }
-  assert.ok(bookMatched>0,book);
+  assert.ok(bookMatched>corpus.chapters.flat(2).length*0.95,book+" dictionary coverage should exceed 95%");
  }
  assert.ok(total>79000);
- assert.ok(matched>total*0.7,"Expected dictionary coverage above 70%");
+ assert.ok(matched>total*0.97,"Expected dictionary coverage above 97%");
 });
 
 test("API resolves Strong's from final lexical lemma component",()=>{
