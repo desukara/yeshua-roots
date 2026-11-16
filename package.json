@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
     "check": "npm run typecheck && npm run test && npm run build",
-    "prebuild": "npm run test"
+    "prebuild": "npm run test:torah",
+    "test:torah": "node --test tests/torah-*.test.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",
