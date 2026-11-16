@@ -4,9 +4,9 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
-test('sitemap includes interlinear reader and study routes', () => {
+test('sitemap includes current Torah reader and approved study routes', () => {
   const sitemap = read('app/sitemap.ts');
-  assert.match(sitemap, /["']\/interlinear["']/);
+  assert.match(sitemap, /["']\/torah["']/);
   assert.match(sitemap, /publishedStudies\.map/);
 });
 
@@ -45,7 +45,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Fulfilled in Messiah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
-  assert.match(homepage, /href="\/library">{c\.findPlace}/);
+  assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.match(copy, /In Development/);
   assert.match(copy, /בפיתוח/);
 });
@@ -55,9 +55,9 @@ test('homepage prioritizes active learning paths and keeps unfinished services o
   const styles = read('app/home-royal.css');
   assert.match(homepage, /hero-title-line/);
   assert.match(homepage, /c\.rooms\.slice\(0,2\)/);
-  assert.match(homepage, /const hrefs=\["\/torah","\/teachings"\]/);
+  assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.doesNotMatch(homepage, /developing\.has\(hrefs\[i\]\)/);
-  assert.match(homepage, /welcome-visual" aria-hidden="true"/);
+  assert.match(homepage, /className="welcome-hero"/);
   assert.match(styles, /\.home-royal \.room-grid/);
 });
 
@@ -79,11 +79,11 @@ test('mission framing stays consistent across metadata, About and editorial poli
   const metadata = read('app/layout.tsx');
   const translations = read('lib/translations.ts');
   const readme = read('README.md');
-  assert.match(metadata, /living Jewish Messiah of Israel/);
+  assert.match(metadata, /Israel’s living Jewish Messiah/);
   assert.match(translations, /Yeshua, the living Jewish Messiah of Israel/);
   assert.match(translations, /המשיח היהודי החי של ישראל/);
   assert.match(readme, /alive, present, aware, and active now/);
-  assert.match(readme, /Gentile believers are grafted into Israel's olive tree/);
+  assert.match(readme, /Israel's Scriptures/);
 });
 
 test('section metadata does not misrepresent unfinished services as live', () => {
@@ -102,7 +102,7 @@ test('study pages use article-specific metadata and library copy describes real 
   assert.match(studyPage, /generateMetadata/);
   assert.match(studyPage, /study\.subtitle/);
   assert.match(studyPage, /type:"article"/);
-  assert.match(library, /introductory Torah and Messianic studies/);
+  assert.match(library, /permanentRedirect\("\/torah"\)/);
   assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
 });
 
@@ -112,21 +112,17 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
   assert.match(reader, /reading-editorial-note/);
   assert.match(reader, /לימוד מבוא ראשוני/);
   assert.match(reader, /Introductory study for reflection and discussion/);
-  assert.match(reader, /href="\/library"/);
+  assert.match(reader, /href="\/library"|href="\/torah"/);
 });
 
 
 
 
-test('rabbinic text API and labels are absent from the site', () => {
- const library=read('components/library-client.tsx');
- assert.doesNotMatch(library,/rabbinic|BeitMidrash|Talmud|Mishnah/i);
- assert.match(library,/SCRIPTURE STUDY LIBRARY/);
+test('retired library UI is replaced by a safe redirect', () => {
+ const library=read('app/library/page.tsx');
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
+ assert.equal(existsSync(new URL('../components/library-client.tsx',import.meta.url)),false);
 });
-
-
-
-
 
 test('removed commentary integrations cannot reappear in application source', () => {
  const root = new URL('../', import.meta.url);
@@ -145,15 +141,15 @@ test('removed commentary integrations cannot reappear in application source', ()
 });
 
 test('public library does not expose external passage reference input', () => {
- const library=read('components/library-client.tsx');
+ const library=read('app/library/page.tsx');
  assert.doesNotMatch(library,/bm-ref-form|\/api\/library\/text/);
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
 });
-
 
 test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
  const section=read('components/section-client.tsx');
  assert.match(section, /function MinistryIdentity/);
- assert.match(section, /Yeshua is very much alive/);
+ assert.match(section, /Yeshua is alive/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
  assert.match(section, /One Messiah\. One Torah\. One Family\./);
@@ -207,13 +203,11 @@ test('guided bilingual curriculum links the four existing draft studies', () => 
  assert.match(page, /slug==="teachings"&&<GuidedCurriculum/);
 });
 
-test('library filters by guided pathway and clearly labels unapproved lessons', () => {
- const library=read('components/study-library.tsx');
- assert.match(library, /learningPaths\.find/);
- assert.match(library, /setPathway\("All"\)/);
- assert.match(library, /editorialStatus==="draft"/);
- assert.match(library, /awaiting founder approval/);
- assert.match(library, /ממתין לאישור המייסד/);
+test('retired library filter cannot publish unapproved lessons', () => {
+ const library=read('app/library/page.tsx');
+ const content=read('lib/content.ts');
+ assert.match(library,/permanentRedirect\("\/torah"\)/);
+ assert.match(content,/publishedStudies=studies\.filter\(study=>study\.editorialStatus==="founder-approved"\)/);
 });
 
 test('guided learning keeps Yeshua central while honoring original Scripture context', () => {
@@ -222,7 +216,7 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,3);
  assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,3);
  assert.match(paths,/Read Genesis in its own context first/);
- assert.match(paths,/preserving God’s faithfulness to Israel/);
+ assert.match(paths,/grafted into Israel’s Jewish olive tree/);
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });

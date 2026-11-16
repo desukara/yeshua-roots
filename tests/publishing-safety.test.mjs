@@ -6,11 +6,12 @@ import path from "node:path";
 const read = file => fs.readFileSync(path.join(process.cwd(), file), "utf8");
 
 test("public study routes, sitemap and library use founder-approved collection", () => {
-  for (const file of ["app/study/[slug]/page.tsx", "app/sitemap.ts", "components/library-client.tsx", "app/page.tsx", "components/section-client.tsx"]) {
+  for (const file of ["app/study/[slug]/page.tsx", "app/sitemap.ts", "app/page.tsx", "components/section-client.tsx"]) {
     assert.match(read(file), /publishedStudies/, file + " must use approved studies");
   }
   assert.match(read("lib/content.ts"), /publishedStudies\s*=\s*studies\.filter\(study\s*=>\s*study\.editorialStatus\s*===\s*"founder-approved"\)/);
   assert.match(read("app/study/[slug]/page.tsx"), /if\(!study\)notFound\(\)/);
+  assert.match(read("app/library/page.tsx"), /permanentRedirect\("\/torah"\)/);
 });
 
 test("the published historical study is discoverable", () => {
@@ -25,7 +26,10 @@ test("visitor-facing TSX contains no hardcoded outbound links", () => {
       if(entry.isDirectory()) visit(file);
       else if(file.endsWith(".tsx")) {
         const source=fs.readFileSync(file,"utf8");
-        assert.doesNotMatch(source, /\bhref\s*=\s*["'{]\s*https?:\/\//i, file + " has an external href");
+        const outbound=[...source.matchAll(/\bhref\s*=\s*["'](https?:\/\/[^"']+)["']/gi)].map(match=>match[1]);
+        const allowed=file===path.join("components","torah-bible-reader.tsx")?["https://github.com/openscriptures/strongs"]:[];
+        assert.deepEqual(outbound,allowed,file+" has unapproved hardcoded external hrefs");
+        if(outbound.length) assert.match(source, /href="https:\/\/github\.com\/openscriptures\/strongs" target="_blank" rel="noopener noreferrer"/, "Attribution link must be safely opened");
       }
     }
   }

@@ -1,22 +1,30 @@
 import {NextResponse} from "next/server";
+import strongs from "../../../../../data/torah/strongs-hebrew.json";
+import genesis from "../../../../../data/torah/genesis.json";
+import exodus from "../../../../../data/torah/exodus.json";
+import leviticus from "../../../../../data/torah/leviticus.json";
+import numbers from "../../../../../data/torah/numbers.json";
+import deuteronomy from "../../../../../data/torah/deuteronomy.json";
+
 export const revalidate=86400;
-const BOOKS:Record<string,{sefaria:string;chapters:number}>={
-Genesis:{sefaria:"Genesis",chapters:50},Exodus:{sefaria:"Exodus",chapters:40},
-Leviticus:{sefaria:"Leviticus",chapters:27},Numbers:{sefaria:"Numbers",chapters:36},
-Deuteronomy:{sefaria:"Deuteronomy",chapters:34}};
-type SefariaChapter={he?:unknown;heVersionTitle?:string;heVersionSource?:string};
+type Corpus=typeof genesis;
+const BOOKS:Record<string,Corpus>={Genesis:genesis,Exodus:exodus,Leviticus:leviticus,Numbers:numbers,Deuteronomy:deuteronomy};
 export async function GET(_request:Request,{params}:{params:Promise<{book:string;chapter:string}>}){
  const {book,chapter:rawChapter}=await params;
- const info=BOOKS[book];const chapter=Number(rawChapter);
- if(!info||!Number.isInteger(chapter)||chapter<1||chapter>info.chapters)
+ const corpus=Object.prototype.hasOwnProperty.call(BOOKS,book)?BOOKS[book]:undefined;
+ const chapter=Number(rawChapter);
+ if(!corpus||!Number.isInteger(chapter)||chapter<1||chapter>corpus.chapters.length)
   return NextResponse.json({error:"Invalid Torah reference"},{status:400});
- try{
-  const ref=info.sefaria+"."+chapter;
-  const response=await fetch("https://www.sefaria.org/api/texts/"+ref+"?context=0&commentary=0",{next:{revalidate:86400},headers:{Accept:"application/json"}});
-  if(!response.ok)throw new Error("Sefaria unavailable");
-  const data=(await response.json()) as SefariaChapter;
-  if(!Array.isArray(data.he))throw new Error("Unexpected source format");
-  const verses=data.he.map(v=>typeof v==="string"?v.replace(/<[^>]*>/g,"").replace(/\s+/g," ").trim():"");
-  return NextResponse.json({book,chapter,verses,source:"Sefaria",sourceUrl:"https://www.sefaria.org/"+ref,version:data.heVersionTitle||null,sourceAttribution:data.heVersionSource||null});
- }catch{return NextResponse.json({error:"Unable to load Hebrew text right now."},{status:502});}
+ const chapterVerses=corpus.chapters[chapter-1];
+ const dictionary=strongs.entries as Record<string,string[]>;
+ const words=chapterVerses.map(verse=>verse.map(([hebrew,lemma,morph],index)=>{
+  const lemmaParts=lemma.split("/");
+  const lexicalPart=lemmaParts[lemmaParts.length-1]||"";
+  const numericLemma=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(lexicalPart);
+  const strong=numericLemma?"H"+Number(numericLemma[1]):null;
+  const entry=strong?dictionary[strong]:undefined;
+  return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:entry?.[1]||null,pronunciation:entry?.[2]||null};
+ }));
+ const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" ").replace(/\s+/g," ").trim());
+ return NextResponse.json({book,chapter,verses,words,source:"Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex",sourceUrl:"https://github.com/openscriptures/morphhb",version:"WLC / OSHB",sourceAttribution:"Hebrew text: public domain WLC; lemma and morphology: OSHB CC BY 4.0; dictionary: Open Scriptures Strong’s Hebrew Dictionary CC BY-SA"});
 }
