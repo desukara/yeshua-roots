@@ -27,5 +27,5 @@ test("Hebrew study aligns numbered words to their verse",()=>{
 });
 
 test("Hebrew study explicitly does not invent lexical data",()=>{
- assert.match(reader,/Dictionary meanings and transliteration are shown when available/);
+ assert.match(reader,/Dictionary meanings, transliteration and pronunciation are shown when available/);
 });
