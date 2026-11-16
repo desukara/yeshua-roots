@@ -44,3 +44,15 @@ test("Hebrew word study supports lexical search within the chapter",()=>{
  assert.match(reader,/words\.filter\(matchingHebrewWord\)/);
  assert.match(reader,/visibleHebrewVerses\.length===0/);
 });
+
+test("Hebrew word search ignores niqqud and cantillation without changing source text",()=>{
+ assert.match(reader,/normalizeWordSearch=\(value:string\)=>value\.normalize\("NFD"\)/);
+ assert.match(reader,/\\u0591-\\u05BD\\u05BF-\\u05C7/);
+ assert.match(reader,/normalizeWordSearch\(hebrewWordQuery\)/);
+ assert.match(reader,/normalizeWordSearch\(value\)\.includes\(normalizedHebrewQuery\)/);
+ assert.match(reader,/Hebrew searches ignore vowel points and cantillation marks/);
+ const normalize=value=>value.normalize("NFD").replace(/[\u0591-\u05BD\u05BF-\u05C7]/g,"").toLocaleLowerCase().trim();
+ assert.equal(normalize("בְּרֵאשִׁית"),normalize("בראשית"));
+ assert.equal(normalize("בָּרָ֣א"),normalize("ברא"));
+ assert.equal(normalize("H7225"),"h7225");
+});
