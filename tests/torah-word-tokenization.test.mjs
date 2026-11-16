@@ -15,7 +15,7 @@ test("all 187 Torah chapters have Hebrew words with lemma and morphology",()=>{
     for(const entry of verse){
      assert.equal(entry.length,3);
      assert.ok(entry.every(value=>typeof value==="string"));
-     assert.ok(entry[0].length>0);
+     assert.ok(entry.every(value=>value.trim().length>0));
      words++;
     }
     verses++;
@@ -24,8 +24,8 @@ test("all 187 Torah chapters have Hebrew words with lemma and morphology",()=>{
   }
  }
  assert.equal(chapters,187);
- assert.ok(verses>5000);
- assert.ok(words>79000);
+ assert.equal(verses,5853);
+ assert.equal(words,80052);
 });
 test("API serves local corpus without relying on Sefaria uptime",()=>{
  assert.match(api,/from "\.\.\/\.\.\/\.\.\/\.\.\/\.\.\/data\/torah\/genesis\.json"/);
