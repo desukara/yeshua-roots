@@ -17,7 +17,7 @@ test("Hebrew study aligns numbered words to their verse",()=>{
  assert.match(reader,/word\.hebrew/);
  assert.match(reader,/word\.transliteration/);
  assert.match(reader,/word\.gloss/);
- assert.match(reader,/version==="kjv"/);
+ assert.match(reader,/!loading&&!error&&version==="kjv"/);
  assert.match(reader,/verse\.number===index\+1/);
  assert.match(reader,/KJV \{index\+1\}/);
  assert.match(reader,/hebrewData\.sourceUrl/);
