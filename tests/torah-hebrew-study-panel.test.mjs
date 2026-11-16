@@ -35,3 +35,11 @@ test("Hebrew study guards against showing a previous chapter during navigation",
  assert.match(reader,/setHebrewReference\(book\+":"\+chapter\)/);
  assert.match(reader,/hebrewError\?<p role="alert">/);
 });
+
+test("Hebrew word study supports lexical search within the chapter",()=>{
+ assert.match(reader,/hebrewWordQuery/);
+ assert.match(reader,/Find a Hebrew word, English meaning, or Strong's number/);
+ assert.match(reader,/word\.strong,word\.transliteration,word\.gloss,word\.pronunciation/);
+ assert.match(reader,/words\.filter\(word=>/);
+ assert.match(reader,/words\.some\(word=>/);
+});
