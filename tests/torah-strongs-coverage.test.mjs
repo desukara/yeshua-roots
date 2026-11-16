@@ -26,12 +26,12 @@ test("every Torah book has dictionary coverage",()=>{
  let total=0,matched=0;
  for(const book of ["genesis","exodus","leviticus","numbers","deuteronomy"]){
   const corpus=JSON.parse(readFileSync(new URL("../data/torah/"+book+".json",import.meta.url),"utf8"));
-  let bookMatched=0;
+  let bookMatched=0,bookTotal=0;
   for(const chapter of corpus.chapters)for(const verse of chapter)for(const word of verse){
-   total++;
+   total++;bookTotal++;
    if(dictionary[strongFor(word[1])]){matched++;bookMatched++;}
   }
-  assert.ok(bookMatched>corpus.chapters.flat(2).length*0.95,book+" dictionary coverage should exceed 95%");
+  assert.ok(bookMatched>bookTotal*0.95,book+" dictionary coverage should exceed 95%");
  }
  assert.ok(total>79000);
  assert.ok(matched>total*0.97,"Expected dictionary coverage above 97%");
