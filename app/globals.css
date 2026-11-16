@@ -712,18 +712,16 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  .site-header .mobile-menu-toggle{display:inline-flex}
 }
 
-/* iOS standalone: reserve the status-bar inset exactly once in the header.
-   Avoid double padding on both body and header, which creates a blank strip. */
+/* iOS installed app: paint the status-bar area and give the header its own
+   full-height safe-area space. Do not stack extra padding or translucent overlays. */
 @supports (-webkit-touch-callout:none){
  @media(display-mode:standalone){
-  html{background:#263f32}
+  html{background:#263f32;overscroll-behavior-y:none}
   body{padding-top:0!important}
-  .site-header{padding-top:calc(10px + env(safe-area-inset-top,0px));}
-  body::before{
-   content:"";position:fixed;top:0;left:0;right:0;
-   height:env(safe-area-inset-top,0px);z-index:31;
-   background:#263f32;pointer-events:none;
-  }
+  .site-header{height:calc(91px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px)}
+  @media(max-width:760px){.site-header{height:calc(75px + env(safe-area-inset-top,0px))}}
+  body::before{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);z-index:31;background:#263f32;pointer-events:none}
+  body:has(.app-download-route)::before{background:#071D3B}
  }
 }
 
@@ -746,11 +744,3 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
  }
 }
 
-/* iOS PWA: one safe-area inset only. Avoid the former doubled header padding. */
-@supports (-webkit-touch-callout:none){
- @media(display-mode:standalone){
-  .site-header{padding-top:12px}
-  @media(max-width:760px){.site-header{padding-top:10px}}
-  html{overscroll-behavior-y:none}
- }
-}
