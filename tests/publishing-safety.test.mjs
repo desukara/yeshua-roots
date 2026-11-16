@@ -6,11 +6,11 @@ import path from "node:path";
 const read = file => fs.readFileSync(path.join(process.cwd(), file), "utf8");
 
 test("public study routes, sitemap and library use founder-approved collection", () => {
-  for (const file of ["app/study/[slug]/page.tsx", "app/sitemap.ts", "components/library-client.tsx", "app/page.tsx", "components/section-client.tsx"]) {
+  for (const file of ["app/study/[slug]/page.tsx", "app/sitemap.ts", "app/page.tsx", "components/section-client.tsx"]) {
     assert.match(read(file), /publishedStudies/, file + " must use approved studies");
   }
   assert.match(read("lib/content.ts"), /publishedStudies\s*=\s*studies\.filter\(study\s*=>\s*study\.editorialStatus\s*===\s*"founder-approved"\)/);
-  assert.match(read("app/study/[slug]/page.tsx"), /if\(!study\)notFound\(\)/);
+  assert.match(read("app/study/[slug]/page.tsx"), /if\(!study\)notFound\(\)/);\n  assert.match(read("app/library/page.tsx"), /permanentRedirect\("\/torah"\)/);
 });
 
 test("the published historical study is discoverable", () => {
