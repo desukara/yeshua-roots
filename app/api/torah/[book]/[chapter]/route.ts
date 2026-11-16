@@ -1,4 +1,5 @@
 import {NextResponse} from "next/server";
+import strongs from "../../../../../data/torah/strongs-hebrew.json";
 import genesis from "../../../../../data/torah/genesis.json";
 import exodus from "../../../../../data/torah/exodus.json";
 import leviticus from "../../../../../data/torah/leviticus.json";
@@ -15,7 +16,13 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
  if(!corpus||!Number.isInteger(chapter)||chapter<1||chapter>corpus.chapters.length)
   return NextResponse.json({error:"Invalid Torah reference"},{status:400});
  const chapterVerses=corpus.chapters[chapter-1];
- const words=chapterVerses.map(verse=>verse.map(([hebrew,lemma,morph],index)=>({index:index+1,hebrew,lemma,morph})));
+ const dictionary=strongs.entries as Record<string,[string,string,string]>;
+ const words=chapterVerses.map(verse=>verse.map(([hebrew,lemma,morph],index)=>{
+  const match=lemma.match(/(?:^|\\/)(\\d{1,5})(?:\\s|$)/g)?.at(-1)?.match(/\\d+/);
+  const strong=match?"H"+Number(match[0]):null;
+  const entry=strong?dictionary[strong]:undefined;
+  return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:entry?.[1]||null,pronunciation:entry?.[2]||null};
+ }));
  const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" "));
- return NextResponse.json({book,chapter,verses,words,source:"Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex",sourceUrl:"https://github.com/openscriptures/morphhb",version:"WLC / OSHB",sourceAttribution:"Hebrew text: public domain WLC; lemma and morphology: OSHB CC BY 4.0"});
+ return NextResponse.json({book,chapter,verses,words,source:"Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex",sourceUrl:"https://github.com/openscriptures/morphhb",version:"WLC / OSHB",sourceAttribution:"Hebrew text: public domain WLC; lemma and morphology: OSHB CC BY 4.0; dictionary: Open Scriptures Strong’s Hebrew Dictionary CC BY-SA"});
 }
