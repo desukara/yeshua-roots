@@ -19,5 +19,5 @@ test("Hebrew study aligns numbered words to their verse",()=>{
 });
 
 test("Hebrew study explicitly does not invent lexical data",()=>{
- assert.match(reader,/Verified dictionary glosses, morphology, and transliteration are not yet available/);
+ assert.match(reader,/Source morphology and lemma codes are available/);
 });
