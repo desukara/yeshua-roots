@@ -4,9 +4,9 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
-test('sitemap includes interlinear reader and study routes', () => {
+test('sitemap includes current Torah reader and approved study routes', () => {
   const sitemap = read('app/sitemap.ts');
-  assert.match(sitemap, /["']\/interlinear["']/);
+  assert.match(sitemap, /["']\/torah["']/);
   assert.match(sitemap, /publishedStudies\.map/);
 });
 
@@ -45,7 +45,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Fulfilled in Messiah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
-  assert.match(homepage, /href="\/library">{c\.findPlace}/);
+  assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.match(copy, /In Development/);
   assert.match(copy, /בפיתוח/);
 });
@@ -55,7 +55,7 @@ test('homepage prioritizes active learning paths and keeps unfinished services o
   const styles = read('app/home-royal.css');
   assert.match(homepage, /hero-title-line/);
   assert.match(homepage, /c\.rooms\.slice\(0,2\)/);
-  assert.match(homepage, /const hrefs=\["\/torah","\/teachings"\]/);
+  assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.doesNotMatch(homepage, /developing\.has\(hrefs\[i\]\)/);
   assert.match(homepage, /welcome-visual" aria-hidden="true"/);
   assert.match(styles, /\.home-royal \.room-grid/);
@@ -102,7 +102,7 @@ test('study pages use article-specific metadata and library copy describes real 
   assert.match(studyPage, /generateMetadata/);
   assert.match(studyPage, /study\.subtitle/);
   assert.match(studyPage, /type:"article"/);
-  assert.match(library, /introductory Torah and Messianic studies/);
+  assert.match(library, /permanentRedirect\("\/torah"\)/);
   assert.doesNotMatch(library, /Mishnah, Talmud, Midrash/);
 });
 
@@ -112,7 +112,7 @@ test('study reader provides a main landmark, bilingual editorial notice and libr
   assert.match(reader, /reading-editorial-note/);
   assert.match(reader, /לימוד מבוא ראשוני/);
   assert.match(reader, /Introductory study for reflection and discussion/);
-  assert.match(reader, /href="\/library"/);
+  assert.match(reader, /href="\/library"|href="\/torah"/);
 });
 
 
