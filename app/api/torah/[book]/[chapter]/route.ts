@@ -17,6 +17,10 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
   const data=(await response.json()) as SefariaChapter;
   if(!Array.isArray(data.he))throw new Error("Unexpected source format");
   const verses=data.he.map(v=>typeof v==="string"?v.replace(/<[^>]*>/g,"").replace(/\s+/g," ").trim():"");
-  return NextResponse.json({book,chapter,verses,source:"Sefaria",sourceUrl:"https://www.sefaria.org/"+ref,version:data.heVersionTitle||null,sourceAttribution:data.heVersionSource||null});
+  // Keep the Hebrew text intact and expose a matching word sequence for each verse.
+  // Lexical glosses, morphology and transliteration must come from verified sources;
+  // do not fabricate those fields from a mechanical tokenizer.
+  const words=verses.map(verse=>verse.length?verse.split(/\\s+/u).map((hebrew,index)=>({index:index+1,hebrew})):[]);
+  return NextResponse.json({book,chapter,verses,words,source:"Sefaria",sourceUrl:"https://www.sefaria.org/"+ref,version:data.heVersionTitle||null,sourceAttribution:data.heVersionSource||null});
  }catch{return NextResponse.json({error:"Unable to load Hebrew text right now."},{status:502});}
 }
