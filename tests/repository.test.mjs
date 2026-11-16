@@ -149,7 +149,7 @@ test('public library does not expose external passage reference input', () => {
 test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
  const section=read('components/section-client.tsx');
  assert.match(section, /function MinistryIdentity/);
- assert.match(section, /Yeshua is very much alive/);
+ assert.match(section, /Yeshua is alive/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
  assert.match(section, /One Messiah\. One Torah\. One Family\./);
