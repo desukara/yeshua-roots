@@ -18,8 +18,10 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
  const chapterVerses=corpus.chapters[chapter-1];
  const dictionary=strongs.entries as Record<string,[string,string,string]>;
  const words=chapterVerses.map(verse=>verse.map(([hebrew,lemma,morph],index)=>{
-  const match=lemma.match(/(?:^|\\/)(\\d{1,5})(?:\\s|$)/g)?.at(-1)?.match(/\\d+/);
-  const strong=match?"H"+Number(match[0]):null;
+  const lemmaParts=lemma.split("/");
+  const lexicalPart=lemmaParts[lemmaParts.length-1]||"";
+  const numericLemma=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(lexicalPart);
+  const strong=numericLemma?"H"+Number(numericLemma[1]):null;
   const entry=strong?dictionary[strong]:undefined;
   return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:entry?.[1]||null,pronunciation:entry?.[2]||null};
  }));
