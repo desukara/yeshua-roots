@@ -57,7 +57,7 @@ test('homepage prioritizes active learning paths and keeps unfinished services o
   assert.match(homepage, /c\.rooms\.slice\(0,2\)/);
   assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.doesNotMatch(homepage, /developing\.has\(hrefs\[i\]\)/);
-  assert.match(homepage, /welcome-visual" aria-hidden="true"/);
+  assert.match(homepage, /className="welcome-hero"/);
   assert.match(styles, /\.home-royal \.room-grid/);
 });
 
@@ -216,7 +216,7 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,3);
  assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,3);
  assert.match(paths,/Read Genesis in its own context first/);
- assert.match(paths,/preserving God’s faithfulness to Israel/);
+ assert.match(paths,/grafted into Israel’s Jewish olive tree/);
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
