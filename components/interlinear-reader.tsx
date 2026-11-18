@@ -3935,7 +3935,119 @@ const plainGenesisTwentySeven:Record<number,PlainVerseStudy>={
   "takeaway": "Rebekah raises marriage concerns to send Jacob away."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven}};
+const plainGenesisTwentyEight:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Isaac calls Jacob, blesses him, and commands him not to marry a Canaanite woman.",
+  "breakdown": "After the deception and conflict of chapter 27, Isaac now speaks directly to Jacob about marriage. He gives Jacob a blessing and a clear instruction. This moment is different from the blessing Jacob obtained while pretending to be Esau: Isaac knows whom he is addressing. The family's concern about marriage also continues the issue raised by Rebekah at the end of the previous chapter.",
+  "takeaway": "Isaac knowingly blesses Jacob and gives him marriage instructions."
+ },
+ "2": {
+  "scene": "Isaac tells Jacob to go to Paddan-aram, to his mother's father Bethuel, and marry one of Laban's daughters.",
+  "breakdown": "Jacob is being sent to Rebekah's relatives, the same family network from which Isaac's wife came. Laban is Rebekah's brother, making his daughters Jacob's cousins. The journey also removes Jacob from Esau's anger, although Isaac's spoken instruction here focuses on marriage.",
+  "takeaway": "Jacob is sent to his mother's relatives to find a wife."
+ },
+ "3": {
+  "scene": "Isaac asks God Almighty to bless Jacob, make him fruitful, and multiply his descendants into a community of peoples.",
+  "breakdown": "The name translated 'God Almighty' is El Shaddai. Isaac is praying for Jacob's future family to grow, not claiming that Jacob already has children. This blessing echoes the promises given to Abraham and Isaac, carrying the family's hope into another generation.",
+  "takeaway": "Isaac prays for Jacob to have many descendants."
+ },
+ "4": {
+  "scene": "Isaac asks God to give Jacob and his descendants Abraham's blessing, including the land where Jacob now lives as a foreigner.",
+  "breakdown": "Isaac explicitly connects Jacob to Abraham's covenant promise. The land is promised, but Jacob does not yet possess it as a settled inheritance; he is about to leave it. This makes the blessing especially significant during an uncertain departure.",
+  "takeaway": "Isaac passes on the hope of Abraham's blessing and land."
+ },
+ "5": {
+  "scene": "Isaac sends Jacob away to Paddan-aram, to Laban son of Bethuel, the brother of Rebekah.",
+  "breakdown": "The narrator carefully identifies the family relationships so readers know where Jacob is going. Rebekah is the mother of both Jacob and Esau, a reminder that the conflict involves brothers within one household. The text doesn't describe the details of Jacob's departure or his feelings at this point.",
+  "takeaway": "Jacob leaves for Laban's household."
+ },
+ "6": {
+  "scene": "Esau sees that Isaac blessed Jacob and sent him to Paddan-aram to find a wife, instructing him not to marry a Canaanite woman.",
+  "breakdown": "The focus briefly turns to Esau. He notices both the blessing and the marriage instruction given to Jacob. Esau is not absent from the family's story; he is watching how his parents treat the issue of marriage.",
+  "takeaway": "Esau notices Isaac's instructions to Jacob."
+ },
+ "7": {
+  "scene": "Esau also sees that Jacob obeyed his parents and went to Paddan-aram.",
+  "breakdown": "The narrator emphasizes Jacob's departure in response to the instruction. Esau now has more evidence that marriage choices matter deeply to Isaac and Rebekah. This observation shapes what he does next.",
+  "takeaway": "Esau recognizes Jacob has followed the marriage instruction."
+ },
+ "8": {
+  "scene": "Esau realizes the Canaanite women he married are displeasing to his father Isaac.",
+  "breakdown": "The verse describes Esau's growing awareness of his father's disapproval. Genesis 26 already told us Esau's marriages caused grief to both parents. The text doesn't say the women themselves committed a specific offense, so we shouldn't invent one.",
+  "takeaway": "Esau understands his marriages distress Isaac."
+ },
+ "9": {
+  "scene": "Esau marries Mahalath, daughter of Ishmael and sister of Nebaioth, in addition to his existing wives.",
+  "breakdown": "Esau seeks a wife from Abraham's extended family through Ishmael, apparently responding to his parents' concerns. But the text says this marriage is added to the others; he does not leave his earlier wives. Genesis 36 gives a different naming tradition for one of Esau's wives, and the chapter here does not explain that variation.",
+  "takeaway": "Esau adds a wife from Ishmael's family."
+ },
+ "10": {
+  "scene": "Jacob leaves Beersheba and travels toward Haran.",
+  "breakdown": "The story returns to Jacob on the road. He is leaving home after a bitter conflict with his brother, heading toward relatives he has not been shown meeting before. The verse doesn't give the route, travel duration, or every danger he faced. Its simplicity makes the coming encounter stand out.",
+  "takeaway": "Jacob begins the journey away from home."
+ },
+ "11": {
+  "scene": "At sunset Jacob stops for the night, takes a stone from the place, puts it near his head, and lies down.",
+  "breakdown": "Jacob has no comfortable family tent in this scene. He makes a resting place from what is available on the road. Some translations say the stone was under his head, while the Hebrew can be understood as placed at his head. Either way, the detail emphasizes an ordinary, exposed overnight stop.",
+  "takeaway": "Jacob sleeps outdoors with a stone near his head."
+ },
+ "12": {
+  "scene": "Jacob dreams of a stairway or ladder reaching from earth toward heaven, with God's angels moving up and down it.",
+  "breakdown": "The Hebrew word often translated 'ladder' can also suggest a stairway or ramp. The vision connects earth and heaven, with messengers of God moving between them. Genesis doesn't explain the structure's exact appearance, so illustrations should not be mistaken for details the text provides. The point is that Jacob encounters God's activity in a place he did not expect.",
+  "takeaway": "Jacob sees a dream linking heaven and earth."
+ },
+ "13": {
+  "scene": "The LORD stands above or beside the stairway and identifies Himself as the God of Abraham and Isaac, promising Jacob the land where he lies.",
+  "breakdown": "Translations differ on whether the LORD is positioned above the stairway or beside Jacob, because the Hebrew wording allows discussion. What is clear is that God speaks personally to Jacob and identifies Himself through the family covenant. The land promise is especially striking because Jacob is sleeping on the ground while traveling away from home.",
+  "takeaway": "God speaks to Jacob and repeats the land promise."
+ },
+ "14": {
+  "scene": "God promises Jacob descendants as numerous as the dust of the earth, spreading in every direction, and blessing for all families of the earth through his offspring.",
+  "breakdown": "This repeats and expands promises made to Abraham. Jacob has no children yet, and he is leaving the land, so the promise points beyond his present circumstances. The blessing is not meant to stop with one family; the wording looks toward the families of the whole earth.",
+  "takeaway": "God promises descendants and blessing beyond Jacob's household."
+ },
+ "15": {
+  "scene": "God promises to be with Jacob, protect him wherever he goes, bring him back to the land, and not abandon him until the promise is fulfilled.",
+  "breakdown": "Jacob is traveling into uncertainty, but God's promise is not limited to one location. The words about keeping him do not guarantee a trouble-free journey; later chapters show Jacob facing conflict and hardship. The assurance is that God's commitment continues even while Jacob is away from home.",
+  "takeaway": "God promises His presence and eventual return for Jacob."
+ },
+ "16": {
+  "scene": "Jacob wakes and says the LORD is truly in this place, though he had not realized it.",
+  "breakdown": "Jacob is surprised by the encounter. He did not travel to a known sanctuary expecting a vision; he simply stopped for the night. The verse emphasizes his discovery, not the idea that God was absent everywhere else. An ordinary place has become unforgettable to him.",
+  "takeaway": "Jacob realizes God was present where he slept."
+ },
+ "17": {
+  "scene": "Jacob is afraid and calls the place awesome, describing it as God's house and the gate of heaven.",
+  "breakdown": "His fear is awe at what he has experienced, not necessarily terror of immediate harm. 'House of God' and 'gate of heaven' express how extraordinary the place seems to him. The text does not say a literal doorway opened in the ground or that God is confined to this location.",
+  "takeaway": "Jacob responds with awe to the place of his dream."
+ },
+ "18": {
+  "scene": "Early in the morning Jacob sets up the stone he used near his head as a pillar and pours oil on it.",
+  "breakdown": "Jacob marks the location with a standing stone and anoints it. In this ancient setting, the action commemorates a significant encounter. The passage doesn't instruct modern readers to use stones or oil in the same way. Jacob wants the place to be remembered.",
+  "takeaway": "Jacob marks the site of his encounter with God."
+ },
+ "19": {
+  "scene": "Jacob names the place Bethel, although the city had previously been called Luz.",
+  "breakdown": "Bethel means 'house of God,' matching Jacob's words after waking. The narrator also supplies the earlier place-name, Luz. This naming connects the physical location with Jacob's experience and gives later readers a way to recognize the site in Israel's story.",
+  "takeaway": "Jacob calls the place Bethel, 'house of God.'"
+ },
+ "20": {
+  "scene": "Jacob makes a vow beginning with the condition that God will be with him and keep him on his journey.",
+  "breakdown": "The vow picks up the language of God's promise in verse 15. The 'if' can sound as though Jacob is bargaining, while some readers understand it as expressing confidence in what God has promised. The story records Jacob's response without giving a full explanation of his inner motives. His vow continues in the next verses.",
+  "takeaway": "Jacob responds to God's promise with a vow."
+ },
+ "21": {
+  "scene": "Jacob asks for food to eat, clothing to wear, and a safe return to his father's house, saying the LORD will be his God.",
+  "breakdown": "Jacob's requests are basic needs for a traveler, not demands for luxury. The language of returning safely fits his dangerous separation from Esau. Whether his words are read as a condition or a statement of trust, they show that Jacob is beginning to speak of the LORD as his own God, not only his ancestors' God.",
+  "takeaway": "Jacob names his needs and his relationship with the LORD."
+ },
+ "22": {
+  "scene": "Jacob says the stone pillar will be God's house and promises to give God a tenth of what he receives.",
+  "breakdown": "The pillar marks the place he has named Bethel, and the promised tenth is part of Jacob's vow. Genesis does not say he immediately builds a temple here or give a detailed accounting of how he later fulfills the promise. We should not automatically turn this personal vow into a complete rule for modern giving. The chapter ends with Jacob looking ahead to what God will provide.",
+  "takeaway": "Jacob pledges to honor God with this place and a tenth of what he receives."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
