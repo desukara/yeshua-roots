@@ -1364,7 +1364,169 @@ const plainGenesisTen:Record<number,PlainVerseStudy>={
   "takeaway": "The chapter traces the spread of nations from Noah's family."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen}};
+const plainGenesisEleven:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The whole earth is described as having one language and a shared way of speaking.",
+  "breakdown": "Genesis 10 just described many peoples and languages. Now the story steps back to explain how that diversity came about. This isn't necessarily the next event after every detail in chapter 10; Genesis often gives the big picture and then zooms in. Here, everyone can understand one another.",
+  "takeaway": "The Babel story begins before the division of languages."
+ },
+ "2": {
+  "scene": "As people travel, they find a plain in Shinar and settle there.",
+  "breakdown": "Shinar is the region already connected with Babel in chapter 10. The Hebrew phrase about the direction of their journey can be translated differently, so the precise route isn't the point. What matters is that the people choose one place and establish a settlement there.",
+  "takeaway": "People gather and settle together in Shinar."
+ },
+ "3": {
+  "scene": "The people decide to make bricks and bake them thoroughly, using bitumen as mortar.",
+  "breakdown": "The builders have a practical plan. Instead of relying on cut stone, they make fired bricks, and they use a sticky material called bitumen to bind them. Genesis includes these details to show a real building project taking shape. The problem in the story isn't that bricks or engineering are evil.",
+  "takeaway": "The people organize the materials for a major building project."
+ },
+ "4": {
+  "scene": "They plan a city and a tower reaching toward heaven, hoping to make a name for themselves and avoid being scattered.",
+  "breakdown": "Now we hear their goal in their own words. They want a great city, a towering landmark, and a reputation that will last. They also want to keep themselves from being scattered across the earth. That last part matters because God had told humanity to multiply and fill the earth. The issue is their collective ambition and resistance to spreading out, not the mere act of building something tall.",
+  "takeaway": "The builders seek fame and unity on their own terms."
+ },
+ "5": {
+  "scene": "The LORD comes down to see the city and tower the people are building.",
+  "breakdown": "There's a touch of irony here: the people want a tower that reaches the heavens, yet the story says God has to 'come down' to inspect it. That doesn't mean God lacks information or needs to travel like a human. It's a vivid way of showing how small their grand project is beside Him.",
+  "takeaway": "God examines the project that the people think is so great."
+ },
+ "6": {
+  "scene": "God observes that the people are united by one language and that their shared plans could keep expanding.",
+  "breakdown": "God's words recognize the power of people working together. Unity and cooperation aren't automatically wrong; the concern is what this particular group is trying to accomplish. In the context of their stated goal, their common language is helping them push forward without restraint.",
+  "takeaway": "Shared language gives the builders the power to pursue their plan."
+ },
+ "7": {
+  "scene": "God says He will confuse their language so they can no longer understand one another.",
+  "breakdown": "God answers the builders' plan by interrupting their ability to coordinate. The Hebrew uses a wordplay around mixing or confusing speech. The text doesn't describe the mechanics of the change or name the languages that resulted. It focuses on the breakdown of understanding.",
+  "takeaway": "God disrupts the shared language holding the project together."
+ },
+ "8": {
+  "scene": "The LORD scatters the people across the earth, and they stop building the city.",
+  "breakdown": "The builders wanted to stay together in one place. Instead, the very thing they feared happens: they are scattered. Their unfinished city shows that their plan did not determine the outcome. The story also moves humanity toward the wider spread across the earth described in chapter 10.",
+  "takeaway": "The people are scattered, and the building project stops."
+ },
+ "9": {
+  "scene": "The city is called Babel because the LORD confused the language there and scattered the people.",
+  "breakdown": "Genesis explains the name Babel through a Hebrew wordplay with a verb meaning 'to confuse' or 'mix.' Babel is also the Hebrew name associated with Babylon, a city that becomes important later in the Bible. The wordplay explains the story's meaning; it isn't necessarily a technical account of the name's origin in every ancient language.",
+  "takeaway": "Babel becomes the place remembered for confused speech and scattering."
+ },
+ "10": {
+  "scene": "The family record of Shem begins: two years after the flood, at age 100, he fathers Arpachshad.",
+  "breakdown": "The story now narrows from the peoples of the earth to one particular family line. Shem is Noah's son, and this genealogy will eventually lead us to Abram. The date connects the record back to the flood. These ages are part of the biblical genealogy, not a complete diary of each person's life.",
+  "takeaway": "The focus shifts from Babel to Shem's descendants."
+ },
+ "11": {
+  "scene": "After Arpachshad is born, Shem lives another 500 years and has other sons and daughters.",
+  "breakdown": "Like Genesis 5, this genealogy follows one named line while acknowledging other children. Shem's family is bigger than the single branch we're tracing. The record selects the descendants needed to carry the story toward Abram.",
+  "takeaway": "Shem has more children than the one named in the family line."
+ },
+ "12": {
+  "scene": "Arpachshad lives 35 years and fathers Shelah.",
+  "breakdown": "The genealogy moves to the next generation. The Hebrew text used for this sequence names Shelah directly after Arpachshad, while some other ancient textual traditions include an additional generation. Readers may see that difference when comparing Bibles, but the purpose here is still to trace the line toward Abram.",
+  "takeaway": "Arpachshad's line continues through Shelah."
+ },
+ "13": {
+  "scene": "After Shelah is born, Arpachshad lives another 403 years and has other sons and daughters.",
+  "breakdown": "This verse follows the genealogy's familiar rhythm: a named son, more years, and additional children. The text isn't claiming Shelah was the only child in the household. It is keeping one family line in view.",
+  "takeaway": "Arpachshad's household includes other children too."
+ },
+ "14": {
+  "scene": "Shelah lives 30 years and fathers Eber.",
+  "breakdown": "Eber was mentioned in chapter 10 as an important ancestor in Shem's line. Here we see his place in the sequence. Genesis is connecting the broad Table of Nations to the more focused family history that follows.",
+  "takeaway": "Shelah fathers Eber, continuing the line toward Abram."
+ },
+ "15": {
+  "scene": "After Eber is born, Shelah lives another 403 years and has other sons and daughters.",
+  "breakdown": "Shelah continues living and has a larger family than the one name listed here. Genesis doesn't give details about those other children because this genealogy has a particular destination. It's tracing the branch through Eber.",
+  "takeaway": "Shelah's family grows beyond Eber."
+ },
+ "16": {
+  "scene": "Eber lives 34 years and fathers Peleg.",
+  "breakdown": "Peleg appeared in chapter 10, where his name was connected with a division in his days. Now the genealogy places him in Eber's line. The verse doesn't explain that division again; it simply carries the family record forward.",
+  "takeaway": "Eber's line continues through Peleg."
+ },
+ "17": {
+  "scene": "After Peleg is born, Eber lives another 430 years and has other sons and daughters.",
+  "breakdown": "Eber's life continues for centuries after the birth of Peleg, according to this record. Other children are mentioned without being named. That reminder keeps us from treating this genealogy as a complete list of everyone alive at the time.",
+  "takeaway": "Eber has a wider family than the named line alone."
+ },
+ "18": {
+  "scene": "Peleg lives 30 years and fathers Reu.",
+  "breakdown": "The record moves another generation forward. There is no dramatic event attached to Reu's birth in this verse. Its purpose is to preserve the connection between Peleg and the generations leading toward Abram.",
+  "takeaway": "Peleg fathers Reu."
+ },
+ "19": {
+  "scene": "After Reu is born, Peleg lives another 209 years and has other sons and daughters.",
+  "breakdown": "The pattern continues, but the lifespans in this section are generally shorter than many of those in Genesis 5. Genesis doesn't pause to explain exactly why. What it does tell us is that Peleg's family includes children beyond Reu.",
+  "takeaway": "Peleg lives on and has additional children."
+ },
+ "20": {
+  "scene": "Reu lives 32 years and fathers Serug.",
+  "breakdown": "Another link in the family chain is named. The genealogy may feel repetitive, but it is doing important work: it connects the world after the flood to the family of Abram. Without these links, that transition would appear out of nowhere.",
+  "takeaway": "Reu fathers Serug."
+ },
+ "21": {
+  "scene": "After Serug is born, Reu lives another 207 years and has other sons and daughters.",
+  "breakdown": "Reu's entry follows the same pattern of a named son and additional children. The other sons and daughters remind us that this is a selected family line, not a complete census of the ancient world.",
+  "takeaway": "Reu's household continues to grow."
+ },
+ "22": {
+  "scene": "Serug lives 30 years and fathers Nahor.",
+  "breakdown": "Nahor is the next named descendant. We'll soon meet another Nahor in Abram's immediate family, so it's worth keeping the generations straight. This Nahor is the father of Terah, not Abram's brother.",
+  "takeaway": "Serug fathers Nahor, Abram's future grandfather."
+ },
+ "23": {
+  "scene": "After Nahor is born, Serug lives another 200 years and has other sons and daughters.",
+  "breakdown": "The record gives Serug's remaining years and notes other children. Genesis isn't making a judgment about those unnamed family members. It's following the branch that will lead to Terah and then Abram.",
+  "takeaway": "Serug's family includes other sons and daughters."
+ },
+ "24": {
+  "scene": "Nahor lives 29 years and fathers Terah.",
+  "breakdown": "Terah's name is a turning point in this genealogy. He will be the father of Abram, whose story takes center stage in the chapters ahead. The long chain of generations is finally reaching the family Genesis wants us to follow closely.",
+  "takeaway": "Nahor fathers Terah, bringing the genealogy near Abram."
+ },
+ "25": {
+  "scene": "After Terah is born, Nahor lives another 119 years and has other sons and daughters.",
+  "breakdown": "This Nahor's total lifespan is much shorter than the earlier generations in the list. The verse doesn't give a reason, so we shouldn't invent one. It also says he had other children, even though the genealogy follows Terah.",
+  "takeaway": "Nahor's life continues after Terah's birth."
+ },
+ "26": {
+  "scene": "Terah lives 70 years and fathers Abram, Nahor, and Haran.",
+  "breakdown": "Now we meet three brothers who matter to the next part of Genesis. The verse groups their names together, but that doesn't necessarily mean all three were born when Terah turned exactly 70 or that Abram was the oldest. Biblical genealogies sometimes list a prominent person first because of the story's focus.",
+  "takeaway": "Terah's three named sons bring Abram into the story."
+ },
+ "27": {
+  "scene": "Genesis introduces Terah's family: Abram, Nahor, and Haran; Haran fathers Lot.",
+  "breakdown": "The narrative shifts from a simple chain of ages to a family we will follow in detail. Lot is Abram's nephew, and he will have a major role in the coming chapters. This verse helps us understand those relationships before the family begins moving.",
+  "takeaway": "Lot is introduced as Haran's son and Abram's nephew."
+ },
+ "28": {
+  "scene": "Haran dies in Ur of the Chaldeans while his father Terah is still alive.",
+  "breakdown": "The family story begins with a loss. Haran dies in his homeland during his father's lifetime, leaving Lot as part of the wider family. Ur is identified as 'of the Chaldeans' in the biblical text; that description helps locate the story for its readers, though the historical details of the label are discussed.",
+  "takeaway": "Haran dies before his father, leaving his son Lot in the family story."
+ },
+ "29": {
+  "scene": "Abram marries Sarai, and Nahor marries Milcah, the daughter of Haran.",
+  "breakdown": "Now the marriages are introduced. Milcah is identified through her father Haran, whose other daughter Iscah is also named. The verse gives family relationships, not a full account of how the marriages came about. Sarai will become especially important as Abram's story unfolds.",
+  "takeaway": "Abram and Nahor's wives are introduced, along with more family connections."
+ },
+ "30": {
+  "scene": "Sarai is unable to have children.",
+  "breakdown": "This brief statement sets up a major struggle in Abram and Sarai's story. In a family record centered on generations, the fact that Sarai has no child is especially significant. Genesis doesn't say this is her fault or a punishment. It simply tells us the painful reality they are living with.",
+  "takeaway": "Sarai's childlessness becomes a central concern in the story ahead."
+ },
+ "31": {
+  "scene": "Terah takes Abram, Lot, and Sarai from Ur toward Canaan, but they settle in Haran.",
+  "breakdown": "The family begins a journey with Canaan as its destination. They don't reach it yet; instead, they stop and live in Haran. Notice that the verse names Terah as the one leading this departure. In the next chapter, God's call to Abram will move the story forward again.",
+  "takeaway": "The family sets out for Canaan but settles in Haran."
+ },
+ "32": {
+  "scene": "Terah lives 205 years in all and dies in Haran.",
+  "breakdown": "The chapter closes with Terah's death and leaves the family in Haran. The next chapter will focus on Abram's call and journey. Readers sometimes notice questions about the chronology when comparing this verse with later passages; the text here gives Terah's total lifespan without explaining every overlap in the family timeline.",
+  "takeaway": "Terah's life ends in Haran, and Abram's story is ready to begin."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
