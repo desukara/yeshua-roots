@@ -2913,7 +2913,109 @@ const plainGenesisTwentyTwo:Record<number,PlainVerseStudy>={
   "takeaway": "The genealogy closes with Reumah and her four children."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo}};
+const plainGenesisTwentyThree:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Sarah lives 127 years.",
+  "breakdown": "Genesis records Sarah's full lifespan before telling us about her death. After years of traveling, waiting, and finally giving birth to Isaac, her story reaches its end. The text gives no details about her final illness or last words, so we won't invent them.",
+  "takeaway": "Sarah's life reaches its end at 127."
+ },
+ "2": {
+  "scene": "Sarah dies at Kiriath-arba, also called Hebron, in Canaan; Abraham mourns and weeps for her.",
+  "breakdown": "The narrator supplies both place-names to locate the event. Abraham's grief is openly described; faith does not mean he has no tears. Sarah shared his long journey and the waiting for Isaac, and her death is a real loss. The verse does not tell us where Abraham had been just before he came to mourn.",
+  "takeaway": "Abraham grieves Sarah's death in Hebron."
+ },
+ "3": {
+  "scene": "Abraham rises from beside Sarah's body and speaks to the sons of Heth.",
+  "breakdown": "Grief now meets a practical need: Sarah must be buried. Abraham approaches the local landholders, often called Hittites in English translations. The label 'sons of Heth' doesn't require us to equate these people with every detail of the later Hittite empire. He needs their cooperation to obtain a burial place.",
+  "takeaway": "Abraham approaches local landholders about Sarah's burial."
+ },
+ "4": {
+  "scene": "Abraham calls himself a foreigner and resident among them and asks for burial property.",
+  "breakdown": "Abraham has lived in Canaan for years, but he still lacks inherited ownership of land among these people. God's promise of the land has not automatically given him legal title to a burial plot. He asks for a recognized holding where he can bury Sarah. His words capture both his long residence and his outsider status.",
+  "takeaway": "Abraham asks to acquire a permanent burial place."
+ },
+ "5": {
+  "scene": "The Hittites reply respectfully, calling Abraham a mighty prince among them.",
+  "breakdown": "Their answer shows that Abraham is held in high regard. The Hebrew description can be rendered 'prince of God' or 'mighty prince,' and translations differ. Their courtesy is important, but it isn't yet a completed land sale. Abraham will continue seeking ownership of a particular property.",
+  "takeaway": "The community responds to Abraham with honor."
+ },
+ "6": {
+  "scene": "They offer Abraham access to their finest tombs, saying no one would withhold a burial place.",
+  "breakdown": "The people are willing to let Abraham bury Sarah among them. That is a generous response to a grieving man. Yet permission to use someone else's tomb is not necessarily the same as owning a family burial site. The difference helps explain why Abraham keeps negotiating.",
+  "takeaway": "The landholders offer burial space, but Abraham seeks ownership."
+ },
+ "7": {
+  "scene": "Abraham stands and bows before the people of the land.",
+  "breakdown": "Bowing here is a public gesture of respect, not necessarily an act of worship. Abraham is dealing courteously with the people who can help him. His grief does not stop him from handling the burial arrangements carefully. He will now name the property he wants.",
+  "takeaway": "Abraham acknowledges the community respectfully."
+ },
+ "8": {
+  "scene": "Abraham asks the people to approach Ephron son of Zohar on his behalf.",
+  "breakdown": "Abraham identifies a particular landowner and asks the assembled people to help with the request. This is a public negotiation, not a private seizure of land. Ephron's property includes the cave Abraham wants for Sarah. The community's presence will also help establish what is agreed.",
+  "takeaway": "Abraham asks to negotiate with Ephron."
+ },
+ "9": {
+  "scene": "Abraham asks to buy the cave of Machpelah at the end of Ephron's field for its full price.",
+  "breakdown": "Abraham specifies the cave and offers to pay what it is worth. He also asks for the transaction to happen in the people's presence. That detail matters: he wants a clear, recognized transfer, not a favor that might later be disputed. His immediate purpose remains Sarah's burial.",
+  "takeaway": "Abraham offers full payment for the cave of Machpelah."
+ },
+ "10": {
+  "scene": "Ephron answers Abraham while sitting among the Hittites at the city gate.",
+  "breakdown": "The city gate was a public place for community business and witnessed agreements. Ephron's response is heard by the people gathered there. The narrator emphasizes witnesses because ownership of the field and cave will matter beyond this one funeral. The exchange is becoming a formal transaction.",
+  "takeaway": "Ephron responds publicly before witnesses."
+ },
+ "11": {
+  "scene": "Ephron says he gives Abraham the field and its cave and tells him to bury Sarah there.",
+  "breakdown": "Ephron's words sound like a gift, but the conversation continues toward a price. We should not claim to know whether he is being purely generous or using customary bargaining language. The important point is that both the field and cave are now part of the discussion. Abraham still wants to settle the ownership terms.",
+  "takeaway": "Ephron offers the field and cave, but the terms remain unsettled."
+ },
+ "12": {
+  "scene": "Ephron repeats the offer before his people, inviting Abraham to bury Sarah.",
+  "breakdown": "The public invitation confirms Ephron is willing for the burial to take place. Still, Abraham does not treat these words as the end of the matter. He wants to pay for the land. The repetition highlights the courtesy of the exchange as well as the need for clear terms.",
+  "takeaway": "Ephron again offers the burial property."
+ },
+ "13": {
+  "scene": "Abraham bows again before the people of the land.",
+  "breakdown": "Abraham continues to show respect as he negotiates. Bowing does not mean he is abandoning his request. He can be courteous while insisting on a lasting legal arrangement. The next verse makes his position explicit.",
+  "takeaway": "Abraham responds with continued respect."
+ },
+ "14": {
+  "scene": "Abraham asks Ephron to accept payment for the field so he can bury Sarah there.",
+  "breakdown": "Abraham insists on paying instead of relying on a gift-like offer. A purchase witnessed by the community would make his claim to the burial site clear. This is a practical decision about Sarah's resting place and his family's future use of the property. He asks Ephron to hear him out.",
+  "takeaway": "Abraham insists on purchasing the field."
+ },
+ "15": {
+  "scene": "Ephron answers Abraham and prepares to state the property's value.",
+  "breakdown": "The discussion turns from courteous offers to a definite price. Ephron addresses Abraham directly in the hearing of the community. The next verse gives the amount, so this verse is the beginning of his answer rather than a separate agreement. The negotiation is nearing its conclusion.",
+  "takeaway": "Ephron begins to name the terms of the sale."
+ },
+ "16": {
+  "scene": "Ephron names four hundred shekels of silver and says the amount should not stand between them.",
+  "breakdown": "A shekel here is a unit of weight for silver, not a modern coin. Four hundred shekels is a substantial amount, though converting it to an exact present-day price would require assumptions the text doesn't provide. Ephron speaks as though the sum is a small matter between them, but it remains the amount he asks. Abraham will accept it.",
+  "takeaway": "Ephron sets the price at four hundred shekels of silver."
+ },
+ "17": {
+  "scene": "Abraham agrees and weighs out four hundred shekels of silver before the witnesses, using the merchant standard.",
+  "breakdown": "The payment is made openly and in a recognized weight of silver. Genesis doesn't describe Abraham haggling over the amount. Witnesses can confirm that the price was paid, making the transfer more secure. This is not merely permission to bury Sarah; it is a purchase.",
+  "takeaway": "Abraham pays the stated price in full."
+ },
+ "18": {
+  "scene": "Ephron's field at Machpelah near Mamre, including the cave and trees within its boundaries, is transferred to Abraham before the witnesses.",
+  "breakdown": "The description is unusually precise about the land and what belongs to it. The field, cave, and trees are all included in the recognized transfer. Genesis records these details because this is more than permission to hold a funeral: Abraham now owns a particular burial property in Canaan.",
+  "takeaway": "The field and cave become Abraham's property before witnesses."
+ },
+ "19": {
+  "scene": "Abraham buries Sarah in the cave of the field of Machpelah near Mamre, that is, Hebron, in Canaan.",
+  "breakdown": "After the detailed negotiation, Genesis returns to Sarah. Abraham lays his wife to rest in the cave he has purchased. The place-names connect her burial to the land where the family has lived and received God's promises. The legal arrangements serve this deeply personal moment of grief.",
+  "takeaway": "Abraham buries Sarah in the purchased cave."
+ },
+ "20": {
+  "scene": "The chapter closes by confirming that the field and its cave passed from the Hittites to Abraham as a burial property.",
+  "breakdown": "The final verse sounds like a legal summary, confirming the transfer once more. Abraham has a recognized family burial site in the land God promised, though he has not yet taken possession of the whole land. This property will matter again as the family story continues. Genesis ends by holding grief and the unfolding promise together.",
+  "takeaway": "Abraham's family now has a legally recognized burial place in Canaan."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
