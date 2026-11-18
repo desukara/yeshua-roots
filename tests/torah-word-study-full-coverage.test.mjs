@@ -39,7 +39,7 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.match(reader,/const corpusWords=chapterData\?\.words\?\.\[verse-1\]\|\|\[\]/);
  assert.match(reader,/hebrew&&corpusWords.length/);
  assert.match(reader,/corpusWords\.map/);
- assert.match(reader,/Word meanings are simple dictionary guides/);
+ assert.match(reader,/These are simple word meanings to help you read along/);
  assert.match(reader,/"H3318":"go out, come forth"/);
  assert.doesNotMatch(reader,/Meanings shown are brief dictionary glosses/);
  assert.match(reader,/shortGloss\(w.gloss,w.strong\)/);
