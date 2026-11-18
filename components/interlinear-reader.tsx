@@ -1949,7 +1949,89 @@ const plainGenesisFifteen:Record<number,PlainVerseStudy>={
   "takeaway": "The covenant chapter closes by naming the land's inhabitants."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen}};
+const plainGenesisSixteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Sarai has not had a child, and she has an Egyptian servant named Hagar.",
+  "breakdown": "God has promised Abram descendants, but the household is still living with Sarai's childlessness. Genesis now introduces Hagar, an Egyptian woman who serves Sarai. Hagar isn't just a convenient way to move Abram's story forward; she's a person whose life is about to be deeply affected by decisions made over her. The text doesn't tell us how she came into the household.",
+  "takeaway": "Sarai's childlessness and Hagar's vulnerable position set up the conflict."
+ },
+ "2": {
+  "scene": "Sarai tells Abram to have a child through Hagar, and Abram listens to her.",
+  "breakdown": "Sarai hopes to build a family through her servant because she has not been able to bear a child herself. Such arrangements existed in the ancient world, but that background doesn't erase the unequal power here: Hagar is enslaved and isn't shown being asked what she wants. Sarai also says the LORD has kept her from bearing children, which is how she understands her situation. Genesis reports their plan without saying God instructed them to do it.",
+  "takeaway": "Sarai and Abram make a plan that places Hagar's body and future under their control."
+ },
+ "3": {
+  "scene": "After ten years in Canaan, Sarai gives Hagar to Abram as a wife.",
+  "breakdown": "The passage marks how long Abram and Sarai have been waiting in the land. Sarai acts on the plan by giving Hagar to Abram, and the text uses marriage language for Hagar's new position. That doesn't make the relationship equal: Hagar remains a servant within a household where Sarai and Abram hold power. We should not read modern ideas of free romantic choice into this verse.",
+  "takeaway": "Hagar is brought into Abram's household as a wife, within an unequal arrangement."
+ },
+ "4": {
+  "scene": "Hagar becomes pregnant, and tension grows between her and Sarai.",
+  "breakdown": "The plan succeeds in producing a pregnancy, but it doesn't bring peace. Genesis says Hagar begins to look on Sarai with contempt, or that Sarai becomes diminished in her eyes; the wording describes a changed relationship without giving us every thought behind it. Hagar is pregnant while Sarai still has no child, and the household's power struggles intensify. We shouldn't use the conflict to excuse what happens to Hagar next.",
+  "takeaway": "Hagar's pregnancy exposes deep tension in the household."
+ },
+ "5": {
+  "scene": "Sarai blames Abram for the wrong she feels she has suffered and appeals to the LORD to judge between them.",
+  "breakdown": "Sarai is hurt and angry, and she turns that anger toward Abram. She says she gave Hagar into his arms and now feels treated with contempt. The accusation shows how quickly their arrangement has become painful for everyone involved. Sarai's distress is real, but it does not make mistreating Hagar acceptable.",
+  "takeaway": "Sarai confronts Abram as the household conflict escalates."
+ },
+ "6": {
+  "scene": "Abram tells Sarai that Hagar is in her power, and Sarai treats Hagar harshly until Hagar flees.",
+  "breakdown": "Abram steps back and leaves Hagar at Sarai's mercy. The text then uses a strong word for Sarai's harsh treatment, and Hagar runs away. Genesis doesn't give a detailed list of what Sarai did, so we shouldn't invent one; it does tell us enough to recognize serious mistreatment. Hagar's flight is a response to suffering, not proof that she is simply disobedient.",
+  "takeaway": "Hagar flees because Sarai treats her harshly and Abram fails to protect her."
+ },
+ "7": {
+  "scene": "The angel of the LORD finds Hagar by a spring in the wilderness on the road to Shur.",
+  "breakdown": "Hagar is now away from the household, out in the wilderness, and pregnant. The road toward Shur points in the direction of Egypt, though the verse doesn't say exactly where she planned to end up. The angel of the LORD finds her beside water. Notice who is sought out here: the woman who had been pushed to the margins of the story.",
+  "takeaway": "God's messenger finds Hagar in the wilderness."
+ },
+ "8": {
+  "scene": "The angel calls Hagar by name and asks where she has come from and where she is going; she says she is fleeing Sarai.",
+  "breakdown": "The angel addresses Hagar personally, but also calls her Sarai's servant, naming the painful situation she is in. Hagar answers honestly about where she has come from: she is running away from her mistress. She doesn't give an answer about where she's going. That silence fits the uncertainty of someone escaping harm without a clear destination.",
+  "takeaway": "Hagar is addressed by name and speaks about the mistreatment she is escaping."
+ },
+ "9": {
+  "scene": "The angel tells Hagar to return to Sarai and submit to her authority.",
+  "breakdown": "This is one of the hardest verses in the chapter. Hagar is told to go back to the very household where she was mistreated. We should not turn that into a general instruction that people suffering abuse must return to danger. The passage describes a specific encounter in Hagar's story; it doesn't explain away Sarai's cruelty or give us every reason for the command.",
+  "takeaway": "Hagar receives a difficult instruction that must not be used to excuse abuse."
+ },
+ "10": {
+  "scene": "The angel promises Hagar descendants too numerous to count.",
+  "breakdown": "God's messenger doesn't speak only about Abram's future; Hagar receives a promise concerning her own descendants. That matters because she has been treated as though her value lies only in what she can provide for someone else's family. The promise gives her and her child a future that reaches beyond this painful moment.",
+  "takeaway": "Hagar receives a personal promise of many descendants."
+ },
+ "11": {
+  "scene": "The angel says Hagar will have a son named Ishmael because the LORD has heard her suffering.",
+  "breakdown": "Hagar is told both the child's sex and his name. Ishmael is connected to the Hebrew idea that 'God hears,' and the reason given is that the LORD has heard Hagar's affliction. She hasn't been invisible to God, even though the people with power over her have treated her harshly. The name will carry that truth into the child's life.",
+  "takeaway": "Ishmael's name remembers that God heard Hagar's distress."
+ },
+ "12": {
+  "scene": "The angel describes Ishmael as a wild donkey of a man, with conflict surrounding him and his relatives.",
+  "breakdown": "The image is difficult for modern readers because it can sound like an insult. In its ancient setting, the wild donkey suggests a life that is untamed and hard to control, and the verse also speaks of struggle with others. It is a description of Ishmael's future, not permission to stereotype his descendants or treat any living people as naturally violent. We should let the ancient image stand without turning it into prejudice.",
+  "takeaway": "Ishmael's future is pictured as fiercely independent and marked by conflict."
+ },
+ "13": {
+  "scene": "Hagar gives a name to the LORD who spoke to her, recognizing Him as the God who sees her.",
+  "breakdown": "Hagar responds to the encounter with her own words about God. The Hebrew name often rendered 'El Roi' is associated with seeing, though the precise phrasing of Hagar's question is difficult to translate. What comes through clearly is her astonishment at being seen and addressed by God in her distress. Her response is one of the chapter's most personal moments.",
+  "takeaway": "Hagar recognizes that God has seen her in her suffering."
+ },
+ "14": {
+  "scene": "The well is called Beer-lahai-roi and is located between Kadesh and Bered.",
+  "breakdown": "The encounter becomes attached to a place-name. Beer-lahai-roi is often understood along the lines of 'well of the Living One who sees me,' though the Hebrew allows discussion about its exact nuance. The geographical markers place the well in the wilderness region. The name keeps Hagar's experience from disappearing when the story moves on.",
+  "takeaway": "The well's name preserves the memory of Hagar's encounter with God."
+ },
+ "15": {
+  "scene": "Hagar bears a son to Abram, and Abram names him Ishmael.",
+  "breakdown": "The promised child is born. Abram gives him the very name announced to Hagar by the angel, even though the text doesn't explain exactly how Abram learned that name. Notice that Genesis first told the promise directly to Hagar. Ishmael's birth is not an incidental detail; he is a real son with a future in the biblical story.",
+  "takeaway": "Hagar gives birth to Ishmael, the son God named in advance."
+ },
+ "16": {
+  "scene": "Abram is eighty-six years old when Hagar bears Ishmael.",
+  "breakdown": "The chapter closes with Abram's age, helping us place this event in the long wait for God's promise. Abram was seventy-five when he left Haran, and now he is eighty-six. Ishmael has been born, but the story of God's promise to Abram and Sarai is not finished. The next chapter will bring further words from God about the covenant.",
+  "takeaway": "Ishmael's birth marks a major moment, but Abram's story continues."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
