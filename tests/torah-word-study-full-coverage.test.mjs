@@ -63,7 +63,8 @@ test("cross-Torah search uses exact Strong's identifiers and bounded results",()
 test("plain-English Genesis explanations are reviewed, verse-specific, and silent",()=>{
  assert.match(reader,/plainGenesisOne:Record<number/);
  assert.match(reader,/Break It Down for Me/);
- assert.match(reader,/plainGenesisOne\[verse\]\.breakdown/);
+ assert.match(reader,/breakdown\.breakdown/);
+ assert.match(reader,/getTorahBreakdown\(book,chapter,verse\)/);
  assert.match(reader,/This is a study explanation, not a Bible translation/);
  assert.doesNotMatch(reader,/<audio|speechSynthesis|Audio\(/);
 });
