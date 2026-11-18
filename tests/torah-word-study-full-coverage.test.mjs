@@ -39,14 +39,16 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.match(reader,/const corpusWords=chapterData\?\.words\?\.\[verse-1\]\|\|\[\]/);
  assert.match(reader,/hebrew&&corpusWords.length/);
  assert.match(reader,/corpusWords\.map/);
- assert.match(reader,/Dictionary glosses describe possible lexical senses/);
- assert.match(reader,/A verified contextual translation is not available/);
+ assert.match(reader,/Meanings shown are brief dictionary glosses, not verified contextual translations/);
+ assert.match(reader,/shortGloss\(w.gloss,w.strong\)/);
+ assert.match(reader,/shortGloss\(corpusWord.gloss,corpusWord.strong\)/);
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
  assert.match(search,/const LIMIT=60/);
  assert.match(search,/strongNumber\(lemma\)!==strong/);
  assert.match(search,/matches\.length<LIMIT/);
  assert.match(search,/truncated:total>LIMIT/);
- assert.match(reader,/\/api\/torah\/word-search\?strong=/);
- assert.match(reader,/setBook\(match.book\);setChapter\(match.chapter\);setVerse\(match.verse\)/);
+ assert.doesNotMatch(reader,/\/api\/torah\/word-search\?strong=/);
+ assert.doesNotMatch(reader,/Other Torah occurrences/);
+ assert.doesNotMatch(reader,/torah-cross-references/);
 });
