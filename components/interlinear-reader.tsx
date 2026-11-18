@@ -2335,7 +2335,199 @@ const plainGenesisEighteen:Record<number,PlainVerseStudy>={
   "takeaway": "Abraham's appeal ends, and the outcome awaits the next chapter."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen}};
+const plainGenesisNineteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Two angels arrive in Sodom in the evening, and Lot is sitting at the city gate; he rises and bows to greet them.",
+  "breakdown": "Genesis 18 left the visitors heading toward Sodom. Now the text identifies the two who arrive as angels. The city gate was a place where people gathered and conducted business, so Lot's presence there places him in the city's public life. He greets the newcomers respectfully, just as Abraham welcomed visitors in the previous chapter.",
+  "takeaway": "Two angelic visitors reach Sodom, and Lot receives them."
+ },
+ "2": {
+  "scene": "Lot invites the visitors to stay in his home, wash their feet, and leave early the next morning, but they initially say they will spend the night in the square.",
+  "breakdown": "Lot offers shelter and the ordinary care travelers need. Their first response suggests they could remain outside, but Lot doesn't leave it there. Given what happens later, his concern about their safety becomes understandable. The verse doesn't yet explain what the visitors intend to do in the city.",
+  "takeaway": "Lot offers the strangers a safer place to spend the night."
+ },
+ "3": {
+  "scene": "Lot strongly urges the visitors to come home with him, and he prepares a meal with unleavened bread.",
+  "breakdown": "Lot persists until the visitors accept his invitation. He gives them food and a place to stay, extending hospitality in a city the previous chapter described as deeply troubled. The unleavened bread is simply part of this meal; the verse doesn't identify it as a Passover observance, which comes much later in the Torah.",
+  "takeaway": "Lot brings the visitors into his home and feeds them."
+ },
+ "4": {
+  "scene": "Before the visitors go to sleep, men from across Sodom, young and old, surround Lot's house.",
+  "breakdown": "The scene changes sharply from hospitality to intimidation. The narrator emphasizes the breadth of the crowd, portraying the city's wrongdoing as a public crisis, not merely one private dispute. The crowd gathers around the house where the guests are staying, making the threat immediate.",
+  "takeaway": "A threatening crowd surrounds Lot's home."
+ },
+ "5": {
+  "scene": "The crowd demands that Lot bring out the men staying with him so they can 'know' them.",
+  "breakdown": "In some passages the Hebrew verb 'know' means ordinary acquaintance, but the surrounding threats and Lot's reply show that this demand is sexual and coercive. The crowd is seeking to assault the visitors, not simply introduce themselves. This is a scene of attempted sexual violence and abuse of strangers, and we should not soften that reality.",
+  "takeaway": "The crowd threatens the visitors with sexual violence."
+ },
+ "6": {
+  "scene": "Lot goes outside, closes the door behind him, and asks the crowd not to do such wickedness.",
+  "breakdown": "Lot steps between the mob and his guests. He names their intended action as evil, which the story clearly supports. But his attempt to intervene is about to take a deeply disturbing turn. Recognizing the mob's wrongdoing does not mean every choice Lot makes in response is right.",
+  "takeaway": "Lot confronts the mob and condemns its intended attack."
+ },
+ "7": {
+  "scene": "Lot offers his two daughters, who have not had sexual relations, to the crowd instead of the visitors.",
+  "breakdown": "This is a horrifying proposal. Lot attempts to protect his guests by offering his daughters to men threatening sexual violence. Genesis records his words; it does not tell us God approves them. His daughters' safety and dignity matter every bit as much as the guests', and hospitality cannot justify sacrificing them.",
+  "takeaway": "Lot's offer puts his daughters in danger and must not be defended as righteous."
+ },
+ "8": {
+  "scene": "Lot pleads with the crowd not to harm the guests because they have come under his roof.",
+  "breakdown": "Lot appeals to his duty as a host, a serious obligation in his culture. But that duty cannot excuse what he has just proposed doing to his daughters. The verse helps us understand Lot's reasoning without requiring us to accept it as morally sound. The crowd remains hostile.",
+  "takeaway": "Lot appeals to hospitality while the threat continues."
+ },
+ "9": {
+  "scene": "The crowd tells Lot to get out of the way, calls him an outsider who acts like a judge, and threatens him more severely than the visitors.",
+  "breakdown": "The mob turns on Lot when he challenges them. They resent someone they regard as a foreigner telling them what is wrong. Their words show contempt for both the strangers inside and the man trying to stop them. The situation escalates from threats to a physical attack on the door.",
+  "takeaway": "The crowd threatens Lot and moves to force its way inside."
+ },
+ "10": {
+  "scene": "The visitors reach out, pull Lot into the house, and shut the door.",
+  "breakdown": "Lot can no longer hold the mob back. The visitors intervene directly and bring him to safety. Their action shows that Lot's desperate bargaining was not what ultimately protected the household. The danger outside is still present, but the guests now take control of the situation.",
+  "takeaway": "The visitors rescue Lot from the attacking crowd."
+ },
+ "11": {
+  "scene": "The visitors strike the men at the doorway with blindness or a blinding confusion, leaving them unable to find the entrance.",
+  "breakdown": "The Hebrew term describes a disabling condition that prevents the attackers from locating the door. Translators sometimes render it 'blindness,' while others emphasize bewilderment or dazzling. Either way, the mob is stopped from carrying out its assault. The verse doesn't invite us to celebrate their suffering; it shows the attack being interrupted.",
+  "takeaway": "The attackers are prevented from entering the house."
+ },
+ "12": {
+  "scene": "The visitors ask Lot whether he has other family in the city and tell him to bring them out because judgment is coming.",
+  "breakdown": "The angels now explain that Sodom is in immediate danger. They mention sons-in-law, sons, daughters, and anyone else Lot has in the city, widening the concern beyond the people in his house. The urgent instruction is to get loved ones out before destruction arrives.",
+  "takeaway": "Lot is warned to gather his family and leave Sodom."
+ },
+ "13": {
+  "scene": "The visitors say the outcry against the city has become great before the LORD and that He has sent them to destroy it.",
+  "breakdown": "This connects directly to Genesis 18, where God spoke of the grave outcry against Sodom. The destruction isn't presented as a sudden mood swing; it follows the account of serious wrongdoing and divine examination. The attempted assault at Lot's house has shown the reader how dangerous the city has become.",
+  "takeaway": "The angels connect Sodom's coming judgment with the outcry against it."
+ },
+ "14": {
+  "scene": "Lot warns the men engaged to his daughters that the LORD is about to destroy the city, but they think he is joking.",
+  "breakdown": "Lot tries to alert the men connected to his family. The Hebrew term can refer to sons-in-law and is often understood here as men pledged to marry his daughters, given the earlier description of the daughters. They don't take the warning seriously. The text doesn't tell us everything they believed; it shows that they do not respond to Lot's urgency.",
+  "takeaway": "Lot's warning is dismissed by the men connected to his daughters."
+ },
+ "15": {
+  "scene": "At dawn the angels urge Lot to take his wife and two daughters and leave before the city is punished.",
+  "breakdown": "Morning arrives, and the warning becomes an urgent command. The angels name the family members who are still with Lot. The emphasis is on leaving immediately, not gathering possessions or negotiating more time. The danger is close enough that delay could cost their lives.",
+  "takeaway": "The angels tell Lot's household to escape without delay."
+ },
+ "16": {
+  "scene": "Lot hesitates, so the angels take him, his wife, and his daughters by the hand and lead them outside because the LORD is merciful to him.",
+  "breakdown": "Lot doesn't move quickly even after repeated warnings. Genesis doesn't say exactly why he lingers, so we shouldn't invent a single motive. The angels physically lead the family out, and the narrator explicitly calls this an act of the LORD's mercy. Their rescue begins with help they did not manage to secure on their own.",
+  "takeaway": "God's mercy is shown as the angels lead the hesitant family out."
+ },
+ "17": {
+  "scene": "Once outside, Lot is told to flee for his life, not look back or stop in the plain, and escape to the hills.",
+  "breakdown": "The instructions are clear and urgent. Staying in the doomed area is dangerous, and looking back is specifically forbidden. The command isn't presented as a general rule that people must never remember painful places. It is a direction given to this family during an immediate escape.",
+  "takeaway": "Lot is told to keep moving away from the coming destruction."
+ },
+ "18": {
+  "scene": "Lot begs not to be sent to the hills, addressing the messenger as his lord.",
+  "breakdown": "Lot responds with fear rather than immediate obedience to the direction given. He has been brought out alive, yet he worries about the next stage of the escape. The passage lets us hear that anxiety instead of pretending rescue makes a person instantly fearless.",
+  "takeaway": "Lot pleads for a different place to escape."
+ },
+ "19": {
+  "scene": "Lot acknowledges the kindness shown to him but says he fears disaster will overtake him in the hills.",
+  "breakdown": "Lot knows his life has been spared. Still, he believes the journey into the hills could expose him to another danger. The text reports his fear without confirming that the hills really would kill him. He is asking for a solution that feels manageable to him.",
+  "takeaway": "Lot fears he will not survive the journey to the hills."
+ },
+ "20": {
+  "scene": "Lot points to a nearby small town and asks permission to flee there instead.",
+  "breakdown": "Lot proposes a concrete alternative: a town close enough to reach quickly. He emphasizes how small it is, as if that might make the request easier to grant. This town will be associated with the name Zoar, which echoes the Hebrew word for 'small.'",
+  "takeaway": "Lot asks to escape to a nearby small town."
+ },
+ "21": {
+  "scene": "The messenger grants Lot's request and says the town he named will not be overthrown.",
+  "breakdown": "Lot receives an answer to his plea. The nearby town is spared in connection with his escape, showing mercy within a scene of judgment. The text doesn't say that the town was completely innocent; it says Lot's request is granted. That distinction matters when explaining why it survives.",
+  "takeaway": "The town Lot chooses is spared so he can escape there."
+ },
+ "22": {
+  "scene": "Lot is told to hurry because the destruction will not begin until he reaches the town; it is called Zoar.",
+  "breakdown": "The urgency continues, but Lot is also assured that his arrival matters to the timing. The name Zoar is linked in the story to the town's smallness. The point isn't that Lot controls God; it's that the messengers are ensuring the rescue is completed before the judgment falls.",
+  "takeaway": "Lot must reach Zoar before the destruction begins."
+ },
+ "23": {
+  "scene": "The sun has risen when Lot arrives in Zoar.",
+  "breakdown": "This short verse fixes the sequence of events. Lot left Sodom around dawn, and by sunrise he has reached the place of refuge. The next verse describes what happens to the cities he has escaped. The timing makes clear that his departure and the judgment are closely connected.",
+  "takeaway": "Lot reaches safety as the day begins."
+ },
+ "24": {
+  "scene": "The LORD rains sulfur and fire from heaven on Sodom and Gomorrah.",
+  "breakdown": "Genesis describes devastating judgment on the cities. The language is forceful and frightening, and the text attributes the destruction to the LORD. People debate whether natural phenomena were involved, but this verse doesn't give a scientific account of the mechanism. We should state what the passage says without inventing details about explosions or geology.",
+  "takeaway": "Sodom and Gomorrah are destroyed in the judgment described by Genesis."
+ },
+ "25": {
+  "scene": "The destruction overtakes the cities, the plain, their inhabitants, and the vegetation.",
+  "breakdown": "The effects extend beyond buildings. Genesis portrays a catastrophe affecting the settled region and the life growing there. The verse is not an invitation to minimize the loss of life, even when the story has described serious wickedness. It presents judgment as terrible and far-reaching.",
+  "takeaway": "The destruction devastates the region and its inhabitants."
+ },
+ "26": {
+  "scene": "Lot's wife looks back and becomes a pillar of salt.",
+  "breakdown": "The text gives a brief, haunting account of what happens to Lot's wife after the warning not to look back. It doesn't tell us her private thoughts or whether she turned out of longing, grief, or curiosity. Those explanations are common in retellings, but Genesis doesn't supply them. Her loss should be treated seriously rather than turned into a joke or a simple stereotype.",
+  "takeaway": "Lot's wife looks back against the warning and dies."
+ },
+ "27": {
+  "scene": "Early in the morning Abraham returns to the place where he had stood before the LORD.",
+  "breakdown": "The story returns to Abraham, who pleaded for the city in chapter 18. He goes back to the place associated with that conversation. Genesis doesn't say what he expects to see. The movement connects the destruction to his earlier questions about justice and mercy.",
+  "takeaway": "Abraham returns to the place of his appeal to God."
+ },
+ "28": {
+  "scene": "Abraham looks toward Sodom and Gomorrah and sees smoke rising from the land like smoke from a furnace.",
+  "breakdown": "From a distance Abraham witnesses the aftermath. The furnace comparison conveys the scale of the devastation. The text doesn't report his spoken reaction or tell us whether he knows exactly who escaped. It leaves the sight to speak for itself.",
+  "takeaway": "Abraham sees the terrible aftermath of the cities' destruction."
+ },
+ "29": {
+  "scene": "Genesis says God remembered Abraham and sent Lot out of the catastrophe when the cities were overthrown.",
+  "breakdown": "'Remembered' here means God acted with regard to Abraham; it doesn't mean God had forgotten him and suddenly recalled his name. The verse ties Lot's rescue to the relationship and conversation with Abraham. It also makes clear that Lot's survival was not simply a matter of his own quick thinking.",
+  "takeaway": "Lot's rescue is connected to God's regard for Abraham."
+ },
+ "30": {
+  "scene": "Lot leaves Zoar and lives in a cave in the hills with his two daughters because he is afraid to remain in Zoar.",
+  "breakdown": "Lot ends up in the hills he had earlier feared, but now he lives there in isolation with his daughters. The verse says he is afraid to stay in Zoar, without giving the full reason. Their family has survived a catastrophe and lost Lot's wife, yet the story does not end with a settled, peaceful home.",
+  "takeaway": "Lot and his daughters live in isolation after escaping the destruction."
+ },
+ "31": {
+  "scene": "The older daughter tells the younger that their father is old and that no man is available to them in the usual way.",
+  "breakdown": "The daughters begin discussing their future. They believe they have no access to husbands or partners, though the text doesn't prove there are no men anywhere on earth. Their isolation and the disaster they've survived shape the conversation. We should report their perception without claiming their conclusion is objectively true.",
+  "takeaway": "The daughters fear they have no path to having children."
+ },
+ "32": {
+  "scene": "The older daughter proposes getting their father drunk and having sex with him so they can produce descendants.",
+  "breakdown": "This is a disturbing plan involving incest and a father made unable to give meaningful consent. Genesis reports the daughters' proposal; it does not endorse it. The phrase about preserving offspring explains their stated motive, but fear about the future does not make the act right. We should describe the coercion plainly without sensational detail.",
+  "takeaway": "The daughters plan a sexual violation of their intoxicated father."
+ },
+ "33": {
+  "scene": "That night the daughters give Lot wine, and the older daughter has sex with him while he is unaware of her coming and going.",
+  "breakdown": "The text stresses Lot's lack of awareness. He is intoxicated and cannot meaningfully consent to what happens. The older daughter carries out the plan she proposed. Genesis gives the event without graphic elaboration or praise; the ethical seriousness should not be hidden.",
+  "takeaway": "The older daughter carries out the plan while Lot is incapacitated."
+ },
+ "34": {
+  "scene": "The next day the older daughter tells the younger what happened and proposes repeating the plan with her.",
+  "breakdown": "The plan is not an isolated misunderstanding. The older daughter deliberately tells her sister to do the same thing the following night. Their stated goal remains producing descendants through their father. The passage gives us their reasoning, but it does not ask us to approve their actions.",
+  "takeaway": "The older daughter urges her sister to repeat the violation."
+ },
+ "35": {
+  "scene": "They give Lot wine again, and the younger daughter has sex with him while he remains unaware of her coming and going.",
+  "breakdown": "The younger daughter follows the plan on the second night. Again the text emphasizes that Lot does not know what is happening. This is sexual activity without his meaningful consent, regardless of the daughters' stated intentions. The narration is brief, and our explanation should be equally clear without adding invented details.",
+  "takeaway": "The younger daughter also violates Lot while he is incapacitated."
+ },
+ "36": {
+  "scene": "Both of Lot's daughters become pregnant by their father.",
+  "breakdown": "The consequences of the two nights are now stated. Genesis doesn't describe the daughters' feelings afterward or Lot's response when he learns of the pregnancies. It simply reports that both become pregnant. The following verses explain why this family story is included in the larger history.",
+  "takeaway": "Both daughters conceive children through the events in the cave."
+ },
+ "37": {
+  "scene": "The older daughter bears a son named Moab, identified as the ancestor of the Moabites.",
+  "breakdown": "The story connects the older daughter's son with the people later known as the Moabites. The name is often associated in the narrative with the idea of 'from father,' though name explanations can involve wordplay rather than a complete linguistic history. The verse is an origin story for a neighboring people, not permission to treat their descendants with contempt.",
+  "takeaway": "Moab is introduced as the ancestor of the Moabites."
+ },
+ "38": {
+  "scene": "The younger daughter bears a son named Ben-ammi, identified as the ancestor of the Ammonites.",
+  "breakdown": "The younger daughter's son is linked with the Ammonites, another people who appear later in the Bible. Ben-ammi can be understood as 'son of my people' or 'son of my kin,' fitting the story's family setting. Genesis closes the chapter by connecting these births to Israel's future neighbors. Describing this troubling origin account should never become an excuse for prejudice against a people.",
+  "takeaway": "Ben-ammi is introduced as the ancestor of the Ammonites."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
