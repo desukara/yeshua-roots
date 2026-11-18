@@ -943,7 +943,119 @@ const plainGenesisSeven:Record<number,PlainVerseStudy>={
   "takeaway": "The floodwaters remain high long after the rain begins."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven}};
+const plainGenesisEight:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "God remembers Noah and the animals with him in the ark, and sends a wind across the earth so the waters begin to go down.",
+  "breakdown": "When Genesis says God 'remembered' Noah, it doesn't mean Noah slipped God's mind. In Bible language, remembering often means turning attention toward someone and acting on their behalf. The same God who brought the flood now sends a wind over the waters. After all that time shut inside the ark, the story finally turns toward relief.",
+  "takeaway": "God acts to preserve Noah and begin bringing the flood to an end."
+ },
+ "2": {
+  "scene": "The fountains of the deep and the windows of heaven close, and the rain is held back.",
+  "breakdown": "Chapter 7 described water bursting up from below and pouring down from above. Now those sources are shut. The rain stops, but that doesn't mean the earth is instantly dry. There is still an enormous amount of water that has to recede.",
+  "takeaway": "The sources of the floodwaters are stopped."
+ },
+ "3": {
+  "scene": "The waters steadily retreat from the earth, and after 150 days they have decreased.",
+  "breakdown": "The flood isn't undone in a moment. Genesis describes the water gradually pulling back. The 150 days connect with the period mentioned at the end of chapter 7; we shouldn't automatically add them as if the story is talking about two separate stretches of 150 days.",
+  "takeaway": "The floodwaters begin a long, gradual retreat."
+ },
+ "4": {
+  "scene": "The ark comes to rest on the mountains of Ararat on the seventeenth day of the seventh month.",
+  "breakdown": "At last the ark stops drifting. Notice that Genesis says the 'mountains of Ararat,' not the single modern peak people often call Mount Ararat. Ararat is the name of a wider region in the biblical world. The verse tells us where the ark rests in broad terms, not an exact location we can prove today.",
+  "takeaway": "The ark comes to rest in the mountains of Ararat."
+ },
+ "5": {
+  "scene": "The waters keep dropping, and on the first day of the tenth month the mountaintops become visible.",
+  "breakdown": "The ark has already come to rest, but the water is still high. Now the tops of mountains begin showing above it. That's another sign of progress, yet it doesn't mean Noah can safely walk out. The land is emerging little by little.",
+  "takeaway": "More land appears as the water continues to fall."
+ },
+ "6": {
+  "scene": "After forty days, Noah opens the window he made in the ark.",
+  "breakdown": "Noah has been waiting through a long flood and a slow retreat of the waters. Now he opens a window. The verse doesn't say he's leaving the ark yet. He's about to send out birds to find out more about the conditions outside.",
+  "takeaway": "Noah begins checking what the world outside is like."
+ },
+ "7": {
+  "scene": "Noah sends out a raven, which keeps going back and forth until the waters dry up.",
+  "breakdown": "The raven is the first bird Noah releases. The text says it goes out and moves about as the waters continue to recede. It doesn't give us a detailed account of where the raven lands or what it eats. We don't need to invent those details to understand that Noah is watching for signs of change.",
+  "takeaway": "Noah releases a raven while the earth is still drying."
+ },
+ "8": {
+  "scene": "Noah sends out a dove to see whether the waters have gone down from the ground.",
+  "breakdown": "The dove has a specific purpose in the story: Noah wants to know whether the water has receded enough for the land to be usable. He can't simply see everything from inside the ark. Sending the bird is one way he checks the conditions.",
+  "takeaway": "Noah uses the dove to test whether the land is emerging."
+ },
+ "9": {
+  "scene": "The dove finds nowhere to rest and returns to the ark; Noah brings it back inside.",
+  "breakdown": "The dove comes back because water still covers the surface of the ground, leaving no suitable resting place for it. Noah reaches out and takes the bird back into the ark. That's a small, vivid scene: the world outside isn't ready yet, and the dove returns to safety.",
+  "takeaway": "The dove's return shows the land is not yet ready."
+ },
+ "10": {
+  "scene": "Noah waits seven more days and sends the dove out again.",
+  "breakdown": "Instead of rushing out because the water has started dropping, Noah waits and checks again. The verse gives a seven-day interval between the dove's trips. The story is moving forward, but carefully, one sign at a time.",
+  "takeaway": "Noah waits before checking the land again."
+ },
+ "11": {
+  "scene": "The dove returns in the evening with a freshly plucked olive leaf in its beak.",
+  "breakdown": "Now Noah receives a different sign. The olive leaf shows that vegetation is accessible outside the ark. It's an encouraging moment, but it doesn't mean the ground is already dry enough for everyone to leave. Noah understands from the leaf that the waters have gone down.",
+  "takeaway": "The olive leaf shows that the waters have receded further."
+ },
+ "12": {
+  "scene": "Noah waits another seven days and sends out the dove, which does not return.",
+  "breakdown": "This time the bird stays away. That's a stronger sign that conditions outside have changed. Still, Genesis doesn't say Noah immediately opens the door and leads everyone out. The story keeps a distinction between signs of drying land and God's later command to leave.",
+  "takeaway": "The dove's failure to return suggests the land can now support it."
+ },
+ "13": {
+  "scene": "In Noah's 601st year, on the first day of the first month, the surface of the ground is drying; Noah removes the ark's covering and looks out.",
+  "breakdown": "The date shows how long this whole experience has lasted. Noah removes the covering and sees the ground drying. But there's a difference between the surface looking dry and the earth being fully dry. The next verse gives a later date for that.",
+  "takeaway": "Noah sees drying ground, but the time to leave has not yet come."
+ },
+ "14": {
+  "scene": "By the twenty-seventh day of the second month, the earth is dry.",
+  "breakdown": "Genesis gives another date, later than the one in verse 13. The drying process is complete enough for the story to move on. The waiting has been long, and now the conditions outside are different from when the ark first came to rest.",
+  "takeaway": "The earth has dried after the flood."
+ },
+ "15": {
+  "scene": "God speaks to Noah again.",
+  "breakdown": "This short verse matters because Noah doesn't decide everything based only on what he can see through the window. God is about to give the instruction that ends their time inside the ark. After so much waiting, a new command comes.",
+  "takeaway": "God speaks at the moment the family is ready to leave."
+ },
+ "16": {
+  "scene": "God tells Noah to come out of the ark with his wife, his sons, and their wives.",
+  "breakdown": "The same household that entered together is now told to leave together. The verse makes it clear that surviving the flood isn't the end of their story. They're being sent back into the world to live there again.",
+  "takeaway": "God tells Noah and his family to leave the ark."
+ },
+ "17": {
+  "scene": "God tells Noah to bring out the animals so they can spread across the earth and multiply.",
+  "breakdown": "The rescue wasn't only about keeping creatures alive inside a boat. It was about life continuing afterward. Birds, livestock, and ground-moving creatures are to come out and reproduce across the earth. The language echoes the blessing of multiplying from the creation account.",
+  "takeaway": "The animals are released so life can spread again."
+ },
+ "18": {
+  "scene": "Noah comes out of the ark with his sons, his wife, and his sons' wives.",
+  "breakdown": "Noah follows God's command. The family that spent the flood inside the ark steps out into a changed world. Genesis doesn't give us their first conversations or describe every feeling they had. It simply shows them leaving as instructed.",
+  "takeaway": "Noah and his household leave the ark."
+ },
+ "19": {
+  "scene": "The animals and birds come out of the ark, each according to its kind.",
+  "breakdown": "The living creatures also leave the ark. The repeated mention of their kinds connects the scene back to God's instructions for preserving them. What was kept alive through the flood is now returning to life on the land.",
+  "takeaway": "The preserved creatures come out into the world."
+ },
+ "20": {
+  "scene": "Noah builds an altar to the LORD and offers burnt offerings from clean animals and clean birds.",
+  "breakdown": "The first action Genesis records from Noah after leaving the ark is worship. He builds an altar and makes offerings from animals described as clean. This also helps explain why chapter 7 included extra clean animals. The text doesn't say Noah is paying God back for rescue; it presents his response through sacrifice.",
+  "takeaway": "Noah responds to his survival by offering worship to the LORD."
+ },
+ "21": {
+  "scene": "The LORD smells the pleasing aroma and says in His heart that He will not again curse the ground because of humanity, or strike down every living thing as He has done.",
+  "breakdown": "The language of a 'pleasing aroma' describes God's favorable reception of the offering in a way people can understand. But notice something surprising: God says the human heart is inclined toward evil from youth. Humanity hasn't suddenly become perfect. Even so, God declares He will not repeat this kind of sweeping destruction. The wording about cursing the ground needs to be read with the next chapter's covenant, not treated as a promise that all suffering or judgment has ended.",
+  "takeaway": "God declares He will not repeat the flood's destruction of living things."
+ },
+ "22": {
+  "scene": "God says that while the earth remains, seedtime and harvest, cold and heat, summer and winter, day and night will not cease.",
+  "breakdown": "After the flood disrupted the world, God promises the continuing rhythms people depend on. Planting and harvesting, changing seasons, and day and night will go on while the earth endures. That doesn't mean every harvest will be easy or every season gentle. It means the ordinary cycles of life will continue.",
+  "takeaway": "God promises the ongoing rhythms that make life on earth possible."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
