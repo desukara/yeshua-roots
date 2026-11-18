@@ -10,39 +10,162 @@ function shortGloss(gloss:string|null,strong:string|null){const simple:Record<st
 // Short, hand-written explanations. Only verses reviewed here get this feature.
 type PlainVerseStudy={scene:string;breakdown:string;takeaway:string};
 const plainGenesisOne:Record<number,PlainVerseStudy>={
- 1:{scene:"The Bible opens by telling us that God created the heavens and the earth.",breakdown:"Before we hear about people, nations, or anything else, Genesis tells us where everything began. God is the Creator. That's the starting point for the story.",takeaway:"The story starts with God, not with us."},
- 2:{scene:"The earth hasn't been shaped and filled yet. Darkness covers the deep, and God's Spirit is moving over the waters.",breakdown:"Picture a world that isn't ready for life as we know it. The land and seas haven't been put in order yet. But God is already there, and the story is about to show what He does next.",takeaway:"God is present even before the world takes the shape we recognize."},
- 3:{scene:"God speaks, and light appears.",breakdown:"God says, ‘Let there be light,’ and there is light. Genesis doesn't describe a struggle here. It shows God's command bringing about what He says.",takeaway:"In this passage, God's word has the power to bring light into creation."},
- 4:{scene:"God sees that the light is good, and He separates the light from the darkness.",breakdown:"The light has appeared, and now God gives it a place in the world He's making. He calls the light good and separates it from the darkness. The story is showing creation taking shape, one step at a time.",takeaway:"God is bringing order to His creation."},
- 5:{scene:"God calls the light Day and the darkness Night. Evening and morning mark the first day.",breakdown:"Now God gives names to what He's separated. Light is called Day, and darkness is called Night. Then Genesis marks the passing of the first day. The story is moving forward in a clear rhythm.",takeaway:"Day and night are part of the order God establishes."},
- 6:{scene:"God commands an expanse to separate the waters.",breakdown:"Next, God speaks about the waters. He calls for an expanse between them, making a division. Genesis is describing the world as its first readers understood it, while keeping the focus on God as the one giving creation its order.",takeaway:"The passage presents God as the one who sets boundaries in creation."},
- 7:{scene:"God makes the expanse and separates the waters below it from the waters above it.",breakdown:"The command from the verse before is carried out. The waters are divided by the expanse, just as God said. This verse doesn't introduce a new person or a new problem. It keeps showing God's work of arranging the world.",takeaway:"What God commands in the story is brought about."},
- 8:{scene:"God names the expanse Heaven, or sky, and the second day comes to a close.",breakdown:"Just as He named Day and Night, God now names the expanse. The second day ends with evening and morning. Notice how the story keeps the same pattern: God speaks, creation takes shape, and the day is marked.",takeaway:"The creation story is unfolding in an orderly pattern."},
- 9:{scene:"God tells the waters under the sky to gather together so dry ground can appear.",breakdown:"Up to this point, we've heard about light and sky. Now the land comes into view. God commands the waters to gather in one place, making room for dry ground. The world is becoming a place where life can grow.",takeaway:"God makes room for dry land."},
- 10:{scene:"God names the dry ground Earth and the gathered waters Seas, and He calls it good.",breakdown:"The land and seas have their places, and God gives them names. Then the verse tells us that God sees this part of creation as good. Genesis keeps showing us that what God is making has purpose and order.",takeaway:"The land and seas are part of God's good creation."},
- 11:{scene:"God commands the land to grow plants, seed-bearing vegetation, and fruit trees.",breakdown:"Now that dry land has appeared, God tells it to produce growing things. The verse talks about plants making seed and trees bearing fruit with seed inside. That means the plants can keep producing after their own kinds.",takeaway:"God fills the land with plants that can keep growing and producing."},
- 12:{scene:"The land brings forth plants and trees with seeds, and God sees that it is good.",breakdown:"What God commanded in the verse before now happens. Plants and trees appear, each producing seed according to its kind. And once again, Genesis tells us that God sees His work as good.",takeaway:"The land produces what God commanded."},
- 13:{scene:"Evening and morning mark the end of the third day.",breakdown:"This is the closing line for the third day. By now, the story has moved from light and sky to land, seas, and plants. The same evening-and-morning pattern keeps the account moving forward.",takeaway:"The third day of creation is complete."},
- 14:{scene:"God commands lights in the sky to separate day from night and mark times, days, and years.",breakdown:"Now the story turns to the lights in the sky. Genesis says they will distinguish day from night and help mark the passing of time. The verse also mentions appointed times, days, and years, showing how these lights serve a purpose in the ordered world.",takeaway:"The lights in the sky help mark time."},
- 15:{scene:"God says the lights in the sky will shine on the earth, and it happens.",breakdown:"The verse finishes the command from the line before. These lights aren't just there to mark time; they also give light to the earth. Genesis keeps its focus on God assigning each part of creation its work.",takeaway:"The heavenly lights are given a purpose for the earth."},
- 16:{scene:"God makes the greater light to govern the day, the lesser light to govern the night, and the stars.",breakdown:"Genesis now describes the lights that fill the sky. The greater light rules the day, and the lesser light rules the night. The stars are mentioned too. The focus stays on God as the maker of them all.",takeaway:"The lights of the sky are part of God's creation."},
- 17:{scene:"God places the lights in the expanse of the sky to shine on the earth.",breakdown:"The lights have been made, and now the story tells us where they belong. They shine from the sky onto the earth. This is another part of Genesis showing how creation is being arranged.",takeaway:"God gives the heavenly lights their place."},
- 18:{scene:"The lights govern day and night and separate light from darkness, and God sees that it is good.",breakdown:"These lights have a job: they mark the difference between day and night. The verse closes by saying God sees that this arrangement is good. The creation story keeps connecting order with goodness.",takeaway:"God calls this part of creation good."},
- 19:{scene:"Evening and morning mark the fourth day.",breakdown:"The fourth day comes to a close. The account has now described the lights in the sky and the work they do. Evening and morning keep marking the passing days.",takeaway:"The fourth day is complete."},
- 20:{scene:"God commands the waters to fill with living creatures and birds to fly above the earth.",breakdown:"The story turns from making spaces to filling them with life. The waters are to teem with creatures, and birds are to fly across the sky. The world is becoming full of movement.",takeaway:"God fills the waters and sky with life."},
- 21:{scene:"God creates great sea creatures, other water creatures, and birds, and He sees that it is good.",breakdown:"The creatures God commanded now appear. Genesis includes the great creatures of the sea, the living things moving through the water, and the birds. God looks at what He has made and calls it good.",takeaway:"Living creatures are part of God's good creation."},
- 22:{scene:"God blesses the creatures and tells them to multiply and fill the waters and the earth.",breakdown:"God doesn't only create these creatures; He blesses them with the ability to increase. The waters are to fill with life, and birds are to multiply on the earth. Life is meant to continue.",takeaway:"God blesses living creatures with fruitfulness."},
- 23:{scene:"Evening and morning mark the fifth day.",breakdown:"The fifth day ends after the creation and blessing of creatures in the waters and birds in the sky. The same pattern of days continues as the account moves toward the land creatures and humanity.",takeaway:"The fifth day is complete."},
- 24:{scene:"God commands the land to bring forth living creatures of different kinds.",breakdown:"Now the land is ready to be filled with animals. Genesis names livestock, creatures that move along the ground, and wild animals. Each appears according to its kind.",takeaway:"God calls living creatures to fill the land."},
- 25:{scene:"God makes the land animals according to their kinds and sees that it is good.",breakdown:"The animals God commanded are made: wild animals, livestock, and creatures that move along the ground. Once again, the verse says God sees that His work is good.",takeaway:"God calls the animals He made good."},
- 26:{scene:"God speaks of making humanity in His image and giving people responsibility over other living creatures.",breakdown:"This is a turning point in the account. People are not described in exactly the same way as the animals. Genesis says humanity is made in God's image and entrusted with responsibility over the living world. The verse is about both human dignity and human responsibility.",takeaway:"People are given dignity and responsibility as God's image-bearers."},
- 27:{scene:"God creates humanity in His image, male and female.",breakdown:"The verse repeats that human beings are created in God's image. It specifically includes both male and female. That means the dignity described here belongs to humanity, not just to one group.",takeaway:"Male and female alike bear God's image."},
- 28:{scene:"God blesses humanity and tells people to multiply, fill the earth, and exercise responsible rule.",breakdown:"God gives people a blessing and a calling. They are to have families, fill the earth, and care for the world placed under their authority. This responsibility follows the declaration that they bear God's image.",takeaway:"Humanity is blessed with a calling to live and act responsibly."},
- 29:{scene:"God gives seed-bearing plants and fruit trees to humanity for food.",breakdown:"After giving people their place in creation, God speaks about what they will eat. He gives them plants that produce seed and trees that bear fruit. The verse shows God's provision for human life.",takeaway:"God provides food for humanity."},
- 30:{scene:"God gives green plants as food for land animals and birds.",breakdown:"The provision of food extends beyond people. God also gives green plants to animals and birds. The account shows the Creator providing for the living creatures He has made.",takeaway:"God provides for the creatures of the earth."},
- 31:{scene:"God looks at everything He has made and calls it very good. The sixth day ends.",breakdown:"This is the closing judgment over the work described in Genesis 1. Earlier, individual parts of creation were called good. Now God looks at everything together and calls it very good. The sixth day comes to an end.",takeaway:"The whole creation is declared very good."}
+ "1": {
+  "scene": "The Bible opens with God creating the heavens and the earth.",
+  "breakdown": "Before we meet Adam, Noah, Abraham, or anybody else, Genesis tells us who everything comes from. The words 'heavens and earth' take in the whole created world. This opening line gives us the big picture; the verses that follow slow down and tell the creation story.",
+  "takeaway": "The story begins with God as Creator."
+ },
+ "2": {
+  "scene": "The earth is unformed and empty, darkness covers the deep waters, and God's Spirit is moving over the waters.",
+  "breakdown": "Nothing here looks like the world people live in yet. There's no dry land, no plants, and no people. But the darkness and deep waters don't mean God is absent. The story puts God's presence right there before the shaping and filling begin.",
+  "takeaway": "Before the world takes shape, God is already present."
+ },
+ "3": {
+  "scene": "God says, 'Let there be light,' and light appears.",
+  "breakdown": "Notice how simple the action is: God speaks, and what He says happens. Genesis doesn't tell us where the light comes from or explain the physics. It wants us to see that creation responds to God's command.",
+  "takeaway": "God speaks, and light appears."
+ },
+ "4": {
+  "scene": "God sees that the light is good and separates it from the darkness.",
+  "breakdown": "Light has appeared, but the story doesn't stop there. God distinguishes light from darkness, giving each its own place in the pattern of day and night. Calling the light 'good' is God's assessment of what He has made.",
+  "takeaway": "God calls the light good and gives it a place."
+ },
+ "5": {
+  "scene": "God names the light Day and the darkness Night; evening and morning mark the first day.",
+  "breakdown": "God doesn't just separate light and darkness; He names them. Then we hear the first 'evening and morning' refrain. You'll hear that rhythm again as the creation account moves through the days.",
+  "takeaway": "Day and night become part of the world's order."
+ },
+ "6": {
+  "scene": "God calls for an expanse between the waters to separate them.",
+  "breakdown": "Picture the scene the passage describes: waters below and waters above, with an expanse between them. The Hebrew word is often translated 'expanse' or 'firmament.' Rather than forcing modern science into this line, we should hear it as the ancient text describes the sky and its place in creation.",
+  "takeaway": "God establishes a separation between the waters."
+ },
+ "7": {
+  "scene": "God makes the expanse and separates the waters above from the waters below.",
+  "breakdown": "This verse tells us that the command from the previous verse happens. The expanse divides the waters just as God said. The emphasis is on God bringing structure to a world that was described as unformed.",
+  "takeaway": "The separation God commanded takes place."
+ },
+ "8": {
+  "scene": "God calls the expanse Heaven, or sky, and the second day ends.",
+  "breakdown": "The word translated 'heaven' here can refer to the sky. God gives the expanse a name, just as He named Day and Night. Then the account marks the end of day two with evening and morning.",
+  "takeaway": "The sky is named, and the second day closes."
+ },
+ "9": {
+  "scene": "God tells the waters below the sky to gather so dry land can appear.",
+  "breakdown": "Up to now, the scene has been full of water. God commands the waters to collect, and dry ground comes into view. That's a big change: now there's a place for the plants and land creatures we'll hear about next.",
+  "takeaway": "Dry ground appears as the waters gather."
+ },
+ "10": {
+  "scene": "God names the dry ground Earth and the gathered waters Seas, and He sees that it is good.",
+  "breakdown": "The land and the seas are no longer one watery scene. Each has its place and its name. God calls this arrangement good, continuing the chapter's pattern of showing creation as ordered and purposeful.",
+  "takeaway": "God names the land and seas and calls them good."
+ },
+ "11": {
+  "scene": "God tells the land to produce plants, seed-bearing vegetation, and fruit trees.",
+  "breakdown": "Now that land has appeared, life begins growing on it. Pay attention to the repeated mention of seeds. These aren't just plants for one moment; they're plants that can keep producing more plants and fruit.",
+  "takeaway": "The land is told to bring forth growing, reproducing life."
+ },
+ "12": {
+  "scene": "The land produces plants and trees with seeds, and God sees that it is good.",
+  "breakdown": "Here's the result of God's command in verse 11: vegetation grows, and the plants and trees produce seed according to their kinds. The account doesn't list every species. It highlights that the land now supports life that can continue.",
+  "takeaway": "The land brings forth the plant life God commanded."
+ },
+ "13": {
+  "scene": "Evening and morning mark the third day.",
+  "breakdown": "This short verse closes a busy day. The waters have gathered, dry land has appeared, and plants are growing. The repeated evening-and-morning line tells us this stage of the creation account is complete.",
+  "takeaway": "The third day comes to an end."
+ },
+ "14": {
+  "scene": "God calls for lights in the sky to divide day from night and mark appointed times, days, and years.",
+  "breakdown": "These lights have more than one job. They distinguish day from night, and they help people track time. 'Appointed times' can include set occasions or seasons. The verse tells us what the lights are for before the next verses describe them in more detail.",
+  "takeaway": "The heavenly lights are assigned to mark time."
+ },
+ "15": {
+  "scene": "God says the lights will shine from the sky onto the earth, and it happens.",
+  "breakdown": "Verse 14 talked about marking time. This verse adds another purpose: giving light to the earth. The short phrase 'and it was so' tells us the command takes effect.",
+  "takeaway": "The lights are meant to shine on the earth."
+ },
+ "16": {
+  "scene": "God makes the greater light for the day, the lesser light for the night, and the stars.",
+  "breakdown": "The passage describes what we know as the sun and moon by their roles rather than naming them. The greater light governs the day; the lesser one governs the night. And the stars are included too. None of them is presented as a god; they are things God made.",
+  "takeaway": "The sun, moon, and stars belong to God's creation."
+ },
+ "17": {
+  "scene": "God places the lights in the sky to shine on the earth.",
+  "breakdown": "After telling us what the lights are, Genesis says where they are placed and what they do. They shine from above onto the earth. It's a simple line, but it keeps the focus on a world being arranged for life.",
+  "takeaway": "The lights are placed to illuminate the earth."
+ },
+ "18": {
+  "scene": "The lights govern day and night, separate light from darkness, and God calls it good.",
+  "breakdown": "This verse brings the purpose of the lights together: they mark day and night and keep the two distinct. Then comes God's verdict: it is good. The story treats the lights as servants of a purpose, not powers to be worshiped.",
+  "takeaway": "God calls the work of the heavenly lights good."
+ },
+ "19": {
+  "scene": "Evening and morning mark the fourth day.",
+  "breakdown": "The account pauses again to close a day. The sky's lights have been described, along with their work of shining and marking time. Now the story moves on to living creatures.",
+  "takeaway": "The fourth day is complete."
+ },
+ "20": {
+  "scene": "God commands the waters to teem with living creatures and birds to fly above the earth.",
+  "breakdown": "Things are about to get lively. The waters won't just sit there; they'll be full of moving creatures. Birds will cross the sky. The spaces described earlier in the chapter are now being filled with life.",
+  "takeaway": "The waters and sky are about to fill with creatures."
+ },
+ "21": {
+  "scene": "God creates the great sea creatures, other water creatures, and birds, and sees that it is good.",
+  "breakdown": "Genesis includes the great creatures of the sea, the swarms of living things in the water, and birds of every kind. Even the biggest sea creatures are simply part of what God made. And once again, God calls His work good.",
+  "takeaway": "The creatures of the sea and sky are God's creation."
+ },
+ "22": {
+  "scene": "God blesses the sea creatures and birds and tells them to multiply.",
+  "breakdown": "This is the first time the chapter explicitly says God blesses living creatures. He tells the creatures in the water to fill the seas and the birds to multiply on the earth. The blessing looks forward to life continuing beyond the first creatures.",
+  "takeaway": "God blesses the creatures with the ability to multiply."
+ },
+ "23": {
+  "scene": "Evening and morning mark the fifth day.",
+  "breakdown": "The fifth day closes after the waters and skies have been filled with life. The account is getting closer to the creation of land animals and human beings.",
+  "takeaway": "The fifth day ends."
+ },
+ "24": {
+  "scene": "God tells the land to bring forth living creatures: livestock, crawling creatures, and wild animals.",
+  "breakdown": "Now it's the land's turn to be filled with moving life. The verse groups the animals in broad categories familiar to people: animals kept near humans, creatures that move along the ground, and wild animals. It's describing the spread of animal life, not giving a modern biology lesson.",
+  "takeaway": "God calls forth animal life on the land."
+ },
+ "25": {
+  "scene": "God makes the land animals according to their kinds and sees that it is good.",
+  "breakdown": "Verse 24 gave the command; this verse shows it carried out. Wild animals, livestock, and ground-moving creatures are all included. God looks at this part of His creation and calls it good.",
+  "takeaway": "God makes the land animals and calls them good."
+ },
+ "26": {
+  "scene": "God speaks of making humanity in His image and giving people authority over living creatures.",
+  "breakdown": "Here's a major shift. People are described as made in God's image, and they're given a role in relation to the animals and the earth. The verse doesn't spell out everything 'image' means, so we shouldn't pretend it does. But it clearly gives humanity a special responsibility within creation.",
+  "takeaway": "Being made in God's image comes with responsibility."
+ },
+ "27": {
+  "scene": "God creates humanity in His image, male and female.",
+  "breakdown": "The wording repeats 'image of God' so we don't miss it. Then it says God created them male and female. The point is not that only one kind of person reflects God. Both are included in the dignity this verse gives humanity.",
+  "takeaway": "Male and female are both made in God's image."
+ },
+ "28": {
+  "scene": "God blesses humanity and tells people to multiply, fill the earth, and exercise authority over it.",
+  "breakdown": "God's first words to humanity here are a blessing and a calling. People are to grow in number, fill the earth, and rule over other living things. Since the passage has just called people God's image-bearers, this authority isn't a blank check for cruelty. It is a serious responsibility.",
+  "takeaway": "Humanity receives both blessing and responsibility."
+ },
+ "29": {
+  "scene": "God gives seed-bearing plants and fruit trees to people for food.",
+  "breakdown": "After speaking about humanity's role, God addresses a basic need: food. He points to plants that bear seed and trees with fruit. The picture is of a Creator who provides for the people He has made.",
+  "takeaway": "God provides food for human life."
+ },
+ "30": {
+  "scene": "God gives green plants as food to land animals and birds.",
+  "breakdown": "The provision doesn't stop with human beings. The animals and birds are included too. This verse describes food for the living creatures of the earth within the creation picture of Genesis 1.",
+  "takeaway": "God provides for the other living creatures too."
+ },
+ "31": {
+  "scene": "God looks at everything He has made and calls it very good; the sixth day ends.",
+  "breakdown": "Earlier in the chapter, God called different parts of creation 'good.' Now He looks at everything together and calls it 'very good.' That doesn't mean the Bible's story is over; it means the work described in this chapter reaches its conclusion with God's approval.",
+  "takeaway": "God declares the whole completed creation very good."
+ }
 };
-// Every Torah book uses the same lookup. Add reviewed notes by book, chapter, and verse.
 const plainGenesisTwo:Record<number,PlainVerseStudy>={
  "1": {
   "scene": "The heavens and earth and everything in them are finished.",
