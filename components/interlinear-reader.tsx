@@ -1720,7 +1720,129 @@ const plainGenesisThirteen:Record<number,PlainVerseStudy>={
   "takeaway": "Abram settles near Hebron and worships the LORD."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen}};
+const plainGenesisFourteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Four kings—Amraphel of Shinar, Arioch of Ellasar, Chedorlaomer of Elam, and Tidal of Goiim—are introduced.",
+  "breakdown": "Genesis shifts into a conflict involving several rulers and their territories. These names can be hard to keep straight, so start with the main idea: four kings form one side of a coming war. The exact identification of some rulers and places is debated; we shouldn't pretend we can match every name confidently to a modern location.",
+  "takeaway": "Four kings are introduced as one side of a regional conflict."
+ },
+ "2": {
+  "scene": "Those four kings go to war against five kings, including the rulers of Sodom and Gomorrah.",
+  "breakdown": "Now we meet the opposing group: the kings of Sodom, Gomorrah, Admah, Zeboiim, and Bela, also called Zoar. These are city rulers, not five modern nation-states. Sodom matters especially because Lot settled near it in the previous chapter. A regional war is about to affect Abram's family.",
+  "takeaway": "Five kings, including Sodom's ruler, oppose the four."
+ },
+ "3": {
+  "scene": "The five kings gather their forces in the Valley of Siddim, identified with the Salt Sea.",
+  "breakdown": "The Valley of Siddim is the gathering place for the opposing kings. Genesis connects it with the Salt Sea, commonly called the Dead Sea. The verse gives the setting for the battle, but not enough detail to reconstruct every ancient shoreline or battlefield location.",
+  "takeaway": "The opposing kings assemble in the Valley of Siddim."
+ },
+ "4": {
+  "scene": "The five kings had served Chedorlaomer for twelve years, then rebelled in the thirteenth.",
+  "breakdown": "This explains why the war is happening. The five kings had been under Chedorlaomer's authority, probably involving tribute or political submission. After twelve years they refused to continue. What looks like a list of strange names is really a story about rebellion against a stronger ruler.",
+  "takeaway": "The war grows out of a rebellion against Chedorlaomer."
+ },
+ "5": {
+  "scene": "In the fourteenth year, Chedorlaomer and his allied kings defeat several peoples along their campaign route.",
+  "breakdown": "The four-king alliance doesn't head straight to Sodom. Genesis first describes victories over the Rephaim at Ashteroth-karnaim, the Zuzim in Ham, and the Emim at Shaveh-kiriathaim. These ancient names are difficult to identify precisely today. The point is that the invading army is powerful and has already beaten other groups.",
+  "takeaway": "The invading kings win battles before reaching the five rebels."
+ },
+ "6": {
+  "scene": "The invading kings also defeat the Horites in the hill country of Seir, pursuing them toward El-paran near the wilderness.",
+  "breakdown": "The campaign continues southward through another region. The Horites are an ancient people associated here with Seir. We aren't told what each battle looked like, but the repeated victories show the scale of the army's advance. The conflict is spreading across a broad area.",
+  "takeaway": "The invading alliance continues its successful campaign."
+ },
+ "7": {
+  "scene": "The kings turn back to En-mishpat, also called Kadesh, and strike the Amalekite territory and the Amorites at Hazazon-tamar.",
+  "breakdown": "The army changes direction and attacks more settlements. The reference to Amalekites can be understood as a later geographical label for the area, since Amalek's family appears later in Genesis. That's worth noting rather than forcing a timeline the verse doesn't explain. By now the alliance has swept through many territories.",
+  "takeaway": "The campaign reaches additional peoples and places before the main battle."
+ },
+ "8": {
+  "scene": "The kings of Sodom, Gomorrah, Admah, Zeboiim, and Bela march out to fight in the Valley of Siddim.",
+  "breakdown": "After hearing about the invaders' victories, the five kings finally face them. This verse names the local rulers again so we can follow who's involved. The scene is now set for the battle between the two alliances.",
+  "takeaway": "The five kings take the field against their attackers."
+ },
+ "9": {
+  "scene": "The five kings face Chedorlaomer and his three allied kings—four kings against five.",
+  "breakdown": "Genesis spells out the sides so the reader can keep the conflict straight. Five kings may sound like the stronger side, but numbers of rulers don't tell us the size or strength of their armies. The next verse shows how the battle goes.",
+  "takeaway": "The two alliances confront one another in battle."
+ },
+ "10": {
+  "scene": "The Valley of Siddim is full of bitumen pits; the kings of Sodom and Gomorrah flee, and others escape to the hills.",
+  "breakdown": "The ground itself makes the battle dangerous. The Hebrew describes pits of bitumen, a sticky natural substance used in building. The wording about the fleeing kings and who fell into the pits is not perfectly clear, so we shouldn't confidently claim both kings died there. What is clear is that their side is defeated and the survivors scatter.",
+  "takeaway": "The five-king alliance collapses amid a dangerous battlefield."
+ },
+ "11": {
+  "scene": "The victorious kings take the goods and food supplies of Sodom and Gomorrah and leave.",
+  "breakdown": "This is what defeat looks like for the cities: the attackers carry off their property and provisions. In the ancient world, taking goods after a battle was a common part of warfare. The verse sets up why Lot will be caught up in the disaster.",
+  "takeaway": "The invaders plunder Sodom and Gomorrah."
+ },
+ "12": {
+  "scene": "The attackers also take Lot, Abram's nephew, and his possessions because he is living in Sodom.",
+  "breakdown": "Here the regional war becomes personal for Abram. Lot chose the Jordan plain in chapter 13 and is now described as living in Sodom. When the city is plundered, he and his property are carried away too. The text doesn't say Lot fought in the war; he is caught in its consequences.",
+  "takeaway": "Lot is taken captive during the plundering of Sodom."
+ },
+ "13": {
+  "scene": "Someone who escaped reports the news to Abram the Hebrew, who is living near Mamre's oaks.",
+  "breakdown": "A survivor reaches Abram with the news. Genesis calls him 'Abram the Hebrew' here, one of the earliest uses of that description. Mamre, along with his brothers Eshcol and Aner, is described as allied with Abram. So Abram has relationships in the region, even though he lives in tents.",
+  "takeaway": "Abram learns that Lot has been captured."
+ },
+ "14": {
+  "scene": "Abram gathers 318 trained men born in his household and pursues the captors as far as Dan.",
+  "breakdown": "Abram doesn't ignore what happened to his nephew. He mobilizes men connected to his own household and sets off after the invading army. The number 318 is specific, but it doesn't mean these were the only people involved in every part of the pursuit. The place called Dan may reflect a later name familiar to Genesis's readers.",
+  "takeaway": "Abram organizes a rescue force and pursues Lot's captors."
+ },
+ "15": {
+  "scene": "Abram divides his forces for a nighttime attack, defeats the captors, and pursues them north of Damascus.",
+  "breakdown": "Abram uses surprise and coordination rather than confronting the army in a simple daytime showdown. The text says he attacks by night and chases the enemy as far as Hobah, north of Damascus. It doesn't give us every tactical detail. The important result is that the captors are driven back.",
+  "takeaway": "Abram defeats the raiders in a nighttime attack."
+ },
+ "16": {
+  "scene": "Abram recovers the stolen possessions and brings back Lot, the women, and the other people.",
+  "breakdown": "The rescue succeeds. Genesis emphasizes more than Lot's personal safety: Abram brings back the goods and the people who were taken. The mention of women and other captives reminds us that the war harmed whole households, not just kings and soldiers.",
+  "takeaway": "Abram brings the captives and their possessions back."
+ },
+ "17": {
+  "scene": "After Abram's victory, the king of Sodom comes out to meet him in the Valley of Shaveh, the King's Valley.",
+  "breakdown": "The battle is over, and now Abram meets the ruler whose city was plundered. This encounter will lead to an offer Abram refuses. But first, Genesis introduces another king who responds very differently. The story places these two meetings side by side.",
+  "takeaway": "The king of Sodom comes to meet Abram after the rescue."
+ },
+ "18": {
+  "scene": "Melchizedek, king of Salem and priest of God Most High, brings out bread and wine.",
+  "breakdown": "Melchizedek enters the story without a long introduction. He is both a king and a priest of 'God Most High'—in Hebrew, El Elyon. Salem is commonly connected with Jerusalem, though the verse itself simply calls it Salem. Later Scripture gives Melchizedek special significance, but here we should first hear what Genesis actually says: he brings provisions and meets Abram as a priestly king.",
+  "takeaway": "Melchizedek meets Abram as king of Salem and priest of God Most High."
+ },
+ "19": {
+  "scene": "Melchizedek blesses Abram in the name of God Most High, maker of heaven and earth.",
+  "breakdown": "Melchizedek doesn't praise Abram as if the victory came from Abram alone. He speaks a blessing over him and identifies God Most High as the creator of heaven and earth. This connects the blessing to the God who rules beyond any single city or battlefield.",
+  "takeaway": "Melchizedek blesses Abram in the name of the Creator."
+ },
+ "20": {
+  "scene": "Melchizedek praises God Most High for delivering Abram's enemies into his hand, and Abram gives him a tenth of everything.",
+  "breakdown": "The blessing turns into praise for God as the one who made the victory possible. Then Abram gives Melchizedek a tenth. The verse doesn't explain whether the tenth is taken from recovered goods or describe a standing law of tithing for all later believers. It records Abram's action in this encounter, and later readers should distinguish that event from later Torah instructions.",
+  "takeaway": "God receives the credit for the victory, and Abram gives Melchizedek a tenth."
+ },
+ "21": {
+  "scene": "The king of Sodom tells Abram to return the people but keep the goods.",
+  "breakdown": "Now the other king speaks. He wants the people back and offers Abram the recovered possessions. After a military victory, keeping goods might look like a reward. Abram's answer shows that he is thinking about more than how much wealth he can gain.",
+  "takeaway": "The king of Sodom offers Abram the recovered property."
+ },
+ "22": {
+  "scene": "Abram says he has raised his hand in an oath to the LORD, God Most High, maker of heaven and earth.",
+  "breakdown": "Abram responds with the language of a solemn oath. He identifies the LORD with 'God Most High,' the title Melchizedek just used, and calls Him maker of heaven and earth. Abram's decision about the goods is grounded in his commitment to God.",
+  "takeaway": "Abram invokes the LORD as he explains his refusal."
+ },
+ "23": {
+  "scene": "Abram says he will take nothing belonging to the king of Sodom—not even a thread or sandal strap—so the king cannot claim to have made Abram rich.",
+  "breakdown": "Abram refuses to let the king of Sodom take credit for his prosperity. The small items he names make the refusal emphatic: he doesn't want even a token possession from the king. This isn't a blanket rule that accepting payment is always wrong. It's Abram's choice in this particular situation to protect the meaning of his relationship with God.",
+  "takeaway": "Abram refuses the king's goods so no one can claim credit for his wealth."
+ },
+ "24": {
+  "scene": "Abram makes an exception for food already eaten and for the rightful shares of Aner, Eshcol, and Mamre.",
+  "breakdown": "Abram's oath concerns what he himself will take. He doesn't pretend the men who helped him should have to follow his personal decision. The food consumed during the mission is also accounted for. That detail makes his refusal practical and fair rather than a show that ignores everyone else's needs.",
+  "takeaway": "Abram refuses a reward for himself while respecting his allies' shares."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
