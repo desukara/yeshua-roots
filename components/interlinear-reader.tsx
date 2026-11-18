@@ -1055,7 +1055,154 @@ const plainGenesisEight:Record<number,PlainVerseStudy>={
   "takeaway": "God promises the ongoing rhythms that make life on earth possible."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight}};
+const plainGenesisNine:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "God blesses Noah and his sons and tells them to have children, multiply, and fill the earth.",
+  "breakdown": "The flood is over, and God speaks to the family that survived. His words echo the blessing given to humanity in Genesis 1. The world has changed dramatically, but God's purpose for human life to continue hasn't disappeared. Noah's family is being sent into a new beginning.",
+  "takeaway": "God blesses Noah's family and calls them to fill the earth."
+ },
+ "2": {
+  "scene": "God says the animals, birds, and fish will fear human beings and be placed in their hands.",
+  "breakdown": "The relationship between people and other creatures is described differently from the peaceful picture at the start of Genesis. Fear and dread are now part of it. The phrase about animals being given into human hands speaks of human authority over them, but it doesn't mean cruelty is approved.",
+  "takeaway": "Humanity's relationship with animals now includes fear and authority."
+ },
+ "3": {
+  "scene": "God gives people living creatures for food, just as He had given plants.",
+  "breakdown": "In Genesis 1, the food instructions emphasized plants. Here God explicitly permits people to eat animals too. That is a change in what the story allows, not a command that everyone must eat meat. The next verse immediately places a boundary on how animal life is treated.",
+  "takeaway": "God permits eating animals, with an important restriction to follow."
+ },
+ "4": {
+  "scene": "God forbids eating meat with its lifeblood still in it.",
+  "breakdown": "Even when animals may be used for food, their blood is treated with special seriousness because it represents life. The instruction is about not consuming the blood along with the flesh. Later Torah laws will return to this connection between blood and life in greater detail.",
+  "takeaway": "Permission to eat meat does not erase respect for life."
+ },
+ "5": {
+  "scene": "God says He will require an accounting for human lifeblood, whether shed by an animal or another person.",
+  "breakdown": "The subject shifts from animal blood to human blood. God says the taking of human life will be answered for; neither animals nor people are outside that concern. This is the lead-in to the next verse, which explains why human life must be treated with such seriousness.",
+  "takeaway": "God holds the taking of human life accountable."
+ },
+ "6": {
+  "scene": "God declares that whoever sheds human blood will have their blood shed, because God made humanity in His image.",
+  "breakdown": "The verse ties the gravity of murder directly to human dignity. Human beings bear God's image, so taking a human life is no small offense. The wording has long been read as establishing a principle of justice for murder, though how societies apply punishment raises further questions. It is not a license for private revenge.",
+  "takeaway": "Human life is precious because people are made in God's image."
+ },
+ "7": {
+  "scene": "God again tells Noah and his sons to multiply and spread across the earth.",
+  "breakdown": "The command to fill the earth appears again after the warning about bloodshed. God isn't only setting limits on violence; He is also calling this family to build life beyond the ark. The repetition connects Noah's new beginning to humanity's original calling.",
+  "takeaway": "God wants human life to continue and spread."
+ },
+ "8": {
+  "scene": "God speaks to Noah and his sons.",
+  "breakdown": "This short verse introduces a major promise. The next lines aren't Noah bargaining for safety; God is the one speaking and taking the initiative. That matters because the covenant is presented as something God establishes.",
+  "takeaway": "God initiates the covenant that follows."
+ },
+ "9": {
+  "scene": "God says He is establishing His covenant with Noah, his sons, and their descendants.",
+  "breakdown": "The promise reaches beyond the people standing there. Noah's future descendants are included too. A covenant is a binding commitment, and here God says He is making one with the family through whom human life will continue.",
+  "takeaway": "God's covenant includes future generations."
+ },
+ "10": {
+  "scene": "God extends His covenant to the birds, livestock, wild animals, and every living creature that came out of the ark.",
+  "breakdown": "This promise is not only for people. The animals that survived the flood are also named. Genesis treats the living world as part of what God is committing to preserve. That's easy to miss if we think the covenant is only about Noah and his sons.",
+  "takeaway": "God includes living creatures in His covenant."
+ },
+ "11": {
+  "scene": "God promises never again to destroy all flesh by flood or send a flood to destroy the earth.",
+  "breakdown": "Here is the heart of the promise. God isn't saying there will never be another storm, local flood, or act of judgment. He is promising not to repeat the kind of world-destroying flood described in these chapters. The wording is broad because the judgment just described was broad.",
+  "takeaway": "God promises not to repeat the flood's sweeping destruction."
+ },
+ "12": {
+  "scene": "God introduces a sign of the covenant between Himself and every living creature for generations to come.",
+  "breakdown": "God doesn't leave the promise as words alone. He announces a visible sign that will point back to the covenant. The sign is meant to matter beyond Noah's lifetime, because the promise itself extends to future generations.",
+  "takeaway": "The covenant will have a sign for generations to come."
+ },
+ "13": {
+  "scene": "God says He has set His bow in the clouds as the sign of His covenant with the earth.",
+  "breakdown": "The Hebrew word for 'bow' can also mean a weapon used by an archer. Here it refers to the rainbow seen in the clouds. Readers sometimes connect the image to a bow set aside after conflict, but the verse itself focuses on its role as a covenant sign. It reminds us of God's promise concerning the earth.",
+  "takeaway": "The rainbow is named as the sign of God's covenant."
+ },
+ "14": {
+  "scene": "God says that when He brings clouds over the earth, the bow will appear in them.",
+  "breakdown": "Clouds might remind Noah's family of the flood they survived. God now points to something they can see in the clouds as a sign of His promise. The verse doesn't say rain itself has become harmless; it says the bow will be a reminder of the covenant.",
+  "takeaway": "The rainbow appears in the clouds as a covenant sign."
+ },
+ "15": {
+  "scene": "God says He will remember His covenant and the waters will never again become a flood that destroys all flesh.",
+  "breakdown": "Just as God 'remembered' Noah in chapter 8, remembering here is not about a forgetful God needing a reminder. It is covenant language: God commits to act consistently with His promise. The rainbow points to that commitment whenever flood fears come to mind.",
+  "takeaway": "God commits to keeping His promise not to repeat the great flood."
+ },
+ "16": {
+  "scene": "God says He will see the bow and remember the everlasting covenant with every living creature on earth.",
+  "breakdown": "The promise is called everlasting, and its scope is repeated: every living creature. Notice that the sign is described as something God sees. Genesis is stressing God's faithfulness to the covenant, not claiming that the rainbow works like a magical shield against every disaster.",
+  "takeaway": "The rainbow points to an enduring promise that includes all living creatures."
+ },
+ "17": {
+  "scene": "God tells Noah that the bow is the sign of the covenant He has established with all flesh on earth.",
+  "breakdown": "This verse closes the covenant speech by repeating the main point. The sign belongs to God's promise to the living world. The repetition helps make it unmistakable: the covenant isn't a private agreement with Noah alone.",
+  "takeaway": "The rainbow marks God's covenant with all living things."
+ },
+ "18": {
+  "scene": "Noah's sons who leave the ark are Shem, Ham, and Japheth; Ham is identified as Canaan's father.",
+  "breakdown": "The story turns from the covenant to Noah's family. The three sons are named again, but now Genesis adds a detail: Ham is the father of Canaan. That detail prepares us for the difficult family incident later in the chapter. It does not make Canaan responsible for something before the story even tells us what happened.",
+  "takeaway": "Ham's connection to Canaan prepares us for the next part of the story."
+ },
+ "19": {
+  "scene": "Genesis says these three men are Noah's sons and that the earth's people spread from them.",
+  "breakdown": "The focus widens from one household to future populations. Genesis presents the post-flood human family as descending from Noah's three sons. The next chapter will trace their descendants in more detail. This verse is a bridge from the ark story to the family lines that follow.",
+  "takeaway": "Noah's sons become the starting point for the post-flood family record."
+ },
+ "20": {
+  "scene": "Noah begins working the soil and plants a vineyard.",
+  "breakdown": "Noah's life after the flood includes ordinary work. He becomes a farmer and grows grapes. The verse doesn't condemn farming or vineyards; those details simply set up the incident that follows. After the enormous events of the flood, the story returns to a household and a field.",
+  "takeaway": "Noah plants a vineyard as life resumes after the flood."
+ },
+ "21": {
+  "scene": "Noah drinks wine, becomes drunk, and lies uncovered inside his tent.",
+  "breakdown": "Genesis doesn't hide Noah's failure, even though it earlier called him righteous in his generation. He drinks enough wine to become drunk and is exposed in his tent. The verse describes what happened without giving us every detail of his intentions. Being favored by God hasn't made Noah incapable of doing something shameful.",
+  "takeaway": "Noah becomes drunk and is left exposed in his tent."
+ },
+ "22": {
+  "scene": "Ham, the father of Canaan, sees his father's nakedness and tells his two brothers outside.",
+  "breakdown": "The text reports that Ham sees Noah uncovered and then tells his brothers. Some interpreters propose that more happened, but this verse doesn't plainly describe a sexual act, and we shouldn't present one as fact. The contrast with what the brothers do next is important: Ham tells others about his father's exposed condition.",
+  "takeaway": "Ham sees Noah's exposure and reports it to his brothers."
+ },
+ "23": {
+  "scene": "Shem and Japheth carry a garment backward into the tent and cover their father without looking at him.",
+  "breakdown": "The brothers respond differently from Ham. They take care to cover Noah while avoiding a look at his nakedness. Their actions protect their father's dignity even though he is the one who became drunk. The story shows a concrete response to someone's humiliating situation.",
+  "takeaway": "Shem and Japheth cover Noah without looking at his exposure."
+ },
+ "24": {
+  "scene": "Noah wakes from his wine and learns what his youngest son has done to him.",
+  "breakdown": "Noah comes to himself and becomes aware of what happened while he was drunk. The Hebrew phrase about what his 'youngest son' did has prompted debate, especially because the next words concern Canaan. Genesis does not spell out every step of how Noah learned about it, so we should resist inventing a hidden scene.",
+  "takeaway": "Noah learns of the incident and prepares to speak."
+ },
+ "25": {
+  "scene": "Noah pronounces a curse on Canaan, saying he will be a servant of servants to his brothers.",
+  "breakdown": "This is a troubling verse because Ham was the one named in the incident, yet Noah's words target Canaan. Genesis does not explain that shift in a way that settles every question. Most importantly, this is not a curse on all people of African descent, and it gives no support to racial slavery. Those claims have been imposed on the text and have caused terrible harm.",
+  "takeaway": "Noah curses Canaan; the verse must not be twisted into a racial claim."
+ },
+ "26": {
+  "scene": "Noah blesses the LORD, the God of Shem, and says Canaan will be a servant to Shem.",
+  "breakdown": "Noah's words now turn toward Shem. He praises the LORD as Shem's God, then repeats the statement about Canaan's servitude. This is part of Noah's pronouncement about his descendants; it is not a command telling later readers to enslave anyone.",
+  "takeaway": "Noah's words favor Shem and continue the pronouncement about Canaan."
+ },
+ "27": {
+  "scene": "Noah asks God to enlarge Japheth and says he will dwell in Shem's tents, while Canaan will serve.",
+  "breakdown": "The language about Japheth being enlarged and dwelling in Shem's tents has been understood in more than one way. It may speak of space, prosperity, or shared dwelling; the Hebrew leaves room for discussion. The verse again mentions Canaan's servitude, but it doesn't authorize people today to use ancestry as an excuse to mistreat others.",
+  "takeaway": "Noah speaks about Japheth's future in words that allow more than one interpretation."
+ },
+ "28": {
+  "scene": "Noah lives another 350 years after the flood.",
+  "breakdown": "The family incident is over, and Genesis returns to the familiar style of the genealogies. It gives the number of years Noah lives after the flood. The verse doesn't describe everything he did during those years; it simply continues the record of his life.",
+  "takeaway": "Noah's life continues for centuries after the flood."
+ },
+ "29": {
+  "scene": "Noah's total lifespan is 950 years, and then he dies.",
+  "breakdown": "The chapter ends the way many entries in Genesis 5 ended: with a total age and the words 'and he died.' Noah survived the flood, but he did not escape death forever. The story will now follow the generations that came after him.",
+  "takeaway": "Noah's long life comes to an end."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
