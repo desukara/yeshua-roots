@@ -5139,7 +5139,164 @@ const plainGenesisThirtyFour:Record<number,PlainVerseStudy>={
   "takeaway": "The brothers defend their anger, not the full consequences of their actions."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour}};
+const plainGenesisThirtyFive:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "God tells Jacob to go to Bethel, settle there, and build an altar to the God who appeared to him when he fled Esau.",
+  "breakdown": "After the violence at Shechem, God directs Jacob back to the place where he first received a promise while running from his brother. Bethel is not a random stop: returning there connects the present journey with God's earlier care. The command includes both moving there and worshiping.",
+  "takeaway": "God calls Jacob back to Bethel."
+ },
+ "2": {
+  "scene": "Jacob tells his household and everyone with him to remove foreign gods, purify themselves, and change their clothes.",
+  "breakdown": "Jacob recognizes that his household needs to prepare before worshiping at Bethel. Foreign religious objects have become part of the family's story, including Rachel's theft of Laban's household gods. The verse calls for a break with those objects, but it does not spell out every purification practice.",
+  "takeaway": "Jacob calls his household to prepare for worship."
+ },
+ "3": {
+  "scene": "Jacob urges everyone to go with him to Bethel, where he will build an altar to the God who answered him in trouble and accompanied him.",
+  "breakdown": "Jacob remembers God's help during the years since he fled home. His words are personal: the God he encountered when he was afraid has remained with him on the road. Returning to Bethel is an act of remembrance and commitment, not merely a change of address.",
+  "takeaway": "Jacob remembers God's help and prepares an altar."
+ },
+ "4": {
+  "scene": "The household gives Jacob their foreign gods and earrings, and he buries them beneath the oak near Shechem.",
+  "breakdown": "Jacob gathers the objects and hides them away before leaving. The earrings may have had religious associations in this setting, but the verse does not explain each one's use. Burying them marks a decisive separation from the objects rather than carrying them into worship at Bethel.",
+  "takeaway": "The household leaves foreign religious objects behind."
+ },
+ "5": {
+  "scene": "As Jacob's family travels, a terror from God falls on the surrounding towns, so no one pursues them.",
+  "breakdown": "The family had feared retaliation after Simeon and Levi's attack on Shechem. The narrator credits God with preventing pursuit. That protection should not be mistaken for an endorsement of the brothers' massacre; the verse speaks about what happens during the departure.",
+  "takeaway": "God prevents the neighboring towns from pursuing Jacob."
+ },
+ "6": {
+  "scene": "Jacob and all his people arrive at Luz, also called Bethel, in Canaan.",
+  "breakdown": "The verse identifies the destination by its older name and the name associated with Jacob's earlier encounter. Everyone traveling with Jacob reaches the place God told him to visit.",
+  "takeaway": "Jacob's household arrives at Bethel."
+ },
+ "7": {
+  "scene": "Jacob builds an altar and calls the place El-Bethel because God revealed Himself there when Jacob fled Esau.",
+  "breakdown": "The name points to the God of Bethel. Jacob is acknowledging the encounter that sustained him during his long absence. The altar answers the instruction in verse 1 and Jacob's promise to worship when he returned.",
+  "takeaway": "Jacob builds an altar to the God of Bethel."
+ },
+ "8": {
+  "scene": "Deborah, Rebekah's nurse, dies and is buried beneath an oak below Bethel, which is named Allon-bacuth.",
+  "breakdown": "Deborah is connected with Jacob's mother, Rebekah, and her death brings grief into the return journey. The place-name means something like 'oak of weeping.' The verse does not explain when Deborah joined Jacob's household or give the circumstances of her death.",
+  "takeaway": "Deborah's death is remembered with mourning."
+ },
+ "9": {
+  "scene": "God appears to Jacob again after his return from Paddan-aram and blesses him.",
+  "breakdown": "The narrative renews the focus on God's relationship with Jacob after the journey and Deborah's burial. This appearance is distinct in the storytelling from the earlier night encounter at Bethel, though it confirms the same continuing promise.",
+  "takeaway": "God appears to Jacob and blesses him again."
+ },
+ "10": {
+  "scene": "God says Jacob's name is Jacob but that he will be called Israel, and gives him the name Israel.",
+  "breakdown": "Jacob already received the name Israel after wrestling through the night in chapter 32. Here the name is confirmed in a direct divine declaration. The repetition matters: the new name is not just Jacob's private interpretation of that earlier struggle.",
+  "takeaway": "God confirms Jacob's name as Israel."
+ },
+ "11": {
+  "scene": "God identifies Himself as God Almighty and commands Jacob to be fruitful and multiply, promising a nation, a company of nations, and kings among his descendants.",
+  "breakdown": "The title is often rendered El Shaddai or God Almighty. The language recalls promises to Abraham and Isaac and looks ahead to a larger people. The verse does not mean Jacob will personally see all those generations or rulers.",
+  "takeaway": "God renews the promise of many descendants."
+ },
+ "12": {
+  "scene": "God promises Jacob and his descendants the land given to Abraham and Isaac.",
+  "breakdown": "The promise links three generations: Abraham, Isaac, and now Jacob. Jacob has returned to Canaan, but the verse looks beyond his lifetime to descendants who will inherit the land. It is a covenant promise, not a description of immediate control over every part of the territory.",
+  "takeaway": "God repeats the land promise to Jacob."
+ },
+ "13": {
+  "scene": "God goes up from Jacob at the place where He spoke with him.",
+  "breakdown": "The verse marks the end of the encounter. Its language describes God departing from the scene; it does not give a physical description of God or explain the mechanics of the appearance.",
+  "takeaway": "The divine encounter comes to an end."
+ },
+ "14": {
+  "scene": "Jacob sets up a stone pillar where God spoke to him and pours a drink offering and oil on it.",
+  "breakdown": "Jacob marks the location with a memorial stone and offerings. The actions express reverence and remembrance. The verse describes a practice in Jacob's story without explaining every later rule about worship or sacred stones.",
+  "takeaway": "Jacob marks the place of God's promise."
+ },
+ "15": {
+  "scene": "Jacob names the place where God spoke with him Bethel.",
+  "breakdown": "Bethel means 'house of God.' Jacob had used this name earlier, and the renewed naming emphasizes how important the place remains in his life. The text is recalling and reaffirming its significance, not necessarily describing a first-ever naming.",
+  "takeaway": "Jacob reaffirms the name Bethel."
+ },
+ "16": {
+  "scene": "Jacob's household leaves Bethel, and while they are still some distance from Ephrath, Rachel goes into difficult labor.",
+  "breakdown": "The journey resumes, but the birth becomes dangerous. The text does not give a precise distance from Ephrath, later associated with Bethlehem. Rachel's suffering sharply contrasts with the renewed promises just spoken at Bethel.",
+  "takeaway": "Rachel goes into severe labor on the journey."
+ },
+ "17": {
+  "scene": "As Rachel struggles in childbirth, the midwife tells her not to fear because she has another son.",
+  "breakdown": "The midwife offers reassurance that the baby is a boy, echoing Rachel's earlier hope for another son when Joseph was born. The encouragement does not mean Rachel's danger is over. The narrator immediately shows how serious the birth is.",
+  "takeaway": "The midwife announces the birth of Rachel's second son."
+ },
+ "18": {
+  "scene": "As Rachel dies, she names the baby Ben-oni, but Jacob calls him Benjamin.",
+  "breakdown": "Rachel's last name for her son is commonly understood as 'son of my sorrow,' though the Hebrew can be discussed in more than one way. Jacob gives him the name Benjamin, often understood as 'son of the right hand.' The naming holds grief and hope together without making Rachel's death less tragic.",
+  "takeaway": "Rachel dies after naming her newborn son."
+ },
+ "19": {
+  "scene": "Rachel dies and is buried on the way to Ephrath, that is, Bethlehem.",
+  "breakdown": "The narrator records Rachel's burial rather than moving quickly past her death. She had longed for children, and now her second son's birth is also the moment of her death. Ephrath is identified with Bethlehem for readers of the account.",
+  "takeaway": "Rachel is buried near Bethlehem."
+ },
+ "20": {
+  "scene": "Jacob sets up a pillar over Rachel's grave, and the narrator says it remains there to his day.",
+  "breakdown": "The grave marker honors Rachel and preserves her memory. The phrase 'to this day' speaks from the narrator's perspective; it should not be treated as a claim about what can be located or verified in the present.",
+  "takeaway": "Jacob marks Rachel's grave."
+ },
+ "21": {
+  "scene": "Israel travels on and pitches his tent beyond Migdal-eder.",
+  "breakdown": "The narrator now calls Jacob Israel, using the name God confirmed. Migdal-eder means something like 'tower of the flock,' but the verse gives no further story about the site. The family continues after Rachel's burial.",
+  "takeaway": "Israel continues the journey after Rachel's death."
+ },
+ "22": {
+  "scene": "While Israel lives in that region, Reuben sleeps with Bilhah, his father's concubine, and Israel hears about it.",
+  "breakdown": "This is a grave violation within the family, involving Reuben and Bilhah, who is also the mother of two of Jacob's sons. The text does not describe Bilhah's wishes or the circumstances, so we should not invent consent or motives. Jacob learns of the act, and its consequences surface later in Genesis.",
+  "takeaway": "Reuben violates a serious family boundary with Bilhah."
+ },
+ "23": {
+  "scene": "The narrator introduces the twelve sons of Jacob.",
+  "breakdown": "This brief statement connects the family story to the twelve sons who will become central to Israel's history. The list includes Benjamin, born just before Rachel's death, and prepares for the next generation's stories.",
+  "takeaway": "Jacob's twelve sons are gathered into one family list."
+ },
+ "24": {
+  "scene": "Leah's sons are named as Reuben, Simeon, Levi, Judah, Issachar, and Zebulun.",
+  "breakdown": "The order identifies the six sons born to Leah. Their stories have already shown rivalry, conflict, and very different choices; the list does not make them interchangeable or excuse their actions.",
+  "takeaway": "The narrator lists Leah's six sons."
+ },
+ "25": {
+  "scene": "Rachel's sons are Joseph and Benjamin.",
+  "breakdown": "The short list carries emotional weight after Rachel's death. Joseph was born after her long struggle with childlessness, and Benjamin was born during her fatal labor.",
+  "takeaway": "Joseph and Benjamin are named as Rachel's sons."
+ },
+ "26": {
+  "scene": "Bilhah's sons are Dan and Naphtali.",
+  "breakdown": "Bilhah gave birth to both boys while serving in Rachel's household. The narrator identifies her as their mother, even though Rachel claimed their births as part of her own family story.",
+  "takeaway": "Dan and Naphtali are named as Bilhah's sons."
+ },
+ "27": {
+  "scene": "Zilpah's sons are Gad and Asher.",
+  "breakdown": "Zilpah gave birth to these two sons while serving in Leah's household. Naming her separately keeps the children's birth mothers visible in a family shaped by unequal power and competition.",
+  "takeaway": "Gad and Asher are named as Zilpah's sons."
+ },
+ "28": {
+  "scene": "The narrator says these are the sons born to Jacob in Paddan-aram.",
+  "breakdown": "This is a summary of Jacob's family associated with his years away, not a claim that every birth happened in exactly the same location. Benjamin's birth has just been placed on the road near Ephrath, so the closing line should be read as a broad family summary rather than used to erase that detail.",
+  "takeaway": "The narrator closes the list of Jacob's sons."
+ },
+ "29": {
+  "scene": "Jacob arrives at his father Isaac's home at Mamre, near Kiriath-arba, that is, Hebron, where Abraham and Isaac had lived.",
+  "breakdown": "Jacob finally reaches the region associated with his father and grandfather. The return fulfills a major part of his long journey, though Genesis does not give a detailed account of his reunion with Isaac. The place-names connect this scene to the family's earlier history.",
+  "takeaway": "Jacob reaches Isaac at Hebron."
+ },
+ "30": {
+  "scene": "Isaac lives to be one hundred eighty years old.",
+  "breakdown": "The narrator pauses to record Isaac's age at death. This is part of the patriarchal family record, not a timeline that by itself tells us the exact interval between Jacob's arrival and Isaac's death.",
+  "takeaway": "Isaac's lifespan is recorded as 180 years."
+ },
+ "31": {
+  "scene": "Isaac dies at an old age and is gathered to his people, and Esau and Jacob bury him.",
+  "breakdown": "'Gathered to his people' is a traditional expression for death and joining one's ancestors; the verse also plainly records burial. The brothers who once fought over their father's blessing now stand together to bury him. Their shared act is meaningful, though it does not describe every detail of their relationship.",
+  "takeaway": "Esau and Jacob bury their father Isaac."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
