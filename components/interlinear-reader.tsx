@@ -4224,7 +4224,224 @@ const plainGenesisTwentyNine:Record<number,PlainVerseStudy>={
   "takeaway": "Leah names Judah with praise to the LORD."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine}};
+const plainGenesisThirty:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Rachel sees that she has no children and envies Leah, telling Jacob to give her children or she will die.",
+  "breakdown": "Rachel's words express deep distress in a household where children carry enormous social importance. Her pain is real, but blaming Jacob does not give him control over pregnancy. The chapter begins with two sisters suffering in different ways: Leah longs for her husband's affection, while Rachel longs for children.",
+  "takeaway": "Rachel's childlessness turns into anguish and rivalry."
+ },
+ "2": {
+  "scene": "Jacob becomes angry and asks Rachel whether he is in God's place, since God has withheld children from her.",
+  "breakdown": "Jacob knows he cannot simply make pregnancy happen. His answer points to God's role in the story, but his anger also shows how strained the marriage has become. The verse doesn't invite us to treat Rachel's grief as foolish or Jacob's harshness as ideal.",
+  "takeaway": "Jacob responds angrily to Rachel's demand."
+ },
+ "3": {
+  "scene": "Rachel offers her servant Bilhah to Jacob so Bilhah can bear children on Rachel's behalf.",
+  "breakdown": "Rachel proposes an arrangement known in the ancient world, hoping to build a family through Bilhah's children. Her words about giving birth 'on my knees' refer to receiving or claiming the child in this household arrangement, not a medical description. Bilhah's own wishes are not recorded, and her limited power matters.",
+  "takeaway": "Rachel turns to Bilhah in hopes of having children through her."
+ },
+ "4": {
+  "scene": "Rachel gives Bilhah to Jacob as a wife, and Jacob sleeps with her.",
+  "breakdown": "The narrator describes Bilhah entering a marital relationship under Rachel's direction. This arrangement reflects the unequal position of a servant within the household; the passage reports it without telling us Bilhah's perspective or commanding readers to imitate it.",
+  "takeaway": "Bilhah becomes another wife in Jacob's household."
+ },
+ "5": {
+  "scene": "Bilhah becomes pregnant and gives birth to a son for Jacob.",
+  "breakdown": "The child is born to Bilhah, even though Rachel will speak of him as an answer to her own struggle. Keeping Bilhah visible helps us read the family story without erasing the woman who carried and delivered the baby.",
+  "takeaway": "Bilhah gives birth to Jacob's son."
+ },
+ "6": {
+  "scene": "Rachel names the boy Dan, saying God has judged her case and heard her voice.",
+  "breakdown": "Dan's name is connected with judging or vindicating. Rachel interprets the birth as God's response to her distress. The statement tells us how she understands the event, while Bilhah remains the child's birth mother.",
+  "takeaway": "Rachel names Dan in language of vindication."
+ },
+ "7": {
+  "scene": "Bilhah conceives again and bears Jacob a second son.",
+  "breakdown": "The household grows, but the rivalry between Rachel and Leah has not ended. Bilhah's second pregnancy is narrated briefly, without telling us what life is like for her in this arrangement.",
+  "takeaway": "Bilhah bears another son."
+ },
+ "8": {
+  "scene": "Rachel names the boy Naphtali and says she has wrestled greatly with her sister and prevailed.",
+  "breakdown": "Rachel describes her struggle in competitive terms. The name Naphtali is linked with wrestling or struggle. Her words reveal how childbearing has become a contest between sisters, even though children are people rather than points in a competition.",
+  "takeaway": "Rachel names Naphtali amid her rivalry with Leah."
+ },
+ "9": {
+  "scene": "Leah sees she has stopped bearing children and gives her servant Zilpah to Jacob as a wife.",
+  "breakdown": "Leah now follows a pattern similar to Rachel's, using a servant to expand her side of the family. Zilpah is again a person with little recorded choice in what happens. The rivalry draws more women into a household already divided by unequal affection.",
+  "takeaway": "Leah brings Zilpah into the family arrangement."
+ },
+ "10": {
+  "scene": "Zilpah bears Jacob a son.",
+  "breakdown": "The narrator records the birth without describing Zilpah's feelings or circumstances. As with Bilhah, the child has a birth mother whose experience should not disappear behind the sisters' competition.",
+  "takeaway": "Zilpah gives birth to Jacob's son."
+ },
+ "11": {
+  "scene": "Leah names Zilpah's son Gad, speaking of good fortune.",
+  "breakdown": "The Hebrew phrase behind Leah's exclamation is brief and has some textual and translation variation, often rendered as fortune or good luck. The name Gad is linked to that idea. Leah sees the birth as welcome news amid the family's tensions.",
+  "takeaway": "Leah calls the boy Gad, connecting his name with fortune."
+ },
+ "12": {
+  "scene": "Zilpah bears Jacob a second son.",
+  "breakdown": "Another child is born into the growing household. The passage says little about Zilpah herself, which is a limitation of the account, not proof that her experience was unimportant.",
+  "takeaway": "Zilpah has another son."
+ },
+ "13": {
+  "scene": "Leah names him Asher, saying she is happy and that women will call her happy.",
+  "breakdown": "Asher's name is associated with happiness or blessing. Leah speaks of being recognized as fortunate. Her earlier longing for Jacob's love has not been explicitly resolved, but here she celebrates the addition to her household.",
+  "takeaway": "Leah names Asher in a moment of happiness."
+ },
+ "14": {
+  "scene": "During the wheat harvest, Reuben finds mandrakes in the field and brings them to Leah; Rachel asks for some.",
+  "breakdown": "Mandrakes were associated in the ancient world with fertility and desire, which helps explain Rachel's interest. The verse does not say they actually cure infertility. Reuben, Leah's son, brings the plants to his mother, setting up another painful negotiation between the sisters.",
+  "takeaway": "Reuben's mandrakes become a new source of tension."
+ },
+ "15": {
+  "scene": "Leah protests that Rachel has taken her husband and now wants her son's mandrakes; Rachel offers Jacob's company that night in exchange.",
+  "breakdown": "Leah feels pushed aside in her own marriage, while Rachel wants the plants. Their bargain treats time with Jacob as something to trade. The scene exposes how strained and unequal their family life has become, rather than presenting the exchange as a healthy model.",
+  "takeaway": "The sisters bargain over mandrakes and Jacob's time."
+ },
+ "16": {
+  "scene": "When Jacob returns from the field, Leah says he must sleep with her because she has hired him with the mandrakes; he does.",
+  "breakdown": "Leah tells Jacob about the arrangement she made with Rachel. The language of 'hiring' is deliberately uncomfortable: a husband is being negotiated over in a rivalry between his wives. The verse records the encounter without giving Jacob's response beyond what he does.",
+  "takeaway": "Leah spends the night with Jacob after the bargain."
+ },
+ "17": {
+  "scene": "God hears Leah, and she conceives and bears Jacob a fifth son.",
+  "breakdown": "Genesis credits the pregnancy to God hearing Leah, not to the mandrakes. The text does not explain the biological process or claim that the plants were effective. Leah's experience continues to matter to God even in a divided household.",
+  "takeaway": "Leah bears another son after God hears her."
+ },
+ "18": {
+  "scene": "Leah names him Issachar, saying God has given her wages for giving her servant to Jacob.",
+  "breakdown": "Issachar's name is connected through wordplay with wages or reward. Leah interprets this birth through the choices she has made in the household. Her explanation is her own, and it should not be turned into a blanket endorsement of giving a servant to a husband.",
+  "takeaway": "Leah names Issachar using the language of wages."
+ },
+ "19": {
+  "scene": "Leah conceives again and bears Jacob a sixth son.",
+  "breakdown": "Leah's family continues to grow. The repeated births also make the contrast with Rachel's long wait more painful, though the narrator does not describe every conversation between the sisters.",
+  "takeaway": "Leah bears her sixth son."
+ },
+ "20": {
+  "scene": "Leah names him Zebulun, saying God has given her a good gift and hoping her husband will honor or dwell with her.",
+  "breakdown": "Leah again expresses a longing for Jacob's affection. The Hebrew wording involves wordplay on gift, honor, and dwelling, and translations differ in how they render her hope. Having many sons has not automatically given her the closeness she wants.",
+  "takeaway": "Leah names Zebulun while still hoping for Jacob's affection."
+ },
+ "21": {
+  "scene": "Afterward Leah gives birth to a daughter named Dinah.",
+  "breakdown": "Dinah is named directly, unlike many daughters in biblical family lists. This verse does not tell us whether Leah had other daughters or specify Dinah's place among every birth chronologically. Dinah will later become central to a difficult family story.",
+  "takeaway": "Leah gives birth to Dinah."
+ },
+ "22": {
+  "scene": "God remembers Rachel, listens to her, and opens her womb.",
+  "breakdown": "'Remembered' does not mean God had forgotten Rachel and suddenly recalled her existence. In biblical storytelling, it signals that God acts on behalf of someone. Rachel's long distress receives a turning point, and the narrator credits God rather than the mandrakes.",
+  "takeaway": "God acts in response to Rachel's suffering."
+ },
+ "23": {
+  "scene": "Rachel becomes pregnant and gives birth to a son, saying God has taken away her disgrace.",
+  "breakdown": "Rachel finally bears a child herself. Her words reveal how deeply childlessness had affected her standing and sense of shame. The verse describes her relief without suggesting that a person's worth depends on having children.",
+  "takeaway": "Rachel gives birth and feels her disgrace lifted."
+ },
+ "24": {
+  "scene": "Rachel names him Joseph, asking the LORD to add another son to her.",
+  "breakdown": "Joseph's name is connected with adding, alongside Rachel's earlier words about disgrace being removed. Her prayer looks beyond this birth to another child. The text does not say she knows what will happen later; it records her hope.",
+  "takeaway": "Rachel names Joseph and hopes for another son."
+ },
+ "25": {
+  "scene": "After Joseph is born, Jacob asks Laban to send him home to his own land.",
+  "breakdown": "Joseph's birth marks a turning point in Jacob's time with Laban. Jacob wants to return to the land of his family, in keeping with the journey and promise of chapter 28. The verse doesn't say he is ready to leave without settling his household's needs.",
+  "takeaway": "Jacob asks permission to return home."
+ },
+ "26": {
+  "scene": "Jacob asks to take the wives and children for whom he has worked and leave, reminding Laban of his service.",
+  "breakdown": "Jacob appeals to the years of labor already completed. His family relationships have been tied to work agreements with Laban, and he now wants to depart with his household. The wording reflects the ancient negotiations; it doesn't mean his wives and children are merely wages.",
+  "takeaway": "Jacob asks to leave with his family."
+ },
+ "27": {
+  "scene": "Laban urges Jacob to stay, saying he has learned by divination that the LORD blessed him because of Jacob.",
+  "breakdown": "Laban acknowledges that Jacob's presence has benefited him. The Hebrew verb is commonly associated with divination, though some translations soften it to 'learned by experience.' Reporting Laban's claim does not mean Scripture approves of divination or that we know exactly what method he used.",
+  "takeaway": "Laban wants Jacob to stay because his work has brought prosperity."
+ },
+ "28": {
+  "scene": "Laban tells Jacob to name his wages, promising to pay them.",
+  "breakdown": "Rather than letting Jacob go, Laban opens another negotiation. The offer sounds straightforward, but their history gives readers reason to watch how the terms are handled. Jacob will propose payment tied to the appearance of livestock.",
+  "takeaway": "Laban offers to negotiate new wages."
+ },
+ "29": {
+  "scene": "Jacob reminds Laban how faithfully he has worked and how the livestock have prospered under his care.",
+  "breakdown": "Jacob points to the results of his labor. The growth of the flocks has benefited Laban, not just Jacob. This is Jacob's case for being able to support his own family after years of serving someone else.",
+  "takeaway": "Jacob points to his years of successful work."
+ },
+ "30": {
+  "scene": "Jacob says Laban had little before he arrived but now has much, and asks when he can provide for his own household.",
+  "breakdown": "Jacob credits the LORD's blessing while making a practical argument: his family needs resources of its own. He is not denying Laban's prosperity; he is asking when his work will finally benefit the people dependent on him.",
+  "takeaway": "Jacob wants to provide for his own family."
+ },
+ "31": {
+  "scene": "Laban asks what he should give, and Jacob proposes taking certain unusually colored animals as his wages.",
+  "breakdown": "Jacob refuses a simple gift and offers an arrangement based on the flock. The next verse spells out the color categories. The plan gives both men a way to identify which animals belong to Jacob, though the fairness of the arrangement will soon be tested.",
+  "takeaway": "Jacob proposes livestock as payment."
+ },
+ "32": {
+  "scene": "Jacob asks for speckled and spotted sheep and goats, along with dark-colored lambs, as his pay.",
+  "breakdown": "The animals' markings will distinguish Jacob's flock from Laban's. The exact grouping of colors varies slightly across translations, but the basic arrangement is clear: Jacob's wages will be identifiable by appearance. He is not asking to take every animal.",
+  "takeaway": "Jacob's wages will be animals with specified markings."
+ },
+ "33": {
+  "scene": "Jacob says his honesty can be checked later: any animal with him that does not match the agreed markings will count as stolen.",
+  "breakdown": "The agreement is meant to be verifiable. Jacob proposes a visible standard so Laban can inspect the flock. Given the deception in their earlier dealings, this concern for clear terms is especially important.",
+  "takeaway": "Jacob proposes a way to verify his wages."
+ },
+ "34": {
+  "scene": "Laban agrees to the proposed terms.",
+  "breakdown": "Laban's answer sounds simple and favorable. But the next action will show that agreeing in words and dealing fairly in practice are not necessarily the same thing.",
+  "takeaway": "Laban accepts Jacob's proposal."
+ },
+ "35": {
+  "scene": "That day Laban removes the striped and spotted male goats, the speckled and spotted female goats, and the dark lambs, giving them to his sons.",
+  "breakdown": "Laban separates out animals matching the agreed wage categories before Jacob can manage the remaining flock. The text describes the move plainly, and it appears to make Jacob's chance of receiving those animals harder. We should not add motives beyond what the action supports.",
+  "takeaway": "Laban removes the animals that match Jacob's wages."
+ },
+ "36": {
+  "scene": "Laban puts three days' distance between those animals and Jacob, who continues tending the rest of Laban's flock.",
+  "breakdown": "The separation prevents easy mixing of the two groups. Jacob is left caring for animals that do not already display the markings designated as his pay. The arrangement sets up the unusual breeding practices described next.",
+  "takeaway": "Laban keeps the separated animals far from Jacob."
+ },
+ "37": {
+  "scene": "Jacob cuts fresh branches from poplar, almond, and plane trees and peels strips of bark to expose white wood.",
+  "breakdown": "Jacob prepares striped rods using several kinds of trees. Genesis reports the method but does not explain it through modern genetics. It is important to distinguish what Jacob believes or does from what science can establish about animal inheritance.",
+  "takeaway": "Jacob prepares striped wooden rods."
+ },
+ "38": {
+  "scene": "Jacob places the peeled rods in the watering troughs where the flocks come to drink and mate.",
+  "breakdown": "The placement is deliberate: Jacob wants the animals to encounter the rods during breeding. The text reflects an ancient understanding or practice connected with reproduction. It does not establish that looking at stripes can genetically change offspring.",
+  "takeaway": "Jacob uses the rods during the flocks' breeding."
+ },
+ "39": {
+  "scene": "The animals mate near the rods and produce striped, speckled, and spotted offspring.",
+  "breakdown": "Genesis narrates the outcome alongside Jacob's technique. That sequence does not prove the rods caused the markings. Later, Jacob attributes the increase to God's intervention, and modern readers should not present the visual trick as established animal-breeding science.",
+  "takeaway": "Marked offspring appear as Jacob tends the flock."
+ },
+ "40": {
+  "scene": "Jacob separates the lambs and positions the flocks toward the striped and dark animals, keeping his own flocks apart from Laban's.",
+  "breakdown": "Jacob continues managing breeding and separating animals to build a distinct flock. The Hebrew details of this verse are difficult, and translations differ on exactly how he arranged the animals. The central point is that he carefully distinguishes the livestock he is accumulating from Laban's.",
+  "takeaway": "Jacob separates and manages the growing flocks."
+ },
+ "41": {
+  "scene": "When the stronger animals are breeding, Jacob places the rods before them at the troughs.",
+  "breakdown": "Jacob applies his technique selectively to animals he regards as stronger. His goal is not merely more offspring but a healthier, more valuable flock. The narrator describes his practice without giving a scientific endorsement of the rods.",
+  "takeaway": "Jacob uses the rods with stronger breeding animals."
+ },
+ "42": {
+  "scene": "When the weaker animals breed, Jacob does not place the rods, so the weaker animals remain Laban's and the stronger become Jacob's.",
+  "breakdown": "The result is an increasingly unequal division in the quality of the livestock. The story emphasizes Jacob's strategy and the outcome, but it does not provide enough information to reconstruct every breeding decision or prove a genetic mechanism.",
+  "takeaway": "Jacob's flock becomes stronger than Laban's."
+ },
+ "43": {
+  "scene": "Jacob becomes very prosperous, with large flocks, servants, camels, and donkeys.",
+  "breakdown": "The chapter ends by showing how much Jacob's household has grown after years of labor. His success will intensify tension with Laban in the next chapter. The narrative reports prosperity in this particular story, not a universal promise that cleverness or faith will always produce wealth.",
+  "takeaway": "Jacob's wealth grows substantially."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
