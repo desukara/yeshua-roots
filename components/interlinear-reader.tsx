@@ -4047,7 +4047,184 @@ const plainGenesisTwentyEight:Record<number,PlainVerseStudy>={
   "takeaway": "Jacob pledges to honor God with this place and a tenth of what he receives."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight}};
+const plainGenesisTwentyNine:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Jacob continues his journey toward the land of the eastern peoples.",
+  "breakdown": "After the dream at Bethel, Jacob moves on toward the region where his mother's relatives live. Genesis doesn't specify every stop or how long the journey takes. The promise that God will be with him now accompanies an uncertain trip away from home.",
+  "takeaway": "Jacob travels onward toward his relatives."
+ },
+ "2": {
+  "scene": "Jacob sees a well in a field, three flocks resting nearby, and a large stone covering its opening.",
+  "breakdown": "The well is a gathering place for shepherds, and the heavy stone helps protect its water. The flocks are waiting, so Jacob has arrived at a moment when people can tell him about the area. Water and livestock are central to the daily life of these families.",
+  "takeaway": "Jacob arrives at a shared watering place."
+ },
+ "3": {
+  "scene": "The shepherds normally gather the flocks, roll the stone away, water the animals, and replace it.",
+  "breakdown": "The narrator explains the local routine before Jacob speaks with anyone. The stone is moved when the flocks are gathered, suggesting a shared practice rather than each shepherd drawing water whenever they please. This detail will make Jacob's later action stand out.",
+  "takeaway": "The well follows a shared watering routine."
+ },
+ "4": {
+  "scene": "Jacob greets the shepherds as brothers and asks where they are from; they answer Haran.",
+  "breakdown": "Jacob addresses strangers warmly and quickly learns that he has reached the place connected with his family. 'Brothers' is a friendly form of address here, not proof that he knows them. His first question is practical: has he arrived in the right area?",
+  "takeaway": "Jacob learns the shepherds are from Haran."
+ },
+ "5": {
+  "scene": "Jacob asks whether they know Laban, Nahor's descendant, and they say they do.",
+  "breakdown": "Jacob is looking for his mother's brother Laban, the man Isaac told him to visit. The shepherds recognize the name, so the search is narrowing. The reference to Nahor situates Laban within Abraham's extended family, not a new unrelated household.",
+  "takeaway": "Jacob finds people who know Laban."
+ },
+ "6": {
+  "scene": "Jacob asks whether Laban is well; they say he is, and point out Rachel approaching with the sheep.",
+  "breakdown": "Jacob learns that Laban is alive and well. Before he even reaches the household, he sees Laban's daughter Rachel bringing the flock. The encounter is timely, but the text doesn't say Jacob knew in advance she would appear.",
+  "takeaway": "Rachel approaches while Jacob asks about her family."
+ },
+ "7": {
+  "scene": "Jacob suggests watering the sheep and sending them back to graze because it is still early.",
+  "breakdown": "Jacob sees animals waiting and questions the timing. He may be trying to help or to clear the area, but Genesis doesn't explicitly state his motive. His comment also shows that he does not yet know the shepherds' local arrangement.",
+  "takeaway": "Jacob questions why the flocks are waiting."
+ },
+ "8": {
+  "scene": "The shepherds say they cannot water the flocks until everyone gathers and the stone is moved.",
+  "breakdown": "Their answer explains the custom Jacob has just challenged. The well is managed through a group routine, and they are waiting for the other flocks. The text doesn't say they are physically incapable of moving the stone or give its exact weight.",
+  "takeaway": "The shepherds explain why they must wait."
+ },
+ "9": {
+  "scene": "While Jacob is still talking, Rachel arrives with her father's sheep; she is a shepherd.",
+  "breakdown": "Rachel is introduced through her work. She actively tends Laban's flock, rather than simply appearing as a potential bride. This detail matters because Jacob meets her in the middle of an ordinary responsibility.",
+  "takeaway": "Rachel arrives while caring for Laban's flock."
+ },
+ "10": {
+  "scene": "Jacob sees Rachel and Laban's sheep, moves the stone from the well, and waters the flock.",
+  "breakdown": "Jacob acts immediately when he recognizes the connection to his mother's family. His action breaks the waiting pattern the shepherds described. The narrator does not explain whether he moved the stone alone through unusual strength or whether the others assisted; the focus is on what he does for Rachel's flock.",
+  "takeaway": "Jacob waters Rachel's sheep."
+ },
+ "11": {
+  "scene": "Jacob kisses Rachel and breaks into tears.",
+  "breakdown": "The greeting and tears show how emotional the encounter is for Jacob, who has traveled far from home. The kiss is a family greeting in this setting; it should not be automatically described as a romantic kiss. His relief and feeling are visible, even though the narrator doesn't spell out every thought.",
+  "takeaway": "Jacob greets Rachel with tears."
+ },
+ "12": {
+  "scene": "Jacob tells Rachel he is Rebekah's son and a relative of her father; Rachel runs to tell Laban.",
+  "breakdown": "Rachel now learns who this traveler is. The family connection explains the strong greeting and why she immediately carries the news home. The story moves from a chance meeting at the well into the household Jacob has come to find.",
+  "takeaway": "Rachel brings news of her relative to Laban."
+ },
+ "13": {
+  "scene": "Laban runs to meet Jacob, embraces and kisses him, and brings him home; Jacob tells him what happened.",
+  "breakdown": "Laban welcomes his sister's son with familiar gestures of kinship. The text says Jacob recounts 'all these things' without repeating his entire story, so we shouldn't invent exactly what he disclosed about Esau or the blessing. For now, Jacob has found shelter with relatives.",
+  "takeaway": "Laban welcomes Jacob into his home."
+ },
+ "14": {
+  "scene": "Laban says Jacob is truly his own flesh and blood, and Jacob stays with him for a month.",
+  "breakdown": "The family relationship is acknowledged openly. A month passes before the question of Jacob's work and wages is raised. The welcome is genuine as described, but later dealings will show that family ties do not guarantee fair treatment.",
+  "takeaway": "Jacob settles temporarily in Laban's household."
+ },
+ "15": {
+  "scene": "Laban asks whether Jacob should work for nothing merely because they are relatives and invites him to name his wages.",
+  "breakdown": "Jacob has apparently been helping in the household. Laban raises the subject of payment, which sounds fair at first. The details of their agreement will matter because Laban later changes what Jacob expects to receive.",
+  "takeaway": "Laban asks Jacob to agree on payment for his work."
+ },
+ "16": {
+  "scene": "Laban has two daughters: the older is Leah and the younger is Rachel.",
+  "breakdown": "The narrator pauses to identify the sisters and their birth order. That distinction will become important when Laban later invokes the custom of marrying the older daughter first. Both women are people within this family, not simply rewards for Jacob's labor.",
+  "takeaway": "Leah and Rachel are introduced as Laban's daughters."
+ },
+ "17": {
+  "scene": "Leah's eyes are described as tender or delicate, while Rachel is described as beautiful in form and appearance.",
+  "breakdown": "The Hebrew description of Leah's eyes is difficult to interpret and need not mean something was wrong with them. The verse contrasts the sisters' appearances, but it does not tell us Leah's value as a person or everything about their relationship. Later events will reveal how painful being compared and overlooked can become.",
+  "takeaway": "The narrator describes the sisters without explaining Leah's eyes fully."
+ },
+ "18": {
+  "scene": "Jacob loves Rachel and offers to work seven years to marry her.",
+  "breakdown": "Jacob names Rachel as the woman he wants to marry and offers a long period of service as the agreed price of the arrangement. The text describes his love but does not say Rachel has already been asked for her own answer. We should recognize the ancient marriage negotiations without treating a woman as a commodity.",
+  "takeaway": "Jacob offers seven years of work for marriage to Rachel."
+ },
+ "19": {
+  "scene": "Laban says it is better to give Rachel to Jacob than to another man and tells him to stay.",
+  "breakdown": "Laban accepts the proposal in terms of family preference. His answer seems to settle the arrangement, though it does not include every condition he will later claim. The gap between what Jacob expects and what Laban eventually does drives the coming deception.",
+  "takeaway": "Laban agrees to Jacob's proposal."
+ },
+ "20": {
+  "scene": "Jacob works seven years for Rachel, and the years seem like only a few days because he loves her.",
+  "breakdown": "The verse emphasizes Jacob's devotion and his perception of the long wait. Seven years is still substantial labor; the comparison expresses how love shapes his experience of time. It does not mean the work itself was easy.",
+  "takeaway": "Jacob serves seven years for Rachel."
+ },
+ "21": {
+  "scene": "After completing the seven years, Jacob asks Laban to give him his wife so the marriage can begin.",
+  "breakdown": "Jacob believes he has fulfilled his side of the agreement. His request is direct and assumes Laban will now honor the arrangement. The words about going in to her refer to consummating the marriage, not merely meeting Rachel.",
+  "takeaway": "Jacob asks Laban to honor their agreement."
+ },
+ "22": {
+  "scene": "Laban gathers the local people and holds a wedding feast.",
+  "breakdown": "The celebration gives the appearance that the promised marriage is proceeding. Genesis mentions the feast but does not describe all the customs or rituals. The deception is about to take place within an event that should have established trust between the families.",
+  "takeaway": "Laban hosts the wedding celebration."
+ },
+ "23": {
+  "scene": "That evening Laban brings Leah to Jacob, and Jacob sleeps with her.",
+  "breakdown": "Laban substitutes his older daughter for Rachel. The narrator does not explain how Jacob failed to recognize Leah that night or what Leah was told; explanations about veils, darkness, or her willingness remain possibilities rather than stated facts. The central fact is Laban's deception, which affects both Jacob and Leah.",
+  "takeaway": "Laban secretly substitutes Leah for Rachel."
+ },
+ "24": {
+  "scene": "Laban gives his servant Zilpah to Leah as her servant.",
+  "breakdown": "This short note identifies another woman whose life will later matter to the family story. Zilpah is transferred as part of Leah's household in an ancient social system where servants lacked equal power. The text reports the arrangement without presenting the inequality as a model to imitate.",
+  "takeaway": "Zilpah becomes Leah's servant."
+ },
+ "25": {
+  "scene": "In the morning Jacob discovers it is Leah and confronts Laban for deceiving him.",
+  "breakdown": "The morning exposes the substitution. Jacob had worked seven years expecting Rachel and now demands an explanation. The irony is sharp: Jacob, who deceived his own father, has himself been deceived, though that parallel does not excuse Laban's behavior or make Leah responsible for it.",
+  "takeaway": "Jacob discovers Laban's deception."
+ },
+ "26": {
+  "scene": "Laban says their local custom does not permit the younger daughter to marry before the firstborn.",
+  "breakdown": "Laban invokes a rule about birth order only after the wedding. The story does not establish whether the custom was universal or whether Laban is using it to defend his actions. Either way, withholding this condition until after Jacob's work and the ceremony is deeply misleading.",
+  "takeaway": "Laban defends the substitution by appealing to birth order."
+ },
+ "27": {
+  "scene": "Laban tells Jacob to complete Leah's wedding week, then Rachel will also be given to him in return for seven more years of work.",
+  "breakdown": "The new proposal requires Jacob to finish the celebration with Leah and commit to another long period of labor. Rachel is not withheld until the second seven years are complete; the next verses clarify the timing. The arrangement places both sisters in a marriage shaped by Laban's decisions.",
+  "takeaway": "Laban demands seven more years of service for Rachel."
+ },
+ "28": {
+  "scene": "Jacob completes the wedding week, and Laban gives Rachel to him as another wife.",
+  "breakdown": "The text shows Rachel becoming Jacob's wife after the week, before the additional years of service. The arrangement creates a household with two sisters married to the same man, a situation that will produce rivalry and pain. Genesis describes the arrangement rather than praising it.",
+  "takeaway": "Jacob marries Rachel after Leah's wedding week."
+ },
+ "29": {
+  "scene": "Laban gives his servant Bilhah to Rachel as her servant.",
+  "breakdown": "Bilhah, like Zilpah, is introduced through her position in the household. She will later become important in the story of Jacob's children. The verse reflects the unequal standing of servants in that society; their later experiences deserve attention as the story unfolds.",
+  "takeaway": "Bilhah becomes Rachel's servant."
+ },
+ "30": {
+  "scene": "Jacob sleeps with Rachel too, loves her more than Leah, and works for Laban another seven years.",
+  "breakdown": "The narrative states Jacob's preference plainly. It also shows he fulfills the additional labor agreement. The contrast in affection will have painful consequences for Leah, who did not create Laban's deception. We should not romanticize a marriage arrangement that leaves one wife feeling unwanted.",
+  "takeaway": "Jacob favors Rachel and works seven additional years."
+ },
+ "31": {
+  "scene": "The LORD sees that Leah is unloved and enables her to conceive, while Rachel remains unable to have children.",
+  "breakdown": "The Hebrew can be translated 'hated' or 'unloved' in this contrast; it points to Leah's disadvantaged place in Jacob's affection. God notices her suffering. The verse also introduces Rachel's childlessness, a source of pain that will grow in the next chapter. Neither woman's worth should be measured by fertility.",
+  "takeaway": "God sees Leah's distress and gives her a child."
+ },
+ "32": {
+  "scene": "Leah bears a son named Reuben, saying the LORD has seen her misery and hoping Jacob will now love her.",
+  "breakdown": "Reuben's name is linked through wordplay with seeing and with Leah's hope for affection. She welcomes her son while openly revealing how painful her marriage has been. The verse does not say Jacob's feelings actually change after the birth.",
+  "takeaway": "Leah hopes Reuben's birth will bring Jacob's love."
+ },
+ "33": {
+  "scene": "Leah bears another son, Simeon, and says the LORD heard that she was unloved.",
+  "breakdown": "Leah interprets the second birth as evidence that God has heard her distress. Simeon's name is associated with hearing. The continuing mention of being unloved shows that having a child has not resolved her emotional hurt.",
+  "takeaway": "Leah names Simeon in response to feeling heard by God."
+ },
+ "34": {
+  "scene": "Leah bears a third son, Levi, hoping that Jacob will now become attached to her.",
+  "breakdown": "Leah's hope is painfully specific: after three sons, perhaps her husband will draw closer to her. Levi's name is connected with joining or attachment. The verse lets readers hear Leah's longing rather than reducing her to a name in a genealogy.",
+  "takeaway": "Leah hopes Levi's birth will strengthen her marriage."
+ },
+ "35": {
+  "scene": "Leah bears a fourth son, Judah, and says this time she will praise the LORD; then she stops bearing children for a time.",
+  "breakdown": "Judah's name is linked with praise. Unlike the earlier naming statements, this one focuses directly on thanking God rather than expressing hope that Jacob will finally love her. That doesn't mean all her pain disappears, but the words mark a shift in what she says. The chapter ends with a pause in her childbearing, not the end of her story.",
+  "takeaway": "Leah names Judah with praise to the LORD."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
