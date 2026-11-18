@@ -3352,7 +3352,179 @@ const plainGenesisTwentyFour:Record<number,PlainVerseStudy>={
   "takeaway": "Isaac and Rebekah marry, and he finds love and comfort."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour}};
+const plainGenesisTwentyFive:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Abraham takes another wife, named Keturah.",
+  "breakdown": "After Sarah's death, Genesis introduces Keturah as Abraham's wife. The text doesn't tell us exactly when this marriage began, so we shouldn't build a detailed timeline from this verse alone. The family story is broader than Isaac, even while Isaac remains central to the covenant promises.",
+  "takeaway": "Abraham's later family includes Keturah."
+ },
+ "2": {
+  "scene": "Keturah bears Abraham six sons: Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah.",
+  "breakdown": "The list introduces another branch of Abraham's descendants. Midian will become a familiar name later in the Torah, but Genesis does not tell individual stories about these sons here. The point is to record their place in Abraham's family.",
+  "takeaway": "Keturah's six sons extend Abraham's family line."
+ },
+ "3": {
+  "scene": "Jokshan fathers Sheba and Dedan, and Dedan's descendants include the Asshurim, Letushim, and Leummim.",
+  "breakdown": "Genesis follows part of the family tree into another generation. These names may identify groups as well as ancestors, and the text does not give their biographies. A genealogy can show how the biblical story understands relationships among peoples without explaining every later historical connection.",
+  "takeaway": "The genealogy traces descendants through Jokshan and Dedan."
+ },
+ "4": {
+  "scene": "Midian's sons are Ephah, Epher, Hanoch, Abida, and Eldaah; these are all descendants of Keturah.",
+  "breakdown": "The focus shifts to Midian's branch of the family. These names matter because the narrative is mapping Abraham's wider descendants, not only Isaac's household. We should avoid assuming that everyone with a similar name elsewhere in Scripture is necessarily the same person.",
+  "takeaway": "Midian's family is recorded as part of Abraham's descendants."
+ },
+ "5": {
+  "scene": "Abraham gives everything he owns to Isaac.",
+  "breakdown": "Isaac is identified as the principal heir. This follows God's earlier promise that the covenant line would continue through Sarah's son. It does not mean Abraham had no other children or that the others disappear from the story; the next verse describes gifts to them.",
+  "takeaway": "Isaac receives Abraham's main inheritance."
+ },
+ "6": {
+  "scene": "Abraham gives gifts to the sons of his concubines and sends them east, away from Isaac, while he is still alive.",
+  "breakdown": "The verse distinguishes Isaac's inheritance from provisions made for Abraham's other sons. 'Concubines' reflects a lower-status household relationship in that ancient society; Genesis reports it without asking readers to approve every feature of the arrangement. The separation helps explain why the different family lines settle apart. The text doesn't specify every gift or destination.",
+  "takeaway": "Abraham provides for other sons while establishing Isaac as heir."
+ },
+ "7": {
+  "scene": "Abraham lives 175 years.",
+  "breakdown": "Genesis gives Abraham's full lifespan before describing his death. The number closes a long story of journeys, promises, mistakes, and family changes. It doesn't tell us that his years were free of hardship; the preceding chapters show otherwise.",
+  "takeaway": "Abraham's life spans 175 years."
+ },
+ "8": {
+  "scene": "Abraham dies at a good old age, described as old and satisfied with life, and is gathered to his people.",
+  "breakdown": "The phrase 'gathered to his people' is a traditional expression for death and belonging with one's ancestors. It appears before the burial details, so it should not be reduced simply to being placed in the family tomb. The verse honors Abraham's long life without pretending he never struggled.",
+  "takeaway": "Abraham dies after a long life."
+ },
+ "9": {
+  "scene": "Isaac and Ishmael bury Abraham in the cave of Machpelah, in Ephron's field near Mamre.",
+  "breakdown": "The brothers appear together for their father's burial. Genesis doesn't tell us how they arranged the meeting or what their relationship was like at that moment. The burial place is the property Abraham purchased in chapter 23, linking his death to Sarah's burial and to the land he had been promised.",
+  "takeaway": "Isaac and Ishmael bury their father together."
+ },
+ "10": {
+  "scene": "The burial site is the field Abraham bought from the sons of Heth, where Sarah was also buried.",
+  "breakdown": "The narrator repeats the legal origin of the property to identify the burial place clearly. Abraham and Sarah now rest in the same purchased tomb. The family owns this small piece of Canaan, even though the larger promise of the land remains unfinished.",
+  "takeaway": "Abraham is buried beside Sarah on land he purchased."
+ },
+ "11": {
+  "scene": "After Abraham's death, God blesses Isaac, who lives near Beer-lahai-roi.",
+  "breakdown": "The focus now passes to the next generation. God's blessing does not end when Abraham dies; Isaac becomes the central figure. Beer-lahai-roi also recalls Hagar's earlier encounter with God, an interesting link the verse itself does not explain further.",
+  "takeaway": "God's blessing continues with Isaac."
+ },
+ "12": {
+  "scene": "The account introduces the descendants of Ishmael, Abraham's son by Hagar the Egyptian, Sarah's servant.",
+  "breakdown": "Genesis gives Ishmael's family its own place in the record before turning more fully to Isaac's children. Naming Hagar and her background reminds readers of the painful history surrounding Ishmael's birth. He is not erased from Abraham's story.",
+  "takeaway": "Ishmael's descendants receive their own family record."
+ },
+ "13": {
+  "scene": "Ishmael's sons begin with Nebaioth, his firstborn, followed by Kedar, Adbeel, and Mibsam.",
+  "breakdown": "The verse begins the list of Ishmael's twelve sons. These names identify family branches and later peoples, though Genesis gives no detailed lives here. The list reflects the earlier promise that Ishmael would have a significant future.",
+  "takeaway": "The genealogy begins naming Ishmael's sons."
+ },
+ "14": {
+  "scene": "The list continues with Mishma, Dumah, Massa, Hadad, and Tema.",
+  "breakdown": "These names add five more sons to Ishmael's family line. Some are also associated with places or groups in other ancient texts, but the verse itself is simply recording the descendants. We should not invent personal stories for them.",
+  "takeaway": "The genealogy continues Ishmael's family line."
+ },
+ "15": {
+  "scene": "The final sons listed are Jetur, Naphish, and Kedemah.",
+  "breakdown": "These three names complete the list of twelve. The number matters because God had promised Abraham that Ishmael would father twelve leaders. Genesis now shows that promise taking shape through named descendants.",
+  "takeaway": "Ishmael's twelve sons are fully listed."
+ },
+ "16": {
+  "scene": "Ishmael's twelve sons are described as princes or chiefs of their peoples, with settlements and encampments named after them.",
+  "breakdown": "The genealogy is more than a list of children: it describes the growth of family groups and leadership. The language of villages and camps fits communities spread across a region. Genesis does not provide exact borders for every group here.",
+  "takeaway": "Ishmael's family develops into twelve named groups with leaders."
+ },
+ "17": {
+  "scene": "Ishmael lives 137 years, dies, and is gathered to his people.",
+  "breakdown": "Like Abraham's death notice, this verse records a lifespan and uses the expression 'gathered to his people.' Ishmael's story has included hardship, God's rescue, and a promise of descendants. His life is given a formal closing notice rather than being ignored.",
+  "takeaway": "Ishmael dies at 137 after a life with descendants."
+ },
+ "18": {
+  "scene": "Ishmael's descendants settle across a region described from Havilah to Shur, toward Assyria, near Egypt.",
+  "breakdown": "The verse locates Ishmael's family broadly in the lands east of Egypt. The final Hebrew phrase is difficult and can be understood in different ways, including living in opposition to or in the presence of relatives. We should not turn that ambiguity into a claim that every descendant lived in permanent hostility.",
+  "takeaway": "Ishmael's descendants inhabit a broad region near Egypt and beyond."
+ },
+ "19": {
+  "scene": "The account turns to Isaac, Abraham's son, whom Abraham fathered.",
+  "breakdown": "This formal opening marks a new section of Genesis. After closing the accounts of Abraham's later family and Ishmael's line, the narrative centers on Isaac's household. The repetition is deliberate: the promised family line is moving into another generation.",
+  "takeaway": "The story now follows Isaac's family."
+ },
+ "20": {
+  "scene": "Isaac is forty years old when he marries Rebekah, daughter of Bethuel and sister of Laban, from Paddan-aram.",
+  "breakdown": "The verse supplies Isaac's age and identifies Rebekah's family. These are the relatives introduced in chapter 24. The geographical and family details keep the marriage grounded in the wider household story rather than presenting Rebekah as someone without a past.",
+  "takeaway": "Isaac marries Rebekah at age forty."
+ },
+ "21": {
+  "scene": "Isaac prays to the LORD because Rebekah cannot have children, and the LORD answers so she conceives.",
+  "breakdown": "The next generation faces a painful problem familiar from Sarah's story: childlessness. Isaac responds by praying for his wife, and the narrator connects Rebekah's pregnancy with God's answer. The verse does not say how Rebekah felt through every year of waiting, so we shouldn't invent her inner thoughts.",
+  "takeaway": "Isaac prays, and Rebekah becomes pregnant."
+ },
+ "22": {
+  "scene": "The children struggle inside Rebekah, and she asks why this is happening and goes to inquire of the LORD.",
+  "breakdown": "Rebekah experiences a troubling pregnancy, not the uncomplicated relief she might have hoped for. Her question expresses real distress, and she seeks an answer from God. The verse does not specify exactly how she inquired, so we should not supply a method as fact.",
+  "takeaway": "Rebekah seeks God amid a difficult pregnancy."
+ },
+ "23": {
+  "scene": "The LORD tells Rebekah that two nations are in her womb and that two peoples will be separated from her; one will be stronger, and the older will serve the younger.",
+  "breakdown": "The message reaches beyond two babies to the peoples descended from them. It also overturns the usual expectation that the older son would hold the higher position. The wording has been interpreted in different ways over time, especially when applied to the later nations; it should not be used to claim one modern people is inherently superior to another.",
+  "takeaway": "God announces an unexpected future for Rebekah's twins and their descendants."
+ },
+ "24": {
+  "scene": "When Rebekah's time to give birth arrives, she has twins.",
+  "breakdown": "The difficult pregnancy now leads to the birth of two sons. This fulfills the earlier announcement that two distinct family lines are beginning within her. Genesis is preparing us to see how different the brothers will become.",
+  "takeaway": "Rebekah gives birth to twin sons."
+ },
+ "25": {
+  "scene": "The first baby is reddish and hairy, and he is named Esau.",
+  "breakdown": "The description distinguishes the firstborn from his brother. Esau's name is linked in the story with his appearance, though the exact wordplay is not entirely straightforward. The narrator records these details because names and birth order will matter in the family conflict.",
+  "takeaway": "Esau is born first and is described as hairy."
+ },
+ "26": {
+  "scene": "The second baby comes out holding Esau's heel and is named Jacob; Isaac is sixty when the twins are born.",
+  "breakdown": "The heel-grasping gives the narrative a wordplay associated with Jacob's name. Later, the brothers will struggle over status and blessing, so the birth scene anticipates that tension. Isaac's age also shows twenty years have passed since his marriage at forty.",
+  "takeaway": "Jacob is born second, grasping Esau's heel."
+ },
+ "27": {
+  "scene": "As the boys grow, Esau becomes a skilled hunter and man of the open country, while Jacob is described as quiet or settled, living among tents.",
+  "breakdown": "Genesis contrasts the brothers' ways of life. The Hebrew word applied to Jacob can suggest a quiet, complete, or upright person depending on context; it does not mean he never does wrong. Neither hunting nor staying near tents makes a person automatically better or worse.",
+  "takeaway": "The brothers develop very different habits and interests."
+ },
+ "28": {
+  "scene": "Isaac loves Esau because he enjoys the game Esau brings, while Rebekah loves Jacob.",
+  "breakdown": "The parents' preferences are stated plainly, including Isaac's taste for Esau's hunted food. This divided affection sets up trouble in the household. Genesis does not say the parents love only one child each, but the favoritism matters for what follows.",
+  "takeaway": "Parental favoritism divides the household."
+ },
+ "29": {
+  "scene": "Jacob is cooking stew when Esau returns from the field exhausted.",
+  "breakdown": "The scene shifts to an ordinary moment of hunger and cooking. Esau's exhaustion is important because it shapes the decision he is about to make. The text does not tell us how long he has been without food or whether he is literally near death.",
+  "takeaway": "Esau comes home exhausted while Jacob cooks."
+ },
+ "30": {
+  "scene": "Esau asks Jacob for some of the red stew because he is exhausted; this is connected to the name Edom.",
+  "breakdown": "Esau wants food immediately and speaks of the red dish. Genesis uses the Hebrew connection between 'red' and 'Edom' as wordplay linking Esau to the people later known by that name. The verse makes his urgent appetite vivid without yet explaining the bargain.",
+  "takeaway": "Esau urgently asks for the red stew."
+ },
+ "31": {
+  "scene": "Jacob tells Esau to sell him his birthright first.",
+  "breakdown": "Jacob sees an opportunity in his brother's hunger. A birthright could involve important family standing and inheritance expectations, so this is not an ordinary price for a meal. Genesis does not tell us Jacob's private motives, but the demand is plainly calculated.",
+  "takeaway": "Jacob demands Esau's birthright in exchange for food."
+ },
+ "32": {
+  "scene": "Esau says he is about to die and asks what good his birthright is to him.",
+  "breakdown": "Esau speaks as though his immediate hunger makes the future benefit worthless. The passage does not establish that he is literally dying; his words may be dramatic. Either way, he is treating something important as less valuable than a meal right now.",
+  "takeaway": "Esau dismisses the value of his birthright in his hunger."
+ },
+ "33": {
+  "scene": "Jacob demands an oath, and Esau swears, selling his birthright to Jacob.",
+  "breakdown": "The oath turns a heated exchange into a solemn commitment. Jacob presses for certainty, while Esau agrees to surrender his firstborn status. Both brothers' choices deserve attention: Jacob exploits the moment, and Esau agrees to a costly bargain.",
+  "takeaway": "Esau formally trades away his birthright."
+ },
+ "34": {
+  "scene": "Jacob gives Esau bread and lentil stew; Esau eats, drinks, leaves, and the narrator says he despised his birthright.",
+  "breakdown": "The rapid sequence—eating, drinking, getting up, leaving—shows how quickly Esau moves on after the exchange. The narrator's final judgment is explicit: Esau treated his birthright with contempt. That does not automatically make Jacob's bargaining generous or fair; the story lets us see a troubling family dynamic on both sides.",
+  "takeaway": "Esau satisfies his hunger but treats his birthright as worthless."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
