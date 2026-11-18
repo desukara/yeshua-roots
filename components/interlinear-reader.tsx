@@ -3420,14 +3420,14 @@ const plainGenesisTwentyFive:Record<number,PlainVerseStudy>={
   "takeaway": "The genealogy begins naming Ishmael's sons."
  },
  "14": {
-  "scene": "The list continues with Mishma, Dumah, Massa, Hadad, and Tema.",
-  "breakdown": "These names add five more sons to Ishmael's family line. Some are also associated with places or groups in other ancient texts, but the verse itself is simply recording the descendants. We should not invent personal stories for them.",
-  "takeaway": "The genealogy continues Ishmael's family line."
+  "scene": "The list continues with Mishma, Dumah, and Massa.",
+  "breakdown": "These three sons follow the first four named in the previous verse. Genesis records them as part of Ishmael's family without giving individual biographies. Some names also appear in ancient geographic or tribal contexts, but we shouldn't assume every later occurrence refers to the same person. The list is building toward twelve sons, just as God promised Abraham.",
+  "takeaway": "Three more of Ishmael's sons are named."
  },
  "15": {
-  "scene": "The final sons listed are Jetur, Naphish, and Kedemah.",
-  "breakdown": "These three names complete the list of twelve. The number matters because God had promised Abraham that Ishmael would father twelve leaders. Genesis now shows that promise taking shape through named descendants.",
-  "takeaway": "Ishmael's twelve sons are fully listed."
+  "scene": "The final five sons listed are Hadad, Tema, Jetur, Naphish, and Kedemah.",
+  "breakdown": "These five names complete the twelve sons of Ishmael: four in verse 13, three in verse 14, and five here. The total matters because God had promised Abraham that Ishmael would father twelve leaders. Genesis gives each son a place in the family record without inventing stories about their lives.",
+  "takeaway": "The list of Ishmael's twelve sons is complete."
  },
  "16": {
   "scene": "Ishmael's twelve sons are described as princes or chiefs of their peoples, with settlements and encampments named after them.",
@@ -3525,6 +3525,7 @@ const plainGenesisTwentyFive:Record<number,PlainVerseStudy>={
   "takeaway": "Esau satisfies his hunger but treats his birthright as worthless."
  }
 };
+
 const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
