@@ -4982,7 +4982,164 @@ const plainGenesisThirtyThree:Record<number,PlainVerseStudy>={
   "takeaway": "Jacob builds an altar and honors the God of Israel."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree}};
+const plainGenesisThirtyFour:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Dinah, Leah's daughter, goes out to visit the women of the land.",
+  "breakdown": "Dinah is visiting people in the surrounding community. Nothing in this verse makes her responsible for what happens next. The narrator introduces her as a person, not as the cause of anyone else's wrongdoing.",
+  "takeaway": "Dinah visits women in the area."
+ },
+ "2": {
+  "scene": "Shechem, son of Hamor the Hivite, takes Dinah, sleeps with her, and violates her.",
+  "breakdown": "The wording describes Shechem taking and violating Dinah. His later claim to love her does not change the nature of this act. The text does not record Dinah's consent, and we should not invent it.",
+  "takeaway": "Shechem sexually violates Dinah."
+ },
+ "3": {
+  "scene": "Shechem becomes attached to Dinah, says he loves her, and speaks tenderly to her.",
+  "breakdown": "The narrator reports Shechem's feelings, not Dinah's. His affection after the assault cannot undo what he did or make the encounter a consensual romance.",
+  "takeaway": "Shechem's feelings do not erase his wrongdoing."
+ },
+ "4": {
+  "scene": "Shechem asks his father Hamor to get Dinah as his wife.",
+  "breakdown": "Shechem seeks a marriage arrangement through his father. Dinah's wishes are still not heard. Marriage negotiations do not automatically repair an assault.",
+  "takeaway": "Shechem asks his father to arrange marriage."
+ },
+ "5": {
+  "scene": "Jacob hears Dinah has been violated but waits until his sons return from the fields.",
+  "breakdown": "The verse describes Jacob's silence without explaining his thoughts. We should not assume he was indifferent or invent a hidden plan. His sons are away with the livestock when he receives the news.",
+  "takeaway": "Jacob waits for his sons before responding."
+ },
+ "6": {
+  "scene": "Hamor, Shechem's father, goes to speak with Jacob.",
+  "breakdown": "Hamor approaches the family to negotiate. The chapter will show his goal is a marriage arrangement, but his visit does not establish that Dinah wants it.",
+  "takeaway": "Hamor begins negotiations with Jacob."
+ },
+ "7": {
+  "scene": "Jacob's sons return, grieved and furious at the outrage committed against Dinah.",
+  "breakdown": "The brothers recognize a serious wrong. Their anger is understandable, but their later actions must still be evaluated separately. The phrase 'in Israel' refers to Jacob's family and its identity, not yet a settled nation.",
+  "takeaway": "Dinah's brothers are deeply outraged."
+ },
+ "8": {
+  "scene": "Hamor says his son longs for Dinah and asks that she be given to him as a wife.",
+  "breakdown": "Hamor speaks for Shechem and seeks permission from Dinah's family. The person harmed has no recorded voice in the discussion. The request does not erase the violation.",
+  "takeaway": "Hamor requests Dinah's hand for Shechem."
+ },
+ "9": {
+  "scene": "Hamor proposes marriages between the two communities.",
+  "breakdown": "His proposal goes beyond the immediate situation to a lasting alliance. Women are discussed as part of arrangements made by men, with no individual responses recorded.",
+  "takeaway": "Hamor proposes intermarriage."
+ },
+ "10": {
+  "scene": "Hamor offers Jacob's family a place to live, trade, and own property.",
+  "breakdown": "The offer includes economic advantages and a home in the land. These incentives do not answer the question of what Dinah experienced or what she wants.",
+  "takeaway": "Hamor offers land and trade opportunities."
+ },
+ "11": {
+  "scene": "Shechem asks Jacob and Dinah's brothers for favor and offers whatever they require.",
+  "breakdown": "Shechem joins the negotiation directly. He is willing to meet their demands, but the conversation still centers on the men rather than Dinah.",
+  "takeaway": "Shechem offers to meet the family's terms."
+ },
+ "12": {
+  "scene": "Shechem offers a large bride-price and gifts if he may marry Dinah.",
+  "breakdown": "Bride-price was part of some ancient marriage negotiations. The verse reports the offer without implying Dinah's violation can be bought away or that her consent is unnecessary.",
+  "takeaway": "Shechem offers payment for marriage."
+ },
+ "13": {
+  "scene": "Jacob's sons answer Hamor and Shechem deceitfully because Dinah was violated.",
+  "breakdown": "The narrator explicitly calls the brothers' response deceitful. Their outrage over a real injustice does not make their scheme honest or harmless.",
+  "takeaway": "The brothers begin a deceptive response."
+ },
+ "14": {
+  "scene": "The brothers say marrying an uncircumcised man would be a disgrace.",
+  "breakdown": "They invoke circumcision, a covenant sign, as their stated objection. But readers already know the answer is a trap. The religious language is being used deceptively.",
+  "takeaway": "The brothers invoke circumcision as an objection."
+ },
+ "15": {
+  "scene": "The brothers demand that every male in the city be circumcised.",
+  "breakdown": "Their condition reaches far beyond Shechem himself. The entire male population will be drawn into the agreement without knowing the brothers' intention.",
+  "takeaway": "The brothers demand circumcision of all the men."
+ },
+ "16": {
+  "scene": "They promise intermarriage and becoming one people if the men comply.",
+  "breakdown": "The brothers echo Hamor's proposal and appear to agree to community unity. Because their answer is deceitful, this promise cannot be taken at face value.",
+  "takeaway": "The brothers promise unity as part of the trap."
+ },
+ "17": {
+  "scene": "They say they will take Dinah and leave if the condition is refused.",
+  "breakdown": "The alternative sounds like ending negotiations. Their words suggest Dinah remains in Shechem's household, but the narrative does not explain every detail of her circumstances.",
+  "takeaway": "The brothers threaten to leave with Dinah."
+ },
+ "18": {
+  "scene": "Hamor and Shechem accept the proposal.",
+  "breakdown": "The two men do not know the brothers are setting a trap. Their acceptance moves the deception toward a wider group of people.",
+  "takeaway": "Hamor and Shechem agree to the condition."
+ },
+ "19": {
+  "scene": "Shechem acts quickly because he desires Dinah and is respected in his father's household.",
+  "breakdown": "His urgency and social standing help explain his influence. Neither his desire nor his position excuses the assault.",
+  "takeaway": "Shechem eagerly pursues the agreement."
+ },
+ "20": {
+  "scene": "Hamor and Shechem bring the proposal to the men at the city gate.",
+  "breakdown": "The gate is a public place for community decisions. The plan now involves the city's men, not only the two families.",
+  "takeaway": "The leaders address the city's men."
+ },
+ "21": {
+  "scene": "They describe Jacob's family as peaceful and offer them residence and trade.",
+  "breakdown": "Hamor and Shechem present the arrangement as beneficial cooperation. They do not know the brothers' hidden intentions, and their speech focuses on what the city might gain.",
+  "takeaway": "The leaders promote peaceful cooperation."
+ },
+ "22": {
+  "scene": "They say the families can join if every male among them is circumcised.",
+  "breakdown": "The leaders repeat the condition as the price of integration. Circumcision itself is not the wrong here; the brothers' deceitful use of it is.",
+  "takeaway": "The leaders ask the men to accept circumcision."
+ },
+ "23": {
+  "scene": "They argue that Jacob's livestock and possessions will become theirs if they agree.",
+  "breakdown": "This appeal exposes an expectation of material gain. Their argument is not only about family peace; it also encourages the townsmen to think of Jacob's wealth as an opportunity.",
+  "takeaway": "The leaders appeal to the prospect of wealth."
+ },
+ "24": {
+  "scene": "The city's men listen and every male is circumcised.",
+  "breakdown": "The men comply with the agreement as presented. They do not know that the brothers intend to exploit their recovery from the procedure.",
+  "takeaway": "The men of the city undergo circumcision."
+ },
+ "25": {
+  "scene": "On the third day, while the men are in pain, Simeon and Levi attack and kill all the males.",
+  "breakdown": "The brothers exploit the men's vulnerability. The text describes mass killing, not only punishment of Shechem. Dinah suffered a grave wrong, but that does not make the killing of the city's men automatically just.",
+  "takeaway": "Simeon and Levi massacre the city's men."
+ },
+ "26": {
+  "scene": "Simeon and Levi kill Hamor and Shechem and take Dinah from Shechem's house.",
+  "breakdown": "Dinah is removed from the household where she has been staying, but her own account remains absent. Her removal happens amid extreme violence that reaches far beyond her assailant.",
+  "takeaway": "The brothers kill the leaders and take Dinah away."
+ },
+ "27": {
+  "scene": "Jacob's other sons plunder the slain men's city because Dinah was violated.",
+  "breakdown": "The narrator connects the looting with their sister's assault, but explaining a motive is not the same as approving the retaliation. The harm spreads to the whole community.",
+  "takeaway": "The brothers plunder the city."
+ },
+ "28": {
+  "scene": "They seize the flocks, herds, donkeys, and possessions in the city and fields.",
+  "breakdown": "The list shows how extensive the theft becomes. Property belonging to many people is taken, not just possessions of the man who assaulted Dinah.",
+  "takeaway": "The brothers take the city's livestock and property."
+ },
+ "29": {
+  "scene": "They carry off wealth, women, and children as captives and take what is in the houses.",
+  "breakdown": "The retaliation now harms women and children who are not identified as responsible for Dinah's assault. Their captivity should not be softened into a triumphant account of family honor.",
+  "takeaway": "Women and children are taken captive."
+ },
+ "30": {
+  "scene": "Jacob rebukes Simeon and Levi for making his household vulnerable to retaliation.",
+  "breakdown": "Jacob fears neighboring peoples will unite against his smaller family. His response focuses on survival; it does not fully address every moral dimension of the massacre.",
+  "takeaway": "Jacob fears the violence will endanger his family."
+ },
+ "31": {
+  "scene": "The brothers ask whether Dinah should have been treated like a prostitute.",
+  "breakdown": "Their question expresses outrage at how their sister was treated, but it does not justify killing the city's men or taking captives. Dinah's voice remains unheard as the chapter ends without a neat resolution.",
+  "takeaway": "The brothers defend their anger, not the full consequences of their actions."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
