@@ -4441,7 +4441,284 @@ const plainGenesisThirty:Record<number,PlainVerseStudy>={
   "takeaway": "Jacob's wealth grows substantially."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty}};
+const plainGenesisThirtyOne:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Laban's sons complain that Jacob has taken their father's wealth.",
+  "breakdown": "Their accusation reflects resentment at Jacob's success, not a neutral accounting. The family relationship is deteriorating.",
+  "takeaway": "Laban's sons complain that Jacob has taken their father's wealth."
+ },
+ "2": {
+  "scene": "Jacob notices Laban no longer regards him as before.",
+  "breakdown": "Laban's changed manner adds to the hostility Jacob already hears from his sons. Staying is becoming difficult.",
+  "takeaway": "Jacob notices Laban no longer regards him as before."
+ },
+ "3": {
+  "scene": "The LORD tells Jacob to return to his ancestors' land.",
+  "breakdown": "God promises to be with him, recalling the assurance given at Bethel. The move is more than an escape from Laban.",
+  "takeaway": "The LORD tells Jacob to return to his ancestors' land."
+ },
+ "4": {
+  "scene": "Jacob summons Rachel and Leah to the field.",
+  "breakdown": "He speaks to his wives where he tends the flocks, away from Laban's house. Their future is directly affected by his decision.",
+  "takeaway": "Jacob summons Rachel and Leah to the field."
+ },
+ "5": {
+  "scene": "Jacob says Laban's attitude has changed but God has stayed with him.",
+  "breakdown": "Jacob contrasts his father-in-law's treatment with the presence of the God of Isaac. This is Jacob's account of his experience.",
+  "takeaway": "Jacob says Laban's attitude has changed but God has stayed with him."
+ },
+ "6": {
+  "scene": "Jacob reminds the sisters that he served Laban with all his strength.",
+  "breakdown": "He wants them to understand how much he has contributed to their father's prosperity. His complaint concerns years of work.",
+  "takeaway": "Jacob reminds the sisters that he served Laban with all his strength."
+ },
+ "7": {
+  "scene": "Jacob says Laban repeatedly changed his wages but God protected him.",
+  "breakdown": "The expression 'ten times' can emphasize repeated changes rather than provide an itemized count. Jacob sees God's care despite unfair treatment.",
+  "takeaway": "Jacob says Laban repeatedly changed his wages but God protected him."
+ },
+ "8": {
+  "scene": "Jacob says the flock produced whichever marked animals Laban assigned as wages.",
+  "breakdown": "Jacob describes spotted or striped offspring corresponding to changing pay terms. The verse reports his claim, not a lesson in genetics.",
+  "takeaway": "Jacob says the flock produced whichever marked animals Laban assigned as wages."
+ },
+ "9": {
+  "scene": "Jacob says God transferred livestock wealth from Laban to him.",
+  "breakdown": "Jacob credits God for the increase he received under their agreements. He is explaining why Laban's changing terms did not leave him empty-handed.",
+  "takeaway": "Jacob says God transferred livestock wealth from Laban to him."
+ },
+ "10": {
+  "scene": "Jacob recalls a dream of marked male goats mating with the flock.",
+  "breakdown": "The dream revisits the breeding story from chapter 30. It should not be used to claim that striped sticks change inherited traits.",
+  "takeaway": "Jacob recalls a dream of marked male goats mating with the flock."
+ },
+ "11": {
+  "scene": "An angel of God calls Jacob by name in the dream.",
+  "breakdown": "Jacob answers the call. The vision becomes a personal message rather than simply an image of animals.",
+  "takeaway": "An angel of God calls Jacob by name in the dream."
+ },
+ "12": {
+  "scene": "The messenger points to the marked animals and says God has seen Laban's conduct.",
+  "breakdown": "God's awareness of unfair treatment is the focus. Jacob understands his growing flock in the light of that protection.",
+  "takeaway": "The messenger points to the marked animals and says God has seen Laban's conduct."
+ },
+ "13": {
+  "scene": "God identifies Himself as the God of Bethel and commands Jacob to return home.",
+  "breakdown": "The message recalls Jacob's anointed stone and vow. His journey back is tied to God's earlier promise.",
+  "takeaway": "God identifies Himself as the God of Bethel and commands Jacob to return home."
+ },
+ "14": {
+  "scene": "Rachel and Leah ask whether they have any inheritance left with their father.",
+  "breakdown": "The sisters speak for themselves about their situation. They do not expect fair provision from Laban's household.",
+  "takeaway": "Rachel and Leah ask whether they have any inheritance left with their father."
+ },
+ "15": {
+  "scene": "The sisters say Laban has treated them as outsiders and used up what he received for them.",
+  "breakdown": "Their words express anger about their marriage arrangements and their father's handling of resources. This is their assessment of him.",
+  "takeaway": "The sisters say Laban has treated them as outsiders and used up what he received for them."
+ },
+ "16": {
+  "scene": "Rachel and Leah say Jacob's gains belong to their children and tell him to obey God.",
+  "breakdown": "They support leaving and regard the growing household's wealth as provision for their family. Their consent matters to the story.",
+  "takeaway": "Rachel and Leah say Jacob's gains belong to their children and tell him to obey God."
+ },
+ "17": {
+  "scene": "Jacob puts his wives and children on camels.",
+  "breakdown": "The family prepares to travel. Genesis gives this practical detail without describing every moment of departure.",
+  "takeaway": "Jacob puts his wives and children on camels."
+ },
+ "18": {
+  "scene": "Jacob drives his livestock and takes his possessions toward Isaac's land.",
+  "breakdown": "He heads toward Canaan with what he has acquired in Paddan-aram. Reaching his father will still take time.",
+  "takeaway": "Jacob drives his livestock and takes his possessions toward Isaac's land."
+ },
+ "19": {
+  "scene": "While Laban shears sheep, Rachel steals his household gods.",
+  "breakdown": "These objects, often called teraphim, belonged to Laban's household religion. Rachel's motive is not stated; the narrator calls her act theft.",
+  "takeaway": "While Laban shears sheep, Rachel steals his household gods."
+ },
+ "20": {
+  "scene": "Jacob leaves secretly without telling Laban.",
+  "breakdown": "The Hebrew describes Jacob as deceiving Laban by hiding his plan. The departure reflects deep distrust, even if Jacob fears Laban's reaction.",
+  "takeaway": "Jacob leaves secretly without telling Laban."
+ },
+ "21": {
+  "scene": "Jacob flees across the river toward the hills of Gilead.",
+  "breakdown": "The river is generally understood as the Euphrates. The family is making a substantial journey, not merely moving to a nearby field.",
+  "takeaway": "Jacob flees across the river toward the hills of Gilead."
+ },
+ "22": {
+  "scene": "Laban hears on the third day that Jacob has fled.",
+  "breakdown": "News of the departure reaches him after a delay. He now has to decide whether to let the family go.",
+  "takeaway": "Laban hears on the third day that Jacob has fled."
+ },
+ "23": {
+  "scene": "Laban pursues Jacob for seven days and catches him in Gilead.",
+  "breakdown": "The chase shows how determined Laban is to confront Jacob. The text does not give every stage of their routes.",
+  "takeaway": "Laban pursues Jacob for seven days and catches him in Gilead."
+ },
+ "24": {
+  "scene": "God warns Laban in a dream to be careful how he speaks to Jacob.",
+  "breakdown": "The warning restricts Laban's actions before the confrontation. The phrase about speaking good or bad is an idiom, not permission for silent violence.",
+  "takeaway": "God warns Laban in a dream to be careful how he speaks to Jacob."
+ },
+ "25": {
+  "scene": "Laban reaches Jacob's camp in the hills of Gilead.",
+  "breakdown": "The two households are now face to face. A long dispute over family and property is about to surface.",
+  "takeaway": "Laban reaches Jacob's camp in the hills of Gilead."
+ },
+ "26": {
+  "scene": "Laban accuses Jacob of taking his daughters like captives.",
+  "breakdown": "Laban speaks as though Rachel and Leah had no choice, but readers know they agreed to leave. His charge is one side of a conflict.",
+  "takeaway": "Laban accuses Jacob of taking his daughters like captives."
+ },
+ "27": {
+  "scene": "Laban complains Jacob denied him a festive farewell.",
+  "breakdown": "He says he would have sent them off with songs and music. The text does not establish whether he really would have done so.",
+  "takeaway": "Laban complains Jacob denied him a festive farewell."
+ },
+ "28": {
+  "scene": "Laban says he was denied the chance to kiss his daughters and grandchildren.",
+  "breakdown": "His words convey a real family separation but also pressure Jacob. Their earlier grievances remain part of the picture.",
+  "takeaway": "Laban says he was denied the chance to kiss his daughters and grandchildren."
+ },
+ "29": {
+  "scene": "Laban says he could harm Jacob but God's warning restrained him.",
+  "breakdown": "The threat is explicit. Laban himself acknowledges that Jacob's father's God intervened before he acted.",
+  "takeaway": "Laban says he could harm Jacob but God's warning restrained him."
+ },
+ "30": {
+  "scene": "Laban asks why Jacob stole his household gods.",
+  "breakdown": "The accusation raises a second dispute. Readers know Rachel took them, while Jacob is still unaware.",
+  "takeaway": "Laban asks why Jacob stole his household gods."
+ },
+ "31": {
+  "scene": "Jacob says he fled because he feared Laban would take his daughters by force.",
+  "breakdown": "Jacob explains his secrecy as a response to fear. His fear is real, though the verse does not say Laban had already attempted such a seizure.",
+  "takeaway": "Jacob says he fled because he feared Laban would take his daughters by force."
+ },
+ "32": {
+  "scene": "Jacob declares the thief should die and invites a search, not knowing Rachel took the gods.",
+  "breakdown": "His challenge is dangerously rash because he does not know the facts. The narrator explicitly highlights his ignorance.",
+  "takeaway": "Jacob declares the thief should die and invites a search, not knowing Rachel took the gods."
+ },
+ "33": {
+  "scene": "Laban searches the tents of Jacob, Leah, the servants, and Rachel.",
+  "breakdown": "He looks for the missing objects throughout the household. The search is unsuccessful despite Rachel having them.",
+  "takeaway": "Laban searches the tents of Jacob, Leah, the servants, and Rachel."
+ },
+ "34": {
+  "scene": "Rachel hides the gods inside a camel saddle and sits on it.",
+  "breakdown": "Rachel deliberately conceals the stolen objects. Her reason for taking them remains unexplained.",
+  "takeaway": "Rachel hides the gods inside a camel saddle and sits on it."
+ },
+ "35": {
+  "scene": "Rachel says she cannot rise because she is menstruating; Laban finds nothing.",
+  "breakdown": "The claim lets her remain seated above the hiding place. The text reports her explanation without independently verifying it.",
+  "takeaway": "Rachel says she cannot rise because she is menstruating; Laban finds nothing."
+ },
+ "36": {
+  "scene": "Jacob angrily challenges Laban to name his offense.",
+  "breakdown": "Because the search has failed, Jacob feels vindicated. Readers know his confidence rests on incomplete information.",
+  "takeaway": "Jacob angrily challenges Laban to name his offense."
+ },
+ "37": {
+  "scene": "Jacob demands that Laban show any stolen property before their relatives.",
+  "breakdown": "He calls for evidence and witnesses. Nothing has been produced to support the charge against his household.",
+  "takeaway": "Jacob demands that Laban show any stolen property before their relatives."
+ },
+ "38": {
+  "scene": "Jacob says he served twenty years and carefully tended Laban's animals.",
+  "breakdown": "He points to the flock's survival and his long work record. This is part of his defense against Laban.",
+  "takeaway": "Jacob says he served twenty years and carefully tended Laban's animals."
+ },
+ "39": {
+  "scene": "Jacob says he bore the cost of losses from predators or theft.",
+  "breakdown": "He claims he did not make Laban pay for every loss. The detail shows how demanding their work arrangement was.",
+  "takeaway": "Jacob says he bore the cost of losses from predators or theft."
+ },
+ "40": {
+  "scene": "Jacob recalls hot days, cold nights, and sleeplessness.",
+  "breakdown": "His description makes the physical hardship of shepherding vivid. Protecting livestock required constant effort.",
+  "takeaway": "Jacob recalls hot days, cold nights, and sleeplessness."
+ },
+ "41": {
+  "scene": "Jacob divides his twenty years into fourteen for the daughters and six for the flock.",
+  "breakdown": "He repeats that Laban changed his wages. The timeline ties their present dispute to the earlier marriage and livestock agreements.",
+  "takeaway": "Jacob divides his twenty years into fourteen for the daughters and six for the flock."
+ },
+ "42": {
+  "scene": "Jacob says the God of Abraham and the Fear of Isaac saw his hardship and rebuked Laban.",
+  "breakdown": "'Fear of Isaac' is a title for the God Isaac reveres. Jacob believes divine protection kept Laban from sending him away empty-handed.",
+  "takeaway": "Jacob says the God of Abraham and the Fear of Isaac saw his hardship and rebuked Laban."
+ },
+ "43": {
+  "scene": "Laban claims the daughters, children, and flocks are his, then asks what he can do now.",
+  "breakdown": "His sweeping claims conflict with the women's earlier complaints. The conversation begins shifting from accusation toward an agreement.",
+  "takeaway": "Laban claims the daughters, children, and flocks are his, then asks what he can do now."
+ },
+ "44": {
+  "scene": "Laban proposes a covenant with Jacob.",
+  "breakdown": "A formal pact can set boundaries where trust has failed. Neither man needs to pretend the past was peaceful.",
+  "takeaway": "Laban proposes a covenant with Jacob."
+ },
+ "45": {
+  "scene": "Jacob sets up a stone pillar.",
+  "breakdown": "The standing stone will serve as a visible marker. Unlike the pillar at Bethel, this one marks an agreement between people.",
+  "takeaway": "Jacob sets up a stone pillar."
+ },
+ "46": {
+  "scene": "Jacob's relatives gather stones into a heap and eat beside it.",
+  "breakdown": "The heap and shared meal make the agreement public within the family. The stones are meant to preserve memory of their promises.",
+  "takeaway": "Jacob's relatives gather stones into a heap and eat beside it."
+ },
+ "47": {
+  "scene": "Laban calls the heap Jegar-sahadutha and Jacob calls it Galeed.",
+  "breakdown": "The names use Aramaic and Hebrew to express the idea of a witness heap. Different words point to the same memorial.",
+  "takeaway": "Laban calls the heap Jegar-sahadutha and Jacob calls it Galeed."
+ },
+ "48": {
+  "scene": "Laban says the heap witnesses their agreement.",
+  "breakdown": "The pile of stones serves as a lasting reminder of their promises. It cannot enforce peace by itself, but it marks what they agreed.",
+  "takeaway": "Laban says the heap witnesses their agreement."
+ },
+ "49": {
+  "scene": "The place is also called Mizpah as Laban asks the LORD to watch them apart.",
+  "breakdown": "The name connects with watching. In context this appeal reflects distrust and a request for accountability, not simply warm friendship.",
+  "takeaway": "The place is also called Mizpah as Laban asks the LORD to watch them apart."
+ },
+ "50": {
+  "scene": "Laban warns Jacob not to mistreat his daughters or take other wives.",
+  "breakdown": "He invokes God as witness when no family member is present to observe. The concern should be read alongside Rachel and Leah's own criticism of Laban.",
+  "takeaway": "Laban warns Jacob not to mistreat his daughters or take other wives."
+ },
+ "51": {
+  "scene": "Laban points to the stone heap and pillar between them.",
+  "breakdown": "He emphasizes the visible boundary markers. The repeated references underline the seriousness of the pact.",
+  "takeaway": "Laban points to the stone heap and pillar between them."
+ },
+ "52": {
+  "scene": "Laban says neither man should cross the boundary to harm the other.",
+  "breakdown": "This is a nonaggression agreement, not a ban on all travel. The purpose is to prevent renewed hostility.",
+  "takeaway": "Laban says neither man should cross the boundary to harm the other."
+ },
+ "53": {
+  "scene": "Laban invokes the gods of their ancestors; Jacob swears by the Fear of Isaac.",
+  "breakdown": "Their language reflects different ancestral religious expressions. Jacob's oath specifically names the God his father reveres.",
+  "takeaway": "Laban invokes the gods of their ancestors; Jacob swears by the Fear of Isaac."
+ },
+ "54": {
+  "scene": "Jacob offers a sacrifice and invites his relatives to eat in the hills.",
+  "breakdown": "The sacrifice and meal accompany the covenant. The confrontation ends with shared ritual rather than a fight.",
+  "takeaway": "Jacob offers a sacrifice and invites his relatives to eat in the hills."
+ },
+ "55": {
+  "scene": "Laban kisses and blesses his daughters and grandchildren, then returns home.",
+  "breakdown": "He finally has the farewell he earlier complained about missing. The families part peacefully, while Jacob's journey toward Esau remains ahead.",
+  "takeaway": "Laban kisses and blesses his daughters and grandchildren, then returns home."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
