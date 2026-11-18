@@ -5286,7 +5286,224 @@ const plainGenesisThirtyFive:Record<number,PlainVerseStudy>={
   "takeaway": "Esau and Jacob bury their father Isaac."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive}};
+const plainGenesisThirtySix:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The chapter opens by identifying Esau with Edom and introducing his family line.",
+  "breakdown": "Esau is Jacob's brother, and Edom is the people associated with his descendants. Genesis now pauses Jacob's story to show that Esau also built a substantial family and nation. The names that follow explain relationships between households, clans, and places, rather than being a list of people to skip.",
+  "takeaway": "Esau's family history is also part of Genesis."
+ },
+ "2": {
+  "scene": "Esau's Canaanite wives include Adah, daughter of Elon the Hittite, and Oholibamah, daughter of Anah and descendant of Zibeon.",
+  "breakdown": "The narrator traces the women's family connections because marriage linked Esau to people already living in the region. Oholibamah's ancestry is expressed differently across some translations, and earlier chapters use different names for Esau's wives. We should notice those differences rather than force a certainty the text does not supply.",
+  "takeaway": "Adah and Oholibamah connect Esau's household to Canaanite families."
+ },
+ "3": {
+  "scene": "Basemath, a daughter of Ishmael and sister of Nebaioth, is also named as Esau's wife.",
+  "breakdown": "Ishmael was Abraham's son through Hagar, so this marriage connects two branches of Abraham's extended family. Earlier Genesis passages use differing names in the accounts of Esau's wives; the family relationship given here is the detail this verse establishes.",
+  "takeaway": "Esau's marriage to Basemath connects him with Ishmael's family."
+ },
+ "4": {
+  "scene": "Adah bears Esau a son named Eliphaz, while Basemath bears Reuel.",
+  "breakdown": "The genealogy begins with two sons and identifies their mothers. These names matter because later verses trace separate groups of descendants through Eliphaz and Reuel. The text gives family connections, not biographies of the boys.",
+  "takeaway": "Eliphaz and Reuel begin two branches of Esau's descendants."
+ },
+ "5": {
+  "scene": "Oholibamah bears Esau three sons: Jeush, Jalam, and Korah, all born in Canaan.",
+  "breakdown": "The third named wife adds three sons to Esau's household. Together with Eliphaz and Reuel, they form the five sons listed as born in Canaan. The chapter will later identify leaders among their descendants.",
+  "takeaway": "Oholibamah's sons are Jeush, Jalam, and Korah."
+ },
+ "6": {
+  "scene": "Esau takes his wives, children, household, livestock, and possessions and moves away from Jacob.",
+  "breakdown": "Esau's departure involves an entire household, not just one person. The verse says he leaves the area where the brothers had lived and takes the resources he acquired there. The following verse explains the practical pressure behind the move.",
+  "takeaway": "Esau relocates his large household away from Jacob."
+ },
+ "7": {
+  "scene": "The brothers' livestock and possessions are too extensive for them to live together in the land.",
+  "breakdown": "Their combined herds require more grazing land than the area can support. This recalls Abraham and Lot separating for similar reasons. The verse offers a practical explanation; it does not say the brothers separated because their reconciliation had failed.",
+  "takeaway": "The brothers' wealth makes sharing the same land difficult."
+ },
+ "8": {
+  "scene": "Esau settles in the hill country of Seir, and the narrator again identifies him as Edom.",
+  "breakdown": "Seir becomes the geographical home associated with Esau's people. Edom is not merely a nickname in this chapter; it becomes the name of a people and their territory. Esau's family develops its own history alongside Jacob's.",
+  "takeaway": "Esau establishes his household in Seir."
+ },
+ "9": {
+  "scene": "A new section introduces Esau as the ancestor of the Edomites in the hill country of Seir.",
+  "breakdown": "The repeated introduction signals a shift from Esau's move to the family lines that grew in his new homeland. A genealogy can describe more than parentage: it can also show how clans and communities came to be known.",
+  "takeaway": "The genealogy now traces Esau's descendants in Seir."
+ },
+ "10": {
+  "scene": "The list names Eliphaz, son of Esau and Adah, and Reuel, son of Esau and Basemath.",
+  "breakdown": "These are the same sons named earlier, now introduced as heads of branches that will be expanded. Repeating their mothers keeps the two lines distinct. No new events are being narrated in this verse.",
+  "takeaway": "Eliphaz and Reuel anchor the next family lists."
+ },
+ "11": {
+  "scene": "Eliphaz's sons are Teman, Omar, Zepho, Gatam, and Kenaz.",
+  "breakdown": "The five names trace one branch of Esau's grandchildren. Teman will also become associated with a region or group within Edom, showing how a person's name can become a clan or place designation. The verse does not tell us what each man did.",
+  "takeaway": "Five sons are named in Eliphaz's line."
+ },
+ "12": {
+  "scene": "Timna, a concubine of Eliphaz, bears Amalek; she is named separately from the other mothers.",
+  "breakdown": "Amalek is identified as a descendant of Esau through Eliphaz. Later biblical stories describe conflicts involving Amalekites, but this verse itself reports ancestry, not those later events. Timna's position as a concubine reflects an unequal household arrangement; her perspective is not given.",
+  "takeaway": "Timna bears Amalek, extending Eliphaz's family line."
+ },
+ "13": {
+  "scene": "Reuel's sons are Nahath, Zerah, Shammah, and Mizzah.",
+  "breakdown": "This is the second branch through Esau's son Reuel and his mother Basemath. The verse records four names without supplying personal stories. Its purpose is to identify a family line that will reappear among Edom's chiefs.",
+  "takeaway": "Four sons are named in Reuel's line."
+ },
+ "14": {
+  "scene": "Oholibamah's sons are listed again as Jeush, Jalam, and Korah.",
+  "breakdown": "The genealogy returns to the three sons of Esau's wife Oholibamah. The repetition prepares for their appearance as chiefs. It is a way of organizing family groups, not a second account of their births.",
+  "takeaway": "Oholibamah's three sons complete the immediate family branches."
+ },
+ "15": {
+  "scene": "The chiefs descended from Eliphaz begin with Teman, Omar, Zepho, and Kenaz.",
+  "breakdown": "The Hebrew title often translated 'chief' refers to a leader or head of a clan. These names appeared among Eliphaz's sons; now the focus shifts from births to organized groups and leadership. A chief here should not automatically be imagined as a king.",
+  "takeaway": "Eliphaz's line produces named clan leaders."
+ },
+ "16": {
+  "scene": "The list continues with chiefs Korah, Gatam, and Amalek, associated with Eliphaz's line.",
+  "breakdown": "The appearance of Korah here is difficult because the earlier list of Eliphaz's sons does not name him, while Oholibamah's son Korah appears elsewhere. Some textual traditions differ. We should report the list as given without confidently inventing an extra relationship to resolve it.",
+  "takeaway": "The Eliphaz chief list includes a difficult reference to Korah."
+ },
+ "17": {
+  "scene": "The chiefs descended from Reuel are Nahath, Zerah, Shammah, and Mizzah.",
+  "breakdown": "The four names match Reuel's sons listed in verse 13. Their appearance as chiefs shows the family's development into recognized groups. The verse locates this branch within Edom's wider organization.",
+  "takeaway": "Reuel's four descendants are named as chiefs."
+ },
+ "18": {
+  "scene": "Oholibamah's line has chiefs Jeush, Jalam, and Korah.",
+  "breakdown": "These are the three sons of Oholibamah, now presented as clan leaders. The repeated names help readers connect the leadership list back to the family relationships introduced at the start of the chapter.",
+  "takeaway": "Oholibamah's sons are also counted among Edom's chiefs."
+ },
+ "19": {
+  "scene": "The narrator sums up these chiefs as descendants of Esau, who is Edom.",
+  "breakdown": "This closing statement ties the branches together. The chapter is not saying that every Edomite lived at the same time or under one leader; it is presenting the family origins of groups identified with Esau.",
+  "takeaway": "The first chief list is brought together under Esau's name."
+ },
+ "20": {
+  "scene": "The account turns to the sons of Seir the Horite: Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan.",
+  "breakdown": "These are not introduced as Esau's sons. They belong to Seir's Horite population, associated with the land where Esau settled. Including them shows that Edom's story involves people who were already connected with the territory.",
+  "takeaway": "The genealogy introduces Seir's Horite family."
+ },
+ "21": {
+  "scene": "The sons of Seir are described as chiefs of the Horites living in the land of Edom.",
+  "breakdown": "The same kind of leadership title used for Esau's descendants is now applied to the Horite families. This helps distinguish two overlapping sets of clans in the region. The text does not explain every step by which their histories became intertwined.",
+  "takeaway": "Seir's descendants are identified as Horite chiefs."
+ },
+ "22": {
+  "scene": "Lotan's sons are Hori and Hemam, and his sister is Timna.",
+  "breakdown": "The verse identifies both sons and a sister within Lotan's family. Timna may be connected with the woman named earlier in Esau's line, but the verse itself does not explicitly settle every identification. Her inclusion matters in a list that otherwise mostly names men.",
+  "takeaway": "Lotan's family includes Hori, Hemam, and Timna."
+ },
+ "23": {
+  "scene": "Shobal's sons are Alvan, Manahath, Ebal, Shepho, and Onam.",
+  "breakdown": "Five names fill out another branch of Seir's family. Spellings of ancient names sometimes differ across translations and parallel genealogies. The important relationship here is that these men belong to Shobal's line, not Esau's immediate sons.",
+  "takeaway": "Shobal's five sons form another Horite branch."
+ },
+ "24": {
+  "scene": "Zibeon's sons are Aiah and Anah; Anah is associated with a discovery while tending his father's donkeys in the wilderness.",
+  "breakdown": "The Hebrew word describing what Anah found is disputed. Some translations say hot springs, while others give a term connected with mules; the precise meaning is uncertain. What is clear is the family relationship and the setting among the donkeys, not a definite modern identification of the discovery.",
+  "takeaway": "Anah's discovery is mentioned, but its exact meaning is uncertain."
+ },
+ "25": {
+  "scene": "Anah's children include Dishon and a daughter, Oholibamah.",
+  "breakdown": "Oholibamah's name also appears as Esau's wife earlier in the chapter. This may reflect a family connection across the two lists, but the repeated name and ancestry details should be handled carefully rather than used to invent missing generations. The verse explicitly identifies her as Anah's daughter.",
+  "takeaway": "Anah's family includes Dishon and Oholibamah."
+ },
+ "26": {
+  "scene": "Dishon's sons are Hemdan, Eshban, Ithran, and Cheran.",
+  "breakdown": "The text names four descendants in Dishon's branch of the Horite genealogy. The similar names Dishon and Dishan elsewhere in the chapter can be easy to confuse; they refer to different named branches in the list.",
+  "takeaway": "Four sons are listed under Dishon."
+ },
+ "27": {
+  "scene": "Ezer's sons are Bilhan, Zaavan, and Akan.",
+  "breakdown": "This verse continues the Horite family record through Ezer. It is not a list of Esau's direct descendants, and it gives no events beyond the family relationships.",
+  "takeaway": "Ezer's three sons are named."
+ },
+ "28": {
+  "scene": "Dishan's sons are Uz and Aran.",
+  "breakdown": "Dishan is distinct from Dishon, whose sons appeared in verse 26. Uz is also a name found elsewhere in the Bible, but this verse alone does not prove that every place or person called Uz is the same.",
+  "takeaway": "Uz and Aran are named as Dishan's sons."
+ },
+ "29": {
+  "scene": "The Horite chiefs are listed as Lotan, Shobal, Zibeon, and Anah.",
+  "breakdown": "The account returns from children to clan leaders, echoing the earlier introduction of Seir's sons. The repetition is deliberate organization: first the family branches, then the chiefs associated with them.",
+  "takeaway": "Four Horite chiefs are named."
+ },
+ "30": {
+  "scene": "The remaining Horite chiefs are Dishon, Ezer, and Dishan, organized by their clans in Seir.",
+  "breakdown": "These names complete the seven branches introduced in verse 20. The text emphasizes that the Horites had their own organized leadership in the land before the account moves to Edom's kings.",
+  "takeaway": "The Horite chief list is completed."
+ },
+ "31": {
+  "scene": "The narrator introduces kings who ruled Edom before any king ruled the Israelites.",
+  "breakdown": "This is a historical comparison between Edom's monarchy and Israel's later monarchy. The statement does not give a precise date for each reign or explain how the list was compiled. It shows Edom had kings in the period being remembered.",
+  "takeaway": "Edom had kings before Israel's monarchy."
+ },
+ "32": {
+  "scene": "Bela son of Beor rules Edom, and his city is Dinhabah.",
+  "breakdown": "The king list begins with a ruler, his father, and a city associated with his reign. Bela's name should not automatically be identified with other biblical people who happen to share it. The verse gives limited but concrete information.",
+  "takeaway": "Bela son of Beor is named as an Edomite king."
+ },
+ "33": {
+  "scene": "After Bela dies, Jobab son of Zerah from Bozrah becomes king.",
+  "breakdown": "The succession is recorded as one ruler replacing another after death. The verse names Jobab's father and his association with Bozrah but does not say the throne passed from father to son. We should not assume a hereditary dynasty where none is stated.",
+  "takeaway": "Jobab succeeds Bela as king."
+ },
+ "34": {
+  "scene": "After Jobab dies, Husham from the land of the Temanites becomes king.",
+  "breakdown": "Husham is identified by regional origin rather than a named father. Teman is also associated with an earlier branch of Esau's family. The list reflects different backgrounds among Edom's rulers.",
+  "takeaway": "Husham from the Temanite region succeeds Jobab."
+ },
+ "35": {
+  "scene": "After Husham dies, Hadad son of Bedad becomes king; he had defeated Midian in the territory of Moab, and his city is Avith.",
+  "breakdown": "This is one of the few kings in the list given a specific deed: a military victory. The account places that victory in the region of Moab but does not describe the battle or explain the political circumstances. Hadad is a recurring ancient name, so identification with other men called Hadad should not be assumed.",
+  "takeaway": "Hadad is remembered as a king who defeated Midian."
+ },
+ "36": {
+  "scene": "After Hadad dies, Samlah from Masrekah becomes king.",
+  "breakdown": "The verse records the next succession and Samlah's place of origin. It does not supply a reign length, a family relationship to Hadad, or a description of his rule.",
+  "takeaway": "Samlah of Masrekah follows Hadad."
+ },
+ "37": {
+  "scene": "After Samlah dies, Shaul from Rehoboth by the River becomes king.",
+  "breakdown": "'The River' is commonly understood as the Euphrates, though the verse does not explain the location in detail. This Shaul should not be automatically confused with Saul, Israel's later king, simply because English translations may use the same spelling.",
+  "takeaway": "Shaul of Rehoboth is named as Edom's next king."
+ },
+ "38": {
+  "scene": "After Shaul dies, Baal-hanan son of Achbor becomes king.",
+  "breakdown": "The genealogy continues its repeated pattern of recording a ruler's death and successor. The name Baal-hanan is a personal name in the record; the verse does not provide an account of his religious practices or policies.",
+  "takeaway": "Baal-hanan succeeds Shaul in Edom."
+ },
+ "39": {
+  "scene": "After Baal-hanan dies, Hadar rules; his city is Pau, and his wife Mehetabel is traced through Matred and Me-zahab.",
+  "breakdown": "Some manuscripts and translations give the king's name as Hadad rather than Hadar. The verse unusually records the ruler's wife and her family line, adding a woman to a list mostly centered on kings. It does not explain why these particular details were preserved.",
+  "takeaway": "The final named king has a recorded city and family connection."
+ },
+ "40": {
+  "scene": "The final section introduces chiefs associated with Esau by their clans and settlements: Timna, Alvah, and Jetheth.",
+  "breakdown": "This is a different kind of list from the succession of kings. It organizes chiefs by family groups and where they lived. Some names also appear elsewhere in the chapter, but the text does not always tell us whether every repeated name refers to the same person.",
+  "takeaway": "The account turns from kings to chiefs and settlements."
+ },
+ "41": {
+  "scene": "The chiefs Oholibamah, Elah, and Pinon are named.",
+  "breakdown": "The list continues the names of leaders or clan groups associated with Edom. Oholibamah also appears earlier as a woman's name, and that overlap should not be flattened into a confident identification of a particular individual here. Names can be used across families and groups.",
+  "takeaway": "Oholibamah, Elah, and Pinon appear in the chief list."
+ },
+ "42": {
+  "scene": "The chiefs Kenaz, Teman, and Mibzar are named.",
+  "breakdown": "Kenaz and Teman have already appeared among Esau's descendants, so the list echoes earlier family lines. Mibzar is added alongside them. The verse is locating organized Edomite groups, not narrating individual achievements.",
+  "takeaway": "Kenaz, Teman, and Mibzar are named as chiefs."
+ },
+ "43": {
+  "scene": "The chiefs Magdiel and Iram complete the list, and Esau is identified as the ancestor of the Edomites in their settlements.",
+  "breakdown": "The chapter ends by connecting families, chiefs, kings, and territory back to Esau. Jacob's descendants will remain central to the next chapters, but Esau's line is not treated as though it disappeared. The genealogy establishes Edom as a people with its own history.",
+  "takeaway": "Esau's descendants are established as the people of Edom."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
