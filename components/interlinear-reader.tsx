@@ -1628,7 +1628,99 @@ const plainGenesisTwelve:Record<number,PlainVerseStudy>={
   "takeaway": "Abram and Sarai leave Egypt with their household and possessions."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve}};
+const plainGenesisThirteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Abram leaves Egypt with his wife, his possessions, and Lot, and travels into the Negev.",
+  "breakdown": "Genesis 12 ended with Pharaoh sending Abram and Sarai away. Now the family returns from Egypt toward the southern part of Canaan. Lot is still traveling with them. The story doesn't pretend the trouble in Egypt never happened; it simply follows the household as they continue their journey.",
+  "takeaway": "Abram and his household return from Egypt toward Canaan."
+ },
+ "2": {
+  "scene": "Abram is very wealthy in livestock, silver, and gold.",
+  "breakdown": "Abram has substantial possessions, including animals and precious metals. Some of that wealth was mentioned during the events in Egypt, but this verse doesn't tell us the full source of everything he owns. Wealth will soon create a practical problem: two large households need enough land and water for their animals.",
+  "takeaway": "Abram's wealth is great, and managing it will become difficult."
+ },
+ "3": {
+  "scene": "Abram travels from the Negev toward Bethel, returning to the place where he had pitched his tent between Bethel and Ai.",
+  "breakdown": "The journey takes Abram back toward a place he visited before going to Egypt. Genesis is connecting the current story with the earlier journey in chapter 12. He's not discovering an entirely new place; he's returning to familiar ground.",
+  "takeaway": "Abram returns to the area where he had camped before."
+ },
+ "4": {
+  "scene": "Abram comes back to the altar he built earlier and calls on the name of the LORD.",
+  "breakdown": "The altar reminds us of Abram's worship when he first entered the land. Now, after the famine and the difficult events in Egypt, he calls on the LORD again. The text doesn't tell us the exact words he prayed. What matters is that his journey includes returning to worship.",
+  "takeaway": "Abram returns to a place of worship and calls on the LORD."
+ },
+ "5": {
+  "scene": "Lot, who is traveling with Abram, also has flocks, herds, and tents.",
+  "breakdown": "Lot isn't simply tagging along with no responsibilities of his own. He has animals and a household to support. That means both men need grazing land, water, and room for their people. The verse prepares us for the conflict that follows.",
+  "takeaway": "Lot has his own substantial household and livestock."
+ },
+ "6": {
+  "scene": "The land cannot support Abram and Lot living together because their possessions are so great.",
+  "breakdown": "Their wealth has created a space problem. With so many animals and people, the same area can't easily provide what both households need. This isn't yet a fight between Abram and Lot themselves; it's a practical pressure that makes conflict more likely.",
+  "takeaway": "The two households have outgrown the space they share."
+ },
+ "7": {
+  "scene": "Quarreling breaks out between Abram's herders and Lot's herders, while Canaanites and Perizzites also live in the land.",
+  "breakdown": "The conflict is happening among the workers caring for the animals. Genesis also reminds us that other peoples already live in the region, so Abram and Lot aren't alone on empty land. Grazing and water resources have to be shared in a crowded setting. The story is about a real dispute over living space.",
+  "takeaway": "Competition for resources leads to conflict between the herders."
+ },
+ "8": {
+  "scene": "Abram asks Lot to avoid quarreling, reminding him that they are close relatives.",
+  "breakdown": "Abram takes the initiative to stop the dispute from damaging their relationship. He doesn't deny that there's a real problem. He appeals to their family bond and says there shouldn't be strife between their households. The verse shows him choosing a peaceful approach before the conflict gets worse.",
+  "takeaway": "Abram puts their family relationship ahead of the quarrel."
+ },
+ "9": {
+  "scene": "Abram offers Lot the choice of land and proposes that they separate.",
+  "breakdown": "Abram doesn't insist on choosing first, even though he's the older relative and the one God called to this land. He offers Lot a practical solution: if Lot goes one way, Abram will go the other. Separating here isn't about ending their family connection; it's about giving both households room to live without fighting.",
+  "takeaway": "Abram offers Lot first choice to make peace possible."
+ },
+ "10": {
+  "scene": "Lot looks over the well-watered Jordan plain, which is compared to the garden of the LORD and to Egypt before Sodom and Gomorrah were destroyed.",
+  "breakdown": "From where they stand, the Jordan plain looks attractive because it has plenty of water. That's valuable for a man with livestock. The comparisons to Eden and Egypt emphasize how fertile it appears. The mention of Sodom and Gomorrah's later destruction is a warning to readers who know what is coming; it doesn't mean Lot can see the future.",
+  "takeaway": "Lot sees fertile land that looks ideal for his flocks."
+ },
+ "11": {
+  "scene": "Lot chooses the whole Jordan plain for himself and travels east, separating from Abram.",
+  "breakdown": "Lot makes his choice based on the land he has seen. The verse doesn't tell us everything he is thinking, so we shouldn't invent a speech about greed. It does show that the two households now go in different directions. Their separation solves the immediate problem of living too close together.",
+  "takeaway": "Lot chooses the Jordan plain, and the relatives part ways."
+ },
+ "12": {
+  "scene": "Abram settles in Canaan, while Lot lives among the cities of the plain and pitches his tents near Sodom.",
+  "breakdown": "The two men now have different surroundings. Abram stays in Canaan, while Lot moves toward the cities of the plain. Sodom is named because it will matter in the story ahead. This verse doesn't say Lot has already done anything wrong, but it places him near a city the next verse describes as deeply wicked.",
+  "takeaway": "Lot moves near Sodom while Abram remains in Canaan."
+ },
+ "13": {
+  "scene": "Genesis says the people of Sodom are extremely wicked and sin seriously against the LORD.",
+  "breakdown": "The narrator pauses to tell us something Lot's view of the fertile land couldn't show: the moral condition of Sodom. Good-looking land doesn't tell you everything about the people living there. Genesis hasn't yet described the city's specific acts in this verse, so we shouldn't fill in details before the story gives them.",
+  "takeaway": "Sodom's outward prosperity hides serious wickedness."
+ },
+ "14": {
+  "scene": "After Lot separates from Abram, the LORD tells Abram to look north, south, east, and west.",
+  "breakdown": "Now God speaks to Abram again. The timing matters: Lot has chosen his direction, and Abram remains in the land. God tells Abram to look in every direction from where he stands. The promise isn't limited to the portion Lot left behind in a simple property deal.",
+  "takeaway": "God directs Abram's attention to the land around him."
+ },
+ "15": {
+  "scene": "God promises to give Abram and his descendants the land he sees, forever.",
+  "breakdown": "This repeats and strengthens the land promise from chapter 12. Abram still doesn't have the large family that would make the promise seem possible. The word translated 'forever' can carry the sense of enduring time, and readers interpret the promise's later fulfillment differently. Here the central point is that God, not Lot's choice, is the one making the promise.",
+  "takeaway": "God renews His promise of land to Abram's descendants."
+ },
+ "16": {
+  "scene": "God says Abram's descendants will be like the dust of the earth, too numerous to count.",
+  "breakdown": "Abram and Sarai are still without a child together, yet God speaks of descendants beyond counting. The dust image isn't asking us to calculate a number. It helps us feel the scale of the promise: something far greater than Abram can see in his present circumstances.",
+  "takeaway": "God promises Abram a family too numerous to count."
+ },
+ "17": {
+  "scene": "God tells Abram to walk through the land in its length and breadth because He will give it to him.",
+  "breakdown": "God invites Abram to move through the land connected to the promise. Walking it doesn't mean Abram already possesses every part of it or that nobody else lives there. The action makes the promise concrete: Abram can see and travel through the place God is speaking about.",
+  "takeaway": "Abram is told to walk through the land God has promised."
+ },
+ "18": {
+  "scene": "Abram moves his tents to the oaks of Mamre near Hebron, settles there, and builds an altar to the LORD.",
+  "breakdown": "The chapter ends with Abram relocating again, this time near Hebron. He is still living in tents, and he builds another altar. That is a fitting ending to a chapter about land and choices: Abram hasn't seized the most attractive-looking territory, but he continues living in the land and worshiping the LORD.",
+  "takeaway": "Abram settles near Hebron and worships the LORD."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
