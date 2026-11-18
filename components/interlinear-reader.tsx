@@ -2619,7 +2619,179 @@ const plainGenesisTwenty:Record<number,PlainVerseStudy>={
   "takeaway": "The chapter closes by linking the household's affliction to the taking of Sarah."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty}};
+const plainGenesisTwentyOne:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The LORD attends to Sarah as He promised and does for her what He said He would do.",
+  "breakdown": "The chapter opens by emphasizing that God keeps His word. Sarah's pregnancy isn't presented as a lucky surprise that happened apart from the earlier promises. Genesis repeats the language of God's promise to make sure we connect this moment to what He said in chapters 17 and 18. After years of waiting, the story finally reaches the promised birth.",
+  "takeaway": "God follows through on His promise to Sarah."
+ },
+ "2": {
+  "scene": "Sarah becomes pregnant and bears Abraham a son in his old age, at the time God had announced.",
+  "breakdown": "The birth happens when God said it would, despite the couple's advanced ages. Sarah is not just a bystander in Abraham's promise; she is the one who carries and gives birth to this child. The timing matters because Genesis has repeatedly shown how unlikely this seemed to them. What sounded impossible is now happening in their home.",
+  "takeaway": "Sarah gives birth to the promised son at the appointed time."
+ },
+ "3": {
+  "scene": "Abraham names the son Sarah bears him Isaac.",
+  "breakdown": "God had already given this name in Genesis 17. Isaac is connected to the Hebrew word for laughter, which fits the astonishment surrounding the promise. Naming him Isaac shows that Abraham follows the name God specified. The name will also echo through Sarah's words in the next verses.",
+  "takeaway": "Abraham gives his son the promised name, Isaac."
+ },
+ "4": {
+  "scene": "Abraham circumcises Isaac when he is eight days old, as God commanded.",
+  "breakdown": "This connects Isaac's birth to the covenant sign given in Genesis 17. Abraham follows the specific timing God required for male children in his household. Isaac's circumcision is not what makes him the promised child; God had identified him before his birth. It marks his place in the covenant community.",
+  "takeaway": "Isaac receives the covenant sign on the eighth day."
+ },
+ "5": {
+  "scene": "Abraham is one hundred years old when Isaac is born.",
+  "breakdown": "The age is a reminder of how long Abraham has waited. Genesis first introduced him as seventy-five when he left Haran, and the promise has unfolded across many years. The number also underscores why Abraham laughed when he first heard Sarah would bear a son. The story wants us to feel the weight of this long-awaited arrival.",
+  "takeaway": "Isaac's birth comes when Abraham is one hundred."
+ },
+ "6": {
+  "scene": "Sarah says God has brought her laughter and that everyone who hears will laugh with her.",
+  "breakdown": "Earlier, Sarah laughed privately at the thought of having a child so late in life. Now laughter becomes part of her public joy. Her words may carry the memory of surprise as well as delight; Genesis lets that meaning grow instead of reducing the earlier laughter to a simple label. Isaac's name keeps the connection alive.",
+  "takeaway": "Sarah's laughter turns into joy over Isaac's birth."
+ },
+ "7": {
+  "scene": "Sarah marvels that she has nursed a son for Abraham in his old age.",
+  "breakdown": "Sarah speaks about something she once could hardly imagine: she is nursing her own baby. The verse centers her experience as a mother, not just Abraham's achievement of having an heir. Her amazement makes the promise personal and tangible. A child is here, in her arms, after a long period of childlessness.",
+  "takeaway": "Sarah celebrates the reality of holding and nursing her son."
+ },
+ "8": {
+  "scene": "Isaac grows and is weaned, and Abraham holds a great feast on the day of his weaning.",
+  "breakdown": "The story moves forward from birth to a milestone in Isaac's early childhood. Weaning in the ancient world could happen later than in many modern settings, but the verse gives no exact age. Abraham marks the occasion with a large celebration. This joyful gathering becomes the setting for another painful conflict in the household.",
+  "takeaway": "Abraham celebrates Isaac's growth with a feast."
+ },
+ "9": {
+  "scene": "Sarah sees the son Hagar the Egyptian bore to Abraham engaging in behavior described by a word related to laughter or mocking.",
+  "breakdown": "The Hebrew word here is connected to the same root as Isaac's name, and translations differ: some say Ishmael was laughing, others that he was mocking. The verse itself doesn't spell out exactly what he did or whom he was addressing. That uncertainty matters, because Sarah's response is severe. We shouldn't confidently turn this brief description into a detailed accusation against Ishmael.",
+  "takeaway": "Sarah reacts to Ishmael's behavior, but the precise action is not fully explained."
+ },
+ "10": {
+  "scene": "Sarah tells Abraham to send away Hagar and her son because she does not want Ishmael to share Isaac's inheritance.",
+  "breakdown": "Sarah speaks harshly, referring to Hagar as the slave woman and to Ishmael as her son rather than naming them. Her concern is inheritance: she wants Isaac's position protected. But the command has real consequences for Hagar and Ishmael, who depend on Abraham's household. Genesis reports Sarah's demand without asking us to treat her treatment of them as compassionate.",
+  "takeaway": "Sarah demands Hagar and Ishmael's removal over inheritance."
+ },
+ "11": {
+  "scene": "Sarah's demand deeply troubles Abraham because Ishmael is his son.",
+  "breakdown": "Abraham's distress is important. Ishmael isn't a disposable extra in the family story; he is Abraham's child. The conflict forces Abraham to face the consequences of choices made years earlier. The verse doesn't tell us he has an easy answer or that Sarah's demand feels right to him.",
+  "takeaway": "Abraham is distressed at the thought of sending away his son."
+ },
+ "12": {
+  "scene": "God tells Abraham to listen to Sarah concerning the boy and Hagar, saying the covenant line will be named through Isaac.",
+  "breakdown": "This is a difficult verse, especially because it follows Sarah's harsh demand. God confirms that Isaac is the child through whom the promised covenant line will continue. That does not make Hagar or Ishmael worthless, and it should never be used as a blanket endorsement of abandoning vulnerable family members. The next verse makes God's concern for Ishmael explicit.",
+  "takeaway": "God identifies Isaac as the covenant heir without forgetting Ishmael."
+ },
+ "13": {
+  "scene": "God promises to make a nation from the son of the slave woman too, because he is Abraham's offspring.",
+  "breakdown": "The words turn directly toward Ishmael's future. Even as the household separates, God says Ishmael will become a nation. The promise is grounded in the fact that he too is Abraham's son. Genesis holds two truths together: Isaac has a distinct covenant role, and Ishmael receives a real promise of blessing.",
+  "takeaway": "God promises a future for Ishmael as Abraham's son."
+ },
+ "14": {
+  "scene": "Abraham rises early, gives Hagar bread and a skin of water, and sends her away with the boy; she wanders in the wilderness of Beersheba.",
+  "breakdown": "The departure happens quickly. Abraham supplies food and water, but Hagar and Ishmael are now outside the household's protection in a harsh region. The Hebrew sentence has some difficult details about how the supplies and child are described, so we shouldn't force a precise picture of how everything was carried. What is clear is that Hagar and her son face an uncertain and dangerous journey.",
+  "takeaway": "Hagar and Ishmael leave Abraham's household and enter the wilderness."
+ },
+ "15": {
+  "scene": "When the water runs out, Hagar places the boy under one of the shrubs.",
+  "breakdown": "The supplies do not last. In the wilderness, lack of water is life-threatening, and Hagar has reached a point of desperation. Ishmael is older than a small infant at this stage, even though the narrative still calls him a boy or child. The text doesn't explain his physical condition in detail; it shows that he needs help and Hagar cannot provide it alone.",
+  "takeaway": "Hagar and Ishmael face a life-threatening shortage of water."
+ },
+ "16": {
+  "scene": "Hagar sits some distance away because she cannot bear to watch the boy die, and she weeps.",
+  "breakdown": "Hagar moves away, roughly the distance of a bowshot, because the sight of her son's suffering is unbearable. This isn't a mother who doesn't care; it is a mother overwhelmed by what she believes is about to happen. Genesis lets us hear her grief without dressing it up in religious language. The scene demands compassion.",
+  "takeaway": "Hagar weeps because she fears she is losing her son."
+ },
+ "17": {
+  "scene": "God hears the boy, and an angel of God calls to Hagar from heaven, telling her not to fear.",
+  "breakdown": "The text says God hears Ishmael's voice, even though the previous verse focused on Hagar's weeping. The angel addresses Hagar by name and asks what troubles her, then tells her not to be afraid. The name Ishmael is associated with 'God hears,' making this moment especially meaningful. Neither mother nor son has been forgotten.",
+  "takeaway": "God hears Ishmael and speaks comfort to Hagar."
+ },
+ "18": {
+  "scene": "The angel tells Hagar to lift the boy up and hold him, because God will make him a great nation.",
+  "breakdown": "God repeats the promise about Ishmael's future in the middle of their crisis. Hagar is told to take hold of her son and help him, not to give up on him. The promise doesn't make the lack of water imaginary; it gives them hope while they still need practical rescue. Ishmael's life matters to God.",
+  "takeaway": "Hagar is told to care for Ishmael and trust God's promise for his future."
+ },
+ "19": {
+  "scene": "God opens Hagar's eyes, and she sees a well; she fills the water skin and gives Ishmael a drink.",
+  "breakdown": "The answer to their immediate danger is water. Genesis says God opens Hagar's eyes so she can see the well, but it doesn't explain whether the well was hidden, newly noticed, or revealed in some other way. What matters is that she finds what they need to survive. She acts at once to give her son water.",
+  "takeaway": "God enables Hagar to find water and save her son's life."
+ },
+ "20": {
+  "scene": "God is with Ishmael as he grows up in the wilderness, where he becomes skilled with a bow.",
+  "breakdown": "The story doesn't end with Ishmael barely surviving. Genesis says God is with him as he grows, a strong statement of divine care. His skill as an archer fits the life he builds in the wilderness. The text doesn't describe him as abandoned by God because Isaac is the covenant heir.",
+  "takeaway": "Ishmael grows up with God's care and develops a life in the wilderness."
+ },
+ "21": {
+  "scene": "Ishmael lives in the wilderness of Paran, and his mother finds him a wife from Egypt.",
+  "breakdown": "Paran becomes Ishmael's home region, and Hagar continues to play a role in his future. She finds him a wife from Egypt, the land with which Hagar herself is identified. This verse moves the family story beyond the crisis at the well. Ishmael's future is taking shape, just as God promised.",
+  "takeaway": "Hagar helps Ishmael establish a family and a future."
+ },
+ "22": {
+  "scene": "At that time Abimelech and Phicol, the commander of his army, tell Abraham that God is with him in everything he does.",
+  "breakdown": "The story shifts from Hagar and Ishmael to Abraham's dealings with local leaders. Abimelech is the ruler who appeared in chapter 20, and Phicol is identified as his military commander. They recognize that Abraham has God's favor. Their approach prepares the way for an agreement meant to keep peace between their households.",
+  "takeaway": "Abimelech recognizes God's favor on Abraham and seeks an agreement."
+ },
+ "23": {
+  "scene": "Abimelech asks Abraham to swear by God that he will not deal falsely with him, his descendants, or the land where he has lived.",
+  "breakdown": "Abimelech wants trust to be backed by a solemn oath. Given Abraham's earlier deception about Sarah, the request not to deal falsely has real weight. Abimelech also asks for kindness toward his family and the country that has hosted Abraham. This is about maintaining peaceful relations across generations.",
+  "takeaway": "Abimelech asks Abraham for a lasting promise of honest dealing."
+ },
+ "24": {
+  "scene": "Abraham agrees to swear the oath.",
+  "breakdown": "Abraham's answer is short and direct. He accepts the idea of a binding commitment with Abimelech. But the next verse shows that there is still an unresolved issue between them. Peace requires more than friendly words when a real grievance remains.",
+  "takeaway": "Abraham agrees to make the promised oath."
+ },
+ "25": {
+  "scene": "Abraham confronts Abimelech about a well that Abimelech's servants had seized.",
+  "breakdown": "Water is essential for people and livestock in this region, so control of a well is a serious matter. Abraham raises the complaint rather than ignoring it for the sake of a smooth agreement. The verse doesn't tell us Abimelech personally ordered the seizure. It shows that a wrong done by his servants needs to be addressed.",
+  "takeaway": "Abraham raises a dispute over a seized water well."
+ },
+ "26": {
+  "scene": "Abimelech says he did not know who took the well and that Abraham had not told him about it before that day.",
+  "breakdown": "Abimelech denies prior knowledge of the seizure. He says no one informed him and that this is the first he has heard of Abraham's complaint. The text doesn't give us independent proof of what he knew, so we should report his statement rather than assume he is lying or fully informed. The conversation makes room for resolving the dispute.",
+  "takeaway": "Abimelech says the well dispute is news to him."
+ },
+ "27": {
+  "scene": "Abraham gives Abimelech sheep and cattle, and the two men make a covenant.",
+  "breakdown": "The agreement becomes formal through an exchange of animals and a covenant between the men. This is a political and practical arrangement between neighbors, different from God's covenant promises to Abraham earlier in Genesis. The purpose is to establish a trustworthy relationship and settle their dealings.",
+  "takeaway": "Abraham and Abimelech formalize their agreement."
+ },
+ "28": {
+  "scene": "Abraham sets seven ewe lambs apart from the rest of the flock.",
+  "breakdown": "The seven female lambs are singled out for a specific purpose that the next verses explain. Abraham isn't randomly counting animals; he is preparing a sign connected to the disputed well. The detail matters because the name of the place will later be linked with both seven and an oath.",
+  "takeaway": "Abraham sets aside seven lambs as part of the well agreement."
+ },
+ "29": {
+  "scene": "Abimelech asks Abraham what the seven ewe lambs mean.",
+  "breakdown": "Abimelech notices the separate group of animals and asks for an explanation. The question gives Abraham a chance to state the purpose of the gift openly. The exchange shows that the agreement isn't supposed to depend on a hidden meaning known only to one side.",
+  "takeaway": "Abimelech asks why the seven lambs have been set apart."
+ },
+ "30": {
+  "scene": "Abraham says Abimelech should accept the seven lambs as a witness that Abraham dug the well.",
+  "breakdown": "The lambs function as evidence or acknowledgment in the dispute. Abraham wants Abimelech to recognize his claim that he dug the well. This matters because a well is a valuable source of water, not a minor possession. The agreement is being tied to a concrete issue both parties can remember.",
+  "takeaway": "The seven lambs mark acknowledgment of Abraham's claim to the well."
+ },
+ "31": {
+  "scene": "The place is called Beersheba because the two men swore an oath there.",
+  "breakdown": "Genesis explains the place-name through the oath made by Abraham and Abimelech. The Hebrew name Beersheba can evoke both 'well of the oath' and 'well of seven,' fitting the oath and seven lambs in the story. This is wordplay rooted in the narrative, not a reason to force a single modern English translation of the name.",
+  "takeaway": "Beersheba's name remembers the oath and the well."
+ },
+ "32": {
+  "scene": "After making the covenant at Beersheba, Abimelech and Phicol return to the land of the Philistines.",
+  "breakdown": "The agreement is complete, and the visiting leaders depart. Genesis uses the designation 'land of the Philistines' for the region, though historians debate how this label relates to the later Philistines known from other biblical periods. The main point in this scene is that the dispute ends with a formal settlement and the leaders go home.",
+  "takeaway": "Abimelech and Phicol depart after the agreement is made."
+ },
+ "33": {
+  "scene": "Abraham plants a tamarisk tree at Beersheba and calls there on the name of the LORD, the Everlasting God.",
+  "breakdown": "After the negotiation, Abraham marks the place with a tree and worships. 'Everlasting God' reflects the Hebrew title El Olam, emphasizing God's enduring nature. The tree is a physical sign of Abraham's presence in the area, while calling on the LORD shows where he directs his trust. The verse moves from human agreements back to worship.",
+  "takeaway": "Abraham worships the enduring God at Beersheba."
+ },
+ "34": {
+  "scene": "Abraham lives as a foreign resident in the land of the Philistines for many days.",
+  "breakdown": "The chapter ends with Abraham remaining in the region for an extended time. He has a son through Sarah, a settled agreement over a well, and a place to worship, yet he still lives as a resident outsider. That fits the larger Genesis theme: God's promises are real, but their full unfolding takes time.",
+  "takeaway": "Abraham continues living in the land as a resident outsider."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
