@@ -3526,7 +3526,184 @@ const plainGenesisTwentyFive:Record<number,PlainVerseStudy>={
  }
 };
 
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive}};
+const plainGenesisTwentySix:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "A famine strikes the land, and Isaac goes to Abimelech, king of the Philistines, in Gerar.",
+  "breakdown": "Genesis distinguishes this famine from the one Abraham experienced earlier. Isaac faces a familiar family problem: finding security and food when the land is struggling. The ruler is called Abimelech, but the text does not establish whether he is the same man Abraham met or another ruler bearing that name.",
+  "takeaway": "Isaac faces famine and travels to Gerar."
+ },
+ "2": {
+  "scene": "The LORD appears to Isaac and tells him not to go down to Egypt but to stay where God directs.",
+  "breakdown": "Egypt might have seemed a reasonable refuge during famine, as it had in Abraham's story. But this is a specific instruction to Isaac, not a blanket rule against moving during hard times. Isaac must make his decision in light of what God has told him.",
+  "takeaway": "God tells Isaac to remain in the land."
+ },
+ "3": {
+  "scene": "God promises to be with Isaac, bless him, and give these lands to his descendants, keeping the oath made to Abraham.",
+  "breakdown": "The promise to Abraham now becomes personal to Isaac. God speaks of presence, descendants, and land while Isaac is living through uncertainty. The promise does not mean Isaac already owns the whole region or will never face conflict.",
+  "takeaway": "God renews His covenant promises to Isaac."
+ },
+ "4": {
+  "scene": "God promises descendants as numerous as the stars and blessing for all nations through Isaac's offspring.",
+  "breakdown": "The star imagery recalls God's promise to Abraham. The future of this family is meant to matter beyond its own household. The wording about nations being blessed through the descendants has translation nuances, but the promise clearly reaches beyond Isaac alone.",
+  "takeaway": "The promise includes many descendants and blessing for the nations."
+ },
+ "5": {
+  "scene": "God recalls Abraham's obedience to His voice, commands, statutes, and instructions.",
+  "breakdown": "The verse praises Abraham's responsiveness to God without denying the mistakes Genesis has already recorded. Its several words for instruction emphasize obedience; they do not require us to assume the complete later written Torah already existed in Abraham's day. The promise continues through a family with a real, complicated history.",
+  "takeaway": "God remembers Abraham's obedience."
+ },
+ "6": {
+  "scene": "Isaac settles in Gerar.",
+  "breakdown": "Isaac stays rather than going to Egypt. The sentence is brief, but it shows him acting on the direction he received. His next decision, however, will reveal that obeying in one area does not mean he has stopped struggling with fear.",
+  "takeaway": "Isaac remains in Gerar."
+ },
+ "7": {
+  "scene": "When asked about Rebekah, Isaac says she is his sister because he fears being killed for having a beautiful wife.",
+  "breakdown": "Isaac repeats a dangerous pattern from Abraham's life: concealing his marriage to protect himself. The narrator tells us Isaac's fear, not that anyone had actually threatened his life. Rebekah is placed at risk by a lie she is not shown agreeing to. Fear helps explain his action but does not make it harmless.",
+  "takeaway": "Isaac lies about Rebekah because he is afraid."
+ },
+ "8": {
+  "scene": "After a long stay, Abimelech sees Isaac showing affection to Rebekah through a window.",
+  "breakdown": "The king notices behavior that reveals the couple's true relationship. The Hebrew verb can suggest playful or intimate affection; the text doesn't specify exactly what he saw. The important point is that Isaac's claim that Rebekah was his sister is exposed.",
+  "takeaway": "Abimelech discovers that Rebekah is Isaac's wife."
+ },
+ "9": {
+  "scene": "Abimelech confronts Isaac, who admits he lied because he feared being killed over Rebekah.",
+  "breakdown": "Isaac does not claim it was a misunderstanding. He explains his motive directly: he was afraid for himself. His confession also shows the gap between the promise of God's presence and the way fear can still shape a person's choices.",
+  "takeaway": "Isaac admits that fear led him to deceive others."
+ },
+ "10": {
+  "scene": "Abimelech warns that someone might have slept with Rebekah and brought guilt upon the people.",
+  "breakdown": "The king points out how serious the deception could have become. Someone might have approached Rebekah without knowing she was married. The danger affected her and the community, not just Isaac's reputation. The text does not record Rebekah's own response, so we should not invent it.",
+  "takeaway": "Abimelech explains the harm Isaac's lie could have caused."
+ },
+ "11": {
+  "scene": "Abimelech orders that no one harm Isaac or Rebekah, threatening death to anyone who touches them.",
+  "breakdown": "The ruler acts publicly to protect the couple. His strong warning prevents the situation from becoming worse, even though Isaac's earlier dishonesty remains wrong. The protection comes through an unexpected person: the king Isaac feared.",
+  "takeaway": "Abimelech places Isaac and Rebekah under protection."
+ },
+ "12": {
+  "scene": "Isaac plants crops and receives a hundredfold harvest that year because the LORD blesses him.",
+  "breakdown": "The harvest is remarkable, especially after the famine mentioned at the start. Isaac works the land, and Genesis credits the abundance to God's blessing. This is not a guarantee that every faithful farmer will receive the same yield, nor is it a reward for Isaac's deception.",
+  "takeaway": "Isaac receives an exceptionally abundant harvest."
+ },
+ "13": {
+  "scene": "Isaac grows wealthy, and his prosperity continues to increase.",
+  "breakdown": "The narrator stresses that Isaac's resources grow over time. Blessing brings material security, but it also attracts attention. The next verses show that prosperity can create tension with neighbors rather than solve every problem.",
+  "takeaway": "Isaac becomes increasingly prosperous."
+ },
+ "14": {
+  "scene": "Isaac has many flocks, herds, and servants, and the Philistines envy him.",
+  "breakdown": "The size of Isaac's household makes his wealth visible. The text explicitly mentions envy, preparing us for the conflict over wells. It describes the local people involved, not every Philistine everywhere.",
+  "takeaway": "Isaac's prosperity stirs envy among his neighbors."
+ },
+ "15": {
+  "scene": "The Philistines fill with earth the wells dug by Abraham's servants.",
+  "breakdown": "In a dry region, wells are essential for people and livestock. Blocking them damages the household's ability to live there. These wells also connect Isaac with Abraham's earlier work, so the attack disrupts both a practical resource and a family legacy.",
+  "takeaway": "Isaac's neighbors block his father's wells."
+ },
+ "16": {
+  "scene": "Abimelech tells Isaac to leave because Isaac has become too powerful for them.",
+  "breakdown": "The king now sees Isaac's large household as a threat or burden. He orders him away instead of continuing to live alongside him. The text does not say Isaac attacked anyone; the conflict is rooted in the tensions surrounding his growing strength.",
+  "takeaway": "Abimelech orders Isaac to move away."
+ },
+ "17": {
+  "scene": "Isaac moves away and settles in the valley of Gerar.",
+  "breakdown": "Isaac chooses relocation rather than a fight over remaining in the same place. The valley is still in the broader Gerar region. This move doesn't remove all future disputes, but it shows Isaac seeking room for his household to live.",
+  "takeaway": "Isaac relocates to the valley of Gerar."
+ },
+ "18": {
+  "scene": "Isaac reopens the wells from Abraham's time and gives them their old names.",
+  "breakdown": "Restoring the wells provides needed water and reconnects Isaac with his father's history. The names preserve continuity across generations. This is practical work, not merely a symbolic gesture: the household needs functioning water sources.",
+  "takeaway": "Isaac restores Abraham's wells and their names."
+ },
+ "19": {
+  "scene": "Isaac's servants dig in the valley and discover a well of fresh, flowing water.",
+  "breakdown": "The Hebrew expression refers to living or flowing water, a valuable discovery in a dry landscape. The find could support Isaac's people and animals. Yet discovering water is not the same as securing peaceful access to it.",
+  "takeaway": "Isaac's servants find fresh water."
+ },
+ "20": {
+  "scene": "The herdsmen of Gerar quarrel with Isaac's herdsmen over the water, and Isaac names the well Esek.",
+  "breakdown": "The locals claim the water belongs to them. Isaac names the well Esek, a word connected with contention. Genesis doesn't give enough detail to settle every possible legal claim; it tells us the disagreement was serious enough to mark the place's name.",
+  "takeaway": "A dispute over water gives the well the name Esek."
+ },
+ "21": {
+  "scene": "Another well brings another quarrel, so Isaac names it Sitnah.",
+  "breakdown": "The struggle repeats even after Isaac moves on from the first disputed well. Sitnah is associated with hostility or opposition. The story shows the exhausting reality of conflict over basic necessities and Isaac's repeated choice not to escalate it.",
+  "takeaway": "A second well becomes a place of hostility."
+ },
+ "22": {
+  "scene": "Isaac moves again, digs another well, and finds no quarrel; he calls it Rehoboth.",
+  "breakdown": "At last Isaac's household finds a water source without another fight. Rehoboth is connected with spaciousness or room. Isaac says the LORD has made room for them and hopes they will flourish. The peace follows repeated moves, not an instant resolution.",
+  "takeaway": "Isaac finds room to live without a dispute."
+ },
+ "23": {
+  "scene": "Isaac travels from there to Beersheba.",
+  "breakdown": "Beersheba is already important in Abraham's story. Genesis doesn't explain the reason for this particular move in the verse. What follows connects the location with God's renewed assurance and Isaac's worship.",
+  "takeaway": "Isaac moves to Beersheba."
+ },
+ "24": {
+  "scene": "That night the LORD appears and tells Isaac not to fear, promising to be with him and bless his descendants for Abraham's sake.",
+  "breakdown": "After fear, displacement, and conflict over wells, God reassures Isaac personally. The promise recalls Abraham and looks forward to future generations. It doesn't say that Isaac will never face difficulty again; it tells him that God has not abandoned him.",
+  "takeaway": "God reassures Isaac of His presence and promise."
+ },
+ "25": {
+  "scene": "Isaac builds an altar, calls on the LORD's name, pitches his tent, and has his servants dig a well.",
+  "breakdown": "Isaac responds with worship and the practical work of settling in. An altar expresses devotion; a tent and a well provide for everyday life. The chapter places prayer and ordinary responsibilities side by side rather than treating them as opposites.",
+  "takeaway": "Isaac worships and begins establishing a home."
+ },
+ "26": {
+  "scene": "Abimelech arrives from Gerar with Ahuzzath, his adviser, and Phicol, his army commander.",
+  "breakdown": "The king who earlier sent Isaac away now comes with important officials. Their visit has the character of a serious diplomatic meeting. Genesis names the companions but does not give their private reasons for coming.",
+  "takeaway": "Abimelech and his officials visit Isaac."
+ },
+ "27": {
+  "scene": "Isaac asks why they have come after hating him and sending him away.",
+  "breakdown": "Isaac remembers the earlier hostility and says so plainly. He does not pretend their treatment was friendly. His direct question gives the visitors a chance to explain why they now want to speak with him.",
+  "takeaway": "Isaac confronts the visitors about their earlier treatment."
+ },
+ "28": {
+  "scene": "The visitors say they have clearly seen the LORD is with Isaac and propose an oath between them.",
+  "breakdown": "They recognize Isaac's strength and God's favor as they understand it. Their response is to seek a formal agreement instead of more conflict. The text does not reveal all their motives, so we shouldn't claim certainty about what they privately feared.",
+  "takeaway": "Abimelech's party proposes a sworn agreement."
+ },
+ "29": {
+  "scene": "They ask Isaac not to harm them, saying they treated him well and sent him away in peace.",
+  "breakdown": "Their description sounds more favorable than Isaac's account of being driven out. Genesis lets us hear both sides without requiring us to accept their version uncritically. What matters now is that they are asking for a future without violence.",
+  "takeaway": "The visitors request peace while defending their past actions."
+ },
+ "30": {
+  "scene": "Isaac prepares a feast, and the visitors eat and drink together.",
+  "breakdown": "Sharing a meal is a practical sign of hospitality and a step toward agreement. It does not erase the earlier conflicts, but Isaac chooses to host them rather than retaliate. The oath will follow the next morning.",
+  "takeaway": "Isaac welcomes the visitors to a meal."
+ },
+ "31": {
+  "scene": "The next morning they exchange oaths, and Isaac sends them away in peace.",
+  "breakdown": "The agreement becomes formal through sworn promises. The peaceful departure contrasts with the earlier hostility between the groups. The verse records a settled encounter, not a guarantee that no one will ever quarrel again.",
+  "takeaway": "Isaac and Abimelech's party make peace."
+ },
+ "32": {
+  "scene": "That day Isaac's servants tell him they have found water in the well they were digging.",
+  "breakdown": "The report brings the story back to the resource at the heart of earlier disputes. Finding water means a more stable future for the household. Genesis places this good news right after the peace agreement, connecting security with both relationships and daily needs.",
+  "takeaway": "Isaac's servants report water in the new well."
+ },
+ "33": {
+  "scene": "Isaac names the well Shibah, and the city is called Beersheba.",
+  "breakdown": "The names connect with Hebrew wordplay involving an oath and the number seven. Genesis 21 also links Beersheba's name with Abraham's earlier agreement over a well. Rather than treating the accounts as though only one event can matter, we can see how this chapter adds to the place's remembered history.",
+  "takeaway": "The well's name recalls an oath and Beersheba."
+ },
+ "34": {
+  "scene": "At age forty Esau marries Judith daughter of Beeri and Basemath daughter of Elon, both identified as Hittites.",
+  "breakdown": "The focus shifts suddenly from Isaac's wells to his son's marriages. Genesis identifies the women by name and family but tells us little about their personalities. We should not invent misconduct by either woman or assume this verse explains everything about the family's later problems.",
+  "takeaway": "Esau marries two Hittite women."
+ },
+ "35": {
+  "scene": "Esau's marriages become a source of grief and bitterness to Isaac and Rebekah.",
+  "breakdown": "The chapter ends with family tension instead of a simple happy ending. The text says the marriages distressed Esau's parents, but it doesn't specify every cause. This prepares for the conflicts over family, marriage, and blessing in the next chapter.",
+  "takeaway": "Esau's marriages deeply distress his parents."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
