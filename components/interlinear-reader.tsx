@@ -415,7 +415,139 @@ const plainGenesisThree:Record<number,PlainVerseStudy>={
   "takeaway": "The way back to the tree of life is guarded."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree}};
+const plainGenesisFour:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Adam and Eve have a son named Cain, and Eve gives credit to the LORD.",
+  "breakdown": "After the family is sent out of Eden, life keeps going. Eve becomes pregnant and gives birth to Cain. Her words connect the birth to God's help, though the Hebrew wording is tricky and translations differ on exactly how to phrase it. The main thing is clear: a child has arrived, and Eve speaks about the LORD as she celebrates.",
+  "takeaway": "Life continues outside Eden, and Eve acknowledges God at Cain's birth."
+ },
+ "2": {
+  "scene": "Eve gives birth to Abel; Abel becomes a shepherd, while Cain works the ground.",
+  "breakdown": "Now we meet the two brothers at the center of this chapter. One tends flocks; the other farms. The verse doesn't call either job better than the other. In fact, working the ground was already part of human life. Their occupations set the scene for the offerings they bring next.",
+  "takeaway": "The brothers have different kinds of work, but neither job is condemned."
+ },
+ "3": {
+  "scene": "Cain brings an offering to the LORD from what the ground produces.",
+  "breakdown": "Cain is a farmer, so he brings something grown from the soil. That's what the verse tells us. It doesn't say all grain or produce offerings are wrong; later in the Torah, offerings from the land have their place. The question is why God responds differently to the two brothers, and the story hasn't explained that yet.",
+  "takeaway": "Cain brings an offering from his harvest."
+ },
+ "4": {
+  "scene": "Abel also brings an offering, from the firstborn of his flock and their fat portions; the LORD regards Abel and his offering.",
+  "breakdown": "The wording gives us a little more detail about Abel's gift: firstborn animals and their fat portions, language that suggests something choice and valuable. God looks favorably on Abel and what he brings. But the verse doesn't lay out a complete rule explaining every reason for God's response.",
+  "takeaway": "God accepts Abel and his offering; the text highlights what Abel brought."
+ },
+ "5": {
+  "scene": "God does not regard Cain and his offering, and Cain becomes very angry.",
+  "breakdown": "Cain's reaction is immediate: he's furious, and his face falls. The story doesn't say God rejected Cain simply because he brought produce rather than an animal. It tells us God regarded Abel and his gift but not Cain and his, then turns our attention to how Cain handles disappointment.",
+  "takeaway": "Cain's anger becomes the next danger in the story."
+ },
+ "6": {
+  "scene": "The LORD asks Cain why he is angry and why his face has fallen.",
+  "breakdown": "God doesn't ignore Cain's anger. He addresses it directly, giving Cain an opening to think about what's happening inside him. The questions matter because Cain still has a choice about what he does next. Being upset is one thing; letting anger drive him toward harm is another.",
+  "takeaway": "God confronts Cain's anger before Cain acts on it."
+ },
+ "7": {
+  "scene": "God warns Cain that sin is crouching at the door and urges him to rule over it.",
+  "breakdown": "The Hebrew in the first part of this verse is difficult, and translations differ. But the warning at the end is unmistakable: sin is pictured like something waiting to spring, wanting to control Cain. God tells him he must master it. Cain isn't being told his next move is unavoidable.",
+  "takeaway": "Cain is warned that he must not let sin control him."
+ },
+ "8": {
+  "scene": "Cain speaks to Abel, and out in the field Cain attacks and kills his brother.",
+  "breakdown": "This is the terrible turn. Some Bible translations include Cain saying, 'Let's go out to the field,' while others leave his words unstated because the ancient manuscripts differ. Either way, the action is clear: Cain takes his anger out on Abel and kills him. The first recorded murder happens between brothers.",
+  "takeaway": "Cain chooses violence and kills Abel."
+ },
+ "9": {
+  "scene": "The LORD asks Cain where Abel is, and Cain says he doesn't know.",
+  "breakdown": "Cain answers with a lie and then asks, 'Am I my brother's keeper?' It's a cold response after what he has done. The question about being his brother's keeper doesn't excuse him; it exposes how little responsibility he wants to take for Abel's life.",
+  "takeaway": "Cain hides the truth and refuses responsibility for his brother."
+ },
+ "10": {
+  "scene": "God says Abel's blood is crying out from the ground.",
+  "breakdown": "Abel cannot speak for himself now, but the murder isn't hidden from God. The picture of blood crying from the ground tells us the injustice demands an answer. The ground Cain worked has become the place where his brother's blood was spilled.",
+  "takeaway": "Abel's murder has not gone unnoticed."
+ },
+ "11": {
+  "scene": "God says Cain is cursed from the ground that received Abel's blood.",
+  "breakdown": "The ground is central to Cain's life as a farmer, and now it is tied to his crime. God says the ground opened its mouth to receive Abel's blood. Cain's relationship with the soil—the source of his livelihood—is about to change.",
+  "takeaway": "Cain's violence brings judgment into the very work he depends on."
+ },
+ "12": {
+  "scene": "God says the ground will no longer yield its strength to Cain, and he will be a wanderer.",
+  "breakdown": "Cain worked the land, but now that work will no longer provide for him the way it did. He is also told he will live as a fugitive and wanderer. The punishment touches both his livelihood and his sense of having a settled place to belong.",
+  "takeaway": "Cain loses the security of his work and his home."
+ },
+ "13": {
+  "scene": "Cain tells the LORD that his punishment is more than he can bear.",
+  "breakdown": "Cain finally speaks about the consequences, but notice what he talks about: how hard life will be for him. The verse doesn't record an apology to Abel or a confession of grief for what he did. It shows Cain overwhelmed by the judgment he faces.",
+  "takeaway": "Cain is distressed by his punishment."
+ },
+ "14": {
+  "scene": "Cain fears being driven away from the ground and from God's presence, and worries that someone will kill him.",
+  "breakdown": "Cain sees himself as exposed and vulnerable. He believes that once he is wandering, anyone who finds him might take revenge. The passage doesn't stop to identify every possible person he fears; it focuses on Cain's fear of being killed.",
+  "takeaway": "Cain fears that the violence he committed may come back on him."
+ },
+ "15": {
+  "scene": "The LORD warns against killing Cain and puts a mark on him so others will not strike him.",
+  "breakdown": "Even after Cain's crime, God limits the cycle of revenge. The mark is a sign of protection, but Genesis never tells us what it looked like. Claims that it was a particular skin color or physical trait are not supported by this verse. The point is that Cain is not to be killed in retaliation.",
+  "takeaway": "God judges Cain but also protects him from revenge killing."
+ },
+ "16": {
+  "scene": "Cain leaves the LORD's presence and settles in the land of Nod, east of Eden.",
+  "breakdown": "Cain's departure makes the separation real. The land is called Nod, a name connected with wandering in Hebrew. The story has moved from the garden, to the field where Abel was killed, to a life away from the place Cain knew.",
+  "takeaway": "Cain begins life away from his former home."
+ },
+ "17": {
+  "scene": "Cain has a son named Enoch and builds a city, naming it after his son.",
+  "breakdown": "The story now follows Cain's family. People are building households and settlements, even after the violence of the earlier verses. This Enoch is Cain's son, not the Enoch who appears later in Seth's family line. The verse doesn't say that building a city was itself sinful.",
+  "takeaway": "Cain's family line continues, and a city is named for his son."
+ },
+ "18": {
+  "scene": "The descendants of Cain are listed from Enoch through Irad, Mehujael, Methushael, and Lamech.",
+  "breakdown": "This verse moves quickly through generations. The names may feel like a pause in the action, but they show that Cain's story didn't end with his exile. His descendants keep living and forming families. The narrative is leading us toward Lamech, who will speak about violence in a few verses.",
+  "takeaway": "Cain's family grows across several generations."
+ },
+ "19": {
+  "scene": "Lamech takes two wives, Adah and Zillah.",
+  "breakdown": "The Bible tells us what Lamech did without stopping here to praise or command it. This is the first mention of a man having two wives in Genesis, following the one-man-and-one-woman union described in chapter 2. We should notice the change without pretending this single verse explains everything about marriage.",
+  "takeaway": "Lamech's household is introduced with two wives."
+ },
+ "20": {
+  "scene": "Adah gives birth to Jabal, associated with people who live in tents and raise livestock.",
+  "breakdown": "The focus shifts to how people live and work. Jabal is described as an ancestor of tent-dwellers who keep livestock. Genesis is showing different ways human communities develop, not just tracing names on a family tree.",
+  "takeaway": "Jabal is linked with tent-dwelling and livestock keeping."
+ },
+ "21": {
+  "scene": "Jabal's brother Jubal is associated with people who play the lyre and pipe.",
+  "breakdown": "Now we hear about music. Jubal is described as an ancestor of those who play stringed and wind instruments. The same family line that includes serious wrongdoing also includes ordinary human skills and culture. Genesis is not saying music itself is wrong.",
+  "takeaway": "Jubal is linked with the development of musical instruments."
+ },
+ "22": {
+  "scene": "Zillah gives birth to Tubal-cain, a worker of bronze and iron, and his sister Naamah is named.",
+  "breakdown": "The family list turns to metalworking. Tubal-cain is associated with shaping tools or implements from bronze and iron. Naamah is also named, though this verse doesn't tell us more about her. We don't need to invent a story about her just because her name appears.",
+  "takeaway": "The family line includes metalworking, and Naamah is named."
+ },
+ "23": {
+  "scene": "Lamech tells his wives that he has killed a man for wounding him, a young man for striking him.",
+  "breakdown": "The tone changes sharply. Lamech addresses his wives in a short poem and boasts—or at least speaks boldly—about killing someone over an injury. The Hebrew wording leaves room for discussion about exactly how to understand the lines, but the picture of escalating violence is hard to miss.",
+  "takeaway": "Lamech's words show how violence has grown in Cain's line."
+ },
+ "24": {
+  "scene": "Lamech says that if Cain is avenged sevenfold, he will be avenged seventy-sevenfold.",
+  "breakdown": "Back in verse 15, God protected Cain from revenge killing. Lamech now takes that language and pushes it much further. The text records his claim; it doesn't say God promised him this protection. His words sound like a man magnifying the threat of retaliation.",
+  "takeaway": "Lamech turns the language of protection into a bigger claim about revenge."
+ },
+ "25": {
+  "scene": "Adam and Eve have another son, Seth, and Eve says God has given her another child in place of Abel.",
+  "breakdown": "After following Cain's descendants, Genesis returns to Adam and Eve. Abel is still gone; his murder hasn't been forgotten. Eve names Seth and speaks of him as another offspring given by God in Abel's place. The chapter closes by showing that the family story continues despite its grief.",
+  "takeaway": "Seth's birth brings a new beginning after Abel's death."
+ },
+ "26": {
+  "scene": "Seth has a son named Enosh, and people begin calling on the name of the LORD.",
+  "breakdown": "The chapter ends with Seth's family and a statement about calling on the LORD's name. That phrase is often understood as worship or prayer, though scholars discuss its exact force here. After a chapter full of anger and violence, this closing line turns our attention to people relating to God.",
+  "takeaway": "The chapter closes with a reference to calling on the LORD."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
