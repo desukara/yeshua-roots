@@ -43,7 +43,134 @@ const plainGenesisOne:Record<number,PlainVerseStudy>={
  31:{scene:"God looks at everything He has made and calls it very good. The sixth day ends.",breakdown:"This is the closing judgment over the work described in Genesis 1. Earlier, individual parts of creation were called good. Now God looks at everything together and calls it very good. The sixth day comes to an end.",takeaway:"The whole creation is declared very good."}
 };
 // Every Torah book uses the same lookup. Add reviewed notes by book, chapter, and verse.
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne}};
+const plainGenesisTwo:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The heavens and earth and everything in them are finished.",
+  "breakdown": "Genesis begins this chapter by saying the work of creation is complete. The world has been formed and filled; the story now turns to what happens after that work.",
+  "takeaway": "Creation is presented as complete."
+ },
+ "2": {
+  "scene": "God finishes His work and rests on the seventh day.",
+  "breakdown": "Rest here is not about God running out of strength. The passage marks a change from creating to ceasing that work. The seventh day is set apart from the six days before it.",
+  "takeaway": "The seventh day marks the end of God's creating work."
+ },
+ "3": {
+  "scene": "God blesses the seventh day and makes it holy.",
+  "breakdown": "The seventh day receives a special blessing because God rested from His work of creation on it. This is the foundation for the importance of the seventh day later in the Torah.",
+  "takeaway": "God sets apart the seventh day."
+ },
+ "4": {
+  "scene": "The account turns to the generations of the heavens and earth.",
+  "breakdown": "This verse introduces a closer look at the earth and human life. It names the LORD God and leads into the story of the garden and the first humans.",
+  "takeaway": "The story shifts from the whole world to human beginnings."
+ },
+ "5": {
+  "scene": "The passage describes a time before field plants had grown, when there was no rain and no person to work the ground.",
+  "breakdown": "Genesis explains the setting before the garden story unfolds. The focus is on land that has not yet been cultivated and on the absence of a human worker.",
+  "takeaway": "The ground is waiting to be worked."
+ },
+ "6": {
+  "scene": "Water rises from the earth and waters the ground.",
+  "breakdown": "Although the passage has just said rain had not fallen, it now describes water reaching the ground another way. The scene is being prepared for the forming of the man.",
+  "takeaway": "The ground is watered before the man is formed."
+ },
+ "7": {
+  "scene": "The LORD God forms the man from dust and breathes life into him.",
+  "breakdown": "The man is formed from the ground, but he becomes living through God's breath. The verse connects human life both to the earth and to the God who gives life.",
+  "takeaway": "Human life is a gift from God."
+ },
+ "8": {
+  "scene": "God plants a garden in Eden and places the man there.",
+  "breakdown": "The garden is a prepared home for the man God has formed. The man does not make this place for himself; God provides it.",
+  "takeaway": "God gives the man a place to live."
+ },
+ "9": {
+  "scene": "God causes beautiful, food-bearing trees to grow, including two specially named trees.",
+  "breakdown": "The garden has trees that are pleasing to look at and good for food. The tree of life and the tree of the knowledge of good and evil are singled out because they matter later in the story.",
+  "takeaway": "Two trees will become important to the story."
+ },
+ "10": {
+  "scene": "A river flows from Eden to water the garden and then divides.",
+  "breakdown": "Genesis describes water flowing through the garden and outward. The next verses give geographical names connected with that river.",
+  "takeaway": "The garden is pictured as a well-watered place."
+ },
+ "11": {
+  "scene": "The first river is named Pishon and is linked to Havilah.",
+  "breakdown": "The story begins naming the four river branches. Pishon is connected with a land called Havilah, described as having gold.",
+  "takeaway": "Genesis places the garden story in a named landscape."
+ },
+ "12": {
+  "scene": "The land of Havilah is described as having good gold, bdellium, and onyx.",
+  "breakdown": "These details describe resources associated with Havilah. The verse does not explain their spiritual meaning; it adds texture to the geography being described.",
+  "takeaway": "The passage includes details about the land."
+ },
+ "13": {
+  "scene": "The second river is Gihon, associated with the land of Cush.",
+  "breakdown": "Genesis continues its list of rivers. Gihon is the second named branch, and Cush is the land mentioned alongside it.",
+  "takeaway": "A second river is named."
+ },
+ "14": {
+  "scene": "The third river is Tigris, and the fourth is Euphrates.",
+  "breakdown": "The list closes with two more rivers. Tigris is described as flowing east of Assyria, while Euphrates is simply named.",
+  "takeaway": "The four rivers have now been listed."
+ },
+ "15": {
+  "scene": "God places the man in the garden to work it and keep it.",
+  "breakdown": "The man has a responsibility in the place God has given him. The garden is a gift, but living there includes tending and guarding it.",
+  "takeaway": "The man is entrusted with caring for the garden."
+ },
+ "16": {
+  "scene": "God tells the man he may eat freely from the garden's trees.",
+  "breakdown": "Before giving a restriction, God speaks of permission. The man is allowed to eat from the trees of the garden, showing the abundance available to him.",
+  "takeaway": "God gives generous permission."
+ },
+ "17": {
+  "scene": "God forbids eating from the tree of the knowledge of good and evil and warns of death.",
+  "breakdown": "There is one named tree the man must not eat from. The command gives a clear boundary and a serious warning about disobedience. The next chapter will show how this command is tested.",
+  "takeaway": "God's command includes a clear boundary."
+ },
+ "18": {
+  "scene": "God says it is not good for the man to be alone and promises a suitable helper.",
+  "breakdown": "This is the first time in the creation account that something is called not good. The man needs a corresponding partner; the story now moves toward how that need is answered.",
+  "takeaway": "Human aloneness is named as a problem."
+ },
+ "19": {
+  "scene": "God brings the animals and birds to the man to see what he will call them.",
+  "breakdown": "The man names the living creatures brought before him. Naming them is part of his role in the garden, but this scene also leads toward the search for a suitable partner.",
+  "takeaway": "The man names the creatures."
+ },
+ "20": {
+  "scene": "The man names the animals, but none is found to be a suitable partner for him.",
+  "breakdown": "The naming continues through livestock, birds, and wild animals. Yet the passage says none corresponds to the man in the way he needs.",
+  "takeaway": "The animals do not meet the man's need for a partner."
+ },
+ "21": {
+  "scene": "God causes the man to sleep and takes from his side, closing the place with flesh.",
+  "breakdown": "The man does not make his own partner. The LORD God acts while he sleeps, beginning the creation of the woman from his side.",
+  "takeaway": "God acts to provide the man a partner."
+ },
+ "22": {
+  "scene": "God makes a woman from what He took from the man and brings her to him.",
+  "breakdown": "The woman is presented to the man after God forms her. The story answers the need for a corresponding partner raised earlier.",
+  "takeaway": "The woman is brought to the man."
+ },
+ "23": {
+  "scene": "The man recognizes the woman as bone of his bones and flesh of his flesh.",
+  "breakdown": "His words express recognition and kinship. Unlike the animals he named, the woman is someone who shares his human nature.",
+  "takeaway": "The man recognizes a true human counterpart."
+ },
+ "24": {
+  "scene": "The passage explains that a man leaves his parents, joins his wife, and they become one flesh.",
+  "breakdown": "The story moves from the first man and woman to a statement about marriage. It describes a new family bond in which husband and wife are joined together.",
+  "takeaway": "Marriage is described as a close, shared union."
+ },
+ "25": {
+  "scene": "The man and his wife are naked and feel no shame.",
+  "breakdown": "The chapter ends by describing the couple without embarrassment or shame. This peaceful condition makes the change in the next chapter especially noticeable.",
+  "takeaway": "The couple begins without shame."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
