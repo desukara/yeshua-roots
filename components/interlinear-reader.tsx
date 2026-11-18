@@ -3703,7 +3703,239 @@ const plainGenesisTwentySix:Record<number,PlainVerseStudy>={
   "takeaway": "Esau's marriages deeply distress his parents."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix}};
+const plainGenesisTwentySeven:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Isaac grows old and nearly blind, and calls his older son Esau.",
+  "breakdown": "Isaac's failing eyesight sets up the danger of mistaken identity. He calls Esau to discuss a significant family blessing, not an ordinary favor.",
+  "takeaway": "Isaac summons Esau as he grows old."
+ },
+ "2": {
+  "scene": "Isaac tells Esau he is old and does not know when he will die.",
+  "breakdown": "Isaac wants to act while he can. Genesis records his death much later, so we should not assume he dies soon after this conversation.",
+  "takeaway": "Isaac wants to bless Esau before death."
+ },
+ "3": {
+  "scene": "Isaac asks Esau to take his hunting equipment into the field.",
+  "breakdown": "Esau is a skilled hunter, and Isaac knows his abilities. The request reflects their established relationship, including Isaac's fondness for Esau's game.",
+  "takeaway": "Isaac sends Esau to hunt."
+ },
+ "4": {
+  "scene": "Isaac asks for his favorite meal before giving Esau a blessing.",
+  "breakdown": "Isaac plans a meal followed by words of lasting significance. The reader already knows God told Rebekah the older son would serve the younger, creating tension with Isaac's intention.",
+  "takeaway": "Isaac intends to bless Esau."
+ },
+ "5": {
+  "scene": "Rebekah hears Isaac's conversation, and Esau leaves to hunt.",
+  "breakdown": "Rebekah now knows the plan and has an opportunity to intervene. The verse does not say whether she was deliberately eavesdropping.",
+  "takeaway": "Rebekah learns Isaac's plan."
+ },
+ "6": {
+  "scene": "Rebekah tells Jacob what she heard Isaac say to Esau.",
+  "breakdown": "She draws Jacob into the situation by reporting Isaac's request. The favoritism described in chapter 25 now shapes the family's actions.",
+  "takeaway": "Rebekah involves Jacob."
+ },
+ "7": {
+  "scene": "She repeats Isaac's plan to bless Esau before the LORD.",
+  "breakdown": "The phrase 'before the LORD' shows how seriously the blessing is regarded. Rebekah understands its weight and wants a different outcome.",
+  "takeaway": "Rebekah emphasizes the blessing's importance."
+ },
+ "8": {
+  "scene": "Rebekah commands Jacob to follow her instructions.",
+  "breakdown": "She takes control of the scheme. Jacob has not proposed it, but he will knowingly participate in deceiving his father.",
+  "takeaway": "Rebekah directs Jacob."
+ },
+ "9": {
+  "scene": "She tells Jacob to bring two young goats from the flock.",
+  "breakdown": "The goats will supply meat for a meal that imitates Esau's hunted game. The substitution is planned rather than accidental.",
+  "takeaway": "Rebekah orders goats for the disguise."
+ },
+ "10": {
+  "scene": "Rebekah will prepare the food so Jacob can receive Isaac's blessing.",
+  "breakdown": "She intends Jacob to take the meal to Isaac and obtain Esau's blessing. God's earlier promise does not mean God commanded this deception.",
+  "takeaway": "Rebekah plans to secure the blessing for Jacob."
+ },
+ "11": {
+  "scene": "Jacob objects that Esau is hairy while he is smooth-skinned.",
+  "breakdown": "Jacob sees a practical problem: Isaac can feel the difference even if he cannot see it. He does not explicitly object to lying.",
+  "takeaway": "Jacob worries the disguise will fail."
+ },
+ "12": {
+  "scene": "Jacob fears Isaac will touch him and curse him for deceiving him.",
+  "breakdown": "He recognizes that his father might discover the trick. His concern focuses on the consequences of being caught.",
+  "takeaway": "Jacob fears exposure and a curse."
+ },
+ "13": {
+  "scene": "Rebekah says any curse may fall on her and orders Jacob to bring the goats.",
+  "breakdown": "She presses ahead despite his warning. Her words accept responsibility, but the narrative does not describe a literal transfer of a curse.",
+  "takeaway": "Rebekah insists on continuing."
+ },
+ "14": {
+  "scene": "Jacob brings the goats, and Rebekah prepares Isaac's favorite food.",
+  "breakdown": "Both now act on the plan. Jacob provides the meat and Rebekah cooks it, making them participants in the deception.",
+  "takeaway": "The false meal is prepared."
+ },
+ "15": {
+  "scene": "Rebekah dresses Jacob in Esau's best clothes.",
+  "breakdown": "The clothing will help Jacob smell like his brother. Family belongings become tools for misleading Isaac.",
+  "takeaway": "Jacob wears Esau's clothes."
+ },
+ "16": {
+  "scene": "She covers Jacob's hands and neck with goatskins.",
+  "breakdown": "The skins imitate Esau's hairy skin and address Jacob's concern about touch. This is a carefully constructed disguise.",
+  "takeaway": "Goatskins complete the disguise."
+ },
+ "17": {
+  "scene": "Rebekah gives Jacob the prepared food and bread.",
+  "breakdown": "Jacob is now ready to approach Isaac. The food and disguise will only work if Jacob also lies about who he is.",
+  "takeaway": "Jacob carries the deceptive meal."
+ },
+ "18": {
+  "scene": "Jacob enters Isaac's room; Isaac asks which son has come.",
+  "breakdown": "Isaac cannot identify the visitor by sight and asks directly. Jacob has an opportunity to answer honestly.",
+  "takeaway": "Isaac asks who is there."
+ },
+ "19": {
+  "scene": "Jacob claims to be Esau and asks Isaac to eat and bless him.",
+  "breakdown": "Jacob explicitly takes his brother's identity. He is responsible for the words he speaks, even though Rebekah planned the scheme.",
+  "takeaway": "Jacob lies about his identity."
+ },
+ "20": {
+  "scene": "Isaac questions the quick hunt; Jacob falsely credits the LORD.",
+  "breakdown": "Isaac notices suspicious timing. Jacob brings God's name into the lie, claiming divine help for a hunt he never made. The narrator reports the claim without endorsing it.",
+  "takeaway": "Jacob invokes God to support his lie."
+ },
+ "21": {
+  "scene": "Isaac asks Jacob to come close so he can feel him.",
+  "breakdown": "Isaac tries to check the visitor's identity by touch. Rebekah's goatskin disguise was designed to defeat this test.",
+  "takeaway": "Isaac tests the disguise."
+ },
+ "22": {
+  "scene": "Isaac recognizes Jacob's voice but feels hands like Esau's.",
+  "breakdown": "The clues conflict. Isaac notices something familiar in the voice, yet the covered hands suggest his older son.",
+  "takeaway": "Isaac senses that something is wrong."
+ },
+ "23": {
+  "scene": "Isaac fails to recognize Jacob because the hands feel hairy, and he prepares to bless him.",
+  "breakdown": "The disguise works against Isaac's impaired sight. The scene shows a father being misled by people he trusts.",
+  "takeaway": "Isaac is fooled by the disguise."
+ },
+ "24": {
+  "scene": "Isaac asks again whether he is Esau; Jacob says yes.",
+  "breakdown": "Jacob receives another chance to tell the truth and repeats his false claim. His willing participation is unmistakable.",
+  "takeaway": "Jacob repeats the lie."
+ },
+ "25": {
+  "scene": "Jacob serves Isaac food and wine, and Isaac eats.",
+  "breakdown": "The meal goes forward as Isaac requested, but with Jacob in Esau's place. Isaac still does not know he is being deceived.",
+  "takeaway": "Isaac eats Jacob's meal."
+ },
+ "26": {
+  "scene": "Isaac asks his son to come near and kiss him.",
+  "breakdown": "This intimate family gesture becomes another opportunity for Isaac to identify the visitor. Jacob must continue the deception at close range.",
+  "takeaway": "Isaac asks for a kiss."
+ },
+ "27": {
+  "scene": "Jacob kisses Isaac, who smells Esau's clothes and compares the scent to a field blessed by the LORD.",
+  "breakdown": "The clothes supply another convincing clue. Isaac's words begin the blessing with an image of fertile fields, fitting the son he believes is standing before him.",
+  "takeaway": "Esau's scent helps convince Isaac."
+ },
+ "28": {
+  "scene": "Isaac asks God to give heavenly dew, fertile earth, grain, and wine.",
+  "breakdown": "The blessing describes the essentials of agricultural abundance. These are concrete hopes for provision and prosperity, not merely kind words.",
+  "takeaway": "Isaac blesses him with abundance."
+ },
+ "29": {
+  "scene": "Isaac speaks of peoples serving his son, brothers bowing to him, and blessing or cursing tied to others' treatment of him.",
+  "breakdown": "The words carry authority and echo God's earlier promises to Abraham. They are especially consequential because Isaac believes he is speaking to Esau.",
+  "takeaway": "The blessing includes leadership and protection."
+ },
+ "30": {
+  "scene": "Jacob has barely left when Esau returns from hunting.",
+  "breakdown": "The timing reveals how narrowly the brothers miss each other. The deception is about to be exposed.",
+  "takeaway": "Esau returns just after Jacob leaves."
+ },
+ "31": {
+  "scene": "Esau prepares the food and asks Isaac to eat and bless him.",
+  "breakdown": "Esau has fulfilled his father's request and expects the promised blessing. He does not yet know Jacob has taken his place.",
+  "takeaway": "Esau comes expecting his blessing."
+ },
+ "32": {
+  "scene": "Isaac asks who has come; Esau identifies himself as the firstborn.",
+  "breakdown": "The question Isaac asked Jacob now receives a truthful answer. The contrast exposes the earlier lie.",
+  "takeaway": "Esau truthfully identifies himself."
+ },
+ "33": {
+  "scene": "Isaac trembles violently when he realizes he has already blessed someone else.",
+  "breakdown": "The discovery shocks Isaac. He says the earlier recipient will indeed be blessed, treating the spoken blessing as binding rather than casually reversible.",
+  "takeaway": "Isaac discovers the deception."
+ },
+ "34": {
+  "scene": "Esau cries bitterly and begs Isaac for a blessing.",
+  "breakdown": "Esau's pain is real even though he earlier traded away his birthright. The chapter lets readers hear the loss from his perspective.",
+  "takeaway": "Esau desperately asks for a blessing."
+ },
+ "35": {
+  "scene": "Isaac says Jacob came deceitfully and took Esau's blessing.",
+  "breakdown": "Isaac names what happened as deception, not as an innocent fulfillment of prophecy. The family must face the consequences.",
+  "takeaway": "Isaac identifies Jacob's deceit."
+ },
+ "36": {
+  "scene": "Esau says Jacob has supplanted him twice, taking the birthright and now the blessing.",
+  "breakdown": "Esau links the present deception with the earlier birthright exchange. Yet chapter 25 also says Esau willingly swore away that birthright, so the two events are not identical.",
+  "takeaway": "Esau accuses Jacob of taking his place."
+ },
+ "37": {
+  "scene": "Isaac says he has made Jacob master and given him grain and wine.",
+  "breakdown": "Isaac repeats the central promises he has already spoken. He sees no way to give Esau the same position of authority.",
+  "takeaway": "Isaac says the main blessing is already given."
+ },
+ "38": {
+  "scene": "Esau pleads again for a blessing and weeps aloud.",
+  "breakdown": "His repeated request makes his distress unmistakable. He wants some good word from his father, even if the earlier blessing cannot be duplicated.",
+  "takeaway": "Esau continues to plead through tears."
+ },
+ "39": {
+  "scene": "Isaac speaks about Esau's dwelling in relation to fertile land and dew.",
+  "breakdown": "The Hebrew can mean Esau will live away from the earth's richness and heavenly dew, contrasting with Jacob's blessing. Translation is debated, so we should not confidently present it as the same abundance promised to Jacob.",
+  "takeaway": "Isaac describes a difficult future for Esau."
+ },
+ "40": {
+  "scene": "Isaac says Esau will live by the sword, serve his brother, and eventually break his yoke.",
+  "breakdown": "The words anticipate conflict and changing power between the brothers' descendants. They are not a command to commit violence or a judgment about modern peoples.",
+  "takeaway": "Esau's future includes conflict and eventual resistance."
+ },
+ "41": {
+  "scene": "Esau hates Jacob and plans to kill him after Isaac dies.",
+  "breakdown": "Esau's grief turns into murderous intent. The text reports the threat without approving it. The deception has placed the family in danger.",
+  "takeaway": "Esau plans revenge against Jacob."
+ },
+ "42": {
+  "scene": "Rebekah learns what Esau has said about killing Jacob.",
+  "breakdown": "The threat reaches Rebekah, though Genesis does not explain how she hears it. She now sees the dangerous consequences of the scheme she organized.",
+  "takeaway": "Rebekah learns Jacob is in danger."
+ },
+ "43": {
+  "scene": "Rebekah tells Jacob to flee to her brother Laban in Haran.",
+  "breakdown": "She acts to protect Jacob by sending him away. Her earlier effort to secure his place in the family now threatens to separate him from it.",
+  "takeaway": "Rebekah urges Jacob to escape."
+ },
+ "44": {
+  "scene": "She tells Jacob to stay with Laban for a few days until Esau's anger fades.",
+  "breakdown": "Rebekah hopes the separation will be short. Later events show Jacob remains away much longer than a few days.",
+  "takeaway": "Rebekah hopes Esau will calm down."
+ },
+ "45": {
+  "scene": "Rebekah says she will send for Jacob when Esau forgets the offense, asking why she should lose both sons in one day.",
+  "breakdown": "She fears that killing Jacob would also bring ruin upon Esau. The text does not spell out every consequence, but her dread of losing both sons is clear.",
+  "takeaway": "Rebekah fears losing both her sons."
+ },
+ "46": {
+  "scene": "Rebekah tells Isaac that Esau's Hittite wives distress her and that she dreads Jacob marrying a local woman too.",
+  "breakdown": "She gives Isaac a marriage-related reason for Jacob to leave, without mentioning Esau's threat in this conversation. The concern connects to chapter 26, but the selective explanation shows how deeply secrecy now shapes the household.",
+  "takeaway": "Rebekah raises marriage concerns to send Jacob away."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
