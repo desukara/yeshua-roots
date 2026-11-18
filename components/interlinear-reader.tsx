@@ -2791,7 +2791,129 @@ const plainGenesisTwentyOne:Record<number,PlainVerseStudy>={
   "takeaway": "Abraham continues living in the land as a resident outsider."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne}};
+const plainGenesisTwentyTwo:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "After these events, God tests Abraham by calling his name, and Abraham answers, 'Here I am.'",
+  "breakdown": "The narrator tells us at the outset that this is a test, information Abraham does not receive in the command itself. That distinction matters: the reader knows more about the situation than Abraham does. His simple answer shows that he is listening and ready to respond. The chapter will ask hard questions about trust, obedience, and the life of a beloved child.",
+  "takeaway": "Genesis identifies what follows as a test of Abraham."
+ },
+ "2": {
+  "scene": "God tells Abraham to take Isaac, his beloved son, to the land of Moriah and offer him there as a burnt offering on a mountain God will show him.",
+  "breakdown": "The command is shocking, especially after years of promises centered on Isaac. The wording emphasizes Abraham's bond with his son, not that Isaac is an expendable object. 'Your only son' highlights Isaac's unique place as the promised covenant heir; Abraham also has Ishmael. Genesis does not ask us to pretend this command is easy or to use it as permission for anyone to harm a child today.",
+  "takeaway": "The test confronts Abraham with a terrifying command concerning Isaac."
+ },
+ "3": {
+  "scene": "Early the next morning Abraham prepares a donkey, takes two young men and Isaac, cuts wood, and sets out toward the place God named.",
+  "breakdown": "Abraham begins the journey without a recorded argument or explanation to Isaac. The details are practical: transportation, companions, and wood for the offering. The narrator doesn't tell us what Abraham feels or what he says to Sarah, so we shouldn't fill those silences with invented scenes. The quiet description makes the tension more intense.",
+  "takeaway": "Abraham sets out with Isaac and the supplies for the offering."
+ },
+ "4": {
+  "scene": "On the third day Abraham looks up and sees the place in the distance.",
+  "breakdown": "The journey takes time; this isn't an immediate event at Abraham's home. Three days give the story a sense of distance and anticipation, but the text doesn't tell us Abraham's private thoughts during those days. He now sees the destination where the test will reach its crisis.",
+  "takeaway": "Abraham reaches sight of the appointed place after three days."
+ },
+ "5": {
+  "scene": "Abraham tells the servants to stay with the donkey while he and Isaac go to worship, saying that they will return.",
+  "breakdown": "Abraham separates from the servants and describes the journey up the mountain as worship. He speaks of both himself and Isaac returning, a detail readers have understood in different ways: confidence, hope, or language that does not reveal what he expects. The verse does not explain his inner reasoning. We should preserve that uncertainty rather than claim to know exactly what he believed would happen.",
+  "takeaway": "Abraham and Isaac continue alone while the servants wait."
+ },
+ "6": {
+  "scene": "Abraham puts the wood on Isaac, carries the fire and knife himself, and the two walk together.",
+  "breakdown": "The division of supplies makes the scene vivid. Isaac carries the wood while Abraham holds the things needed to start and perform the offering. The repeated image of the two walking together highlights their closeness at the very moment the reader fears what may happen. Isaac is participating in the journey, but he has not been told everything.",
+  "takeaway": "Father and son walk together toward the mountain."
+ },
+ "7": {
+  "scene": "Isaac calls to his father, and Abraham answers, 'Here I am, my son'; Isaac points out the fire and wood and asks where the lamb is.",
+  "breakdown": "Isaac understands enough about burnt offerings to notice something missing. His question is simple and devastating because the reader knows the command Abraham received. Abraham's response to Isaac echoes his answer to God in verse 1. The passage gives Isaac a voice; he is not merely a prop in Abraham's test.",
+  "takeaway": "Isaac asks the question at the heart of the journey: where is the offering?"
+ },
+ "8": {
+  "scene": "Abraham tells Isaac that God will provide the lamb for the burnt offering, and they continue walking together.",
+  "breakdown": "Abraham's answer can be heard as trust that God will provide, but the verse doesn't tell us how much Abraham understands about the outcome. The Hebrew can also be expressed as 'God will see to' the offering. The phrase 'the two of them walked together' appears again, keeping the father-son relationship in view. Later, the story will show a ram, not a lamb, caught nearby.",
+  "takeaway": "Abraham answers Isaac with a statement of trust in God's provision."
+ },
+ "9": {
+  "scene": "They reach the place God indicated; Abraham builds an altar, arranges the wood, binds Isaac, and places him on top.",
+  "breakdown": "The narrative slows down to describe each action. Isaac is bound, a detail behind the Jewish name for this account, the Akedah, or 'binding.' The text doesn't say how old Isaac is or whether he resisted, so we should not present either as a fact. What it does show is a child or son placed in mortal danger, making this a profoundly troubling moment.",
+  "takeaway": "Abraham binds Isaac and places him on the altar."
+ },
+ "10": {
+  "scene": "Abraham reaches for the knife to kill his son.",
+  "breakdown": "This is the crisis of the test. Genesis does not soften what Abraham is about to do, and neither should we. The reader has been told this is a test, but Isaac is still facing a terrifying threat. The next verse is essential to the story: the killing does not happen.",
+  "takeaway": "Abraham reaches the moment of acting on the command, but Isaac is not killed."
+ },
+ "11": {
+  "scene": "The angel of the LORD calls urgently from heaven, 'Abraham, Abraham!' and Abraham answers, 'Here I am.'",
+  "breakdown": "The repeated name interrupts the action at the last possible moment. Abraham answers with the same readiness he showed at the beginning, but now the voice stops him rather than sending him forward. The text identifies the speaker as the angel of the LORD; it does not describe a visible figure standing beside the altar. The interruption changes everything.",
+  "takeaway": "A heavenly call interrupts Abraham before he harms Isaac."
+ },
+ "12": {
+  "scene": "The angel tells Abraham not to lay a hand on Isaac, saying the test has shown that Abraham fears God.",
+  "breakdown": "The command is now explicit: do not harm the boy. This matters enormously for how we read the chapter. The story does not end with a child being sacrificed; the divine messenger stops the killing. 'Fear God' here means profound reverence and allegiance, not simply being frightened. The text commends Abraham's response to the test while also making Isaac's survival central to its ending.",
+  "takeaway": "God stops the sacrifice and Isaac's life is spared."
+ },
+ "13": {
+  "scene": "Abraham looks up, sees a ram caught by its horns in a thicket, and offers the ram instead of Isaac.",
+  "breakdown": "The substitute appears only after the command to stop. Abraham offers the ram as a burnt offering, and Isaac is not the sacrifice. The text specifically says 'ram,' even though Isaac asked about a lamb earlier; we shouldn't silently change the animal. This is the concrete provision that resolves the immediate danger.",
+  "takeaway": "A ram is offered in Isaac's place."
+ },
+ "14": {
+  "scene": "Abraham names the place 'The LORD will provide,' and the saying about provision on the LORD's mountain continues.",
+  "breakdown": "The Hebrew phrase involves the verb 'to see,' which can carry the sense of seeing to a need or providing. English translations vary between 'the LORD will provide' and wording connected to being seen or appearing. The name remembers the outcome: Isaac lived, and an offering was supplied. It doesn't give people permission to create dangerous tests and expect rescue.",
+  "takeaway": "The place-name remembers God's provision at the mountain."
+ },
+ "15": {
+  "scene": "The angel of the LORD calls to Abraham from heaven a second time.",
+  "breakdown": "The first call stopped Abraham; the second introduces a renewed promise. The narrator marks it as a separate speech so we don't confuse the rescue with what follows. Abraham has come through the test, and the story now returns to God's covenant promises.",
+  "takeaway": "A second heavenly message follows Isaac's rescue."
+ },
+ "16": {
+  "scene": "The LORD swears by Himself that because Abraham has not withheld his son, He will act on His promise.",
+  "breakdown": "This is unusually solemn language: God swears by Himself. The speech connects Abraham's conduct in the test to the reaffirmation of blessing. It does not mean Abraham had to complete a human sacrifice to earn God's favor; Isaac was stopped from being killed. The verse keeps both the severity of the test and the rescue in view.",
+  "takeaway": "God solemnly reaffirms His promise after the test."
+ },
+ "17": {
+  "scene": "God promises to bless Abraham greatly and multiply his descendants like the stars and the sand; they will possess the gate of their enemies.",
+  "breakdown": "The imagery of countless descendants repeats earlier promises, now adding sand on the seashore alongside stars in the sky. Possessing an enemy's gate is an ancient way of describing victory or control over a stronghold, not a modern instruction to attack other people. The focus is the future of Abraham's descendants, which depends on Isaac living rather than dying on the mountain.",
+  "takeaway": "God renews the promise of many descendants and a secure future."
+ },
+ "18": {
+  "scene": "God says all nations of the earth will be blessed through Abraham's offspring because Abraham listened to His voice.",
+  "breakdown": "The promise extends beyond Abraham's own family. Genesis again connects his descendants with blessing for the nations, a theme present since his original call. The Hebrew wording can be translated with shades of meaning about nations being blessed or seeking blessing through his offspring. The central point is that the promise has a worldwide horizon.",
+  "takeaway": "God repeats that Abraham's descendants are connected to blessing for the nations."
+ },
+ "19": {
+  "scene": "Abraham returns to his servants, and they travel together to Beersheba, where Abraham lives.",
+  "breakdown": "The narrative closes the mountain journey by returning Abraham to the waiting servants and then to Beersheba. Isaac is not named in this sentence, which has led to questions and interpretations, but the verse does not say Isaac died or was abandoned. The account has already said the sacrifice was stopped. We should not invent a separation based only on the silence here.",
+  "takeaway": "Abraham returns to Beersheba after the test."
+ },
+ "20": {
+  "scene": "After these events, Abraham receives news that Milcah has borne children to his brother Nahor.",
+  "breakdown": "The chapter shifts abruptly from the mountain to family news. Nahor is Abraham's brother, and Milcah is Nahor's wife. This family update may seem unrelated at first, but it introduces relatives who will matter in the next stage of Isaac's story. Genesis often uses family lists to prepare for later events.",
+  "takeaway": "News arrives about Abraham's extended family."
+ },
+ "21": {
+  "scene": "The first sons named are Uz, the firstborn, and his brother Buz, followed by Kemuel, the father of Aram.",
+  "breakdown": "These are members of Nahor and Milcah's family line. The verse gives birth order for Uz and a family connection for Kemuel. Some names resemble those of places or other people elsewhere in Scripture, but we shouldn't assume every matching name identifies the same person. The genealogy is laying out Abraham's relatives.",
+  "takeaway": "The genealogy begins listing Nahor and Milcah's sons."
+ },
+ "22": {
+  "scene": "The list continues with Chesed, Hazo, Pildash, Jidlaph, and Bethuel.",
+  "breakdown": "This verse adds five more sons to the family record. Genealogies can feel like strings of unfamiliar names, but here they locate people within the wider family Abraham left behind. One of these names, Bethuel, becomes especially important in the next verse. We don't need to invent individual biographies when Genesis gives only their names.",
+  "takeaway": "The family list continues and introduces Bethuel."
+ },
+ "23": {
+  "scene": "Bethuel is identified as Rebekah's father, and the text says Milcah bore these eight sons to Nahor.",
+  "breakdown": "Here the reason for the genealogy begins to come into focus. Rebekah will become a major figure in Isaac's story, and Genesis introduces her family connection before she enters the narrative. The eight sons are those attributed to Milcah and Nahor in this list. The text does not yet tell us anything about Rebekah's character or choices.",
+  "takeaway": "Rebekah is introduced through her father Bethuel."
+ },
+ "24": {
+  "scene": "Nahor's concubine Reumah is also named, along with her children Tebah, Gaham, Tahash, and Maacah.",
+  "breakdown": "The chapter ends by recording another branch of Nahor's household. 'Concubine' describes a recognized but lower-status relationship in this ancient family structure; it should not be confused with equal standing for everyone involved. The four children are named without further stories here. This final verse completes the family notice that prepares for events to come.",
+  "takeaway": "The genealogy closes with Reumah and her four children."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
