@@ -293,7 +293,129 @@ const plainGenesisTwo:Record<number,PlainVerseStudy>={
   "takeaway": "The couple begins without shame; chapter 3 will show a change."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo}};
+const plainGenesisThree:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The serpent questions the woman about what God said they could eat.",
+  "breakdown": "The serpent is introduced as crafty, and his first move is a question: did God really forbid eating from every tree? That's not what God said in chapter 2. God gave them plenty to eat, with one tree off-limits. The question makes God's command sound much harsher than it was.",
+  "takeaway": "The temptation begins by twisting what God actually said."
+ },
+ "2": {
+  "scene": "The woman answers that they may eat fruit from the garden's trees.",
+  "breakdown": "She corrects the serpent's sweeping claim. The trees aren't all forbidden. There is food available throughout the garden, and the woman knows that. The conversation is about to narrow down to the one tree God restricted.",
+  "takeaway": "God's permission was broad, not a ban on everything."
+ },
+ "3": {
+  "scene": "The woman says they must not eat from or touch the tree in the middle of the garden, or they will die.",
+  "breakdown": "Now she describes the restriction. In chapter 2, God's recorded command was not to eat from the tree of the knowledge of good and evil; it didn't mention touching it. Genesis doesn't explain why she adds that detail, so we shouldn't pretend we know. What matters is that she understands there is a serious boundary.",
+  "takeaway": "The woman knows the tree is forbidden, though her wording adds a detail."
+ },
+ "4": {
+  "scene": "The serpent tells the woman, 'You will not surely die.'",
+  "breakdown": "This is no longer a question. The serpent directly contradicts God's warning from Genesis 2:17. The story puts two claims in front of the woman: what God said about eating from the tree, and what the serpent now says.",
+  "takeaway": "The serpent openly challenges God's warning."
+ },
+ "5": {
+  "scene": "The serpent claims eating the fruit will open their eyes and make them like God, knowing good and evil.",
+  "breakdown": "He offers an attractive reason to ignore the command. Instead of talking about the danger God named, he talks about gaining something desirable. The next verses show their eyes opening, but not in the simple, wonderful way his promise suggests.",
+  "takeaway": "The serpent makes disobedience sound like a way to gain wisdom."
+ },
+ "6": {
+  "scene": "The woman sees that the tree looks good for food, pleasing to the eyes, and desirable for wisdom; she eats and gives some to her husband, who eats too.",
+  "breakdown": "The verse slows down to show the choice. She considers the fruit, takes it, and eats. Then she gives some to the man, who is described as being with her, and he eats. Both people take part in crossing the boundary God gave.",
+  "takeaway": "Both the woman and the man eat from the forbidden tree."
+ },
+ "7": {
+  "scene": "Their eyes are opened, they realize they are naked, and they sew fig leaves together.",
+  "breakdown": "The serpent promised opened eyes, and that part happens. But the first thing the couple does is cover themselves. At the end of chapter 2 they were naked without shame; now they feel exposed. The story wants us to notice that change.",
+  "takeaway": "Their new awareness brings shame, not the freedom they expected."
+ },
+ "8": {
+  "scene": "The man and woman hear the LORD God in the garden and hide among the trees.",
+  "breakdown": "Before this, the garden was their home. Now they hide from God there. The verse describes God moving in the garden and the couple trying to stay out of sight. The problem isn't that God suddenly arrived in an unfamiliar place; it's that they no longer want to face Him.",
+  "takeaway": "After disobeying, the couple hides from God."
+ },
+ "9": {
+  "scene": "God calls to the man, 'Where are you?'",
+  "breakdown": "The question opens a conversation, not a search party we need to explain with guesses about what God knows. The man has hidden, and now he is being called to answer. Watch how the questions that follow bring the choice into the open.",
+  "takeaway": "God calls the hiding man to respond."
+ },
+ "10": {
+  "scene": "The man says he was afraid because he was naked, so he hid.",
+  "breakdown": "For the first time, the man talks about fear. He connects his hiding to being naked, but he hasn't yet admitted eating the fruit. The shame and fear that appeared after their choice are now shaping how he responds to God.",
+  "takeaway": "Fear has replaced the couple's earlier ease in the garden."
+ },
+ "11": {
+  "scene": "God asks who told the man he was naked and whether he ate from the forbidden tree.",
+  "breakdown": "God's questions go straight to the issue. The man has talked about being naked, but the command was about eating from a particular tree. The conversation now confronts the action behind his fear.",
+  "takeaway": "The question brings the broken command into focus."
+ },
+ "12": {
+  "scene": "The man says the woman God gave him offered the fruit, and he ate.",
+  "breakdown": "Notice how he answers. He admits eating, but first points to the woman—and even mentions that God gave her to him. The verse doesn't erase his responsibility; he still says, 'I ate.' It shows how quickly blame enters the conversation.",
+  "takeaway": "The man admits what he did while shifting blame."
+ },
+ "13": {
+  "scene": "God asks the woman what she has done, and she says the serpent deceived her, so she ate.",
+  "breakdown": "The woman also acknowledges eating, but she points to the serpent's deception. That fits what we've just read: the serpent questioned and contradicted God's command. Still, the woman made a choice to eat. Both deception and responsibility are part of the scene.",
+  "takeaway": "The woman says she was deceived, and she admits eating."
+ },
+ "14": {
+  "scene": "God tells the serpent it is cursed and will go on its belly and eat dust.",
+  "breakdown": "God addresses the serpent first. The language describes humiliation: crawling and eating dust. The verse doesn't explain the serpent's earlier anatomy, so we shouldn't invent a story about how it used to move. The point here is judgment and disgrace.",
+  "takeaway": "The serpent receives a curse."
+ },
+ "15": {
+  "scene": "God speaks of hostility between the serpent and the woman, and between their offspring; her offspring will strike its head while it strikes his heel.",
+  "breakdown": "The verse describes an ongoing conflict and a blow to the serpent's head alongside a wound to the offspring's heel. Christians often see a connection here to Yeshua's victory over evil, but Genesis itself doesn't name Yeshua in this line. We can recognize that later reading without pretending the verse spells it all out.",
+  "takeaway": "The serpent's conflict with humanity will continue; later believers also see a larger hope here."
+ },
+ "16": {
+  "scene": "God tells the woman that pain in pregnancy and childbirth will increase, and describes tension in her relationship with her husband.",
+  "breakdown": "The consequences now reach into family life. Childbearing will involve pain, and the relationship between husband and wife will be marked by a struggle over desire and rule. This is a description within God's judgment, not a command telling husbands to mistreat their wives.",
+  "takeaway": "The consequences touch childbirth and the marriage relationship."
+ },
+ "17": {
+  "scene": "God tells Adam that because he ate from the forbidden tree, the ground is cursed and getting food will be painful work.",
+  "breakdown": "Adam was placed in the garden to work it before he disobeyed. So work itself isn't introduced as a punishment here. What changes is the hardship: the ground is cursed, and eating from it will now involve toil. God names Adam's disobedience directly.",
+  "takeaway": "The ground will no longer yield food without painful struggle."
+ },
+ "18": {
+  "scene": "God says the ground will produce thorns and thistles, and Adam will eat the plants of the field.",
+  "breakdown": "The trouble with the soil gets more specific. Adam will still eat from the land, but now weeds and thorns will make growing food difficult. The same ground he was meant to tend will resist him.",
+  "takeaway": "Food will come from land that is harder to cultivate."
+ },
+ "19": {
+  "scene": "God says Adam will eat by the sweat of his face until he returns to the ground, because he was taken from dust.",
+  "breakdown": "This verse brings the warning of death into sharp focus. Adam will labor for food throughout his life, but that life will end. Genesis 2 said he was formed from dust; now he is told he will return to dust. The words connect his beginning and his mortality.",
+  "takeaway": "Human life ends in a return to the dust."
+ },
+ "20": {
+  "scene": "The man names his wife Eve because she is the mother of all living.",
+  "breakdown": "After the judgments, Adam gives his wife a name linked in Hebrew to life. The verse explains the name by calling her the mother of all living. The story is still looking ahead to human life continuing beyond the garden.",
+  "takeaway": "Eve's name is connected with life and future generations."
+ },
+ "21": {
+  "scene": "The LORD God makes garments of skin for Adam and his wife and clothes them.",
+  "breakdown": "Earlier, the couple tried to cover themselves with fig leaves. Now God provides clothing for them. The verse says the garments are made of skin, but it doesn't describe an animal sacrifice or tell us how the skins were obtained. We should stick with what the text actually says.",
+  "takeaway": "God clothes the couple after their shame and judgment."
+ },
+ "22": {
+  "scene": "God says the man has become like 'one of us' in knowing good and evil, and speaks of keeping him from the tree of life.",
+  "breakdown": "This is a difficult line, and Genesis doesn't explain every part of the phrase 'one of us.' The immediate concern is clear, though: the man must not take from the tree of life and live forever in his present condition. The next verse tells us what God does about that.",
+  "takeaway": "Access to the tree of life is now at stake."
+ },
+ "23": {
+  "scene": "God sends the man out of the garden of Eden to work the ground from which he was taken.",
+  "breakdown": "The man was placed in the garden to tend it; now he is sent out. He will still work the soil, but outside the place God prepared for him. This is a major turning point: disobedience has changed where the couple can live.",
+  "takeaway": "Adam leaves the garden and returns to working the ground outside it."
+ },
+ "24": {
+  "scene": "God drives the man out and stations cherubim and a flaming, turning sword to guard the way to the tree of life.",
+  "breakdown": "The chapter ends with a closed entrance. The cherubim and flaming sword guard the way back to the tree of life. Whatever questions we have about the imagery, the main point is plain: the couple cannot simply walk back in and take the fruit. The garden is no longer open to them.",
+  "takeaway": "The way back to the tree of life is guarded."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
