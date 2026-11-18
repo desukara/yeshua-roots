@@ -709,7 +709,119 @@ const plainGenesisFive:Record<number,PlainVerseStudy>={
   "takeaway": "The genealogy reaches Noah and introduces his three sons."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive}};
+const plainGenesisSix:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "People begin multiplying across the earth, and daughters are born to them.",
+  "breakdown": "The story moves from Noah's family line to what is happening across the wider world. More people are living on the earth, and Genesis is about to describe relationships and behavior that lead into God's judgment. The verse itself doesn't say that having daughters or having more children is a problem. It's simply setting the scene.",
+  "takeaway": "Humanity is growing, and the story turns to what people are doing."
+ },
+ "2": {
+  "scene": "The 'sons of God' see that the 'daughters of humans' are beautiful and take wives from among them.",
+  "breakdown": "This is one of the Bible's debated passages. Some readers understand the 'sons of God' as heavenly beings; others see powerful rulers or a particular line of men. Genesis doesn't pause to identify them beyond dispute. What it does describe is men seeing women they desire and taking wives, language that raises questions about power and boundaries. We should not build a confident story from details the verse leaves unexplained.",
+  "takeaway": "The passage describes troubling unions, but the identity of the 'sons of God' is disputed."
+ },
+ "3": {
+  "scene": "The LORD says His Spirit will not contend with humanity forever and mentions 120 years.",
+  "breakdown": "God responds to the direction human life is taking. The Hebrew wording translated 'contend,' 'strive,' or 'remain' is difficult, so Bibles phrase it differently. The 120 years may be understood as a period before judgment or as a limit connected with human life; interpreters disagree. The clear warning is that God will not allow the situation to continue without limit.",
+  "takeaway": "God announces a limit, though the exact meaning of the 120 years is debated."
+ },
+ "4": {
+  "scene": "Genesis mentions the Nephilim in those days, alongside the offspring of the unions just described.",
+  "breakdown": "People have all kinds of theories about the Nephilim. The Hebrew name is often left untranslated, and the verse associates them with ancient mighty men, men of renown. It does not give us a detailed explanation of their size, appearance, or ancestry that settles every question. We can acknowledge the mystery without turning it into a made-up adventure story.",
+  "takeaway": "The Nephilim are mentioned, but the verse leaves major questions unanswered."
+ },
+ "5": {
+  "scene": "The LORD sees that human wickedness is great and that people's thoughts keep turning toward evil.",
+  "breakdown": "Now Genesis tells us plainly why judgment is coming. The problem isn't simply that people are numerous or that strange figures have appeared. God sees deep, widespread wickedness: even the intentions forming in people's hearts are described as continually evil. This verse brings the focus back to human choices and corruption.",
+  "takeaway": "The central problem is how deeply evil has taken hold of human life."
+ },
+ "6": {
+  "scene": "The LORD is grieved that He made humanity on the earth.",
+  "breakdown": "This is strong, personal language. Genesis doesn't picture God looking at evil with indifference. It says He is grieved to His heart. Different theological traditions explain God's 'regret' in different ways, but we shouldn't flatten the verse into 'God made a mistake.' The passage is showing how seriously God regards what humanity has become.",
+  "takeaway": "Human wickedness brings deep grief in the way Genesis describes God's response."
+ },
+ "7": {
+  "scene": "The LORD declares that He will wipe out people and land animals, creeping things, and birds from the face of the ground.",
+  "breakdown": "The judgment announced here is severe. The destruction reaches beyond people to other living creatures, showing how far the consequences of human corruption spread in the story. This is not a small correction or a harmless warning. Genesis wants us to feel the weight of what is coming.",
+  "takeaway": "God announces a devastating judgment on life across the land."
+ },
+ "8": {
+  "scene": "Noah finds favor in the eyes of the LORD.",
+  "breakdown": "After the dark announcement, this short sentence changes the direction of the story. One man is singled out as finding God's favor. That doesn't mean the chapter says Noah is flawless. It means the flood account will not be only about destruction; it will also tell how God preserves life.",
+  "takeaway": "Noah receives God's favor amid widespread corruption."
+ },
+ "9": {
+  "scene": "Genesis introduces Noah's family account and describes him as righteous, blameless in his generation, and walking with God.",
+  "breakdown": "This is a closer introduction to Noah, not a claim that he never made a mistake. 'Blameless' here describes his integrity in the setting of his generation. And 'walked with God' should sound familiar from Enoch in chapter 5. Noah stands out because his life takes a different direction from the violence around him.",
+  "takeaway": "Noah is described as a man of integrity who walks with God."
+ },
+ "10": {
+  "scene": "Noah has three sons: Shem, Ham, and Japheth.",
+  "breakdown": "We heard these names at the end of chapter 5. Genesis repeats them because the sons and their families are going to matter when the flood comes and when life begins again afterward. For now, the verse makes sure we know who's in Noah's immediate family.",
+  "takeaway": "Noah's three sons are part of the family the story will follow."
+ },
+ "11": {
+  "scene": "The earth is corrupt before God and filled with violence.",
+  "breakdown": "The chapter has already told us people's hearts are bent toward evil. Now it names what that looks like in the world: corruption and violence. The issue isn't just private thoughts. People are hurting one another, and the whole society is described as damaged.",
+  "takeaway": "Violence and corruption have spread across the earth."
+ },
+ "12": {
+  "scene": "God sees that the earth is corrupt because all flesh has corrupted its way.",
+  "breakdown": "Genesis repeats the word 'corrupt' so we don't miss how serious the situation is. 'All flesh' is a broad expression in this context, and the verse describes the world's way of life as ruined. Noah has already been singled out, so we shouldn't force the phrase to mean absolutely every individual behaved identically.",
+  "takeaway": "God sees how thoroughly the world has gone wrong."
+ },
+ "13": {
+  "scene": "God tells Noah that He has decided to bring an end to all flesh because the earth is full of violence.",
+  "breakdown": "This is the moment Noah hears what is coming. God names violence as the reason and announces destruction. The Hebrew can be rendered 'the end of all flesh has come before me.' The next instructions aren't random boat-building tips; they are God's provision in the face of the judgment He has announced.",
+  "takeaway": "God tells Noah the reason for the coming destruction."
+ },
+ "14": {
+  "scene": "God tells Noah to make an ark of gopher wood, with rooms, and coat it inside and outside with pitch.",
+  "breakdown": "Now the rescue plan becomes practical. Noah is told to build a large vessel, divide it into spaces, and seal it so water cannot easily get in. Nobody knows with certainty what kind of wood the Hebrew word 'gopher' identifies. The important point is that God gives Noah real construction instructions, not just a vague promise of safety.",
+  "takeaway": "God gives Noah specific instructions for a vessel that will preserve life."
+ },
+ "15": {
+  "scene": "God gives the ark's measurements: 300 cubits long, 50 cubits wide, and 30 cubits high.",
+  "breakdown": "Those numbers tell us this is a massive structure, not a little rowboat. A cubit was an ancient unit based roughly on the length of a forearm, and its exact length could vary. Rather than pretend we know one perfect modern measurement, we can see the proportions Genesis gives: very long, much narrower, and tall enough for several levels.",
+  "takeaway": "The ark is described with specific, large-scale dimensions."
+ },
+ "16": {
+  "scene": "God tells Noah to make an opening near the top, put a door in the side, and build three levels.",
+  "breakdown": "The instructions continue with how the ark will be arranged. English translations differ on whether the Hebrew describes a roof, a window, or an opening near the top. But the door in the side and the lower, second, and third levels are clear. The vessel is being designed to hold its passengers and supplies.",
+  "takeaway": "The ark has an entrance and three levels, with a debated detail near the top."
+ },
+ "17": {
+  "scene": "God says He will bring floodwaters to destroy living creatures under heaven that have the breath of life.",
+  "breakdown": "Now God names the disaster: a flood. The verse uses sweeping language about the creatures that breathe and live on the earth. This is the judgment the earlier verses prepared us for. Genesis doesn't describe it as a natural accident that catches God by surprise; in the story, God announces it beforehand.",
+  "takeaway": "God tells Noah that a deadly flood is coming."
+ },
+ "18": {
+  "scene": "God promises to establish His covenant with Noah and tells him to enter the ark with his wife, sons, and daughters-in-law.",
+  "breakdown": "Here's the promise of preservation alongside the warning of judgment. God says He will establish His covenant with Noah, though the fuller covenant language comes later in the flood story. Noah isn't told to go in alone. His household is named as part of the plan to survive.",
+  "takeaway": "God promises a covenant and includes Noah's family in the rescue."
+ },
+ "19": {
+  "scene": "God tells Noah to bring two of every kind of living creature into the ark, male and female.",
+  "breakdown": "The goal is to keep living creatures alive through the flood. This verse gives the broad instruction: pairs of animals, male and female. Chapter 7 will add more detailed instructions about some animals, so we shouldn't act as though this verse is the only word on the numbers.",
+  "takeaway": "The ark is meant to preserve animal life as well as human life."
+ },
+ "20": {
+  "scene": "Birds, livestock, and ground-moving creatures will come to Noah in pairs to be kept alive.",
+  "breakdown": "The verse names different groups of animals so we understand the scope of the rescue. It also says they will come to Noah. The focus isn't on Noah chasing every creature across the world; the text presents their arrival as part of what God has arranged.",
+  "takeaway": "Different kinds of creatures are to be kept alive in the ark."
+ },
+ "21": {
+  "scene": "God tells Noah to gather food for himself, his family, and the animals.",
+  "breakdown": "A boat full of living creatures will need food. God doesn't skip that ordinary practical need. Noah must collect and store provisions for the people and animals who will be inside. The rescue involves preparation and responsibility, not just waiting for a miracle.",
+  "takeaway": "Noah must prepare food for everyone who will be on the ark."
+ },
+ "22": {
+  "scene": "Noah does everything God commands him.",
+  "breakdown": "After all the warnings and detailed instructions, Genesis gives us Noah's response. He obeys. The verse doesn't describe every swing of a hammer or every step of gathering supplies; it sums up his response to God's word. That's the note the chapter ends on before the flood story continues.",
+  "takeaway": "Noah responds to God's instructions with obedience."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
