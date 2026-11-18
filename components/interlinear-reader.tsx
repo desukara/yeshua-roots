@@ -1842,7 +1842,114 @@ const plainGenesisFourteen:Record<number,PlainVerseStudy>={
   "takeaway": "Abram refuses a reward for himself while respecting his allies' shares."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen}};
+const plainGenesisFifteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "After the events of the previous chapter, the LORD speaks to Abram in a vision and tells him not to fear.",
+  "breakdown": "Abram has just come through a war and refused the king of Sodom's reward. Now God tells him not to be afraid and describes Himself as Abram's shield. The Hebrew wording about a 'very great reward' can be understood in more than one way: God may be speaking of the reward He gives or emphasizing Himself as Abram's reward. Either way, the reassurance comes from God, not from the kings Abram dealt with.",
+  "takeaway": "God reassures Abram that he is not left unprotected or forgotten."
+ },
+ "2": {
+  "scene": "Abram asks what God can give him while he remains childless and mentions Eliezer of Damascus.",
+  "breakdown": "Abram doesn't pretend everything is fine. God has promised him a great nation, but he and Sarai still have no child. Abram raises the painful question of who will inherit what he owns. The reference to Eliezer is brief, and the Hebrew wording is difficult, so we shouldn't invent a detailed account of Eliezer's role.",
+  "takeaway": "Abram brings his unanswered question about a child directly to God."
+ },
+ "3": {
+  "scene": "Abram says God has given him no offspring, so someone born in his household stands to inherit.",
+  "breakdown": "Here Abram explains the heart of his concern. Without a son or daughter of his own, his estate appears headed to another member of the household. He isn't asking only about property; he's asking how God's promise of descendants can happen. Genesis lets us hear that tension plainly.",
+  "takeaway": "Abram struggles to see how the promised family will begin."
+ },
+ "4": {
+  "scene": "The LORD tells Abram that the household member will not be his heir; his own son will inherit.",
+  "breakdown": "God answers Abram's specific worry. The promised heir will come from Abram himself, not simply from someone already living in his household. This verse doesn't yet name the mother or explain how the birth will happen. It does make the promise more personal and specific.",
+  "takeaway": "God promises Abram an heir from his own body."
+ },
+ "5": {
+  "scene": "God brings Abram outside and tells him to count the stars if he can, saying his descendants will be like that.",
+  "breakdown": "Abram is given a picture he can actually look at. The stars are far too many to count, and God uses them to describe the future family Abram cannot yet see. This isn't a mathematical prediction about an exact number of descendants. It's a way of showing how enormous the promise is compared with Abram's present childlessness.",
+  "takeaway": "God uses the stars to show the vast future He promises Abram."
+ },
+ "6": {
+  "scene": "Abram believes the LORD, and the LORD counts it to him as righteousness.",
+  "breakdown": "This is one of the most important sentences in Abram's story. The verse places Abram's trust in God's promise at the center, even before the promised child is born. 'Counted as righteousness' is language about how God regards Abram; later biblical writers discuss this verse at length. Here, the immediate setting is a man trusting God about something he still cannot see.",
+  "takeaway": "Abram trusts God's promise, and God regards that faith as righteousness."
+ },
+ "7": {
+  "scene": "God identifies Himself as the LORD who brought Abram from Ur of the Chaldeans to give him this land.",
+  "breakdown": "God reminds Abram that the journey began with His initiative. The land promise is not a random new idea; it is connected to the call that brought Abram out of his former home. This verse sets up Abram's next question about how the land promise will be secured.",
+  "takeaway": "God ties the land promise to the journey He began with Abram."
+ },
+ "8": {
+  "scene": "Abram asks the Lord GOD how he can know that he will possess the land.",
+  "breakdown": "Abram has just been described as believing God, yet he still asks a question. Genesis doesn't treat faith as never asking for assurance. His question concerns the land, not the promise of descendants alone. God's answer comes through a solemn covenant scene rather than a simple explanation.",
+  "takeaway": "Abram asks for assurance about the promised land."
+ },
+ "9": {
+  "scene": "God tells Abram to bring a three-year-old heifer, goat, and ram, along with a turtledove and a young pigeon.",
+  "breakdown": "These are specific animals for the covenant ceremony that follows. In the ancient world, agreements could be marked with solemn rituals, and this scene uses that kind of imagery. The text doesn't yet explain every symbol or tell us to reproduce the ceremony ourselves. Abram is being prepared for an unusual encounter with God.",
+  "takeaway": "God directs Abram to prepare animals for a covenant ceremony."
+ },
+ "10": {
+  "scene": "Abram cuts the larger animals in two and places the halves opposite each other, but does not cut the birds.",
+  "breakdown": "Abram follows the instructions and arranges the pieces. Passing between divided animals could be associated with making a serious covenant commitment; Jeremiah 34 offers a later biblical parallel. Genesis doesn't spell out the meaning of every animal or why the birds remain whole. The arrangement prepares us for what passes between the pieces later.",
+  "takeaway": "Abram prepares the divided animals for the covenant scene."
+ },
+ "11": {
+  "scene": "Birds of prey come down on the carcasses, and Abram drives them away.",
+  "breakdown": "The ceremony doesn't unfold instantly. Abram has to protect the prepared animals from scavengers while he waits. Some readers see symbolic meaning in the birds, but this verse itself doesn't explain them as representing a particular nation or force. We can understand the scene without claiming a hidden code.",
+  "takeaway": "Abram guards the prepared animals while he waits."
+ },
+ "12": {
+  "scene": "As the sun is setting, Abram falls into a deep sleep, and a terrifying darkness comes over him.",
+  "breakdown": "The mood changes sharply. This isn't a cheerful ceremony; Abram experiences deep sleep and a heavy sense of dread. The Hebrew describes both darkness and fear. The next words explain why the moment is serious: God is about to tell Abram about hardship his descendants will face.",
+  "takeaway": "Abram experiences a frightening moment before God's revelation."
+ },
+ "13": {
+  "scene": "God tells Abram that his descendants will live as strangers in another land, be enslaved, and suffer oppression for four hundred years.",
+  "breakdown": "God doesn't promise that Abram's descendants will move straight into comfort. He tells Abram they will be outsiders and will endure severe mistreatment before their future in the land unfolds. Readers naturally connect this with Israel's later experience in Egypt, though this verse does not name Egypt. The four hundred years is a broad period given here; other passages use related but differently framed numbers.",
+  "takeaway": "God warns Abram that his descendants will face generations of hardship."
+ },
+ "14": {
+  "scene": "God says He will judge the nation that enslaves Abram's descendants, and afterward they will leave with many possessions.",
+  "breakdown": "The oppression will not have the last word. God says the nation responsible will face judgment and Abram's descendants will come out with goods. The later Exodus story shows a striking connection with these words. But at this point Abram is hearing a promise about a future he won't personally live to see.",
+  "takeaway": "God promises both judgment on the oppressor and eventual deliverance."
+ },
+ "15": {
+  "scene": "God tells Abram he will die in peace at a good old age and be buried.",
+  "breakdown": "Abram's own life will end before these distant events are completed. The words about going to his ancestors in peace describe his death, not a promise that he will witness every part of the covenant's fulfillment. God distinguishes Abram's personal future from the long history of his descendants.",
+  "takeaway": "Abram will not live to see everything promised to his descendants."
+ },
+ "16": {
+  "scene": "God says Abram's descendants will return in the fourth generation, because the wrongdoing of the Amorites has not yet reached its full measure.",
+  "breakdown": "God's timing includes more than Abram's family. The people already living in the land are part of the moral picture, and the text says their wrongdoing has not yet reached its full extent. The 'fourth generation' language sits alongside the earlier four-hundred-year statement, and readers debate how the periods fit together. We shouldn't flatten those details into a timeline the verse doesn't fully explain.",
+  "takeaway": "God says the return will come later, at a time tied to the land's inhabitants."
+ },
+ "17": {
+  "scene": "After sunset, a smoking firepot and a flaming torch pass between the divided pieces.",
+  "breakdown": "This is the dramatic center of the covenant scene. The fire and smoke are commonly understood as signs of God's presence, and they pass between the animal pieces while Abram is not described as walking between them. That detail has led many readers to emphasize God's initiative in the promise. The verse uses powerful imagery, but it doesn't explain every visual feature.",
+  "takeaway": "The covenant scene centers on a fiery sign passing between the pieces."
+ },
+ "18": {
+  "scene": "On that day the LORD makes a covenant with Abram, promising his descendants land from the river of Egypt to the great river Euphrates.",
+  "breakdown": "Now Genesis states plainly what the ceremony means: God makes a covenant with Abram. The promised territory is described using two rivers, though the exact identification of the 'river of Egypt' is debated. The boundaries are part of the covenant language; they shouldn't be casually treated as a modern political map. The main point is God's solemn promise to Abram's descendants.",
+  "takeaway": "God formally establishes His covenant concerning the land."
+ },
+ "19": {
+  "scene": "The Kenites, Kenizzites, and Kadmonites are named among the peoples of the promised territory.",
+  "breakdown": "The covenant's land description becomes more concrete through a list of inhabitants. These are ancient groups, and their exact locations are not all certain today. The names remind us that the land being promised is already inhabited; this isn't a story about an empty place waiting to be discovered.",
+  "takeaway": "The promised land is described through the peoples living there."
+ },
+ "20": {
+  "scene": "The Hittites, Perizzites, and Rephaim are also listed.",
+  "breakdown": "Genesis continues naming peoples associated with the land. Some of these names have appeared earlier in the book, while others will return in later accounts. We shouldn't treat each name as a perfectly defined modern ethnic or national category. They are part of the ancient setting of the promise.",
+  "takeaway": "More ancient inhabitants of the promised land are named."
+ },
+ "21": {
+  "scene": "The Amorites, Canaanites, Girgashites, and Jebusites complete the list.",
+  "breakdown": "The chapter ends with more names of peoples living in the region. These groups will matter in later stories about the land of Canaan. Ending with this list keeps the promise grounded in a real place with existing communities, not just an abstract idea of blessing.",
+  "takeaway": "The covenant chapter closes by naming the land's inhabitants."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
