@@ -2168,7 +2168,174 @@ const plainGenesisSeventeen:Record<number,PlainVerseStudy>={
   "takeaway": "Abraham's entire male household receives the covenant sign."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen}};
+const plainGenesisEighteen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The LORD appears to Abraham by the oaks of Mamre while Abraham sits at his tent entrance in the heat of the day.",
+  "breakdown": "The chapter tells us from the beginning that this visit involves the LORD, even before Abraham sees who is approaching. Mamre is where Abraham settled and built an altar earlier. The hot part of the day makes the setting feel ordinary: a man sitting at his tent, about to receive unexpected guests. Genesis will unfold the visitors' identity gradually rather than explaining every detail immediately.",
+  "takeaway": "God's appearance begins in an everyday scene at Abraham's tent."
+ },
+ "2": {
+  "scene": "Abraham looks up, sees three men standing nearby, and runs to meet them, bowing low.",
+  "breakdown": "Three visitors suddenly appear in the scene. Abraham doesn't wait for them to come asking for help; he hurries out to greet them. Bowing is a respectful gesture in this setting, but the gesture alone doesn't tell us exactly what Abraham understands about their identity. The chapter moves between speaking of three visitors and the LORD, so we should follow its wording carefully.",
+  "takeaway": "Abraham welcomes the three visitors with visible respect."
+ },
+ "3": {
+  "scene": "Abraham addresses the visitor as 'my lord' and asks him not to pass by without stopping.",
+  "breakdown": "The Hebrew form of address can be read as a respectful way to speak to a superior, while the larger story also presents this as an encounter with God. Translations differ in capitalization because they make choices about that nuance. What is unmistakable is Abraham's eagerness to receive the visitors rather than let them continue on their way.",
+  "takeaway": "Abraham asks the visitors to accept his hospitality."
+ },
+ "4": {
+  "scene": "Abraham offers water for their feet and a place to rest under the tree.",
+  "breakdown": "Traveling on foot through a hot, dusty region makes water and shade welcome gifts. Abraham's offer is practical, not just a polite greeting. He pays attention to what travelers would need after being on the road. Hospitality here means taking care of real people with real needs.",
+  "takeaway": "Abraham offers the visitors water, rest, and shade."
+ },
+ "5": {
+  "scene": "Abraham offers a little food to strengthen them before they continue, and the visitors agree.",
+  "breakdown": "He describes the meal modestly, as something to help them regain their strength. The visitors accept, giving Abraham the chance to follow through on his welcome. His words are more than a friendly performance; the next verses show him working to provide what he promised.",
+  "takeaway": "The guests accept Abraham's offer of a meal."
+ },
+ "6": {
+  "scene": "Abraham hurries to Sarah and asks her to prepare bread from fine flour.",
+  "breakdown": "The welcome becomes a household effort. Abraham asks Sarah to make cakes or bread, and the amount of flour mentioned is generous rather than a tiny snack. The text shows Sarah working as part of the preparations, but it doesn't tell us how she feels about the sudden request. We should notice her role without inventing her thoughts.",
+  "takeaway": "Sarah prepares bread for the unexpected guests."
+ },
+ "7": {
+  "scene": "Abraham selects a tender calf and has a servant prepare it quickly.",
+  "breakdown": "Abraham adds meat to the meal, making the hospitality substantial. He chooses the animal himself and gives the preparation to a young man or servant. The repeated hurry shows how seriously he takes caring for his guests. This is a generous meal, not merely the small bite of bread he first offered.",
+  "takeaway": "Abraham arranges a generous meal for the visitors."
+ },
+ "8": {
+  "scene": "Abraham sets curds, milk, and the prepared calf before the visitors, standing nearby as they eat.",
+  "breakdown": "The food is ready, and the visitors eat under the tree. Abraham remains standing by them, which fits the role of a host attending to his guests. Genesis doesn't pause to explain how divine or angelic visitors can eat; it simply tells the scene as it unfolds. The hospitality has now led into the conversation that matters most.",
+  "takeaway": "The visitors eat while Abraham attends to them."
+ },
+ "9": {
+  "scene": "The visitors ask where Sarah is, and Abraham says she is in the tent.",
+  "breakdown": "Sarah has been present in the story through the meal preparations, but now the conversation turns directly toward her. The visitors know her name and ask about her whereabouts. Abraham answers simply. The question prepares us for a promise that concerns Sarah personally, not just Abraham.",
+  "takeaway": "The conversation turns toward Sarah."
+ },
+ "10": {
+  "scene": "One visitor says he will return at the appointed time and Sarah will have a son; Sarah listens from the tent entrance.",
+  "breakdown": "This repeats the promise made in Genesis 17, now with Sarah close enough to hear it. The timing is specific: the promised birth is no longer an undefined event somewhere in the future. Genesis shifts between the speech of a visitor and the LORD's own words, and the story treats the promise as God's. Sarah hears the announcement while remaining out of the visitors' sight.",
+  "takeaway": "Sarah hears that she will have a son at the appointed time."
+ },
+ "11": {
+  "scene": "Abraham and Sarah are old, and Sarah has passed the usual age of childbearing.",
+  "breakdown": "The narrator stops to explain why the promise sounds so startling. This isn't a couple expecting a child under ordinary circumstances. Sarah's age and the end of her reproductive years make the announcement seem humanly impossible. The verse gives us the reason for her reaction before describing it.",
+  "takeaway": "Sarah's circumstances make the promised birth astonishing."
+ },
+ "12": {
+  "scene": "Sarah laughs to herself, wondering whether she can experience this joy when she and Abraham are old.",
+  "breakdown": "Sarah's laugh comes from the gap between what she hears and what she knows about her body and her husband's age. The Hebrew wording is intimate and has been translated with different shades of meaning, including pleasure or renewed vitality. We shouldn't flatten it into a claim that Sarah is simply mocking God. Her reaction is human, surprised, and tangled with years of waiting.",
+  "takeaway": "Sarah privately laughs at the thought of bearing a child so late in life."
+ },
+ "13": {
+  "scene": "The LORD asks Abraham why Sarah laughed and questioned whether she could truly bear a child at her age.",
+  "breakdown": "The text now identifies the speaker as the LORD. Sarah's private reaction hasn't gone unnoticed. God brings the question into the open, not because the reader needs to condemn Sarah, but because the promise is about to be tested against what seems possible. Her age is real; so is the promise God has spoken.",
+  "takeaway": "The LORD addresses Sarah's doubt about the promised child."
+ },
+ "14": {
+  "scene": "The LORD asks whether anything is too difficult for Him and repeats that Sarah will have a son at the appointed time.",
+  "breakdown": "This question is the heart of the exchange. The promise doesn't depend on Abraham and Sarah being able to make it happen by ordinary means. God repeats the timing to underline that He hasn't changed His word. The verse invites trust in God's ability without suggesting every human wish is guaranteed to come true.",
+  "takeaway": "God reaffirms that Sarah's age will not prevent His promised gift."
+ },
+ "15": {
+  "scene": "Sarah denies laughing because she is afraid, but the LORD tells her that she did laugh.",
+  "breakdown": "Sarah's fear explains why she tries to deny what happened. The reply is brief and direct: her laughter is acknowledged. Genesis doesn't describe a long punishment or a speech humiliating her. The conversation ends with the truth brought into the open, while the promise of a son still stands.",
+  "takeaway": "Sarah's fearful denial does not change the truth or cancel the promise."
+ },
+ "16": {
+  "scene": "The visitors rise and look toward Sodom, and Abraham walks with them to send them on their way.",
+  "breakdown": "The scene changes from the meal to the road. Abraham continues the customary act of accompanying his guests as they depart. Sodom now comes into view, bringing Lot's situation back into the story. What follows is not another discussion about the promised child but about justice and the fate of a city.",
+  "takeaway": "The visitors turn toward Sodom, and Abraham accompanies them."
+ },
+ "17": {
+  "scene": "The LORD asks whether He should conceal from Abraham what He is about to do.",
+  "breakdown": "The narrative gives us a glimpse of divine deliberation. God is about to reveal something serious about Sodom, and Abraham will be invited into a difficult conversation. This isn't evidence that God needs advice or lacks a plan. It shows that Abraham's relationship with God includes hearing about matters of justice.",
+  "takeaway": "God prepares to disclose His purpose concerning Sodom."
+ },
+ "18": {
+  "scene": "God says Abraham will become a great and powerful nation and that all nations of the earth will be blessed through him.",
+  "breakdown": "Before discussing Sodom, the LORD recalls the larger promise to Abraham. The blessing of the nations is not forgotten when the story turns toward judgment. Abraham's calling is bigger than his own family becoming numerous. It connects his future to the wellbeing of other peoples.",
+  "takeaway": "Abraham's calling remains connected to blessing the wider world."
+ },
+ "19": {
+  "scene": "God says He has chosen Abraham so that he will teach his household to keep the LORD's way by doing righteousness and justice.",
+  "breakdown": "This verse explains what Abraham's family is meant to practice. The covenant isn't only about land and descendants; it includes how people treat one another. 'Righteousness and justice' are not empty religious slogans here. They involve living rightly and dealing fairly with others. That is exactly the concern Abraham raises in the conversation that follows.",
+  "takeaway": "Abraham is called to teach his family to live with justice and righteousness."
+ },
+ "20": {
+  "scene": "The LORD says the outcry against Sodom and Gomorrah is great and their sin is very serious.",
+  "breakdown": "The language of an 'outcry' suggests wrongdoing severe enough to demand attention, especially suffering that cries out for justice. Genesis hasn't yet given the full account of the cities' behavior in this scene, so we shouldn't claim this verse names one single offense. What it does say is that the situation is grave.",
+  "takeaway": "The wrongdoing associated with Sodom and Gomorrah demands judgment."
+ },
+ "21": {
+  "scene": "The LORD says He will go down and see whether the cities have acted according to the outcry reaching Him.",
+  "breakdown": "This is vivid, human-like language for divine examination, much like God's 'coming down' at Babel. It doesn't mean God is ignorant until He visits. The point is that judgment is not portrayed as careless or based on rumor. The story stresses a just examination of what is happening.",
+  "takeaway": "God's judgment is presented as careful and just, not impulsive."
+ },
+ "22": {
+  "scene": "The men turn toward Sodom, while Abraham remains standing before the LORD.",
+  "breakdown": "The visitors move on, but Abraham stays for a conversation with God. Genesis 19 will identify two angels who arrive in Sodom, helping us understand the shift from three visitors here. The scene now narrows to Abraham and the LORD. Abraham is about to speak up for people in a city known for serious wrongdoing.",
+  "takeaway": "Abraham remains before the LORD as the others head toward Sodom."
+ },
+ "23": {
+  "scene": "Abraham draws near and asks whether God will sweep away the righteous along with the wicked.",
+  "breakdown": "Abraham's first concern is fairness. He isn't arguing that evil should be ignored; he is asking whether innocent people will be destroyed in the same judgment as those doing wrong. This question follows naturally from God's words about righteousness and justice. Abraham dares to ask how those principles will be applied.",
+  "takeaway": "Abraham asks whether the righteous will suffer the same fate as the wicked."
+ },
+ "24": {
+  "scene": "Abraham asks whether fifty righteous people in the city would be enough for God to spare the place.",
+  "breakdown": "Abraham puts a number to his concern. He's asking not merely for fifty individuals to escape, but whether their presence could lead God to spare the whole city. The question shows how seriously he takes the possibility of innocent lives being caught in judgment. He is pleading for mercy without pretending the city's evil isn't real.",
+  "takeaway": "Abraham asks whether fifty righteous people could mean mercy for the whole city."
+ },
+ "25": {
+  "scene": "Abraham appeals to God's justice, asking whether the Judge of all the earth will do what is right.",
+  "breakdown": "This is the strongest statement in Abraham's appeal. He insists that treating the righteous exactly like the wicked would be wrong, and he grounds his argument in God's own character. Abraham speaks boldly, but he is not placing himself above God. He is trusting that the Judge of the whole earth must act justly.",
+  "takeaway": "Abraham appeals to God's own commitment to justice."
+ },
+ "26": {
+  "scene": "The LORD says He will spare all of Sodom if He finds fifty righteous people there.",
+  "breakdown": "God answers the first request directly. The presence of fifty righteous people would be enough for the whole place to be spared. The answer shows that the conversation is not a one-sided performance; Abraham's question receives a meaningful response. The story will now explore whether the number can be lower.",
+  "takeaway": "God agrees to spare the city for the sake of fifty righteous people."
+ },
+ "27": {
+  "scene": "Abraham acknowledges his smallness before God as he dares to speak again.",
+  "breakdown": "Abraham knows the difference between himself and the One he is addressing. His words about being dust and ashes express humility, not worthlessness. He continues because the question of justice matters deeply to him. The conversation combines reverence with the courage to ask difficult questions.",
+  "takeaway": "Abraham speaks humbly while continuing to plead for mercy."
+ },
+ "28": {
+  "scene": "Abraham asks whether the city would be destroyed if only forty-five righteous people were found; God says He would not destroy it for forty-five.",
+  "breakdown": "Abraham reduces the number by just five. The question is careful and almost hesitant, as though he is testing how far mercy may extend. God answers that forty-five would still be enough. The conversation is not about negotiating a price; it is about whether the innocent can make a difference for the whole community.",
+  "takeaway": "God agrees to spare the city even for forty-five righteous people."
+ },
+ "29": {
+  "scene": "Abraham asks about forty righteous people, and God says He will not act against the city for their sake.",
+  "breakdown": "The number drops again. Abraham keeps asking the same underlying question: how much room is there for mercy when a city is deeply corrupt? God's answer remains consistent with His earlier responses. The righteous are not treated as irrelevant to the city's fate.",
+  "takeaway": "God says forty righteous people would also be enough."
+ },
+ "30": {
+  "scene": "Abraham asks God not to be angry and then asks about thirty; God says He will not destroy the city if thirty are found.",
+  "breakdown": "Abraham is aware that he is making repeated requests. He asks permission to keep speaking, then lowers the number to thirty. The LORD's reply is still merciful. Genesis shows a sustained conversation about justice rather than a quick, easy answer.",
+  "takeaway": "God agrees to spare the city if thirty righteous people are found."
+ },
+ "31": {
+  "scene": "Abraham asks about twenty righteous people, and God again says He will not destroy the city for their sake.",
+  "breakdown": "The question becomes more urgent as the number falls. Abraham is not claiming he knows how many righteous people live in Sodom. He is asking what God would do if that many were there. The answer continues to show willingness to spare the whole place for the sake of a small group.",
+  "takeaway": "God says twenty righteous people would be enough to spare the city."
+ },
+ "32": {
+  "scene": "Abraham asks one final time about ten righteous people, and God says He will not destroy the city for the sake of ten.",
+  "breakdown": "This is the last number Abraham names. The text doesn't explain why he stops at ten, so we shouldn't invent a hidden rule or claim he knew exactly how many good people lived there. What matters is the remarkable patience of the exchange and God's repeated willingness to show mercy. The next chapter will show what happens when the messengers reach Sodom.",
+  "takeaway": "God agrees to spare Sodom if ten righteous people are found."
+ },
+ "33": {
+  "scene": "The LORD departs when the conversation ends, and Abraham returns to his place.",
+  "breakdown": "The chapter closes without telling us the outcome for Sodom. Abraham has asked his questions, and God has answered them; now the story moves toward what the visitors will find in the city. Abraham returns home, while the reader is left waiting. Genesis 19 will pick up the account from the other side of this conversation.",
+  "takeaway": "Abraham's appeal ends, and the outcome awaits the next chapter."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
