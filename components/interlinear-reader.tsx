@@ -4880,7 +4880,109 @@ const plainGenesisThirtyTwo:Record<number,PlainVerseStudy>={
   "takeaway": "The story links Jacob's injury to an Israelite food custom."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo}};
+const plainGenesisThirtyThree:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Jacob looks up and sees Esau approaching with four hundred men, then divides the children among Leah, Rachel, and the two female servants.",
+  "breakdown": "The feared meeting is finally happening. Jacob still doesn't know whether Esau's large group means danger, so he organizes his family before approaching. The verse names the women and their children in groups; it doesn't say Jacob has received any new assurance about Esau's intentions.",
+  "takeaway": "Jacob prepares his family as Esau approaches."
+ },
+ "2": {
+  "scene": "Jacob places the female servants and their children first, Leah and her children next, and Rachel and Joseph last.",
+  "breakdown": "The order exposes the unequal standing within Jacob's household. Rachel and Joseph, whom Jacob especially favors, are positioned at the rear. The text doesn't explicitly explain his thinking, but the arrangement matters because he is anticipating a potentially dangerous encounter.",
+  "takeaway": "Jacob arranges the family in a revealing order."
+ },
+ "3": {
+  "scene": "Jacob goes ahead of them and bows to the ground seven times as he approaches Esau.",
+  "breakdown": "Despite the family order, Jacob himself moves in front to meet his brother. His repeated bowing is a strong gesture of respect and humility. It stands in striking contrast to the earlier blessing that spoke of Esau bowing to Jacob; here Jacob seeks peace rather than asserting superiority.",
+  "takeaway": "Jacob approaches Esau humbly and goes first."
+ },
+ "4": {
+  "scene": "Esau runs to meet Jacob, embraces him, falls on his neck, kisses him, and they weep.",
+  "breakdown": "The reunion is dramatically different from the attack Jacob feared. Esau initiates the embrace, and both brothers cry. This is a genuine moment of emotion in the narrative, though it doesn't tell us that every consequence of their past conflict has disappeared.",
+  "takeaway": "Esau welcomes Jacob with an embrace instead of violence."
+ },
+ "5": {
+  "scene": "Esau sees the women and children and asks who they are; Jacob calls them children God has graciously given him.",
+  "breakdown": "Esau is meeting a household that has grown during the brothers' long separation. Jacob describes the children as God's gift, continuing the language of gratitude he used in his prayer. The introduction also moves the encounter beyond the brothers' old dispute to their families.",
+  "takeaway": "Jacob introduces his children as gifts from God."
+ },
+ "6": {
+  "scene": "The female servants approach with their children and bow before Esau.",
+  "breakdown": "Bilhah and Zilpah are part of the family meeting, along with their children. Their place at the front reflects the household order already described. The verse records their respectful greeting without telling us how they felt about the danger Jacob had feared.",
+  "takeaway": "The servants and their children greet Esau."
+ },
+ "7": {
+  "scene": "Leah and her children approach and bow, followed by Joseph and Rachel, who also bow.",
+  "breakdown": "The family comes forward in the order Jacob arranged. The repeated bowing shows deference to Esau throughout the household. The narrator names Joseph before Rachel in the final pair, but does not explain a special meaning for that wording.",
+  "takeaway": "Leah, Rachel, and their children greet Esau."
+ },
+ "8": {
+  "scene": "Esau asks what Jacob meant by all the livestock groups he encountered; Jacob says they were sent to gain his favor.",
+  "breakdown": "Esau has seen the carefully spaced gifts Jacob sent ahead in chapter 32. Jacob now explains their purpose directly: he wants goodwill from the brother he wronged. The animals are an offer of peace, not payment that could automatically undo the past.",
+  "takeaway": "Jacob explains the livestock gifts as an appeal for goodwill."
+ },
+ "9": {
+  "scene": "Esau says he already has plenty and tells Jacob to keep what belongs to him.",
+  "breakdown": "Esau does not immediately accept the gift. His response shows that he is not demanding Jacob's wealth as the price of reconciliation. The text doesn't give a full account of Esau's circumstances, only his statement that he has enough.",
+  "takeaway": "Esau initially refuses Jacob's gift."
+ },
+ "10": {
+  "scene": "Jacob urges Esau to accept the gift, saying Esau's welcoming face is like seeing the face of God.",
+  "breakdown": "Jacob is deeply relieved that Esau received him favorably. The comparison echoes Jacob's recent experience at Peniel, where he said he had seen God face to face and survived. It is a powerful expression of relief, not a claim that Esau is literally God.",
+  "takeaway": "Jacob sees extraordinary grace in Esau's welcome."
+ },
+ "11": {
+  "scene": "Jacob again asks Esau to accept his present, saying God has dealt graciously with him and he has everything he needs; Esau accepts.",
+  "breakdown": "The Hebrew word for the gift here can also mean a blessing, adding a meaningful echo of the blessing Jacob once took from Esau. Jacob acknowledges God's generosity and insists on giving rather than taking. Esau's acceptance lets the meeting move forward without a fight.",
+  "takeaway": "Esau accepts the gift Jacob presses upon him."
+ },
+ "12": {
+  "scene": "Esau suggests they continue traveling together and offers to go ahead.",
+  "breakdown": "The brothers have made peace in this encounter, and Esau now proposes accompanying Jacob. His offer sounds cooperative, though the text does not say they have settled every question about their future relationship.",
+  "takeaway": "Esau offers to travel with Jacob."
+ },
+ "13": {
+  "scene": "Jacob explains that the children are delicate and that nursing flocks and herds cannot be driven too hard without losses.",
+  "breakdown": "Jacob gives practical reasons not to match a faster traveling pace. A household with young children and animals nursing their young moves differently from a group of men. His concern is understandable, but readers should still notice what he promises next.",
+  "takeaway": "Jacob says his family and livestock need a slower pace."
+ },
+ "14": {
+  "scene": "Jacob asks Esau to go ahead while he travels slowly, saying he will come to Esau in Seir.",
+  "breakdown": "Jacob presents a plan in which Esau moves ahead and Jacob follows at a pace suited to his family. The story does not later record Jacob arriving at Seir in this sequence, so we should not confidently claim he kept this stated itinerary. Nor does the verse explicitly tell us whether he intended to mislead Esau.",
+  "takeaway": "Jacob proposes a slower journey and mentions Seir."
+ },
+ "15": {
+  "scene": "Esau offers to leave some of his men with Jacob, but Jacob declines, asking only to remain in Esau's favor.",
+  "breakdown": "Esau makes another offer that could provide an escort or assistance. Jacob politely refuses, emphasizing that a peaceful relationship is enough. The passage does not explain whether Jacob's refusal reflects independence, caution, or some mixture of motives.",
+  "takeaway": "Jacob declines Esau's offer of an escort."
+ },
+ "16": {
+  "scene": "Esau returns that day on his way to Seir.",
+  "breakdown": "Esau leaves without violence, bringing the immediate confrontation to a peaceful end. The verse follows Esau's departure, not a permanent statement that the brothers never meet again; Genesis later places them together at Isaac's burial.",
+  "takeaway": "Esau heads back toward Seir."
+ },
+ "17": {
+  "scene": "Jacob travels to Succoth, builds himself a house, and makes shelters for his livestock; the place receives its name from those shelters.",
+  "breakdown": "Instead of following Esau to Seir, Jacob settles for a time at Succoth. The name means shelters or booths, matching what he builds for the animals. The verse does not say exactly how long he stays or why he changes the route he described to Esau.",
+  "takeaway": "Jacob stops at Succoth and builds shelters."
+ },
+ "18": {
+  "scene": "Jacob arrives safely near Shechem in Canaan after coming from Paddan-aram and camps outside the city.",
+  "breakdown": "Jacob has reached the land associated with God's promise to bring him back. Translations vary on whether the Hebrew describes his arrival as safe or names a place called Shalem; either way, the scene places his camp by Shechem. His journey is progressing, but the family's story is far from finished.",
+  "takeaway": "Jacob camps near Shechem in Canaan."
+ },
+ "19": {
+  "scene": "Jacob buys the land where he has pitched his tent from the sons of Hamor, Shechem's father, for one hundred pieces of money.",
+  "breakdown": "The purchase gives Jacob a specific piece of ground in the land, rather than only a temporary campsite. The Hebrew term for the payment, often rendered 'pieces of money,' has an uncertain precise value; it should not be converted confidently into modern currency. Hamor's family will matter in the next chapter.",
+  "takeaway": "Jacob purchases land near Shechem."
+ },
+ "20": {
+  "scene": "Jacob sets up an altar and names it El-Elohe-Israel.",
+  "breakdown": "The name is commonly understood as 'God, the God of Israel' or 'Mighty is the God of Israel.' It connects worship with Jacob's new name, Israel, given in the previous chapter. The chapter ends with Jacob acknowledging God after a frightening return, even though serious family trouble still lies ahead.",
+  "takeaway": "Jacob builds an altar and honors the God of Israel."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
