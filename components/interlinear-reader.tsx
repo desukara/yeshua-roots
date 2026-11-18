@@ -1264,7 +1264,7 @@ const plainGenesisTen:Record<number,PlainVerseStudy>={
   "takeaway": "The description of Nimrod's region concludes with another city."
  },
  "13": {
-  "scene": "Egypt fathers or gives rise to the Ludim, Anamim, Lehabim, Naphtuhim,",
+  "scene": "Egypt's descendants include the Ludim, Anamim, Lehabim, and Naphtuhim.",
   "breakdown": "This verse uses family language for groups of people. The plural-sounding names are part of how Genesis describes nations and communities developing from earlier ancestors. We aren't given personal stories about each group, and many proposed modern identifications remain uncertain.",
   "takeaway": "Egypt's branch is traced through several named peoples."
  },
@@ -1329,17 +1329,17 @@ const plainGenesisTen:Record<number,PlainVerseStudy>={
   "takeaway": "Peleg's name is linked to a division whose details are not explained here."
  },
  "26": {
-  "scene": "Joktan fathers Almodad, Sheleph, Hazarmaveth, Jerah,",
+  "scene": "Joktan's descendants include Almodad, Sheleph, Hazarmaveth, and Jerah.",
   "breakdown": "The genealogy now follows Eber's other son, Joktan. These names begin a longer list of his descendants. We aren't given their life stories, so the helpful thing is to keep the family connection clear: these are branches growing out of Joktan's line.",
   "takeaway": "Joktan's descendants begin to be listed."
  },
  "27": {
-  "scene": "Hadoram, Uzal, Diklah,",
+  "scene": "Hadoram, Uzal, and Diklah are named next among Joktan's descendants.",
   "breakdown": "The list of Joktan's descendants continues. Each name represents another branch in the record, but Genesis doesn't tell us what each person did. Rather than guess, we can follow the sequence and see how broad this family becomes.",
   "takeaway": "More of Joktan's descendants are named."
  },
  "28": {
-  "scene": "Obal, Abimael, Sheba,",
+  "scene": "Obal, Abimael, and Sheba are also listed among Joktan's descendants.",
   "breakdown": "Genesis keeps naming the descendants of Joktan. Sheba also appeared earlier under a different branch in this chapter. Repeated names can refer to different individuals or groups, so we shouldn't assume every occurrence means the same person.",
   "takeaway": "The genealogy continues, including a name that appears elsewhere."
  },
