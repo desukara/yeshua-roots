@@ -741,3 +741,13 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .app-download-route .site-footer a{color:#fff7e8}
 .app-download-route .site-header .mobile-site-nav.is-open{background:#071D3B}
 
+
+/* Compact, readable Torah word study */
+.interlinear-reader .interlinear-word-grid{gap:10px;padding:16px 12px}
+.interlinear-reader .interlinear-word{gap:6px;padding:13px 11px}
+.interlinear-reader .interlinear-detail{min-height:0;gap:5px;padding:14px 0 10px}
+.interlinear-reader .interlinear-detail strong{font-size:26px}
+.interlinear-reader .interlinear-detail p{margin:3px 0;line-height:1.45}
+.interlinear-reader .torah-reader-pagination{margin:15px 0 6px}
+.interlinear-reader .torah-reader-pagination button:not(:disabled){background:#f4e4c4;border:2px solid #826038;color:#283d2d;font-weight:700}
+.interlinear-reader .torah-reader-pagination button:focus-visible{outline:3px solid #326e65;outline-offset:3px}
