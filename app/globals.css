@@ -756,3 +756,13 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .interlinear-reader .torah-word-more summary{cursor:pointer;font-weight:700;color:#355b49;padding:6px 0}
 .interlinear-reader .torah-word-more summary:focus-visible{outline:3px solid #326e65;outline-offset:3px}
 .interlinear-reader .interlinear-detail p strong{font-size:inherit;color:#344b39}
+
+/* Plain-English Bible study, kept separate from Scripture */
+.interlinear-reader .torah-breakdown{margin-top:18px;padding:20px;border:1px solid #d8c39e;border-radius:12px;background:#fffaf0;color:#273f34}
+.interlinear-reader .torah-breakdown h3{margin:8px 0;font-size:1.25rem}
+.interlinear-reader .torah-breakdown h4{margin:14px 0 5px;font-size:1rem}
+.interlinear-reader .torah-breakdown p{margin:8px 0;line-height:1.65}
+.interlinear-reader .torah-breakdown details{margin-top:14px;padding-top:12px;border-top:1px solid #ddceb6}
+.interlinear-reader .torah-breakdown summary{cursor:pointer;font-weight:700;color:#274e3d;padding:8px 0}
+.interlinear-reader .torah-breakdown summary:focus-visible{outline:3px solid #326e65;outline-offset:3px}
+.interlinear-reader .torah-breakdown .torah-breakdown-note{font-size:.85rem;color:#655e51}
