@@ -5503,7 +5503,189 @@ const plainGenesisThirtySix:Record<number,PlainVerseStudy>={
   "takeaway": "Esau's descendants are established as the people of Edom."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix}};
+const plainGenesisThirtySeven:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Jacob settles in Canaan, the land where his father had lived as a foreign resident.",
+  "breakdown": "After the long account of Esau's descendants, the story turns back to Jacob's household. Canaan is the land God promised to his family, but Jacob's presence there does not mean all the promises have already been fulfilled. The next events will take one of his sons far from home.",
+  "takeaway": "The story returns to Jacob's family in Canaan."
+ },
+ "2": {
+  "scene": "Joseph, seventeen years old, tends the flock with his brothers and brings their father a bad report about the sons of Bilhah and Zilpah.",
+  "breakdown": "The verse introduces Joseph as a young worker among his older brothers and identifies the sons involved by their mothers. It does not explain exactly what the brothers did or whether Joseph's report was fair in every detail. What matters here is that tension already exists before the dreams.",
+  "takeaway": "Joseph reports negatively about some of his brothers."
+ },
+ "3": {
+  "scene": "Israel loves Joseph more than his other sons and gives him a distinctive long robe.",
+  "breakdown": "Jacob's favoritism is openly stated. The Hebrew description of the garment is difficult; it is traditionally called a coat of many colors, but may refer to a special long-sleeved or ornamented robe. Whatever its precise appearance, it visibly marks Joseph out from his brothers.",
+  "takeaway": "Jacob's special gift makes his favoritism visible."
+ },
+ "4": {
+  "scene": "Joseph's brothers see that their father favors him and come to hate him, unable to speak peaceably to him.",
+  "breakdown": "The brothers' resentment grows from a real imbalance in their father's treatment of them. That helps explain their feelings but does not justify what they will do. The household is divided before Joseph ever tells them a dream.",
+  "takeaway": "Favoritism damages the brothers' relationship."
+ },
+ "5": {
+  "scene": "Joseph has a dream and tells his brothers, increasing their hatred.",
+  "breakdown": "Dreams will become important throughout Joseph's story. Here the narrator first emphasizes the reaction: the brothers already resent Joseph, and hearing about his dream makes matters worse.",
+  "takeaway": "Joseph's dream intensifies his brothers' resentment."
+ },
+ "6": {
+  "scene": "Joseph asks his brothers to listen to the dream he had.",
+  "breakdown": "He invites them to hear what he saw while sleeping. The verse does not tell us whether Joseph is boasting, naive, or simply reporting it; those are possible readings, not stated motives.",
+  "takeaway": "Joseph begins describing his dream."
+ },
+ "7": {
+  "scene": "Joseph describes their sheaves standing in a field, with his sheaf upright and his brothers' sheaves bowing to it.",
+  "breakdown": "The agricultural picture would be familiar to a family that works the land. The image suggests Joseph occupying a position of authority over his brothers. The narrative has not yet explained how such a reversal could happen.",
+  "takeaway": "The dream pictures Joseph's brothers bowing before him."
+ },
+ "8": {
+  "scene": "The brothers ask whether Joseph intends to reign or rule over them, and they hate him even more.",
+  "breakdown": "They understand the dream as a claim that Joseph will have authority over them. Their questions are angry rather than curious. The text connects their hatred both to the dreams and to the way Joseph talks about them.",
+  "takeaway": "The brothers reject the idea of Joseph ruling them."
+ },
+ "9": {
+  "scene": "Joseph tells another dream in which the sun, moon, and eleven stars bow to him.",
+  "breakdown": "This dream widens the image from sheaves to the sky and includes eleven stars, corresponding to Joseph's eleven brothers. The dream's symbolism will be discussed by Jacob in the next verse. We should not pretend every symbol is fully explained beyond what the passage says.",
+  "takeaway": "Joseph dreams of heavenly bodies bowing to him."
+ },
+ "10": {
+  "scene": "Joseph tells his father and brothers, and Jacob rebukes him, asking whether his parents and brothers will bow before him.",
+  "breakdown": "Jacob interprets the sun and moon as parental figures and the stars as Joseph's brothers. His question is a rebuke, not a confirmation that every detail will happen literally; Rachel has already died in the narrative. The dream should be read as symbolic rather than forcing a simple one-to-one future scene.",
+  "takeaway": "Jacob challenges Joseph's second dream."
+ },
+ "11": {
+  "scene": "The brothers are jealous, but Jacob keeps the matter in mind.",
+  "breakdown": "The reactions differ: the brothers continue to resent Joseph, while Jacob does not simply dismiss the dream after rebuking him. 'Keeping the matter' suggests he continues thinking about what it might mean.",
+  "takeaway": "Jacob remembers the dream while the brothers remain jealous."
+ },
+ "12": {
+  "scene": "Joseph's brothers go to graze their father's flock near Shechem.",
+  "breakdown": "The brothers are away doing ordinary shepherding work. Shechem also carries painful associations from the earlier family story, but this verse does not say they went there to revisit that conflict.",
+  "takeaway": "The brothers take the flock to the Shechem area."
+ },
+ "13": {
+  "scene": "Israel asks Joseph whether his brothers are pasturing near Shechem and tells him he will send him to them.",
+  "breakdown": "Jacob chooses Joseph to check on the brothers. Given their hostility, the errand creates danger, but the text does not say Jacob expects the coming betrayal.",
+  "takeaway": "Jacob sends Joseph to check on his brothers."
+ },
+ "14": {
+  "scene": "Jacob tells Joseph to find out how his brothers and the flock are doing and report back; Joseph travels from the valley of Hebron to Shechem.",
+  "breakdown": "The task is straightforward: bring news about the family's people and animals. The trip also moves Joseph away from his father's protection. The narrative gives a starting point and destination without describing every mile.",
+  "takeaway": "Joseph travels to Shechem on his father's errand."
+ },
+ "15": {
+  "scene": "A man finds Joseph wandering in the fields and asks what he is looking for.",
+  "breakdown": "Joseph has reached the area but cannot find his brothers. The unnamed man helps move the story forward; the text does not identify him as an angel or give him a hidden role beyond the encounter.",
+  "takeaway": "Joseph cannot find his brothers at first."
+ },
+ "16": {
+  "scene": "Joseph says he is looking for his brothers and asks where they are grazing the flock.",
+  "breakdown": "Joseph keeps trying to complete the errand. His question shows he does not know the brothers have moved, not that he has been told to avoid them.",
+  "takeaway": "Joseph asks for directions to his brothers."
+ },
+ "17": {
+  "scene": "The man says the brothers have gone to Dothan, and Joseph goes there and finds them.",
+  "breakdown": "Joseph follows the information he receives. Dothan is where the confrontation will occur, away from Jacob's immediate oversight. The narrator offers no sign that Joseph knows his brothers are plotting against him.",
+  "takeaway": "Joseph finds his brothers near Dothan."
+ },
+ "18": {
+  "scene": "The brothers see Joseph approaching from a distance and conspire to kill him before he reaches them.",
+  "breakdown": "The plan begins before Joseph can speak to them. This is deliberate violence, not a sudden argument that gets out of hand. Their earlier jealousy has become a decision to murder their brother.",
+  "takeaway": "The brothers plot Joseph's death."
+ },
+ "19": {
+  "scene": "The brothers refer to Joseph as 'this dreamer' as they discuss his arrival.",
+  "breakdown": "Their nickname is mocking. They are still angry about the dreams and what those dreams seemed to imply about Joseph's future. The contempt helps explain their plan without excusing it.",
+  "takeaway": "The brothers mock Joseph for his dreams."
+ },
+ "20": {
+  "scene": "They propose killing Joseph, throwing him into a pit, and claiming a wild animal ate him.",
+  "breakdown": "The brothers plan both murder and a cover story for their father. They also say they will see what becomes of Joseph's dreams, showing that their violence is aimed at the future those dreams suggested. Their plan is cruel and calculated.",
+  "takeaway": "The brothers plan to kill Joseph and deceive Jacob."
+ },
+ "21": {
+  "scene": "Reuben hears the plan and tries to rescue Joseph, telling the others not to take his life.",
+  "breakdown": "Reuben, the oldest brother, intervenes against the killing. His words interrupt the plan, though he has not yet brought Joseph to safety. The narrator explicitly says his aim is to rescue him.",
+  "takeaway": "Reuben intervenes to stop Joseph's murder."
+ },
+ "22": {
+  "scene": "Reuben urges them not to shed blood but to put Joseph in a wilderness pit; he intends to return Joseph to their father.",
+  "breakdown": "Reuben's proposal still leaves Joseph in danger, but his stated intention is to save him from the others and restore him to Jacob. The verse lets readers know his private plan, which the brothers may not fully understand.",
+  "takeaway": "Reuben hopes to rescue Joseph from the pit."
+ },
+ "23": {
+  "scene": "When Joseph reaches them, the brothers strip off his special robe.",
+  "breakdown": "The robe was the visible sign of Jacob's favoritism. Taking it away humiliates Joseph and removes something the brothers associate with their resentment. The action is part of an assault, not a harmless family quarrel.",
+  "takeaway": "The brothers strip Joseph of his distinctive robe."
+ },
+ "24": {
+  "scene": "The brothers throw Joseph into a pit, which has no water in it.",
+  "breakdown": "An empty cistern can still be a dangerous place to trap someone. The note that it contains no water helps readers picture the setting, but does not make the confinement safe. Joseph is now helpless before his brothers.",
+  "takeaway": "Joseph is trapped in an empty pit."
+ },
+ "25": {
+  "scene": "The brothers sit down to eat and see a caravan of Ishmaelites coming from Gilead toward Egypt with spices, balm, and myrrh.",
+  "breakdown": "The contrast is chilling: Joseph remains trapped while his brothers eat. The caravan is carrying trade goods south to Egypt, giving the brothers a way to remove Joseph without killing him themselves. The named goods explain why the travelers are on the road.",
+  "takeaway": "A caravan bound for Egypt passes nearby."
+ },
+ "26": {
+  "scene": "Judah asks what profit there is in killing Joseph and concealing his blood.",
+  "breakdown": "Judah challenges murder, but his question centers on what the brothers would gain. He does not simply say they should release Joseph and apologize. His reasoning prepares a different kind of betrayal.",
+  "takeaway": "Judah proposes an alternative to murder."
+ },
+ "27": {
+  "scene": "Judah suggests selling Joseph to the Ishmaelites instead of killing him, because Joseph is their brother; the others agree.",
+  "breakdown": "Judah appeals to their shared family bond while proposing to sell that same brother as a slave. Avoiding murder is not the same as treating Joseph justly. The brothers accept a plan that turns a person into merchandise.",
+  "takeaway": "The brothers agree to sell Joseph."
+ },
+ "28": {
+  "scene": "Midianite traders pass by; Joseph is pulled from the pit and sold for twenty pieces of silver to Ishmaelites who take him to Egypt.",
+  "breakdown": "The verse names Midianite traders as well as Ishmaelites, and the wording of who draws Joseph up and sells him is interpreted differently. Some readings distinguish the traders' action from the brothers' plan; others connect them in the sale. The essential outcome is clear: Joseph is sold and taken toward Egypt, while the exact handoff is not fully straightforward.",
+  "takeaway": "Joseph is sold for twenty pieces of silver and taken toward Egypt."
+ },
+ "29": {
+  "scene": "Reuben returns to the pit, finds Joseph gone, and tears his clothes.",
+  "breakdown": "Reuben apparently was not present when Joseph was removed. Tearing clothes is a visible sign of grief or distress in the biblical world. His rescue plan has failed, and he does not yet know how to undo what happened.",
+  "takeaway": "Reuben discovers Joseph is missing."
+ },
+ "30": {
+  "scene": "Reuben returns to his brothers and cries that the boy is gone, asking where he can turn.",
+  "breakdown": "His words express panic and responsibility. As the oldest brother, he may feel especially accountable, but the verse does not give a full explanation of his fears. What matters is that he expected Joseph still to be in the pit.",
+  "takeaway": "Reuben is distraught over Joseph's disappearance."
+ },
+ "31": {
+  "scene": "The brothers slaughter a goat and dip Joseph's robe in its blood.",
+  "breakdown": "They create false evidence to support the story they planned earlier. The robe Jacob gave as a sign of special love becomes the tool used to deceive him. Joseph has not been killed by an animal; the brothers know the truth.",
+  "takeaway": "The brothers prepare a bloodstained robe to deceive Jacob."
+ },
+ "32": {
+  "scene": "The brothers send the robe to Jacob and ask him to identify whether it belongs to his son.",
+  "breakdown": "Their wording avoids directly saying Joseph is dead. Instead, they invite Jacob to draw the terrible conclusion himself. This is calculated deception, even though the brothers may never speak an explicit lie about an animal attack.",
+  "takeaway": "The brothers let Jacob infer a false explanation."
+ },
+ "33": {
+  "scene": "Jacob recognizes the robe and concludes that a wild animal has torn Joseph apart.",
+  "breakdown": "Jacob interprets the bloodstained garment as proof of his son's death. Readers know he has been deceived. The tragedy includes not only Joseph's enslavement but also Jacob's mistaken belief that Joseph is beyond recovery.",
+  "takeaway": "Jacob believes Joseph has been killed by an animal."
+ },
+ "34": {
+  "scene": "Jacob tears his clothes, puts on sackcloth, and mourns Joseph for many days.",
+  "breakdown": "The gestures are familiar signs of deep grief. Jacob believes he has lost the son he especially loved, and his mourning is not quickly resolved. The narrator does not mock or minimize his pain because his conclusion is mistaken.",
+  "takeaway": "Jacob enters a prolonged period of mourning."
+ },
+ "35": {
+  "scene": "Jacob's sons and daughters try to comfort him, but he refuses consolation and says he will go down to the grave mourning Joseph.",
+  "breakdown": "The family tries to help, but Jacob cannot accept comfort. 'Sheol' refers to the realm of the dead in ancient Hebrew language; it should not automatically be replaced with a later detailed picture of hell. Jacob's words express the depth of his sorrow, not a precise prediction about when he will die.",
+  "takeaway": "Jacob believes he will mourn Joseph for the rest of his life."
+ },
+ "36": {
+  "scene": "Meanwhile, the Midianites sell Joseph in Egypt to Potiphar, an officer of Pharaoh and captain of the guard.",
+  "breakdown": "The chapter ends by showing what Jacob does not know: Joseph is alive in Egypt. Potiphar holds an important position in Pharaoh's service, but Joseph has arrived there as someone sold into slavery. The apparent ending of Joseph's life at home is actually the beginning of a new and difficult chapter.",
+  "takeaway": "Joseph is sold into Potiphar's household in Egypt."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
