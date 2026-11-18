@@ -547,7 +547,169 @@ const plainGenesisFour:Record<number,PlainVerseStudy>={
   "takeaway": "The chapter closes with a reference to calling on the LORD."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour}};
+const plainGenesisFive:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Genesis introduces the written account of Adam's family line and reminds us that God made humanity in His likeness.",
+  "breakdown": "We're moving from Cain and Abel's story into a family record. Before the names and ages begin, Genesis takes us back to creation: human beings were made in God's likeness. That matters because the people in this family line are more than dates on a timeline. They're human lives connected to the beginning of the story.",
+  "takeaway": "The family record begins by reminding us of humanity's God-given origin."
+ },
+ "2": {
+  "scene": "God creates humanity male and female, blesses them, and calls them 'man' or 'humankind.'",
+  "breakdown": "The chapter repeats something important from Genesis 1: both male and female are included in God's blessing. The Hebrew word adam can mean the man Adam or humankind, depending on the context. Here the wording looks back to humanity as a whole before the genealogy focuses on Adam's descendants.",
+  "takeaway": "God's blessing and the name for humanity include male and female."
+ },
+ "3": {
+  "scene": "Adam is 130 years old when he fathers Seth, a son in his own likeness and image.",
+  "breakdown": "The language deliberately echoes the earlier statement that God made humanity in His likeness. Now Adam has a son described as being in Adam's likeness. Seth is the child through whom this particular family record continues; that doesn't mean Adam had no other children.",
+  "takeaway": "The family line continues through Seth, who is described as like his father."
+ },
+ "4": {
+  "scene": "After Seth is born, Adam lives another 800 years and has other sons and daughters.",
+  "breakdown": "Genesis gives us two details at once: Adam's life continues for many years after Seth, and the family is bigger than the names this chapter lists. The genealogy follows one line, not every child in every generation. That's why we shouldn't treat the named people as the only people alive.",
+  "takeaway": "Adam has more children than the genealogy names."
+ },
+ "5": {
+  "scene": "Adam's total lifespan is given as 930 years, and then he dies.",
+  "breakdown": "Here's the pattern we'll keep hearing: someone lives, has a son, lives more years, and dies. That last phrase matters. God warned Adam about death in the garden, and now the genealogy says plainly that Adam died. The long lifespan doesn't erase that ending.",
+  "takeaway": "Even Adam's long life comes to an end."
+ },
+ "6": {
+  "scene": "Seth is 105 years old when he fathers Enosh.",
+  "breakdown": "The family record now moves from Adam to Seth. Genesis isn't telling us every event in Seth's life; it's identifying the next person in the line being traced. Enosh was already mentioned at the end of chapter 4.",
+  "takeaway": "The genealogy passes from Seth to Enosh."
+ },
+ "7": {
+  "scene": "After Enosh is born, Seth lives another 807 years and has other sons and daughters.",
+  "breakdown": "Once again, the named son isn't the whole family. Seth has other children too. The passage is keeping a steady rhythm so we can follow the generations without getting lost in every branch of the family tree.",
+  "takeaway": "Seth's family is larger than the one line being followed."
+ },
+ "8": {
+  "scene": "Seth's total lifespan is 912 years, and then he dies.",
+  "breakdown": "The numbers are striking, but the repeated ending is just as important: 'and he died.' Genesis is showing generations continuing while individual lives end. Seth's story, like Adam's, has an ending.",
+  "takeaway": "Seth lives a long life, but he also dies."
+ },
+ "9": {
+  "scene": "Enosh is 90 years old when he fathers Kenan.",
+  "breakdown": "The genealogy moves another generation forward. We're not given a scene or conversation here, only the age at which Enosh fathers the next named son. That's how this chapter keeps the family line moving toward Noah.",
+  "takeaway": "Enosh fathers Kenan, the next person in the line."
+ },
+ "10": {
+  "scene": "After Kenan is born, Enosh lives another 815 years and has other sons and daughters.",
+  "breakdown": "Enosh's life includes many more years and more children than the one named here. Genesis is following a particular family line, not giving us a complete list of everyone born in that time.",
+  "takeaway": "Enosh has other children beyond Kenan."
+ },
+ "11": {
+  "scene": "Enosh lives 905 years in all, and then he dies.",
+  "breakdown": "The same closing words return. Enosh's lifespan is long by our experience, but it still ends. The repetition isn't pointless; it makes death a steady presence in the family record.",
+  "takeaway": "Enosh's life ends, just as the earlier generations did."
+ },
+ "12": {
+  "scene": "Kenan is 70 years old when he fathers Mahalalel.",
+  "breakdown": "Here's another step in the line from Adam toward Noah. The name Mahalalel may be unfamiliar, but the role of the verse is simple: it tells us who comes next. We don't need to invent a biography for him when Genesis hasn't given one.",
+  "takeaway": "Kenan fathers Mahalalel."
+ },
+ "13": {
+  "scene": "After Mahalalel is born, Kenan lives another 840 years and has other sons and daughters.",
+  "breakdown": "The pattern continues: a named son, more years of life, and other children. These extra sons and daughters are a reminder that the family history was much wider than the single branch Genesis is choosing to trace.",
+  "takeaway": "Kenan's household includes more children than the named successor."
+ },
+ "14": {
+  "scene": "Kenan's total lifespan is 910 years, and then he dies.",
+  "breakdown": "The genealogy closes Kenan's entry with the familiar words about his death. This chapter records life being passed on from generation to generation, but nobody so far escapes the end of earthly life.",
+  "takeaway": "Kenan's long life also comes to an end."
+ },
+ "15": {
+  "scene": "Mahalalel is 65 years old when he fathers Jared.",
+  "breakdown": "Now the family line moves from Mahalalel to Jared. There isn't a hidden lesson we need to force out of every name or number. The verse is doing the straightforward work of preserving the sequence of generations.",
+  "takeaway": "Jared is the next named descendant."
+ },
+ "16": {
+  "scene": "After Jared is born, Mahalalel lives another 830 years and has other sons and daughters.",
+  "breakdown": "Mahalalel's life doesn't stop when Jared is born. He continues living and has more children. The genealogy is selective because its purpose is to follow one line through the generations.",
+  "takeaway": "Mahalalel has additional children."
+ },
+ "17": {
+  "scene": "Mahalalel lives 895 years in all, and then he dies.",
+  "breakdown": "Once again, the record gives a total and ends with death. The repetition may feel heavy, but it tells us something about the world outside Eden: families grow, generations pass, and human lives end.",
+  "takeaway": "Mahalalel's life ends."
+ },
+ "18": {
+  "scene": "Jared is 162 years old when he fathers Enoch.",
+  "breakdown": "This Enoch belongs to Seth's family line. He's not the Enoch mentioned as Cain's son in Genesis 4. The names repeat, but the people are different. Keep an eye on this Enoch, because his entry is about to break the chapter's usual pattern.",
+  "takeaway": "Jared fathers the Enoch whose story stands out in this chapter."
+ },
+ "19": {
+  "scene": "After Enoch is born, Jared lives another 800 years and has other sons and daughters.",
+  "breakdown": "The record returns briefly to its usual rhythm. Jared has more children, and the family keeps growing. The chapter names Enoch because it's following the line that eventually leads to Noah.",
+  "takeaway": "Jared's family continues beyond Enoch."
+ },
+ "20": {
+  "scene": "Jared's total lifespan is 962 years, and then he dies.",
+  "breakdown": "Jared has one of the longest lifespans recorded in this chapter, but the ending is still the same: he dies. That familiar phrase makes what happens next with Enoch even more noticeable.",
+  "takeaway": "Jared dies despite his very long life."
+ },
+ "21": {
+  "scene": "Enoch is 65 years old when he fathers Methuselah.",
+  "breakdown": "Now we come to Enoch himself. At first his entry sounds like everyone else's: his age is given, and the next son is named. But the following verses tell us something different about the way Enoch lived.",
+  "takeaway": "Enoch fathers Methuselah, and his account is about to change direction."
+ },
+ "22": {
+  "scene": "After Methuselah is born, Enoch walks with God for 300 years and has other sons and daughters.",
+  "breakdown": "Instead of only saying Enoch lived more years, Genesis says he 'walked with God.' That's a way of describing his relationship and way of life, not just where his feet went. He also has other children, so walking with God happens in the middle of ordinary family life.",
+  "takeaway": "Enoch's life is marked by walking with God."
+ },
+ "23": {
+  "scene": "Enoch's total years are 365.",
+  "breakdown": "This is much shorter than the lifespans of the people around him in the genealogy. But Genesis doesn't immediately follow it with the usual words, 'and he died.' The next verse tells us why Enoch's entry stands apart.",
+  "takeaway": "Enoch's years are counted differently from the usual pattern."
+ },
+ "24": {
+  "scene": "Enoch walks with God, and then he is no longer there because God takes him.",
+  "breakdown": "Here the familiar ending changes. Instead of saying Enoch died, the text says God took him. Genesis doesn't explain the mechanics of what happened, so we shouldn't make up details. What it does emphasize is Enoch's walk with God and an ending unlike the others in this list.",
+  "takeaway": "Enoch's story breaks the repeated pattern of death."
+ },
+ "25": {
+  "scene": "Methuselah is 187 years old when he fathers Lamech.",
+  "breakdown": "After Enoch's unusual ending, the genealogy moves on to his son Methuselah and then to Lamech. This Lamech is not the violent speaker from Cain's line in Genesis 4. Same name, different branch of the family.",
+  "takeaway": "Methuselah fathers Lamech in Seth's family line."
+ },
+ "26": {
+  "scene": "After Lamech is born, Methuselah lives another 782 years and has other sons and daughters.",
+  "breakdown": "The familiar structure returns: Methuselah has the named son, then lives many more years and has other children. Genesis is still tracing the particular family line that will lead to Noah.",
+  "takeaway": "Methuselah has more children as the generations continue."
+ },
+ "27": {
+  "scene": "Methuselah's total lifespan is 969 years, and then he dies.",
+  "breakdown": "Methuselah is recorded as living 969 years, the longest lifespan listed in the Bible. Even so, the final words are the same as for most of his ancestors: he dies. The number is remarkable, but the chapter doesn't present him as immortal.",
+  "takeaway": "Even Methuselah's exceptionally long life ends."
+ },
+ "28": {
+  "scene": "Lamech is 182 years old when he fathers a son.",
+  "breakdown": "We're almost at Noah now. The genealogy gives Lamech's age when his son is born, but the next verse does something most entries don't: it tells us what the father says about the child. That speech helps explain why Noah matters to the story ahead.",
+  "takeaway": "Lamech's son is about to receive a meaningful name."
+ },
+ "29": {
+  "scene": "Lamech names his son Noah and hopes he will bring relief from the painful work of the cursed ground.",
+  "breakdown": "Remember Genesis 3, when the ground was cursed and working it became painful? Lamech remembers that hardship. He gives his son the name Noah and speaks of comfort or relief. The Hebrew connects the naming with a word for comfort, even though the name itself sounds closer to a word for rest. Lamech is expressing hope, not announcing that the curse has already ended.",
+  "takeaway": "Noah's name is tied to a father's hope for relief from hard labor."
+ },
+ "30": {
+  "scene": "After Noah is born, Lamech lives another 595 years and has other sons and daughters.",
+  "breakdown": "Noah isn't Lamech's only child. Like the earlier generations, Lamech has more sons and daughters. But Genesis follows Noah because his life will be central to the flood story that comes next.",
+  "takeaway": "Lamech's family grows beyond Noah."
+ },
+ "31": {
+  "scene": "Lamech's total lifespan is 777 years, and then he dies.",
+  "breakdown": "The chapter gives Lamech's total years and closes his life with the usual words. Don't confuse his age of 777 with the boast about revenge from the other Lamech in Genesis 4. These are different men, and this verse is simply recording the end of Noah's father's life.",
+  "takeaway": "Lamech dies, and the genealogy moves toward Noah."
+ },
+ "32": {
+  "scene": "Noah is 500 years old and fathers Shem, Ham, and Japheth.",
+  "breakdown": "The chapter ends by naming three sons rather than following the usual one-son pattern. That signals a change in focus. These three brothers will matter in the flood account and the story of the nations afterward. The verse doesn't necessarily mean all three were born when Noah turned exactly 500; it introduces this stage of his family life.",
+  "takeaway": "The genealogy reaches Noah and introduces his three sons."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
