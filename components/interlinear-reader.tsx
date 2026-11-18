@@ -821,7 +821,129 @@ const plainGenesisSix:Record<number,PlainVerseStudy>={
   "takeaway": "Noah responds to God's instructions with obedience."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix}};
+const plainGenesisSeven:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The LORD tells Noah to enter the ark with his household because Noah has been found righteous in his generation.",
+  "breakdown": "The ark has been built, and now God tells Noah it's time to go inside. Notice that Noah isn't going in alone: his family is included. God also explains why Noah stands out in this generation. This doesn't mean Noah never made a mistake; it means his way of living is different from the corruption described in chapter 6.",
+  "takeaway": "God calls Noah and his household into the ark."
+ },
+ "2": {
+  "scene": "God tells Noah to take seven pairs of every clean animal and one pair of animals that are not clean.",
+  "breakdown": "Chapter 6 gave the broad instruction to preserve animals in pairs. Here God gives more detail: the clean animals are to be brought in greater numbers than the others. The Hebrew wording about the sevens has been translated in different ways, but the contrast is clear. We shouldn't pretend this verse contradicts chapter 6 just because it adds detail.",
+  "takeaway": "God provides for extra clean animals alongside the other animals."
+ },
+ "3": {
+  "scene": "God tells Noah to take seven pairs of birds so their offspring can continue across the earth.",
+  "breakdown": "The instructions extend to birds. More than one pair is to be preserved, and the reason is stated plainly: life must continue after the flood. The point isn't collecting animals for display. It's keeping living creatures from disappearing.",
+  "takeaway": "The birds are preserved so they can multiply after the flood."
+ },
+ "4": {
+  "scene": "God says that in seven days He will send rain for forty days and forty nights and wipe out living creatures from the ground.",
+  "breakdown": "Now Noah is given a countdown. He has seven days before the rain starts, and the rain will last forty days and nights. The warning is severe: the flood will bring widespread destruction. God is not leaving Noah to guess when to act.",
+  "takeaway": "The flood is coming soon, and Noah is given a clear warning."
+ },
+ "5": {
+  "scene": "Noah does everything the LORD commands him.",
+  "breakdown": "After hearing what is about to happen, Noah follows God's instructions. The verse is short because the point is simple: Noah responds with obedience. That doesn't make the coming flood easy or pleasant; it shows how Noah acts in the face of God's warning.",
+  "takeaway": "Noah obeys the instructions he has received."
+ },
+ "6": {
+  "scene": "Noah is 600 years old when the floodwaters come upon the earth.",
+  "breakdown": "Genesis now gives Noah's age when the flood begins. That number anchors the event in the family record we've been following since chapter 5. The story is moving from preparation to the disaster itself.",
+  "takeaway": "The flood begins when Noah is 600 years old."
+ },
+ "7": {
+  "scene": "Noah enters the ark with his wife, his sons, and his sons' wives to escape the floodwaters.",
+  "breakdown": "This verse shows the family actually doing what God told them to do. Noah's wife, Shem, Ham, Japheth, and their wives are all included. The ark is not only about saving Noah as one individual; his household is being preserved too.",
+  "takeaway": "Noah's family enters the ark for safety."
+ },
+ "8": {
+  "scene": "Clean animals, animals that are not clean, birds, and ground-moving creatures are included.",
+  "breakdown": "The account names the groups of animals so we understand the range of life being preserved. The clean-and-unclean distinction was already mentioned in the instructions. Here the story is showing those instructions being carried out.",
+  "takeaway": "Different kinds of animals are included in the rescue."
+ },
+ "9": {
+  "scene": "Animals come to Noah in male-and-female pairs and enter the ark as God commanded.",
+  "breakdown": "Genesis focuses on the creatures coming into the ark, not on Noah chasing them down. Male and female are mentioned because the animals are meant to survive and reproduce. The wording echoes the instructions God gave earlier.",
+  "takeaway": "The animals enter the ark according to God's command."
+ },
+ "10": {
+  "scene": "After seven days, the floodwaters come upon the earth.",
+  "breakdown": "The waiting period God announced in verse 4 is over. The story has moved from warning and preparation to the arrival of the flood. That short line carries a lot of weight: the disaster Noah was told about is now happening.",
+  "takeaway": "The seven-day warning ends, and the flood arrives."
+ },
+ "11": {
+  "scene": "The flood begins on the seventeenth day of the second month in Noah's six-hundredth year; the deep and the heavens release water.",
+  "breakdown": "Genesis gives a precise date within Noah's life and describes water coming from below and above. The 'fountains of the great deep' burst open, and the 'windows of heaven' open. That's the language the ancient text uses to picture the flood; it isn't giving us a modern plumbing diagram of the earth.",
+  "takeaway": "The floodwaters break out from below and pour down from above."
+ },
+ "12": {
+  "scene": "Rain falls on the earth for forty days and forty nights.",
+  "breakdown": "The rain continues for the full period God announced. Forty days and nights is not a quick storm that passes by morning. It's a sustained downpour, and the floodwaters will keep rising as the chapter goes on.",
+  "takeaway": "The rain continues for forty days and nights."
+ },
+ "13": {
+  "scene": "On that very day Noah, his wife, their three sons, and their sons' wives enter the ark.",
+  "breakdown": "The family is named again, and the phrase 'on that very day' ties their entrance to the flood's arrival. Genesis has already said they entered, so this is a more detailed retelling of the same event, not necessarily a second trip in and out.",
+  "takeaway": "The account emphasizes that Noah's whole household is inside the ark."
+ },
+ "14": {
+  "scene": "The animals enter the ark according to their kinds: wild animals, livestock, ground-moving creatures, and birds.",
+  "breakdown": "Genesis repeats the different animal groups to show that the ark contains more than one sort of creature. 'According to their kinds' is the text's way of describing the varieties of living things. It isn't a technical lesson in modern biological classification.",
+  "takeaway": "The ark receives a wide range of living creatures."
+ },
+ "15": {
+  "scene": "The creatures enter in male-and-female pairs, as God commanded Noah.",
+  "breakdown": "The repeated phrase matters because it connects what happens to what God told Noah earlier. The animals are entering in pairs for preservation. The focus is on the instructions being fulfilled as the flood approaches.",
+  "takeaway": "The animals enter as God instructed."
+ },
+ "16": {
+  "scene": "The animals enter, and the LORD shuts Noah in.",
+  "breakdown": "This is one of the chapter's striking moments. Noah has followed the instructions, and now the LORD closes the ark behind him. The text doesn't describe Noah pulling the door shut himself. It emphasizes God's action at the moment the family and animals are sealed inside.",
+  "takeaway": "God shuts the ark, marking the start of their time inside."
+ },
+ "17": {
+  "scene": "The flood continues for forty days, and rising water lifts the ark off the ground.",
+  "breakdown": "Now we see the ark doing what it was built to do. As the water rises, the vessel lifts and begins floating. The family and animals are inside while the land they knew disappears beneath the floodwaters.",
+  "takeaway": "The rising floodwaters lift the ark."
+ },
+ "18": {
+  "scene": "The waters grow stronger and deeper, and the ark floats on the surface.",
+  "breakdown": "The flood is no longer just water collecting around the ark. The waters are rising and prevailing across the earth, and the ark moves on top of them. The same water that destroys life outside carries the vessel holding the survivors.",
+  "takeaway": "The ark remains afloat as the waters rise."
+ },
+ "19": {
+  "scene": "The waters rise so high that the mountains under the heavens are covered.",
+  "breakdown": "Genesis uses sweeping language to describe the reach of the flood. The account presents the waters as covering even the high mountains. Readers debate how to relate this description to geography and geology today, but we should first let the verse say what it says in the story.",
+  "takeaway": "The flood is described as covering even the mountains."
+ },
+ "20": {
+  "scene": "The waters cover the mountains by fifteen cubits.",
+  "breakdown": "The verse gives a measurement to show how far the water has risen above the mountains. A cubit was an ancient measure based roughly on a forearm, and its exact length could vary. The point isn't to force a single modern number into the verse; it's that the water has risen beyond the mountain heights described.",
+  "takeaway": "The floodwaters are described as rising above the mountains."
+ },
+ "21": {
+  "scene": "Land creatures, birds, livestock, wild animals, crawling creatures, and people die in the flood.",
+  "breakdown": "This is the hardest part of the chapter to read. Genesis lists the living things overtaken by the flood, including human beings. The judgment described in chapter 6 is now happening. We shouldn't soften it into a harmless children's story about a boat and some animals.",
+  "takeaway": "The flood brings devastating loss of life outside the ark."
+ },
+ "22": {
+  "scene": "Everything on dry land with the breath of life in its nostrils dies.",
+  "breakdown": "This verse narrows the picture to creatures that breathe air and live on dry ground. It reinforces how complete the destruction is in the story. The wording doesn't require us to claim that every fish in the sea died; the verse is specifically talking about life on dry land.",
+  "takeaway": "Breathing life on dry land is overtaken by the flood."
+ },
+ "23": {
+  "scene": "God wipes out living things from the face of the ground, while Noah and those with him in the ark remain.",
+  "breakdown": "The verse brings judgment and preservation together. People and land creatures outside are wiped away, but Noah's household and the creatures in the ark survive. That's the painful contrast running through this chapter: destruction outside, life preserved inside.",
+  "takeaway": "Noah and those with him survive while life outside is destroyed."
+ },
+ "24": {
+  "scene": "The floodwaters prevail on the earth for 150 days.",
+  "breakdown": "The chapter ends with a longer stretch of time. The rain lasted forty days and nights, but the waters remain dominant for 150 days. Those aren't necessarily two separate periods to add together; Genesis is describing different parts of the flood's timeline. The next chapter will tell how the waters begin to recede.",
+  "takeaway": "The floodwaters remain high long after the rain begins."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
