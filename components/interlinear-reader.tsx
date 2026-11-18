@@ -2031,7 +2031,144 @@ const plainGenesisSixteen:Record<number,PlainVerseStudy>={
   "takeaway": "Ishmael's birth marks a major moment, but Abram's story continues."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen}};
+const plainGenesisSeventeen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "When Abram is ninety-nine, the LORD appears and calls Himself God Almighty, telling Abram to walk before Him and be blameless.",
+  "breakdown": "Thirteen years have passed since Ishmael's birth. God now speaks to Abram again, identifying Himself as El Shaddai, commonly translated 'God Almighty,' though the ancient title's precise origin is debated. To 'walk before' God means living with an awareness of His presence; 'blameless' points to wholehearted faithfulness, not a claim that Abram has never made a mistake. God's call concerns how Abram lives in response to Him.",
+  "takeaway": "God calls Abram to live faithfully before Him."
+ },
+ "2": {
+  "scene": "God says He will establish His covenant with Abram and multiply him greatly.",
+  "breakdown": "The promise of descendants isn't new, but God is bringing it forward with renewed force. A covenant is a binding relationship or commitment, not just a casual wish. God is the one initiating the promise, while the chapter will also spell out a sign Abram's household must observe.",
+  "takeaway": "God reaffirms His covenant and the promise of many descendants."
+ },
+ "3": {
+  "scene": "Abram falls facedown as God continues speaking to him.",
+  "breakdown": "Abram's posture shows humility and reverence in this encounter. The text doesn't tell us exactly what he feels or what he says here. Instead, it draws our attention to God's next words, which will explain Abram's new name and the scope of the covenant.",
+  "takeaway": "Abram responds reverently as God speaks."
+ },
+ "4": {
+  "scene": "God declares that His covenant with Abram means Abram will become the father of many nations.",
+  "breakdown": "God's promise reaches beyond one large household or even one nation. Abram's future will include many peoples. At this point he has Ishmael, but the family story is still unfolding, and God is about to give more specific promises about Sarah and a son yet to come.",
+  "takeaway": "God promises Abram a future involving many nations."
+ },
+ "5": {
+  "scene": "God changes Abram's name to Abraham because He has made him the father of many nations.",
+  "breakdown": "The name change marks a new chapter in Abram's identity. Genesis connects 'Abraham' with the Hebrew phrase for 'father of a multitude.' That is the explanation the text gives, even though the exact linguistic history of the name is more complex. From here on, we'll call him Abraham, because that is the name God gives him.",
+  "takeaway": "Abram becomes Abraham, a name tied to God's promise of many nations."
+ },
+ "6": {
+  "scene": "God promises Abraham extraordinary fruitfulness, nations from his descendants, and kings among them.",
+  "breakdown": "The promise grows in detail. Abraham won't simply have a single heir; whole nations and royal lines are pictured as coming from his descendants. The verse doesn't identify every future king or explain how all these peoples will relate to one another. It announces the breadth of the future God is promising.",
+  "takeaway": "God says nations and kings will come from Abraham."
+ },
+ "7": {
+  "scene": "God says He will establish His covenant with Abraham and his descendants through their generations, to be their God.",
+  "breakdown": "This is about more than population growth or territory. God describes an enduring relationship: He will be God to Abraham and to his descendants after him. The phrase often translated 'everlasting covenant' expresses the lasting character of that commitment. The chapter will go on to distinguish different promises concerning Isaac and Ishmael, so we should pay attention to those details rather than flattening them together.",
+  "takeaway": "God promises an enduring covenant relationship with Abraham's descendants."
+ },
+ "8": {
+  "scene": "God promises Abraham and his descendants the land of Canaan, where Abraham is living as a foreigner, as an enduring possession.",
+  "breakdown": "Abraham is in the land, but he doesn't yet own it as a settled inheritance. Genesis openly calls it the land where he is living as a stranger or resident outsider. That contrast makes the promise striking: God speaks of future possession while Abraham is still dwelling there in tents. The verse also repeats God's promise to be their God.",
+  "takeaway": "God connects the covenant with the land of Canaan and His relationship with Abraham's family."
+ },
+ "9": {
+  "scene": "God tells Abraham that he and his descendants must keep the covenant through their generations.",
+  "breakdown": "After several verses about what God promises, the passage turns to Abraham's responsibility. Covenant language includes an ongoing response from the people involved. The next verses specify the physical sign God requires of Abraham's male household. We should distinguish the promise itself from the sign given to mark it.",
+  "takeaway": "Abraham and his descendants are called to observe the covenant."
+ },
+ "10": {
+  "scene": "God identifies circumcision of every male as the covenant sign to be kept among Abraham's people.",
+  "breakdown": "The command is direct and physical. Circumcision is presented here as a sign of the covenant, meaning a visible marker of belonging to this covenant community. The verse doesn't say circumcision created God's original promise to Abraham; the promise had already been spoken. Later Scripture discusses its significance in other settings, but here we should first understand its role in Genesis.",
+  "takeaway": "Circumcision is appointed as the sign of the covenant."
+ },
+ "11": {
+  "scene": "God says the males are to be circumcised in the flesh of the foreskin as the sign between Him and them.",
+  "breakdown": "Genesis makes the sign specific rather than leaving it as a vague symbol. The covenant is marked on the body, and the language stresses that this is an identifying sign of the relationship God has described. This is a description of the biblical command to Abraham's household, not medical guidance or a substitute for careful discussion of later religious practice.",
+  "takeaway": "The covenant sign is to be physically carried by the males of the household."
+ },
+ "12": {
+  "scene": "God commands circumcision on the eighth day for male children, including those born in the household and those purchased from foreigners.",
+  "breakdown": "The instruction extends beyond Abraham's direct biological descendants. It includes males born into the household and males acquired from outside it, showing how broad the ancient household structure was. The reference to people being purchased reflects slavery in that society; we should name that reality rather than make it sound like ordinary employment. The eighth-day timing is part of the command itself.",
+  "takeaway": "The covenant sign extends throughout Abraham's male household, beginning in infancy."
+ },
+ "13": {
+  "scene": "God repeats that both household-born and purchased males must be circumcised, calling the covenant in their flesh an enduring covenant.",
+  "breakdown": "The repetition leaves no doubt about the scope of the instruction in Abraham's household. People from different origins are included under the same physical requirement. The phrase about the covenant being 'in your flesh' stresses that the sign is meant to be lasting and visible in their bodies. This verse doesn't erase the unequal status of enslaved people in the household.",
+  "takeaway": "The covenant sign is required across the household, regardless of a male's origin."
+ },
+ "14": {
+  "scene": "God warns that an uncircumcised male who refuses the required sign will be cut off from his people for breaking the covenant.",
+  "breakdown": "This is a serious warning, not a casual suggestion. The phrase 'cut off' is used in biblical law for a grave loss of standing among the covenant people; its exact consequences are understood differently in different passages and traditions. Because the preceding command includes infants, we shouldn't pretend every case involves an adult making a free choice. The main point is how seriously Genesis treats this covenant sign.",
+  "takeaway": "Refusing the required covenant sign carries a serious consequence."
+ },
+ "15": {
+  "scene": "God tells Abraham that Sarai is no longer to be called Sarai; her name will be Sarah.",
+  "breakdown": "The name change is not only for Abraham. Sarah is named directly as part of the unfolding promise. Both names are associated with the idea of a princess or noblewoman, so we shouldn't invent a dramatic change in meaning that the verse doesn't explain. What matters here is that God specifically addresses her place in the covenant story.",
+  "takeaway": "Sarai receives the name Sarah as the promise turns toward her."
+ },
+ "16": {
+  "scene": "God promises to bless Sarah and give Abraham a son through her; she will become the mother of nations and kings.",
+  "breakdown": "This is the moment the promise becomes unmistakably specific. Ishmael has already been born, but God says Sarah herself will bear a son. That matters after years of childlessness and after the painful events involving Hagar. God speaks of Sarah as a person with a future of her own, not merely as a background figure in Abraham's life.",
+  "takeaway": "God promises that Sarah herself will bear a son and become the mother of nations."
+ },
+ "17": {
+  "scene": "Abraham falls facedown and laughs, wondering whether a son can be born to a hundred-year-old man and a ninety-year-old woman.",
+  "breakdown": "The promise sounds astonishing to Abraham because of their ages. His laughter can carry surprise, disbelief, joy, or a mixture; the verse doesn't give us a simple label for every emotion. He is doing the math of their situation and struggling to picture how it could happen. Genesis lets us see that even someone who trusts God can be startled by what God says.",
+  "takeaway": "Abraham laughs in astonishment at the promise of a son through Sarah."
+ },
+ "18": {
+  "scene": "Abraham asks God to let Ishmael live before Him.",
+  "breakdown": "Abraham doesn't forget the son he already has. His words express concern or hope for Ishmael's future in God's presence. They may also show that Abraham is still trying to understand the new promise about Sarah. God will answer with both a specific covenant promise about Isaac and a real blessing for Ishmael.",
+  "takeaway": "Abraham brings Ishmael's future before God."
+ },
+ "19": {
+  "scene": "God says Sarah will bear a son named Isaac, and He will establish His covenant with Isaac and his descendants.",
+  "breakdown": "God makes the distinction clear: the promised son through Sarah will be Isaac. His name is related to the Hebrew word for laughter, fitting Abraham's response in the previous verses and Sarah's later story. The covenant is specifically said to continue through Isaac's line. That does not mean God is indifferent to Ishmael, as the next verse shows.",
+  "takeaway": "God names Isaac as Sarah's promised son and the covenant heir."
+ },
+ "20": {
+  "scene": "God says He has heard Abraham concerning Ishmael and will bless Ishmael, make him fruitful, and make him a great nation.",
+  "breakdown": "The name Ishmael itself recalls that God hears, and here God says He has heard Abraham's request. Ishmael will have many descendants, including twelve rulers or princes. These are genuine promises of blessing, even though the covenant line is identified separately through Isaac. We shouldn't speak as though Ishmael is rejected from all divine care.",
+  "takeaway": "God promises a great future for Ishmael too."
+ },
+ "21": {
+  "scene": "God says His covenant will be established with Isaac, whom Sarah will bear at this time next year.",
+  "breakdown": "Now the promise includes a time frame. Abraham and Sarah won't be left waiting indefinitely for this particular birth; God says it will happen the following year. The verse again distinguishes Isaac's covenant role from Ishmael's blessing. Both matter, but Genesis does not describe their roles as identical.",
+  "takeaway": "God fixes the promise of Isaac's birth for the following year."
+ },
+ "22": {
+  "scene": "God finishes speaking with Abraham and departs from him.",
+  "breakdown": "The conversation ends after the promises and instructions have been given. The verse uses the language of God going up from Abraham, a vivid way of closing the encounter. It doesn't explain the mechanics of how God appeared or departed. The focus now shifts from hearing the command to Abraham acting on it.",
+  "takeaway": "The encounter ends, and Abraham must respond to what God said."
+ },
+ "23": {
+  "scene": "That very day Abraham circumcises Ishmael and all the males in his household, whether born there or purchased.",
+  "breakdown": "Abraham doesn't put the instruction off. The text emphasizes that he acts on the same day God speaks to him. Ishmael is included in the sign, along with other males whose lives are tied to Abraham's household. Their inclusion in the ritual should not be confused with the separate promise about Isaac's future covenant line.",
+  "takeaway": "Abraham promptly carries out the covenant sign throughout his household."
+ },
+ "24": {
+  "scene": "Abraham is ninety-nine years old when he is circumcised.",
+  "breakdown": "Genesis gives Abraham's age to anchor this event in the story. He is an older man receiving and obeying a demanding physical command. His age also reminds us how close the promised birth of Isaac now is. The chapter is not merely about a future generation; Abraham himself participates in the sign.",
+  "takeaway": "Abraham receives the covenant sign at ninety-nine."
+ },
+ "25": {
+  "scene": "Ishmael is thirteen years old when he is circumcised.",
+  "breakdown": "Ishmael is not a newborn here; he is Abraham's thirteen-year-old son. This detail helps us follow the years between Genesis 16 and Genesis 17. It also shows that Ishmael personally receives the sign even though God has named Isaac as the one through whom the covenant will continue.",
+  "takeaway": "Ishmael receives the sign at thirteen years old."
+ },
+ "26": {
+  "scene": "Abraham and Ishmael are circumcised on the same day.",
+  "breakdown": "The father and son take part in the covenant sign together. Genesis repeats the timing to stress Abraham's immediate response to God's instruction. The verse doesn't erase the difference between the promises concerning Isaac and Ishmael; it simply shows that both Abraham and his existing son are included in this act.",
+  "takeaway": "Abraham and Ishmael receive the sign together."
+ },
+ "27": {
+  "scene": "All the males of Abraham's household, including those born there and those acquired from foreigners, are circumcised with him.",
+  "breakdown": "The chapter closes by confirming that Abraham followed the instruction across his entire household. Genesis again names both those born in the household and those purchased from outside it, reflecting the unequal social world of the story. The final emphasis is on the scope of Abraham's obedience. The promised child Isaac has not yet been born, but the covenant sign is already in place.",
+  "takeaway": "Abraham's entire male household receives the covenant sign."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
