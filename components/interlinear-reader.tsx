@@ -1202,7 +1202,169 @@ const plainGenesisNine:Record<number,PlainVerseStudy>={
   "takeaway": "Noah's long life comes to an end."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine}};
+const plainGenesisTen:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Genesis begins the family record of Noah's three sons—Shem, Ham, and Japheth—after the flood.",
+  "breakdown": "The flood story has ended, and now Genesis follows the families who come afterward. This chapter is often called the Table of Nations because it connects family names with peoples and places. It isn't a modern map or a complete list of every nation that has ever existed. It shows how the biblical story understands the spread of peoples from Noah's family.",
+  "takeaway": "The story turns from one surviving family to the peoples who come after them."
+ },
+ "2": {
+  "scene": "Japheth's sons are named: Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
+  "breakdown": "This first group belongs to Japheth's branch of Noah's family. Some names are also known from later biblical references to peoples or regions, but identifying every name with a precise modern country would go beyond what this verse says. For now, the point is that Japheth's line branches into several groups.",
+  "takeaway": "Japheth's family line begins with seven named sons."
+ },
+ "3": {
+  "scene": "Gomer's sons are Ashkenaz, Riphath, and Togarmah.",
+  "breakdown": "Genesis takes one of Japheth's sons, Gomer, and lists three of his descendants. These names also appear in later biblical material, though their exact ancient locations aren't always certain. We don't need to turn each one into a confident modern ethnic label to understand the family record.",
+  "takeaway": "Gomer's branch of Japheth's family is traced further."
+ },
+ "4": {
+  "scene": "Javan's sons or associated peoples are Elishah, Tarshish, Kittim, and Dodanim.",
+  "breakdown": "The names in this verse point toward groups associated with Javan's line, often connected with the Mediterranean world. The last name has a textual variation: some ancient witnesses read 'Rodanim' rather than 'Dodanim.' That's a manuscript difference, not a reason to invent two separate stories. The passage is mapping relationships among ancient peoples.",
+  "takeaway": "Javan's branch includes several groups, with a textual variation in one name."
+ },
+ "5": {
+  "scene": "From these descendants, coastland peoples spread into their lands, each with its own language, clan, and nation.",
+  "breakdown": "Now Genesis explains why it's listing names. These families are becoming distinct peoples who live in different places and speak different languages. Chapter 11 will tell the story of Babel, so this chapter is giving us the broad picture before that later explanation. Biblical storytelling doesn't always present events in strict chronological order.",
+  "takeaway": "The family lines develop into peoples with their own lands and languages."
+ },
+ "6": {
+  "scene": "Ham's sons are Cush, Egypt, Put, and Canaan.",
+  "breakdown": "The record now moves to Ham's family. Some Bible translations use 'Mizraim' for Egypt, preserving the Hebrew name. These names can refer to ancestors and to peoples or regions associated with them. We should read them as part of an ancient family-and-nations record, not as labels for modern racial categories.",
+  "takeaway": "Ham's branch is introduced through four named sons."
+ },
+ "7": {
+  "scene": "Cush's sons are Seba, Havilah, Sabtah, Raamah, and Sabteca; Raamah's sons are Sheba and Dedan.",
+  "breakdown": "The list follows Cush's line and then takes one more step through Raamah. Several names recur elsewhere in Scripture, sometimes for different people or places, so a matching name doesn't automatically mean the same individual. The verse is showing how one branch divides into smaller branches.",
+  "takeaway": "Cush's descendants are listed across two generations."
+ },
+ "8": {
+  "scene": "Cush fathers Nimrod, who becomes a mighty figure on the earth.",
+  "breakdown": "The chapter pauses its usual list of names to introduce Nimrod. That tells us the narrator wants us to notice him. The verse calls him mighty, but it doesn't yet tell us exactly what kind of man he was or invite us to invent a full biography from his name.",
+  "takeaway": "Nimrod stands out enough for Genesis to pause and describe him."
+ },
+ "9": {
+  "scene": "Nimrod is described as a mighty hunter before the LORD, becoming the subject of a saying.",
+  "breakdown": "The Hebrew phrase 'before the LORD' can be understood in more than one way, and readers disagree about whether the description praises Nimrod's strength or carries a darker tone. The verse doesn't settle that debate. What it clearly says is that Nimrod became famous enough for people to use his name in a saying.",
+  "takeaway": "Nimrod is remembered for unusual might, though the tone is debated."
+ },
+ "10": {
+  "scene": "The beginning of Nimrod's kingdom includes Babel, Erech, Akkad, and Calneh in the land of Shinar.",
+  "breakdown": "Nimrod is now connected with cities and a kingdom, not just hunting. Babel will become especially important in the next chapter. The identification of 'Calneh' is uncertain, and some translations understand that part of the Hebrew differently. The main point is that Genesis places the beginnings of organized rule in this region.",
+  "takeaway": "Nimrod's kingdom is associated with major cities in Shinar."
+ },
+ "11": {
+  "scene": "The account connects Assyria and the building of Nineveh, Rehoboth-ir, and Calah with this expanding region.",
+  "breakdown": "The Hebrew can be read as saying Nimrod went into Assyria or that Asshur went out and built these cities. Translations differ, so it's best not to claim the builder's identity is beyond question. Nineveh becomes a major city in later biblical history. Here we're watching the record move from families into cities and kingdoms.",
+  "takeaway": "The narrative links the region with the rise of important cities, though the Hebrew is debated."
+ },
+ "12": {
+  "scene": "Resen is named between Nineveh and Calah, with a reference to the great city.",
+  "breakdown": "The list of cities continues, locating Resen in relation to Nineveh and Calah. The phrase 'the great city' is not completely clear in how it attaches to the names. We don't need to settle that question to understand the verse's role: it finishes this brief look at an important urban region.",
+  "takeaway": "The description of Nimrod's region concludes with another city."
+ },
+ "13": {
+  "scene": "Egypt fathers or gives rise to the Ludim, Anamim, Lehabim, Naphtuhim,",
+  "breakdown": "This verse uses family language for groups of people. The plural-sounding names are part of how Genesis describes nations and communities developing from earlier ancestors. We aren't given personal stories about each group, and many proposed modern identifications remain uncertain.",
+  "takeaway": "Egypt's branch is traced through several named peoples."
+ },
+ "14": {
+  "scene": "The Pathrusim, Casluhim, and Caphtorim are listed, with a note connecting the Philistines to this family line.",
+  "breakdown": "This continues the list begun in the previous verse. The Philistines will matter a great deal later in the Bible, so Genesis flags their connection here. The exact relationship among Casluhim, Caphtorim, and the Philistines is discussed because other biblical passages connect the Philistines with Caphtor. We should acknowledge that complexity rather than pretend the wording answers every historical question.",
+  "takeaway": "The record introduces peoples connected with Egypt's line, including the Philistines."
+ },
+ "15": {
+  "scene": "Canaan fathers Sidon, his firstborn, and Heth.",
+  "breakdown": "Now the focus turns to Canaan, whose name appeared in Noah's words in chapter 9. Sidon is associated with an important coastal city, and Heth is linked with the Hittites in biblical tradition. The verse starts listing the peoples who will be important when Abraham's descendants enter the story.",
+  "takeaway": "Canaan's branch begins with Sidon and Heth."
+ },
+ "16": {
+  "scene": "The Jebusites, Amorites, and Girgashites are named among Canaan's descendants.",
+  "breakdown": "These are names we'll encounter again when the Bible talks about the land of Canaan. Genesis is introducing them before Israel's later history unfolds. The names identify ancient peoples, not a moral judgment on every individual born among them.",
+  "takeaway": "The record names several peoples of Canaan."
+ },
+ "17": {
+  "scene": "The Hivites, Arkites, and Sinites are also listed.",
+  "breakdown": "The list continues without telling us personal stories about these groups. That is normal for this chapter: its purpose is to show the spread of peoples, not to describe every culture in detail. Some names are difficult to place precisely on a modern map.",
+  "takeaway": "More Canaanite groups are included in the family record."
+ },
+ "18": {
+  "scene": "The Arvadites, Zemarites, and Hamathites are named, and the Canaanite clans later spread out.",
+  "breakdown": "Genesis finishes this part of Canaan's family line and says the clans dispersed. That last detail matters: these weren't simply names written in one place forever. The groups spread into different areas as the generations passed.",
+  "takeaway": "Canaan's descendants spread into distinct clans and places."
+ },
+ "19": {
+  "scene": "The boundaries of the Canaanites are described from Sidon toward Gerar and Gaza, and toward Sodom, Gomorrah, Admah, Zeboiim, and Lasha.",
+  "breakdown": "This verse gives geographical bearings for the Canaanite territory. Some of these places will appear again in Abraham's story, especially Sodom and Gomorrah. The ancient locations of every site aren't equally certain today. The point is to give readers a sense of where these peoples lived in the biblical world.",
+  "takeaway": "Genesis places the Canaanite peoples within a described region."
+ },
+ "20": {
+  "scene": "The chapter sums up Ham's descendants by clans, languages, lands, and nations.",
+  "breakdown": "This closing line matches the pattern used for Japheth's family. Ham's descendants are not presented as one single undifferentiated people; they are spread among different clans, languages, and lands. The Bible's categories here are about ancient family and people groups, not a hierarchy of human worth.",
+  "takeaway": "Ham's family branches into many peoples and places."
+ },
+ "21": {
+  "scene": "Shem is introduced as an ancestor of the children of Eber and as Japheth's brother.",
+  "breakdown": "Genesis turns to Shem last, even though he was named first among Noah's sons. This order gives his family line a special place in the story that follows. Eber matters because his descendants will lead toward Abram's family. The Hebrew wording about whether Shem or Japheth is the older brother is debated in translation.",
+  "takeaway": "Shem's line is introduced with an emphasis on Eber's descendants."
+ },
+ "22": {
+  "scene": "Shem's sons are Elam, Asshur, Arpachshad, Lud, and Aram.",
+  "breakdown": "These names begin the third major branch of Noah's family. Some also name regions or peoples known from the ancient Near East. The genealogy is leading toward Arpachshad's descendants, but the other branches are included too.",
+  "takeaway": "Shem's family line begins with five named sons."
+ },
+ "23": {
+  "scene": "Aram's sons are Uz, Hul, Gether, and Mash.",
+  "breakdown": "Genesis follows one of Shem's sons, Aram, and names four descendants. Uz may sound familiar from the opening of Job, but a shared name alone doesn't prove we're talking about exactly the same location or person. This is a family record, and the text gives us only the names here.",
+  "takeaway": "Aram's branch is traced through four names."
+ },
+ "24": {
+  "scene": "Arpachshad fathers Shelah, and Shelah fathers Eber.",
+  "breakdown": "Now we reach the part of Shem's line that Genesis will continue to follow. Eber was mentioned in verse 21, and here we see where he fits in the family sequence. Some ancient textual traditions include an additional name in this line, so genealogies can differ across manuscript traditions. In the Hebrew text followed here, the sequence is Arpachshad, Shelah, then Eber.",
+  "takeaway": "The genealogy traces the line leading to Eber."
+ },
+ "25": {
+  "scene": "Eber has two sons, Peleg and Joktan; Peleg's name is connected with a division of the earth in his days.",
+  "breakdown": "The name Peleg sounds like a Hebrew word for division, and the verse explains his name through something that happened in his time. What exactly was divided isn't spelled out. Some connect it with the scattering at Babel in chapter 11, but the verse itself doesn't explicitly say so. We can mention that possibility without calling it certain.",
+  "takeaway": "Peleg's name is linked to a division whose details are not explained here."
+ },
+ "26": {
+  "scene": "Joktan fathers Almodad, Sheleph, Hazarmaveth, Jerah,",
+  "breakdown": "The genealogy now follows Eber's other son, Joktan. These names begin a longer list of his descendants. We aren't given their life stories, so the helpful thing is to keep the family connection clear: these are branches growing out of Joktan's line.",
+  "takeaway": "Joktan's descendants begin to be listed."
+ },
+ "27": {
+  "scene": "Hadoram, Uzal, Diklah,",
+  "breakdown": "The list of Joktan's descendants continues. Each name represents another branch in the record, but Genesis doesn't tell us what each person did. Rather than guess, we can follow the sequence and see how broad this family becomes.",
+  "takeaway": "More of Joktan's descendants are named."
+ },
+ "28": {
+  "scene": "Obal, Abimael, Sheba,",
+  "breakdown": "Genesis keeps naming the descendants of Joktan. Sheba also appeared earlier under a different branch in this chapter. Repeated names can refer to different individuals or groups, so we shouldn't assume every occurrence means the same person.",
+  "takeaway": "The genealogy continues, including a name that appears elsewhere."
+ },
+ "29": {
+  "scene": "Ophir, Havilah, and Jobab complete the list of Joktan's sons.",
+  "breakdown": "These final names close Joktan's branch. Ophir and Havilah will sound familiar from other parts of Scripture, but their exact geographical identifications are debated. The verse's job is to finish the list, not to give a treasure map or modern border chart.",
+  "takeaway": "Joktan's family list is brought to a close."
+ },
+ "30": {
+  "scene": "The territory of Joktan's descendants is described from Mesha toward Sephar in the eastern hill country.",
+  "breakdown": "After the names, Genesis gives a geographical description. The locations of Mesha and Sephar aren't settled beyond dispute, so we should be cautious about putting a precise modern pin on them. What the verse does show is that Joktan's descendants are associated with a particular stretch of territory.",
+  "takeaway": "Joktan's descendants are connected with an eastern region."
+ },
+ "31": {
+  "scene": "The chapter sums up Shem's descendants by families, languages, lands, and nations.",
+  "breakdown": "Just as with Japheth and Ham, the record ends by describing clans becoming peoples in different places with different languages. Shem's family is one branch of the larger post-flood world, even though the story will soon focus on his descendants more closely.",
+  "takeaway": "Shem's family also spreads into distinct peoples and places."
+ },
+ "32": {
+  "scene": "Genesis concludes that the nations spread across the earth from the families of Noah's sons after the flood.",
+  "breakdown": "This is the big picture of the whole chapter. The many names are meant to show how Genesis connects the world's peoples to the family that survived the flood. Chapter 11 will zoom in on Babel and then narrow the family line toward Abram. We don't have to memorize every name to understand the movement: one family becomes many peoples.",
+  "takeaway": "The chapter traces the spread of nations from Noah's family."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
