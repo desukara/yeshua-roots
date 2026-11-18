@@ -1526,7 +1526,109 @@ const plainGenesisEleven:Record<number,PlainVerseStudy>={
   "takeaway": "Terah's life ends in Haran, and Abram's story is ready to begin."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven}};
+const plainGenesisTwelve:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "The LORD tells Abram to leave his country, relatives, and father's household for a land God will show him.",
+  "breakdown": "This is a huge change in Abram's life. God calls him away from the places and relationships that have shaped his world, without giving him a complete travel itinerary up front. The promise of a land comes with a call to trust God's direction. Abram isn't told the journey will be easy; he's told to go.",
+  "takeaway": "God calls Abram to leave what is familiar and follow His direction."
+ },
+ "2": {
+  "scene": "God promises to make Abram into a great nation, bless him, make his name great, and make him a blessing.",
+  "breakdown": "Abram and Sarai have no child at this point, so the promise of a great nation is especially striking. God speaks about Abram's future before Abram can see how it could happen. Notice also that blessing isn't meant to stop with Abram. God says Abram himself will become a blessing to others.",
+  "takeaway": "God promises Abram a future bigger than his present circumstances."
+ },
+ "3": {
+  "scene": "God promises to bless those who bless Abram, address those who dishonor him, and bring blessing to all the families of the earth through him.",
+  "breakdown": "The wording distinguishes between those who bless Abram and those who treat him with contempt. God's promise includes protection, but its reach is much wider than Abram's own household. 'All the families of the earth' brings us back to the many peoples named in Genesis 10. The story of one family is connected to God's purpose for the wider world.",
+  "takeaway": "God's promise to Abram is meant to reach beyond Abram to the nations."
+ },
+ "4": {
+  "scene": "Abram leaves as the LORD told him, and Lot goes with him; Abram is seventy-five when he departs Haran.",
+  "breakdown": "After the promises comes a decision. Abram actually leaves. Lot, his nephew, travels with him, connecting this chapter to the family introduced in Genesis 11. The verse gives Abram's age, but it doesn't tell us how he felt about every step of leaving home. What it clearly shows is his response to God's call.",
+  "takeaway": "Abram acts on God's instruction and begins the journey."
+ },
+ "5": {
+  "scene": "Abram takes Sarai, Lot, their possessions, and the people associated with their household, and they set out for Canaan.",
+  "breakdown": "This isn't a man wandering off alone with nothing. Abram travels with family, possessions, and people who have become part of the household in Haran. The Hebrew phrase about people 'acquired' there is interpreted in different ways; it shouldn't be turned into an invented story about exactly who they all were. Their destination is Canaan, and this time they reach it.",
+  "takeaway": "Abram's household travels together and arrives in Canaan."
+ },
+ "6": {
+  "scene": "Abram travels through Canaan to Shechem, near the oak or great tree of Moreh; the Canaanites are living in the land.",
+  "breakdown": "Abram has arrived, but the land isn't empty. Genesis makes a point of saying the Canaanites are there already. Shechem and the tree of Moreh help locate the scene in the biblical landscape. The mention of existing inhabitants matters because the promise of land will unfold in a complicated human setting.",
+  "takeaway": "Abram reaches a land that is already inhabited."
+ },
+ "7": {
+  "scene": "The LORD appears to Abram and promises the land to his offspring; Abram builds an altar there.",
+  "breakdown": "God now makes the land promise more specific: it is for Abram's descendants. That's remarkable because Sarai has not yet had a child. Abram responds by building an altar to the LORD who appeared to him. The altar marks worship and acknowledgment of God in the place where the promise was spoken.",
+  "takeaway": "God promises the land to Abram's descendants, and Abram worships."
+ },
+ "8": {
+  "scene": "Abram moves into the hill country east of Bethel, pitches his tent between Bethel and Ai, and builds another altar.",
+  "breakdown": "The journey continues through Canaan. Abram is living in tents, not settling into a palace or taking control of the land. He builds another altar and calls on the LORD's name. That phrase points to worship or invoking God, showing that Abram's journey includes a continuing relationship with the One who called him.",
+  "takeaway": "Abram continues traveling and worshiping the LORD."
+ },
+ "9": {
+  "scene": "Abram keeps traveling toward the Negev, the southern region.",
+  "breakdown": "Genesis gives a brief travel update. The Negev is the dry southern part of the land, not the name of a person. The verse doesn't give us a new promise or conversation; it shows Abram moving farther through the region. The next verse explains a hardship that will push him beyond Canaan.",
+  "takeaway": "Abram travels south through the land."
+ },
+ "10": {
+  "scene": "A severe famine strikes Canaan, so Abram goes down to Egypt to stay there for a time.",
+  "breakdown": "Even after obeying God's call, Abram faces a serious problem: there isn't enough food in the land. Egypt offers a place to seek relief from the famine. The text says he goes there to stay temporarily; it doesn't say that faith makes someone immune to hunger or difficult decisions. The trouble in Egypt will come from how Abram handles his fear.",
+  "takeaway": "A famine drives Abram to seek food and shelter in Egypt."
+ },
+ "11": {
+  "scene": "As they approach Egypt, Abram tells Sarai that he knows she is beautiful.",
+  "breakdown": "Abram starts thinking about how strangers might react to Sarai. His words introduce the fear that shapes the next few verses. The story isn't asking us to judge Sarai for her appearance; it's showing what Abram thinks could happen when they arrive.",
+  "takeaway": "Abram worries about how Sarai will be treated in Egypt."
+ },
+ "12": {
+  "scene": "Abram fears Egyptians will kill him to take Sarai because she is his wife.",
+  "breakdown": "Now Abram says plainly what he's afraid of. He thinks people may want Sarai and remove him as an obstacle. Genesis reports his fear, but it doesn't tell us that the Egyptians have already threatened him. That's an important distinction: Abram is acting on what he believes might happen.",
+  "takeaway": "Abram fears for his life because Sarai is his wife."
+ },
+ "13": {
+  "scene": "Abram asks Sarai to say she is his sister so he will be treated well and kept alive.",
+  "breakdown": "Abram's plan shifts danger onto Sarai while trying to protect himself. Later Genesis will explain that Sarai is related to him, but here he is using the 'sister' claim to conceal the fact that she is his wife. The narrative describes his strategy; it doesn't tell readers to copy it. We should be honest about the risk his decision creates for her.",
+  "takeaway": "Abram tries to protect himself through a misleading account of their relationship."
+ },
+ "14": {
+  "scene": "When Abram enters Egypt, the Egyptians notice Sarai's beauty.",
+  "breakdown": "The concern Abram voiced begins to take shape: people notice Sarai. But the verse itself doesn't describe anyone harming her. Genesis is moving step by step toward the royal household, where Abram's plan will have serious consequences.",
+  "takeaway": "Sarai attracts attention after the family reaches Egypt."
+ },
+ "15": {
+  "scene": "Pharaoh's officials praise Sarai to Pharaoh, and she is taken into his household.",
+  "breakdown": "The story moves beyond ordinary attention. Pharaoh's officials speak about Sarai, and she is brought into the royal household. Genesis doesn't tell us that Sarai freely chose this arrangement, so we shouldn't present it as a romance. Abram's attempt to manage danger has put his wife in a vulnerable position.",
+  "takeaway": "Sarai is taken into Pharaoh's household."
+ },
+ "16": {
+  "scene": "Pharaoh treats Abram well for Sarai's sake, giving him livestock and servants.",
+  "breakdown": "Abram receives material benefits because of Sarai's place in Pharaoh's household. The gifts include sheep, cattle, donkeys, servants, and camels. That prosperity doesn't mean the arrangement is right or safe. In fact, the next verse shows that something is seriously wrong.",
+  "takeaway": "Abram gains wealth while Sarai remains in a dangerous situation."
+ },
+ "17": {
+  "scene": "The LORD strikes Pharaoh and his household with serious plagues because of Sarai, Abram's wife.",
+  "breakdown": "God intervenes, and the reason given is Sarai's true status as Abram's wife. The text doesn't spell out exactly what each plague was or how Pharaoh figured out the connection. It does make clear that the situation in Pharaoh's house cannot continue as it is. Sarai has not been forgotten in the story.",
+  "takeaway": "God intervenes because Sarai is Abram's wife."
+ },
+ "18": {
+  "scene": "Pharaoh confronts Abram and asks why he didn't tell him Sarai was his wife.",
+  "breakdown": "The ruler of Egypt now questions Abram's deception. That's a striking reversal: the man who received God's promise is being challenged for the way he handled his fear. Pharaoh's question gets to the heart of the matter—Abram withheld a truth that changed everything.",
+  "takeaway": "Pharaoh calls Abram to account for hiding his marriage."
+ },
+ "19": {
+  "scene": "Pharaoh asks why Abram called Sarai his sister, says he took her as a wife, and tells Abram to take her and go.",
+  "breakdown": "Pharaoh explains the consequence of Abram's claim: he treated Sarai as available for marriage. He now returns her to Abram and orders them to leave. The text doesn't describe the full private experience Sarai endured, so we should not invent details. But we can see clearly that Abram's plan endangered their marriage and put Sarai at risk.",
+  "takeaway": "Pharaoh returns Sarai and sends Abram away."
+ },
+ "20": {
+  "scene": "Pharaoh orders his men to send Abram away with Sarai and all their possessions.",
+  "breakdown": "The chapter ends with the family leaving Egypt under Pharaoh's orders. Abram keeps the possessions he has acquired, but the scene is not presented as a clean victory for his scheme. He leaves after being confronted over what happened to Sarai. The next chapter will pick up their journey from Egypt.",
+  "takeaway": "Abram and Sarai leave Egypt with their household and possessions."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
