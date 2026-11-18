@@ -3015,7 +3015,344 @@ const plainGenesisTwentyThree:Record<number,PlainVerseStudy>={
   "takeaway": "Abraham's family now has a legally recognized burial place in Canaan."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree}};
+const plainGenesisTwentyFour:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Abraham is old, and the LORD has blessed him in every way.",
+  "breakdown": "Abraham's life has included long waits, hard journeys, and the birth of Isaac. Now the story turns to Isaac's future. The blessing Abraham has received does not mean every family decision is already settled.",
+  "takeaway": "God's blessing frames the search for Isaac's wife."
+ },
+ "2": {
+  "scene": "Abraham calls his senior household servant and asks him to place his hand under Abraham's thigh.",
+  "breakdown": "The servant manages Abraham's possessions and is trusted with a major responsibility. Placing a hand under the thigh is an ancient oath gesture; it is not a practice readers must copy. This chapter does not name the servant.",
+  "takeaway": "Abraham prepares his trusted servant for a solemn oath."
+ },
+ "3": {
+  "scene": "Abraham requires the servant to swear by the LORD not to choose a Canaanite wife for Isaac.",
+  "breakdown": "Abraham invokes the God of heaven and earth because he takes this assignment seriously. His instruction reflects the particular concerns of his covenant family. It should not be turned into a universal modern rule about whom people may marry.",
+  "takeaway": "Abraham sets a boundary for Isaac's marriage."
+ },
+ "4": {
+  "scene": "Abraham tells the servant to go to his homeland and relatives to find Isaac a wife.",
+  "breakdown": "The search will take the servant back toward Abraham's extended family. No woman has agreed to marry Isaac yet. The story will eventually show that the prospective bride's willingness matters.",
+  "takeaway": "The servant must seek a wife among Abraham's relatives."
+ },
+ "5": {
+  "scene": "The servant asks whether he should take Isaac back if the woman refuses to come.",
+  "breakdown": "This is a practical question with an important human dimension: the woman may say no. The servant wants to know whether finding a bride is more important than keeping Isaac in Canaan. He asks before accepting the oath.",
+  "takeaway": "The servant raises the possibility of refusal."
+ },
+ "6": {
+  "scene": "Abraham firmly warns the servant not to take Isaac back.",
+  "breakdown": "Abraham does not want Isaac's future to pull the family back to the place Abraham left when God called him. The land matters to the promises. His instruction is emphatic, even though the search itself remains uncertain.",
+  "takeaway": "Isaac must not be taken back to Abraham's former homeland."
+ },
+ "7": {
+  "scene": "Abraham says the LORD who called him away and promised the land will send His angel ahead.",
+  "breakdown": "Abraham bases his confidence on what God has already promised. He expects help with the mission, but he does not promise that the servant will see an angel or that people will lose their freedom to choose.",
+  "takeaway": "Abraham trusts God to guide the search."
+ },
+ "8": {
+  "scene": "Abraham says the servant is released from the oath if the woman refuses to come, but Isaac must not return.",
+  "breakdown": "The assignment has a limit. If the prospective bride will not travel, the servant cannot force the outcome just to fulfill his promise. Abraham keeps the instruction about Isaac's location firm.",
+  "takeaway": "The woman's refusal would end the servant's obligation."
+ },
+ "9": {
+  "scene": "The servant makes the oath Abraham requested.",
+  "breakdown": "After hearing the instructions and asking questions, the servant formally accepts his responsibility. He now understands both the goal and the boundary of his mission.",
+  "takeaway": "The servant commits himself to the assignment."
+ },
+ "10": {
+  "scene": "The servant takes ten camels and gifts to the city of Nahor in Aram-naharaim.",
+  "breakdown": "The camels and valuables show Abraham's resources and the seriousness of the journey. Aram-naharaim is a region in Mesopotamia. Genesis gives the destination but not a detailed travel diary.",
+  "takeaway": "The servant travels toward Abraham's relatives."
+ },
+ "11": {
+  "scene": "The servant stops the camels beside a well outside the city at evening.",
+  "breakdown": "The women of the city come to draw water at this time. Waiting at the well is a practical way to meet people, not a magical shortcut. The servant has reached a place where an encounter can happen.",
+  "takeaway": "The servant waits where people gather water."
+ },
+ "12": {
+  "scene": "The servant prays for success and for God's kindness toward Abraham.",
+  "breakdown": "He has planned and traveled, but he cannot arrange another person's answer. His prayer asks the LORD for help and appeals to God's faithful care for Abraham.",
+  "takeaway": "The servant asks God to guide the mission."
+ },
+ "13": {
+  "scene": "He asks that the woman who offers water to him and his camels be the one chosen for Isaac.",
+  "breakdown": "Giving one traveler a drink is kind; volunteering to water ten camels is a much bigger task. The servant asks to recognize unusual hospitality. This is a prayer within this story, not a guaranteed method for every decision today.",
+  "takeaway": "He looks for generous action as a sign."
+ },
+ "14": {
+  "scene": "Rebekah arrives with a water jar before the servant finishes praying.",
+  "breakdown": "The narrator immediately identifies her as Bethuel's daughter from Abraham's extended family, although the servant does not know that yet. The timing gives readers a sense that his prayer may be answered.",
+  "takeaway": "Rebekah appears before the prayer is finished."
+ },
+ "15": {
+  "scene": "Rebekah is described as beautiful and unmarried, and she fills her jar at the spring.",
+  "breakdown": "Genesis mentions her appearance and that she has not had sexual relations. But the scene quickly moves from how she looks to what she does. Her practical generosity will become the decisive part of the encounter.",
+  "takeaway": "Rebekah comes to draw water."
+ },
+ "16": {
+  "scene": "The servant runs to Rebekah and asks for a little water.",
+  "breakdown": "He makes a simple request without explaining his larger purpose. Rebekah does not know about his prayer or the marriage mission. Her response will be her own.",
+  "takeaway": "The servant asks Rebekah for a drink."
+ },
+ "17": {
+  "scene": "Rebekah quickly lowers her jar and gives the servant water.",
+  "breakdown": "She responds respectfully and without delay. This fulfills the first part of what the servant requested in prayer, but the larger question is whether she will volunteer anything more.",
+  "takeaway": "Rebekah readily helps a stranger."
+ },
+ "18": {
+  "scene": "Rebekah offers to draw water for the camels until they have finished drinking.",
+  "breakdown": "The servant asked only for himself. Rebekah volunteers additional, demanding work for the animals. The offer reveals her hospitality through action rather than a claim about her character.",
+  "takeaway": "Rebekah offers far more help than requested."
+ },
+ "19": {
+  "scene": "Rebekah runs back to the well and draws water for all the camels.",
+  "breakdown": "She follows through on her offer. Ten camels could require considerable water, and the repeated work is part of what makes her response remarkable. Genesis emphasizes her energy and persistence.",
+  "takeaway": "Rebekah puts her generosity into practice."
+ },
+ "20": {
+  "scene": "The servant watches silently to see whether the LORD has prospered his journey.",
+  "breakdown": "The servant has seen the behavior he prayed for, but he still needs to know her family and whether an agreement is possible. He observes instead of declaring the mission finished on the spot.",
+  "takeaway": "The servant waits before drawing a conclusion."
+ },
+ "21": {
+  "scene": "The servant gives Rebekah a gold nose ring and two gold bracelets.",
+  "breakdown": "The jewelry is valuable and marks the encounter as significant. The Hebrew text gives weights for the items. These gifts do not mean the marriage has already been settled; the family and Rebekah still have decisions ahead.",
+  "takeaway": "Rebekah receives valuable jewelry."
+ },
+ "22": {
+  "scene": "The servant asks whose daughter Rebekah is and whether her family has lodging.",
+  "breakdown": "Her family identity matters because Abraham directed him to his relatives. He also needs shelter for himself and his traveling companions. The questions move the encounter beyond a brief exchange at the well.",
+  "takeaway": "The servant asks about her family and a place to stay."
+ },
+ "23": {
+  "scene": "Rebekah identifies herself as Bethuel's daughter, from Nahor and Milcah's family.",
+  "breakdown": "Now the servant hears what the reader already knows: Rebekah belongs to Abraham's extended family. The genealogy at the end of Genesis 22 prepared us to recognize these names.",
+  "takeaway": "Rebekah is part of Abraham's family."
+ },
+ "24": {
+  "scene": "Rebekah says there is straw, fodder, and room for lodging at her home.",
+  "breakdown": "Her household can care for both travelers and animals. Hospitality involves practical supplies, not just kind words. Rebekah helps connect the visitor to the people he needs to meet.",
+  "takeaway": "Rebekah offers the travelers a place to stay."
+ },
+ "25": {
+  "scene": "The servant bows down and worships the LORD.",
+  "breakdown": "Learning Rebekah's family connection prompts an immediate response of worship. He sees the meeting as an answer to prayer, although no marriage arrangement has yet been agreed.",
+  "takeaway": "The servant thanks God for the encounter."
+ },
+ "26": {
+  "scene": "The servant praises the LORD for kindness and faithfulness toward Abraham.",
+  "breakdown": "He speaks of God's dependable care and says he has been led to Abraham's relatives. His gratitude does not replace the conversations still needed with the family.",
+  "takeaway": "The servant recognizes God's guidance and faithfulness."
+ },
+ "27": {
+  "scene": "Rebekah runs home and tells her mother's household what happened.",
+  "breakdown": "Rebekah carries the news of the visitor and the gifts back to her family. The meeting at the well now becomes a household matter. Genesis does not tell us exactly whom she spoke to first.",
+  "takeaway": "Rebekah brings the news home."
+ },
+ "28": {
+  "scene": "Rebekah's brother Laban runs out to meet the man at the well.",
+  "breakdown": "Laban enters the story as an active family member. Later chapters reveal more about him, but this verse alone does not explain his motives. He hurries to meet the visitor.",
+  "takeaway": "Laban goes to the servant."
+ },
+ "29": {
+  "scene": "Laban sees Rebekah's jewelry, hears her account, and approaches the servant.",
+  "breakdown": "The jewelry and her words prompt his response. It is tempting to assign him a motive immediately, but the text does not explicitly tell us what he is thinking here.",
+  "takeaway": "Laban responds to Rebekah's report and gifts."
+ },
+ "30": {
+  "scene": "Laban invites the servant in and says the house and space for the camels are ready.",
+  "breakdown": "He welcomes the traveler with language that invokes the LORD. The invitation includes accommodation for the animals, a necessary part of hosting a caravan.",
+  "takeaway": "Laban welcomes the servant into the household."
+ },
+ "31": {
+  "scene": "The household unloads and feeds the camels and provides water for the travelers' feet.",
+  "breakdown": "This is what practical hospitality looks like after a long journey. The servant has companions, and the animals also need care. The scene grounds the larger story in everyday work.",
+  "takeaway": "The household cares for the travelers and animals."
+ },
+ "32": {
+  "scene": "Food is set out, but the servant insists on explaining his business first.",
+  "breakdown": "He puts Abraham's assignment ahead of his own meal. The family allows him to speak. The urgency shows how seriously he takes the responsibility he accepted.",
+  "takeaway": "The servant explains his mission before eating."
+ },
+ "33": {
+  "scene": "The servant says he belongs to Abraham's household.",
+  "breakdown": "He begins by identifying whom he represents. He is not asking for a marriage on his own behalf, and his connection to Abraham will matter to this family.",
+  "takeaway": "The servant identifies his master."
+ },
+ "34": {
+  "scene": "The servant describes Abraham's livestock, wealth, servants, camels, and donkeys.",
+  "breakdown": "He explains that Abraham has been greatly blessed by the LORD. These details also show the household Isaac stands to inherit. The description is relevant to a family considering a marriage proposal.",
+  "takeaway": "The servant describes Abraham's prosperous household."
+ },
+ "35": {
+  "scene": "The servant says Sarah bore Isaac in old age and Abraham has given Isaac everything.",
+  "breakdown": "Isaac is Sarah's long-awaited son and Abraham's heir. This helps the family understand the position of the man Rebekah may marry. The servant highlights the future of Abraham's household.",
+  "takeaway": "Isaac is presented as Abraham's heir."
+ },
+ "36": {
+  "scene": "The servant recounts Abraham's oath not to take a Canaanite wife for Isaac.",
+  "breakdown": "He explains why Abraham sent him away from the people living nearby. This is a particular family instruction, and the servant wants Rebekah's relatives to understand it.",
+  "takeaway": "The servant explains the boundary of his search."
+ },
+ "37": {
+  "scene": "The servant says Abraham sent him to his father's family to find a wife.",
+  "breakdown": "The reason for coming to this household is now explicit. Their family connection, rather than a random meeting, makes the proposal possible.",
+  "takeaway": "He explains why he came to Abraham's relatives."
+ },
+ "38": {
+  "scene": "The servant recalls asking what would happen if the woman would not follow him.",
+  "breakdown": "He tells the family he considered the possibility of refusal before leaving. That matters because the journey cannot simply erase the prospective bride's decision.",
+  "takeaway": "He recounts his concern about refusal."
+ },
+ "39": {
+  "scene": "The servant repeats Abraham's confidence that the LORD would send His angel and guide the mission.",
+  "breakdown": "He describes the trust Abraham expressed before the journey. The passage does not say an angel visibly appeared to the servant at the well.",
+  "takeaway": "He recounts Abraham's trust in divine guidance."
+ },
+ "40": {
+  "scene": "The servant explains when he would be free from the oath.",
+  "breakdown": "His retelling emphasizes the relatives not giving the woman, whereas Abraham earlier spoke of the woman refusing to come. The speeches are not word-for-word identical. Both acknowledge that the mission has a limit.",
+  "takeaway": "He explains the conditions under which the oath ends."
+ },
+ "41": {
+  "scene": "The servant says he arrived at the spring and prayed that very day.",
+  "breakdown": "He begins recounting the encounter the family has heard about. By starting with his prayer, he explains why Rebekah's actions struck him as meaningful.",
+  "takeaway": "He recounts his prayer at the spring."
+ },
+ "42": {
+  "scene": "He says he stood at the spring and asked for the woman who would offer him a drink.",
+  "breakdown": "This part of the prayer concerns a simple request for water from a stranger. It is only the first part of the sign; the next verse describes the additional generosity he hoped to see.",
+  "takeaway": "He explains the first part of the requested sign."
+ },
+ "43": {
+  "scene": "He says the woman should also offer to draw water for the camels.",
+  "breakdown": "This completes the sign he had requested. Watering the animals requires extra effort, making the response distinctive. He is explaining his reasoning to the family, not announcing a rule for everyone's future choices.",
+  "takeaway": "He explains the full sign of hospitality."
+ },
+ "44": {
+  "scene": "The servant says Rebekah appeared before he finished praying.",
+  "breakdown": "The timing is central to how he understands the meeting. She was simply coming to draw water, unaware of the request he had just made.",
+  "takeaway": "He recounts Rebekah's timely arrival."
+ },
+ "45": {
+  "scene": "He says he asked Rebekah for water and she quickly gave him a drink.",
+  "breakdown": "He describes the first part of her response. Her courtesy matters because she helped without knowing who he was or why he had come.",
+  "takeaway": "He recalls Rebekah's immediate kindness."
+ },
+ "46": {
+  "scene": "He says Rebekah also offered water for the camels and drew it.",
+  "breakdown": "Her voluntary effort completed the sign he had prayed for. The servant wants the family to know he saw generosity in her actions, not merely an attractive appearance.",
+  "takeaway": "He recalls Rebekah watering the camels."
+ },
+ "47": {
+  "scene": "He says he asked about her family, learned her identity, and gave her jewelry.",
+  "breakdown": "In this retelling, the family question comes before the gifts, whereas the earlier narration puts the gifts first. Genesis gives these events in different orders; we should notice that without inventing a precise explanation.",
+  "takeaway": "He connects Rebekah's identity with the gifts."
+ },
+ "48": {
+  "scene": "The servant says he bowed and thanked the LORD for leading him to Abraham's relatives.",
+  "breakdown": "He explains that his response to the encounter was worship. He believes God guided him, but he still needs the family's answer about the proposed marriage.",
+  "takeaway": "He recounts giving thanks to God."
+ },
+ "49": {
+  "scene": "The servant asks the family to answer plainly whether they will show kindness and faithfulness to Abraham.",
+  "breakdown": "This is the decision point. He does not claim his prayer removes their need to answer. If they decline, he wants to know so he can decide what to do next.",
+  "takeaway": "The servant asks for a clear response."
+ },
+ "50": {
+  "scene": "Laban and Bethuel say the matter comes from the LORD and they cannot speak against it.",
+  "breakdown": "Rebekah's brother and father recognize the servant's account as evidence of God's guidance. Their answer supports the match, but the story will still record Rebekah's own response.",
+  "takeaway": "The family accepts the proposal as guided by God."
+ },
+ "51": {
+  "scene": "They tell the servant to take Rebekah as Isaac's wife.",
+  "breakdown": "The family gives approval within the customs of the time. Their agreement does not yet describe Rebekah's feelings or settle the timing of her departure.",
+  "takeaway": "The family approves the marriage."
+ },
+ "52": {
+  "scene": "The servant bows to the ground before the LORD.",
+  "breakdown": "His immediate response is worship. He understands the family's answer as another step toward fulfilling his assignment, though the journey home remains.",
+  "takeaway": "The servant thanks God for the family's answer."
+ },
+ "53": {
+  "scene": "The servant gives jewelry and clothing to Rebekah and gifts to her brother and mother.",
+  "breakdown": "These valuables belong to the ancient marriage negotiations. Rebekah receives gifts directly. We should not reduce her to property being purchased; the chapter will also ask whether she wants to go.",
+  "takeaway": "The servant presents gifts to Rebekah and her family."
+ },
+ "54": {
+  "scene": "The travelers eat and stay overnight, then the servant asks to return home.",
+  "breakdown": "The meal he postponed finally takes place. In the morning he wants to finish the mission promptly, but Rebekah's family is not ready for an immediate departure.",
+  "takeaway": "The servant asks to leave the next morning."
+ },
+ "55": {
+  "scene": "Rebekah's brother and mother ask that she remain for a while, perhaps ten days.",
+  "breakdown": "Her family wants more time before a major separation. Translations differ somewhat on the exact period, but the basic request is to delay the journey.",
+  "takeaway": "The family asks for a delay."
+ },
+ "56": {
+  "scene": "The servant asks them not to delay him because the LORD has prospered his journey.",
+  "breakdown": "He believes the mission has been guided and wants to complete it. Still, he argues his case rather than simply taking Rebekah away.",
+  "takeaway": "The servant presses to depart promptly."
+ },
+ "57": {
+  "scene": "The family says they will call Rebekah and ask her.",
+  "breakdown": "This is a crucial moment. After the gifts and negotiations, the narrative gives Rebekah a direct question about leaving. Her voice is not left out.",
+  "takeaway": "The family decides to ask Rebekah herself."
+ },
+ "58": {
+  "scene": "Rebekah is asked whether she will go, and she answers, 'I will go.'",
+  "breakdown": "Her answer is clear. She chooses to travel toward a marriage with a man she has not yet met in the story. Genesis does not reveal all her private hopes or fears, so we should not invent them.",
+  "takeaway": "Rebekah personally agrees to leave."
+ },
+ "59": {
+  "scene": "The family sends Rebekah away with her nurse and the servant's party.",
+  "breakdown": "Rebekah is accompanied by someone from her household, not sent out alone. The detail shows the practical and personal weight of leaving home.",
+  "takeaway": "Rebekah departs with her nurse and the travelers."
+ },
+ "60": {
+  "scene": "Her family blesses her with hopes for countless descendants and strength against enemies.",
+  "breakdown": "The blessing echoes themes associated with Abraham's descendants. It expresses hope for Rebekah's future; it is not an instruction for modern hostility.",
+  "takeaway": "Rebekah receives a blessing before leaving."
+ },
+ "61": {
+  "scene": "Rebekah and her attendants mount camels and follow the servant.",
+  "breakdown": "The journey begins with other women accompanying her. Genesis does not tell us their conversations or exactly how long the return trip takes.",
+  "takeaway": "Rebekah travels toward Isaac."
+ },
+ "62": {
+  "scene": "Isaac has come from Beer-lahai-roi and is living in the Negev.",
+  "breakdown": "The story shifts to Isaac in the southern region. Beer-lahai-roi appeared earlier in Hagar's story, but Genesis does not say why Isaac had been there.",
+  "takeaway": "The narrative turns toward Isaac."
+ },
+ "63": {
+  "scene": "Isaac goes into a field toward evening and notices camels approaching.",
+  "breakdown": "The Hebrew verb describing Isaac's activity is uncommon, and translations differ between meditating, walking, and similar ideas. The clear detail is that he sees the approaching caravan.",
+  "takeaway": "Isaac sees the travelers arriving."
+ },
+ "64": {
+  "scene": "Rebekah looks up, sees Isaac, and dismounts from her camel.",
+  "breakdown": "The meeting now comes into view from Rebekah's side. The narrator does not tell us her thoughts when she sees him.",
+  "takeaway": "Rebekah notices the man in the field."
+ },
+ "65": {
+  "scene": "Rebekah asks who the man is, learns he is Isaac, and covers herself with a veil.",
+  "breakdown": "Veiling has a place in this ancient social setting, though the passage does not explain every custom behind it. The action should not be turned into a universal clothing rule.",
+  "takeaway": "Rebekah learns Isaac's identity and veils herself."
+ },
+ "66": {
+  "scene": "The servant tells Isaac everything he has done.",
+  "breakdown": "The servant reports the mission to the person whose marriage it concerns. Genesis does not repeat the entire long story for a third time.",
+  "takeaway": "Isaac hears how the search unfolded."
+ },
+ "67": {
+  "scene": "Isaac brings Rebekah into Sarah's tent, marries her, loves her, and is comforted after his mother's death.",
+  "breakdown": "The chapter ends with marriage and affection, not simply a successful negotiation. Sarah's death remains part of Isaac's grief, and his relationship with Rebekah brings comfort. Rebekah begins her own place in the family story.",
+  "takeaway": "Isaac and Rebekah marry, and he finds love and comfort."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
