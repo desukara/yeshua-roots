@@ -2527,7 +2527,99 @@ const plainGenesisNineteen:Record<number,PlainVerseStudy>={
   "takeaway": "Ben-ammi is introduced as the ancestor of the Ammonites."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen}};
+const plainGenesisTwenty:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Abraham moves toward the Negev, stays between Kadesh and Shur, and lives for a time in Gerar.",
+  "breakdown": "After the terrible events involving Sodom, Genesis follows Abraham into another region. The Negev is the southern area, and Gerar is the place where the next trouble unfolds. The verse tells us where he travels, but not why he makes this move. We shouldn't invent a reason the text doesn't give.",
+  "takeaway": "Abraham relocates, and a new test of his choices begins."
+ },
+ "2": {
+  "scene": "Abraham says Sarah is his sister, and Abimelech, king of Gerar, sends for her and takes her.",
+  "breakdown": "This is painfully familiar: Abraham made the same claim in Egypt in chapter 12. Sarah is his wife, but Abraham's words conceal that crucial fact. The king acts on what he has been told and brings Sarah into his household. Genesis doesn't say Sarah freely chose to go or that this was a harmless misunderstanding for her.",
+  "takeaway": "Abraham's misleading claim places Sarah in danger again."
+ },
+ "3": {
+  "scene": "God comes to Abimelech in a dream and warns that he is in danger because Sarah is a married woman.",
+  "breakdown": "The story shifts to Abimelech's experience. He receives a direct warning from God about the woman he has taken. The problem isn't merely that Abraham might be offended; Sarah is already married, and that matters. God's intervention comes before the situation can continue unchecked.",
+  "takeaway": "God warns Abimelech that Sarah is another man's wife."
+ },
+ "4": {
+  "scene": "Abimelech has not approached Sarah sexually and asks whether God would destroy an innocent nation.",
+  "breakdown": "The narrator makes an important fact clear: Abimelech has not had sexual relations with Sarah. He protests because, as far as he knew, he had taken an unmarried woman. His question reaches beyond himself to the people he rules. Genesis lets him raise the issue of justice rather than treating him as automatically guilty of knowing deception.",
+  "takeaway": "Abimelech protests that he acted without knowing Sarah was married."
+ },
+ "5": {
+  "scene": "Abimelech explains that Abraham called Sarah his sister and Sarah called Abraham her brother; he says he acted with an innocent heart and clean hands.",
+  "breakdown": "Abimelech describes the information he received from both of them. His defense is that he had no reason to think he was taking another man's wife. Sarah's part in the statement is reported, but the passage doesn't tell us what pressure she was under or why she said it. The story focuses on how the misleading account put everyone at risk.",
+  "takeaway": "Abimelech explains why he believed Sarah was available for marriage."
+ },
+ "6": {
+  "scene": "God acknowledges Abimelech's innocence of intent and says He kept him from sinning by preventing him from touching Sarah.",
+  "breakdown": "God's reply is strikingly fair. He recognizes that Abimelech did not knowingly set out to commit adultery, and He says He intervened to prevent the act. This doesn't mean the situation was safe for Sarah; it means the threatened wrongdoing had not occurred. God's protection is active even in the middle of Abraham's failure.",
+  "takeaway": "God recognizes Abimelech's lack of knowledge and prevents the wrong from happening."
+ },
+ "7": {
+  "scene": "God tells Abimelech to return Sarah because Abraham is a prophet who will pray for him; refusal will bring death upon his household.",
+  "breakdown": "Now Abimelech receives a clear instruction: give Sarah back. Calling Abraham a prophet does not mean Abraham's deception was right; biblical figures can have a calling and still act badly. God also says Abraham will pray for Abimelech so he may live. The warning makes restoring Sarah a matter of urgent responsibility.",
+  "takeaway": "Abimelech must return Sarah, and Abraham is to pray for him."
+ },
+ "8": {
+  "scene": "Abimelech rises early, tells his servants what happened, and they are greatly afraid.",
+  "breakdown": "Abimelech takes the dream seriously enough to act at the start of the day. He gathers his servants and explains the warning, and fear spreads through the household. The text doesn't say they already knew about Sarah's marriage. Their reaction shows how seriously they regard the danger God has revealed.",
+  "takeaway": "Abimelech promptly tells his household about the warning."
+ },
+ "9": {
+  "scene": "Abimelech confronts Abraham, asking what he has done and why he brought such serious guilt on the kingdom.",
+  "breakdown": "The king calls Abraham to account for the consequences of his claim. This reversal matters: the man who has received God's promises is being rebuked by someone he misled. Abimelech's concern isn't just personal embarrassment; he says the whole kingdom was put at risk. Genesis does not excuse Abraham simply because he is its central figure.",
+  "takeaway": "Abimelech holds Abraham responsible for endangering others."
+ },
+ "10": {
+  "scene": "Abimelech asks Abraham what he was thinking when he did this.",
+  "breakdown": "The question cuts through the confusion. Abimelech wants to know why Abraham would put Sarah and the kingdom in this position. It opens the way for Abraham to explain his fear. But an explanation of someone's motives is not the same thing as a justification of their actions.",
+  "takeaway": "Abimelech demands an explanation for Abraham's deception."
+ },
+ "11": {
+  "scene": "Abraham says he thought there was no fear of God in the place and that people would kill him because of Sarah.",
+  "breakdown": "Abraham finally states his assumption. He feared that people in Gerar would murder him to take his wife. But the chapter hasn't shown Abimelech making that threat; Abraham acted on what he imagined might happen. The king's response exposes the danger of treating fear as proof about other people's character.",
+  "takeaway": "Abraham admits that fear drove his decision."
+ },
+ "12": {
+  "scene": "Abraham explains that Sarah really is his half-sister, the daughter of his father but not his mother, and that he married her.",
+  "breakdown": "This adds a detail that helps explain why Abraham used the word 'sister.' According to his account, the family relationship is real. But saying something technically true can still mislead when it hides the most important fact: Sarah is his wife. The problem was not solved by the partial truth.",
+  "takeaway": "Abraham's statement contained a truth but concealed his marriage."
+ },
+ "13": {
+  "scene": "Abraham says that when God led him away from his father's household, he asked Sarah to call him her brother wherever they traveled.",
+  "breakdown": "This wasn't a last-minute idea invented in Gerar. Abraham describes an ongoing arrangement he had asked Sarah to follow. His wording shows how long his fear had shaped their travels. It also means Sarah had been carrying the consequences of that plan from place to place. Genesis reports the arrangement without praising it.",
+  "takeaway": "Abraham reveals that the misleading story was a long-standing plan."
+ },
+ "14": {
+  "scene": "Abimelech gives Abraham sheep, cattle, and male and female servants, and returns Sarah to him.",
+  "breakdown": "Sarah is returned, which is the essential correction. Abimelech also gives Abraham valuable possessions and servants. The passage doesn't explain every motive behind these gifts, so we shouldn't assume they mean Abimelech approved of what happened. The mention of servants also reflects the ancient household economy, including people treated as property.",
+  "takeaway": "Abimelech returns Sarah and gives Abraham substantial gifts."
+ },
+ "15": {
+  "scene": "Abimelech tells Abraham that his land is open to him and he may settle wherever he chooses.",
+  "breakdown": "Despite the confrontation, Abimelech does not drive Abraham out. Instead, he offers him freedom to live in the territory. That is very different from Pharaoh's response in Genesis 12. The verse shows a peaceful outcome after the truth has come out, though it doesn't erase the danger Sarah faced.",
+  "takeaway": "Abimelech allows Abraham to remain in the land."
+ },
+ "16": {
+  "scene": "Abimelech tells Sarah that he has given her 'brother' a thousand pieces of silver as a public acknowledgment concerning what happened.",
+  "breakdown": "Abimelech speaks directly to Sarah and mentions a large payment made to Abraham. His use of 'brother' may echo their misleading claim. The Hebrew wording about a 'covering of the eyes' is difficult, and translations differ over whether it means vindication, compensation, or a public clearing of the matter. We shouldn't claim the money erases Sarah's experience or pretend the verse is perfectly straightforward.",
+  "takeaway": "Abimelech publicly addresses Sarah's situation, though the exact wording is difficult."
+ },
+ "17": {
+  "scene": "Abraham prays to God, and God heals Abimelech, his wife, and his female servants so they can have children again.",
+  "breakdown": "The prayer God promised in verse 7 now happens. Abraham prays, and the household's ability to bear children is restored. This is another moment where God works through Abraham despite Abraham's wrongdoing earlier in the chapter. It does not mean his deception was acceptable; it means the story includes both correction and restoration.",
+  "takeaway": "Abraham prays, and God restores Abimelech's household."
+ },
+ "18": {
+  "scene": "The chapter explains that the LORD had closed the wombs of Abimelech's household because of Sarah, Abraham's wife.",
+  "breakdown": "This final verse tells us what needed healing. The household had experienced a loss of fertility connected to Sarah's presence there. Genesis doesn't say how long the condition lasted or give medical details, so we shouldn't invent them. The ending also brings Sarah back into focus: her marriage and wellbeing were central to the crisis from the beginning.",
+  "takeaway": "The chapter closes by linking the household's affliction to the taking of Sarah."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
