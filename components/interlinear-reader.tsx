@@ -2362,19 +2362,19 @@ const plainGenesisNineteen:Record<number,PlainVerseStudy>={
   "takeaway": "The crowd threatens the visitors with sexual violence."
  },
  "6": {
-  "scene": "Lot goes outside, closes the door behind him, and asks the crowd not to do such wickedness.",
-  "breakdown": "Lot steps between the mob and his guests. He names their intended action as evil, which the story clearly supports. But his attempt to intervene is about to take a deeply disturbing turn. Recognizing the mob's wrongdoing does not mean every choice Lot makes in response is right.",
-  "takeaway": "Lot confronts the mob and condemns its intended attack."
+  "scene": "Lot steps outside to face the crowd and shuts the door behind him.",
+  "breakdown": "Lot leaves his guests inside and goes out to speak to the people surrounding his home. He closes the door, separating the visitors from the threatening crowd. This action sets up his attempt to stop the assault, but the next verses show how badly his response goes wrong. The verse itself reports his movement, not yet the words he speaks.",
+  "takeaway": "Lot steps between the mob and his guests."
  },
  "7": {
-  "scene": "Lot offers his two daughters, who have not had sexual relations, to the crowd instead of the visitors.",
-  "breakdown": "This is a horrifying proposal. Lot attempts to protect his guests by offering his daughters to men threatening sexual violence. Genesis records his words; it does not tell us God approves them. His daughters' safety and dignity matter every bit as much as the guests', and hospitality cannot justify sacrificing them.",
-  "takeaway": "Lot's offer puts his daughters in danger and must not be defended as righteous."
+  "scene": "Lot pleads with the men, calling them brothers and asking them not to act wickedly.",
+  "breakdown": "Lot names the crowd's intended assault as evil and urges them to stop. Calling them 'brothers' may be an attempt to appeal to their shared community, not an endorsement of their behavior. His protest against violence is right, but the proposal he makes next is deeply wrong. We must distinguish those two things rather than excuse everything Lot does.",
+  "takeaway": "Lot condemns the crowd's intended wrongdoing."
  },
  "8": {
-  "scene": "Lot pleads with the crowd not to harm the guests because they have come under his roof.",
-  "breakdown": "Lot appeals to his duty as a host, a serious obligation in his culture. But that duty cannot excuse what he has just proposed doing to his daughters. The verse helps us understand Lot's reasoning without requiring us to accept it as morally sound. The crowd remains hostile.",
-  "takeaway": "Lot appeals to hospitality while the threat continues."
+  "scene": "Lot offers his two daughters to the crowd instead of his guests, appealing to his duty to protect those under his roof.",
+  "breakdown": "This is a horrifying offer: Lot proposes handing over his daughters to men threatening sexual violence. He says his daughters have not had sexual relations and asks the mob to do what they wish with them, while leaving his guests alone. Genesis records his reasoning about hospitality; it does not say God approves this proposal. His daughters' safety and dignity are not expendable, and protecting visitors cannot justify sacrificing them.",
+  "takeaway": "Lot's attempt to protect his guests puts his daughters in grave danger."
  },
  "9": {
   "scene": "The crowd tells Lot to get out of the way, calls him an outsider who acts like a judge, and threatens him more severely than the visitors.",
