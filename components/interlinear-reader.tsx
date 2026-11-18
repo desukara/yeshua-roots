@@ -5247,50 +5247,40 @@ const plainGenesisThirtyFive:Record<number,PlainVerseStudy>={
  },
  "22": {
   "scene": "While Israel lives in that region, Reuben sleeps with Bilhah, his father's concubine, and Israel hears about it.",
-  "breakdown": "This is a grave violation within the family, involving Reuben and Bilhah, who is also the mother of two of Jacob's sons. The text does not describe Bilhah's wishes or the circumstances, so we should not invent consent or motives. Jacob learns of the act, and its consequences surface later in Genesis.",
+  "breakdown": "This is a grave violation within the family, involving Reuben and Bilhah, who is also the mother of two of Jacob's sons. The text does not describe Bilhah's wishes or the circumstances, so we should not invent consent or motives. Jacob learns of the act, and its consequences surface later in Genesis. The verse then introduces the list of Jacob's twelve sons, which continues immediately afterward.",
   "takeaway": "Reuben violates a serious family boundary with Bilhah."
  },
  "23": {
-  "scene": "The narrator introduces the twelve sons of Jacob.",
-  "breakdown": "This brief statement connects the family story to the twelve sons who will become central to Israel's history. The list includes Benjamin, born just before Rachel's death, and prepares for the next generation's stories.",
-  "takeaway": "Jacob's twelve sons are gathered into one family list."
- },
- "24": {
   "scene": "Leah's sons are named as Reuben, Simeon, Levi, Judah, Issachar, and Zebulun.",
   "breakdown": "The order identifies the six sons born to Leah. Their stories have already shown rivalry, conflict, and very different choices; the list does not make them interchangeable or excuse their actions.",
   "takeaway": "The narrator lists Leah's six sons."
  },
- "25": {
+ "24": {
   "scene": "Rachel's sons are Joseph and Benjamin.",
   "breakdown": "The short list carries emotional weight after Rachel's death. Joseph was born after her long struggle with childlessness, and Benjamin was born during her fatal labor.",
   "takeaway": "Joseph and Benjamin are named as Rachel's sons."
  },
- "26": {
+ "25": {
   "scene": "Bilhah's sons are Dan and Naphtali.",
   "breakdown": "Bilhah gave birth to both boys while serving in Rachel's household. The narrator identifies her as their mother, even though Rachel claimed their births as part of her own family story.",
   "takeaway": "Dan and Naphtali are named as Bilhah's sons."
  },
- "27": {
+ "26": {
   "scene": "Zilpah's sons are Gad and Asher.",
-  "breakdown": "Zilpah gave birth to these two sons while serving in Leah's household. Naming her separately keeps the children's birth mothers visible in a family shaped by unequal power and competition.",
+  "breakdown": "Zilpah gave birth to these two sons while serving in Leah's household. Naming her separately keeps the children's birth mothers visible in a family shaped by unequal power and competition. The sons are collectively associated with Jacob's years in Paddan-aram, though Benjamin's birth has just been located near Ephrath; that closing description is a broad family summary.",
   "takeaway": "Gad and Asher are named as Zilpah's sons."
  },
- "28": {
-  "scene": "The narrator says these are the sons born to Jacob in Paddan-aram.",
-  "breakdown": "This is a summary of Jacob's family associated with his years away, not a claim that every birth happened in exactly the same location. Benjamin's birth has just been placed on the road near Ephrath, so the closing line should be read as a broad family summary rather than used to erase that detail.",
-  "takeaway": "The narrator closes the list of Jacob's sons."
- },
- "29": {
+ "27": {
   "scene": "Jacob arrives at his father Isaac's home at Mamre, near Kiriath-arba, that is, Hebron, where Abraham and Isaac had lived.",
   "breakdown": "Jacob finally reaches the region associated with his father and grandfather. The return fulfills a major part of his long journey, though Genesis does not give a detailed account of his reunion with Isaac. The place-names connect this scene to the family's earlier history.",
   "takeaway": "Jacob reaches Isaac at Hebron."
  },
- "30": {
+ "28": {
   "scene": "Isaac lives to be one hundred eighty years old.",
   "breakdown": "The narrator pauses to record Isaac's age at death. This is part of the patriarchal family record, not a timeline that by itself tells us the exact interval between Jacob's arrival and Isaac's death.",
   "takeaway": "Isaac's lifespan is recorded as 180 years."
  },
- "31": {
+ "29": {
   "scene": "Isaac dies at an old age and is gathered to his people, and Esau and Jacob bury him.",
   "breakdown": "'Gathered to his people' is a traditional expression for death and joining one's ancestors; the verse also plainly records burial. The brothers who once fought over their father's blessing now stand together to bury him. Their shared act is meaningful, though it does not describe every detail of their relationship.",
   "takeaway": "Esau and Jacob bury their father Isaac."
