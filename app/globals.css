@@ -751,3 +751,8 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .interlinear-reader .torah-reader-pagination{margin:15px 0 6px}
 .interlinear-reader .torah-reader-pagination button:not(:disabled){background:#f4e4c4;border:2px solid #826038;color:#283d2d;font-weight:700}
 .interlinear-reader .torah-reader-pagination button:focus-visible{outline:3px solid #326e65;outline-offset:3px}
+
+.interlinear-reader .torah-word-more{margin-top:5px;border-top:1px solid #d8c39e;padding-top:9px;color:#4b493f}
+.interlinear-reader .torah-word-more summary{cursor:pointer;font-weight:700;color:#355b49;padding:6px 0}
+.interlinear-reader .torah-word-more summary:focus-visible{outline:3px solid #326e65;outline-offset:3px}
+.interlinear-reader .interlinear-detail p strong{font-size:inherit;color:#344b39}
