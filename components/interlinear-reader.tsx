@@ -4711,170 +4711,170 @@ const plainGenesisThirtyOne:Record<number,PlainVerseStudy>={
   "scene": "Jacob offers a sacrifice and invites his relatives to eat in the hills.",
   "breakdown": "The sacrifice and meal accompany the covenant. The confrontation ends with shared ritual rather than a fight.",
   "takeaway": "A sacrifice and meal seal the agreement."
- },
- "55": {
-  "scene": "Laban kisses and blesses his daughters and grandchildren, then returns home.",
-  "breakdown": "He finally has the farewell he earlier complained about missing. The families part peacefully, while Jacob's journey toward Esau remains ahead.",
-  "takeaway": "Laban blesses his family and returns home."
  }
 };
 const plainGenesisThirtyTwo:Record<number,PlainVerseStudy>={
  "1": {
+  "scene": "Laban kisses and blesses his daughters and grandchildren, then returns home.",
+  "breakdown": "He finally has the farewell he earlier complained about missing. The families part peacefully, while Jacob's journey toward Esau remains ahead.",
+  "takeaway": "Laban blesses his family and returns home."
+ },
+ "2": {
   "scene": "Jacob continues his journey, and angels of God meet him.",
   "breakdown": "Jacob has just parted from Laban after a tense agreement. Now, before facing Esau, he encounters God's messengers. Genesis doesn't describe their appearance or record what they say. Their presence recalls God's promise to accompany Jacob on his journey.",
   "takeaway": "God's messengers meet Jacob on the road."
  },
- "2": {
+ "3": {
   "scene": "Jacob calls the place Mahanaim after saying it is God's camp.",
   "breakdown": "Mahanaim is connected with the Hebrew word for two camps. Jacob recognizes the encounter as evidence of God's presence. The text does not explain exactly how the angelic camp was arranged; the name matters because Jacob is about to divide his own people into camps.",
   "takeaway": "Jacob names the place Mahanaim, recalling God's camp."
  },
- "3": {
+ "4": {
   "scene": "Jacob sends messengers ahead to Esau in the land of Seir, the territory of Edom.",
   "breakdown": "Jacob must now face the brother who once planned to kill him. Sending word ahead is a cautious first step toward contact. Seir is associated with Esau and Edom; the verse doesn't say Jacob knows how Esau currently feels.",
   "takeaway": "Jacob reaches out to Esau before meeting him."
  },
- "4": {
+ "5": {
   "scene": "Jacob tells the messengers to address Esau as his lord and himself as Esau's servant, saying he has stayed with Laban until now.",
   "breakdown": "The wording is deliberately respectful. Jacob, who received a blessing about authority over his brother, approaches Esau humbly instead of demanding recognition. This may help ease the tension, though Genesis doesn't reveal all Jacob's calculations.",
   "takeaway": "Jacob approaches Esau with respectful language."
  },
- "5": {
+ "6": {
   "scene": "Jacob says he has cattle, donkeys, flocks, and servants and is sending word in hopes of finding Esau's favor.",
   "breakdown": "Jacob lets Esau know he has resources of his own. His message seeks a peaceful reception, not a claim on Esau's property. The expression about finding favor is a request for goodwill after their painful history.",
   "takeaway": "Jacob asks for Esau's goodwill."
  },
- "6": {
+ "7": {
   "scene": "The messengers return saying Esau is coming to meet Jacob with four hundred men.",
   "breakdown": "The report is unsettling because Jacob remembers Esau's old threat. But the messengers don't say Esau has declared war. Four hundred men could be a dangerous force; the narrative leaves Esau's intentions uncertain for now.",
   "takeaway": "Jacob hears Esau is approaching with four hundred men."
  },
- "7": {
+ "8": {
   "scene": "Jacob becomes very afraid and distressed and divides his people and animals into two camps.",
   "breakdown": "His fear is understandable given what happened years earlier. Jacob takes practical precautions rather than assuming the danger is imaginary. The division also echoes the name Mahanaim, though the text doesn't explicitly say Jacob chose it for that reason.",
   "takeaway": "Jacob divides his household because he fears an attack."
  },
- "8": {
+ "9": {
   "scene": "Jacob reasons that if Esau attacks one camp, the other may escape.",
   "breakdown": "Jacob's plan is about limiting losses, not defeating Esau. He knows he cannot guarantee everyone's safety. His strategy reveals how vulnerable a large traveling household can be when confronted by an armed group.",
   "takeaway": "Jacob hopes one camp might survive if the other is attacked."
  },
- "9": {
+ "10": {
   "scene": "Jacob prays to the God of Abraham and Isaac, recalling God's command to return home and His promise to do him good.",
   "breakdown": "Jacob turns from planning to prayer, addressing the God who directed his journey. He reminds God of the promise rather than pretending he feels fearless. The prayer shows practical preparation and dependence on God side by side.",
   "takeaway": "Jacob appeals to God's promise in prayer."
  },
- "10": {
+ "11": {
   "scene": "Jacob says he is unworthy of God's steadfast love and faithfulness, recalling that he crossed the Jordan with only his staff and now has two camps.",
   "breakdown": "The Hebrew terms point to loyal kindness and faithfulness. Jacob remembers how little he had when he left and recognizes how much his household has grown. His words express gratitude and humility amid fear, not a claim that his past conduct was flawless.",
   "takeaway": "Jacob remembers God's faithfulness through his years away."
  },
- "11": {
+ "12": {
   "scene": "Jacob asks God to rescue him from Esau because he fears an attack on the family, including mothers and children.",
   "breakdown": "Jacob speaks honestly about the danger he imagines. The phrase about mother and children emphasizes how devastating violence could be. The text records his fear, not a confirmed plan by Esau to harm them.",
   "takeaway": "Jacob asks God to protect his vulnerable family."
  },
- "12": {
+ "13": {
   "scene": "Jacob recalls God's promise to make his descendants numerous as the sand of the sea.",
   "breakdown": "He closes his prayer by appealing again to God's word about his future family. The promise of many descendants makes the threat of losing them especially painful. Jacob is holding onto the promise while admitting he is afraid.",
   "takeaway": "Jacob anchors his prayer in God's promise of descendants."
  },
- "13": {
+ "14": {
   "scene": "Jacob spends the night there and selects a gift for Esau from his possessions.",
   "breakdown": "After praying, Jacob takes another practical step. He chooses animals as a present to send ahead, hoping to change the tone of their meeting. The gift does not erase the old wrong, but it is an attempt to approach Esau peacefully.",
   "takeaway": "Jacob prepares a substantial gift for Esau."
  },
- "14": {
+ "15": {
   "scene": "The gift includes two hundred female goats, twenty male goats, two hundred ewes, and twenty rams.",
   "breakdown": "Genesis gives exact numbers to show the size of the offering. These are valuable breeding and herd animals, not a token gesture. The detailed list continues in the next verse.",
   "takeaway": "Jacob chooses large numbers of goats and sheep."
  },
- "15": {
+ "16": {
   "scene": "Jacob also selects thirty nursing camels with their young, forty cows, ten bulls, twenty female donkeys, and ten male donkeys.",
   "breakdown": "The gift spans several kinds of livestock and includes animals with their young. The size reflects Jacob's wealth and how seriously he takes the coming encounter. The text does not assign a monetary value to the animals.",
   "takeaway": "Jacob adds camels, cattle, and donkeys to the gift."
  },
- "16": {
+ "17": {
   "scene": "Jacob puts the animals into separate herds under servants and orders space between the groups.",
   "breakdown": "The spacing makes the gift arrive in stages instead of as one crowded herd. Jacob is carefully organizing the approach to Esau. The narrative shows planning without guaranteeing the strategy will work.",
   "takeaway": "Jacob sends the gift in spaced-out groups."
  },
- "17": {
+ "18": {
   "scene": "Jacob instructs the first servant how to answer if Esau asks whose animals these are and where the servant is going.",
   "breakdown": "Jacob anticipates Esau's questions and prepares a respectful answer. The servant is to identify Jacob as Esau's servant and say the animals are a gift. Jacob remains behind the herd rather than leading the first encounter himself.",
   "takeaway": "Jacob prepares his servant to explain the gift."
  },
- "18": {
+ "19": {
   "scene": "The servant is to say the animals belong to Jacob, are a present for Esau, and that Jacob is coming behind them.",
   "breakdown": "The message repeats Jacob's humble language and makes the purpose of the livestock clear. It is not a demand or a disguised attack. Jacob wants Esau to receive goodwill before seeing him face to face.",
   "takeaway": "The first herd carries Jacob's message of goodwill."
  },
- "19": {
+ "20": {
   "scene": "Jacob gives the same instructions to the servants leading the second, third, and following herds.",
   "breakdown": "Each group will reinforce the same message as Esau encounters it. The repeated approach is deliberate. Genesis does not say whether every servant actually spoke the words exactly as planned.",
   "takeaway": "Jacob repeats the message with each group."
  },
- "20": {
+ "21": {
   "scene": "Jacob hopes the gifts sent ahead will appease Esau so that Esau will accept him when they meet.",
   "breakdown": "The Hebrew language of appeasing can carry the sense of covering over an offense. Jacob is trying to repair a dangerous relationship, though a gift cannot force forgiveness. His plan reveals both his fear and his desire for a peaceful reception.",
   "takeaway": "Jacob hopes the gifts will soften Esau's response."
  },
- "21": {
+ "22": {
   "scene": "The gifts go ahead while Jacob spends the night in the camp.",
   "breakdown": "Jacob stays behind after sending the animals. He has prayed, planned, and offered gifts, but he still has not met Esau. The suspense remains unresolved as night falls.",
   "takeaway": "Jacob waits behind the gifts."
  },
- "22": {
+ "23": {
   "scene": "That night Jacob gets up, takes his two wives, two female servants, and eleven sons, and crosses the ford of the Jabbok.",
   "breakdown": "The verse names the members of the household who cross with him. Dinah is not mentioned in this count, but that does not establish she was absent; the text specifies eleven sons. The Jabbok is a river crossing on Jacob's route toward Esau.",
   "takeaway": "Jacob moves his family across the Jabbok at night."
  },
- "23": {
+ "24": {
   "scene": "Jacob sends them across the stream along with everything he owns.",
   "breakdown": "The movement leaves Jacob separated from the household for the encounter that follows. The text does not explain every step of the crossing or why he arranged it this way. It sets the scene for Jacob being alone.",
   "takeaway": "Jacob sends his household and possessions across."
  },
- "24": {
+ "25": {
   "scene": "Jacob is left alone, and a man wrestles with him until daybreak.",
   "breakdown": "The narrator first calls the mysterious figure a man. Later verses connect the encounter with God, while Hosea 12 also speaks of an angel; readers should not flatten the mystery into a simple physical description. The struggle lasts through the night, and Genesis does not explain how it began.",
   "takeaway": "Jacob wrestles through the night with a mysterious figure."
  },
- "25": {
+ "26": {
   "scene": "When the man sees he has not prevailed against Jacob, he touches Jacob's hip socket, and it is put out of joint.",
   "breakdown": "The account emphasizes both the persistence of the struggle and the other figure's extraordinary power. A touch injures Jacob's hip, so this is not merely a symbolic disagreement. The verse doesn't explain the figure's limits or why the struggle unfolds this way.",
   "takeaway": "Jacob's hip is injured during the wrestling."
  },
- "26": {
+ "27": {
   "scene": "The man asks to be released because dawn is breaking, but Jacob refuses unless he receives a blessing.",
   "breakdown": "Jacob holds on despite his injury. His request for blessing recalls the earlier family blessing obtained through deception, but here he asks openly in the midst of struggle. The passage does not say why the figure wants to leave at daybreak.",
   "takeaway": "Jacob refuses to let go without a blessing."
  },
- "27": {
+ "28": {
   "scene": "The man asks Jacob's name, and Jacob answers, 'Jacob.'",
   "breakdown": "The question comes just before the naming change. Jacob identifies himself plainly, unlike the moment when he falsely claimed to be Esau before Isaac. The text does not explicitly say the question is a confession, but the contrast is striking.",
   "takeaway": "Jacob states his own name."
  },
- "28": {
+ "29": {
   "scene": "The man says Jacob will now be called Israel because he has struggled with God and with people and has prevailed.",
   "breakdown": "Israel's name is connected here with struggling or contending with God, though the Hebrew name has been explained in more than one way. The words acknowledge Jacob's long pattern of conflict as well as this encounter. 'Prevailed' does not mean Jacob defeated God in a simple contest of strength; he leaves injured and blessed.",
   "takeaway": "Jacob receives the name Israel after the struggle."
  },
- "29": {
+ "30": {
   "scene": "Jacob asks the figure's name, but the figure responds with a question and blesses him there.",
   "breakdown": "Jacob wants to know whom he has encountered. The figure does not provide a name in response. The refusal preserves the mystery, while the blessing confirms that the meeting has changed Jacob's life.",
   "takeaway": "The mysterious figure blesses Jacob without giving a name."
  },
- "30": {
+ "31": {
   "scene": "Jacob names the place Peniel, saying he has seen God face to face and survived.",
   "breakdown": "Peniel is connected with 'face of God.' Jacob interprets the encounter as a meeting with God and marvels that his life has been spared. The story keeps the tension between the figure first described as a man and Jacob's declaration of divine encounter.",
   "takeaway": "Jacob calls the place Peniel because he believes he encountered God."
  },
- "31": {
+ "32": {
   "scene": "The sun rises as Jacob passes Penuel, and he limps because of his hip.",
   "breakdown": "The dawn brings an end to the night struggle, but Jacob carries a physical reminder of it. Peniel and Penuel are related forms of the place-name. The limp prevents us from describing the encounter as an effortless victory.",
   "takeaway": "Jacob leaves the encounter limping at sunrise."
  },
- "32": {
+ "33": {
   "scene": "The narrator explains that Israelites do not eat the sinew associated with the hip because of Jacob's injury.",
   "breakdown": "The final verse connects a food custom with the ancestor's experience. The anatomical term is often rendered 'sinew of the thigh' or 'sciatic nerve,' and precise identification is debated. Genesis explains the custom's remembered origin without detailing every later rule about its observance.",
   "takeaway": "The story links Jacob's injury to an Israelite food custom."
