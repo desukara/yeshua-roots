@@ -5954,7 +5954,124 @@ const plainGenesisThirtyNine:Record<number,PlainVerseStudy>={
   "takeaway": "Joseph's work prospers even though he is still imprisoned."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight,39:plainGenesisThirtyNine}};
+const plainGenesisForty:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Some time later, Pharaoh's cupbearer and baker offend their master, the king of Egypt.",
+  "breakdown": "The story introduces two royal officials who work close to Pharaoh. A cupbearer served drinks and could hold a trusted position; a baker oversaw food preparation. The verse says they offended Pharaoh but does not tell us what either man did, so their guilt should not be guessed.",
+  "takeaway": "Two royal officials get into trouble with Pharaoh."
+ },
+ "2": {
+  "scene": "Pharaoh becomes angry with his two officers, the chief cupbearer and the chief baker.",
+  "breakdown": "Their titles show that both held senior positions in the royal household. Pharaoh's anger puts them at risk because he has authority over their lives. The text still has not explained the offenses.",
+  "takeaway": "Pharaoh is angry with his chief cupbearer and baker."
+ },
+ "3": {
+  "scene": "Pharaoh puts the two officials in custody at the house of the captain of the guard, in the prison where Joseph is held.",
+  "breakdown": "Their imprisonment brings them into the same place as Joseph. The location is tied to the captain of the guard, the title earlier given to Potiphar, but the verse does not require us to reconstruct every detail of the prison administration.",
+  "takeaway": "The officials are confined in Joseph's prison."
+ },
+ "4": {
+  "scene": "The captain of the guard assigns Joseph to attend to the two officials, and they remain in custody for some time.",
+  "breakdown": "Joseph is still a prisoner, yet he is given responsibility for caring for other detainees. The verse does not say how long the officials stay. This assignment creates the relationship that makes their dreams important.",
+  "takeaway": "Joseph is assigned to serve the two prisoners."
+ },
+ "5": {
+  "scene": "One night both prisoners have dreams, each with its own meaning.",
+  "breakdown": "The cupbearer and baker dream on the same night, but the narrator stresses that the dreams are distinct. That detail matters because Joseph will not give them one shared interpretation. Dreams have already shaped Joseph's life, but he is now listening to someone else's.",
+  "takeaway": "Both officials dream on the same night."
+ },
+ "6": {
+  "scene": "Joseph comes to them in the morning and notices that they look troubled.",
+  "breakdown": "Joseph pays attention to the men's faces while carrying out his duties. Even in prison, he sees their distress rather than treating them as just another assignment. The verse does not yet explain why they are upset.",
+  "takeaway": "Joseph notices the prisoners' distress."
+ },
+ "7": {
+  "scene": "Joseph asks Pharaoh's officers why they look so sad that day.",
+  "breakdown": "The question is simple and direct. Joseph gives the men an opening to explain what is bothering them. It is a small moment of care within a setting where none of them controls his own freedom.",
+  "takeaway": "Joseph asks what is troubling them."
+ },
+ "8": {
+  "scene": "They say they have had dreams but have no interpreter, and Joseph replies that interpretations belong to God and invites them to tell him.",
+  "breakdown": "The men are troubled because they believe their dreams matter but have no one to explain them. Joseph does not claim an independent magical skill; he credits God as the source of true interpretation. Then he listens.",
+  "takeaway": "Joseph says dream interpretations belong to God."
+ },
+ "9": {
+  "scene": "The chief cupbearer tells Joseph that he saw a vine in front of him in his dream.",
+  "breakdown": "The first dream begins with an image familiar to someone responsible for wine at the royal table. Joseph listens to the cupbearer's account before giving any meaning to it.",
+  "takeaway": "The cupbearer describes a vine in his dream."
+ },
+ "10": {
+  "scene": "The vine has three branches, buds, blossoms, and clusters of ripe grapes.",
+  "breakdown": "The dream moves quickly from growth to harvest. The three branches will matter in Joseph's explanation, but the verse itself is still part of the dream description. The vivid sequence makes the image easy to remember.",
+  "takeaway": "The cupbearer sees three branches producing grapes."
+ },
+ "11": {
+  "scene": "In the dream the cupbearer holds Pharaoh's cup, squeezes grapes into it, and places it in Pharaoh's hand.",
+  "breakdown": "The scene ends with the official performing his old job again. That detail is central to the interpretation Joseph will give. The dream is not just about grapes; it places the cupbearer back in royal service.",
+  "takeaway": "The dream shows the cupbearer serving Pharaoh again."
+ },
+ "12": {
+  "scene": "Joseph explains that the three branches stand for three days.",
+  "breakdown": "Joseph begins with the time frame rather than making the cupbearer guess. The interpretation is presented as an explanation of this particular dream, not a rule that every group of three in a dream always means three days.",
+  "takeaway": "The three branches represent three days."
+ },
+ "13": {
+  "scene": "Joseph says that within three days Pharaoh will lift up the cupbearer's head, restore him to office, and he will again place Pharaoh's cup in his hand.",
+  "breakdown": "Here 'lift up your head' is favorable: Pharaoh will recognize and restore the cupbearer. Joseph ties the outcome to the man's former role, just as the dream pictured it. The next interpretation will use similar wording with a very different outcome.",
+  "takeaway": "Joseph predicts the cupbearer will be restored to his job."
+ },
+ "14": {
+  "scene": "Joseph asks the cupbearer to remember him when things go well and to show kindness by mentioning him to Pharaoh so he can leave prison.",
+  "breakdown": "Joseph sees a possible path out of his unjust confinement. Asking for help is not a failure of trust in God; he has a real need and appeals to someone who may soon have access to Pharaoh. The request also shows Joseph does not accept imprisonment as something he deserves.",
+  "takeaway": "Joseph asks the cupbearer to help him get released."
+ },
+ "15": {
+  "scene": "Joseph explains that he was taken from the land of the Hebrews and has done nothing to deserve being put in this pit.",
+  "breakdown": "Joseph names two injustices: he was taken from his homeland, and he has not committed a crime deserving prison. Calling the prison a 'pit' echoes the pit his brothers threw him into. The text does not ask us to minimize his suffering because God is with him.",
+  "takeaway": "Joseph says he has been wrongfully taken and imprisoned."
+ },
+ "16": {
+  "scene": "The chief baker sees that Joseph gave a favorable interpretation and tells him his own dream, which includes three baskets of white bread on his head.",
+  "breakdown": "The baker speaks after hearing good news for the cupbearer. His dream uses the imagery of his own work, just as the cupbearer's did. The Hebrew description of the baskets or bread is translated in different ways, but the number three is clear.",
+  "takeaway": "The baker tells Joseph about three baskets in his dream."
+ },
+ "17": {
+  "scene": "The top basket contains baked food for Pharaoh, but birds are eating it from the basket on the baker's head.",
+  "breakdown": "Unlike the cupbearer's dream, this scene ends with the royal food being taken away before it reaches Pharaoh. The birds are part of the dream's troubling picture. Joseph will explain its meaning rather than leaving the baker to guess.",
+  "takeaway": "Birds eat the food meant for Pharaoh."
+ },
+ "18": {
+  "scene": "Joseph says the three baskets represent three days.",
+  "breakdown": "The time frame matches the cupbearer's dream, but that does not mean the outcome will match. Each dream has its own interpretation, just as the narrator told us at the beginning.",
+  "takeaway": "The baker's three baskets also mean three days."
+ },
+ "19": {
+  "scene": "Joseph says that within three days Pharaoh will lift up the baker's head from him, execute him, and leave his body exposed for birds to eat.",
+  "breakdown": "The phrase about lifting the head turns grim here. Unlike the cupbearer, the baker will not be restored; Joseph predicts his death and public exposure. The verse is disturbing, and the explanation should not soften it into a happy lesson or claim we know the baker's offense.",
+  "takeaway": "Joseph predicts the baker's execution."
+ },
+ "20": {
+  "scene": "On Pharaoh's birthday, three days later, he holds a feast for his servants and brings the chief cupbearer and chief baker before them.",
+  "breakdown": "The timing matches Joseph's interpretation. The birthday feast provides the occasion for Pharaoh to decide the officials' fates in public. The text does not tell us why he chooses these particular outcomes.",
+  "takeaway": "Pharaoh makes his decisions at a birthday feast."
+ },
+ "21": {
+  "scene": "Pharaoh restores the chief cupbearer to his position, and the cupbearer again places the cup in Pharaoh's hand.",
+  "breakdown": "The cupbearer's restoration happens just as Joseph said, including the return to his old task. This confirms the favorable part of Joseph's interpretation. It also puts the cupbearer in a position to speak for Joseph if he remembers.",
+  "takeaway": "The cupbearer is restored exactly as predicted."
+ },
+ "22": {
+  "scene": "Pharaoh has the chief baker executed, just as Joseph had interpreted the dream.",
+  "breakdown": "The baker's fate also matches Joseph's words. The story records the execution without explaining the original accusation or inviting us to invent a reason. The contrasting outcomes show why the two dreams needed separate interpretations.",
+  "takeaway": "The baker is executed as Joseph predicted."
+ },
+ "23": {
+  "scene": "The chief cupbearer does not remember Joseph; he forgets him.",
+  "breakdown": "The chapter ends with an especially painful contrast: Joseph helped the cupbearer, and the cupbearer returned to his position, but Joseph remains in prison. The text emphasizes the forgetting twice. Joseph's story is not finished, yet his hoped-for release does not come now.",
+  "takeaway": "The restored cupbearer forgets Joseph."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight,39:plainGenesisThirtyNine,40:plainGenesisForty}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
