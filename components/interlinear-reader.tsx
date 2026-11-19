@@ -6071,7 +6071,294 @@ const plainGenesisForty:Record<number,PlainVerseStudy>={
   "takeaway": "The restored cupbearer forgets Joseph."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight,39:plainGenesisThirtyNine,40:plainGenesisForty}};
+const plainGenesisFortyOne:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Two full years pass, and Pharaoh dreams that he is standing beside the Nile.",
+  "breakdown": "Joseph has remained in prison since the cupbearer forgot him. The two-year delay matters: the help Joseph requested did not come quickly. The Nile is central to Egypt's food supply, making it a fitting setting for the dream that follows.",
+  "takeaway": "After two more years, Pharaoh has a dream."
+ },
+ "2": {
+  "scene": "Seven healthy, well-fed cows come up from the Nile and graze among the reeds.",
+  "breakdown": "The first animals look strong and well nourished. For people who depend on livestock and fertile land, that is an image of plenty. The number seven will matter when Joseph interprets the dream.",
+  "takeaway": "Seven healthy cows appear beside the river."
+ },
+ "3": {
+  "scene": "Seven other cows come up after them, ugly and thin, and stand beside the healthy cows.",
+  "breakdown": "The second group contrasts sharply with the first. Both groups appear in the same setting, so the dream presents abundance and want side by side. Pharaoh does not yet know what the contrast means.",
+  "takeaway": "Seven thin cows appear after the healthy ones."
+ },
+ "4": {
+  "scene": "The thin cows eat the seven healthy cows, and Pharaoh wakes up.",
+  "breakdown": "The startling image reverses what a person would expect: the weak animals consume the strong. It is disturbing enough to wake Pharaoh. The meaning will come later, so the verse should not be treated as though Pharaoh already understands it.",
+  "takeaway": "The thin cows consume the healthy cows."
+ },
+ "5": {
+  "scene": "Pharaoh falls asleep again and dreams of seven full, good heads of grain growing on one stalk.",
+  "breakdown": "The second dream shifts from cattle to crops, another foundation of Egypt's food supply. The seven healthy heads suggest a plentiful harvest. The two dreams will ultimately carry the same warning.",
+  "takeaway": "Pharaoh dreams of seven full heads of grain."
+ },
+ "6": {
+  "scene": "Seven thin heads of grain, scorched by the east wind, grow up after the healthy ones.",
+  "breakdown": "The thin grain is damaged and unproductive, the opposite of the full heads. The east wind is associated with drying conditions in the region. The dream again places seven good things beside seven bad ones.",
+  "takeaway": "Seven damaged heads of grain follow the good ones."
+ },
+ "7": {
+  "scene": "The thin heads swallow the seven full heads, and Pharaoh wakes to realize it was a dream.",
+  "breakdown": "Like the cows, the poor-looking grain consumes the healthy grain. This repeated pattern links the dreams, though Pharaoh has not yet received an interpretation. The image leaves him with a warning he cannot explain.",
+  "takeaway": "The damaged grain swallows the healthy grain."
+ },
+ "8": {
+  "scene": "In the morning Pharaoh is troubled and summons Egypt's magicians and wise men, but none can interpret his dreams.",
+  "breakdown": "Pharaoh turns to people expected to explain difficult signs. The verse does not say they make no guesses; it says no one gives Pharaoh an interpretation. Their inability opens the way for someone outside the royal circle.",
+  "takeaway": "Egypt's experts cannot explain Pharaoh's dreams."
+ },
+ "9": {
+  "scene": "The chief cupbearer speaks to Pharaoh and says he remembers his offenses.",
+  "breakdown": "The cupbearer finally recalls the events surrounding his own imprisonment. His words introduce the story he should have remembered earlier. The verse does not describe why this moment, rather than any earlier one, prompts him to speak.",
+  "takeaway": "The cupbearer finally remembers the prison events."
+ },
+ "10": {
+  "scene": "He recalls that Pharaoh had been angry with him and the chief baker and confined them in the captain of the guard's house.",
+  "breakdown": "The cupbearer explains how he came to meet Joseph. By mentioning the baker, he prepares Pharaoh to hear about two dreams with two different outcomes. He is recounting his own experience, not yet describing Joseph's interpretation.",
+  "takeaway": "The cupbearer recounts his imprisonment with the baker."
+ },
+ "11": {
+  "scene": "He tells Pharaoh that both men dreamed on the same night and that each dream had its own meaning.",
+  "breakdown": "This detail matters because Joseph did not offer a vague explanation that could fit anything. The two officials received distinct predictions. The cupbearer is building a case for Joseph's ability to interpret Pharaoh's dreams.",
+  "takeaway": "The cupbearer recalls their separate dreams."
+ },
+ "12": {
+  "scene": "The cupbearer says a young Hebrew servant of the captain of the guard was with them and interpreted each dream.",
+  "breakdown": "Joseph is identified by age, ethnicity, and enslaved status, not by any royal standing. The cupbearer credits him with explaining both dreams. Joseph's low position makes the coming summons especially remarkable.",
+  "takeaway": "The cupbearer tells Pharaoh about Joseph."
+ },
+ "13": {
+  "scene": "The cupbearer reports that everything happened as Joseph interpreted: he was restored and the baker was executed.",
+  "breakdown": "The fulfilled outcomes give Pharaoh a concrete reason to listen. The cupbearer does not merely claim Joseph is clever; he points to predictions that came true. His report also recalls the grim fate of the baker without explaining the original offense.",
+  "takeaway": "Joseph's earlier interpretations proved accurate."
+ },
+ "14": {
+  "scene": "Pharaoh sends for Joseph, who is hurried from the prison, shaves, changes clothes, and appears before him.",
+  "breakdown": "Joseph's circumstances change suddenly after a long wait. Shaving and changing clothes prepare him to enter the royal presence, but they do not mean he has already been declared innocent or freed permanently. The meeting is a summons from the king.",
+  "takeaway": "Joseph is brought from prison before Pharaoh."
+ },
+ "15": {
+  "scene": "Pharaoh tells Joseph he has had a dream no one can interpret and has heard Joseph can explain dreams.",
+  "breakdown": "Pharaoh approaches Joseph because of the cupbearer's testimony. The king describes Joseph's reputation, but Joseph will immediately redirect the credit. The verse shows why the prisoner has been brought into court.",
+  "takeaway": "Pharaoh asks Joseph for an interpretation."
+ },
+ "16": {
+  "scene": "Joseph replies that the answer does not come from himself; God will give Pharaoh an answer concerning his welfare.",
+  "breakdown": "Joseph refuses to present himself as the independent source of wisdom. This echoes what he told the prisoners in chapter 40: interpretations belong to God. His confidence is directed toward God, not toward his own status.",
+  "takeaway": "Joseph gives God the credit for interpretation."
+ },
+ "17": {
+  "scene": "Pharaoh begins recounting his dream: he was standing on the bank of the Nile.",
+  "breakdown": "The king repeats the dream so Joseph can hear it directly. The setting remains the river that sustains Egyptian agriculture. Joseph listens before offering an explanation.",
+  "takeaway": "Pharaoh begins telling Joseph the river dream."
+ },
+ "18": {
+  "scene": "Pharaoh says seven fat, healthy cows came up from the river and grazed among the reeds.",
+  "breakdown": "This repeats the first group of cows, emphasizing their excellent condition. The details matter because the dream contrasts a period of abundance with what follows.",
+  "takeaway": "Pharaoh describes the seven healthy cows."
+ },
+ "19": {
+  "scene": "He says seven other cows followed, thin, ugly, and unlike any he had seen in Egypt.",
+  "breakdown": "Pharaoh adds how exceptionally poor the second group looked to him. His emphasis shows the image deeply disturbed him. The dream is not about ordinary variation among animals.",
+  "takeaway": "The second group of cows looks terribly unhealthy."
+ },
+ "20": {
+  "scene": "Pharaoh says the thin cows ate the seven fat cows.",
+  "breakdown": "The central disturbing action is repeated for Joseph. The weak consuming the strong is the part of the dream that calls for explanation.",
+  "takeaway": "The thin cows swallow the healthy cows."
+ },
+ "21": {
+  "scene": "Even after eating the healthy cows, the thin cows still look as bad as before, and Pharaoh wakes.",
+  "breakdown": "This detail appears in Pharaoh's retelling and strengthens the picture of scarcity that abundance cannot overcome. The later interpretation will explain why the earlier plenty seems to vanish completely.",
+  "takeaway": "The thin cows remain thin even after eating."
+ },
+ "22": {
+  "scene": "Pharaoh recounts his second dream: seven full, good heads of grain grew on one stalk.",
+  "breakdown": "The king now moves from cattle to grain. Both dreams use seven healthy examples from the food supply. Joseph will show that the two images reinforce one message.",
+  "takeaway": "Pharaoh describes seven healthy heads of grain."
+ },
+ "23": {
+  "scene": "Seven withered, thin heads of grain, scorched by the east wind, grew after them.",
+  "breakdown": "Pharaoh again stresses the damage to the second group. The poor grain follows the good grain, mirroring the order of the cows. This sequence will be important to the interpretation.",
+  "takeaway": "Seven damaged heads of grain follow."
+ },
+ "24": {
+  "scene": "The thin heads swallowed the good ones, and Pharaoh says he told the magicians but none could explain it.",
+  "breakdown": "Pharaoh finishes with the same reversal found in the cattle dream. His advisers have failed to give an explanation, so Joseph is being asked to address a problem the court could not solve.",
+  "takeaway": "Pharaoh finishes the dreams and repeats his need for an answer."
+ },
+ "25": {
+  "scene": "Joseph tells Pharaoh that the two dreams are one message: God is showing Pharaoh what he is about to do.",
+  "breakdown": "Joseph does not treat the dreams as unrelated predictions. Both point to the same coming events. The focus is on a warning about the future, not on Joseph gaining prestige for his own sake.",
+  "takeaway": "Both dreams communicate one warning from God."
+ },
+ "26": {
+  "scene": "Joseph explains that the seven healthy cows and seven good heads of grain both mean seven years.",
+  "breakdown": "The two images represent the same period rather than fourteen separate good years. Joseph makes the connection explicit so Pharaoh can understand the repeated number.",
+  "takeaway": "The healthy cows and grain represent seven years."
+ },
+ "27": {
+  "scene": "Joseph says the seven thin cows and seven scorched heads of grain mean seven years of famine.",
+  "breakdown": "The bad images also refer to one shared period. The interpretation now establishes the sequence: good years will be followed by years of severe shortage.",
+  "takeaway": "The thin cows and damaged grain represent seven famine years."
+ },
+ "28": {
+  "scene": "Joseph repeats that God has shown Pharaoh what he is about to do.",
+  "breakdown": "This restatement reinforces the source and seriousness of the message. Joseph is not offering a guess based on Egyptian agricultural patterns; within the narrative, he presents the dreams as God's disclosure of coming events.",
+  "takeaway": "Joseph stresses that the warning comes from God."
+ },
+ "29": {
+  "scene": "Seven years of great abundance are coming throughout Egypt.",
+  "breakdown": "Joseph begins describing the first period in practical terms. Egypt will have unusually plentiful harvests, which creates an opportunity to prepare before conditions change.",
+  "takeaway": "Egypt will experience seven years of plenty."
+ },
+ "30": {
+  "scene": "Seven years of famine will follow, so severe that the earlier abundance will be forgotten and the land will be devastated.",
+  "breakdown": "The warning is not merely that harvests will become average again. Joseph describes a crisis capable of overwhelming the memory and benefits of the good years. Preparation must happen before the shortage begins.",
+  "takeaway": "A severe famine will follow the years of plenty."
+ },
+ "31": {
+  "scene": "Joseph says the abundance will no longer be apparent because the famine will be so severe.",
+  "breakdown": "This restates the image of the thin cows remaining thin after consuming the fat ones. The good years will not protect Egypt automatically if their resources are not managed.",
+  "takeaway": "The famine will overwhelm the earlier prosperity."
+ },
+ "32": {
+  "scene": "Joseph explains that Pharaoh received the dream twice because the matter is firmly decided by God and will happen soon.",
+  "breakdown": "The repeated dreams confirm the certainty and urgency of the warning in Joseph's interpretation. 'Soon' does not mean the famine begins immediately; seven plentiful years must come first. It means the announced sequence is about to begin.",
+  "takeaway": "The repeated dreams emphasize certainty and urgency."
+ },
+ "33": {
+  "scene": "Joseph advises Pharaoh to appoint a discerning, wise man over Egypt.",
+  "breakdown": "Joseph moves from interpreting the warning to proposing a response. Understanding a coming crisis is not enough; Egypt needs leadership capable of acting before the famine. Joseph does not explicitly ask to be appointed.",
+  "takeaway": "Joseph recommends wise leadership for the coming crisis."
+ },
+ "34": {
+  "scene": "Joseph proposes appointing overseers and collecting a fifth of Egypt's produce during the seven plentiful years.",
+  "breakdown": "The plan turns the warning into a measurable policy: store twenty percent of the harvest during abundance. The verse does not explain all the mechanics of collection, but it makes clear that preparation will require coordinated administration.",
+  "takeaway": "Joseph proposes storing one-fifth of the harvest."
+ },
+ "35": {
+  "scene": "He says the officials should gather food from the good years and store grain in cities under Pharaoh's authority.",
+  "breakdown": "Joseph wants the food preserved and distributed through organized local storage rather than left to chance. The plan places the reserves under royal control. The text does not discuss how every farmer or household would experience this policy.",
+  "takeaway": "Joseph recommends organized grain reserves in the cities."
+ },
+ "36": {
+  "scene": "The stored food will be a reserve for the seven famine years so Egypt will not be ruined by hunger.",
+  "breakdown": "The goal is survival, not simply increasing Pharaoh's wealth. Joseph links careful management in prosperous years to protecting people when harvests fail. The plan depends on acting before the danger arrives.",
+  "takeaway": "Stored grain can help Egypt survive the famine."
+ },
+ "37": {
+  "scene": "Pharaoh and his officials approve Joseph's proposal.",
+  "breakdown": "Joseph's advice makes sense to the royal court. The verse reports their favorable reaction without claiming they already know every consequence of the plan. Their approval sets up Joseph's unexpected rise.",
+  "takeaway": "Pharaoh and his advisers favor Joseph's plan."
+ },
+ "38": {
+  "scene": "Pharaoh asks his officials whether they can find anyone like Joseph, in whom is the Spirit of God.",
+  "breakdown": "Pharaoh recognizes something extraordinary in Joseph's insight. The wording expresses the king's assessment, not a detailed account of his personal theology. Joseph, who arrived as a prisoner, is now being considered for leadership.",
+  "takeaway": "Pharaoh sees Joseph as uniquely qualified."
+ },
+ "39": {
+  "scene": "Pharaoh tells Joseph that because God has made these things known to him, no one is as discerning and wise.",
+  "breakdown": "Pharaoh connects Joseph's wisdom to the interpretation he has just given. Joseph's ability to explain the crisis and propose a response makes him stand out from the court's advisers.",
+  "takeaway": "Pharaoh acknowledges Joseph's wisdom."
+ },
+ "40": {
+  "scene": "Pharaoh appoints Joseph over his household and says all his people will be governed by Joseph's word; only the throne will rank above him.",
+  "breakdown": "Joseph receives sweeping authority, though Pharaoh remains king. The contrast with prison is dramatic. His new office does not erase the injustice that brought him to Egypt, but it changes what he can now do.",
+  "takeaway": "Joseph is placed second only to Pharaoh."
+ },
+ "41": {
+  "scene": "Pharaoh formally tells Joseph he is putting him over all the land of Egypt.",
+  "breakdown": "The appointment is stated again, emphasizing its national scope. Joseph is not merely managing a single household as he did under Potiphar; he is being entrusted with Egypt's response to the coming famine.",
+  "takeaway": "Joseph receives authority across Egypt."
+ },
+ "42": {
+  "scene": "Pharaoh gives Joseph his signet ring, dresses him in fine linen, and puts a gold chain around his neck.",
+  "breakdown": "These objects publicly mark Joseph's new authority and status. The signet ring is especially important because it can authorize official acts in Pharaoh's name. The clothing and jewelry show that the appointment is not just private praise.",
+  "takeaway": "Pharaoh gives Joseph visible symbols of office."
+ },
+ "43": {
+  "scene": "Pharaoh has Joseph ride in his second chariot while people call out before him, establishing him over Egypt.",
+  "breakdown": "The public procession lets others know Joseph has been elevated. The precise meaning of the shouted expression is debated in translations, so we should not insist on one uncertain wording. The central point is that Joseph's authority is publicly recognized.",
+  "takeaway": "Joseph's new position is announced in public."
+ },
+ "44": {
+  "scene": "Pharaoh declares that although he is king, no one in Egypt may act independently of Joseph's authority.",
+  "breakdown": "This is a strong statement about Joseph's administrative power. It does not mean Joseph has replaced Pharaoh; it means the king has delegated far-reaching control to him.",
+  "takeaway": "Pharaoh confirms Joseph's authority throughout Egypt."
+ },
+ "45": {
+  "scene": "Pharaoh gives Joseph an Egyptian name, Zaphenath-paneah, and Asenath, daughter of Potiphera priest of On, as his wife; Joseph goes out over Egypt.",
+  "breakdown": "The new name and marriage place Joseph within Egypt's ruling society. The exact meaning of his Egyptian name is uncertain, so it should not be presented as settled. Potiphera, Asenath's father, is named as a priest of On; he should not automatically be confused with Potiphar.",
+  "takeaway": "Joseph receives an Egyptian name and marries Asenath."
+ },
+ "46": {
+  "scene": "Joseph is thirty years old when he enters Pharaoh's service, and he travels throughout Egypt.",
+  "breakdown": "Joseph was seventeen when his brothers sold him, so roughly thirteen years have passed since that betrayal. His travel fits his new responsibility for the country. The verse gives an age and a change in work, not a claim that those years were easy.",
+  "takeaway": "Joseph begins royal service at age thirty."
+ },
+ "47": {
+  "scene": "During the seven abundant years, the land produces plentifully.",
+  "breakdown": "The first half of Joseph's interpretation begins to come true. The harvests are so good that there is food to set aside. The verse is a report of abundance, not yet of the storage itself.",
+  "takeaway": "Egypt experiences the promised abundant harvests."
+ },
+ "48": {
+  "scene": "Joseph collects food during the seven good years and stores it in cities, placing nearby fields' produce in each city.",
+  "breakdown": "Joseph puts the earlier proposal into practice. Storing grain close to where it is grown provides a practical way to organize the reserves across a large country. The verse does not describe every administrative step.",
+  "takeaway": "Joseph organizes local grain storage across Egypt."
+ },
+ "49": {
+  "scene": "Joseph stores such enormous quantities of grain that officials stop counting it.",
+  "breakdown": "The grain is described as beyond ordinary reckoning, like sand by the sea. This is vivid language for a vast reserve, not a precise modern measurement. The stockpile is intended for the shortage Joseph has warned about.",
+  "takeaway": "Egypt accumulates an immense grain reserve."
+ },
+ "50": {
+  "scene": "Before the famine begins, Asenath bears Joseph two sons.",
+  "breakdown": "The narrative pauses the national story to describe Joseph's growing family. Both sons are born during the good years, before the crisis arrives. Their names will reflect Joseph's understanding of his life.",
+  "takeaway": "Joseph becomes the father of two sons."
+ },
+ "51": {
+  "scene": "Joseph names his firstborn Manasseh, saying God has made him forget his hardship and his father's household.",
+  "breakdown": "The name is connected with forgetting or being made to forget. Joseph's words express relief from painful memories, not proof that he has literally erased his family or that the harm never mattered. His past still shapes the story.",
+  "takeaway": "Joseph names his first son Manasseh."
+ },
+ "52": {
+  "scene": "Joseph names his second son Ephraim, saying God has made him fruitful in the land of his suffering.",
+  "breakdown": "The name is connected with fruitfulness. Joseph recognizes that he now has a family and meaningful work in the same country where he suffered slavery and imprisonment. The phrase 'land of my affliction' keeps that suffering in view.",
+  "takeaway": "Joseph names his second son Ephraim."
+ },
+ "53": {
+  "scene": "The seven years of abundance in Egypt come to an end.",
+  "breakdown": "The first period Joseph predicted is complete. This turning point matters because the preparations have been made and the stored food is about to be needed.",
+  "takeaway": "The seven plentiful years end."
+ },
+ "54": {
+  "scene": "The seven famine years begin as Joseph said; famine strikes other lands too, while Egypt has bread.",
+  "breakdown": "The shortage is not limited to Egypt, which will become important when Joseph's brothers later seek food. Egypt has supplies because grain was stored during the good years. The verse does not claim that every Egyptian household experiences the crisis equally.",
+  "takeaway": "Famine begins, but Egypt has food reserves."
+ },
+ "55": {
+  "scene": "As famine spreads through Egypt, the people cry to Pharaoh for bread, and he tells them to go to Joseph and follow his instructions.",
+  "breakdown": "The crisis reaches ordinary people, who seek help from the king. Pharaoh directs them to the administrator he appointed. The verse shows Joseph's authority being exercised in an emergency, not just displayed in a ceremony.",
+  "takeaway": "Pharaoh directs hungry Egyptians to Joseph."
+ },
+ "56": {
+  "scene": "With famine across the land, Joseph opens the storehouses and sells grain to Egyptians as the shortage becomes severe.",
+  "breakdown": "Joseph begins distributing the reserves, but the text says he sells the grain rather than giving it away. That distinction matters, especially when later chapters describe the economic consequences of the famine. For now, the stored grain becomes available to people facing hunger.",
+  "takeaway": "Joseph opens the grain stores as famine worsens."
+ },
+ "57": {
+  "scene": "People from many lands come to Egypt to buy grain from Joseph because famine is severe throughout the region.",
+  "breakdown": "The chapter ends by showing Egypt becoming a source of food beyond its borders. This sets up the next stage of Joseph's story, when his own family will be drawn to Egypt without knowing who now oversees its grain.",
+  "takeaway": "The famine brings people from other lands to Egypt for food."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight,39:plainGenesisThirtyNine,40:plainGenesisForty,41:plainGenesisFortyOne}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
