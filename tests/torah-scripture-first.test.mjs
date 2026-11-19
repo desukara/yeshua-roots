@@ -8,8 +8,8 @@ test("complete Hebrew and KJV Scripture appears before interlinear words and com
  const header=reader.indexOf('aria-label="Complete Scripture verse"');
  const curated=reader.indexOf('{curated?<><div className="interlinear-word-grid"');
  const corpus=reader.indexOf('<div className="interlinear-word-grid" dir="rtl" lang="he">{corpusWords.map');
- const breakdown=reader.indexOf('{breakdown&&<section className="torah-breakdown"');
- assert.ok(header>0&&curated>header&&corpus>header&&breakdown>header);
+ const breakdown=reader.indexOf('<section className="torah-breakdown"');
+ assert.ok(header>0&&breakdown>header&&curated>breakdown&&corpus>breakdown);
  assert.match(reader,/className="torah-hebrew-verse" dir="rtl" lang="he">\{hebrew\}/);
  assert.match(reader,/\{englishVerse\}/);
 });
