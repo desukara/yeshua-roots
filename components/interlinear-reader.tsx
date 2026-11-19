@@ -5685,7 +5685,159 @@ const plainGenesisThirtySeven:Record<number,PlainVerseStudy>={
   "takeaway": "Joseph is sold into Potiphar's household in Egypt."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven}};
+const plainGenesisThirtyEight:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Around this time Judah leaves his brothers and stays near an Adullamite named Hirah.",
+  "breakdown": "Genesis pauses Joseph's story to follow Judah, one of the brothers involved in selling him. The phrase 'around this time' does not give us a precise timeline for every event. Hirah is introduced as a local associate who will appear again.",
+  "takeaway": "The story shifts from Joseph to Judah."
+ },
+ "2": {
+  "scene": "Judah meets the daughter of a Canaanite man named Shua, marries her, and sleeps with her.",
+  "breakdown": "The woman is identified through her father rather than by her own name. Judah is building a household apart from his brothers. The verse reports the marriage without telling us much about her personal life.",
+  "takeaway": "Judah marries a Canaanite woman."
+ },
+ "3": {
+  "scene": "Judah's wife conceives and gives birth to a son named Er.",
+  "breakdown": "Er is Judah's firstborn, a position that carries family expectations in this setting. The narrative gives his name now because his later actions and death will shape Tamar's situation.",
+  "takeaway": "Judah's first son is named Er."
+ },
+ "4": {
+  "scene": "She conceives again and gives birth to a son named Onan.",
+  "breakdown": "Onan is Judah's second son. His relationship to Er becomes important because the family later expects him to help preserve his deceased brother's line.",
+  "takeaway": "Judah's second son is named Onan."
+ },
+ "5": {
+  "scene": "She gives birth to a third son, Shelah, while Judah is at Chezib.",
+  "breakdown": "Shelah is the youngest of the three brothers. The detail about Chezib locates the birth but does not explain the town's importance. Shelah will become central to a promise Judah makes to Tamar.",
+  "takeaway": "Judah's third son is named Shelah."
+ },
+ "6": {
+  "scene": "Judah arranges a wife named Tamar for his firstborn son Er.",
+  "breakdown": "Tamar enters the story through a marriage arranged by Judah. The chapter gives little of her background, but her position in this family will become precarious after Er's death. She is a central person in the account, not simply an obstacle in Judah's story.",
+  "takeaway": "Tamar marries Judah's firstborn son."
+ },
+ "7": {
+  "scene": "Er is described as wicked in the LORD's sight, and the LORD puts him to death.",
+  "breakdown": "The text gives a moral judgment but does not identify Er's specific wrongdoing. We should not invent a crime or assume Tamar caused his death. His death leaves Tamar widowed without a child in this family line.",
+  "takeaway": "Er dies, but his specific wrongdoing is not stated."
+ },
+ "8": {
+  "scene": "Judah tells Onan to fulfill his duty as a brother-in-law by having a child with Tamar for his deceased brother.",
+  "breakdown": "This reflects an ancient family obligation to preserve a dead brother's name and inheritance line, related to what is later called levirate marriage. The verse describes Judah's demand; it does not give Tamar's own words or imply that her wishes were consulted.",
+  "takeaway": "Judah tells Onan to preserve Er's family line."
+ },
+ "9": {
+  "scene": "Onan knows a child conceived for his brother would not be counted as his own heir, so he deliberately prevents conception when sleeping with Tamar.",
+  "breakdown": "The narrator explains Onan's motive: he wants the sexual relationship without providing the offspring expected for his dead brother. The wrong described here is bound to his refusal of responsibility and his treatment of Tamar; the passage should not be flattened into a universal statement about every form of contraception.",
+  "takeaway": "Onan refuses the family responsibility while using Tamar."
+ },
+ "10": {
+  "scene": "What Onan does displeases the LORD, and he too dies.",
+  "breakdown": "The judgment follows Onan's deliberate refusal to fulfill the obligation described in the previous verse. The chapter does not invite readers to invent additional details about how he died. Tamar is now twice widowed, with her future increasingly dependent on Judah's decisions.",
+  "takeaway": "Onan dies after his wrongdoing."
+ },
+ "11": {
+  "scene": "Judah tells Tamar to return to her father's house as a widow until his son Shelah grows up, but privately fears Shelah might die too.",
+  "breakdown": "Judah gives Tamar a promise while withholding the real reason for the delay. His fear shifts the cost onto her: she is expected to wait rather than remarry freely. The narrator lets us see his motive, which Tamar is not told.",
+  "takeaway": "Judah sends Tamar away with a promise he fears keeping."
+ },
+ "12": {
+  "scene": "After a long time Judah's wife, the daughter of Shua, dies; once his mourning ends, Judah goes with Hirah to Timnah for sheep-shearing.",
+  "breakdown": "The story moves forward enough time for Shelah to grow. Sheep-shearing could involve gathering and celebration, but the verse mainly gives Judah's destination and companion. His wife's death also means he is now a widower.",
+  "takeaway": "Judah travels to Timnah after his wife's death."
+ },
+ "13": {
+  "scene": "Someone tells Tamar that her father-in-law Judah is going to Timnah to shear his sheep.",
+  "breakdown": "Tamar learns where Judah will be. She has been waiting on his promise about Shelah, and the next verse shows that she now decides to act. The text does not name the person who brings the news.",
+  "takeaway": "Tamar learns where Judah is traveling."
+ },
+ "14": {
+  "scene": "Tamar removes her widow's clothing, covers herself with a veil, and sits at the entrance to Enaim on the road to Timnah because Shelah has grown but she has not been given to him.",
+  "breakdown": "The narrator states why Tamar acts: Judah has failed to provide the marriage he promised. Her change of clothing and position on the road form a plan to confront a situation in which she has little recognized power. This does not mean the text tells us she had an easy or safe choice.",
+  "takeaway": "Tamar acts after Judah fails to keep his promise."
+ },
+ "15": {
+  "scene": "Judah sees the veiled Tamar and assumes she is a prostitute because her face is covered.",
+  "breakdown": "The narrator tells us Judah's interpretation, not that Tamar is in fact a sex worker. He does not recognize his daughter-in-law. The veil conceals her identity, but the passage does not establish that veiling always meant prostitution in that culture.",
+  "takeaway": "Judah mistakes Tamar for a prostitute."
+ },
+ "16": {
+  "scene": "Judah approaches Tamar and asks to sleep with her, unaware of who she is; she asks what he will give her.",
+  "breakdown": "Judah initiates the encounter. Tamar's question leads to an agreement that will leave evidence of his identity. The story's unequal family circumstances matter: Judah has withheld the future he promised her.",
+  "takeaway": "Judah proposes sex, and Tamar asks for payment."
+ },
+ "17": {
+  "scene": "Judah promises to send a young goat from his flock, and Tamar asks for a pledge until he sends it.",
+  "breakdown": "A goat is the agreed payment, but Tamar requires something she can keep in the meantime. That pledge becomes crucial when Judah later accuses her. The verse does not yet say what objects she will request.",
+  "takeaway": "Tamar asks for security before accepting Judah's promise."
+ },
+ "18": {
+  "scene": "Judah asks what pledge she wants, and Tamar requests his seal, its cord, and the staff in his hand; he gives them and sleeps with her, and she conceives.",
+  "breakdown": "These are personal objects that can identify Judah, much like recognizable possessions or a signature. Tamar's choice protects evidence of who was involved. The narrator states that she becomes pregnant, setting up the confrontation that follows.",
+  "takeaway": "Tamar keeps Judah's identifying objects and becomes pregnant."
+ },
+ "19": {
+  "scene": "Tamar leaves, removes the veil, and puts her widow's clothing back on.",
+  "breakdown": "Tamar returns to the outward position she has been forced to occupy while waiting for Shelah. The change of clothing closes the roadside encounter, but Judah's pledge remains with her.",
+  "takeaway": "Tamar returns to her widow's clothing."
+ },
+ "20": {
+  "scene": "Judah sends the young goat through Hirah to retrieve his pledge, but Hirah cannot find the woman.",
+  "breakdown": "Judah attempts to complete the payment and recover his identifying belongings. The effort fails because Tamar is no longer at the place of their meeting. Hirah does not know the full story.",
+  "takeaway": "Judah tries unsuccessfully to recover his pledge."
+ },
+ "21": {
+  "scene": "Hirah asks local people where the cult prostitute at Enaim was, and they say no such woman has been there.",
+  "breakdown": "The Hebrew term used in this exchange differs from the more ordinary word for prostitute earlier, and may suggest a religious association; that does not prove Tamar served in a shrine. The locals deny knowing anyone fitting the description. The distinction in terms is worth noticing without inventing a ritual background.",
+  "takeaway": "The local people say they know of no such woman."
+ },
+ "22": {
+  "scene": "Hirah returns and tells Judah he could not find her and that the locals said no prostitute had been there.",
+  "breakdown": "The search has failed, and Hirah reports what he was told. Judah now faces a choice about whether to keep asking questions that could draw attention to the encounter.",
+  "takeaway": "Hirah reports that the woman cannot be found."
+ },
+ "23": {
+  "scene": "Judah says she can keep the pledge rather than have them become a laughingstock; he notes that he sent the goat.",
+  "breakdown": "Judah worries about public embarrassment and decides not to pursue the matter further. His concern is about reputation, not yet about the injustice done to Tamar. He believes the attempted payment settles his side of the arrangement.",
+  "takeaway": "Judah gives up retrieving his pledge to avoid embarrassment."
+ },
+ "24": {
+  "scene": "About three months later Judah is told Tamar is pregnant and accused of sexual misconduct; he orders her brought out and burned.",
+  "breakdown": "Judah responds with extreme severity, even though he himself sought sex outside his marriage earlier. The accusation is reported to him, not established as the whole truth. His order exposes the double standard and the danger Tamar faces under his authority.",
+  "takeaway": "Judah condemns Tamar without recognizing his own role."
+ },
+ "25": {
+  "scene": "As Tamar is brought out, she sends Judah the seal, cord, and staff, saying she is pregnant by their owner and asking him to identify them.",
+  "breakdown": "Tamar produces the evidence she carefully kept. Rather than naming Judah outright, she asks him to recognize his possessions—the same kind of recognition Jacob was asked to make with Joseph's robe in the previous chapter. Her action exposes the truth at a moment of grave danger.",
+  "takeaway": "Tamar presents evidence identifying the child's father."
+ },
+ "26": {
+  "scene": "Judah recognizes the objects and says Tamar is more righteous than he is because he did not give her to Shelah; he does not sleep with her again.",
+  "breakdown": "Judah admits his own failure and acknowledges that Tamar's claim against him is stronger than his accusation against her. 'More righteous' is a comparison within this situation, not a declaration that every part of the encounter was ideal. His confession marks a significant change from his earlier refusal to take responsibility.",
+  "takeaway": "Judah admits he wronged Tamar and acknowledges her claim."
+ },
+ "27": {
+  "scene": "When Tamar's time to give birth arrives, she is carrying twins.",
+  "breakdown": "The story shifts from threat and exposure to the children's birth. Twins will create another unexpected reversal, echoing the family history of Jacob and Esau. The verse gives no detail about Tamar's experience beyond the pregnancy.",
+  "takeaway": "Tamar is about to give birth to twins."
+ },
+ "28": {
+  "scene": "During labor one baby puts out a hand, and the midwife ties a scarlet thread around it to mark the apparent firstborn.",
+  "breakdown": "The thread is a practical way to identify which child appeared first. In a family where birth order affects status, the detail matters. Yet the birth does not unfold as the midwife initially expects.",
+  "takeaway": "A scarlet thread marks the baby's first emerging hand."
+ },
+ "29": {
+  "scene": "The first baby's hand withdraws, and his brother comes out first; the midwife exclaims over the breach, and he is named Perez.",
+  "breakdown": "Perez's name is linked to breaking through or making a breach. The unexpected order recalls earlier Genesis stories where the younger or unexpected child takes a prominent place. The narrator describes the birth without saying the children chose their roles.",
+  "takeaway": "Perez is born first in an unexpected reversal."
+ },
+ "30": {
+  "scene": "The brother with the scarlet thread is born afterward and is named Zerah.",
+  "breakdown": "The thread identifies the baby whose hand appeared first, even though Perez was born before him. The chapter ends by naming both sons. Their descendants will matter later in Israel's history, but this verse itself closes Tamar's immediate story.",
+  "takeaway": "Zerah is born after Perez."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
