@@ -5837,7 +5837,124 @@ const plainGenesisThirtyEight:Record<number,PlainVerseStudy>={
   "takeaway": "Zerah is born after Perez."
  }
 };
-const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight}};
+const plainGenesisThirtyNine:Record<number,PlainVerseStudy>={
+ "1": {
+  "scene": "Joseph has been taken to Egypt, where Potiphar, an Egyptian officer of Pharaoh and captain of the guard, buys him from the Ishmaelites.",
+  "breakdown": "Genesis returns to Joseph after the account of Judah and Tamar. Joseph did not choose this move or this work: he has been sold as an enslaved person. Potiphar's position gives him authority, but Joseph enters his household without freedom.",
+  "takeaway": "Joseph is sold into Potiphar's household in Egypt."
+ },
+ "2": {
+  "scene": "The LORD is with Joseph, and he becomes successful while serving in his Egyptian master's house.",
+  "breakdown": "The narrator emphasizes God's presence even though Joseph's circumstances are unjust. 'Successful' here does not mean Joseph is free or that slavery is good. It means his work goes well within the difficult situation forced on him.",
+  "takeaway": "God remains with Joseph in captivity."
+ },
+ "3": {
+  "scene": "Potiphar sees that the LORD is with Joseph and that Joseph's work prospers.",
+  "breakdown": "The text describes Potiphar recognizing Joseph's unusual effectiveness. It attributes the source of that success to the LORD, though it does not tell us exactly what Potiphar understands about Israel's God.",
+  "takeaway": "Potiphar notices Joseph's work is prospering."
+ },
+ "4": {
+  "scene": "Joseph gains Potiphar's favor, serves him closely, and is put in charge of his household and possessions.",
+  "breakdown": "Joseph receives greater responsibility because his master trusts his work. That promotion changes his duties but not the fact that he is enslaved. The narrative shows his growing influence without pretending he has full control over his life.",
+  "takeaway": "Joseph is entrusted with managing Potiphar's household."
+ },
+ "5": {
+  "scene": "From the time Joseph is appointed over the household, the LORD blesses Potiphar's property in the house and in the field.",
+  "breakdown": "The blessing extends beyond Joseph's personal tasks to the estate he manages. The narrator links the household's prosperity with God's presence with Joseph. This is not a blanket promise that every faithful person will become wealthy.",
+  "takeaway": "Potiphar's estate prospers while Joseph manages it."
+ },
+ "6": {
+  "scene": "Potiphar leaves everything under Joseph's supervision and concerns himself mainly with the food he eats; Joseph is also described as handsome.",
+  "breakdown": "The description underscores how thoroughly Potiphar trusts Joseph with household affairs. The reference to food may mark an ordinary exception to his oversight or a cultural boundary; the verse does not fully explain it. Joseph's appearance introduces the next conflict, but it does not make him responsible for another person's actions.",
+  "takeaway": "Joseph is trusted with nearly everything in the household."
+ },
+ "7": {
+  "scene": "After some time, Potiphar's wife looks at Joseph and tells him to sleep with her.",
+  "breakdown": "Her request is a sexual advance toward someone enslaved in her household, creating a serious imbalance of power. Joseph's good looks are not an invitation or an excuse. The text makes clear that she initiates the demand.",
+  "takeaway": "Potiphar's wife pressures Joseph for sex."
+ },
+ "8": {
+  "scene": "Joseph refuses and explains that Potiphar trusts him with everything in the house.",
+  "breakdown": "Joseph points to the trust his master has placed in him. His refusal is not merely about avoiding discovery; he sees the proposed act as a betrayal of responsibility. The fact that he must answer someone with power over him adds to the pressure.",
+  "takeaway": "Joseph refuses to betray his master's trust."
+ },
+ "9": {
+  "scene": "Joseph says Potiphar has withheld nothing from him except his wife, because she is married to him, and asks how he could do such wickedness and sin against God.",
+  "breakdown": "Joseph names two reasons for refusing: the marriage boundary and his accountability to God. He does not treat secrecy as permission. His words show that integrity matters even when no one else might witness the act.",
+  "takeaway": "Joseph calls the proposed act a sin against God."
+ },
+ "10": {
+  "scene": "Although Potiphar's wife speaks to Joseph day after day, he refuses to sleep with her or even be with her.",
+  "breakdown": "The pressure is repeated, not a single uncomfortable moment. Joseph continues to refuse and tries to avoid situations that would put him alone with her. His persistence matters because the power difference does not disappear.",
+  "takeaway": "Joseph maintains his refusal despite repeated pressure."
+ },
+ "11": {
+  "scene": "One day Joseph enters the house to do his work, and none of the household servants are inside.",
+  "breakdown": "Joseph is there for his ordinary duties. The absence of other servants creates an opportunity for Potiphar's wife to act without witnesses. The text gives no reason to blame Joseph for entering the workplace.",
+  "takeaway": "Joseph is alone in the house while working."
+ },
+ "12": {
+  "scene": "Potiphar's wife grabs Joseph by his garment and demands that he sleep with her, but he escapes, leaving the garment in her hand.",
+  "breakdown": "The encounter becomes physically coercive. Joseph gets away rather than complying, but he loses his garment in the struggle. The garment will be used against him, even though it was left behind during his escape.",
+  "takeaway": "Joseph escapes a forced sexual advance."
+ },
+ "13": {
+  "scene": "When she sees Joseph has left his garment behind and fled outside, Potiphar's wife prepares to accuse him.",
+  "breakdown": "The verse focuses on what she notices after Joseph escapes. She has physical evidence of an encounter but not evidence that Joseph assaulted her. The next verses show how she reshapes the story.",
+  "takeaway": "Joseph's abandoned garment becomes a tool for accusation."
+ },
+ "14": {
+  "scene": "She calls the household servants and claims the Hebrew man brought among them tried to assault her, but that she cried out.",
+  "breakdown": "Her accusation reverses what happened: Joseph was the one who fled her unwanted advance. She also identifies him as a Hebrew outsider, language that can turn the servants against him. The narrator has already shown readers that her version is false.",
+  "takeaway": "Potiphar's wife falsely accuses Joseph before the servants."
+ },
+ "15": {
+  "scene": "She claims Joseph left his garment beside her and ran away when she raised her voice.",
+  "breakdown": "The garment is real, but the explanation she gives for it is not. A true physical detail can be used to support a false story. Joseph is absent and unable to answer her accusation in this scene.",
+  "takeaway": "She uses Joseph's garment to support a false account."
+ },
+ "16": {
+  "scene": "Potiphar's wife keeps Joseph's garment with her until her husband comes home.",
+  "breakdown": "She holds on to the object she plans to present as evidence. The delay allows her to repeat the accusation to the person with authority over Joseph's fate.",
+  "takeaway": "She saves the garment for Potiphar."
+ },
+ "17": {
+  "scene": "She tells Potiphar that the Hebrew slave he brought into the house came to make sport of or assault her.",
+  "breakdown": "She now directs blame toward both Joseph and, indirectly, Potiphar for bringing him into the household. The accusation is false according to the events readers have just witnessed. The wording stresses Joseph's low status and foreign identity.",
+  "takeaway": "She repeats the false accusation to Potiphar."
+ },
+ "18": {
+  "scene": "She says she cried out and Joseph fled, leaving his garment behind.",
+  "breakdown": "Her story is consistent with what she told the servants, but consistency does not make it true. The narrator has shown Joseph fleeing to escape her grasp, not because she called for help.",
+  "takeaway": "She repeats her fabricated account of Joseph's escape."
+ },
+ "19": {
+  "scene": "Potiphar hears his wife's account of what his servant supposedly did, and he becomes angry.",
+  "breakdown": "The verse reports Potiphar's anger but does not specify every thought behind it. We should not claim he secretly knew Joseph was innocent or say with certainty whom his anger was directed toward. What follows is Joseph's punishment.",
+  "takeaway": "Potiphar reacts angrily to the accusation."
+ },
+ "20": {
+  "scene": "Potiphar puts Joseph in the prison where the king's prisoners are confined, and Joseph remains there.",
+  "breakdown": "Joseph suffers imprisonment despite having refused wrongdoing. The location connects him to Pharaoh's administration and prepares for later events. The story does not say his innocence protects him from immediate harm.",
+  "takeaway": "Joseph is imprisoned after a false accusation."
+ },
+ "21": {
+  "scene": "The LORD is with Joseph in prison, shows him steadfast love, and gives him favor with the prison keeper.",
+  "breakdown": "The same divine presence described in Potiphar's house continues behind prison walls. God's care does not mean Joseph's suffering is imaginary or instantly removed. The narrator wants readers to see that Joseph has not been abandoned.",
+  "takeaway": "God remains with Joseph in prison."
+ },
+ "22": {
+  "scene": "The prison keeper puts Joseph in charge of the prisoners and the work done there.",
+  "breakdown": "Joseph again receives responsibility because someone in authority comes to trust him. This echoes his role in Potiphar's household, but it is still responsibility within confinement, not freedom.",
+  "takeaway": "Joseph is trusted with duties inside the prison."
+ },
+ "23": {
+  "scene": "The prison keeper does not closely supervise what Joseph manages because the LORD is with Joseph and makes his work prosper.",
+  "breakdown": "The chapter ends by repeating its central point: Joseph's circumstances change from household to prison, but God's presence continues. His competence and trustworthiness are recognized even while the injustice against him remains unresolved.",
+  "takeaway": "Joseph's work prospers even though he is still imprisoned."
+ }
+};
+const torahBreakdowns:Partial<Record<string,Record<number,Record<number,PlainVerseStudy>>>>={Genesis:{1:plainGenesisOne,2:plainGenesisTwo,3:plainGenesisThree,4:plainGenesisFour,5:plainGenesisFive,6:plainGenesisSix,7:plainGenesisSeven,8:plainGenesisEight,9:plainGenesisNine,10:plainGenesisTen,11:plainGenesisEleven,12:plainGenesisTwelve,13:plainGenesisThirteen,14:plainGenesisFourteen,15:plainGenesisFifteen,16:plainGenesisSixteen,17:plainGenesisSeventeen,18:plainGenesisEighteen,19:plainGenesisNineteen,20:plainGenesisTwenty,21:plainGenesisTwentyOne,22:plainGenesisTwentyTwo,23:plainGenesisTwentyThree,24:plainGenesisTwentyFour,25:plainGenesisTwentyFive,26:plainGenesisTwentySix,27:plainGenesisTwentySeven,28:plainGenesisTwentyEight,29:plainGenesisTwentyNine,30:plainGenesisThirty,31:plainGenesisThirtyOne,32:plainGenesisThirtyTwo,33:plainGenesisThirtyThree,34:plainGenesisThirtyFour,35:plainGenesisThirtyFive,36:plainGenesisThirtySix,37:plainGenesisThirtySeven,38:plainGenesisThirtyEight,39:plainGenesisThirtyNine}};
 function getTorahBreakdown(book:string,chapter:number,verse:number){return torahBreakdowns[book]?.[chapter]?.[verse];}
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
