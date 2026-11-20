@@ -14,7 +14,7 @@ test("all 1,533 original Genesis verse breakdowns are connected",()=>{
   const end=reader.indexOf("\n};",begin);
   assert.ok(end>begin,"Unterminated chapter "+chapter);
   const body=reader.slice(begin,end);
-  const verses=[...body.matchAll(/^\\s*"?([0-9]+)"?:\\s*\\{/gm)].map(match=>Number(match[1]));
+  const verses=[...body.matchAll(/^\s*"?([0-9]+)"?:\s*\{/gm)].map(match=>Number(match[1]));
   assert.deepEqual(verses,Array.from({length:chapterCounts[chapter-1]},(_,i)=>i+1),"Incorrect verses in Genesis "+chapter);
   total+=verses.length;
   assert.match(reader,new RegExp(chapter+":plainGenesis"+names[chapter-1]+"(?=,|})"));
