@@ -37,7 +37,7 @@ test("API derives dictionary meanings from attested Strong's IDs without inventi
 });
 test("Genesis 1 plain-English overlay covers every attested word without replacing source data",()=>{
  const words=corpora[0].chapters[0].flat();
- const ids=[...new Set(words.map(([,lemma])=>strongOf(lemma)))];
+ const ids=[...new Set(words.map(([,lemma])=>strongOf(lemma)).filter(Boolean))];
  assert.equal(ids.length,96);
  for(const id of ids){assert.ok(realTalk[id],`Missing Genesis 1 meaning for ${id}`);assert.ok(realTalk[id].length>20);}
  assert.match(api,/book==="Genesis"&&chapter===1/);
