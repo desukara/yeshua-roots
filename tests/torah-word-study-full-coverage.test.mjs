@@ -39,16 +39,16 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.match(reader,/const corpusWords=chapterData\?\.words\?\.\[verse-1\]\|\|\[\]/);
  assert.match(reader,/hebrew&&corpusWords.length/);
  assert.match(reader,/corpusWords\.map/);
- assert.match(reader,/These are simple word meanings to help you read along/);
- assert.match(reader,/"H3318":"go out, come forth"/);
- assert.match(reader,/"H3068":"the LORD \(God’s name\)"/);
- assert.match(reader,/"H853":"marks the next word as the object"/);
- assert.doesNotMatch(reader,/Meanings shown are brief dictionary glosses/);
- assert.match(reader,/shortGloss\(w.gloss,w.strong\)/);
- assert.match(reader,/shortGloss\(corpusWord.gloss,corpusWord.strong\)/);
- assert.match(reader,/Want the word details\? Tap here\./);
- assert.match(reader,/What it means:/);
- assert.match(reader,/Strong’s number:/);
+ assert.ok(reader.includes('These are simple word meanings to help you read along')===false);
+ assert.ok(reader.includes('"H3318":"go out, come forth"'));
+ assert.ok(reader.includes('"H3068":"the LORD (God’s name)"'));
+ assert.ok(reader.includes('"H853":"marks the next word as the object"'));
+ assert.ok(reader.includes('shortGloss(w.gloss,w.strong)'));
+ assert.ok(reader.includes('Full English definition:'));
+ assert.ok(reader.includes('corpusWord.gloss?.trim()'));
+ assert.ok(!reader.includes('Want the word details? Tap here.'));
+ assert.ok(!reader.includes('Strong’s number:'));
+ assert.ok(!reader.includes('Grammar code:'));
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
  assert.match(search,/const LIMIT=60/);
