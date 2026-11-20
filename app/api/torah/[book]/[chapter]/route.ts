@@ -1,5 +1,6 @@
 import {NextResponse} from "next/server";
 import strongs from "../../../../../data/torah/strongs-hebrew.json";
+import genesisOneRealTalk from "../../../../../data/torah/genesis1-real-talk.json";
 import genesis from "../../../../../data/torah/genesis.json";
 import exodus from "../../../../../data/torah/exodus.json";
 import leviticus from "../../../../../data/torah/leviticus.json";
@@ -23,7 +24,8 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
   const numericLemma=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(lexicalPart);
   const strong=numericLemma?"H"+Number(numericLemma[1]):null;
   const entry=strong?dictionary[strong]:undefined;
-  return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:entry?.[1]||null,pronunciation:entry?.[2]||null};
+  const plainEnglish=book==="Genesis"&&chapter===1&&strong? (genesisOneRealTalk.entries as Record<string,string>)[strong]:undefined;
+  return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:plainEnglish||entry?.[1]||null,pronunciation:entry?.[2]||null};
  }));
  const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" ").replace(/\s+/g," ").trim());
  return NextResponse.json({book,chapter,verses,words,source:"Open Scriptures Hebrew Bible (OSHB), Westminster Leningrad Codex",sourceUrl:"https://github.com/openscriptures/morphhb",version:"WLC / OSHB",sourceAttribution:"Hebrew text: public domain WLC; lemma and morphology: OSHB CC BY 4.0; dictionary: Open Scriptures Strong’s Hebrew Dictionary CC BY-SA"});

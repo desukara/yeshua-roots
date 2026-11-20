@@ -9,6 +9,7 @@ const names=["genesis","exodus","leviticus","numbers","deuteronomy"];
 const expectedChapters=[50,40,27,36,34];
 const corpora=names.map(name=>JSON.parse(read("../data/torah/"+name+".json")));
 const dictionary=JSON.parse(read("../data/torah/strongs-hebrew.json")).entries;
+const realTalk=JSON.parse(read("../data/torah/genesis1-real-talk.json")).entries;
 const strongOf=lemma=>{const part=lemma.split("/").at(-1)||"";const match=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(part);return match?"H"+Number(match[1]):null;};
 
 test("every Torah chapter and verse has nonempty aligned Hebrew tokens and morphology",()=>{
@@ -26,13 +27,22 @@ test("Genesis 1:9 through 1:31 and final Deuteronomy chapter retain Hebrew token
 });
 test("API derives dictionary meanings from attested Strong's IDs without inventing glosses",()=>{
  assert.match(api,/const entry=strong\?dictionary\[strong\]:undefined/);
- assert.match(api,/gloss:entry\?\.\[1\]\|\|null/);
+ assert.match(api,/gloss:plainEnglish\|\|entry\?\.\[1\]\|\|null/);
  let matched=0,unmatched=0;
  for(const corpus of corpora)for(const chapter of corpus.chapters)for(const verse of chapter)for(const [,lemma] of verse){
   const strong=strongOf(lemma);
   if(strong&&dictionary[strong])matched++;else unmatched++;
  }
  assert.ok(matched>0);assert.ok(unmatched>=0);
+});
+test("Genesis 1 plain-English overlay covers every attested word without replacing source data",()=>{
+ const words=corpora[0].chapters[0].flat();
+ const ids=[...new Set(words.map(([,lemma])=>strongOf(lemma)))];
+ assert.equal(ids.length,96);
+ for(const id of ids){assert.ok(realTalk[id],`Missing Genesis 1 meaning for ${id}`);assert.ok(realTalk[id].length>20);}
+ assert.match(api,/book==="Genesis"&&chapter===1/);
+ assert.match(api,/genesisOneRealTalk.entries/);
+ assert.match(api,/plainEnglish\|\|entry/);
 });
 test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all other verses",()=>{
  assert.match(reader,/const curated=book==="Genesis"&&chapter===1/);
