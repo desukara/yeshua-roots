@@ -766,3 +766,59 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .interlinear-reader .torah-breakdown summary{cursor:pointer;font-weight:700;color:#274e3d;padding:8px 0}
 .interlinear-reader .torah-breakdown summary:focus-visible{outline:3px solid #326e65;outline-offset:3px}
 .interlinear-reader .torah-breakdown .torah-breakdown-note{font-size:.85rem;color:#655e51}
+
+
+/* Scripture-first reader: quiet Bible page, unmistakable explanation action. */
+.interlinear-reader .interlinear-scripture-first{
+  position:relative;margin-top:1.25rem;padding:clamp(22px,4vw,42px);
+  border:1px solid #d7c7a8;border-radius:18px;
+  background:linear-gradient(145deg,#fffdf7 0%,#f7f0e2 100%);
+  box-shadow:0 12px 32px rgba(38,63,50,.08);
+}
+.interlinear-reader .interlinear-scripture-first .kicker{display:block;letter-spacing:.11em;line-height:1.5}
+.interlinear-reader .interlinear-scripture-first .torah-hebrew-verse{
+  margin:18px 0 26px;text-align:right;direction:rtl;
+  font-size:clamp(29px,4.2vw,46px);line-height:1.9;overflow-wrap:anywhere;
+}
+.interlinear-reader .interlinear-scripture-first .torah-hebrew-verse+.kicker{
+  padding-top:22px;border-top:1px solid #dfd2ba;
+}
+.interlinear-reader .interlinear-scripture-first p[lang="en"]{
+  margin:14px 0 0;color:#273f34;font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(19px,2.2vw,25px);line-height:1.8;
+}
+.interlinear-reader .torah-breakdown{
+  margin-top:20px;padding:clamp(20px,3vw,30px);
+  border:1px solid #d6bd8c;border-radius:18px;
+  background:#fff9ec;box-shadow:0 8px 24px rgba(38,63,50,.06);
+}
+.interlinear-reader .torah-breakdown h3{font-size:clamp(23px,2.7vw,30px);line-height:1.25;margin:9px 0 14px}
+.interlinear-reader .torah-breakdown>p{font-size:1.04rem;line-height:1.8;max-width:74ch}
+.interlinear-reader .torah-breakdown details{border:0;padding:0;margin-top:20px}
+.interlinear-reader .torah-breakdown summary{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  width:100%;padding:17px 20px;border-radius:12px;border:1px solid #264d3c;
+  background:#264d3c;color:#fff;font-size:1.08rem;font-weight:750;
+  line-height:1.4;cursor:pointer;list-style:none;
+  transition:background .18s ease,box-shadow .18s ease;
+}
+.interlinear-reader .torah-breakdown summary::-webkit-details-marker{display:none}
+.interlinear-reader .torah-breakdown summary::after{content:"+";font-size:1.6rem;font-weight:400;line-height:1}
+.interlinear-reader .torah-breakdown details[open] summary::after{content:"−"}
+.interlinear-reader .torah-breakdown summary:hover{background:#35664e;box-shadow:0 5px 14px rgba(38,63,50,.15)}
+.interlinear-reader .torah-breakdown summary:focus-visible{outline:3px solid #b98739;outline-offset:4px}
+.interlinear-reader .torah-breakdown details[open]>p,
+.interlinear-reader .torah-breakdown details[open]>h4{max-width:74ch}
+.interlinear-reader .torah-breakdown details[open]>p:first-of-type{margin-top:22px;font-size:1.04rem}
+.interlinear-reader .torah-breakdown .torah-breakdown-note{padding-top:12px;border-top:1px solid #e2d6c2}
+@media(max-width:600px){
+  .interlinear-reader .interlinear-scripture-first{padding:22px 18px;border-radius:14px}
+  .interlinear-reader .interlinear-scripture-first .torah-hebrew-verse{font-size:clamp(28px,7.3vw,36px);line-height:1.85}
+  .interlinear-reader .torah-breakdown{padding:20px 16px;border-radius:14px}
+  .interlinear-reader .torah-breakdown summary{min-height:54px;padding:15px 16px}
+  .interlinear-reader .interlinear-word-grid{gap:9px;padding:15px 8px}
+  .interlinear-reader .interlinear-word{min-width:0;flex:1 1 112px;padding:14px 10px}
+}
+@media(prefers-reduced-motion:reduce){
+  .interlinear-reader .torah-breakdown summary{transition:none}
+}

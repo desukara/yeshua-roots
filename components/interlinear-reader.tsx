@@ -6661,7 +6661,7 @@ function getTorahBreakdown(book:string,chapter:number,verse:number){return torah
 export default function InterlinearReader(){
  const {locale}=useLanguage();const he=locale==="he";
  const [book,setBook]=useState("Genesis");const [chapter,setChapter]=useState(1);const [verse,setVerse]=useState(1);const [chapterData,setChapterData]=useState<ChapterResponse|null>(null);const [loading,setLoading]=useState(false);const [error,setError]=useState("");
- const [englishVerses,setEnglishVerses]=useState<{number:number;text:string}[]|null>(null);const [englishLoading,setEnglishLoading]=useState(false);const [englishError,setEnglishError]=useState(false);
+ const [englishVerses,setEnglishVerses]=useState<{number:number;text:string}[]|null>(null);const [englishLoading,setEnglishLoading]=useState(true);const [englishError,setEnglishError]=useState(false);
  const [selected,setSelected]=useState<number|null>(null);const [showTransliteration,setShowTransliteration]=useState(true);
  useEffect(()=>{const controller=new AbortController();setLoading(true);setError("");setChapterData(null);
  fetch("/api/torah/"+book+"/"+chapter,{signal:controller.signal}).then(async r=>{if(!r.ok)throw new Error("Source unavailable");return r.json() as Promise<ChapterResponse>}).then(data=>{setChapterData(data);setLoading(false)}).catch(e=>{if(e.name!=="AbortError"){setError(he?"לא ניתן לטעון את הפרק כעת.":"Could not load this chapter right now.");setLoading(false)}});
