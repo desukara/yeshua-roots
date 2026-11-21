@@ -6663,6 +6663,43 @@ export default function InterlinearReader(){
  const [book,setBook]=useState("Genesis");const [chapter,setChapter]=useState(1);const [verse,setVerse]=useState(1);const [chapterData,setChapterData]=useState<ChapterResponse|null>(null);const [loading,setLoading]=useState(false);const [error,setError]=useState("");
  const [englishVerses,setEnglishVerses]=useState<{number:number;text:string}[]|null>(null);const [englishLoading,setEnglishLoading]=useState(true);const [englishError,setEnglishError]=useState(false);
  const [selected,setSelected]=useState<number|null>(null);const [showTransliteration,setShowTransliteration]=useState(true);
+ const [bookmarks,setBookmarks]=useState<string[]>([]);
+ const [notes,setNotes]=useState<Record<string,string>>({});
+ const [savedPosition,setSavedPosition]=useState<string|null>(null);
+ const [ready,setReady]=useState(false);
+ const [pendingLastVerse,setPendingLastVerse]=useState(false);
+ const reference=book+" "+chapter+":"+verse;
+ const verseLink=()=>"/torah?book="+encodeURIComponent(book)+"&chapter="+chapter+"&verse="+verse+"#interlinear-reader";
+ useEffect(()=>{
+  try{
+   const params=new URLSearchParams(window.location.search);
+   const b=books.find(x=>x.id.toLowerCase()===(params.get("book")||"").toLowerCase());
+   const c=Number(params.get("chapter"));const v=Number(params.get("verse"));
+   if(b&&Number.isInteger(c)&&c>=1&&c<=b.chapters&&Number.isInteger(v)&&v>=1&&v<=176){setBook(b.id);setChapter(c);setVerse(v)}
+   const saved=window.localStorage.getItem("yeshua-interlinear-last");
+   if(saved)setSavedPosition(saved);
+   const marks=JSON.parse(window.localStorage.getItem("yeshua-interlinear-bookmarks")||"[]");
+   if(Array.isArray(marks))setBookmarks(marks.filter((x):x is string=>typeof x==="string").slice(0,100));
+   const storedNotes=JSON.parse(window.localStorage.getItem("yeshua-interlinear-notes")||"{}");
+   if(storedNotes&&typeof storedNotes==="object"&&!Array.isArray(storedNotes))setNotes(storedNotes);
+  }catch{}
+  setReady(true);
+ },[]);
+ useEffect(()=>{
+  if(!ready)return;
+  try{
+   window.localStorage.setItem("yeshua-interlinear-last",reference);
+   window.history.replaceState(window.history.state,"",verseLink());
+  }catch{}
+ },[book,chapter,verse,ready]);
+ useEffect(()=>{if(pendingLastVerse&&chapterData?.verses.length){setVerse(chapterData.verses.length);setPendingLastVerse(false)}},[pendingLastVerse,chapterData]);
+ function toggleBookmark(){const next=bookmarks.includes(reference)?bookmarks.filter(x=>x!==reference):[reference,...bookmarks].slice(0,100);setBookmarks(next);try{localStorage.setItem("yeshua-interlinear-bookmarks",JSON.stringify(next))}catch{}}
+ function saveNote(value:string){const next={...notes,[reference]:value};setNotes(next);try{localStorage.setItem("yeshua-interlinear-notes",JSON.stringify(next))}catch{}}
+ function jumpTo(ref:string){const match=/^(Genesis|Exodus|Leviticus|Numbers|Deuteronomy) (\\d+):(\\d+)$/.exec(ref);if(!match)return;setBook(match[1]);setChapter(Number(match[2]));setVerse(Number(match[3]));setSelected(null)}
+ function nextVerse(){if(verse<count){chooseVerse(verse+1);return}const index=books.findIndex(b=>b.id===book);if(chapter<books[index].chapters){chooseChapter(chapter+1)}else if(index<books.length-1){chooseBook(books[index+1].id)}}
+ function previousVerse(){if(verse>1){chooseVerse(verse-1);return}const index=books.findIndex(b=>b.id===book);if(chapter>1){setPendingLastVerse(true);chooseChapter(chapter-1)}else if(index>0){setPendingLastVerse(true);setBook(books[index-1].id);setChapter(books[index-1].chapters);setVerse(1);setSelected(null)}}
+ useEffect(()=>{const key=(e:KeyboardEvent)=>{const target=e.target as HTMLElement|null;if(e.altKey||e.ctrlKey||e.metaKey||target?.closest("input,textarea,select,button,[contenteditable]"))return;if(e.key==="ArrowRight"){nextVerse()}else if(e.key==="ArrowLeft"){previousVerse()}else return;e.preventDefault()};window.addEventListener("keydown",key);return()=>window.removeEventListener("keydown",key)},[book,chapter,verse,count]);
+
  useEffect(()=>{const controller=new AbortController();setLoading(true);setError("");setChapterData(null);
  fetch("/api/torah/"+book+"/"+chapter,{signal:controller.signal}).then(async r=>{if(!r.ok)throw new Error("Source unavailable");return r.json() as Promise<ChapterResponse>}).then(data=>{setChapterData(data);setLoading(false)}).catch(e=>{if(e.name!=="AbortError"){setError(he?"לא ניתן לטעון את הפרק כעת.":"Could not load this chapter right now.");setLoading(false)}});
  return ()=>controller.abort()},[book,chapter,he]);
@@ -6685,22 +6722,29 @@ export default function InterlinearReader(){
  function chooseBook(value:string){setBook(value);setChapter(1);setVerse(1);setSelected(null)}
  function chooseChapter(value:number){setChapter(value);setVerse(1);setSelected(null)}
  function chooseVerse(value:number){setVerse(value);setSelected(null)}
- return <section className="interlinear-reader" aria-label={he?"קריאה בין־שורתית בתורה":"Interlinear Torah reader"}>
+ return <section id="interlinear-reader" className="interlinear-reader" aria-label={he?"קריאה בין־שורתית בתורה":"Interlinear Torah reader"}>
  <div className="interlinear-toolbar"><div><span className="kicker">{he?"לימוד עברית מקראית":"BIBLICAL HEBREW STUDY"}</span><h2>{he?"תורה · קריאה ולימוד":"Torah · Read and Study"}</h2></div>
  <div className="torah-pickers"><label>{he?"ספר":"Book"} <select value={book} onChange={e=>chooseBook(e.target.value)}>{books.map(b=><option key={b.id} value={b.id}>{he?b.he:b.id}</option>)}</select></label>
  <label>{he?"פרק":"Chapter"} <select value={chapter} onChange={e=>chooseChapter(Number(e.target.value))}>{Array.from({length:books.find(b=>b.id===book)?.chapters||50},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label>
  <label>{he?"פסוק":"Verse"} <select value={verse} onChange={e=>chooseVerse(Number(e.target.value))}>{Array.from({length:count},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label></div></div>
  <p className="interlinear-intro">{he?"כאן אפשר לקרוא בעברית את חמשת חומשי משה. התורה היא חמשת חומשי משה, ושאר כתבי הקודש כוללים גם את הנביאים, הכתובים והברית החדשה. לימוד מילים זמין בכל חמשת חומשי התורה.":"Read the first five books of the Bible in Hebrew. Tap a Hebrew word and we'll show you how to say it, what it means, and a little more about it. If you're reading Genesis 1–5, you'll also find notes that help you see how the passage connects to Yeshua."}</p>
- <div className="interlinear-options"><label><input type="checkbox" checked={showTransliteration} onChange={e=>setShowTransliteration(e.target.checked)}/> {he?"הצגת תעתיק":"Show transliteration"}</label></div>
+ <div className="interlinear-options" style={{display:"flex",flexWrap:"wrap",gap:"0.75rem",alignItems:"center"}}><label><input type="checkbox" checked={showTransliteration} onChange={e=>setShowTransliteration(e.target.checked)}/> {he?"הצגת תעתיק":"Show transliteration"}</label></div>
+ <div className="interlinear-options" style={{display:"flex",flexWrap:"wrap",gap:"0.6rem",alignItems:"center",marginBottom:"1rem"}}>
+ <button type="button" onClick={toggleBookmark} aria-pressed={bookmarks.includes(reference)}>{bookmarks.includes(reference)?"★ Bookmarked":"☆ Bookmark verse"}</button>
+ <button type="button" onClick={()=>{if(navigator.clipboard?.writeText)void navigator.clipboard.writeText(window.location.origin+verseLink())}}>Copy verse link</button>
+ {savedPosition&&savedPosition!==reference&&<button type="button" onClick={()=>jumpTo(savedPosition)}>Resume {savedPosition}</button>}
+ {bookmarks.length>0&&<label>Saved verses <select aria-label="Jump to saved verse" value="" onChange={e=>{if(e.target.value)jumpTo(e.target.value)}}><option value="">Choose bookmark</option>{bookmarks.map(ref=><option key={ref} value={ref}>{ref}</option>)}</select></label>}
+ </div>
  {loading&&<p role="status">{he?"טוען את הפרק...":"Loading Hebrew chapter..."}</p>}
  {error&&<p role="alert">{error} {curated?(he?"מוצג הטקסט השמור.":"Showing locally curated text where available."):""}</p>}
  <div className="torah-verse-panel interlinear-scripture-first" aria-label="Complete Scripture verse"><span className="kicker">{book} {chapter}:{verse} · ORIGINAL HEBREW · WLC / OSHB</span>{hebrew?<p className="torah-hebrew-verse" dir="rtl" lang="he">{hebrew}</p>:loading?<p role="status">Loading Hebrew Scripture…</p>:<p role="status">Hebrew Scripture is unavailable for this verse.</p>}<span className="kicker">KING JAMES VERSION · ENGLISH</span>{englishVerse?<p lang="en" dir="ltr">{englishVerse}</p>:englishLoading?<p role="status">Loading KJV Scripture…</p>:englishError?<p role="alert">KJV Scripture is temporarily unavailable. The explanation below is not a Bible translation.</p>:<p role="status">KJV verse unavailable for this reference.</p>}</div>
  <section className="torah-breakdown" lang="en" dir="ltr" aria-label="Plain English verse explanation"><span className="kicker">LET’S TALK ABOUT THIS VERSE</span><h3>Understand this verse</h3>{breakdown&&<p>{breakdown.scene}</p>}<details key={`${book}-${chapter}-${verse}`}><summary>Break It Down for Me</summary>{breakdown?<><p>{breakdown.breakdown}</p><h4>What’s the main point?</h4><p>{breakdown.takeaway}</p></>:<p>A reviewed plain-English explanation for {book} {chapter}:{verse} is not available yet. You can still explore the original Hebrew words below.</p>}<p className="torah-breakdown-note">This is a study explanation, not a Bible translation.</p></details></section>
   {curated?<><div className="interlinear-word-grid" dir="rtl" lang="he">{curated.words.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={i} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}<span className="iw-english" lang="en" dir="ltr">{w.english}</span></button>)}</div>
  
- <div className="interlinear-detail" aria-live="polite">{word?<><strong lang="he" dir="rtl">{word.hebrew}</strong><span lang="en" dir="ltr">{word.transliteration} — {word.english}</span><p>{word.note||(he?"משמעות בסיסית של המילה בהקשר הפסוק.":"Here's what this word means in this verse.")}</p></>:<p>{he?"בחרו מילה כדי לפתוח הערת לימוד.":"Tap a Hebrew word above. We'll help you understand it."}</p>}</div></>:hebrew&&corpusWords.length?<><div className="interlinear-word-grid" dir="rtl" lang="he">{corpusWords.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={w.index} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&w.transliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}<span className="iw-english" lang="en" dir="ltr">{shortGloss(w.gloss,w.strong)}</span></button>)}</div><div className="interlinear-detail" aria-live="polite">{corpusWord?<><strong lang="he" dir="rtl">{corpusWord.hebrew}</strong><p><strong>Full English definition:</strong> {corpusWord.gloss?.trim()||"A complete English definition is not available for this word yet."}</p>{corpusWord.transliteration&&<p><strong>How to say it:</strong> {corpusWord.transliteration}</p>}{corpusWord.pronunciation&&<p><strong>Pronunciation guide:</strong> {corpusWord.pronunciation}</p>}</>:<p>See a word you want to understand? Tap it. We'll show you how to say it and what it means.</p>}</div></>:!loading&&!error?<p>{he?"אין טקסט זמין לפסוק זה.":"No text available for this verse."}</p>:null}
+ <div className="interlinear-detail" aria-live="polite">{word?<><strong lang="he" dir="rtl">{word.hebrew}</strong><span lang="en" dir="ltr">{word.transliteration} — {word.english}</span><p>{word.note||(he?"משמעות בסיסית של המילה בהקשר הפסוק.":"Here's what this word means in this verse.")}</p></>:<p>{he?"בחרו מילה כדי לפתוח הערת לימוד.":"Tap a Hebrew word above. We'll help you understand it."}</p>}</div></>:hebrew&&corpusWords.length?<><div className="interlinear-word-grid" dir="rtl" lang="he">{corpusWords.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={w.index} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&w.transliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}<span className="iw-english" lang="en" dir="ltr">{shortGloss(w.gloss,w.strong)}</span></button>)}</div><div className="interlinear-detail" aria-live="polite">{corpusWord?<><strong lang="he" dir="rtl">{corpusWord.hebrew}</strong><p><strong>Full English definition:</strong> {corpusWord.gloss?.trim()||"A complete English definition is not available for this word yet."}</p>{corpusWord.transliteration&&<p><strong>How to say it:</strong> {corpusWord.transliteration}</p>}{corpusWord.pronunciation&&<p><strong>Pronunciation guide:</strong> {corpusWord.pronunciation}</p>}{corpusWord.lemma&&<p><strong>Hebrew lemma:</strong> <span lang="he" dir="rtl">{corpusWord.lemma}</span></p>}{corpusWord.morph&&<p><strong>Grammatical form:</strong> {corpusWord.morph}</p>}{corpusWord.strong&&<p><strong>Strong’s number:</strong> {corpusWord.strong}</p>}<p><small>Dictionary glosses are possible meanings, not a complete interpretation of this verse.</small></p></>:<p>See a word you want to understand? Tap it. We'll show you how to say it and what it means.</p>}</div></>:!loading&&!error?<p>{he?"אין טקסט זמין לפסוק זה.":"No text available for this verse."}</p>:null}
  
  {study&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
- <div className="torah-reader-pagination"><button type="button" disabled={verse===1} onClick={()=>chooseVerse(verse-1)}>{he?"הפסוק הקודם":"Previous verse"}</button><strong>{he?books.find(b=>b.id===book)?.he:book} {chapter}:{verse}</strong><button type="button" disabled={verse>=count} onClick={()=>chooseVerse(verse+1)}>{he?"הפסוק הבא":"Next verse"}</button></div>
+ <div className="torah-verse-panel" style={{marginTop:"1rem"}}><label htmlFor="interlinear-private-note"><strong>My private study note · {reference}</strong></label><textarea id="interlinear-private-note" aria-label="Private study note" value={notes[reference]||""} onChange={e=>saveNote(e.target.value)} placeholder="Write your observations here. Saved on this device only." rows={3} style={{display:"block",width:"100%",marginTop:"0.5rem",padding:"0.75rem",font:"inherit"}}/><small>Notes and bookmarks stay in this browser. Clearing browser data removes them.</small></div>
+ <div className="torah-reader-pagination"><button type="button" disabled={book==="Genesis"&&chapter===1&&verse===1} onClick={previousVerse}>{he?"הפסוק הקודם":"Previous verse"}</button><strong>{he?books.find(b=>b.id===book)?.he:book} {chapter}:{verse}</strong><button type="button" disabled={book==="Deuteronomy"&&chapter===34&&verse>=count} onClick={nextVerse}>{he?"הפסוק הבא":"Next verse"}</button></div>
  </section>
 }
