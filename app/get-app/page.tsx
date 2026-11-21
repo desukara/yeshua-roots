@@ -1,1 +1,7 @@
-import type {Metadata} from "next";import Link from "next/link";import SiteHeader from "../../components/site-header";import SiteFooter from "../../components/site-footer";import InstallAppButton from "../../components/install-app-button";export const metadata:Metadata={title:"Get the App",description:"Install Yeshua Roots on your iPhone, Android phone, or desktop. Scripture study, one tap away."};export default function GetApp(){return <><div className="app-download-route"><SiteHeader/><main id="main-content" className="install-page"><div className="install-shell"><img className="install-logo" src="/brand/app-icon.svg" alt="Yeshua Roots gold Star of David app icon" width="110" height="110"/><span className="install-eyebrow">ONE MESSIAH · ONE TORAH · ONE FAMILY</span><h1>Take Yeshua Roots with you.</h1><p className="install-lead">Yeshua Roots brings Scripture study to your phone, tablet, and computer. Install the app for quick access.</p><InstallAppButton/><div className="install-home-link"><Link href="/">← Return Home</Link></div></div></main><SiteFooter/></div></>}
+import type {Metadata} from "next";
+import SiteHeader from "../../components/site-header";
+import SiteFooter from "../../components/site-footer";
+import GetAppContent from "../../components/get-app-content";
+
+export const metadata:Metadata={title:"Get the App",description:"Install Yeshua Roots on your iPhone, Android phone, or desktop. Scripture study, one tap away."};
+export default function GetApp(){return <div className="app-download-route"><SiteHeader/><main id="main-content" className="install-page"><GetAppContent/></main><SiteFooter/></div>}
