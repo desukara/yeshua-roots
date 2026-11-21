@@ -57,7 +57,7 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.ok(reader.includes('Full English definition:'));
  assert.ok(reader.includes('corpusWord.gloss?.trim()'));
  assert.ok(!reader.includes('Want the word details? Tap here.'));
- assert.ok(!reader.includes('Strong’s number:'));
+ assert.ok(reader.includes('Strong’s number:'));
  assert.ok(!reader.includes('Grammar code:'));
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
