@@ -6668,6 +6668,7 @@ export default function InterlinearReader(){
  const [savedPosition,setSavedPosition]=useState<string|null>(null);
  const [ready,setReady]=useState(false);
  const [pendingLastVerse,setPendingLastVerse]=useState(false);
+ const count=chapterData?.verses.length||(book==="Genesis"&&chapter===1?31:0);
  const reference=book+" "+chapter+":"+verse;
  const verseLink=()=>"/torah?book="+encodeURIComponent(book)+"&chapter="+chapter+"&verse="+verse+"#interlinear-reader";
  useEffect(()=>{
@@ -6718,7 +6719,7 @@ export default function InterlinearReader(){
 
  const hebrew=chapterData?.verses[verse-1]||curated?.hebrew||"";
  const englishVerse=englishVerses?.find(v=>v.number===verse)?.text;
- const count=chapterData?.verses.length||(book==="Genesis"&&chapter===1?31:0);
+
  function chooseBook(value:string){setBook(value);setChapter(1);setVerse(1);setSelected(null)}
  function chooseChapter(value:number){setChapter(value);setVerse(1);setSelected(null)}
  function chooseVerse(value:number){setVerse(value);setSelected(null)}
