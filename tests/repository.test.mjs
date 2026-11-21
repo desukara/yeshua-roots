@@ -20,8 +20,8 @@ test('all starter study translations have matching slugs', () => {
 
 test('unpublished ministry services remain identified as unavailable', () => {
   const translations = read('lib/translations.ts');
-  assert.match(translations, /not yet live/);
-  assert.match(translations, /not yet published/);
+  assert.match(translations, /In Development/);
+  assert.match(translations, /In Development/);
 });
 
 test('homepage hero identifies an online Messianic synagogue in both languages', () => {
@@ -43,7 +43,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   assert.match(copy, /המשיח היהודי החי/);
   assert.match(copy, /Yeshua is alive, present, and active/);
   assert.match(homepage, /MATTHEW 5:17–19/);
-  assert.match(homepage, /Fulfilled in Messiah/);
+  assert.match(homepage, /Yeshua Did Not Abolish Torah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
   assert.match(homepage, /const hrefs=\["\/torah","\/start-here"\]/);
   assert.match(copy, /In Development/);
@@ -216,7 +216,7 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,3);
  assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,3);
  assert.match(paths,/Read Genesis in its own context first/);
- assert.match(paths,/grafted into Israel’s Jewish olive tree/);
+ assert.match(paths,/members of Israel’s one covenant family, grafted into one olive tree/);
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
