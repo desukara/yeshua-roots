@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {test,expect} from "@playwright/test";
 test("deep link, bookmarks, resume, and chapter navigation",async({page})=>{
  await page.goto("/torah?book=Genesis&chapter=1&verse=5#interlinear-reader");
