@@ -53,3 +53,5 @@ The seven introductory study articles and their Hebrew translations are editoria
 - Add editorial publishing workflow and verified directory
 - Deploy a Vercel preview and check RTL on real devices
 - Connect yeshuaroots.com only after preview approval
+
+- Never use “Yeshua fulfilled the Torah” as shorthand for the Torah being cancelled, expired, superseded, or replaced. Explain Matthew 5:17–20 in context: Yeshua explicitly denies abolishing the Torah and warns against setting aside commandments or teaching others to do so. Reject anti-Jewish and supersessionist interpretations that turn fulfillment into termination or replace Israel with a separate religion.
