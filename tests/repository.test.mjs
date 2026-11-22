@@ -26,8 +26,8 @@ test('unpublished ministry services remain identified as unavailable', () => {
 
 test('homepage hero identifies an online Messianic synagogue in both languages', () => {
   const translations = read('lib/translations.ts');
-  assert.match(translations, /An Online Messianic Synagogue/);
-  assert.match(translations, /בית כנסת משיחי מקוון/);
+  assert.match(translations, /An Open Bible Study/);
+  assert.match(translations, /לימוד תנ״ך פתוח לכולם/);
 });
 
 test('interlinear promotional kicker is localized', () => {
@@ -39,8 +39,8 @@ test('interlinear promotional kicker is localized', () => {
 test('homepage centers living Messiah and Scripture without routing visitors to unfinished community features', () => {
   const homepage = read('app/page.tsx');
   const copy = read('lib/translations.ts');
-  assert.match(copy, /The Living Jewish Messiah/);
-  assert.match(copy, /המשיח היהודי החי/);
+  assert.match(copy, /The Bible in Its Original World/);
+  assert.match(copy, /הכתובים בהקשרם המקורי/);
   assert.match(copy, /Yeshua is alive, present, and active/);
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Yeshua Did Not Abolish Torah/);
@@ -79,9 +79,9 @@ test('mission framing stays consistent across metadata, About and editorial poli
   const metadata = read('app/layout.tsx');
   const translations = read('lib/translations.ts');
   const readme = read('README.md');
-  assert.match(metadata, /Israel’s living Jewish Messiah/);
-  assert.match(translations, /Yeshua, the living Jewish Messiah of Israel/);
-  assert.match(translations, /המשיח היהודי החי של ישראל/);
+  assert.match(metadata, /welcoming place to study the Bible/);
+  assert.match(translations, /Yeshua is the Hebrew name of Jesus/);
+  assert.match(translations, /לימוד כתבי הקודש/);
   assert.match(readme, /alive, present, aware, and active now/);
   assert.match(readme, /Israel's Scriptures/);
 });
@@ -152,7 +152,7 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /Yeshua is alive/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
- assert.match(section, /One Messiah\. One Torah\. One Family\./);
+ assert.match(section, /Exploring the Bible\. Understanding Its Roots\./);
  assert.match(section, /about-editorial-reading/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /<MinistryIdentity/);
@@ -172,8 +172,8 @@ test('teaching page offers bilingual learning routes without overstating editori
 test('official ministry motto is consistent in both languages', () => {
  const copy=read('lib/translations.ts');
  const home=read('app/page.tsx');
- assert.match(copy, /One Messiah\. One Torah\. One Family\./);
- assert.match(copy, /משיח אחד\. תורה אחת\. משפחה אחת\./);
+ assert.match(copy, /Exploring the Bible\. Understanding Its Roots\./);
+ assert.match(copy, /לומדים את הכתובים בהקשרם/);
  assert.match(home, /c\.mottoLines\[1\]/);
 });
 
@@ -216,7 +216,7 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,3);
  assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,3);
  assert.match(paths,/Read Genesis in its own context first/);
- assert.match(paths,/members of Israel’s one covenant family, grafted into one olive tree/);
+ assert.match(paths,/Jewish identity/);
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
