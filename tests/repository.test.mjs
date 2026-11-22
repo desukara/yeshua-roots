@@ -152,7 +152,7 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /Yeshua is alive/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
- assert.match(section, /Exploring the Bible\. Understanding Its Roots\./);
+ assert.match(section, /Explore the Bible\. Understand Its Roots\./);
  assert.match(section, /about-editorial-reading/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /<MinistryIdentity/);
@@ -172,7 +172,7 @@ test('teaching page offers bilingual learning routes without overstating editori
 test('official ministry motto is consistent in both languages', () => {
  const copy=read('lib/translations.ts');
  const home=read('app/page.tsx');
- assert.match(copy, /Exploring the Bible\. Understanding Its Roots\./);
+ assert.match(copy, /Explore the Bible\. Understand Its Roots\./);
  assert.match(copy, /לומדים את הכתובים בהקשרם/);
  assert.match(home, /c\.mottoLines\[1\]/);
 });
