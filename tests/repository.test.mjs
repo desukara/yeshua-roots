@@ -41,7 +41,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   const copy = read('lib/translations.ts');
   assert.match(copy, /The Bible in Its Original World/);
   assert.match(copy, /הכתובים בהקשרם המקורי/);
-  assert.match(copy, /Yeshua is alive, present, and active/);
+  assert.match(copy, /No denominational arguments, no pressure, and no judgment/);
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Yeshua Did Not Abolish Torah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
@@ -152,7 +152,7 @@ test('about page presents bilingual ministry identity without publishing unappro
  assert.match(section, /No judgment, no denominational arguments/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /Welcome to Yeshua Roots/);
- assert.match(section, /Explore the Bible\. Understand Its Roots\./);
+ assert.match(section, /Exploring the Bible\. Understanding Its Roots\./);
  assert.match(section, /about-editorial-reading/);
  assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /<MinistryIdentity/);
