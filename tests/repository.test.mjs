@@ -216,7 +216,7 @@ test('guided learning keeps Yeshua central while honoring original Scripture con
  assert.equal((paths.match(/messiahFocusEn:"/g)||[]).length,3);
  assert.equal((paths.match(/messiahFocusHe:"/g)||[]).length,3);
  assert.match(paths,/Read Genesis in its own context first/);
- assert.match(paths,/Jewish identity/);
+ assert.match(paths,/respecting Jewish identity/);
  assert.match(section,/Yeshua at the center:/);
  assert.match(section,/ישוע במרכז הלימוד/);
 });
