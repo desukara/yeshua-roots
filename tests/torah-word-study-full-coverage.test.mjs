@@ -93,6 +93,6 @@ test("plain-English Genesis explanations are reviewed, verse-specific, and silen
  assert.match(reader,/Break It Down for Me/);
  assert.match(reader,/breakdown\.breakdown/);
  assert.match(reader,/getTorahBreakdown\(book,chapter,verse\)/);
- assert.match(reader,/This is a study explanation, not a Bible translation/);
+ assert.doesNotMatch(reader,/This is a study explanation, not a Bible translation/);
  assert.doesNotMatch(reader,/<audio|speechSynthesis|Audio\(/);
 });
