@@ -4,6 +4,8 @@ import genesisOneRealTalk from "../../../../../data/torah/genesis1-real-talk.jso
 import genesisOneVerseNotes from "../../../../../data/torah/genesis1-verse-notes.json";
 import genesisTwoRealTalk from "../../../../../data/torah/genesis2-real-talk.json";
 import genesisTwoVerseNotes from "../../../../../data/torah/genesis2-verse-notes.json";
+import genesisThreeRealTalk from "../../../../../data/torah/genesis3-real-talk.json";
+import genesisThreeVerseNotes from "../../../../../data/torah/genesis3-verse-notes.json";
 import genesis from "../../../../../data/torah/genesis.json";
 import exodus from "../../../../../data/torah/exodus.json";
 import leviticus from "../../../../../data/torah/leviticus.json";
@@ -27,10 +29,10 @@ export async function GET(_request:Request,{params}:{params:Promise<{book:string
   const numericLemma=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(lexicalPart);
   const strong=numericLemma?"H"+Number(numericLemma[1]):null;
   const entry=strong?dictionary[strong]:undefined;
-  const plainParticle=book==="Genesis"&&chapter===2?(lexicalPart==="b"?"in, within":lexicalPart==="l"?"to, for":undefined):undefined;
-  const plainEnglish=plainParticle||(book==="Genesis"&&chapter===1&&strong? (genesisOneRealTalk.entries as Record<string,string>)[strong]:book==="Genesis"&&chapter===2&&strong?(genesisTwoRealTalk.entries as Record<string,string>)[strong]:undefined);
-  const verseNotes=book==="Genesis"&&chapter===1?(genesisOneVerseNotes.entries as Record<string,string[]>)[String(verseIndex+1)]:book==="Genesis"&&chapter===2?(genesisTwoVerseNotes.entries as Record<string,string[]>)[String(verseIndex+1)]:undefined;
-  const note=book==="Genesis"&&(chapter===1||chapter===2)?verseNotes?.[index]||null:null;
+  const plainParticle=book==="Genesis"&&(chapter===2||chapter===3)?(lexicalPart==="b"?"in, on, with":lexicalPart==="l"?"to, for":undefined):undefined;
+  const plainEnglish=plainParticle||(book==="Genesis"&&chapter===1&&strong? (genesisOneRealTalk.entries as Record<string,string>)[strong]:book==="Genesis"&&chapter===2&&strong?(genesisTwoRealTalk.entries as Record<string,string>)[strong]:book==="Genesis"&&chapter===3&&strong?(genesisThreeRealTalk.entries as Record<string,string>)[strong]:undefined);
+  const verseNotes=book==="Genesis"&&chapter===1?(genesisOneVerseNotes.entries as Record<string,string[]>)[String(verseIndex+1)]:book==="Genesis"&&chapter===2?(genesisTwoVerseNotes.entries as Record<string,string[]>)[String(verseIndex+1)]:book==="Genesis"&&chapter===3?(genesisThreeVerseNotes.entries as Record<string,string[]>)[String(verseIndex+1)]:undefined;
+  const note=book==="Genesis"&&(chapter===1||chapter===2||chapter===3)?verseNotes?.[index]||null:null;
   return {index:index+1,hebrew,lemma,morph,strong,transliteration:entry?.[0]||null,gloss:plainEnglish||entry?.[1]||null,pronunciation:entry?.[2]||null,note};
  }));
  const verses=chapterVerses.map(verse=>verse.map(word=>word[0]).join(" ").replace(/\s+/g," ").trim());
