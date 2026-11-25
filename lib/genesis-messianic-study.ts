@@ -1,3 +1,4 @@
+import genesisTwoMessianicStudy from "../data/torah/genesis2-messianic-study.json";
 export type StudyPassage={reference:string;book:string;chapter:number;firstVerse:number;lastVerse:number};
 export type MessianicNote={context:string;connection:string;references:string;kind:"direct promise"|"typology"|"thematic connection"|"apostolic interpretation";supportingPassages?:StudyPassage[]};
 export const genesisStudy:Record<number,{title:string;overview:string;notes:Record<number,MessianicNote>;overviewPassages?:StudyPassage[]}>={
@@ -146,3 +147,5 @@ export const genesisStudy:Record<number,{title:string;overview:string;notes:Reco
 30:{context:"Lamech continues living after Noah's birth and has other children.",connection:"The repeated generations and deaths emphasize human mortality; the resurrection of Messiah supplies the apostolic answer to death.",references:"1 Corinthians 15:20–26; Luke 3:23–38",kind:"thematic connection"},
 31:{context:"Lamech's lifespan concludes with death.",connection:"The repeated generations and deaths emphasize human mortality; the resurrection of Messiah supplies the apostolic answer to death.",references:"1 Corinthians 15:20–26; Luke 3:23–38",kind:"thematic connection"}}}
 };
+
+genesisStudy[2] = genesisTwoMessianicStudy as typeof genesisStudy[2];

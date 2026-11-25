@@ -843,6 +843,9 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 .interlinear-reader .messianic-verse-heading{padding-bottom:12px;border-bottom:1px solid #d1dccd}
 .interlinear-reader .messianic-verse-heading h3{margin:5px 0 0;font:700 clamp(20px,2.2vw,25px)/1.3 Georgia,"Times New Roman",serif;color:#244231}
 .interlinear-reader .messianic-verse-connection{max-width:76ch;margin:14px 0 0;font-size:1.02rem;line-height:1.75}
+.interlinear-reader .messianic-verse-context{max-width:76ch;margin:14px 0 0;line-height:1.7}
+.interlinear-reader .messianic-verse-context strong,.interlinear-reader .messianic-verse-references strong{color:#34533e}
+.interlinear-reader .messianic-verse-references{margin:14px 0 0;line-height:1.6}
 .interlinear-reader .messianic-passage-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px;margin-top:16px}
 .interlinear-reader .messianic-passage-list>p{margin:0;line-height:1.55}
 .interlinear-reader .messianic-passage{min-width:0;margin:0;padding:14px 16px;border:1px solid #d5dccb;border-radius:10px;background:#fffdf7}
@@ -854,6 +857,7 @@ body{background:var(--yr-ivory);color:var(--yr-text)}
 @media(max-width:600px){
   .interlinear-reader .messianic-chapter-overview{margin:14px 0;padding:18px 16px;border-radius:12px}
   .interlinear-reader .messianic-verse-study{margin:16px 0;padding:18px 16px;border-radius:12px}
+  .interlinear-reader .messianic-verse-context,.interlinear-reader .messianic-verse-connection,.interlinear-reader .messianic-verse-references{font-size:.98rem}
   .interlinear-reader .messianic-passage-list{grid-template-columns:minmax(0,1fr);gap:9px;margin-top:13px}
   .interlinear-reader .messianic-passage{padding:12px 13px}
   .interlinear-reader .messianic-passage blockquote{font-size:.98rem;line-height:1.62}

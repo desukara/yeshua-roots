@@ -2,6 +2,7 @@
 import {useEffect,useState} from "react";
 import {interlinearVerses} from "../lib/interlinear";
 import {genesisStudy,type StudyPassage} from "../lib/genesis-messianic-study";
+import genesisTwoVerseStudy from "../data/torah/genesis2-verse-study.json";
 import {useLanguage} from "./language-provider";
 const books=[{id:"Genesis",he:"בראשית",chapters:50},{id:"Exodus",he:"שמות",chapters:40},{id:"Leviticus",he:"ויקרא",chapters:27},{id:"Numbers",he:"במדבר",chapters:36},{id:"Deuteronomy",he:"דברים",chapters:34}];
 type CorpusWord={index:number;hebrew:string;lemma:string;morph:string;strong:string|null;transliteration:string|null;gloss:string|null;pronunciation:string|null;note:string|null};
@@ -169,133 +170,7 @@ const plainGenesisOne:Record<number,PlainVerseStudy>={
   "takeaway": "God declares the whole completed creation very good."
  }
 };
-const plainGenesisTwo:Record<number,PlainVerseStudy>={
- "1": {
-  "scene": "The heavens and earth, along with everything in them, are finished.",
-  "breakdown": "Genesis 1 walked us through God making the world. Now the opening line of chapter 2 says that work has reached its end. Nothing new is being added to the creation account here; we're being told the work is complete before the story turns to the seventh day.",
-  "takeaway": "The creation work described so far is finished."
- },
- "2": {
-  "scene": "God finishes His work and rests on the seventh day.",
-  "breakdown": "When Genesis says God 'rested,' it means He stopped the work He had been doing. It doesn't say He was exhausted. The six days of making and filling the world are over, and the seventh day is different because God ceases that work.",
-  "takeaway": "God stops His work of creation on the seventh day."
- },
- "3": {
-  "scene": "God blesses the seventh day and makes it holy.",
-  "breakdown": "This isn't just another day on the calendar. God blesses it and sets it apart because He rested on it. Later, when the Torah teaches Israel about the Sabbath, it points back to this creation pattern. Here in Genesis, the emphasis is on what God did with the seventh day.",
-  "takeaway": "The seventh day is blessed and set apart."
- },
- "4": {
-  "scene": "The account shifts from the creation of the whole world to a closer look at the earth and human life.",
-  "breakdown": "The phrase 'these are the generations' introduces a new section. We also begin hearing the name 'the LORD God.' The story is about to zoom in on the man, the garden, and the choices that follow. It isn't simply another list of creation days.",
-  "takeaway": "Genesis now focuses on the human story."
- },
- "5": {
-  "scene": "No field shrub or plant has grown yet; there has been no rain and no human being to work the ground.",
-  "breakdown": "Don't miss the words about the field and working the soil. The verse is setting up the situation before the man is formed and before the garden is planted. It isn't necessarily saying there was no vegetation anywhere after Genesis 1; it's describing the ground in this scene and the lack of a worker to tend it.",
-  "takeaway": "The story sets up the need for someone to work the ground."
- },
- "6": {
-  "scene": "Water rises from the earth and waters the ground.",
-  "breakdown": "Verse 5 said rain had not fallen. Now we hear about water coming up and wetting the ground. The Hebrew term for this water source is not entirely certain; translations say 'mist,' 'stream,' or something similar. The important point in the scene is that the soil is being watered.",
-  "takeaway": "The ground receives water before the man is formed."
- },
- "7": {
-  "scene": "The LORD God forms the man from dust and breathes the breath of life into him.",
-  "breakdown": "Here's a picture you can almost see: God forms the man from the ground, then breathes life into him. The Hebrew words for 'man' (adam) and 'ground' (adamah) sound closely related. The man belongs to the earth, but his life comes from God. He isn't alive until God gives him breath.",
-  "takeaway": "The man comes from the ground and receives life from God."
- },
- "8": {
-  "scene": "The LORD God plants a garden in Eden and puts the man there.",
-  "breakdown": "The man doesn't wander into Eden and find a garden on his own. God plants it and places him there. This is the setting where the man will live, work, receive a command, and eventually face a choice.",
-  "takeaway": "God prepares a place for the man."
- },
- "9": {
-  "scene": "God grows trees that look beautiful and provide food, including the tree of life and the tree of the knowledge of good and evil.",
-  "breakdown": "The garden isn't described as bare or miserable. Its trees are attractive and good for food. But two trees get special attention. Remember their names, because the command about one of them and what happens later will drive the story forward.",
-  "takeaway": "The garden offers plenty, but two trees matter especially."
- },
- "10": {
-  "scene": "A river flows out of Eden to water the garden, then divides into four branches.",
-  "breakdown": "The garden has a water source, and Genesis follows that river beyond Eden. The next verses name the four branches and the lands connected with them. We shouldn't pretend we can identify the garden's exact location from this description alone.",
-  "takeaway": "The river waters the garden and leads into a description of the surrounding lands."
- },
- "11": {
-  "scene": "The first river is called Pishon, and it winds around the land of Havilah.",
-  "breakdown": "Genesis starts naming the four rivers. The first is Pishon, connected with Havilah, a land said to have gold. We aren't told exactly where this ancient river ran, so it would be guesswork to draw a confident modern map of it.",
-  "takeaway": "Pishon is the first named river, associated with Havilah."
- },
- "12": {
-  "scene": "Havilah is described as a land with good gold, bdellium, and a precious stone.",
-  "breakdown": "These are details about the land mentioned in the previous verse. Bdellium is usually understood as an aromatic resin, while the Hebrew name of the stone is translated differently in some Bibles. The verse doesn't tell us to turn these materials into hidden spiritual symbols.",
-  "takeaway": "The passage describes valuable materials found in Havilah."
- },
- "13": {
-  "scene": "The second river is Gihon, which winds around the land of Cush.",
-  "breakdown": "Now we get the second river's name. Cush is also a place-name found elsewhere in Scripture, but that doesn't settle exactly where this river was in the garden account. Genesis gives the name and its association without supplying a modern location.",
-  "takeaway": "Gihon is named as the second river."
- },
- "14": {
-  "scene": "The third river is Tigris, flowing east of Assyria, and the fourth is Euphrates.",
-  "breakdown": "These two names may sound more familiar because the Tigris and Euphrates are known rivers of the ancient Near East. The verse gives a directional detail for the Tigris and simply names the Euphrates. That still doesn't give us enough to pinpoint Eden with certainty.",
-  "takeaway": "Tigris and Euphrates complete the list of four rivers."
- },
- "15": {
-  "scene": "God puts the man in the garden to work it and keep it.",
-  "breakdown": "The garden is a gift, but the man isn't placed there to do absolutely nothing. He's given work: tending and keeping the place. The Hebrew verbs can carry the ideas of serving or cultivating and guarding or watching over. Work appears here before the disobedience of Genesis 3.",
-  "takeaway": "Caring for the garden is part of the man's calling."
- },
- "16": {
-  "scene": "God tells the man he may freely eat from the trees in the garden.",
-  "breakdown": "Listen to how the command starts: with permission. God isn't telling the man that everything is off-limits. He's telling him he can eat freely from the garden's trees, before naming the one exception in the next verse.",
-  "takeaway": "God gives the man plenty to enjoy."
- },
- "17": {
-  "scene": "God tells the man not to eat from the tree of the knowledge of good and evil and warns that death will follow.",
-  "breakdown": "Here's the one restriction after the broad permission of verse 16. God names a particular tree and gives a serious warning about eating from it. The Hebrew warning is emphatic, often rendered 'you shall surely die.' Exactly how that warning unfolds becomes part of the story in chapter 3.",
-  "takeaway": "The freedom of the garden comes with one clear prohibition."
- },
- "18": {
-  "scene": "God says it isn't good for the man to be alone and says He will make a helper suited to him.",
-  "breakdown": "All through Genesis 1, we kept hearing that creation was good. Now something is 'not good': the man is alone. The Hebrew expression for 'helper corresponding to him' doesn't mean an inferior servant. It points to someone who can stand alongside him as a fitting counterpart.",
-  "takeaway": "The man needs a fitting companion, not just more things around him."
- },
- "19": {
-  "scene": "God brings the land animals and birds to the man to see what he will name them.",
-  "breakdown": "The animals come before the man, and he gives them names. The verse also connects back to the search for a suitable companion. Naming creatures is meaningful, but being surrounded by animals doesn't solve the man's aloneness.",
-  "takeaway": "The animals are named, but the question of a fitting companion remains."
- },
- "20": {
-  "scene": "The man names the animals, but no suitable helper is found for him.",
-  "breakdown": "The verse mentions livestock, birds, and wild animals. The man can name them all, but none is the matching partner God said he needed. That's why the story doesn't end with the animals. Something else has to happen.",
-  "takeaway": "None of the animals is the man's human counterpart."
- },
- "21": {
-  "scene": "God puts the man into a deep sleep, takes from his side, and closes the flesh.",
-  "breakdown": "The man is asleep while God acts. Many English Bibles say 'rib,' but the Hebrew word can also mean 'side.' The point isn't to give us a medical explanation of the procedure. The story is showing that the woman comes from the man's own body, not from a separate kind of creature.",
-  "takeaway": "God begins making the woman from the man's own side."
- },
- "22": {
-  "scene": "God makes the woman from what He took from the man and brings her to him.",
-  "breakdown": "Now we see the answer to the problem named in verse 18. God makes the woman and brings her to the man. The language presents her as someone who belongs alongside him, not as another animal for him to name.",
-  "takeaway": "God provides the fitting human companion the man lacked."
- },
- "23": {
-  "scene": "The man welcomes the woman as 'bone of my bones and flesh of my flesh.'",
-  "breakdown": "You can hear the excitement in his words: at last, someone like him! 'Bone of my bones' and 'flesh of my flesh' express shared humanity and close kinship. The Hebrew also plays on the words for man (ish) and woman (ishah). This is recognition, not a claim that one is less human than the other.",
-  "takeaway": "The man recognizes the woman as his own human counterpart."
- },
- "24": {
-  "scene": "The passage says a man leaves his father and mother, holds fast to his wife, and they become one flesh.",
-  "breakdown": "The story moves from this first couple to a wider statement about marriage. A new bond is formed, strong enough to be described as leaving one's parents and joining one's spouse. 'One flesh' speaks of a deep union; it isn't saying two people literally turn into one body.",
-  "takeaway": "Marriage is described as a new, close family bond."
- },
- "25": {
-  "scene": "The man and his wife are both naked, and neither feels shame.",
-  "breakdown": "Genesis ends this chapter with a quiet picture of the couple together, uncovered and unashamed. That's worth remembering when chapter 3 begins, because after they disobey, their awareness of being naked changes. The contrast is part of how the story shows what was lost.",
-  "takeaway": "The couple begins without shame; chapter 3 will show a change."
- }
-};
+const plainGenesisTwo:Record<number,PlainVerseStudy>=genesisTwoVerseStudy as Record<number,PlainVerseStudy>;
 const plainGenesisThree:Record<number,PlainVerseStudy>={
  "1": {
   "scene": "The serpent questions the woman about what God said they could eat.",
@@ -6741,6 +6616,7 @@ export default function InterlinearReader(){
  <div className="torah-pickers"><label>{he?"ספר":"Book"} <select value={book} onChange={e=>chooseBook(e.target.value)}>{books.map(b=><option key={b.id} value={b.id}>{he?b.he:b.id}</option>)}</select></label>
  <label>{he?"פרק":"Chapter"} <select value={chapter} onChange={e=>chooseChapter(Number(e.target.value))}>{Array.from({length:books.find(b=>b.id===book)?.chapters||50},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label>
  <label>{he?"פסוק":"Verse"} <select value={verse} onChange={e=>chooseVerse(Number(e.target.value))}>{Array.from({length:count},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label></div></div>
+ {study&&chapter===2&&<section className="messianic-chapter-overview" lang="en" dir="ltr" aria-labelledby="messianic-chapter-heading"><span className="messianic-eyebrow">GENESIS 2 · THE CHAPTER’S CONNECTION</span><h3 id="messianic-chapter-heading">{study.title}</h3><p>{study.overview}</p></section>}
  {study&&chapter===1&&<section className="messianic-chapter-overview" lang="en" dir="ltr" aria-labelledby="messianic-chapter-heading"><span className="messianic-eyebrow">GENESIS 1 · THE CHAPTER’S CONNECTION</span><h3 id="messianic-chapter-heading">{study.title}</h3><p>{study.overview}</p><StudyPassages passages={overviewPassages} loading={overviewPassagesLoading} error={overviewPassagesError}/></section>}
  <p className="interlinear-intro">{he?"כאן אפשר לקרוא בעברית את חמשת חומשי משה. התורה היא חמשת חומשי משה, ושאר כתבי הקודש כוללים גם את הנביאים, הכתובים והברית החדשה. לימוד מילים זמין בכל חמשת חומשי התורה.":"Read the first five books of the Bible in Hebrew. Tap a Hebrew word and we'll show you how to say it, what it means, and a little more about it. If you're reading Genesis 1–5, you'll also find notes that help you see how the passage connects to Yeshua."}</p>
  <div className="interlinear-options" style={{display:"flex",flexWrap:"wrap",gap:"0.75rem",alignItems:"center"}}><label><input type="checkbox" checked={showTransliteration} onChange={e=>setShowTransliteration(e.target.checked)}/> {he?"הצגת תעתיק":"Show transliteration"}</label></div>
@@ -6759,7 +6635,8 @@ export default function InterlinearReader(){
  
  <InterlinearDetail hebrew={word?.hebrew} transliteration={word?.transliteration} meaning={word?.english} explanation={word?.note} emptyText="Choose a Hebrew word to see its meaning and how it reads here."/></>:hebrew&&corpusWords.length?<><div className="interlinear-word-grid" dir="rtl" lang="he">{corpusWords.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={w.index} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&w.transliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}<span className="iw-english" lang="en" dir="ltr">{shortGloss(w.gloss,w.strong)}</span></button>)}</div><InterlinearDetail hebrew={corpusWord?.hebrew} transliteration={corpusWord?.transliteration} meaning={corpusWord?.gloss} explanation={corpusWord?.note} emptyText="A small word can carry a lot of meaning. Choose one, and we’ll show you what it says here."/></>:!loading&&!error?<p>{he?"אין טקסט זמין לפסוק זה.":"No text available for this verse."}</p>:null}
  
- {study&&chapter!==1&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
+ {study&&chapter===2&&messianicNote&&<section className="messianic-verse-study" lang="en" dir="ltr" aria-labelledby="messianic-verse-heading"><div className="messianic-verse-heading"><span className="messianic-eyebrow">GENESIS 2:{verse} · READ WITH YESHUA IN VIEW</span><h3 id="messianic-verse-heading">How this verse connects to Yeshua</h3></div><p className="messianic-verse-context"><strong>What is happening here</strong><br/>{messianicNote.context}</p><p className="messianic-verse-connection">{messianicNote.connection}</p><p className="messianic-verse-references"><strong>Read these verses here</strong> · {messianicNote.references}</p><StudyPassages passages={versePassages} loading={versePassagesLoading} error={versePassagesError}/></section>}
+ {study&&chapter>2&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
  <div className="torah-verse-panel" style={{marginTop:"1rem"}}><label htmlFor="interlinear-private-note"><strong>My private study note · {reference}</strong></label><textarea id="interlinear-private-note" aria-label="Private study note" value={notes[reference]||""} onChange={e=>saveNote(e.target.value)} placeholder="Write your observations here. Saved on this device only." rows={3} style={{display:"block",width:"100%",marginTop:"0.5rem",padding:"0.75rem",font:"inherit"}}/><small>Notes and bookmarks stay in this browser. Clearing browser data removes them.</small></div>
  <div className="torah-reader-pagination"><button type="button" disabled={loading||!chapterData||!count||(book==="Genesis"&&chapter===1&&verse===1)} onClick={previousVerse}>{he?"הפסוק הקודם":"Previous verse"}</button><strong>{he?books.find(b=>b.id===book)?.he:book} {chapter}:{verse}</strong><button type="button" disabled={loading||!chapterData||!count||(book==="Deuteronomy"&&chapter===34&&verse>=count)} onClick={nextVerse}>{he?"הפסוק הבא":"Next verse"}</button></div>
  </section>
