@@ -67,7 +67,7 @@ export const interlinearVerses:InterlinearVerse[]=[
 {hebrew:"וַיַּעַשׂ",transliteration:"va-ya'as",english:"and he made",note:"God makes the space He spoke of. The word has become part of the world before us."},
 {hebrew:"אֱלֹהִים",transliteration:"Elohim",english:"God",note:"God Himself brings this part of creation into place."},
 {hebrew:"אֶת־הָרָקִיעַ",transliteration:"et ha-raqia",english:"the expanse [object]",note:"The space itself is in view now, standing between the waters just as God commanded."},
-{hebrew:"וַיַּבְדֵּל",transliteration:"va-yavdel",english:"and he separated",note:"He separates the waters. That’s exactly what the command called for."},
+{hebrew:"וַיַּבְדֵּל",transliteration:"va-yavdel",english:"and he separated",note:"God divides the waters below from the waters above. Now look at His word at work. He spoke, and the waters took their places. The sky stands between them, just as He commanded."},
 {hebrew:"בֵּין",transliteration:"bein",english:"between",note:"The waters are held apart. What was once one scene now has a clear boundary."},
 {hebrew:"הַמַּיִם",transliteration:"ha-mayim",english:"the waters",note:"These are the waters below the sky."},
 {hebrew:"אֲשֶׁר",transliteration:"asher",english:"which / that",note:"The verse narrows our view to these waters below the sky."},
