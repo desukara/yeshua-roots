@@ -41,7 +41,7 @@ test('homepage centers living Messiah and Scripture without routing visitors to 
   const copy = read('lib/translations.ts');
   assert.match(copy, /The Bible in Its Original World/);
   assert.match(copy, /הכתובים בהקשרם המקורי/);
-  assert.match(copy, /No denominational arguments, no pressure, and no judgment/);
+  assert.doesNotMatch(copy, /No denominational arguments, no pressure, and no judgment/);
   assert.match(homepage, /MATTHEW 5:17–19/);
   assert.match(homepage, /Yeshua Did Not Abolish Torah/);
   assert.match(homepage, /href="\/history\/jewish-roots"/);
