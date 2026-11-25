@@ -11,6 +11,7 @@ const expectedChapters=[50,40,27,36,34];
 const corpora=names.map(name=>JSON.parse(read("../data/torah/"+name+".json")));
 const dictionary=JSON.parse(read("../data/torah/strongs-hebrew.json")).entries;
 const realTalk=JSON.parse(read("../data/torah/genesis1-real-talk.json")).entries;
+const genesis1VerseNotes=JSON.parse(read("../data/torah/genesis1-verse-notes.json")).entries;
 const strongOf=lemma=>{const part=lemma.split("/").at(-1)||"";const match=/^(\d{1,5})(?:\s+[a-z])?$/i.exec(part);return match?"H"+Number(match[1]):null;};
 
 test("every Torah chapter and verse has nonempty aligned Hebrew tokens and morphology",()=>{
@@ -64,7 +65,13 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.doesNotMatch(reader,/word\.note\|\|/);
  const wordNotes=[...interlinear.matchAll(/english:"[^"]+",note:"([^"]+)"/g)].map(([,note])=>note);
  assert.equal(wordNotes.length,79);
- assert.equal(new Set(wordNotes).size,79);
+ const laterVerseNotes=Object.values(genesis1VerseNotes).flat();
+ assert.equal(Object.keys(genesis1VerseNotes).length,23);
+ for(let verse=9;verse<=31;verse++)assert.equal(genesis1VerseNotes[String(verse)].length,corpora[0].chapters[0][verse-1].length);
+ assert.equal(wordNotes.length+laterVerseNotes.length,423);
+ assert.equal(new Set([...wordNotes,...laterVerseNotes]).size,423);
+ assert.match(api,/genesisOneVerseNotes/);
+ assert.match(reader,/corpusWord\.note\|\|corpusWord\.gloss/);
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
  assert.match(search,/const LIMIT=60/);
