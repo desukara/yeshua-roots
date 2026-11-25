@@ -24,6 +24,6 @@ test("KJV is loaded from the existing Bible API for the selected book and chapte
 test("missing Scripture is never silently replaced by an explanation",()=>{
  assert.match(reader,/Hebrew Scripture is unavailable for this verse/);
  assert.match(reader,/KJV Scripture is temporarily unavailable/);
- assert.match(reader,/explanation below is not a Bible translation/);
+ assert.doesNotMatch(reader,/explanation below is not a Bible translation/);
  assert.doesNotMatch(reader,/className="interlinear-verse" lang="en" dir="ltr"/);
 });
