@@ -146,16 +146,20 @@ test('public library does not expose external passage reference input', () => {
  assert.match(library,/permanentRedirect\("\/torah"\)/);
 });
 
-test('about page presents bilingual ministry identity without publishing unapproved doctrine', () => {
+test('about page tells James’s story and explains the study clearly', () => {
  const section=read('components/section-client.tsx');
  assert.match(section, /function MinistryIdentity/);
- assert.match(section, /No judgment, no denominational arguments/);
+ assert.match(section, /James Simmons/);
+ assert.match(section, /American living in Tokyo, Japan/);
+ assert.match(section, /each verse points to Yeshua/);
+ assert.match(section, /Hebrew study first/);
+ assert.match(section, /New Testament passages originally written in Greek/);
  assert.match(section, /aboutPageContent\.map/);
- assert.match(section, /Welcome to Yeshua Roots/);
+ assert.match(section, /A closer look at Scripture, one verse at a time/);
  assert.match(section, /Exploring the Bible\. Understanding Its Roots\./);
  assert.match(section, /about-editorial-reading/);
- assert.match(section, /aboutPageContent\.map/);
  assert.match(section, /<MinistryIdentity/);
+ assert.doesNotMatch(section, /No judgment, no denominational arguments/);
 });
 
 test('teaching page offers bilingual learning routes without overstating editorial approval', () => {
