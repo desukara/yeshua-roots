@@ -6,7 +6,7 @@ const study = readFileSync(new URL("../lib/genesis-messianic-study.ts", import.m
 const reader = readFileSync(new URL("../components/interlinear-reader.tsx", import.meta.url), "utf8");
 const css = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
 const chapterStart = study.indexOf('1:{title:"Creation through Yeshua"');
-const chapterEnd = study.indexOf('\n2:{title:"Sabbath', chapterStart);
+const chapterEnd = study.indexOf('\n2:genesisTwoMessianicStudy', chapterStart);
 const genesisOne = study.slice(chapterStart, chapterEnd);
 
 test("Genesis 1 Messianic notes cover each verse with distinct wording", () => {
