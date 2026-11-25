@@ -124,15 +124,6 @@
 .about-page-nav a:hover { color: #9a7442; }
 .about-editorial-section { grid-column: 2; max-width: none !important; padding: 0 0 36px; }
 .about-editorial-section::before { display: block; margin: 0 0 15px; color: #a27b47; font: 700 10px/1.4 Arial, sans-serif; letter-spacing: .16em; }
-.about-editorial-section:nth-of-type(2)::before { content: "01 / THE MESSIAH"; }
-.about-editorial-section:nth-of-type(3)::before { content: "02 / TORAH & PROPHETS"; }
-.about-editorial-section:nth-of-type(4)::before { content: "03 / THE APOSTLES"; }
-.about-editorial-section:nth-of-type(5)::before { content: "04 / WELCOME"; }
-.about-editorial-section:nth-of-type(6)::before { content: "05 / GRACE & TORAH"; }
-.about-editorial-section:nth-of-type(7)::before { content: "06 / DISCIPLESHIP"; }
-.about-editorial-section:nth-of-type(8)::before { content: "07 / ONE JEWISH FAMILY"; }
-.about-editorial-section:nth-of-type(9)::before { content: "08 / OUR PURPOSE"; }
-.about-editorial-section:nth-of-type(10)::before { content: "09 / JACOB & ERIKO"; }
 .about-editorial-intro { padding-top: 8px; }
 .about-editorial-farewell { grid-column: 2; }
 .hist-shell { grid-template-columns: 255px minmax(0, 760px); gap: clamp(36px, 6vw, 90px); max-width: 1320px; }
