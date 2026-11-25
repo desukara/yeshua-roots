@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {readFileSync} from "node:fs";
 const read=path=>readFileSync(new URL(path,import.meta.url),"utf8");
 const reader=read("../components/interlinear-reader.tsx");
+const interlinear=read("../lib/interlinear.ts");
 const api=read("../app/api/torah/[book]/[chapter]/route.ts");
 const search=read("../app/api/torah/word-search/route.ts");
 const names=["genesis","exodus","leviticus","numbers","deuteronomy"];
@@ -60,6 +61,10 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.ok(!reader.includes('Strong’s number:'));
  assert.ok(!reader.includes('Dictionary glosses are possible meanings'));
  assert.ok(!reader.includes('Grammar code:'));
+ assert.doesNotMatch(reader,/word\.note\|\|/);
+ const wordNotes=[...interlinear.matchAll(/english:"[^"]+",note:"([^"]+)"/g)].map(([,note])=>note);
+ assert.equal(wordNotes.length,79);
+ assert.equal(new Set(wordNotes).size,79);
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
  assert.match(search,/const LIMIT=60/);
