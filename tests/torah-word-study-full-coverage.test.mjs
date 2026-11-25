@@ -56,7 +56,12 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.ok(reader.includes('"H3068":"the LORD (God’s name)"'));
  assert.ok(reader.includes('"H853":"marks the next word as the object"'));
  assert.ok(reader.includes('shortGloss(w.gloss,w.strong)'));
- assert.ok(reader.includes('corpusWord.note||corpusWord.gloss?.trim()'));
+ assert.match(reader,/function InterlinearDetail\(\{hebrew,transliteration,meaning,explanation/);
+ assert.ok(reader.includes('Plain meaning'));
+ assert.ok(reader.includes('Here in this verse'));
+ assert.ok(reader.includes('interlinear-detail-hebrew'));
+ assert.ok(reader.includes('meaning={word?.english} explanation={word?.note}'));
+ assert.ok(reader.includes('meaning={corpusWord?.gloss} explanation={corpusWord?.note}'));
  assert.ok(!reader.includes('What this word says here:'));
  assert.ok(!reader.includes('Want the word details? Tap here.'));
  assert.ok(!reader.includes('Strong’s number:'));
@@ -71,7 +76,7 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.equal(wordNotes.length+laterVerseNotes.length,423);
  assert.equal(new Set([...wordNotes,...laterVerseNotes]).size,423);
  assert.match(api,/genesisOneVerseNotes/);
- assert.match(reader,/corpusWord\.note\|\|corpusWord\.gloss/);
+ assert.match(reader,/hebrew=\{corpusWord\?\.hebrew\} transliteration=\{corpusWord\?\.transliteration\}/);
 });
 test("cross-Torah search uses exact Strong's identifiers and bounded results",()=>{
  assert.match(search,/const LIMIT=60/);
