@@ -161,6 +161,5 @@ body:has(.torah-temple) .global-home-escape{display:none}
 }
 
 
-@media(max-width:520px){
- .torah-temple .torah-bible-scroll.torah-bible-chapter-text{max-height:65vh!important;overflow-x:hidden!important;overflow-y:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable}
-}
+.torah-temple .torah-bible-scroll.torah-bible-chapter-text{max-height:min(72vh,780px)!important;overflow-x:hidden!important;overflow-y:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable}
+.torah-temple .torah-bible-scroll.torah-bible-chapter-text:focus-visible{outline:3px solid #d19a28;outline-offset:3px}
