@@ -96,3 +96,44 @@ body:has(.torah-temple) .global-home-escape{display:none}
     max-height:min(58dvh,440px);
   }
 }
+
+
+/* Page shortcuts put the two reading paths within reach before the long reader. */
+.temple-reader-shortcuts{max-width:1080px;margin:0 auto;padding:24px clamp(16px,4vw,48px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;background:#f5eddc}
+.temple-reader-shortcuts>a{display:flex;align-items:center;gap:14px;min-width:0;min-height:76px;padding:16px 20px;background:#fffaf0;border:1px solid #c9ae7b;border-radius:8px;color:#263f32;text-decoration:none;box-shadow:0 4px 12px #3528190c;transition:background .18s ease,transform .18s ease}
+.temple-reader-shortcuts>a:hover{background:#fff3d8;transform:translateY(-2px)}
+.temple-reader-shortcuts>a:focus-visible{outline:3px solid #b88739;outline-offset:3px}
+.temple-shortcut-index{flex:none;font:700 12px/1 system-ui,sans-serif;letter-spacing:.12em;color:#987239}
+.temple-shortcut-copy{display:grid;gap:5px;min-width:0}
+.temple-shortcut-copy strong{font:700 17px/1.25 Georgia,serif}
+.temple-shortcut-copy small{font:13px/1.4 system-ui,sans-serif;color:#716047}
+.temple-shortcut-arrow{margin-inline-start:auto;flex:none;color:#987239;font-size:20px}
+@media(max-width:520px){.temple-reader-shortcuts{grid-template-columns:1fr;padding:18px 14px;gap:10px}.temple-reader-shortcuts>a{min-height:68px;padding:13px 15px}.temple-shortcut-copy strong{font-size:16px}}
+
+/* At small zoomed widths, keep the wordmark and language controls in their own space. */
+@media(max-width:340px){
+ body:has(.torah-temple) .site-header{padding-inline:8px;gap:4px}
+ body:has(.torah-temple) .site-header .brand{flex:1 1 auto;max-width:44%;min-width:0;gap:4px;font-size:11px;letter-spacing:0}
+ body:has(.torah-temple) .site-header .brand small{font-size:6px;letter-spacing:0;white-space:normal}
+ body:has(.torah-temple) .site-header .brand-emblem{width:25px;height:25px}
+ body:has(.torah-temple) .site-header .header-actions{flex:0 0 auto;gap:2px}
+ body:has(.torah-temple) .site-header .language-switcher{gap:0}
+ body:has(.torah-temple) .site-header .language-switcher button{padding:6px 2px;font-size:9px}
+ body:has(.torah-temple) .site-header .mobile-menu-toggle{width:34px;height:34px;min-width:34px;min-height:34px}
+}
+
+
+/* Reader UX fixes from the responsive audit. */
+.temple-reader-section,.temple-interlinear-section{scroll-margin-top:16px}
+.torah-temple .torah-bible-hebrew-toggle{display:flex;flex-direction:column;align-items:flex-start;gap:12px;grid-template-columns:none}
+.torah-temple .torah-bible-hebrew-toggle p{max-width:74ch;margin:0;color:#6c604d;font-size:14px;line-height:1.65}
+.torah-temple .torah-bible-controls label{min-width:0}
+.torah-temple .torah-bible-controls select{max-width:100%;text-overflow:ellipsis}
+/* Let Scripture and Hebrew text follow the document instead of nesting a second scroll area. */
+.torah-temple .torah-bible-scroll{max-height:none!important;overflow:visible!important;overscroll-behavior:auto;scrollbar-gutter:auto;scrollbar-width:auto}
+@media(max-width:520px){
+ .torah-temple .torah-bible-controls{gap:12px;padding:14px;margin:16px 0}
+ .torah-temple .torah-bible-controls label{font-size:13px}
+ .torah-temple .torah-bible-controls select{padding:10px 12px;font-size:16px}
+ .torah-temple .torah-bible-hebrew-toggle p{font-size:13px}
+}
