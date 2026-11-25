@@ -18,16 +18,18 @@ test("Hebrew study aligns numbered words to their verse",()=>{
  assert.match(reader,/word\.transliteration/);
  assert.match(reader,/word\.gloss/);
  assert.match(reader,/word\.pronunciation/);
- assert.match(reader,/Dictionary meaning:/);
- assert.match(reader,/Pronunciation guide:/);
+ assert.match(reader,/torah-hebrew-word-cards/);
+ assert.match(reader,/torah-hebrew-word-card-meaning/);
+ assert.doesNotMatch(reader,/Morph: \{word\.morph\}/);
  assert.match(reader,/!loading&&!error&&version==="kjv"/);
  assert.match(reader,/verse\.number===index\+1/);
  assert.match(reader,/KJV \{index\+1\}/);
  assert.match(reader,/hebrewData\.sourceUrl/);
 });
 
-test("Hebrew study explicitly does not invent lexical data",()=>{
- assert.match(reader,/Dictionary meanings, transliteration and pronunciation are shown when available/);
+test("Hebrew study uses plain, contextual guidance without technical disclaimers",()=>{
+ assert.match(reader,/Some Hebrew words are brief, but they carry the heart of the line/);
+ assert.doesNotMatch(reader,/not necessarily the spoken form or contextual meaning/);
 });
 
 test("Hebrew study guards against showing a previous chapter during navigation",()=>{
@@ -38,8 +40,9 @@ test("Hebrew study guards against showing a previous chapter during navigation",
 
 test("Hebrew word study supports lexical search within the chapter",()=>{
  assert.match(reader,/hebrewWordQuery/);
- assert.match(reader,/Find a Hebrew word, English meaning, or Strong's number/);
- assert.match(reader,/word\.strong,word\.transliteration,word\.gloss,word\.pronunciation/);
+ assert.match(reader,/Find a Hebrew word or its meaning/);
+ assert.match(reader,/word\.hebrew,word\.transliteration,word\.gloss,word\.pronunciation/);
+ assert.doesNotMatch(reader,/Strong's number/);
  assert.match(reader,/visibleHebrewWordCount/);
  assert.match(reader,/words\.filter\(matchingHebrewWord\)/);
  assert.match(reader,/visibleHebrewVerses\.length===0/);

@@ -163,3 +163,11 @@ body:has(.torah-temple) .global-home-escape{display:none}
 
 .torah-temple .torah-bible-scroll.torah-bible-chapter-text{max-height:min(72vh,780px)!important;overflow-x:hidden!important;overflow-y:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable}
 .torah-temple .torah-bible-scroll.torah-bible-chapter-text:focus-visible{outline:3px solid #d19a28;outline-offset:3px}
+
+/* Keep word cards focused on Hebrew, pronunciation, and meaning. */
+.torah-temple .torah-hebrew-word-cards{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin:12px 0 18px}
+.torah-temple .torah-hebrew-word-card{display:flex;flex:1 1 150px;flex-direction:column;gap:5px;min-width:120px;max-width:260px;padding:11px 12px;border:1px solid #d4bf98;border-radius:8px;background:#fffaf0;text-align:right}
+.torah-temple .torah-hebrew-word-card-hebrew{font-size:1.35rem;line-height:1.4;color:#2d4436}
+.torah-temple .torah-hebrew-word-card small{color:#756044;text-align:left}
+.torah-temple .torah-hebrew-word-card-meaning{font-size:.9rem;line-height:1.5;color:#3f433c;text-align:left}
+@media(max-width:520px){.torah-temple .torah-hebrew-word-cards{gap:7px}.torah-temple .torah-hebrew-word-card{flex-basis:calc(50% - 7px);min-width:0;padding:10px}.torah-temple .torah-hebrew-word-card-meaning{font-size:.84rem}}
