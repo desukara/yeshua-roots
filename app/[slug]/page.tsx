@@ -6,7 +6,7 @@ torah:{title:"Torah Study",description:"Study Torah and the Scriptures in their 
 
 news:{title:"News — In Development",description:"Yeshua Roots news resources are being developed. No live news reporting is currently available."},
 community:{title:"Community — In Development",description:"Yeshua Roots fellowship and congregation resources are planned and not yet live."},
-about:{title:"About Yeshua Roots",description:"Learn about Yeshua Roots and our faith that all who belong to Yeshua, Israel’s Jewish Messiah, are Abraham’s seed, Jews inwardly by the Spirit, and members of Israel’s one covenant household."},
+about:{title:"About James Simmons & Yeshua Roots",description:"Meet James Simmons, an American in Tokyo who created Yeshua Roots for verse-by-verse Hebrew word study and Messianic commentary."},
 contact:{title:"Contact — In Development",description:"Yeshua Roots contact services are still being prepared; an active contact inbox is not yet available."}
 };
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{
