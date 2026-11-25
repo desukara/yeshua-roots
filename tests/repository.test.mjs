@@ -81,7 +81,7 @@ test('mission framing stays consistent across metadata, About and editorial poli
   const readme = read('README.md');
   assert.match(metadata, /welcoming place to study the Bible/);
   assert.match(translations, /Yeshua is the Hebrew name of Jesus/);
-  assert.match(translations, /לימוד כתבי הקודש/);
+  assert.match(translations, /ג׳יימס סימונס/);
   assert.match(readme, /alive, present, aware, and active now/);
   assert.match(readme, /Israel's Scriptures/);
 });
