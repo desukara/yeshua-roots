@@ -137,3 +137,25 @@ body:has(.torah-temple) .global-home-escape{display:none}
  .torah-temple .torah-bible-controls select{padding:10px 12px;font-size:16px}
  .torah-temple .torah-bible-hebrew-toggle p{font-size:13px}
 }
+
+
+/* Give the reference and chapter search controls a layout suited to their content. */
+.torah-temple .torah-bible-reference{grid-template-columns:minmax(0,1.35fr) auto minmax(0,1fr);align-items:end}
+.torah-temple .torah-bible-reference input,.torah-temple .torah-bible-search input,.torah-temple .torah-bible-word-search input{box-sizing:border-box;width:100%;min-width:0;min-height:44px}
+.torah-temple .torah-bible-reference p{margin:0;line-height:1.55}
+.torah-temple .torah-bible-reference p[role="alert"]{grid-column:1/-1}
+.torah-temple .torah-bible-reference button{min-height:44px;padding:10px 18px;border:1px solid #876226;border-radius:5px;background:#f3e2bb;color:#372313;font-weight:700;cursor:pointer}
+.torah-temple .torah-bible-reference button:hover{background:#ead29d}
+.torah-temple .torah-bible-search,.torah-temple .torah-bible-word-search{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:center}
+.torah-temple .torah-bible-search label,.torah-temple .torah-bible-word-search label{grid-column:1}
+.torah-temple .torah-bible-search #chapter-search-help,.torah-temple .torah-bible-word-search #hebrew-search-help{grid-column:2;margin:0;line-height:1.55}
+.torah-temple .torah-bible-search p[role="status"]:empty,.torah-temple .torah-bible-word-search p[role="status"]:empty{display:none}
+.torah-temple .torah-bible-search p[role="status"],.torah-temple .torah-bible-word-search p[role="status"]{grid-column:1/-1;margin:0}
+.torah-temple .torah-bible-search label,.torah-temple .torah-bible-word-search label{min-width:0}
+@media(max-width:520px){
+ .torah-temple .torah-bible-reference{grid-template-columns:minmax(0,1fr)}
+ .torah-temple .torah-bible-reference p{grid-column:1}
+ .torah-temple .torah-bible-reference button{width:100%}
+ .torah-temple .torah-bible-search,.torah-temple .torah-bible-word-search{grid-template-columns:minmax(0,1fr)}
+ .torah-temple .torah-bible-search label,.torah-temple .torah-bible-word-search label,.torah-temple .torah-bible-search #chapter-search-help,.torah-temple .torah-bible-word-search #hebrew-search-help,.torah-temple .torah-bible-search p[role="status"],.torah-temple .torah-bible-word-search p[role="status"]{grid-column:1}
+}
