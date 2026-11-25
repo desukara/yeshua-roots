@@ -177,7 +177,7 @@ test('official ministry motto is consistent in both languages', () => {
  const copy=read('lib/translations.ts');
  const home=read('app/page.tsx');
  assert.match(copy, /Explore the Bible\. Understand Its Roots\./);
- assert.match(copy, /לומדים את הכתובים בהקשרם/);
+ assert.match(copy, /ללמוד את הכתובים בעצמם/);
  assert.match(home, /c\.mottoLines\[1\]/);
 });
 
