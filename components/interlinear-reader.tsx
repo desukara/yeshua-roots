@@ -3,6 +3,7 @@ import {useEffect,useState} from "react";
 import {interlinearVerses} from "../lib/interlinear";
 import {genesisStudy,type StudyPassage} from "../lib/genesis-messianic-study";
 import genesisTwoVerseStudy from "../data/torah/genesis2-verse-study.json";
+import genesisThreeVerseStudy from "../data/torah/genesis3-verse-study.json";
 import {useLanguage} from "./language-provider";
 const books=[{id:"Genesis",he:"בראשית",chapters:50},{id:"Exodus",he:"שמות",chapters:40},{id:"Leviticus",he:"ויקרא",chapters:27},{id:"Numbers",he:"במדבר",chapters:36},{id:"Deuteronomy",he:"דברים",chapters:34}];
 type CorpusWord={index:number;hebrew:string;lemma:string;morph:string;strong:string|null;transliteration:string|null;gloss:string|null;pronunciation:string|null;note:string|null};
@@ -171,128 +172,8 @@ const plainGenesisOne:Record<number,PlainVerseStudy>={
  }
 };
 const plainGenesisTwo:Record<number,PlainVerseStudy>=genesisTwoVerseStudy as Record<number,PlainVerseStudy>;
-const plainGenesisThree:Record<number,PlainVerseStudy>={
- "1": {
-  "scene": "The serpent questions the woman about what God said they could eat.",
-  "breakdown": "The serpent is introduced as crafty, and his first move is a question: did God really forbid eating from every tree? That's not what God said in chapter 2. God gave them plenty to eat, with one tree off-limits. The question makes God's command sound much harsher than it was.",
-  "takeaway": "The temptation begins by twisting what God actually said."
- },
- "2": {
-  "scene": "The woman answers that they may eat fruit from the garden's trees.",
-  "breakdown": "She corrects the serpent's sweeping claim. The trees aren't all forbidden. There is food available throughout the garden, and the woman knows that. The conversation is about to narrow down to the one tree God restricted.",
-  "takeaway": "God's permission was broad, not a ban on everything."
- },
- "3": {
-  "scene": "The woman says they must not eat from or touch the tree in the middle of the garden, or they will die.",
-  "breakdown": "Now she describes the restriction. In chapter 2, God's recorded command was not to eat from the tree of the knowledge of good and evil; it didn't mention touching it. Genesis doesn't explain why she adds that detail, so we shouldn't pretend we know. What matters is that she understands there is a serious boundary.",
-  "takeaway": "The woman knows the tree is forbidden, though her wording adds a detail."
- },
- "4": {
-  "scene": "The serpent tells the woman, 'You will not surely die.'",
-  "breakdown": "This is no longer a question. The serpent directly contradicts God's warning from Genesis 2:17. The story puts two claims in front of the woman: what God said about eating from the tree, and what the serpent now says.",
-  "takeaway": "The serpent openly challenges God's warning."
- },
- "5": {
-  "scene": "The serpent claims eating the fruit will open their eyes and make them like God, knowing good and evil.",
-  "breakdown": "He offers an attractive reason to ignore the command. Instead of talking about the danger God named, he talks about gaining something desirable. The next verses show their eyes opening, but not in the simple, wonderful way his promise suggests.",
-  "takeaway": "The serpent makes disobedience sound like a way to gain wisdom."
- },
- "6": {
-  "scene": "The woman sees that the tree looks good for food, pleasing to the eyes, and desirable for wisdom; she eats and gives some to her husband, who eats too.",
-  "breakdown": "The verse slows down to show the choice. She considers the fruit, takes it, and eats. Then she gives some to the man, who is described as being with her, and he eats. Both people take part in crossing the boundary God gave.",
-  "takeaway": "Both the woman and the man eat from the forbidden tree."
- },
- "7": {
-  "scene": "Their eyes are opened, they realize they are naked, and they sew fig leaves together.",
-  "breakdown": "The serpent promised opened eyes, and that part happens. But the first thing the couple does is cover themselves. At the end of chapter 2 they were naked without shame; now they feel exposed. The story wants us to notice that change.",
-  "takeaway": "Their new awareness brings shame, not the freedom they expected."
- },
- "8": {
-  "scene": "The man and woman hear the LORD God in the garden and hide among the trees.",
-  "breakdown": "Before this, the garden was their home. Now they hide from God there. The verse describes God moving in the garden and the couple trying to stay out of sight. The problem isn't that God suddenly arrived in an unfamiliar place; it's that they no longer want to face Him.",
-  "takeaway": "After disobeying, the couple hides from God."
- },
- "9": {
-  "scene": "God calls to the man, 'Where are you?'",
-  "breakdown": "The question opens a conversation, not a search party we need to explain with guesses about what God knows. The man has hidden, and now he is being called to answer. Watch how the questions that follow bring the choice into the open.",
-  "takeaway": "God calls the hiding man to respond."
- },
- "10": {
-  "scene": "The man says he was afraid because he was naked, so he hid.",
-  "breakdown": "For the first time, the man talks about fear. He connects his hiding to being naked, but he hasn't yet admitted eating the fruit. The shame and fear that appeared after their choice are now shaping how he responds to God.",
-  "takeaway": "Fear has replaced the couple's earlier ease in the garden."
- },
- "11": {
-  "scene": "God asks who told the man he was naked and whether he ate from the forbidden tree.",
-  "breakdown": "God's questions go straight to the issue. The man has talked about being naked, but the command was about eating from a particular tree. The conversation now confronts the action behind his fear.",
-  "takeaway": "The question brings the broken command into focus."
- },
- "12": {
-  "scene": "The man says the woman God gave him offered the fruit, and he ate.",
-  "breakdown": "Notice how he answers. He admits eating, but first points to the woman—and even mentions that God gave her to him. The verse doesn't erase his responsibility; he still says, 'I ate.' It shows how quickly blame enters the conversation.",
-  "takeaway": "The man admits what he did while shifting blame."
- },
- "13": {
-  "scene": "God asks the woman what she has done, and she says the serpent deceived her, so she ate.",
-  "breakdown": "The woman also acknowledges eating, but she points to the serpent's deception. That fits what we've just read: the serpent questioned and contradicted God's command. Still, the woman made a choice to eat. Both deception and responsibility are part of the scene.",
-  "takeaway": "The woman says she was deceived, and she admits eating."
- },
- "14": {
-  "scene": "God tells the serpent it is cursed and will go on its belly and eat dust.",
-  "breakdown": "God addresses the serpent first. The language describes humiliation: crawling and eating dust. The verse doesn't explain the serpent's earlier anatomy, so we shouldn't invent a story about how it used to move. The point here is judgment and disgrace.",
-  "takeaway": "The serpent receives a curse."
- },
- "15": {
-  "scene": "God speaks of hostility between the serpent and the woman, and between their offspring; her offspring will strike its head while it strikes his heel.",
-  "breakdown": "The verse describes an ongoing conflict and a blow to the serpent's head alongside a wound to the offspring's heel. Christians often see a connection here to Yeshua's victory over evil, but Genesis itself doesn't name Yeshua in this line. We can recognize that later reading without pretending the verse spells it all out.",
-  "takeaway": "The serpent's conflict with humanity will continue; later believers also see a larger hope here."
- },
- "16": {
-  "scene": "God tells the woman that pain in pregnancy and childbirth will increase, and describes tension in her relationship with her husband.",
-  "breakdown": "The consequences now reach into family life. Childbearing will involve pain, and the relationship between husband and wife will be marked by a struggle over desire and rule. This is a description within God's judgment, not a command telling husbands to mistreat their wives.",
-  "takeaway": "The consequences touch childbirth and the marriage relationship."
- },
- "17": {
-  "scene": "God tells Adam that because he ate from the forbidden tree, the ground is cursed and getting food will be painful work.",
-  "breakdown": "Adam was placed in the garden to work it before he disobeyed. So work itself isn't introduced as a punishment here. What changes is the hardship: the ground is cursed, and eating from it will now involve toil. God names Adam's disobedience directly.",
-  "takeaway": "The ground will no longer yield food without painful struggle."
- },
- "18": {
-  "scene": "God says the ground will produce thorns and thistles, and Adam will eat the plants of the field.",
-  "breakdown": "The trouble with the soil gets more specific. Adam will still eat from the land, but now weeds and thorns will make growing food difficult. The same ground he was meant to tend will resist him.",
-  "takeaway": "Food will come from land that is harder to cultivate."
- },
- "19": {
-  "scene": "God says Adam will eat by the sweat of his face until he returns to the ground, because he was taken from dust.",
-  "breakdown": "This verse brings the warning of death into sharp focus. Adam will labor for food throughout his life, but that life will end. Genesis 2 said he was formed from dust; now he is told he will return to dust. The words connect his beginning and his mortality.",
-  "takeaway": "Human life ends in a return to the dust."
- },
- "20": {
-  "scene": "The man names his wife Eve because she is the mother of all living.",
-  "breakdown": "After the judgments, Adam gives his wife a name linked in Hebrew to life. The verse explains the name by calling her the mother of all living. The story is still looking ahead to human life continuing beyond the garden.",
-  "takeaway": "Eve's name is connected with life and future generations."
- },
- "21": {
-  "scene": "The LORD God makes garments of skin for Adam and his wife and clothes them.",
-  "breakdown": "Earlier, the couple tried to cover themselves with fig leaves. Now God provides clothing for them. The verse says the garments are made of skin, but it doesn't describe an animal sacrifice or tell us how the skins were obtained. We should stick with what the text actually says.",
-  "takeaway": "God clothes the couple after their shame and judgment."
- },
- "22": {
-  "scene": "God says the man has become like 'one of us' in knowing good and evil, and speaks of keeping him from the tree of life.",
-  "breakdown": "This is a difficult line, and Genesis doesn't explain every part of the phrase 'one of us.' The immediate concern is clear, though: the man must not take from the tree of life and live forever in his present condition. The next verse tells us what God does about that.",
-  "takeaway": "Access to the tree of life is now at stake."
- },
- "23": {
-  "scene": "God sends the man out of the garden of Eden to work the ground from which he was taken.",
-  "breakdown": "The man was placed in the garden to tend it; now he is sent out. He will still work the soil, but outside the place God prepared for him. This is a major turning point: disobedience has changed where the couple can live.",
-  "takeaway": "Adam leaves the garden and returns to working the ground outside it."
- },
- "24": {
-  "scene": "God drives the man out and stations cherubim and a flaming, turning sword to guard the way to the tree of life.",
-  "breakdown": "The chapter ends with a closed entrance. The cherubim and flaming sword guard the way back to the tree of life. Whatever questions we have about the imagery, the main point is plain: the couple cannot simply walk back in and take the fruit. The garden is no longer open to them.",
-  "takeaway": "The way back to the tree of life is guarded."
- }
-};
+const plainGenesisThree:Record<number,PlainVerseStudy>=genesisThreeVerseStudy as Record<number,PlainVerseStudy>;
+
 const plainGenesisFour:Record<number,PlainVerseStudy>={
  "1": {
   "scene": "Adam and Eve have a son named Cain, and Eve gives credit to the LORD.",
@@ -6617,7 +6498,7 @@ export default function InterlinearReader(){
  <label>{he?"פרק":"Chapter"} <select value={chapter} onChange={e=>chooseChapter(Number(e.target.value))}>{Array.from({length:books.find(b=>b.id===book)?.chapters||50},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label>
  <label>{he?"פסוק":"Verse"} <select value={verse} onChange={e=>chooseVerse(Number(e.target.value))}>{Array.from({length:count},(_,i)=><option value={i+1} key={i}>{i+1}</option>)}</select></label></div></div>
  {study&&chapter===2&&<section className="messianic-chapter-overview" lang="en" dir="ltr" aria-labelledby="messianic-chapter-heading"><span className="messianic-eyebrow">GENESIS 2 · THE CHAPTER’S CONNECTION</span><h3 id="messianic-chapter-heading">{study.title}</h3><p>{study.overview}</p></section>}
- {study&&chapter===1&&<section className="messianic-chapter-overview" lang="en" dir="ltr" aria-labelledby="messianic-chapter-heading"><span className="messianic-eyebrow">GENESIS 1 · THE CHAPTER’S CONNECTION</span><h3 id="messianic-chapter-heading">{study.title}</h3><p>{study.overview}</p><StudyPassages passages={overviewPassages} loading={overviewPassagesLoading} error={overviewPassagesError}/></section>}
+ {study&&(chapter===1||chapter===3)&&<section className="messianic-chapter-overview" lang="en" dir="ltr" aria-labelledby="messianic-chapter-heading"><span className="messianic-eyebrow">GENESIS {chapter} · THE CHAPTER’S CONNECTION</span><h3 id="messianic-chapter-heading">{study.title}</h3><p>{study.overview}</p><StudyPassages passages={overviewPassages} loading={overviewPassagesLoading} error={overviewPassagesError}/></section>}
  <p className="interlinear-intro">{he?"כאן אפשר לקרוא בעברית את חמשת חומשי משה. התורה היא חמשת חומשי משה, ושאר כתבי הקודש כוללים גם את הנביאים, הכתובים והברית החדשה. לימוד מילים זמין בכל חמשת חומשי התורה.":"Read the first five books of the Bible in Hebrew. Tap a Hebrew word and we'll show you how to say it, what it means, and a little more about it. If you're reading Genesis 1–5, you'll also find notes that help you see how the passage connects to Yeshua."}</p>
  <div className="interlinear-options" style={{display:"flex",flexWrap:"wrap",gap:"0.75rem",alignItems:"center"}}><label><input type="checkbox" checked={showTransliteration} onChange={e=>setShowTransliteration(e.target.checked)}/> {he?"הצגת תעתיק":"Show transliteration"}</label></div>
  <div className="interlinear-options" style={{display:"flex",flexWrap:"wrap",gap:"0.6rem",alignItems:"center",marginBottom:"1rem"}}>
@@ -6630,13 +6511,13 @@ export default function InterlinearReader(){
  {error&&<p role="alert">{error} {curated?(he?"מוצג הטקסט השמור.":"Showing locally curated text where available."):""}</p>}
  <div className="torah-verse-panel interlinear-scripture-first" aria-label="Complete Scripture verse"><span className="kicker">{book} {chapter}:{verse} · ORIGINAL HEBREW · WLC / OSHB</span>{hebrew?<p className="torah-hebrew-verse" dir="rtl" lang="he">{hebrew}</p>:loading?<p role="status">Loading Hebrew Scripture…</p>:<p role="status">Hebrew Scripture is unavailable for this verse.</p>}<span className="kicker">KING JAMES VERSION · ENGLISH</span>{englishVerse?<p lang="en" dir="ltr">{englishVerse}</p>:englishLoading?<p role="status">Loading KJV Scripture…</p>:englishError?<p role="alert">KJV Scripture is temporarily unavailable. The explanation below is not a Bible translation.</p>:<p role="status">KJV verse unavailable for this reference.</p>}</div>
  <section className="torah-breakdown" lang="en" dir="ltr" aria-label="Plain English verse explanation"><span className="kicker">LET’S TALK ABOUT THIS VERSE</span><h3>Understand this verse</h3>{breakdown&&<p>{breakdown.scene}</p>}<details key={`${book}-${chapter}-${verse}`}><summary>Break It Down for Me</summary>{breakdown?<><p>{breakdown.breakdown}</p><h4>What’s the main point?</h4><p>{breakdown.takeaway}</p></>:<p>A reviewed plain-English explanation for {book} {chapter}:{verse} is not available yet. You can still explore the original Hebrew words below.</p>}<p className="torah-breakdown-note">This is a study explanation, not a Bible translation.</p></details></section>
- {study&&chapter===1&&messianicNote&&<section className="messianic-verse-study" lang="en" dir="ltr" aria-labelledby="messianic-verse-heading"><div className="messianic-verse-heading"><span className="messianic-eyebrow">GENESIS 1:{verse} · READ WITH YESHUA IN VIEW</span><h3 id="messianic-verse-heading">How this verse connects to Yeshua</h3></div><p className="messianic-verse-connection">{messianicNote.connection}</p><StudyPassages passages={versePassages} loading={versePassagesLoading} error={versePassagesError}/></section>}
+ {study&&(chapter===1||chapter===3)&&messianicNote&&<section className="messianic-verse-study" lang="en" dir="ltr" aria-labelledby="messianic-verse-heading"><div className="messianic-verse-heading"><span className="messianic-eyebrow">GENESIS {chapter}:{verse} · READ WITH YESHUA IN VIEW</span><h3 id="messianic-verse-heading">How this verse connects to Yeshua</h3></div><p className="messianic-verse-connection">{messianicNote.connection}</p><StudyPassages passages={versePassages} loading={versePassagesLoading} error={versePassagesError}/></section>}
   {curated?<><div className="interlinear-word-grid" dir="rtl" lang="he">{curated.words.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={i} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}</button>)}</div>
  
  <InterlinearDetail hebrew={word?.hebrew} transliteration={word?.transliteration} meaning={word?.english} explanation={word?.note} emptyText="Choose a Hebrew word to see its meaning and how it reads here."/></>:hebrew&&corpusWords.length?<><div className="interlinear-word-grid" dir="rtl" lang="he">{corpusWords.map((w,i)=><button className={"interlinear-word"+(selected===i?" selected":"")} type="button" aria-pressed={selected===i} key={w.index} onClick={()=>setSelected(i)}><span className="iw-hebrew">{w.hebrew}</span>{showTransliteration&&w.transliteration&&<span className="iw-roman" lang="en" dir="ltr">{w.transliteration}</span>}<span className="iw-english" lang="en" dir="ltr">{shortGloss(w.gloss,w.strong)}</span></button>)}</div><InterlinearDetail hebrew={corpusWord?.hebrew} transliteration={corpusWord?.transliteration} meaning={corpusWord?.gloss} explanation={corpusWord?.note} emptyText="A small word can carry a lot of meaning. Choose one, and we’ll show you what it says here."/></>:!loading&&!error?<p>{he?"אין טקסט זמין לפסוק זה.":"No text available for this verse."}</p>:null}
  
  {study&&chapter===2&&messianicNote&&<section className="messianic-verse-study" lang="en" dir="ltr" aria-labelledby="messianic-verse-heading"><div className="messianic-verse-heading"><span className="messianic-eyebrow">GENESIS 2:{verse} · READ WITH YESHUA IN VIEW</span><h3 id="messianic-verse-heading">How this verse connects to Yeshua</h3></div><p className="messianic-verse-context"><strong>What is happening here</strong><br/>{messianicNote.context}</p><p className="messianic-verse-connection">{messianicNote.connection}</p><p className="messianic-verse-references"><strong>Read these verses here</strong> · {messianicNote.references}</p><StudyPassages passages={versePassages} loading={versePassagesLoading} error={versePassagesError}/></section>}
- {study&&chapter>2&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
+ {study&&chapter>3&&<article className="torah-verse-panel" style={{marginTop:"1.5rem"}} lang="en" dir="ltr"><span className="kicker">MESSIANIC TORAH STUDY · GENESIS {chapter}</span><h3>{study.title}</h3><p>{study.overview}</p>{messianicNote?<><p><strong>Original Scripture context</strong></p><p>{messianicNote.context}</p><p><strong>Connection to Yeshua · {messianicNote.kind}</strong></p><p>{messianicNote.connection}</p><p><strong>Explore these Scriptures:</strong> {messianicNote.references}</p></>:<p><strong>Verse {verse}:</strong> Explore this verse within the chapter study above.</p>}</article>}
  <div className="torah-verse-panel" style={{marginTop:"1rem"}}><label htmlFor="interlinear-private-note"><strong>My private study note · {reference}</strong></label><textarea id="interlinear-private-note" aria-label="Private study note" value={notes[reference]||""} onChange={e=>saveNote(e.target.value)} placeholder="Write your observations here. Saved on this device only." rows={3} style={{display:"block",width:"100%",marginTop:"0.5rem",padding:"0.75rem",font:"inherit"}}/><small>Notes and bookmarks stay in this browser. Clearing browser data removes them.</small></div>
  <div className="torah-reader-pagination"><button type="button" disabled={loading||!chapterData||!count||(book==="Genesis"&&chapter===1&&verse===1)} onClick={previousVerse}>{he?"הפסוק הקודם":"Previous verse"}</button><strong>{he?books.find(b=>b.id===book)?.he:book} {chapter}:{verse}</strong><button type="button" disabled={loading||!chapterData||!count||(book==="Deuteronomy"&&chapter===34&&verse>=count)} onClick={nextVerse}>{he?"הפסוק הבא":"Next verse"}</button></div>
  </section>
