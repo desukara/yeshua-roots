@@ -56,8 +56,8 @@ test("interlinear preserves reviewed Genesis 1:1–8 and uses corpus for all oth
  assert.ok(reader.includes('"H3068":"the LORD (God’s name)"'));
  assert.ok(reader.includes('"H853":"marks the next word as the object"'));
  assert.ok(reader.includes('shortGloss(w.gloss,w.strong)'));
- assert.ok(reader.includes('What this word says here:'));
- assert.ok(reader.includes('corpusWord.gloss?.trim()'));
+ assert.ok(reader.includes('corpusWord.note||corpusWord.gloss?.trim()'));
+ assert.ok(!reader.includes('What this word says here:'));
  assert.ok(!reader.includes('Want the word details? Tap here.'));
  assert.ok(!reader.includes('Strong’s number:'));
  assert.ok(!reader.includes('Dictionary glosses are possible meanings'));
