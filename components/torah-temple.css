@@ -159,3 +159,8 @@ body:has(.torah-temple) .global-home-escape{display:none}
  .torah-temple .torah-bible-search,.torah-temple .torah-bible-word-search{grid-template-columns:minmax(0,1fr)}
  .torah-temple .torah-bible-search label,.torah-temple .torah-bible-word-search label,.torah-temple .torah-bible-search #chapter-search-help,.torah-temple .torah-bible-word-search #hebrew-search-help,.torah-temple .torah-bible-search p[role="status"],.torah-temple .torah-bible-word-search p[role="status"]{grid-column:1}
 }
+
+
+@media(max-width:520px){
+ .torah-temple .torah-bible-scroll.torah-bible-chapter-text{max-height:65vh!important;overflow-x:hidden!important;overflow-y:auto!important;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-gutter:stable}
+}
